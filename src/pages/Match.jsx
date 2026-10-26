@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { Badge, Form, ProbaPitch, Confidence, ScoreGrid } from "../components/ui.jsx";
+import Stadium3D from "../components/Stadium3D.jsx";
 import { predict } from "../model/predict.js";
 import { buildLevers, defaultActive } from "../model/levers.js";
 import { confidence, impliedFromOdds } from "../model/poisson.js";
@@ -37,19 +38,30 @@ export default function Match({ id, data, picks, setPick }) {
 
   return (
     <article className="match">
-      <header className="match-head">
-        <p className="kicker">{formatDate(m.date)} · {m.md}e journée</p>
-        <div className="match-teams">
-          <div><Badge team={H} size={52} /><h1>{H.name}</h1><Form form={H.form} /></div>
-          <span>contre</span>
-          <div><Badge team={A} size={52} /><h1>{A.name}</h1><Form form={A.form} /></div>
+      <div className="match-stage">
+        <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(60vh, 460px)"
+          fallback={<div style={{ padding: "16px" }}><ProbaPitch p={cur.p} home={H} away={A} size="lg" /></div>} />
+        <header className="match-head">
+          <p className="kicker">{formatDate(m.date)} · {m.md}e journée</p>
+          <div className="match-teams">
+            <div><Badge team={H} size={40} /><h1>{H.name}</h1></div>
+            <span>contre</span>
+            <div><h1>{A.name}</h1><Badge team={A} size={40} /></div>
+          </div>
+        </header>
+        <span className="s3d-hint">Fais glisser pour tourner autour du terrain</span>
+      </div>
+
+      <div className="match-bar">
+        <div className="forms">
+          <span>{H.short} <Form form={H.form} /></span>
+          <span>{A.short} <Form form={A.form} /></span>
         </div>
-        <a className="link-btn" href={`#/match/${id}/story`}>Revoir le match en stories</a>
-      </header>
+        <a className="link-btn" href={`#/match/${id}/story`}>Vivre l'avant-match</a>
+      </div>
 
       <section className="block">
-        <h2>Le pronostic</h2>
-        <ProbaPitch p={cur.p} home={H} away={A} size="lg" />
+        <h2>Le pronostic de l'IA</h2>
         <div className="row-meta">
           <Confidence c={confidence(cur.p)} />
           <span>{confidence(cur.p).text}</span>
@@ -83,6 +95,7 @@ export default function Match({ id, data, picks, setPick }) {
             </fieldset>
           ))}
         </div>
+        <ProbaPitch p={cur.p} home={H} away={A} size="md" />
         <p className="explain" aria-live="polite">
           {lastWhy || "Touche un levier : l'explication de son effet s'affiche ici."}
         </p>

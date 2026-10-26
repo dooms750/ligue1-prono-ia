@@ -11,12 +11,19 @@ les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la d
 
 | Écran | Rôle |
 | --- | --- |
-| **Journée** | Les 9 matchs à venir. Le prono de l'IA reste caché tant que tu n'as pas fait le tien. |
-| **Stories** | Le match raconté en 6 écrans : affiche, forme, attaque contre défense, contexte, ton prono, verdict de l'IA. |
-| **Fiche match** | Les probabilités sur un terrain, les **leviers** (absences, Europe, météo, enjeu) à activer pour voir leur poids, la grille des scores, la comparaison avec les cotes. |
+| **Journée** | L'affiche de la journée dans un stade 3D de nuit, puis les 9 matchs avec le pronostic de l'IA. |
+| **Stories** | L'avant-match en 7 écrans, avec une caméra qui se déplace dans le stade : affiche, forme, attaque contre défense, contexte, verdict de l'IA, raisons, ton avis. |
+| **Fiche match** | Le stade 3D (à faire tourner au doigt) où chaque issue est une colonne de lumière et où le ballon roule vers le favori, les **leviers** (absences, Europe, météo, enjeu) qui font monter ou descendre les colonnes, la grille des scores, la comparaison avec les cotes. |
 | **Débrief** | Prono contre réalité pour chaque match, avec ce qui a fait basculer la rencontre (carton rouge, renversement, but tardif). |
 | **Bilan** | Le bilan public de l'IA : taux de réussite, score de Brier contre le marché, calibration. Chaque prono est calculé avec les seuls matchs joués avant. |
 | **Académie** | 5 notions manipulables : ce que veut dire 60 %, la loi de Poisson, la marge des bookmakers, la régression vers la moyenne, le jeu responsable. |
+
+## La scène 3D
+
+`src/components/Stadium3D.jsx` construit le stade avec [Three.js](https://threejs.org) : pelouse et lignes dessinées
+dans une texture, tribunes avec les supporters aux couleurs des deux clubs, projecteurs, colonnes de probabilités
+animées et ballon. La scène se met en pause hors de l'écran, respecte le réglage « réduire les animations »
+et bascule sur la barre de probabilités en 2D si l'appareil ne gère pas WebGL.
 
 ## Démarrer
 
