@@ -46,6 +46,9 @@ export default function Stories({ id, data, picks, setPick }) {
     m.ctx.weather !== "beau" && WEATHER[m.ctx.weather],
   ].filter(Boolean);
   const maxG = Math.max(sh.gpg, sh.gapg, sa.gpg, sa.gapg, 2);
+  const pressItems = m.ctx.press
+    ? [["H", H], ["A", A]].flatMap(([k, t]) => (m.ctx.press[k]?.absences || []).map((n) => ({ ...n, team: t.name }))).slice(0, 4)
+    : [];
   const names = [H.name, "Nul", A.name];
 
   const slides = [
@@ -93,9 +96,25 @@ export default function Stories({ id, data, picks, setPick }) {
     </div>,
 
     <div className="st-slide" key="3">
-      <h2 className="st-title">Le contexte</h2>
+      <h2 className="st-title">{m.ctx.press ? "Ce que dit la presse" : "Le contexte"}</h2>
       <div className="st-push" />
-      {ctxItems.length ? (
+      {m.ctx.press ? (
+        pressItems.length ? (
+          <ul className="st-list st-press">
+            {pressItems.map((n) => (
+              <li key={n.url} onClick={(e) => e.stopPropagation()}>
+                <a href={n.url} target="_blank" rel="noopener noreferrer">{n.title}</a>
+                <span>{n.team} · {n.publisher}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <div className="st-glass">
+            <p className="st-big">Pas d'absence signalée dans la presse cette semaine.</p>
+            <p>Les compos officielles tombent environ une heure avant le match : vérifie-les, puis ajuste les leviers sur la fiche.</p>
+          </div>
+        )
+      ) : ctxItems.length ? (
         <ul className="st-list">{ctxItems.map((c) => <li key={c}>{c}</li>)}</ul>
       ) : (
         <div className="st-glass">

@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { Badge, Form, ProbaPitch, Confidence, ScoreGrid } from "../components/ui.jsx";
+import { Badge, Form, ProbaPitch, Confidence, ScoreGrid, PressList } from "../components/ui.jsx";
 import Stadium3D from "../components/Stadium3D.jsx";
 import { predict } from "../model/predict.js";
 import { buildLevers, defaultActive } from "../model/levers.js";
@@ -75,10 +75,35 @@ export default function Match({ id, data, picks, setPick }) {
         <ul className="why">{why.map((w) => <li key={w}>{w}</li>)}</ul>
       </section>
 
+      {m.ctx.press && (
+        <section className="block">
+          <h2>Dans la presse</h2>
+          <p className="muted">
+            Les articles des derniers jours repérés par l'IA dans la presse spécialisée, via OneFootball.
+            Quand un titre annonce le meilleur buteur absent, le levier correspondant s'allume tout seul.
+          </p>
+          {[["H", H], ["A", A]].map(([k, t]) => {
+            const pr = m.ctx.press[k] || {};
+            return (
+              <div className="press-team" key={k}>
+                <h3>
+                  <Badge team={t} size={24} />{t.name}
+                  {pr.scorerOut && <span className="press-flag">Buteur annoncé absent</span>}
+                </h3>
+                {pr.scorer && <p className="muted small">Meilleur buteur : {pr.scorer.name}, {pr.scorer.goals} but{pr.scorer.goals > 1 ? "s" : ""} cette saison.</p>}
+                <PressList items={(pr.absences || []).concat(pr.other || []).slice(0, 4)} empty="Aucun article récent." />
+              </div>
+            );
+          })}
+        </section>
+      )}
+
       <section className="block">
         <h2>Les leviers</h2>
         <p className="muted">
-          {m.ctx.known === false
+          {m.ctx.press
+            ? "Les facteurs allumés viennent de la presse. Vérifie la compo et la météo avant le match, puis ajuste : les colonnes du stade bougent en direct."
+            : m.ctx.known === false
             ? "Les absences et la météo ne sont pas dans les données : vérifie la compo avant le match et allume les facteurs qui s'appliquent. Les colonnes du stade bougent en direct."
             : "Active ou coupe un facteur pour voir son poids réel. Ceux déjà allumés sont les informations que l'IA a prises en compte."}
         </p>

@@ -57,7 +57,9 @@ export default function Debrief({ md, data, picks }) {
                 <span className="tag">{d.right ? "Vu juste" : "Raté"}</span>
                 {d.verdict}
               </p>
+              {d.scorers.length > 0 && <p className="db-scorers">Buteurs : {d.scorers.join(", ")}</p>}
               {d.lines.map((l) => <p key={l} className="db-line">{l}</p>)}
+              {m.src && <a className="db-src" href={m.src} target="_blank" rel="noopener noreferrer">Fiche du match sur OneFootball</a>}
               {p != null && (
                 <p className="db-mine">Toi : {RES[p]}, {p === d.outcome ? "bien joué." : "raté cette fois."}</p>
               )}

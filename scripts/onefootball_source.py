@@ -1,0 +1,189 @@
+"""
+Transforme le cache OneFootball (data/raw/onefootball_<saison>.json) en matchs
+joués, matchs à venir et contexte de presse, au format attendu par build_data.py.
+"""
+
+import csv
+import json
+import re
+import unicodedata
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+# Noms OneFootball -> codes de l'app.
+OF_NAMES = {
+    "PSG": "PSG", "Olympique Lyonnais": "OL", "Toulouse FC": "TOU", "ESTAC Troyes": "TRO",
+    "Stade Rennais": "REN", "RC Strasbourg": "STR", "Olympique de Marseille": "OM",
+    "Le Havre AC": "HAV", "AJ Auxerre": "AUX", "Le Mans FC": "LMA", "Angers SCO": "ANG",
+    "FC Lorient": "LOR", "AS Monaco": "MON", "LOSC": "LIL", "RC Lens": "LEN",
+    "Paris FC": "PFC", "Stade Brestois": "BRE", "OGC Nice": "NIC",
+}
+
+# Mots de la presse qui signalent une absence ou un doute.
+ABSENCE = re.compile(
+    r"bless|forfait|absen|suspendu|suspension|incertain|infirmerie|indisponible|touch[ée]|"
+    r"manquera|priv[ée] de|out\b|ménag|rechute|claquage|entorse|lésion|opér",
+    re.I,
+)
+# Mots qui annoncent au contraire un retour.
+RETURN = re.compile(r"retour|de retour|revient|apte|rétabli|reprend", re.I)
+
+SHOTS_ON_TARGET = "Tirs cadrés"
+SOT_TO_GOALS = 0.31  # en Ligue 1, environ 0,3 but par tir cadré
+
+
+def fold(s):
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
+    return s.lower()
+
+
+def kickoff(m):
+    return datetime.fromisoformat(m["kickoff"].replace("Z", "+00:00"))
+
+
+def paris(dt):
+    """Heure de Paris (UTC+1 l'hiver, UTC+2 l'été, changement le dernier dimanche de mars et d'octobre)."""
+    def last_sunday(y, month):
+        d = datetime(y, month + 1, 1, tzinfo=timezone.utc) - timedelta(days=1) if month < 12 else datetime(y, 12, 31, tzinfo=timezone.utc)
+        return d - timedelta(days=(d.weekday() + 1) % 7)
+    y = dt.year
+    summer_start = last_sunday(y, 3).replace(hour=1)
+    summer_end = last_sunday(y, 10).replace(hour=1)
+    return dt + timedelta(hours=2 if summer_start <= dt < summer_end else 1)
+
+
+def fix_goal_sides(m):
+    """Vérifie l'équipe créditée de chaque but (les csc peuvent être notés côté fautif)."""
+    goals = [g for g in m["goals"] if g["kind"] != "refuse"]
+    def count(gs):
+        return sum(g["side"] == "home" for g in gs), sum(g["side"] == "away" for g in gs)
+    if count(goals) == (m["hg"], m["ag"]):
+        return goals
+    flipped = [{**g, "side": "away" if g["side"] == "home" else "home"} if g["kind"] == "csc" else g for g in goals]
+    return flipped if count(flipped) == (m["hg"], m["ag"]) else goals
+
+
+def load_odds(raw):
+    """Cotes du marché (complément football-data.co.uk), par affiche domicile-extérieur."""
+    from build_data import CSV_NAMES  # import tardif : évite une boucle
+    odds = {}
+    for f in sorted(raw.glob("F1_*.csv"))[-1:] + [raw / "fixtures_F1.csv"]:
+        if not f.exists():
+            continue
+        for row in csv.DictReader(open(f, encoding="utf-8-sig")):
+            h, a = CSV_NAMES.get(row.get("HomeTeam")), CSV_NAMES.get(row.get("AwayTeam"))
+            try:
+                o = [float(row["AvgH"]), float(row["AvgD"]), float(row["AvgA"])]
+            except (KeyError, TypeError, ValueError):
+                continue
+            if h and a:
+                odds[(h, a)] = o
+    return odds
+
+
+def top_scorers(played):
+    """Meilleur buteur de chaque club sur la saison (hors csc)."""
+    tally = {}
+    for m in played:
+        for g in m.get("scorers", []):
+            if g["kind"] == "csc" or not g.get("player"):
+                continue
+            team = m["home"] if g["side"] == "home" else m["away"]
+            tally.setdefault(team, {}).setdefault(g["player"], 0)
+            tally[team][g["player"]] += 1
+    return {t: max(p.items(), key=lambda x: x[1]) for t, p in tally.items()}
+
+
+def press_context(team, news, scorer, now):
+    """Articles récents qui parlent d'absences, et si le meilleur buteur semble concerné."""
+    recent = [n for n in news if now - datetime.fromisoformat(n["time"].replace("Z", "+00:00")) < timedelta(days=6)]
+    flagged, scorer_out = [], None
+    last_name = fold(scorer[0].split()[-1]) if scorer else None
+    for n in recent:
+        t = n["title"]
+        if not ABSENCE.search(t):
+            continue
+        item = {"title": t, "publisher": n["publisher"], "url": n["url"], "time": n["time"]}
+        if last_name and len(last_name) > 2 and re.search(rf"\b{re.escape(last_name)}\b", fold(t)) and not RETURN.search(t):
+            item["about"] = "buteur"
+            scorer_out = scorer_out or item
+        flagged.append(item)
+    # Un retour annoncé après l'absence annule le signal.
+    if scorer_out and last_name:
+        for n in recent:
+            if n["time"] > scorer_out["time"] and RETURN.search(n["title"]) and re.search(rf"\b{re.escape(last_name)}\b", fold(n["title"])):
+                scorer_out = None
+                break
+    seen = {f["url"] for f in flagged}
+    general = [{"title": n["title"], "publisher": n["publisher"], "url": n["url"], "time": n["time"]}
+               for n in recent if n["url"] not in seen][:3]
+    return flagged[:4], scorer_out, general
+
+
+def build_onefootball(path, raw):
+    cache = json.loads(Path(path).read_text(encoding="utf-8"))
+    all_m = [m for m in cache["matches"].values()
+             if OF_NAMES.get(m["home"]) and OF_NAMES.get(m["away"]) and m.get("kickoff")]
+    all_m.sort(key=lambda m: m["id"])
+    # Les identifiants OneFootball suivent l'ordre des journées : 9 matchs par journée.
+    for rank, m in enumerate(all_m):
+        m["md"] = rank // 9 + 1
+
+    odds = load_odds(raw)
+    now = datetime.now(timezone.utc)
+    played, pending = [], []
+    for m in all_m:
+        h, a = OF_NAMES[m["home"]], OF_NAMES[m["away"]]
+        ko = paris(kickoff(m))
+        base = {"md": m["md"], "date": ko.strftime("%Y-%m-%d"), "time": ko.strftime("%H:%M"),
+                "home": h, "away": a, "odds": odds.get((h, a)), "src": f"https://onefootball.com/fr/match/{m['id']}"}
+        done = m.get("hg") is not None and "fin" in (m.get("status") or "").lower()
+        if not done:
+            pending.append({**base, "_m": m})
+            continue
+        goals = fix_goal_sides(m)
+        sot = m.get("stats", {}).get(SHOTS_ON_TARGET)
+        reds = m.get("reds", [])
+        red_h = next((r["min"] or 1 for r in reds if r["side"] == "home"), None)
+        red_a = next((r["min"] or 1 for r in reds if r["side"] == "away"), None)
+        played.append({
+            **base, "hg": m["hg"], "ag": m["ag"],
+            "htH": sum(1 for g in goals if g["side"] == "home" and (g["min"] or 99) <= 45),
+            "htA": sum(1 for g in goals if g["side"] == "away" and (g["min"] or 99) <= 45),
+            "sotH": sot[0] if sot else None, "sotA": sot[1] if sot else None,
+            # Les tirs cadrés servent d'indicateur de la qualité des occasions.
+            "xgH": round(sot[0] * SOT_TO_GOALS, 2) if sot else None,
+            "xgA": round(sot[1] * SOT_TO_GOALS, 2) if sot else None,
+            "redH": red_h, "redA": red_a,
+            "goals": [["H" if g["side"] == "home" else "A", g["min"] or 0] for g in goals],
+            "scorers": [{"side": g["side"], "player": g["player"], "kind": g["kind"], "min": g["min"]} for g in goals],
+        })
+
+    # À venir : les matchs non joués des deux prochaines semaines (ou de la prochaine journée).
+    pending.sort(key=lambda x: (x["date"], x["time"]))
+    if pending:
+        first_md = min(p["md"] for p in pending)
+        horizon = (now + timedelta(days=9)).strftime("%Y-%m-%d")
+        pending = [p for p in pending if p["md"] <= first_md + 1 and (p["md"] == first_md or p["date"] <= horizon)]
+
+    scorers = top_scorers(played)
+    news = {OF_NAMES.get(k): v for k, v in cache.get("news", {}).items() if OF_NAMES.get(k)}
+    upcoming = []
+    for p in pending:
+        p.pop("_m")
+        ctx = {"known": True, "absH": [], "absA": [], "europeH": False, "europeA": False,
+               "weather": "inconnu", "press": {}}
+        for side, team in (("H", p["home"]), ("A", p["away"])):
+            flagged, scorer_out, general = press_context(team, news.get(team, []), scorers.get(team), now)
+            sc = scorers.get(team)
+            ctx["press"][side] = {
+                "absences": flagged, "other": general,
+                "scorer": {"name": sc[0], "goals": sc[1]} if sc else None,
+                "scorerOut": scorer_out,
+            }
+            if scorer_out:
+                ctx[f"abs{side}"].append("buteur")
+        if not news:
+            ctx["known"] = False
+        upcoming.append({**p, "ctx": ctx})
+    return played, upcoming, cache.get("fetchedAt")

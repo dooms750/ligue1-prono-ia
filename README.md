@@ -4,8 +4,9 @@ Lucide est une application web qui décrypte chaque match de Ligue 1 **avant** e
 L'objectif n'est pas de donner des « tuyaux », mais de faire comprendre un pronostic : d'où viennent
 les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la durée.
 
-> L'app utilise les **vrais matchs de Ligue 1** (résultats, xG, cotes et matchs de la semaine,
-> source [football-data.co.uk](https://www.football-data.co.uk/francem.php)), mis à jour automatiquement deux fois par jour.
+> L'app utilise les **vrais matchs de Ligue 1**, collectés sur [OneFootball](https://onefootball.com/fr/competition/ligue-1-23)
+> (résultats, buteurs, cartons, tirs, compos, matchs à venir) et dans la **presse spécialisée française** agrégée par
+> OneFootball (blessures, suspensions, retours). Mise à jour automatique deux fois par jour.
 
 ## Ce que fait l'app
 
@@ -58,24 +59,33 @@ Ce sont des ordres de grandeur à affiner avec des données réelles.
 
 ## Les données
 
-| Fichier | Contenu |
-| --- | --- |
-| `data/raw/F1_<saison>.csv` | Résultats de la saison : score, mi-temps, xG, cartons rouges, cotes moyennes |
-| `data/raw/F1_<saison précédente>.csv` | Saison précédente, pour que l'IA ne parte pas de zéro en début de saison |
-| `data/raw/fixtures_F1.csv` | Matchs de la semaine avec leurs cotes (heures converties à l'heure de Paris) |
-| `public/data/season.json` | Ce que lit l'app : forces des équipes, pronos, classement, bilan |
+| Fichier | Contenu | Source |
+| --- | --- | --- |
+| `data/raw/onefootball_<saison>.json` | Chaque match : date, score, buteurs avec la minute, penaltys, csc, cartons rouges, tirs, tirs cadrés, possession, titulaires. Les matchs des deux prochaines semaines. Les derniers articles de chaque club (titre, média, heure, lien). | OneFootball et presse spécialisée |
+| `data/raw/F1_<saison>.csv`, `fixtures_F1.csv` | Cotes moyennes du marché, pour comparer l'IA aux bookmakers | football-data.co.uk |
+| `data/raw/F1_<saison précédente>.csv` | Saison précédente, pour que l'IA ne parte pas de zéro | football-data.co.uk |
+| `public/data/season.json` | Ce que lit l'app : forces des équipes, pronos, classement, bilan, contexte presse | calculé |
+
+**La presse dans le modèle.** `scripts/onefootball_source.py` lit les titres récents de chaque club et repère ceux qui
+parlent d'absence (blessé, forfait, suspendu, incertain…). Si un titre cite le meilleur buteur du club (calculé à partir
+des buteurs de la saison) sans annonce de retour plus récente, le levier « sans son meilleur buteur » s'allume, avec le
+titre et le média affichés pour que chacun puisse vérifier. L'app ne reprend que les titres, avec un lien vers l'article.
+
+**Les tirs cadrés à la place des xG.** OneFootball ne publie pas d'xG : l'IA apprend des buts et des tirs cadrés
+(environ 0,3 but par tir cadré en Ligue 1), un indicateur de la qualité des occasions plus stable que le score seul.
 
 Mettre à jour à la main :
 
 ```bash
-npm run data:fetch   # télécharge les fichiers dans data/raw/
+npm run data:fetch   # collecte OneFootball (matchs, presse) puis les cotes, dans data/raw/
 npm run data:real    # recalcule les pronostics
 ```
 
 Le workflow GitHub fait la même chose tout seul deux fois par jour (6 h 17 et 17 h 17 UTC), enregistre les
 nouvelles données dans le dépôt puis republie le site. Si le téléchargement échoue, il garde les derniers fichiers.
 
-Ce que la source ne fournit pas : les absences et la météo. Dans l'app, ces facteurs sont à activer avec les leviers.
+La collecte est volontairement lente (une page toutes les 0,8 seconde) et ne recharge que les matchs non terminés.
+Ce que les sources ne fournissent pas : la météo et la fatigue des matchs européens, à régler avec les leviers.
 La saison simulée reste disponible avec `npm run data:demo`.
 
 ## Publier sur GitHub Pages

@@ -299,6 +299,21 @@ def paris_time(t):
 
 
 def build_real():
+    """Source principale : OneFootball. Repli : football-data.co.uk si le cache OneFootball manque."""
+    of_files = sorted(RAW.glob("onefootball_*.json"))
+    if of_files:
+        from onefootball_source import build_onefootball
+        played, upcoming, fetched = build_onefootball(of_files[-1], RAW)
+        build_real.fetched = fetched
+        history = []
+        seasons = sorted(RAW.glob("F1_*.csv"))
+        # Saison précédente (archive football-data.co.uk) pour démarrer le modèle.
+        prev = [f for f in seasons if f.stem != "F1_" + of_files[-1].stem.split("_")[1]]
+        if prev:
+            for m in read_results(prev[-1], known_only=False):
+                history.append({**m, "md": m["md"] - 38, "w0": PREV_WEIGHT})
+        code = of_files[-1].stem.split("_")[1]
+        return played, upcoming, "onefootball", history, f"20{code[:2]}-{code[2:]}"
     seasons = sorted(RAW.glob("F1_*.csv"))
     if not seasons:
         raise SystemExit("Aucun fichier data/raw/F1_*.csv : lance d'abord python scripts/fetch_data.py")
@@ -363,9 +378,10 @@ def main():
     ap.add_argument("--real", action="store_true")
     args = ap.parse_args()
 
-    history, season = [], "2026-27"
+    history, season, fetched_at = [], "2026-27", None
     if args.real:
         played, upcoming, mode, history, season = build_real()
+        fetched_at = getattr(build_real, "fetched", None)
     else:
         played, upcoming, mode = build_demo()
 
@@ -395,9 +411,10 @@ def main():
                     "att": r(params["att"][c]), "def": r(params["def"][c]), **tab[c]}
 
     data = {
-        "meta": {"mode": mode, "season": season, "source": "football-data.co.uk" if mode == "reel" else None,
+        "meta": {"mode": mode, "season": season, "source": {"reel": "football-data.co.uk", "onefootball": "OneFootball et la presse spécialisée"}.get(mode),
                  "lastResult": max((m["date"] for m in played), default=None), "lastMatchday": last_md,
-                 "nextMatchday": last_md + 1,
+                 "nextMatchday": max(set(u["md"] for u in upcoming), key=[u["md"] for u in upcoming].count) if upcoming else last_md + 1,
+                 "fetchedAt": fetched_at,
                  "generatedAt": datetime.now(timezone.utc).isoformat(timespec="minutes")},
         "model": {"mu": r(params["mu"]), "home": r(params["home"])},
         "teams": teams,

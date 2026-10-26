@@ -98,13 +98,14 @@ export function debrief(m, teams) {
     lines.push(`Une victoire large, avec ${Math.abs(m.hg - m.ag)} buts d'écart : ${o === 0 ? H.name : A.name} a dominé de bout en bout.`);
   if (m.xgH != null && m.xgA != null) {
     const xo = Math.abs(m.xgH - m.xgA) < 0.35 ? 1 : m.xgH > m.xgA ? 0 : 2;
-    const xgTxt = `${fr1(m.xgH)} contre ${fr1(m.xgA)}`;
+    const sot = m.sotH != null;
+    const xgTxt = sot ? `${m.sotH} tirs cadrés contre ${m.sotA}` : `${fr1(m.xgH)} contre ${fr1(m.xgA)}`;
     if (xo !== o && xo !== 1)
-      lines.push(`Les xG racontent une autre histoire (${xgTxt}) : ${xo === 0 ? H.name : A.name} s'est créé les meilleures occasions, mais ${o === 1 ? "n'a pas su gagner" : "a perdu"}. Le score n'a pas suivi le jeu.`);
+      lines.push(`${sot ? "Les tirs cadrés" : "Les xG"} racontent une autre histoire (${xgTxt}) : ${xo === 0 ? H.name : A.name} s'est créé les meilleures occasions, mais ${o === 1 ? "n'a pas su gagner" : "a perdu"}. Le score n'a pas suivi le jeu.`);
     else if (xo !== 1 && xo === o)
-      lines.push(`Victoire méritée aux xG (${xgTxt}) : les occasions et le score vont dans le même sens.`);
+      lines.push(`Victoire méritée ${sot ? "au vu des occasions" : "aux xG"} (${xgTxt}) : les occasions et le score vont dans le même sens.`);
     else if (xo === 1 && o !== 1)
-      lines.push(`Aux xG, le match était équilibré (${xgTxt}) : l'efficacité devant le but a fait la différence.`);
+      lines.push(`${sot ? "Côté occasions" : "Aux xG"}, le match était équilibré (${xgTxt}) : l'efficacité devant le but a fait la différence.`);
   }
   if (!lines.length) {
     lines.push(
@@ -113,5 +114,7 @@ export function debrief(m, teams) {
         : `${o === 0 ? H.name : A.name} a fait la différence sans fait de jeu marquant dans les données.`,
     );
   }
-  return { right, pActual, pick, outcome: o, verdict, lines, surprise: 1 - pActual };
+  const scorers = (m.scorers || []).filter((g) => g.player).map((g) =>
+    `${g.player.split(" ").slice(-1)[0]} ${g.min}'${g.kind === "penalty" ? " (pen.)" : g.kind === "csc" ? " (csc)" : ""}`);
+  return { right, pActual, pick, outcome: o, verdict, lines, surprise: 1 - pActual, scorers };
 }

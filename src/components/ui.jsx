@@ -97,8 +97,11 @@ export function DemoBanner({ meta }) {
       : null;
     return (
       <p className="demo demo-real">
-        Vrais matchs de Ligue 1 {meta.season}. Résultats, xG et cotes : {meta.source}
-        {d ? `, dernier résultat intégré le ${d}` : ""}. Les scores arrivent en général deux à trois jours après les matchs.
+        {meta.mode === "onefootball"
+          ? <>Vrais matchs de Ligue 1 {meta.season}. Résultats, buteurs, compos et actus : OneFootball et la presse
+            spécialisée française{d ? `, dernier résultat le ${d}` : ""}. Cotes du marché : football-data.co.uk.</>
+          : <>Vrais matchs de Ligue 1 {meta.season}. Résultats, xG et cotes : {meta.source}
+            {d ? `, dernier résultat intégré le ${d}` : ""}. Les scores arrivent en général deux à trois jours après les matchs.</>}
       </p>
     );
   }
@@ -108,6 +111,26 @@ export function DemoBanner({ meta }) {
       résultats, absences et cotes sont simulés.
     </p>
   );
+}
+
+// Les articles de presse d'un club, avec le média et un lien vers l'article.
+export function PressList({ items, empty }) {
+  if (!items || !items.length) return <p className="muted small">{empty}</p>;
+  return (
+    <ul className="press">
+      {items.map((n) => (
+        <li key={n.url}>
+          <a href={n.url} target="_blank" rel="noopener noreferrer">{n.title}</a>
+          <span>{n.publisher} · {ago(n.time)}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function ago(iso) {
+  const h = Math.max(1, Math.round((Date.now() - new Date(iso).getTime()) / 3.6e6));
+  return h < 24 ? `il y a ${h} h` : `il y a ${Math.round(h / 24)} j`;
 }
 
 // Un match de la liste « à venir » dont la date est passée : joué, en attente du résultat.

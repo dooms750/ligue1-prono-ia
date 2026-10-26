@@ -8,13 +8,16 @@ export function buildLevers(match, teams) {
   const c = match.ctx || {};
   const rankH = teams[match.home].rank;
   const rankA = teams[match.away].rank;
+  const pr = c.press || {};
+  const who = (side) => (pr[side]?.scorer ? `${pr[side].scorer.name} (${pr[side].scorer.goals} but${pr[side].scorer.goals > 1 ? "s" : ""})` : "son meilleur buteur");
+  const said = (side) => (pr[side]?.scorerOut ? ` La presse l'annonce absent : « ${pr[side].scorerOut.title} » (${pr[side].scorerOut.publisher}).` : "");
 
   const levers = [
     {
-      id: "butH", group: H, label: `${H} sans son meilleur buteur`,
+      id: "butH", group: H, label: `${H} sans ${who("H")}`,
       on: (c.absH || []).includes("buteur"),
       apply: (x) => ({ ...x, lh: x.lh * 0.86 }),
-      why: `Sans son meilleur buteur, ${H} convertit moins ses occasions : environ 14 % de buts attendus en moins.`,
+      why: `Sans son meilleur buteur, ${H} convertit moins ses occasions : environ 14 % de buts attendus en moins.${said("H")}`,
     },
     {
       id: "gardH", group: H, label: `${H} sans son gardien titulaire`,
@@ -35,10 +38,10 @@ export function buildLevers(match, teams) {
       why: `La fatigue et la rotation après un match européen coûtent un peu d'intensité à ${H}.`,
     },
     {
-      id: "butA", group: A, label: `${A} sans son meilleur buteur`,
+      id: "butA", group: A, label: `${A} sans ${who("A")}`,
       on: (c.absA || []).includes("buteur"),
       apply: (x) => ({ ...x, la: x.la * 0.86 }),
-      why: `Sans son meilleur buteur, ${A} perd une bonne partie de sa menace à l'extérieur.`,
+      why: `Sans son meilleur buteur, ${A} perd une bonne partie de sa menace à l'extérieur.${said("A")}`,
     },
     {
       id: "gardA", group: A, label: `${A} sans son gardien titulaire`,

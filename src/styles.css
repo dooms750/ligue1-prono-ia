@@ -387,3 +387,17 @@ p { margin: 0; }
 .st-nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 16px calc(12px + env(safe-area-inset-bottom)); max-width: 560px; width: 100%; margin: 0 auto; font-size: 14px; }
 .st-nav button { background: rgba(14, 29, 44, 0.8); border: 1px solid var(--ligne); color: var(--craie); padding: 9px 16px; border-radius: 999px; font-weight: 600; }
 .st-nav button:disabled { opacity: 0.35; cursor: default; }
+
+/* ---------- presse ---------- */
+.press { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.press li { display: grid; gap: 2px; padding: 10px 12px; border-radius: var(--r-s); background: rgba(6, 15, 25, 0.45); }
+.press a { font-weight: 600; text-decoration: none; line-height: 1.35; }
+.press a:hover { text-decoration: underline; }
+.press span { font-size: 13px; color: var(--gris); }
+.press-team { display: grid; gap: 8px; }
+.press-team h3 { font-size: 17px; display: flex; align-items: center; gap: 8px; }
+.press-flag { font-size: 12.5px; font-weight: 700; padding: 1px 8px; border-radius: 999px; background: var(--ko); color: #fff; }
+.db-scorers { font-size: 14.5px; }
+.db-src { font-size: 13.5px; color: var(--gris); }
+.st-press li a { color: var(--craie); text-decoration: none; font-weight: 600; }
+.st-press li span { display: block; font-size: 13px; color: var(--gris); margin-top: 2px; }
