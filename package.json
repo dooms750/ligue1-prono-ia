@@ -1,0 +1,22 @@
+{
+  "name": "ligue1-prono-ia",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Comprendre chaque match de Ligue 1 avant de pronostiquer : une IA qui explique ses probabilités.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test src/model/*.test.js",
+    "data:demo": "python3 scripts/build_data.py --demo"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

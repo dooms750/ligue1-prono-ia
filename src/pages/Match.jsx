@@ -1,0 +1,160 @@
+import React, { useMemo, useState } from "react";
+import { Badge, Form, ProbaPitch, Confidence, ScoreGrid } from "../components/ui.jsx";
+import { predict } from "../model/predict.js";
+import { buildLevers, defaultActive } from "../model/levers.js";
+import { confidence, impliedFromOdds } from "../model/poisson.js";
+import { reasons, pct } from "../model/narrative.js";
+import { matchId, formatDate } from "../lib/store.js";
+
+const LABELS = ["Domicile", "Nul", "Extérieur"];
+
+export default function Match({ id, data, picks, setPick }) {
+  const { teams, upcoming } = data;
+  const m = upcoming.find((x) => matchId(x) === id);
+  const levers = useMemo(() => (m ? buildLevers(m, teams) : []), [m, teams]);
+  const initial = useMemo(() => defaultActive(levers), [levers]);
+  const [active, setActive] = useState(initial);
+  const [lastWhy, setLastWhy] = useState(null);
+
+  if (!m) return <p className="empty">Ce match n'est pas dans la journée à venir. <a href="#/">Revenir à la journée</a></p>;
+
+  const H = teams[m.home], A = teams[m.away];
+  const base = predict(m, teams, {});
+  const cur = predict(m, teams, active);
+  const ia = predict(m, teams, initial);
+  const market = impliedFromOdds(m.odds);
+  const mine = picks[id];
+  const why = reasons(m, teams, active);
+  const changed = JSON.stringify(active) !== JSON.stringify(initial);
+
+  const toggle = (l) => {
+    const on = !active[l.id];
+    setActive({ ...active, [l.id]: on });
+    setLastWhy(on ? l.why : `« ${l.label} » n'est plus pris en compte.`);
+  };
+
+  const groups = [...new Set(levers.map((l) => l.group))];
+
+  return (
+    <article className="match">
+      <header className="match-head">
+        <p className="kicker">{formatDate(m.date)} · {m.md}e journée</p>
+        <div className="match-teams">
+          <div><Badge team={H} size={52} /><h1>{H.name}</h1><Form form={H.form} /></div>
+          <span>contre</span>
+          <div><Badge team={A} size={52} /><h1>{A.name}</h1><Form form={A.form} /></div>
+        </div>
+        <a className="link-btn" href={`#/match/${id}/story`}>Revoir le match en stories</a>
+      </header>
+
+      <section className="block">
+        <h2>Le pronostic</h2>
+        <ProbaPitch p={cur.p} home={H} away={A} size="lg" />
+        <div className="row-meta">
+          <Confidence c={confidence(cur.p)} />
+          <span>{confidence(cur.p).text}</span>
+        </div>
+        {changed && (
+          <p className="delta">
+            Avec tes réglages : {LABELS.map((l, k) => `${l.toLowerCase()} ${signed(cur.p[k] - ia.p[k])}`).join(", ")} par rapport à l'IA.
+            <button className="text-btn" onClick={() => { setActive(initial); setLastWhy(null); }}>Revenir aux réglages de l'IA</button>
+          </p>
+        )}
+        <ul className="why">{why.map((w) => <li key={w}>{w}</li>)}</ul>
+      </section>
+
+      <section className="block">
+        <h2>Les leviers</h2>
+        <p className="muted">
+          Active ou coupe un facteur pour voir son poids réel. Ceux déjà allumés sont les informations
+          que l'IA a prises en compte.
+        </p>
+        <div className="levers">
+          {groups.map((g) => (
+            <fieldset key={g}>
+              <legend>{g}</legend>
+              {levers.filter((l) => l.group === g).map((l) => (
+                <label key={l.id} className={`lever ${active[l.id] ? "on" : ""}`}>
+                  <input type="checkbox" checked={!!active[l.id]} onChange={() => toggle(l)} />
+                  <span className="switch" aria-hidden="true" />
+                  {l.label}
+                </label>
+              ))}
+            </fieldset>
+          ))}
+        </div>
+        <p className="explain" aria-live="polite">
+          {lastWhy || "Touche un levier : l'explication de son effet s'affiche ici."}
+        </p>
+        <p className="muted small">
+          Sans aucun facteur de contexte, l'IA donnerait {pct(base.p[0])} / {pct(base.p[1])} / {pct(base.p[2])}.
+        </p>
+      </section>
+
+      <section className="block">
+        <h2>Buts et scores</h2>
+        <div className="stats">
+          <div><b>{pct(cur.over25)}</b><span>Plus de 2,5 buts</span></div>
+          <div><b>{pct(cur.btts)}</b><span>Les deux équipes marquent</span></div>
+          <div><b>{cur.topScores[0].h}-{cur.topScores[0].a}</b><span>Score le plus probable ({pct(cur.topScores[0].p)})</span></div>
+        </div>
+        <ScoreGrid grid={cur.grid} home={H} away={A} />
+        <p className="muted small">
+          Même le score le plus probable n'arrive qu'environ une fois sur dix : le football reste un sport à peu de buts,
+          où le hasard pèse lourd.
+        </p>
+      </section>
+
+      {market && (
+        <section className="block">
+          <h2>L'IA face au marché</h2>
+          <p className="muted">
+            Les cotes, une fois la marge du bookmaker retirée ({pct(market.margin)}), donnent aussi des probabilités.
+            Comparer les deux montre où l'IA voit le match autrement.
+          </p>
+          <table className="vs-market">
+            <thead><tr><th /><th>IA</th><th>Marché</th><th>Écart</th></tr></thead>
+            <tbody>
+              {LABELS.map((l, k) => {
+                const gap = ia.p[k] - market.p[k];
+                return (
+                  <tr key={l}>
+                    <th>{k === 0 ? H.name : k === 2 ? A.name : "Nul"}</th>
+                    <td>{pct(ia.p[k])}</td>
+                    <td>{pct(market.p[k])}</td>
+                    <td className={Math.abs(gap) >= 0.05 ? "gap" : ""}>{signed(gap)}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          <p className="muted small">
+            Un écart ne veut pas dire que l'IA a raison : le marché agrège énormément d'informations.
+            Le bilan de la saison montre qui se trompe le moins.
+          </p>
+        </section>
+      )}
+
+      <section className="block">
+        <h2>Ton prono</h2>
+        <div className="pick-row" role="radiogroup" aria-label="Ton pronostic">
+          {[H.name, "Nul", A.name].map((l, k) => (
+            <button key={k} role="radio" aria-checked={mine === k}
+              className={`pick ${mine === k ? "on" : ""}`} onClick={() => setPick(id, k)}>{l}</button>
+          ))}
+        </div>
+        {mine != null && (
+          <p className="muted">
+            {mine === ia.pick ? "Même avis que l'IA." : `Tu pars contre l'IA, qui donne ${pct(ia.p[mine])} à ce résultat.`}{" "}
+            Verdict au débrief, après le match.
+          </p>
+        )}
+      </section>
+    </article>
+  );
+}
+
+function signed(x) {
+  const v = Math.round(x * 100);
+  return `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v)} pt${Math.abs(v) > 1 ? "s" : ""}`;
+}
