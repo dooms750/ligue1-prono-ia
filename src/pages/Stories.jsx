@@ -4,7 +4,7 @@ import Stadium3D from "../components/Stadium3D.jsx";
 import { predict } from "../model/predict.js";
 import { confidence } from "../model/poisson.js";
 import { reasons, formSentence, teamStats, fr1, pct, ord } from "../model/narrative.js";
-import { matchId, formatDate, go } from "../lib/store.js";
+import { matchId, formatKick, go } from "../lib/store.js";
 
 const ABS = { buteur: "son meilleur buteur", gardien: "son gardien titulaire", defenseur: "un défenseur central" };
 const WEATHER = { pluie: "Pluie forte annoncée au coup d'envoi.", vent: "Vent fort annoncé sur le stade.", beau: "Météo sans influence attendue." };
@@ -50,7 +50,7 @@ export default function Stories({ id, data, picks, setPick }) {
 
   const slides = [
     <div className="st-slide st-affiche" key="0">
-      <p className="st-kicker">{formatDate(m.date)} · {m.md}e journée</p>
+      <p className="st-kicker">{formatKick(m)} · {m.md}e journée</p>
       <div className="st-push" />
       <div className="st-glass">
         <div className="st-versus">
@@ -98,7 +98,16 @@ export default function Stories({ id, data, picks, setPick }) {
       {ctxItems.length ? (
         <ul className="st-list">{ctxItems.map((c) => <li key={c}>{c}</li>)}</ul>
       ) : (
-        <div className="st-glass"><p className="st-big">Aucune absence majeure, pas de match européen, météo sans influence.</p></div>
+        <div className="st-glass">
+          {m.ctx.known === false ? (
+            <>
+              <p className="st-big">Absences, fatigue, météo : c'est à toi de les vérifier.</p>
+              <p>Ces infos ne sont pas encore dans les données. Regarde la compo et la météo avant le match, puis active les leviers sur la fiche : l'IA recalcule tout de suite.</p>
+            </>
+          ) : (
+            <p className="st-big">Aucune absence majeure, pas de match européen, météo sans influence.</p>
+          )}
+        </div>
       )}
       <p className="st-note">Chaque élément déplace un peu les probabilités. Sur la fiche du match, tu peux les activer un par un.</p>
     </div>,

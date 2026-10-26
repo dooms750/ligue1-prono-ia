@@ -9,7 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "node --test src/model/*.test.js",
-    "data:demo": "python3 scripts/build_data.py --demo"
+    "data:demo": "python3 scripts/build_data.py --demo",
+    "data:fetch": "python3 scripts/fetch_data.py",
+    "data:real": "python3 scripts/build_data.py --real"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -4,8 +4,8 @@ Lucide est une application web qui décrypte chaque match de Ligue 1 **avant** e
 L'objectif n'est pas de donner des « tuyaux », mais de faire comprendre un pronostic : d'où viennent
 les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la durée.
 
-> Version actuelle : prototype avec une saison **simulée** (les 18 clubs de la Ligue 1 2026-27, mais des
-> résultats, absences et cotes fictifs). Voir plus bas pour brancher de vraies données.
+> L'app utilise les **vrais matchs de Ligue 1** (résultats, xG, cotes et matchs de la semaine,
+> source [football-data.co.uk](https://www.football-data.co.uk/francem.php)), mis à jour automatiquement deux fois par jour.
 
 ## Ce que fait l'app
 
@@ -56,20 +56,27 @@ Fichier `scripts/build_data.py` :
 Les leviers de contexte (`src/model/levers.js`) ajustent ensuite les buts attendus avec des effets simples et lisibles.
 Ce sont des ordres de grandeur à affiner avec des données réelles.
 
-## Brancher de vraies données
+## Les données
 
-Le script accepte les fichiers CSV de [football-data.co.uk](https://www.football-data.co.uk/francem.php) (Ligue 1 = `F1.csv`) :
+| Fichier | Contenu |
+| --- | --- |
+| `data/raw/F1_<saison>.csv` | Résultats de la saison : score, mi-temps, xG, cartons rouges, cotes moyennes |
+| `data/raw/F1_<saison précédente>.csv` | Saison précédente, pour que l'IA ne parte pas de zéro en début de saison |
+| `data/raw/fixtures_F1.csv` | Matchs de la semaine avec leurs cotes (heures converties à l'heure de Paris) |
+| `public/data/season.json` | Ce que lit l'app : forces des équipes, pronos, classement, bilan |
+
+Mettre à jour à la main :
 
 ```bash
-python3 scripts/build_data.py --csv F1.csv --fixtures prochaine_journee.csv
+npm run data:fetch   # télécharge les fichiers dans data/raw/
+npm run data:real    # recalcule les pronostics
 ```
 
-`prochaine_journee.csv` contient les colonnes `Date,HomeTeam,AwayTeam` (date au format `AAAA-MM-JJ`).
-Vérifie les conditions d'utilisation de chaque source de données avant une mise en ligne publique.
+Le workflow GitHub fait la même chose tout seul deux fois par jour (6 h 17 et 17 h 17 UTC), enregistre les
+nouvelles données dans le dépôt puis republie le site. Si le téléchargement échoue, il garde les derniers fichiers.
 
-Pistes pour la suite : absences réelles via une API football, xG par match, saison précédente pour démarrer
-la nouvelle saison, résumés rédigés par un modèle de langage à partir des mêmes faits, mise à jour automatique
-avec une GitHub Action programmée.
+Ce que la source ne fournit pas : les absences et la météo. Dans l'app, ces facteurs sont à activer avec les leviers.
+La saison simulée reste disponible avec `npm run data:demo`.
 
 ## Publier sur GitHub Pages
 

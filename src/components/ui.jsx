@@ -91,11 +91,27 @@ export function ScoreGrid({ grid, home, away }) {
 }
 
 export function DemoBanner({ meta }) {
-  if (meta.mode !== "demo") return null;
+  if (meta.mode !== "demo") {
+    const d = meta.lastResult
+      ? new Date(meta.lastResult + "T12:00:00").toLocaleDateString("fr-FR", { day: "numeric", month: "long" })
+      : null;
+    return (
+      <p className="demo demo-real">
+        Vrais matchs de Ligue 1 {meta.season}. Résultats, xG et cotes : {meta.source}
+        {d ? `, dernier résultat intégré le ${d}` : ""}. Les scores arrivent en général deux à trois jours après les matchs.
+      </p>
+    );
+  }
   return (
     <p className="demo">
       Version de démonstration : les clubs sont ceux de la Ligue 1 2026-27, mais les
       résultats, absences et cotes sont simulés.
     </p>
   );
+}
+
+// Un match de la liste « à venir » dont la date est passée : joué, en attente du résultat.
+export function isPast(m) {
+  const kick = new Date(`${m.date}T${m.time || "21:00"}:00`);
+  return Date.now() > kick.getTime() + 2 * 3600 * 1000;
 }

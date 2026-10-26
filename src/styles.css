@@ -70,6 +70,7 @@ p { margin: 0; }
 .tabbar a.on { color: var(--nuit); background: var(--projecteur); }
 .loading, .empty { padding: 48px 0; text-align: center; color: var(--gris); }
 .demo { font-size: 14px; color: var(--projecteur); background: rgba(255, 224, 138, 0.08); border: 1px solid rgba(255, 224, 138, 0.25); padding: 8px 12px; border-radius: var(--r-s); margin-bottom: 16px; }
+.demo-real { color: #bfe9cf; background: rgba(60, 207, 127, 0.08); border-color: rgba(60, 207, 127, 0.3); }
 .muted { color: var(--gris); }
 .small { font-size: 14px; }
 .error { color: var(--ko); font-size: 15px; }

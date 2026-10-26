@@ -44,6 +44,10 @@ export const go = (path) => {
   window.location.hash = path;
 };
 
+export function formatKick(m) {
+  return m.time ? `${formatDate(m.date)}, ${m.time.replace(":", " h ")}` : formatDate(m.date);
+}
+
 export function formatDate(iso) {
   return new Date(iso + "T12:00:00").toLocaleDateString("fr-FR", {
     weekday: "long", day: "numeric", month: "long",

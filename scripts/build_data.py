@@ -6,14 +6,14 @@ Deux modes :
   python scripts/build_data.py --demo
       Saison simulée (données fictives) pour tester l'app sans source de données.
 
-  python scripts/build_data.py --csv F1.csv --fixtures prochaine_journee.csv
-      Vrais résultats au format football-data.co.uk (colonnes Date, HomeTeam,
-      AwayTeam, FTHG, FTAG, et si présentes HTHG, HTAG, HR, AR, AvgH, AvgD, AvgA).
-      Le fichier --fixtures liste les matchs à venir : Date,HomeTeam,AwayTeam.
+  python scripts/build_data.py --real
+      Vrais matchs de Ligue 1, lus dans data/raw/ (voir scripts/fetch_data.py) :
+      résultats de la saison, saison précédente si présente, matchs de la semaine.
 
 Le modèle : chaque équipe a une force d'attaque et une faiblesse défensive.
 Buts attendus de l'équipe à domicile = exp(mu + avantage_domicile + attaque_dom + defense_ext).
-Le nombre de buts suit une loi de Poisson. Les paramètres sont estimés par
+Le nombre de buts suit une loi de Poisson. Avec les vraies données, l'IA apprend à la fois
+des buts marqués et des xG (la qualité des occasions), plus stables que le score seul. Les paramètres sont estimés par
 maximum de vraisemblance, avec une pénalité qui les ramène vers la moyenne
 (utile en début de saison, quand on a peu de matchs).
 
@@ -68,12 +68,15 @@ CSV_NAMES = {
 
 PENALTY = 3.0
 DECAY = 0.06       # les matchs récents comptent plus (par journée d'écart)
+XG_WEIGHT = 0.4    # part des xG dans ce que l'IA apprend (le reste : les buts réels)
+PREV_WEIGHT = 0.5  # poids supplémentaire des matchs de la saison précédente
 
 
 # ---------------------------------------------------------------- modèle
 
 def fit(matches, teams, current_md):
     """Estime mu, avantage domicile, attaque et défense par équipe."""
+    teams = list(dict.fromkeys(list(teams) + [t for m in matches for t in (m["home"], m["away"])]))
     idx = {t: i for i, t in enumerate(teams)}
     n = len(teams)
     if not matches:
@@ -82,9 +85,12 @@ def fit(matches, teams, current_md):
 
     h = np.array([idx[m["home"]] for m in matches])
     a = np.array([idx[m["away"]] for m in matches])
-    hg = np.array([m["hg"] for m in matches], dtype=float)
-    ag = np.array([m["ag"] for m in matches], dtype=float)
-    w = np.array([math.exp(-DECAY * (current_md - m["md"])) for m in matches])
+    def target(m, g, xg):
+        return m[g] if m.get(xg) is None else (1 - XG_WEIGHT) * m[g] + XG_WEIGHT * m[xg]
+
+    hg = np.array([target(m, "hg", "xgH") if m.get("xgH") is not None else m["hg"] for m in matches], dtype=float)
+    ag = np.array([target(m, "ag", "xgA") if m.get("xgA") is not None else m["ag"] for m in matches], dtype=float)
+    w = np.array([m.get("w0", 1.0) * math.exp(-DECAY * (current_md - m["md"])) for m in matches])
 
     def nll(p):
         mu, home = p[0], p[1]
@@ -231,40 +237,100 @@ def absences(rng):
 
 # ---------------------------------------------------------------- vraies données
 
-def build_real(csv_path, fixtures_path):
-    rows = list(csv.DictReader(open(csv_path, encoding="utf-8-sig")))
-    rows.sort(key=lambda r_: datetime.strptime(r_["Date"], "%d/%m/%Y"))
-    played = []
-    for i, row in enumerate(rows):
-        home, away = CSV_NAMES.get(row["HomeTeam"]), CSV_NAMES.get(row["AwayTeam"])
-        if not home or not away or not row.get("FTHG"):
+RAW = ROOT / "data" / "raw"
+
+
+def num(row, key, cast=float):
+    v = (row.get(key) or "").strip()
+    try:
+        return cast(v) if v else None
+    except ValueError:
+        return None
+
+
+def parse_date(s_):
+    for fmt in ("%d/%m/%Y", "%d/%m/%y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s_.strip(), fmt)
+        except ValueError:
+            pass
+    raise ValueError(s_)
+
+
+def read_results(path, known_only):
+    """Lit un fichier de résultats et numérote les journées par équipe."""
+    rows = [r_ for r_ in csv.DictReader(open(path, encoding="utf-8-sig")) if r_.get("HomeTeam")]
+    rows.sort(key=lambda r_: parse_date(r_["Date"]))
+    count = {}
+    out = []
+    for row in rows:
+        hg, ag = num(row, "FTHG", int), num(row, "FTAG", int)
+        if hg is None or ag is None:
             continue
-        odds = None
-        if row.get("AvgH"):
-            odds = [float(row["AvgH"]), float(row["AvgD"]), float(row["AvgA"])]
-        played.append({
-            # Approximation : 9 matchs = une journée, dans l'ordre des dates.
-            "md": i // 9 + 1,
-            "date": datetime.strptime(row["Date"], "%d/%m/%Y").strftime("%Y-%m-%d"),
-            "home": home, "away": away,
-            "hg": int(row["FTHG"]), "ag": int(row["FTAG"]),
-            "htH": int(row["HTHG"]) if row.get("HTHG") else None,
-            "htA": int(row["HTAG"]) if row.get("HTAG") else None,
-            "redH": 1 if row.get("HR") and int(row["HR"]) > 0 else None,
-            "redA": 1 if row.get("AR") and int(row["AR"]) > 0 else None,
-            "goals": None, "odds": odds,
+        home = CSV_NAMES.get(row["HomeTeam"], row["HomeTeam"])
+        away = CSV_NAMES.get(row["AwayTeam"], row["AwayTeam"])
+        if known_only and (home not in TEAMS or away not in TEAMS):
+            continue
+        # Journée = nombre de matchs déjà joués par l'équipe qui en a joué le plus, + 1.
+        md = max(count.get(home, 0), count.get(away, 0)) + 1
+        count[home] = count.get(home, 0) + 1
+        count[away] = count.get(away, 0) + 1
+        oh, od, oa = num(row, "AvgH"), num(row, "AvgD"), num(row, "AvgA")
+        out.append({
+            "md": md, "date": parse_date(row["Date"]).strftime("%Y-%m-%d"),
+            "home": home, "away": away, "hg": hg, "ag": ag,
+            "htH": num(row, "HTHG", int), "htA": num(row, "HTAG", int),
+            "xgH": num(row, "HxG"), "xgA": num(row, "AxG"),
+            "redH": 1 if (num(row, "HR", int) or 0) > 0 else None,
+            "redA": 1 if (num(row, "AR", int) or 0) > 0 else None,
+            "goals": None,
+            "odds": [oh, od, oa] if oh and od and oa else None,
         })
-    next_md = (played[-1]["md"] + 1) if played else 1
+    return out
+
+
+def paris_time(t):
+    """Les heures de la source sont celles du Royaume-Uni : Paris a toujours une heure de plus."""
+    t = (t or "").strip()
+    if not t:
+        return None
+    h, m = t.split(":")[:2]
+    return f"{(int(h) + 1) % 24:02d}:{m}"
+
+
+def build_real():
+    seasons = sorted(RAW.glob("F1_*.csv"))
+    if not seasons:
+        raise SystemExit("Aucun fichier data/raw/F1_*.csv : lance d'abord python scripts/fetch_data.py")
+    current = seasons[-1]
+    played = read_results(current, known_only=True)
+
+    # La saison précédente aide l'IA à démarrer : poids réduit, et placée « avant » la journée 1.
+    history = []
+    if len(seasons) > 1:
+        for m in read_results(seasons[-2], known_only=False):
+            history.append({**m, "md": m["md"] - 38, "w0": PREV_WEIGHT})
+
+    last_md = max((m["md"] for m in played), default=0)
     upcoming = []
-    for row in csv.DictReader(open(fixtures_path, encoding="utf-8-sig")):
-        upcoming.append({
-            "md": next_md, "date": row["Date"],
-            "home": CSV_NAMES.get(row["HomeTeam"], row["HomeTeam"]),
-            "away": CSV_NAMES.get(row["AwayTeam"], row["AwayTeam"]),
-            "odds": None,
-            "ctx": {"absH": [], "absA": [], "europeH": False, "europeA": False, "weather": "beau"},
-        })
-    return played, upcoming, "reel"
+    fx = RAW / "fixtures_F1.csv"
+    if fx.exists():
+        for row in csv.DictReader(open(fx, encoding="utf-8-sig")):
+            home, away = CSV_NAMES.get(row["HomeTeam"]), CSV_NAMES.get(row["AwayTeam"])
+            if not home or not away:
+                continue
+            oh, od, oa = num(row, "AvgH"), num(row, "AvgD"), num(row, "AvgA")
+            upcoming.append({
+                "md": last_md + 1, "date": parse_date(row["Date"]).strftime("%Y-%m-%d"),
+                "time": paris_time(row.get("Time")),
+                "home": home, "away": away,
+                "odds": [oh, od, oa] if oh and od and oa else None,
+                # Absences et météo ne sont pas dans la source : à régler avec les leviers.
+                "ctx": {"known": False, "absH": [], "absA": [], "europeH": False, "europeA": False, "weather": "inconnu"},
+            })
+    season = current.stem.split("_")[1]
+    label = f"20{season[:2]}-{season[2:]}"
+    return played, upcoming, "reel", history, label
 
 
 # ---------------------------------------------------------------- assemblage
@@ -294,12 +360,12 @@ def standings(played, codes):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--demo", action="store_true")
-    ap.add_argument("--csv")
-    ap.add_argument("--fixtures")
+    ap.add_argument("--real", action="store_true")
     args = ap.parse_args()
 
-    if args.csv:
-        played, upcoming, mode = build_real(args.csv, args.fixtures)
+    history, season = [], "2026-27"
+    if args.real:
+        played, upcoming, mode, history, season = build_real()
     else:
         played, upcoming, mode = build_demo()
 
@@ -308,7 +374,7 @@ def main():
 
     # Pronostics « walk-forward » : chaque journée prédite avec le passé seulement.
     for md in range(1, last_md + 1):
-        params = fit([m for m in played if m["md"] < md], codes, md)
+        params = fit(history + [m for m in played if m["md"] < md], codes, md)
         for m in played:
             if m["md"] == md:
                 lh, la = expected_goals(params, m["home"], m["away"])
@@ -316,7 +382,7 @@ def main():
                 m["pred"] = {"lh": r(lh), "la": r(la), "p": [r(x) for x in p],
                              "over25": r(over), "btts": r(btts)}
 
-    params = fit(played, codes, last_md + 1)
+    params = fit(history + played, codes, last_md + 1)
     for m in upcoming:
         lh, la = expected_goals(params, m["home"], m["away"])
         m["lh"], m["la"] = r(lh), r(la)
@@ -329,7 +395,8 @@ def main():
                     "att": r(params["att"][c]), "def": r(params["def"][c]), **tab[c]}
 
     data = {
-        "meta": {"mode": mode, "season": "2026-27", "lastMatchday": last_md,
+        "meta": {"mode": mode, "season": season, "source": "football-data.co.uk" if mode == "reel" else None,
+                 "lastResult": max((m["date"] for m in played), default=None), "lastMatchday": last_md,
                  "nextMatchday": last_md + 1,
                  "generatedAt": datetime.now(timezone.utc).isoformat(timespec="minutes")},
         "model": {"mu": r(params["mu"]), "home": r(params["home"])},

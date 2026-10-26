@@ -5,7 +5,7 @@ import { predict } from "../model/predict.js";
 import { buildLevers, defaultActive } from "../model/levers.js";
 import { confidence, impliedFromOdds } from "../model/poisson.js";
 import { reasons, pct } from "../model/narrative.js";
-import { matchId, formatDate } from "../lib/store.js";
+import { matchId, formatKick } from "../lib/store.js";
 
 const LABELS = ["Domicile", "Nul", "Extérieur"];
 
@@ -42,7 +42,7 @@ export default function Match({ id, data, picks, setPick }) {
         <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(60vh, 460px)"
           fallback={<div style={{ padding: "16px" }}><ProbaPitch p={cur.p} home={H} away={A} size="lg" /></div>} />
         <header className="match-head">
-          <p className="kicker">{formatDate(m.date)} · {m.md}e journée</p>
+          <p className="kicker">{formatKick(m)} · {m.md}e journée</p>
           <div className="match-teams">
             <div><Badge team={H} size={40} /><h1>{H.name}</h1></div>
             <span>contre</span>
@@ -78,8 +78,9 @@ export default function Match({ id, data, picks, setPick }) {
       <section className="block">
         <h2>Les leviers</h2>
         <p className="muted">
-          Active ou coupe un facteur pour voir son poids réel. Ceux déjà allumés sont les informations
-          que l'IA a prises en compte.
+          {m.ctx.known === false
+            ? "Les absences et la météo ne sont pas dans les données : vérifie la compo avant le match et allume les facteurs qui s'appliquent. Les colonnes du stade bougent en direct."
+            : "Active ou coupe un facteur pour voir son poids réel. Ceux déjà allumés sont les informations que l'IA a prises en compte."}
         </p>
         <div className="levers">
           {groups.map((g) => (

@@ -96,6 +96,16 @@ export function debrief(m, teams) {
 
   if (Math.abs(m.hg - m.ag) >= 3)
     lines.push(`Une victoire large, avec ${Math.abs(m.hg - m.ag)} buts d'écart : ${o === 0 ? H.name : A.name} a dominé de bout en bout.`);
+  if (m.xgH != null && m.xgA != null) {
+    const xo = Math.abs(m.xgH - m.xgA) < 0.35 ? 1 : m.xgH > m.xgA ? 0 : 2;
+    const xgTxt = `${fr1(m.xgH)} contre ${fr1(m.xgA)}`;
+    if (xo !== o && xo !== 1)
+      lines.push(`Les xG racontent une autre histoire (${xgTxt}) : ${xo === 0 ? H.name : A.name} s'est créé les meilleures occasions, mais ${o === 1 ? "n'a pas su gagner" : "a perdu"}. Le score n'a pas suivi le jeu.`);
+    else if (xo !== 1 && xo === o)
+      lines.push(`Victoire méritée aux xG (${xgTxt}) : les occasions et le score vont dans le même sens.`);
+    else if (xo === 1 && o !== 1)
+      lines.push(`Aux xG, le match était équilibré (${xgTxt}) : l'efficacité devant le but a fait la différence.`);
+  }
   if (!lines.length) {
     lines.push(
       o === 1

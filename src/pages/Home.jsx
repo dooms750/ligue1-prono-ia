@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, ProbaPitch, Confidence, DemoBanner } from "../components/ui.jsx";
+import { Badge, ProbaPitch, Confidence, DemoBanner, isPast } from "../components/ui.jsx";
 import Stadium3D from "../components/Stadium3D.jsx";
 import { predict } from "../model/predict.js";
 import { ord, pct } from "../model/narrative.js";
@@ -42,7 +42,7 @@ export default function Home({ data, picks }) {
 
       <DemoBanner meta={meta} />
 
-      <h2 className="section-title">Les 9 matchs</h2>
+      <h2 className="section-title">Les {upcoming.length} matchs de la journée</h2>
       <ul className="fixtures">
         {upcoming.map((m) => {
           const id = matchId(m);
@@ -66,7 +66,7 @@ export default function Home({ data, picks }) {
                 <div className="fixture-meta">
                   <Confidence c={c} />
                   <span>Score probable {pr.topScores[0].h}-{pr.topScores[0].a} · plus de 2,5 buts {pct(pr.over25)}</span>
-                  <span className="ranks">{ord(H.rank)} contre {ord(A.rank)}</span>
+                  <span className="ranks">{isPast(m) ? "Joué, résultat bientôt intégré" : kickLabel(m)} · {ord(H.rank)} contre {ord(A.rank)}</span>
                   {mine != null && (
                     <span className="mine">Ton prono : {PICK_LABEL[mine]}{mine === pr.pick ? ", comme l'IA" : ""}</span>
                   )}
@@ -86,6 +86,11 @@ export default function Home({ data, picks }) {
       </a>
     </>
   );
+}
+
+function kickLabel(m) {
+  const d = new Date(m.date + "T12:00:00").toLocaleDateString("fr-FR", { weekday: "short", day: "numeric" });
+  return m.time ? `${d} à ${m.time.replace(":", " h ")}` : d;
 }
 
 // Carte qui s'incline légèrement sous le doigt ou la souris.
