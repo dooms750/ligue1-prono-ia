@@ -1,24 +1,25 @@
 {
  "meta": {
-  "mode": "reel",
+  "mode": "onefootball",
   "season": "2026-27",
-  "source": "football-data.co.uk",
-  "lastResult": "2026-10-18",
-  "lastMatchday": 7,
-  "nextMatchday": 8,
-  "generatedAt": "2026-10-26T17:09+00:00"
+  "source": "OneFootball et la presse spécialisée",
+  "lastResult": "2026-10-25",
+  "lastMatchday": 8,
+  "nextMatchday": 9,
+  "fetchedAt": "2026-10-26T18:44+00:00",
+  "generatedAt": "2026-10-26T18:45+00:00"
  },
  "model": {
-  "mu": 0.288,
-  "home": 0.19
+  "mu": 0.235,
+  "home": 0.205
  },
  "teams": {
   "PSG": {
    "name": "Paris Saint-Germain",
    "short": "PSG",
    "color": "#1B3A8C",
-   "att": 0.337,
-   "def": -0.235,
+   "att": 0.319,
+   "def": -0.207,
    "played": 7,
    "w": 4,
    "d": 2,
@@ -33,58 +34,58 @@
     "V",
     "V"
    ],
-   "rank": 2
+   "rank": 5
   },
   "MON": {
    "name": "Monaco",
    "short": "MON",
    "color": "#D62828",
-   "att": 0.031,
-   "def": -0.13,
-   "played": 7,
+   "att": 0.084,
+   "def": -0.123,
+   "played": 8,
    "w": 4,
-   "d": 2,
+   "d": 3,
    "l": 1,
-   "gf": 10,
-   "ga": 6,
-   "pts": 14,
+   "gf": 11,
+   "ga": 7,
+   "pts": 15,
    "form": [
-    "V",
     "N",
     "V",
     "N",
-    "D"
+    "D",
+    "N"
    ],
-   "rank": 5
+   "rank": 3
   },
   "OM": {
    "name": "Marseille",
    "short": "OM",
    "color": "#2A9FD6",
-   "att": 0.141,
-   "def": 0.034,
-   "played": 7,
-   "w": 3,
+   "att": 0.202,
+   "def": 0.076,
+   "played": 8,
+   "w": 4,
    "d": 0,
    "l": 4,
-   "gf": 14,
-   "ga": 10,
-   "pts": 9,
+   "gf": 18,
+   "ga": 13,
+   "pts": 12,
    "form": [
     "D",
     "D",
-    "D",
+    "V",
     "V",
     "V"
    ],
-   "rank": 9
+   "rank": 8
   },
   "OL": {
    "name": "Lyon",
    "short": "OL",
    "color": "#C8102E",
-   "att": 0.084,
-   "def": -0.207,
+   "att": 0.102,
+   "def": -0.165,
    "played": 7,
    "w": 4,
    "d": 2,
@@ -95,163 +96,163 @@
    "form": [
     "V",
     "N",
+    "V",
+    "D",
+    "V"
+   ],
+   "rank": 4
+  },
+  "LIL": {
+   "name": "Lille",
+   "short": "LIL",
+   "color": "#B5121B",
+   "att": -0.023,
+   "def": -0.254,
+   "played": 8,
+   "w": 4,
+   "d": 3,
+   "l": 1,
+   "gf": 11,
+   "ga": 6,
+   "pts": 15,
+   "form": [
+    "V",
+    "D",
+    "V",
+    "N",
+    "N"
+   ],
+   "rank": 2
+  },
+  "LEN": {
+   "name": "Lens",
+   "short": "LEN",
+   "color": "#E8A317",
+   "att": 0.241,
+   "def": -0.039,
+   "played": 8,
+   "w": 4,
+   "d": 1,
+   "l": 3,
+   "gf": 16,
+   "ga": 12,
+   "pts": 13,
+   "form": [
+    "N",
+    "D",
+    "V",
+    "V",
+    "V"
+   ],
+   "rank": 7
+  },
+  "REN": {
+   "name": "Rennes",
+   "short": "REN",
+   "color": "#A3161B",
+   "att": 0.257,
+   "def": 0.097,
+   "played": 8,
+   "w": 5,
+   "d": 1,
+   "l": 2,
+   "gf": 18,
+   "ga": 14,
+   "pts": 16,
+   "form": [
+    "V",
+    "D",
     "V",
     "D",
     "V"
    ],
    "rank": 1
   },
-  "LIL": {
-   "name": "Lille",
-   "short": "LIL",
-   "color": "#B5121B",
-   "att": -0.056,
-   "def": -0.235,
-   "played": 7,
-   "w": 4,
-   "d": 2,
-   "l": 1,
-   "gf": 10,
-   "ga": 5,
-   "pts": 14,
-   "form": [
-    "V",
-    "V",
-    "D",
-    "V",
-    "N"
-   ],
-   "rank": 4
-  },
-  "LEN": {
-   "name": "Lens",
-   "short": "LEN",
-   "color": "#E8A317",
-   "att": 0.223,
-   "def": -0.039,
-   "played": 7,
-   "w": 3,
-   "d": 1,
-   "l": 3,
-   "gf": 14,
-   "ga": 11,
-   "pts": 10,
-   "form": [
-    "D",
-    "N",
-    "D",
-    "V",
-    "V"
-   ],
-   "rank": 8
-  },
-  "REN": {
-   "name": "Rennes",
-   "short": "REN",
-   "color": "#A3161B",
-   "att": 0.237,
-   "def": 0.167,
-   "played": 7,
-   "w": 4,
-   "d": 1,
-   "l": 2,
-   "gf": 15,
-   "ga": 14,
-   "pts": 13,
-   "form": [
-    "V",
-    "V",
-    "D",
-    "V",
-    "D"
-   ],
-   "rank": 6
-  },
   "NIC": {
    "name": "Nice",
    "short": "NIC",
    "color": "#B01E23",
-   "att": -0.235,
-   "def": -0.001,
-   "played": 7,
-   "w": 2,
+   "att": -0.186,
+   "def": 0.0,
+   "played": 8,
+   "w": 3,
    "d": 2,
    "l": 3,
-   "gf": 6,
-   "ga": 9,
-   "pts": 8,
+   "gf": 8,
+   "ga": 10,
+   "pts": 11,
    "form": [
-    "N",
     "D",
     "V",
     "V",
-    "D"
+    "D",
+    "V"
    ],
-   "rank": 13
+   "rank": 10
   },
   "STR": {
    "name": "Strasbourg",
    "short": "STR",
    "color": "#1C5DA8",
-   "att": 0.089,
-   "def": 0.13,
-   "played": 7,
+   "att": 0.109,
+   "def": 0.16,
+   "played": 8,
    "w": 2,
    "d": 1,
-   "l": 4,
+   "l": 5,
    "gf": 12,
-   "ga": 15,
+   "ga": 18,
    "pts": 7,
    "form": [
-    "V",
     "N",
+    "D",
     "D",
     "D",
     "D"
    ],
-   "rank": 14
+   "rank": 16
   },
   "BRE": {
    "name": "Brest",
    "short": "BRE",
    "color": "#D7263D",
-   "att": 0.069,
-   "def": -0.001,
-   "played": 7,
+   "att": 0.072,
+   "def": 0.043,
+   "played": 8,
    "w": 2,
    "d": 3,
-   "l": 2,
-   "gf": 13,
-   "ga": 10,
+   "l": 3,
+   "gf": 14,
+   "ga": 12,
    "pts": 9,
    "form": [
-    "V",
     "D",
     "D",
     "V",
-    "N"
+    "N",
+    "D"
    ],
-   "rank": 10
+   "rank": 13
   },
   "TOU": {
    "name": "Toulouse",
    "short": "TOU",
    "color": "#5B2C83",
-   "att": 0.13,
-   "def": -0.014,
-   "played": 7,
+   "att": 0.019,
+   "def": -0.047,
+   "played": 8,
    "w": 2,
-   "d": 3,
+   "d": 4,
    "l": 2,
    "gf": 12,
    "ga": 11,
-   "pts": 9,
+   "pts": 10,
    "form": [
-    "D",
     "N",
     "V",
     "N",
-    "V"
+    "V",
+    "N"
    ],
    "rank": 11
   },
@@ -259,87 +260,87 @@
    "name": "Paris FC",
    "short": "PFC",
    "color": "#1D2A4D",
-   "att": 0.09,
-   "def": -0.163,
-   "played": 7,
+   "att": 0.053,
+   "def": -0.138,
+   "played": 8,
    "w": 4,
    "d": 2,
-   "l": 1,
-   "gf": 12,
-   "ga": 7,
+   "l": 2,
+   "gf": 13,
+   "ga": 9,
    "pts": 14,
    "form": [
-    "V",
     "N",
     "V",
     "D",
-    "V"
+    "V",
+    "D"
    ],
-   "rank": 3
+   "rank": 6
   },
   "LOR": {
    "name": "Lorient",
    "short": "LOR",
    "color": "#F07F1A",
-   "att": -0.124,
-   "def": -0.187,
-   "played": 7,
+   "att": -0.161,
+   "def": -0.159,
+   "played": 8,
    "w": 3,
-   "d": 2,
+   "d": 3,
    "l": 2,
    "gf": 7,
    "ga": 6,
-   "pts": 11,
+   "pts": 12,
    "form": [
-    "V",
     "N",
     "D",
     "V",
-    "V"
+    "V",
+    "N"
    ],
-   "rank": 7
+   "rank": 9
   },
   "ANG": {
    "name": "Angers",
    "short": "ANG",
    "color": "#2B2B2B",
-   "att": -0.157,
-   "def": 0.183,
-   "played": 7,
+   "att": -0.246,
+   "def": 0.158,
+   "played": 8,
    "w": 2,
-   "d": 1,
+   "d": 2,
    "l": 4,
    "gf": 9,
    "ga": 15,
-   "pts": 7,
+   "pts": 8,
    "form": [
-    "D",
     "N",
     "V",
     "D",
-    "D"
+    "D",
+    "N"
    ],
-   "rank": 15
+   "rank": 14
   },
   "AUX": {
    "name": "Auxerre",
    "short": "AUX",
    "color": "#2563A6",
-   "att": -0.004,
-   "def": 0.124,
-   "played": 7,
+   "att": -0.006,
+   "def": 0.116,
+   "played": 8,
    "w": 3,
-   "d": 0,
+   "d": 1,
    "l": 4,
-   "gf": 11,
-   "ga": 17,
-   "pts": 9,
+   "gf": 12,
+   "ga": 18,
+   "pts": 10,
    "form": [
-    "D",
     "V",
     "V",
     "D",
-    "V"
+    "V",
+    "N"
    ],
    "rank": 12
   },
@@ -347,18 +348,18 @@
    "name": "Le Havre",
    "short": "HAV",
    "color": "#3F7CC0",
-   "att": -0.23,
-   "def": 0.007,
-   "played": 7,
+   "att": -0.109,
+   "def": 0.064,
+   "played": 8,
    "w": 0,
    "d": 2,
-   "l": 5,
-   "gf": 5,
-   "ga": 11,
+   "l": 6,
+   "gf": 8,
+   "ga": 15,
    "pts": 2,
    "form": [
-    "D",
     "N",
+    "D",
     "D",
     "D",
     "D"
@@ -369,43 +370,43 @@
    "name": "Le Mans",
    "short": "LMA",
    "color": "#C8102E",
-   "att": 0.001,
-   "def": 0.189,
-   "played": 7,
+   "att": -0.054,
+   "def": 0.122,
+   "played": 8,
    "w": 1,
-   "d": 3,
+   "d": 4,
    "l": 3,
-   "gf": 10,
-   "ga": 15,
-   "pts": 6,
+   "gf": 11,
+   "ga": 16,
+   "pts": 7,
    "form": [
-    "N",
     "N",
     "V",
     "D",
-    "D"
+    "D",
+    "N"
    ],
-   "rank": 16
+   "rank": 15
   },
   "TRO": {
    "name": "Troyes",
    "short": "TRO",
    "color": "#1F5FA8",
-   "att": -0.234,
-   "def": 0.22,
-   "played": 7,
+   "att": -0.325,
+   "def": 0.11,
+   "played": 8,
    "w": 1,
-   "d": 1,
+   "d": 2,
    "l": 5,
    "gf": 5,
    "ga": 16,
-   "pts": 4,
+   "pts": 5,
    "form": [
     "D",
     "D",
     "D",
     "D",
-    "D"
+    "N"
    ],
    "rank": 17
   }
@@ -413,208 +414,49 @@
  "played": [
   {
    "md": 1,
-   "date": "2026-08-21",
-   "home": "OM",
-   "away": "STR",
-   "hg": 4,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.86,
-   "xgA": 0.19,
-   "redH": null,
-   "redA": 1,
-   "goals": null,
-   "odds": [
-    1.72,
-    4.05,
-    4.28
-   ],
-   "pred": {
-    "lh": 1.734,
-    "la": 1.49,
-    "p": [
-     0.436,
-     0.232,
-     0.332
-    ],
-    "over25": 0.625,
-    "btts": 0.638
-   }
-  },
-  {
-   "md": 1,
-   "date": "2026-08-22",
-   "home": "LEN",
-   "away": "AUX",
-   "hg": 5,
-   "ag": 2,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 4.42,
-   "xgA": 1.85,
-   "redH": null,
-   "redA": 1,
-   "goals": null,
-   "odds": [
-    1.55,
-    4.23,
-    5.37
-   ],
-   "pred": {
-    "lh": 1.749,
-    "la": 1.074,
-    "p": [
-     0.532,
-     0.236,
-     0.233
-    ],
-    "over25": 0.536,
-    "btts": 0.544
-   }
-  },
-  {
-   "md": 1,
-   "date": "2026-08-22",
-   "home": "LMA",
-   "away": "BRE",
-   "hg": 2,
-   "ag": 2,
-   "htH": 1,
-   "htA": 1,
-   "xgH": 0.67,
-   "xgA": 2.73,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.51,
-    3.39,
-    2.69
-   ],
-   "pred": {
-    "lh": 1.665,
-    "la": 1.163,
-    "p": [
-     0.491,
-     0.243,
-     0.267
-    ],
-    "over25": 0.537,
-    "btts": 0.558
-   }
-  },
-  {
-   "md": 1,
-   "date": "2026-08-22",
-   "home": "NIC",
-   "away": "LOR",
-   "hg": 0,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.05,
-   "xgA": 1.27,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.1,
-    3.49,
-    3.29
-   ],
-   "pred": {
-    "lh": 1.233,
-    "la": 1.434,
-    "p": [
-     0.324,
-     0.259,
-     0.417
-    ],
-    "over25": 0.498,
-    "btts": 0.54
-   }
-  },
-  {
-   "md": 1,
-   "date": "2026-08-22",
-   "home": "TOU",
-   "away": "OL",
-   "hg": 0,
-   "ag": 2,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 2.76,
-   "xgA": 0.7,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.78,
-    3.39,
-    2.42
-   ],
-   "pred": {
-    "lh": 1.441,
-    "la": 1.353,
-    "p": [
-     0.393,
-     0.253,
-     0.354
-    ],
-    "over25": 0.529,
-    "btts": 0.566
-   }
-  },
-  {
-   "md": 1,
-   "date": "2026-08-22",
-   "home": "TRO",
-   "away": "PFC",
-   "hg": 0,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 0.41,
-   "xgA": 1.8,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.96,
-    3.46,
-    2.27
-   ],
-   "pred": {
-    "lh": 1.423,
-    "la": 1.317,
-    "p": [
-     0.396,
-     0.256,
-     0.348
-    ],
-    "over25": 0.516,
-    "btts": 0.556
-   }
-  },
-  {
-   "md": 1,
    "date": "2026-08-23",
+   "time": "15:00",
    "home": "ANG",
    "away": "LIL",
-   "hg": 0,
-   "ag": 2,
-   "htH": 0,
-   "htA": 2,
-   "xgH": 1.99,
-   "xgA": 1.24,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     4.88,
     3.69,
     1.69
+   ],
+   "src": "https://onefootball.com/fr/match/2688644",
+   "hg": 0,
+   "ag": 2,
+   "htH": 0,
+   "htA": 2,
+   "sotH": 2,
+   "sotA": 8,
+   "xgH": 0.62,
+   "xgA": 2.48,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     11
+    ],
+    [
+     "A",
+     31
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Olivier Giroud",
+     "kind": "but",
+     "min": 11
+    },
+    {
+     "side": "away",
+     "player": "Tiago Santos",
+     "kind": "but",
+     "min": 31
+    }
    ],
    "pred": {
     "lh": 0.951,
@@ -631,21 +473,38 @@
   {
    "md": 1,
    "date": "2026-08-23",
+   "time": "17:15",
    "home": "HAV",
    "away": "MON",
-   "hg": 0,
-   "ag": 1,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 0.6,
-   "xgA": 1.39,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     3.64,
     3.82,
     1.87
+   ],
+   "src": "https://onefootball.com/fr/match/2688645",
+   "hg": 0,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 4,
+   "sotA": 7,
+   "xgH": 1.24,
+   "xgA": 2.17,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     14
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Eric Dier",
+     "kind": "but",
+     "min": 14
+    }
    ],
    "pred": {
     "lh": 1.42,
@@ -661,22 +520,369 @@
   },
   {
    "md": 1,
-   "date": "2026-08-23",
-   "home": "REN",
-   "away": "PSG",
+   "date": "2026-08-22",
+   "time": "20:45",
+   "home": "LMA",
+   "away": "BRE",
+   "odds": [
+    2.51,
+    3.39,
+    2.69
+   ],
+   "src": "https://onefootball.com/fr/match/2688646",
    "hg": 2,
    "ag": 2,
-   "htH": 2,
-   "htA": 0,
-   "xgH": 0.87,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 5,
+   "sotA": 7,
+   "xgH": 1.55,
    "xgA": 2.17,
    "redH": null,
    "redA": null,
-   "goals": null,
+   "goals": [
+    [
+     "A",
+     31
+    ],
+    [
+     "H",
+     47
+    ],
+    [
+     "H",
+     55
+    ],
+    [
+     "A",
+     62
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Romain Del Castillo",
+     "kind": "but",
+     "min": 31
+    },
+    {
+     "side": "home",
+     "player": "Dame Gueye",
+     "kind": "but",
+     "min": 47
+    },
+    {
+     "side": "home",
+     "player": "Louis Mafouta",
+     "kind": "but",
+     "min": 55
+    },
+    {
+     "side": "away",
+     "player": "Kamory Doumbia",
+     "kind": "but",
+     "min": 62
+    }
+   ],
+   "pred": {
+    "lh": 1.665,
+    "la": 1.163,
+    "p": [
+     0.491,
+     0.243,
+     0.267
+    ],
+    "over25": 0.537,
+    "btts": 0.558
+   }
+  },
+  {
+   "md": 1,
+   "date": "2026-08-22",
+   "time": "17:15",
+   "home": "LEN",
+   "away": "AUX",
+   "odds": [
+    1.55,
+    4.23,
+    5.37
+   ],
+   "src": "https://onefootball.com/fr/match/2688647",
+   "hg": 5,
+   "ag": 2,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 9,
+   "sotA": 4,
+   "xgH": 2.79,
+   "xgA": 1.24,
+   "redH": null,
+   "redA": 35,
+   "goals": [
+    [
+     "H",
+     12
+    ],
+    [
+     "H",
+     49
+    ],
+    [
+     "H",
+     54
+    ],
+    [
+     "A",
+     61
+    ],
+    [
+     "H",
+     66
+    ],
+    [
+     "A",
+     69
+    ],
+    [
+     "H",
+     88
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Florian Thauvin",
+     "kind": "penalty",
+     "min": 12
+    },
+    {
+     "side": "home",
+     "player": "Franjo Ivanović",
+     "kind": "but",
+     "min": 49
+    },
+    {
+     "side": "home",
+     "player": "Saud Abdulhamid",
+     "kind": "but",
+     "min": 54
+    },
+    {
+     "side": "away",
+     "player": "Danny Namaso",
+     "kind": "penalty",
+     "min": 61
+    },
+    {
+     "side": "home",
+     "player": "Ismaëlo Ganiou",
+     "kind": "but",
+     "min": 66
+    },
+    {
+     "side": "away",
+     "player": "Lamine Sy",
+     "kind": "but",
+     "min": 69
+    },
+    {
+     "side": "home",
+     "player": "Florian Thauvin",
+     "kind": "penalty",
+     "min": 88
+    }
+   ],
+   "pred": {
+    "lh": 1.749,
+    "la": 1.074,
+    "p": [
+     0.532,
+     0.236,
+     0.233
+    ],
+    "over25": 0.536,
+    "btts": 0.544
+   }
+  },
+  {
+   "md": 1,
+   "date": "2026-08-21",
+   "time": "20:45",
+   "home": "OM",
+   "away": "STR",
+   "odds": [
+    1.72,
+    4.05,
+    4.28
+   ],
+   "src": "https://onefootball.com/fr/match/2688648",
+   "hg": 4,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 8,
+   "sotA": 2,
+   "xgH": 2.48,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": 59,
+   "goals": [
+    [
+     "H",
+     46
+    ],
+    [
+     "H",
+     68
+    ],
+    [
+     "H",
+     89
+    ],
+    [
+     "H",
+     96
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Amine Gouiri",
+     "kind": "but",
+     "min": 46
+    },
+    {
+     "side": "home",
+     "player": "Amine Gouiri",
+     "kind": "penalty",
+     "min": 68
+    },
+    {
+     "side": "home",
+     "player": "Keyliane Abdallah",
+     "kind": "but",
+     "min": 89
+    },
+    {
+     "side": "home",
+     "player": "Pierre-Emile Højbjerg",
+     "kind": "but",
+     "min": 96
+    }
+   ],
+   "pred": {
+    "lh": 1.734,
+    "la": 1.49,
+    "p": [
+     0.436,
+     0.232,
+     0.332
+    ],
+    "over25": 0.625,
+    "btts": 0.638
+   }
+  },
+  {
+   "md": 1,
+   "date": "2026-08-22",
+   "time": "20:45",
+   "home": "NIC",
+   "away": "LOR",
+   "odds": [
+    2.1,
+    3.49,
+    3.29
+   ],
+   "src": "https://onefootball.com/fr/match/2688649",
+   "hg": 0,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 1,
+   "sotA": 2,
+   "xgH": 0.31,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [],
+   "scorers": [],
+   "pred": {
+    "lh": 1.233,
+    "la": 1.434,
+    "p": [
+     0.324,
+     0.259,
+     0.417
+    ],
+    "over25": 0.498,
+    "btts": 0.54
+   }
+  },
+  {
+   "md": 1,
+   "date": "2026-08-23",
+   "time": "20:45",
+   "home": "REN",
+   "away": "PSG",
    "odds": [
     5.44,
     4.57,
     1.5
+   ],
+   "src": "https://onefootball.com/fr/match/2688650",
+   "hg": 2,
+   "ag": 2,
+   "htH": 2,
+   "htA": 0,
+   "sotH": 3,
+   "sotA": 5,
+   "xgH": 0.93,
+   "xgA": 1.55,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     9
+    ],
+    [
+     "H",
+     38
+    ],
+    [
+     "A",
+     71
+    ],
+    [
+     "A",
+     82
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Sebastian Szymański",
+     "kind": "but",
+     "min": 9
+    },
+    {
+     "side": "home",
+     "player": "Estéban Lepaul",
+     "kind": "but",
+     "min": 38
+    },
+    {
+     "side": "away",
+     "player": "Ferran Torres",
+     "kind": "but",
+     "min": 71
+    },
+    {
+     "side": "away",
+     "player": "Ferran Torres",
+     "kind": "but",
+     "min": 82
+    }
    ],
    "pred": {
     "lh": 1.431,
@@ -691,1746 +897,3826 @@
    }
   },
   {
-   "md": 2,
-   "date": "2026-08-28",
-   "home": "LIL",
-   "away": "PSG",
-   "hg": 2,
-   "ag": 2,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.27,
-   "xgA": 1.44,
-   "redH": null,
-   "redA": null,
-   "goals": null,
+   "md": 1,
+   "date": "2026-08-22",
+   "time": "20:45",
+   "home": "TOU",
+   "away": "OL",
    "odds": [
-    4.81,
-    3.86,
-    1.69
-   ],
-   "pred": {
-    "lh": 1.225,
-    "la": 1.349,
-    "p": [
-     0.338,
-     0.265,
-     0.397
-    ],
-    "over25": 0.475,
-    "btts": 0.523
-   }
-  },
-  {
-   "md": 2,
-   "date": "2026-08-29",
-   "home": "STR",
-   "away": "LEN",
-   "hg": 2,
-   "ag": 1,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 1.66,
-   "xgA": 2.88,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
+    2.78,
     3.39,
-    3.55,
-    2.04
+    2.42
+   ],
+   "src": "https://onefootball.com/fr/match/2688651",
+   "hg": 0,
+   "ag": 2,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 2,
+   "sotA": 3,
+   "xgH": 0.62,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     68
+    ],
+    [
+     "A",
+     85
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Noah Nartey",
+     "kind": "but",
+     "min": 68
+    },
+    {
+     "side": "away",
+     "player": "Malick Fofana",
+     "kind": "but",
+     "min": 85
+    }
    ],
    "pred": {
-    "lh": 1.564,
-    "la": 2.081,
+    "lh": 1.441,
+    "la": 1.353,
     "p": [
-     0.291,
-     0.211,
-     0.498
+     0.393,
+     0.253,
+     0.354
     ],
-    "over25": 0.705,
-    "btts": 0.692
+    "over25": 0.529,
+    "btts": 0.566
+   }
+  },
+  {
+   "md": 1,
+   "date": "2026-08-22",
+   "time": "20:45",
+   "home": "TRO",
+   "away": "PFC",
+   "odds": [
+    2.96,
+    3.46,
+    2.27
+   ],
+   "src": "https://onefootball.com/fr/match/2688652",
+   "hg": 0,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 2,
+   "sotA": 1,
+   "xgH": 0.62,
+   "xgA": 0.31,
+   "redH": null,
+   "redA": null,
+   "goals": [],
+   "scorers": [],
+   "pred": {
+    "lh": 1.423,
+    "la": 1.317,
+    "p": [
+     0.396,
+     0.256,
+     0.348
+    ],
+    "over25": 0.516,
+    "btts": 0.556
    }
   },
   {
    "md": 2,
    "date": "2026-08-29",
+   "time": "20:45",
    "home": "AUX",
    "away": "ANG",
-   "hg": 1,
-   "ag": 3,
-   "htH": 1,
-   "htA": 1,
-   "xgH": 1.29,
-   "xgA": 1.74,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     1.93,
     3.47,
     3.88
    ],
-   "pred": {
-    "lh": 1.603,
-    "la": 1.058,
-    "p": [
-     0.5,
-     0.249,
-     0.251
+   "src": "https://onefootball.com/fr/match/2688653",
+   "hg": 1,
+   "ag": 3,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 7,
+   "sotA": 6,
+   "xgH": 2.17,
+   "xgA": 1.86,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     5
     ],
-    "over25": 0.497,
-    "btts": 0.522
+    [
+     "H",
+     35
+    ],
+    [
+     "A",
+     70
+    ],
+    [
+     "A",
+     78
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Branco Van den Boomen",
+     "kind": "but",
+     "min": 5
+    },
+    {
+     "side": "home",
+     "player": "Rémy Labeau Lascary",
+     "kind": "but",
+     "min": 35
+    },
+    {
+     "side": "away",
+     "player": "Harouna Djibirin",
+     "kind": "but",
+     "min": 70
+    },
+    {
+     "side": "away",
+     "player": "Amine El Ouazzani",
+     "kind": "but",
+     "min": 78
+    }
+   ],
+   "pred": {
+    "lh": 1.615,
+    "la": 0.985,
+    "p": [
+     0.521,
+     0.249,
+     0.231
+    ],
+    "over25": 0.482,
+    "btts": 0.502
    }
   },
   {
    "md": 2,
    "date": "2026-08-29",
+   "time": "20:45",
    "home": "BRE",
    "away": "TOU",
-   "hg": 2,
-   "ag": 2,
-   "htH": 1,
-   "htA": 1,
-   "xgH": 2.73,
-   "xgA": 1.12,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     2.62,
     3.32,
     2.61
    ],
-   "pred": {
-    "lh": 1.476,
-    "la": 1.317,
-    "p": [
-     0.41,
-     0.252,
-     0.338
+   "src": "https://onefootball.com/fr/match/2688654",
+   "hg": 2,
+   "ag": 2,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 7,
+   "sotA": 2,
+   "xgH": 2.17,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     9
     ],
-    "over25": 0.529,
-    "btts": 0.565
+    [
+     "H",
+     18
+    ],
+    [
+     "A",
+     62
+    ],
+    [
+     "H",
+     95
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Jacen Russell-Rowe",
+     "kind": "but",
+     "min": 9
+    },
+    {
+     "side": "home",
+     "player": "Kamory Doumbia",
+     "kind": "but",
+     "min": 18
+    },
+    {
+     "side": "away",
+     "player": "Christ Tapé",
+     "kind": "but",
+     "min": 62
+    },
+    {
+     "side": "home",
+     "player": "Ludovic Ajorque",
+     "kind": "but",
+     "min": 95
+    }
+   ],
+   "pred": {
+    "lh": 1.458,
+    "la": 1.276,
+    "p": [
+     0.414,
+     0.255,
+     0.331
+    ],
+    "over25": 0.515,
+    "btts": 0.553
    }
   },
   {
    "md": 2,
    "date": "2026-08-29",
+   "time": "20:45",
    "home": "LOR",
    "away": "TRO",
-   "hg": 1,
-   "ag": 2,
-   "htH": 0,
-   "htA": 2,
-   "xgH": 1.07,
-   "xgA": 1.57,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     1.84,
     3.5,
     4.17
    ],
-   "pred": {
-    "lh": 1.372,
-    "la": 1.009,
-    "p": [
-     0.452,
-     0.272,
-     0.276
+   "src": "https://onefootball.com/fr/match/2688655",
+   "hg": 1,
+   "ag": 2,
+   "htH": 0,
+   "htA": 2,
+   "sotH": 6,
+   "sotA": 2,
+   "xgH": 1.86,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     29
     ],
-    "over25": 0.425,
-    "btts": 0.474
+    [
+     "A",
+     38
+    ],
+    [
+     "H",
+     51
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Renaud Ripart",
+     "kind": "penalty",
+     "min": 29
+    },
+    {
+     "side": "away",
+     "player": "Lucas Maronnier",
+     "kind": "but",
+     "min": 38
+    },
+    {
+     "side": "home",
+     "player": "Jean-Victor Makengo",
+     "kind": "but",
+     "min": 51
+    }
+   ],
+   "pred": {
+    "lh": 1.236,
+    "la": 1.0,
+    "p": [
+     0.416,
+     0.286,
+     0.298
+    ],
+    "over25": 0.387,
+    "btts": 0.449
    }
   },
   {
    "md": 2,
    "date": "2026-08-29",
+   "time": "20:45",
    "home": "OL",
    "away": "HAV",
-   "hg": 1,
-   "ag": 1,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.68,
-   "xgA": 0.67,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     1.45,
     4.43,
     6.58
    ],
-   "pred": {
-    "lh": 1.516,
-    "la": 0.957,
-    "p": [
-     0.503,
-     0.259,
-     0.238
-    ],
-    "over25": 0.449,
-    "btts": 0.481
-   }
-  },
-  {
-   "md": 2,
-   "date": "2026-08-30",
-   "home": "PFC",
-   "away": "NIC",
-   "hg": 3,
-   "ag": 0,
-   "htH": 1,
+   "src": "https://onefootball.com/fr/match/2688656",
+   "hg": 1,
+   "ag": 1,
+   "htH": 0,
    "htA": 0,
-   "xgH": 2.88,
-   "xgA": 0.65,
+   "sotH": 5,
+   "sotA": 4,
+   "xgH": 1.55,
+   "xgA": 1.24,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    2.07,
-    3.29,
-    3.57
+   "goals": [
+    [
+     "A",
+     74
+    ],
+    [
+     "H",
+     87
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Mbwana Samatta",
+     "kind": "but",
+     "min": 74
+    },
+    {
+     "side": "home",
+     "player": "Loïs Openda",
+     "kind": "but",
+     "min": 87
+    }
    ],
    "pred": {
-    "lh": 1.565,
-    "la": 0.865,
+    "lh": 1.547,
+    "la": 0.929,
     "p": [
-     0.538,
-     0.254,
-     0.208
+     0.518,
+     0.256,
+     0.226
     ],
-    "over25": 0.438,
-    "btts": 0.458
+    "over25": 0.45,
+    "btts": 0.476
    }
   },
   {
    "md": 2,
    "date": "2026-08-30",
-   "home": "REN",
-   "away": "LMA",
-   "hg": 3,
-   "ag": 2,
-   "htH": 2,
-   "htA": 1,
-   "xgH": 2.68,
-   "xgA": 2.98,
-   "redH": null,
-   "redA": 1,
-   "goals": null,
-   "odds": [
-    1.42,
-    4.67,
-    6.63
-   ],
-   "pred": {
-    "lh": 2.057,
-    "la": 1.305,
-    "p": [
-     0.548,
-     0.212,
-     0.24
-    ],
-    "over25": 0.653,
-    "btts": 0.636
-   }
-  },
-  {
-   "md": 2,
-   "date": "2026-08-30",
+   "time": "20:45",
    "home": "MON",
    "away": "OM",
-   "hg": 2,
-   "ag": 0,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.49,
-   "xgA": 1.22,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     2.38,
     3.68,
     2.66
    ],
-   "pred": {
-    "lh": 1.63,
-    "la": 1.504,
-    "p": [
-     0.409,
-     0.237,
-     0.354
-    ],
-    "over25": 0.606,
-    "btts": 0.625
-   }
-  },
-  {
-   "md": 3,
-   "date": "2026-09-03",
-   "home": "TOU",
-   "away": "LIL",
-   "hg": 0,
-   "ag": 1,
-   "htH": 0,
+   "src": "https://onefootball.com/fr/match/2688657",
+   "hg": 2,
+   "ag": 0,
+   "htH": 1,
    "htA": 0,
-   "xgH": 3.41,
-   "xgA": 1.07,
+   "sotH": 5,
+   "sotA": 2,
+   "xgH": 1.55,
+   "xgA": 0.62,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    3.36,
-    3.3,
-    2.12
+   "goals": [
+    [
+     "H",
+     13
+    ],
+    [
+     "H",
+     53
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Paris Brunner",
+     "kind": "but",
+     "min": 13
+    },
+    {
+     "side": "home",
+     "player": "Paris Brunner",
+     "kind": "but",
+     "min": 53
+    }
    ],
    "pred": {
-    "lh": 1.235,
-    "la": 1.357,
+    "lh": 1.669,
+    "la": 1.555,
     "p": [
-     0.339,
-     0.264,
-     0.397
+     0.408,
+     0.233,
+     0.359
     ],
-    "over25": 0.48,
-    "btts": 0.527
+    "over25": 0.625,
+    "btts": 0.64
    }
   },
   {
-   "md": 3,
-   "date": "2026-09-04",
-   "home": "OL",
-   "away": "AUX",
+   "md": 2,
+   "date": "2026-08-30",
+   "time": "15:00",
+   "home": "PFC",
+   "away": "NIC",
+   "odds": [
+    2.07,
+    3.29,
+    3.57
+   ],
+   "src": "https://onefootball.com/fr/match/2688658",
    "hg": 3,
-   "ag": 1,
-   "htH": 2,
-   "htA": 1,
-   "xgH": 2.85,
-   "xgA": 0.71,
+   "ag": 0,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 4,
+   "sotA": 4,
+   "xgH": 1.24,
+   "xgA": 1.24,
    "redH": null,
    "redA": null,
-   "goals": null,
+   "goals": [
+    [
+     "H",
+     21
+    ],
+    [
+     "H",
+     51
+    ],
+    [
+     "H",
+     89
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Lassine Sinayoko",
+     "kind": "penalty",
+     "min": 21
+    },
+    {
+     "side": "home",
+     "player": "Samir Chergui",
+     "kind": "but",
+     "min": 51
+    },
+    {
+     "side": "home",
+     "player": "Vincent Marchetti",
+     "kind": "but",
+     "min": 89
+    }
+   ],
+   "pred": {
+    "lh": 1.484,
+    "la": 0.853,
+    "p": [
+     0.52,
+     0.264,
+     0.216
+    ],
+    "over25": 0.414,
+    "btts": 0.444
+   }
+  },
+  {
+   "md": 2,
+   "date": "2026-08-30",
+   "time": "17:15",
+   "home": "REN",
+   "away": "LMA",
    "odds": [
     1.42,
-    4.63,
-    7.12
+    4.67,
+    6.63
    ],
-   "pred": {
-    "lh": 1.88,
-    "la": 1.161,
-    "p": [
-     0.542,
-     0.225,
-     0.234
-    ],
-    "over25": 0.586,
-    "btts": 0.582
-   }
-  },
-  {
-   "md": 3,
-   "date": "2026-09-04",
-   "home": "PSG",
-   "away": "MON",
-   "hg": 1,
+   "src": "https://onefootball.com/fr/match/2688659",
+   "hg": 3,
    "ag": 2,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 2.32,
-   "xgA": 0.5,
+   "htH": 2,
+   "htA": 1,
+   "sotH": 8,
+   "sotA": 5,
+   "xgH": 2.48,
+   "xgA": 1.55,
    "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.34,
-    5.59,
-    7.44
+   "redA": 68,
+   "goals": [
+    [
+     "H",
+     5
+    ],
+    [
+     "H",
+     26
+    ],
+    [
+     "A",
+     30
+    ],
+    [
+     "A",
+     54
+    ],
+    [
+     "H",
+     96
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Estéban Lepaul",
+     "kind": "but",
+     "min": 5
+    },
+    {
+     "side": "home",
+     "player": "Valentin Rongier",
+     "kind": "but",
+     "min": 26
+    },
+    {
+     "side": "away",
+     "player": "Louis Mafouta",
+     "kind": "but",
+     "min": 30
+    },
+    {
+     "side": "away",
+     "player": "Louis Mafouta",
+     "kind": "penalty",
+     "min": 54
+    },
+    {
+     "side": "home",
+     "player": "Estéban Lepaul",
+     "kind": "penalty",
+     "min": 96
+    }
    ],
    "pred": {
-    "lh": 1.966,
-    "la": 1.228,
+    "lh": 1.981,
+    "la": 1.339,
     "p": [
-     0.545,
+     0.524,
      0.218,
-     0.236
+     0.258
     ],
-    "over25": 0.619,
-    "btts": 0.608
+    "over25": 0.645,
+    "btts": 0.636
    }
   },
   {
-   "md": 3,
-   "date": "2026-09-05",
-   "home": "LEN",
-   "away": "LOR",
-   "hg": 0,
-   "ag": 1,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.24,
-   "xgA": 1.6,
-   "redH": 1,
-   "redA": null,
-   "goals": null,
+   "md": 2,
+   "date": "2026-08-29",
+   "time": "17:15",
+   "home": "STR",
+   "away": "LEN",
    "odds": [
-    1.45,
-    4.46,
-    6.33
+    3.39,
+    3.55,
+    2.04
    ],
-   "pred": {
-    "lh": 2.105,
-    "la": 1.184,
-    "p": [
-     0.585,
-     0.207,
-     0.208
-    ],
-    "over25": 0.638,
-    "btts": 0.609
-   }
-  },
-  {
-   "md": 3,
-   "date": "2026-09-05",
-   "home": "HAV",
-   "away": "BRE",
-   "hg": 1,
-   "ag": 2,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 2.01,
-   "xgA": 2.37,
-   "redH": 1,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.59,
-    3.23,
-    2.7
-   ],
-   "pred": {
-    "lh": 1.327,
-    "la": 1.182,
-    "p": [
-     0.4,
-     0.269,
-     0.331
-    ],
-    "over25": 0.458,
-    "btts": 0.509
-   }
-  },
-  {
-   "md": 3,
-   "date": "2026-09-05",
-   "home": "NIC",
-   "away": "LMA",
-   "hg": 1,
-   "ag": 1,
-   "htH": 1,
-   "htA": 1,
-   "xgH": 1.13,
-   "xgA": 1.28,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.83,
-    3.63,
-    4.15
-   ],
-   "pred": {
-    "lh": 1.409,
-    "la": 1.531,
-    "p": [
-     0.35,
-     0.245,
-     0.405
-    ],
-    "over25": 0.563,
-    "btts": 0.592
-   }
-  },
-  {
-   "md": 3,
-   "date": "2026-09-06",
-   "home": "TRO",
-   "away": "STR",
+   "src": "https://onefootball.com/fr/match/2688660",
    "hg": 2,
-   "ag": 6,
-   "htH": 1,
-   "htA": 2,
-   "xgH": 2.94,
-   "xgA": 2.95,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 7,
+   "sotA": 7,
+   "xgH": 2.17,
+   "xgA": 2.17,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    3.01,
-    3.35,
-    2.28
+   "goals": [
+    [
+     "A",
+     38
+    ],
+    [
+     "H",
+     48
+    ],
+    [
+     "H",
+     85
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Florian Thauvin",
+     "kind": "penalty",
+     "min": 38
+    },
+    {
+     "side": "home",
+     "player": "Gessime Yassine",
+     "kind": "but",
+     "min": 48
+    },
+    {
+     "side": "home",
+     "player": "Gessime Yassine",
+     "kind": "but",
+     "min": 85
+    }
    ],
    "pred": {
-    "lh": 1.629,
-    "la": 1.232,
+    "lh": 1.549,
+    "la": 2.061,
     "p": [
-     0.467,
-     0.244,
-     0.289
+     0.291,
+     0.212,
+     0.496
     ],
-    "over25": 0.545,
-    "btts": 0.569
+    "over25": 0.699,
+    "btts": 0.687
+   }
+  },
+  {
+   "md": 2,
+   "date": "2026-08-28",
+   "time": "20:45",
+   "home": "LIL",
+   "away": "PSG",
+   "odds": [
+    4.81,
+    3.86,
+    1.69
+   ],
+   "src": "https://onefootball.com/fr/match/2688661",
+   "hg": 2,
+   "ag": 2,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 4,
+   "sotA": 4,
+   "xgH": 1.24,
+   "xgA": 1.24,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     21
+    ],
+    [
+     "H",
+     84
+    ],
+    [
+     "A",
+     91
+    ],
+    [
+     "A",
+     95
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Hakon Arnar Haraldsson",
+     "kind": "but",
+     "min": 21
+    },
+    {
+     "side": "home",
+     "player": "Dilane Bakwa",
+     "kind": "but",
+     "min": 84
+    },
+    {
+     "side": "away",
+     "player": "Vitinha",
+     "kind": "but",
+     "min": 91
+    },
+    {
+     "side": "away",
+     "player": "Marquinhos",
+     "kind": "but",
+     "min": 95
+    }
+   ],
+   "pred": {
+    "lh": 1.258,
+    "la": 1.288,
+    "p": [
+     0.36,
+     0.267,
+     0.373
+    ],
+    "over25": 0.468,
+    "btts": 0.518
    }
   },
   {
    "md": 3,
    "date": "2026-09-06",
+   "time": "17:15",
    "home": "ANG",
    "away": "REN",
-   "hg": 1,
-   "ag": 2,
-   "htH": 1,
-   "htA": 2,
-   "xgH": 1.65,
-   "xgA": 1.54,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     3.79,
     3.75,
     1.86
    ],
-   "pred": {
-    "lh": 1.447,
-    "la": 1.604,
-    "p": [
-     0.346,
-     0.24,
-     0.414
+   "src": "https://onefootball.com/fr/match/2688662",
+   "hg": 1,
+   "ag": 2,
+   "htH": 1,
+   "htA": 2,
+   "sotH": 3,
+   "sotA": 5,
+   "xgH": 0.93,
+   "xgA": 1.55,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     9
     ],
-    "over25": 0.588,
-    "btts": 0.611
+    [
+     "A",
+     17
+    ],
+    [
+     "H",
+     35
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Przemysław Frankowski",
+     "kind": "but",
+     "min": 9
+    },
+    {
+     "side": "away",
+     "player": "Jordan Lefort",
+     "kind": "csc",
+     "min": 17
+    },
+    {
+     "side": "home",
+     "player": "Carlens Arcus",
+     "kind": "but",
+     "min": 35
+    }
+   ],
+   "pred": {
+    "lh": 1.354,
+    "la": 1.672,
+    "p": [
+     0.311,
+     0.239,
+     0.45
+    ],
+    "over25": 0.582,
+    "btts": 0.602
+   }
+  },
+  {
+   "md": 3,
+   "date": "2026-09-05",
+   "time": "20:45",
+   "home": "HAV",
+   "away": "BRE",
+   "odds": [
+    2.59,
+    3.23,
+    2.7
+   ],
+   "src": "https://onefootball.com/fr/match/2688663",
+   "hg": 1,
+   "ag": 2,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 4,
+   "sotA": 9,
+   "xgH": 1.24,
+   "xgA": 2.79,
+   "redH": 47,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     12
+    ],
+    [
+     "A",
+     51
+    ],
+    [
+     "H",
+     79
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Kamory Doumbia",
+     "kind": "penalty",
+     "min": 12
+    },
+    {
+     "side": "away",
+     "player": "Kamory Doumbia",
+     "kind": "but",
+     "min": 51
+    },
+    {
+     "side": "home",
+     "player": "Rayan Fofana",
+     "kind": "penalty",
+     "min": 79
+    }
+   ],
+   "pred": {
+    "lh": 1.395,
+    "la": 1.168,
+    "p": [
+     0.421,
+     0.264,
+     0.314
+    ],
+    "over25": 0.472,
+    "btts": 0.518
+   }
+  },
+  {
+   "md": 3,
+   "date": "2026-09-05",
+   "time": "17:15",
+   "home": "LEN",
+   "away": "LOR",
+   "odds": [
+    1.45,
+    4.46,
+    6.33
+   ],
+   "src": "https://onefootball.com/fr/match/2688664",
+   "hg": 0,
+   "ag": 1,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 6,
+   "sotA": 3,
+   "xgH": 1.86,
+   "xgA": 0.93,
+   "redH": 92,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     54
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Mamadou Koné",
+     "kind": "but",
+     "min": 54
+    }
+   ],
+   "pred": {
+    "lh": 1.949,
+    "la": 1.186,
+    "p": [
+     0.551,
+     0.22,
+     0.229
+    ],
+    "over25": 0.606,
+    "btts": 0.596
+   }
+  },
+  {
+   "md": 3,
+   "date": "2026-09-04",
+   "time": "19:00",
+   "home": "OL",
+   "away": "AUX",
+   "odds": [
+    1.42,
+    4.63,
+    7.12
+   ],
+   "src": "https://onefootball.com/fr/match/2688665",
+   "hg": 3,
+   "ag": 1,
+   "htH": 2,
+   "htA": 1,
+   "sotH": 7,
+   "sotA": 3,
+   "xgH": 2.17,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     28
+    ],
+    [
+     "H",
+     31
+    ],
+    [
+     "A",
+     42
+    ],
+    [
+     "H",
+     53
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Felix Bacher",
+     "kind": "but",
+     "min": 28
+    },
+    {
+     "side": "home",
+     "player": "Zachary Athekame",
+     "kind": "but",
+     "min": 31
+    },
+    {
+     "side": "away",
+     "player": "Cameron Archer",
+     "kind": "but",
+     "min": 42
+    },
+    {
+     "side": "home",
+     "player": "Ernest Nuamah",
+     "kind": "but",
+     "min": 53
+    }
+   ],
+   "pred": {
+    "lh": 1.838,
+    "la": 1.123,
+    "p": [
+     0.541,
+     0.228,
+     0.231
+    ],
+    "over25": 0.568,
+    "btts": 0.567
    }
   },
   {
    "md": 3,
    "date": "2026-09-06",
+   "time": "20:45",
    "home": "OM",
    "away": "PFC",
-   "hg": 2,
-   "ag": 3,
-   "htH": 1,
-   "htA": 2,
-   "xgH": 1.42,
-   "xgA": 3.29,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     1.75,
     3.86,
     4.16
    ],
-   "pred": {
-    "lh": 1.407,
-    "la": 1.285,
-    "p": [
-     0.399,
-     0.258,
-     0.343
-    ],
-    "over25": 0.505,
-    "btts": 0.546
-   }
-  },
-  {
-   "md": 4,
-   "date": "2026-09-11",
-   "home": "REN",
-   "away": "OM",
-   "hg": 1,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.89,
-   "xgA": 1.34,
+   "src": "https://onefootball.com/fr/match/2688666",
+   "hg": 2,
+   "ag": 3,
+   "htH": 1,
+   "htA": 2,
+   "sotH": 5,
+   "sotA": 7,
+   "xgH": 1.55,
+   "xgA": 2.17,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    2.09,
-    3.81,
-    3.07
+   "goals": [
+    [
+     "A",
+     1
+    ],
+    [
+     "H",
+     8
+    ],
+    [
+     "A",
+     19
+    ],
+    [
+     "H",
+     53
+    ],
+    [
+     "A",
+     86
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Lassine Sinayoko",
+     "kind": "but",
+     "min": 1
+    },
+    {
+     "side": "home",
+     "player": "Amine Gouiri",
+     "kind": "but",
+     "min": 8
+    },
+    {
+     "side": "away",
+     "player": "Lassine Sinayoko",
+     "kind": "but",
+     "min": 19
+    },
+    {
+     "side": "home",
+     "player": "Amine Gouiri",
+     "kind": "but",
+     "min": 53
+    },
+    {
+     "side": "away",
+     "player": "Lassine Sinayoko",
+     "kind": "penalty",
+     "min": 86
+    }
    ],
    "pred": {
-    "lh": 1.892,
-    "la": 1.612,
+    "lh": 1.443,
+    "la": 1.211,
     "p": [
-     0.447,
-     0.221,
-     0.333
+     0.424,
+     0.259,
+     0.317
     ],
-    "over25": 0.68,
-    "btts": 0.68
+    "over25": 0.495,
+    "btts": 0.536
    }
   },
   {
-   "md": 4,
-   "date": "2026-09-12",
-   "home": "STR",
-   "away": "MON",
+   "md": 3,
+   "date": "2026-09-05",
+   "time": "20:45",
+   "home": "NIC",
+   "away": "LMA",
+   "odds": [
+    1.83,
+    3.63,
+    4.15
+   ],
+   "src": "https://onefootball.com/fr/match/2688667",
    "hg": 1,
+   "ag": 1,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 2,
+   "sotA": 3,
+   "xgH": 0.62,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     13
+    ],
+    [
+     "H",
+     44
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Adil Bourabaa",
+     "kind": "but",
+     "min": 13
+    },
+    {
+     "side": "home",
+     "player": "Elye Wahi",
+     "kind": "but",
+     "min": 44
+    }
+   ],
+   "pred": {
+    "lh": 1.362,
+    "la": 1.42,
+    "p": [
+     0.36,
+     0.254,
+     0.386
+    ],
+    "over25": 0.526,
+    "btts": 0.564
+   }
+  },
+  {
+   "md": 3,
+   "date": "2026-09-04",
+   "time": "21:05",
+   "home": "PSG",
+   "away": "MON",
+   "odds": [
+    1.34,
+    5.59,
+    7.44
+   ],
+   "src": "https://onefootball.com/fr/match/2688668",
+   "hg": 1,
+   "ag": 2,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 10,
+   "sotA": 2,
+   "xgH": 3.1,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     31
+    ],
+    [
+     "A",
+     58
+    ],
+    [
+     "A",
+     72
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Marquinhos",
+     "kind": "but",
+     "min": 31
+    },
+    {
+     "side": "away",
+     "player": "Flávio Nazinho",
+     "kind": "but",
+     "min": 58
+    },
+    {
+     "side": "away",
+     "player": "Stanis Idumbo",
+     "kind": "but",
+     "min": 72
+    }
+   ],
+   "pred": {
+    "lh": 1.948,
+    "la": 1.245,
+    "p": [
+     0.538,
+     0.22,
+     0.242
+    ],
+    "over25": 0.619,
+    "btts": 0.611
+   }
+  },
+  {
+   "md": 3,
+   "date": "2026-09-03",
+   "time": "20:45",
+   "home": "TOU",
+   "away": "LIL",
+   "odds": [
+    3.36,
+    3.3,
+    2.12
+   ],
+   "src": "https://onefootball.com/fr/match/2688669",
+   "hg": 0,
    "ag": 1,
    "htH": 0,
    "htA": 0,
-   "xgH": 1.01,
-   "xgA": 1.05,
+   "sotH": 10,
+   "sotA": 6,
+   "xgH": 3.1,
+   "xgA": 1.86,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    3.01,
-    3.71,
-    2.15
+   "goals": [
+    [
+     "A",
+     73
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Ayase Ueda",
+     "kind": "but",
+     "min": 73
+    }
    ],
    "pred": {
-    "lh": 1.782,
-    "la": 1.744,
+    "lh": 1.119,
+    "la": 1.377,
     "p": [
-     0.397,
-     0.222,
-     0.381
+     0.305,
+     0.268,
+     0.428
     ],
-    "over25": 0.684,
-    "btts": 0.686
+    "over25": 0.455,
+    "btts": 0.503
+   }
+  },
+  {
+   "md": 3,
+   "date": "2026-09-06",
+   "time": "15:00",
+   "home": "TRO",
+   "away": "STR",
+   "odds": [
+    3.01,
+    3.35,
+    2.28
+   ],
+   "src": "https://onefootball.com/fr/match/2688670",
+   "hg": 2,
+   "ag": 6,
+   "htH": 1,
+   "htA": 2,
+   "sotH": 6,
+   "sotA": 12,
+   "xgH": 1.86,
+   "xgA": 3.72,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     9
+    ],
+    [
+     "A",
+     40
+    ],
+    [
+     "A",
+     42
+    ],
+    [
+     "A",
+     57
+    ],
+    [
+     "A",
+     85
+    ],
+    [
+     "A",
+     88
+    ],
+    [
+     "A",
+     92
+    ],
+    [
+     "H",
+     95
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Antoine Mille",
+     "kind": "but",
+     "min": 9
+    },
+    {
+     "side": "away",
+     "player": "Jacobo Ortega",
+     "kind": "but",
+     "min": 40
+    },
+    {
+     "side": "away",
+     "player": "Diogo Sousa",
+     "kind": "but",
+     "min": 42
+    },
+    {
+     "side": "away",
+     "player": "Giovanni Reyna",
+     "kind": "but",
+     "min": 57
+    },
+    {
+     "side": "away",
+     "player": "Sam Amo-Ameyaw",
+     "kind": "but",
+     "min": 85
+    },
+    {
+     "side": "away",
+     "player": "Sam Amo-Ameyaw",
+     "kind": "but",
+     "min": 88
+    },
+    {
+     "side": "away",
+     "player": "Conrad Harder",
+     "kind": "but",
+     "min": 92
+    },
+    {
+     "side": "home",
+     "player": "Jeremy Le Douaron",
+     "kind": "but",
+     "min": 95
+    }
+   ],
+   "pred": {
+    "lh": 1.574,
+    "la": 1.221,
+    "p": [
+     0.455,
+     0.249,
+     0.296
+    ],
+    "over25": 0.529,
+    "btts": 0.559
    }
   },
   {
    "md": 4,
    "date": "2026-09-12",
+   "time": "20:45",
    "home": "AUX",
    "away": "NIC",
-   "hg": 1,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.74,
-   "xgA": 1.08,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     2.54,
     3.32,
     2.71
    ],
-   "pred": {
-    "lh": 1.533,
-    "la": 1.204,
-    "p": [
-     0.449,
-     0.252,
-     0.299
-    ],
-    "over25": 0.515,
-    "btts": 0.549
-   }
-  },
-  {
-   "md": 4,
-   "date": "2026-09-12",
-   "home": "HAV",
-   "away": "ANG",
-   "hg": 0,
+   "src": "https://onefootball.com/fr/match/2688671",
+   "hg": 1,
    "ag": 0,
    "htH": 0,
    "htA": 0,
-   "xgH": 1.31,
-   "xgA": 0.6,
+   "sotH": 7,
+   "sotA": 4,
+   "xgH": 2.17,
+   "xgA": 1.24,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    2.46,
-    3.21,
-    2.86
+   "goals": [
+    [
+     "H",
+     74
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Cameron Archer",
+     "kind": "but",
+     "min": 74
+    }
    ],
    "pred": {
-    "lh": 1.268,
-    "la": 1.057,
+    "lh": 1.478,
+    "la": 1.146,
     "p": [
-     0.412,
-     0.28,
-     0.308
+     0.448,
+     0.258,
+     0.294
     ],
-    "over25": 0.411,
-    "btts": 0.469
-   }
-  },
-  {
-   "md": 4,
-   "date": "2026-09-12",
-   "home": "LOR",
-   "away": "TOU",
-   "hg": 2,
-   "ag": 2,
-   "htH": 2,
-   "htA": 0,
-   "xgH": 0.94,
-   "xgA": 1.63,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.56,
-    3.3,
-    2.68
-   ],
-   "pred": {
-    "lh": 1.417,
-    "la": 1.158,
-    "p": [
-     0.43,
-     0.263,
-     0.308
-    ],
-    "over25": 0.475,
-    "btts": 0.52
-   }
-  },
-  {
-   "md": 4,
-   "date": "2026-09-12",
-   "home": "PFC",
-   "away": "OL",
-   "hg": 0,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 0.3,
-   "xgA": 0.5,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.62,
-    3.58,
-    2.47
-   ],
-   "pred": {
-    "lh": 1.622,
-    "la": 1.244,
-    "p": [
-     0.462,
-     0.245,
-     0.293
-    ],
-    "over25": 0.546,
-    "btts": 0.571
+    "over25": 0.488,
+    "btts": 0.526
    }
   },
   {
    "md": 4,
    "date": "2026-09-13",
-   "home": "LIL",
-   "away": "TRO",
-   "hg": 2,
-   "ag": 0,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.56,
-   "xgA": 0.44,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.39,
-    4.69,
-    7.36
-   ],
-   "pred": {
-    "lh": 1.841,
-    "la": 1.139,
-    "p": [
-     0.538,
-     0.228,
-     0.234
-    ],
-    "over25": 0.572,
-    "btts": 0.572
-   }
-  },
-  {
-   "md": 4,
-   "date": "2026-09-13",
-   "home": "LMA",
-   "away": "LEN",
-   "hg": 2,
-   "ag": 2,
-   "htH": 2,
-   "htA": 1,
-   "xgH": 2.58,
-   "xgA": 1.62,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    4.77,
-    4.02,
-    1.64
-   ],
-   "pred": {
-    "lh": 1.532,
-    "la": 2.01,
-    "p": [
-     0.296,
-     0.215,
-     0.489
-    ],
-    "over25": 0.687,
-    "btts": 0.679
-   }
-  },
-  {
-   "md": 4,
-   "date": "2026-09-13",
+   "time": "20:45",
    "home": "BRE",
    "away": "PSG",
-   "hg": 0,
-   "ag": 1,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 1.25,
-   "xgA": 1.16,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     9.85,
     5.88,
     1.25
    ],
+   "src": "https://onefootball.com/fr/match/2688672",
+   "hg": 0,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 5,
+   "sotA": 7,
+   "xgH": 1.55,
+   "xgA": 2.17,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     5
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Ferran Torres",
+     "kind": "but",
+     "min": 5
+    }
+   ],
    "pred": {
-    "lh": 1.364,
-    "la": 1.87,
+    "lh": 1.345,
+    "la": 1.873,
     "p": [
-     0.281,
+     0.276,
      0.225,
-     0.494
+     0.499
     ],
-    "over25": 0.627,
-    "btts": 0.63
+    "over25": 0.624,
+    "btts": 0.626
    }
   },
   {
-   "md": 5,
-   "date": "2026-09-18",
-   "home": "MON",
+   "md": 4,
+   "date": "2026-09-12",
+   "time": "20:45",
+   "home": "HAV",
+   "away": "ANG",
+   "odds": [
+    2.46,
+    3.21,
+    2.86
+   ],
+   "src": "https://onefootball.com/fr/match/2688673",
+   "hg": 0,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 6,
+   "sotA": 1,
+   "xgH": 1.86,
+   "xgA": 0.31,
+   "redH": null,
+   "redA": null,
+   "goals": [],
+   "scorers": [],
+   "pred": {
+    "lh": 1.325,
+    "la": 1.043,
+    "p": [
+     0.431,
+     0.275,
+     0.294
+    ],
+    "over25": 0.422,
+    "btts": 0.475
+   }
+  },
+  {
+   "md": 4,
+   "date": "2026-09-13",
+   "time": "17:15",
+   "home": "LMA",
    "away": "LEN",
+   "odds": [
+    4.77,
+    4.02,
+    1.64
+   ],
+   "src": "https://onefootball.com/fr/match/2688674",
    "hg": 2,
-   "ag": 1,
-   "htH": 1,
+   "ag": 2,
+   "htH": 2,
    "htA": 0,
-   "xgH": 1.42,
-   "xgA": 1.04,
+   "sotH": 5,
+   "sotA": 6,
+   "xgH": 1.55,
+   "xgA": 1.86,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    2.01,
-    3.71,
-    3.42
+   "goals": [
+    [
+     "H",
+     32
+    ],
+    [
+     "H",
+     44
+    ],
+    [
+     "A",
+     47
+    ],
+    [
+     "A",
+     51
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Adil Bourabaa",
+     "kind": "but",
+     "min": 32
+    },
+    {
+     "side": "home",
+     "player": "Lucas Calodat",
+     "kind": "but",
+     "min": 44
+    },
+    {
+     "side": "away",
+     "player": "Abdallah Sima",
+     "kind": "but",
+     "min": 47
+    },
+    {
+     "side": "away",
+     "player": "Franjo Ivanović",
+     "kind": "but",
+     "min": 51
+    }
    ],
    "pred": {
-    "lh": 1.698,
-    "la": 1.515,
+    "lh": 1.456,
+    "la": 1.881,
     "p": [
-     0.423,
-     0.233,
-     0.345
+     0.3,
+     0.224,
+     0.477
     ],
-    "over25": 0.623,
-    "btts": 0.637
+    "over25": 0.648,
+    "btts": 0.65
    }
   },
   {
-   "md": 5,
-   "date": "2026-09-19",
-   "home": "PFC",
-   "away": "STR",
-   "hg": 2,
-   "ag": 1,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.05,
-   "xgA": 0.24,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.0,
-    3.67,
-    3.4
-   ],
-   "pred": {
-    "lh": 1.863,
-    "la": 1.29,
-    "p": [
-     0.508,
-     0.226,
-     0.265
-    ],
-    "over25": 0.61,
-    "btts": 0.612
-   }
-  },
-  {
-   "md": 5,
-   "date": "2026-09-19",
-   "home": "ANG",
+   "md": 4,
+   "date": "2026-09-13",
+   "time": "15:00",
+   "home": "LIL",
    "away": "TRO",
+   "odds": [
+    1.39,
+    4.69,
+    7.36
+   ],
+   "src": "https://onefootball.com/fr/match/2688675",
    "hg": 2,
    "ag": 0,
    "htH": 1,
    "htA": 0,
-   "xgH": 2.25,
-   "xgA": 1.02,
+   "sotH": 6,
+   "sotA": 1,
+   "xgH": 1.86,
+   "xgA": 0.31,
    "redH": null,
    "redA": null,
-   "goals": null,
+   "goals": [
+    [
+     "H",
+     18
+    ],
+    [
+     "H",
+     93
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Tiago Santos",
+     "kind": "but",
+     "min": 18
+    },
+    {
+     "side": "home",
+     "player": "Ethan Mbappé",
+     "kind": "but",
+     "min": 93
+    }
+   ],
+   "pred": {
+    "lh": 1.926,
+    "la": 1.018,
+    "p": [
+     0.585,
+     0.219,
+     0.196
+    ],
+    "over25": 0.564,
+    "btts": 0.546
+   }
+  },
+  {
+   "md": 4,
+   "date": "2026-09-12",
+   "time": "20:45",
+   "home": "LOR",
+   "away": "TOU",
+   "odds": [
+    2.56,
+    3.3,
+    2.68
+   ],
+   "src": "https://onefootball.com/fr/match/2688676",
+   "hg": 2,
+   "ag": 2,
+   "htH": 2,
+   "htA": 0,
+   "sotH": 3,
+   "sotA": 4,
+   "xgH": 0.93,
+   "xgA": 1.24,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     37
+    ],
+    [
+     "H",
+     39
+    ],
+    [
+     "A",
+     48
+    ],
+    [
+     "A",
+     68
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Ibrahima Baldé",
+     "kind": "but",
+     "min": 37
+    },
+    {
+     "side": "home",
+     "player": "Noah Mbamba",
+     "kind": "but",
+     "min": 39
+    },
+    {
+     "side": "away",
+     "player": "Casper Tengstedt",
+     "kind": "but",
+     "min": 48
+    },
+    {
+     "side": "away",
+     "player": "Thomas Jørgensen",
+     "kind": "but",
+     "min": 68
+    }
+   ],
+   "pred": {
+    "lh": 1.412,
+    "la": 1.074,
+    "p": [
+     0.447,
+     0.266,
+     0.287
+    ],
+    "over25": 0.453,
+    "btts": 0.498
+   }
+  },
+  {
+   "md": 4,
+   "date": "2026-09-12",
+   "time": "20:45",
+   "home": "PFC",
+   "away": "OL",
+   "odds": [
+    2.62,
+    3.58,
+    2.47
+   ],
+   "src": "https://onefootball.com/fr/match/2688677",
+   "hg": 0,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 4,
+   "sotA": 1,
+   "xgH": 1.24,
+   "xgA": 0.31,
+   "redH": null,
+   "redA": null,
+   "goals": [],
+   "scorers": [],
+   "pred": {
+    "lh": 1.459,
+    "la": 1.262,
+    "p": [
+     0.417,
+     0.256,
+     0.327
+    ],
+    "over25": 0.511,
+    "btts": 0.55
+   }
+  },
+  {
+   "md": 4,
+   "date": "2026-09-11",
+   "time": "20:45",
+   "home": "REN",
+   "away": "OM",
+   "odds": [
+    2.09,
+    3.81,
+    3.07
+   ],
+   "src": "https://onefootball.com/fr/match/2688678",
+   "hg": 1,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 7,
+   "sotA": 5,
+   "xgH": 2.17,
+   "xgA": 1.55,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     52
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Adrien Thomasson",
+     "kind": "but",
+     "min": 52
+    }
+   ],
+   "pred": {
+    "lh": 1.857,
+    "la": 1.532,
+    "p": [
+     0.455,
+     0.224,
+     0.321
+    ],
+    "over25": 0.658,
+    "btts": 0.662
+   }
+  },
+  {
+   "md": 4,
+   "date": "2026-09-12",
+   "time": "17:15",
+   "home": "STR",
+   "away": "MON",
+   "odds": [
+    3.01,
+    3.71,
+    2.15
+   ],
+   "src": "https://onefootball.com/fr/match/2688679",
+   "hg": 1,
+   "ag": 1,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 2,
+   "sotA": 3,
+   "xgH": 0.62,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     52
+    ],
+    [
+     "A",
+     71
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Sadibou Sané",
+     "kind": "csc",
+     "min": 52
+    },
+    {
+     "side": "away",
+     "player": "Paris Brunner",
+     "kind": "but",
+     "min": 71
+    }
+   ],
+   "pred": {
+    "lh": 1.872,
+    "la": 1.754,
+    "p": [
+     0.415,
+     0.218,
+     0.367
+    ],
+    "over25": 0.702,
+    "btts": 0.7
+   }
+  },
+  {
+   "md": 5,
+   "date": "2026-09-19",
+   "time": "20:45",
+   "home": "ANG",
+   "away": "TRO",
    "odds": [
     2.19,
     3.31,
     3.25
    ],
-   "pred": {
-    "lh": 1.493,
-    "la": 1.233,
-    "p": [
-     0.432,
-     0.254,
-     0.314
-    ],
-    "over25": 0.513,
-    "btts": 0.549
-   }
-  },
-  {
-   "md": 5,
-   "date": "2026-09-19",
-   "home": "LMA",
-   "away": "LOR",
+   "src": "https://onefootball.com/fr/match/2688680",
    "hg": 2,
-   "ag": 1,
+   "ag": 0,
    "htH": 1,
    "htA": 0,
-   "xgH": 0.92,
-   "xgA": 0.97,
+   "sotH": 3,
+   "sotA": 3,
+   "xgH": 0.93,
+   "xgA": 0.93,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    2.64,
-    3.39,
-    2.56
+   "goals": [
+    [
+     "H",
+     42
+    ],
+    [
+     "H",
+     57
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Prosper Peter",
+     "kind": "but",
+     "min": 42
+    },
+    {
+     "side": "home",
+     "player": "Amine Sbaï",
+     "kind": "but",
+     "min": 57
+    }
    ],
    "pred": {
-    "lh": 1.589,
-    "la": 1.422,
+    "lh": 1.437,
+    "la": 1.206,
     "p": [
-     0.416,
-     0.242,
-     0.343
+     0.424,
+     0.259,
+     0.317
     ],
-    "over25": 0.579,
-    "btts": 0.604
-   }
-  },
-  {
-   "md": 5,
-   "date": "2026-09-19",
-   "home": "OL",
-   "away": "REN",
-   "hg": 4,
-   "ag": 0,
-   "htH": 2,
-   "htA": 0,
-   "xgH": 3.13,
-   "xgA": 1.37,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.09,
-    3.72,
-    3.09
-   ],
-   "pred": {
-    "lh": 1.676,
-    "la": 1.337,
-    "p": [
-     0.455,
-     0.239,
-     0.307
-    ],
-    "over25": 0.58,
-    "btts": 0.599
-   }
-  },
-  {
-   "md": 5,
-   "date": "2026-09-19",
-   "home": "TOU",
-   "away": "HAV",
-   "hg": 3,
-   "ag": 2,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.95,
-   "xgA": 2.34,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.71,
-    3.77,
-    4.62
-   ],
-   "pred": {
-    "lh": 1.465,
-    "la": 1.043,
-    "p": [
-     0.468,
-     0.262,
-     0.269
-    ],
-    "over25": 0.458,
-    "btts": 0.498
+    "over25": 0.492,
+    "btts": 0.534
    }
   },
   {
    "md": 5,
    "date": "2026-09-20",
+   "time": "15:00",
    "home": "AUX",
    "away": "BRE",
-   "hg": 2,
-   "ag": 1,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 0.96,
-   "xgA": 0.34,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     2.79,
     3.5,
     2.36
    ],
-   "pred": {
-    "lh": 1.504,
-    "la": 1.591,
-    "p": [
-     0.362,
-     0.239,
-     0.399
+   "src": "https://onefootball.com/fr/match/2688681",
+   "hg": 2,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 4,
+   "sotA": 2,
+   "xgH": 1.24,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     23
     ],
-    "over25": 0.598,
+    [
+     "H",
+     47
+    ],
+    [
+     "H",
+     83
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Pathé Mboup",
+     "kind": "but",
+     "min": 23
+    },
+    {
+     "side": "home",
+     "player": "Cameron Archer",
+     "kind": "but",
+     "min": 47
+    },
+    {
+     "side": "home",
+     "player": "Raphaël Le Guen",
+     "kind": "csc",
+     "min": 83
+    }
+   ],
+   "pred": {
+    "lh": 1.559,
+    "la": 1.535,
+    "p": [
+     0.386,
+     0.239,
+     0.375
+    ],
+    "over25": 0.597,
     "btts": 0.619
    }
   },
   {
    "md": 5,
-   "date": "2026-09-20",
-   "home": "NIC",
-   "away": "LIL",
-   "hg": 2,
-   "ag": 1,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.53,
-   "xgA": 1.81,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    3.48,
-    3.45,
-    2.04
-   ],
-   "pred": {
-    "lh": 0.867,
-    "la": 1.382,
-    "p": [
-     0.236,
-     0.275,
-     0.489
-    ],
-    "over25": 0.39,
-    "btts": 0.434
-   }
-  },
-  {
-   "md": 5,
-   "date": "2026-09-20",
-   "home": "OM",
-   "away": "PSG",
-   "hg": 1,
-   "ag": 2,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.98,
-   "xgA": 5.09,
-   "redH": 1,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    6.72,
-    5.18,
-    1.38
-   ],
-   "pred": {
-    "lh": 1.317,
-    "la": 1.655,
-    "p": [
-     0.305,
-     0.241,
-     0.454
-    ],
-    "over25": 0.57,
-    "btts": 0.592
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-09",
-   "home": "LEN",
-   "away": "OL",
-   "hg": 2,
-   "ag": 1,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.37,
-   "xgA": 0.99,
-   "redH": 1,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.38,
-    3.68,
-    2.7
-   ],
-   "pred": {
-    "lh": 1.607,
-    "la": 1.462,
-    "p": [
-     0.412,
-     0.239,
-     0.349
-    ],
-    "over25": 0.592,
-    "btts": 0.614
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-10",
-   "home": "LIL",
-   "away": "HAV",
-   "hg": 1,
-   "ag": 0,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.19,
-   "xgA": 1.3,
-   "redH": null,
-   "redA": 1,
-   "goals": null,
-   "odds": [
-    1.42,
-    4.66,
-    6.76
-   ],
-   "pred": {
-    "lh": 1.516,
-    "la": 0.901,
-    "p": [
-     0.517,
-     0.259,
-     0.224
-    ],
-    "over25": 0.435,
-    "btts": 0.463
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-10",
-   "home": "BRE",
-   "away": "ANG",
-   "hg": 5,
-   "ag": 1,
-   "htH": 4,
-   "htA": 0,
-   "xgH": 3.82,
-   "xgA": 1.39,
-   "redH": null,
-   "redA": 1,
-   "goals": null,
-   "odds": [
-    1.98,
-    3.61,
-    3.53
-   ],
-   "pred": {
-    "lh": 1.462,
-    "la": 1.09,
-    "p": [
-     0.457,
-     0.261,
-     0.282
-    ],
-    "over25": 0.47,
-    "btts": 0.51
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-10",
-   "home": "LOR",
-   "away": "PFC",
-   "hg": 1,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 0.55,
-   "xgA": 0.97,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    3.15,
-    3.33,
-    2.23
-   ],
-   "pred": {
-    "lh": 1.119,
-    "la": 1.255,
-    "p": [
-     0.328,
-     0.278,
-     0.394
-    ],
-    "over25": 0.424,
-    "btts": 0.482
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-10",
-   "home": "MON",
-   "away": "TOU",
-   "hg": 2,
-   "ag": 2,
-   "htH": 2,
-   "htA": 0,
-   "xgH": 1.17,
-   "xgA": 1.43,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.59,
-    4.22,
-    5.03
-   ],
-   "pred": {
-    "lh": 1.86,
-    "la": 1.22,
-    "p": [
-     0.524,
-     0.227,
-     0.25
-    ],
-    "over25": 0.594,
-    "btts": 0.595
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-10",
-   "home": "PSG",
-   "away": "LMA",
-   "hg": 3,
-   "ag": 1,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 4.25,
-   "xgA": 1.43,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.08,
-    11.3,
-    22.06
-   ],
-   "pred": {
-    "lh": 2.388,
-    "la": 1.148,
-    "p": [
-     0.648,
-     0.184,
-     0.168
-    ],
-    "over25": 0.686,
-    "btts": 0.62
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-11",
-   "home": "NIC",
-   "away": "STR",
-   "hg": 2,
-   "ag": 1,
-   "htH": 1,
-   "htA": 1,
-   "xgH": 1.25,
-   "xgA": 0.63,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    2.29,
-    3.56,
-    2.87
-   ],
-   "pred": {
-    "lh": 1.338,
-    "la": 1.58,
-    "p": [
-     0.324,
-     0.245,
-     0.431
-    ],
-    "over25": 0.558,
-    "btts": 0.586
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-11",
-   "home": "REN",
-   "away": "AUX",
-   "hg": 4,
-   "ag": 1,
-   "htH": 1,
-   "htA": 1,
-   "xgH": 2.56,
-   "xgA": 1.76,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.42,
-    4.83,
-    6.43
-   ],
-   "pred": {
-    "lh": 2.03,
-    "la": 1.378,
-    "p": [
-     0.526,
-     0.215,
-     0.259
-    ],
-    "over25": 0.662,
-    "btts": 0.65
-   }
-  },
-  {
-   "md": 6,
-   "date": "2026-10-11",
-   "home": "TRO",
-   "away": "OM",
-   "hg": 0,
-   "ag": 2,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.06,
-   "xgA": 1.3,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    3.66,
-    3.81,
-    1.88
-   ],
-   "pred": {
-    "lh": 1.503,
-    "la": 1.719,
-    "p": [
-     0.338,
-     0.232,
-     0.43
-    ],
-    "over25": 0.625,
-    "btts": 0.638
-   }
-  },
-  {
-   "md": 7,
-   "date": "2026-10-16",
+   "date": "2026-09-19",
+   "time": "20:45",
    "home": "LMA",
-   "away": "TOU",
-   "hg": 0,
-   "ag": 3,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 0.95,
-   "xgA": 1.81,
-   "redH": null,
-   "redA": null,
-   "goals": null,
+   "away": "LOR",
    "odds": [
-    2.9,
-    3.51,
-    2.31
+    2.64,
+    3.39,
+    2.56
    ],
-   "pred": {
-    "lh": 1.872,
-    "la": 1.678,
-    "p": [
-     0.429,
-     0.22,
-     0.35
-    ],
-    "over25": 0.688,
-    "btts": 0.688
-   }
-  },
-  {
-   "md": 7,
-   "date": "2026-10-17",
-   "home": "STR",
-   "away": "PSG",
-   "hg": 1,
-   "ag": 3,
-   "htH": 1,
-   "htA": 0,
-   "xgH": 1.47,
-   "xgA": 2.69,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    6.35,
-    5.3,
-    1.38
-   ],
-   "pred": {
-    "lh": 1.466,
-    "la": 2.0,
-    "p": [
-     0.283,
-     0.216,
-     0.501
-    ],
-    "over25": 0.673,
-    "btts": 0.665
-   }
-  },
-  {
-   "md": 7,
-   "date": "2026-10-17",
-   "home": "LIL",
-   "away": "BRE",
-   "hg": 1,
-   "ag": 1,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 2.17,
-   "xgA": 0.78,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    1.84,
-    3.76,
-    3.88
-   ],
-   "pred": {
-    "lh": 1.588,
-    "la": 1.146,
-    "p": [
-     0.476,
-     0.249,
-     0.275
-    ],
-    "over25": 0.515,
-    "btts": 0.543
-   }
-  },
-  {
-   "md": 7,
-   "date": "2026-10-17",
-   "home": "TRO",
-   "away": "LEN",
-   "hg": 1,
-   "ag": 3,
-   "htH": 1,
-   "htA": 2,
-   "xgH": 1.24,
-   "xgA": 1.43,
-   "redH": null,
-   "redA": null,
-   "goals": null,
-   "odds": [
-    3.84,
-    3.89,
-    1.82
-   ],
-   "pred": {
-    "lh": 1.267,
-    "la": 2.004,
-    "p": [
-     0.239,
-     0.216,
-     0.545
-    ],
-    "over25": 0.635,
-    "btts": 0.622
-   }
-  },
-  {
-   "md": 7,
-   "date": "2026-10-18",
-   "home": "ANG",
-   "away": "OM",
+   "src": "https://onefootball.com/fr/match/2688682",
    "hg": 2,
-   "ag": 5,
+   "ag": 1,
    "htH": 1,
-   "htA": 2,
-   "xgH": 2.21,
-   "xgA": 2.71,
+   "htA": 0,
+   "sotH": 7,
+   "sotA": 2,
+   "xgH": 2.17,
+   "xgA": 0.62,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    3.16,
-    3.71,
-    2.07
+   "goals": [
+    [
+     "H",
+     3
+    ],
+    [
+     "H",
+     57
+    ],
+    [
+     "A",
+     78
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Adil Bourabaa",
+     "kind": "but",
+     "min": 3
+    },
+    {
+     "side": "home",
+     "player": "Habib Diallo",
+     "kind": "but",
+     "min": 57
+    },
+    {
+     "side": "away",
+     "player": "Isak Jensen",
+     "kind": "but",
+     "min": 78
+    }
    ],
    "pred": {
-    "lh": 1.367,
-    "la": 1.474,
+    "lh": 1.47,
+    "la": 1.37,
     "p": [
-     0.351,
+     0.397,
      0.25,
-     0.399
+     0.352
     ],
     "over25": 0.54,
     "btts": 0.574
    }
   },
   {
-   "md": 7,
-   "date": "2026-10-18",
-   "home": "HAV",
-   "away": "AUX",
-   "hg": 1,
-   "ag": 3,
-   "htH": 0,
-   "htA": 1,
-   "xgH": 1.4,
-   "xgA": 2.7,
+   "md": 5,
+   "date": "2026-09-19",
+   "time": "20:45",
+   "home": "OL",
+   "away": "REN",
+   "odds": [
+    2.09,
+    3.72,
+    3.09
+   ],
+   "src": "https://onefootball.com/fr/match/2688683",
+   "hg": 4,
+   "ag": 0,
+   "htH": 2,
+   "htA": 0,
+   "sotH": 9,
+   "sotA": 4,
+   "xgH": 2.79,
+   "xgA": 1.24,
    "redH": null,
    "redA": null,
-   "goals": null,
+   "goals": [
+    [
+     "H",
+     7
+    ],
+    [
+     "H",
+     30
+    ],
+    [
+     "H",
+     48
+    ],
+    [
+     "H",
+     76
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Ernest Nuamah",
+     "kind": "but",
+     "min": 7
+    },
+    {
+     "side": "home",
+     "player": "Ernest Nuamah",
+     "kind": "but",
+     "min": 30
+    },
+    {
+     "side": "home",
+     "player": "Zachary Athekame",
+     "kind": "but",
+     "min": 48
+    },
+    {
+     "side": "home",
+     "player": "Corentin Tolisso",
+     "kind": "but",
+     "min": 76
+    }
+   ],
+   "pred": {
+    "lh": 1.573,
+    "la": 1.343,
+    "p": [
+     0.429,
+     0.245,
+     0.326
+    ],
+    "over25": 0.558,
+    "btts": 0.586
+   }
+  },
+  {
+   "md": 5,
+   "date": "2026-09-18",
+   "time": "20:45",
+   "home": "MON",
+   "away": "LEN",
+   "odds": [
+    2.01,
+    3.71,
+    3.42
+   ],
+   "src": "https://onefootball.com/fr/match/2688684",
+   "hg": 2,
+   "ag": 1,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 6,
+   "sotA": 4,
+   "xgH": 1.86,
+   "xgA": 1.24,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     32
+    ],
+    [
+     "A",
+     57
+    ],
+    [
+     "H",
+     84
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Paris Brunner",
+     "kind": "but",
+     "min": 32
+    },
+    {
+     "side": "away",
+     "player": "Matthieu Udol",
+     "kind": "but",
+     "min": 57
+    },
+    {
+     "side": "home",
+     "player": "Jonathan Gradit",
+     "kind": "csc",
+     "min": 84
+    }
+   ],
+   "pred": {
+    "lh": 1.66,
+    "la": 1.496,
+    "p": [
+     0.417,
+     0.235,
+     0.347
+    ],
+    "over25": 0.611,
+    "btts": 0.628
+   }
+  },
+  {
+   "md": 5,
+   "date": "2026-09-20",
+   "time": "17:15",
+   "home": "NIC",
+   "away": "LIL",
+   "odds": [
+    3.48,
+    3.45,
+    2.04
+   ],
+   "src": "https://onefootball.com/fr/match/2688685",
+   "hg": 2,
+   "ag": 1,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 4,
+   "sotA": 8,
+   "xgH": 1.24,
+   "xgA": 2.48,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     22
+    ],
+    [
+     "H",
+     67
+    ],
+    [
+     "A",
+     79
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Nathan Ngoy",
+     "kind": "csc",
+     "min": 22
+    },
+    {
+     "side": "home",
+     "player": "Mohamed Amoura",
+     "kind": "but",
+     "min": 67
+    },
+    {
+     "side": "away",
+     "player": "Ayase Ueda",
+     "kind": "but",
+     "min": 79
+    }
+   ],
+   "pred": {
+    "lh": 0.828,
+    "la": 1.389,
+    "p": [
+     0.224,
+     0.275,
+     0.501
+    ],
+    "over25": 0.382,
+    "btts": 0.423
+   }
+  },
+  {
+   "md": 5,
+   "date": "2026-09-19",
+   "time": "17:15",
+   "home": "PFC",
+   "away": "STR",
+   "odds": [
+    2.0,
+    3.67,
+    3.4
+   ],
+   "src": "https://onefootball.com/fr/match/2688686",
+   "hg": 2,
+   "ag": 1,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 7,
+   "sotA": 1,
+   "xgH": 2.17,
+   "xgA": 0.31,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     18
+    ],
+    [
+     "H",
+     57
+    ],
+    [
+     "A",
+     88
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Ilan Kebbal",
+     "kind": "but",
+     "min": 18
+    },
+    {
+     "side": "home",
+     "player": "Pablo Pagis",
+     "kind": "but",
+     "min": 57
+    },
+    {
+     "side": "away",
+     "player": "Mamadou Mbow",
+     "kind": "csc",
+     "min": 88
+    }
+   ],
+   "pred": {
+    "lh": 1.721,
+    "la": 1.345,
+    "p": [
+     0.464,
+     0.236,
+     0.301
+    ],
+    "over25": 0.591,
+    "btts": 0.607
+   }
+  },
+  {
+   "md": 5,
+   "date": "2026-09-19",
+   "time": "20:45",
+   "home": "TOU",
+   "away": "HAV",
+   "odds": [
+    1.71,
+    3.77,
+    4.62
+   ],
+   "src": "https://onefootball.com/fr/match/2688687",
+   "hg": 3,
+   "ag": 2,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 5,
+   "sotA": 7,
+   "xgH": 1.55,
+   "xgA": 2.17,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     49
+    ],
+    [
+     "H",
+     51
+    ],
+    [
+     "A",
+     71
+    ],
+    [
+     "H",
+     79
+    ],
+    [
+     "A",
+     88
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Casper Tengstedt",
+     "kind": "penalty",
+     "min": 49
+    },
+    {
+     "side": "home",
+     "player": "Casper Tengstedt",
+     "kind": "but",
+     "min": 51
+    },
+    {
+     "side": "away",
+     "player": "Josh Maja",
+     "kind": "but",
+     "min": 71
+    },
+    {
+     "side": "home",
+     "player": "Thomas Jørgensen",
+     "kind": "but",
+     "min": 79
+    },
+    {
+     "side": "away",
+     "player": "Mbwana Samatta",
+     "kind": "but",
+     "min": 88
+    }
+   ],
+   "pred": {
+    "lh": 1.395,
+    "la": 1.068,
+    "p": [
+     0.444,
+     0.268,
+     0.288
+    ],
+    "over25": 0.447,
+    "btts": 0.494
+   }
+  },
+  {
+   "md": 5,
+   "date": "2026-09-20",
+   "time": "20:45",
+   "home": "OM",
+   "away": "PSG",
+   "odds": [
+    6.72,
+    5.18,
+    1.38
+   ],
+   "src": "https://onefootball.com/fr/match/2688688",
+   "hg": 1,
+   "ag": 2,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 4,
+   "sotA": 10,
+   "xgH": 1.24,
+   "xgA": 3.1,
+   "redH": 77,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     66
+    ],
+    [
+     "H",
+     72
+    ],
+    [
+     "A",
+     74
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Ferran Torres",
+     "kind": "but",
+     "min": 66
+    },
+    {
+     "side": "home",
+     "player": "Angel Gomes",
+     "kind": "but",
+     "min": 72
+    },
+    {
+     "side": "away",
+     "player": "Marquinhos",
+     "kind": "but",
+     "min": 74
+    }
+   ],
+   "pred": {
+    "lh": 1.341,
+    "la": 1.681,
+    "p": [
+     0.307,
+     0.238,
+     0.455
+    ],
+    "over25": 0.582,
+    "btts": 0.601
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-10",
+   "time": "20:45",
+   "home": "BRE",
+   "away": "ANG",
+   "odds": [
+    1.98,
+    3.61,
+    3.53
+   ],
+   "src": "https://onefootball.com/fr/match/2688689",
+   "hg": 5,
+   "ag": 1,
+   "htH": 4,
+   "htA": 0,
+   "sotH": 9,
+   "sotA": 3,
+   "xgH": 2.79,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": 59,
+   "goals": [
+    [
+     "H",
+     9
+    ],
+    [
+     "H",
+     17
+    ],
+    [
+     "H",
+     30
+    ],
+    [
+     "H",
+     45
+    ],
+    [
+     "A",
+     47
+    ],
+    [
+     "H",
+     54
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Ludovic Ajorque",
+     "kind": "but",
+     "min": 9
+    },
+    {
+     "side": "home",
+     "player": "Lucas Tousart",
+     "kind": "but",
+     "min": 17
+    },
+    {
+     "side": "home",
+     "player": "Kenny Lala",
+     "kind": "penalty",
+     "min": 30
+    },
+    {
+     "side": "home",
+     "player": "Mama Balde",
+     "kind": "but",
+     "min": 45
+    },
+    {
+     "side": "away",
+     "player": "Prosper Peter",
+     "kind": "but",
+     "min": 47
+    },
+    {
+     "side": "home",
+     "player": "Pathé Mboup",
+     "kind": "but",
+     "min": 54
+    }
+   ],
+   "pred": {
+    "lh": 1.535,
+    "la": 1.033,
+    "p": [
+     0.489,
+     0.256,
+     0.255
+    ],
+    "over25": 0.474,
+    "btts": 0.505
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-09",
+   "time": "20:45",
+   "home": "LEN",
+   "away": "OL",
+   "odds": [
+    2.38,
+    3.68,
+    2.7
+   ],
+   "src": "https://onefootball.com/fr/match/2688690",
+   "hg": 2,
+   "ag": 1,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 7,
+   "sotA": 5,
+   "xgH": 2.17,
+   "xgA": 1.55,
+   "redH": 84,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     36
+    ],
+    [
+     "H",
+     76
+    ],
+    [
+     "A",
+     85
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Florian Sotoca",
+     "kind": "but",
+     "min": 36
+    },
+    {
+     "side": "home",
+     "player": "Matthieu Udol",
+     "kind": "but",
+     "min": 76
+    },
+    {
+     "side": "away",
+     "player": "Khalis Merah",
+     "kind": "but",
+     "min": 85
+    }
+   ],
+   "pred": {
+    "lh": 1.582,
+    "la": 1.392,
+    "p": [
+     0.42,
+     0.243,
+     0.337
+    ],
+    "over25": 0.571,
+    "btts": 0.597
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-10",
+   "time": "17:15",
+   "home": "LIL",
+   "away": "HAV",
+   "odds": [
+    1.42,
+    4.66,
+    6.76
+   ],
+   "src": "https://onefootball.com/fr/match/2688691",
+   "hg": 1,
+   "ag": 0,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 1,
+   "sotA": 2,
+   "xgH": 0.31,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": 61,
+   "goals": [
+    [
+     "H",
+     5
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Dilane Bakwa",
+     "kind": "but",
+     "min": 5
+    }
+   ],
+   "pred": {
+    "lh": 1.628,
+    "la": 0.876,
+    "p": [
+     0.551,
+     0.247,
+     0.202
+    ],
+    "over25": 0.457,
+    "btts": 0.469
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-10",
+   "time": "20:45",
+   "home": "LOR",
+   "away": "PFC",
+   "odds": [
+    3.15,
+    3.33,
+    2.23
+   ],
+   "src": "https://onefootball.com/fr/match/2688692",
+   "hg": 1,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 5,
+   "sotA": 3,
+   "xgH": 1.55,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     68
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Gabin Bernardeau",
+     "kind": "but",
+     "min": 68
+    }
+   ],
+   "pred": {
+    "lh": 1.129,
+    "la": 1.234,
+    "p": [
+     0.335,
+     0.279,
+     0.386
+    ],
+    "over25": 0.421,
+    "btts": 0.48
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-10",
+   "time": "20:45",
+   "home": "MON",
+   "away": "TOU",
+   "odds": [
+    1.59,
+    4.22,
+    5.03
+   ],
+   "src": "https://onefootball.com/fr/match/2688693",
+   "hg": 2,
+   "ag": 2,
+   "htH": 2,
+   "htA": 0,
+   "sotH": 4,
+   "sotA": 4,
+   "xgH": 1.24,
+   "xgA": 1.24,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     29
+    ],
+    [
+     "H",
+     38
+    ],
+    [
+     "A",
+     48
+    ],
+    [
+     "A",
+     59
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Edan Diop",
+     "kind": "but",
+     "min": 29
+    },
+    {
+     "side": "home",
+     "player": "Matthis Abline",
+     "kind": "but",
+     "min": 38
+    },
+    {
+     "side": "away",
+     "player": "Casper Tengstedt",
+     "kind": "penalty",
+     "min": 48
+    },
+    {
+     "side": "away",
+     "player": "Sion Oppong",
+     "kind": "but",
+     "min": 59
+    }
+   ],
+   "pred": {
+    "lh": 1.916,
+    "la": 1.148,
+    "p": [
+     0.552,
+     0.222,
+     0.226
+    ],
+    "over25": 0.591,
+    "btts": 0.582
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-11",
+   "time": "15:00",
+   "home": "NIC",
+   "away": "STR",
+   "odds": [
+    2.29,
+    3.56,
+    2.87
+   ],
+   "src": "https://onefootball.com/fr/match/2688694",
+   "hg": 2,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 6,
+   "sotA": 3,
+   "xgH": 1.86,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     41
+    ],
+    [
+     "H",
+     47
+    ],
+    [
+     "H",
+     81
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Dário Essugo",
+     "kind": "but",
+     "min": 41
+    },
+    {
+     "side": "home",
+     "player": "Pape Diop",
+     "kind": "csc",
+     "min": 47
+    },
+    {
+     "side": "home",
+     "player": "Jonathan Clauss",
+     "kind": "but",
+     "min": 81
+    }
+   ],
+   "pred": {
+    "lh": 1.33,
+    "la": 1.575,
+    "p": [
+     0.323,
+     0.245,
+     0.432
+    ],
+    "over25": 0.555,
+    "btts": 0.583
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-10",
+   "time": "20:45",
+   "home": "PSG",
+   "away": "LMA",
+   "odds": [
+    1.08,
+    11.3,
+    22.06
+   ],
+   "src": "https://onefootball.com/fr/match/2688695",
+   "hg": 3,
+   "ag": 1,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 8,
+   "sotA": 3,
+   "xgH": 2.48,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     19
+    ],
+    [
+     "A",
+     54
+    ],
+    [
+     "H",
+     61
+    ],
+    [
+     "H",
+     68
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Lucas Beraldo",
+     "kind": "penalty",
+     "min": 19
+    },
+    {
+     "side": "away",
+     "player": "Louis Mafouta",
+     "kind": "but",
+     "min": 54
+    },
+    {
+     "side": "home",
+     "player": "Khvicha Kvaratskhelia",
+     "kind": "but",
+     "min": 61
+    },
+    {
+     "side": "home",
+     "player": "Maghnes Akliouche",
+     "kind": "but",
+     "min": 68
+    }
+   ],
+   "pred": {
+    "lh": 2.28,
+    "la": 1.114,
+    "p": [
+     0.635,
+     0.191,
+     0.174
+    ],
+    "over25": 0.659,
+    "btts": 0.603
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-11",
+   "time": "17:15",
+   "home": "REN",
+   "away": "AUX",
+   "odds": [
+    1.42,
+    4.83,
+    6.43
+   ],
+   "src": "https://onefootball.com/fr/match/2688696",
+   "hg": 4,
+   "ag": 1,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 11,
+   "sotA": 5,
+   "xgH": 3.41,
+   "xgA": 1.55,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     15
+    ],
+    [
+     "A",
+     25
+    ],
+    [
+     "H",
+     53
+    ],
+    [
+     "H",
+     92
+    ],
+    [
+     "H",
+     94
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Estéban Lepaul",
+     "kind": "but",
+     "min": 15
+    },
+    {
+     "side": "away",
+     "player": "Cameron Archer",
+     "kind": "but",
+     "min": 25
+    },
+    {
+     "side": "home",
+     "player": "Adrien Thomasson",
+     "kind": "but",
+     "min": 53
+    },
+    {
+     "side": "home",
+     "player": "Boulaye Dia",
+     "kind": "but",
+     "min": 92
+    },
+    {
+     "side": "home",
+     "player": "Boulaye Dia",
+     "kind": "but",
+     "min": 94
+    }
+   ],
+   "pred": {
+    "lh": 1.998,
+    "la": 1.35,
+    "p": [
+     0.525,
+     0.217,
+     0.258
+    ],
+    "over25": 0.65,
+    "btts": 0.64
+   }
+  },
+  {
+   "md": 6,
+   "date": "2026-10-11",
+   "time": "20:45",
+   "home": "TRO",
+   "away": "OM",
+   "odds": [
+    3.66,
+    3.81,
+    1.88
+   ],
+   "src": "https://onefootball.com/fr/match/2688697",
+   "hg": 0,
+   "ag": 2,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 3,
+   "sotA": 2,
+   "xgH": 0.93,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     50
+    ],
+    [
+     "A",
+     98
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Amine Harit",
+     "kind": "but",
+     "min": 50
+    },
+    {
+     "side": "away",
+     "player": "Himad Abdelli",
+     "kind": "penalty",
+     "min": 98
+    }
+   ],
+   "pred": {
+    "lh": 1.334,
+    "la": 1.654,
+    "p": [
+     0.31,
+     0.24,
+     0.45
+    ],
+    "over25": 0.574,
+    "btts": 0.596
+   }
+  },
+  {
+   "md": 7,
+   "date": "2026-10-18",
+   "time": "15:00",
+   "home": "ANG",
+   "away": "OM",
+   "odds": [
+    3.16,
+    3.71,
+    2.07
+   ],
+   "src": "https://onefootball.com/fr/match/2688698",
+   "hg": 2,
+   "ag": 5,
+   "htH": 1,
+   "htA": 2,
+   "sotH": 3,
+   "sotA": 8,
+   "xgH": 0.93,
+   "xgA": 2.48,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     14
+    ],
+    [
+     "A",
+     37
+    ],
+    [
+     "A",
+     43
+    ],
+    [
+     "A",
+     60
+    ],
+    [
+     "H",
+     75
+    ],
+    [
+     "A",
+     83
+    ],
+    [
+     "A",
+     85
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Lilian Raolisoa",
+     "kind": "but",
+     "min": 14
+    },
+    {
+     "side": "away",
+     "player": "Himad Abdelli",
+     "kind": "but",
+     "min": 37
+    },
+    {
+     "side": "away",
+     "player": "Nouhoum Kamissoko",
+     "kind": "but",
+     "min": 43
+    },
+    {
+     "side": "away",
+     "player": "Amine Gouiri",
+     "kind": "but",
+     "min": 60
+    },
+    {
+     "side": "home",
+     "player": "Amine El Ouazzani",
+     "kind": "penalty",
+     "min": 75
+    },
+    {
+     "side": "away",
+     "player": "Amine Harit",
+     "kind": "but",
+     "min": 83
+    },
+    {
+     "side": "away",
+     "player": "Igor Paixao",
+     "kind": "but",
+     "min": 85
+    }
+   ],
+   "pred": {
+    "lh": 1.217,
+    "la": 1.463,
+    "p": [
+     0.315,
+     0.257,
+     0.428
+    ],
+    "over25": 0.502,
+    "btts": 0.541
+   }
+  },
+  {
+   "md": 7,
+   "date": "2026-10-18",
+   "time": "17:15",
+   "home": "HAV",
+   "away": "AUX",
    "odds": [
     2.28,
     3.36,
     3.01
    ],
-   "pred": {
-    "lh": 1.536,
-    "la": 1.117,
-    "p": [
-     0.469,
-     0.254,
-     0.276
+   "src": "https://onefootball.com/fr/match/2688699",
+   "hg": 1,
+   "ag": 3,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 6,
+   "sotA": 6,
+   "xgH": 1.86,
+   "xgA": 1.86,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     40
     ],
-    "over25": 0.495,
-    "btts": 0.528
+    [
+     "A",
+     61
+    ],
+    [
+     "H",
+     66
+    ],
+    [
+     "A",
+     80
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Danny Namaso",
+     "kind": "but",
+     "min": 40
+    },
+    {
+     "side": "away",
+     "player": "Danny Namaso",
+     "kind": "but",
+     "min": 61
+    },
+    {
+     "side": "home",
+     "player": "Rayan Fofana",
+     "kind": "but",
+     "min": 66
+    },
+    {
+     "side": "away",
+     "player": "Romain Faivre",
+     "kind": "but",
+     "min": 80
+    }
+   ],
+   "pred": {
+    "lh": 1.522,
+    "la": 1.122,
+    "p": [
+     0.465,
+     0.255,
+     0.28
+    ],
+    "over25": 0.493,
+    "btts": 0.527
+   }
+  },
+  {
+   "md": 7,
+   "date": "2026-10-16",
+   "time": "20:45",
+   "home": "LMA",
+   "away": "TOU",
+   "odds": [
+    2.9,
+    3.51,
+    2.31
+   ],
+   "src": "https://onefootball.com/fr/match/2688700",
+   "hg": 0,
+   "ag": 3,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 1,
+   "sotA": 5,
+   "xgH": 0.31,
+   "xgA": 1.55,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     46
+    ],
+    [
+     "A",
+     59
+    ],
+    [
+     "A",
+     87
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Jacen Russell-Rowe",
+     "kind": "but",
+     "min": 46
+    },
+    {
+     "side": "away",
+     "player": "Aron Donnum",
+     "kind": "but",
+     "min": 59
+    },
+    {
+     "side": "away",
+     "player": "Casper Tengstedt",
+     "kind": "but",
+     "min": 87
+    }
+   ],
+   "pred": {
+    "lh": 1.826,
+    "la": 1.455,
+    "p": [
+     0.465,
+     0.227,
+     0.308
+    ],
+    "over25": 0.637,
+    "btts": 0.643
+   }
+  },
+  {
+   "md": 7,
+   "date": "2026-10-17",
+   "time": "20:45",
+   "home": "LIL",
+   "away": "BRE",
+   "odds": [
+    1.84,
+    3.76,
+    3.88
+   ],
+   "src": "https://onefootball.com/fr/match/2688701",
+   "hg": 1,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 5,
+   "sotA": 2,
+   "xgH": 1.55,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     6
+    ],
+    [
+     "H",
+     64
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Mama Balde",
+     "kind": "but",
+     "min": 6
+    },
+    {
+     "side": "home",
+     "player": "Olivier Giroud",
+     "kind": "penalty",
+     "min": 64
+    }
+   ],
+   "pred": {
+    "lh": 1.676,
+    "la": 1.07,
+    "p": [
+     0.515,
+     0.242,
+     0.242
+    ],
+    "over25": 0.517,
+    "btts": 0.534
    }
   },
   {
    "md": 7,
    "date": "2026-10-18",
+   "time": "17:15",
    "home": "LOR",
    "away": "MON",
-   "hg": 1,
-   "ag": 0,
-   "htH": 0,
-   "htA": 0,
-   "xgH": 1.74,
-   "xgA": 0.6,
-   "redH": null,
-   "redA": null,
-   "goals": null,
    "odds": [
     3.48,
     3.46,
     2.03
    ],
-   "pred": {
-    "lh": 1.284,
-    "la": 1.228,
-    "p": [
-     0.379,
-     0.269,
-     0.352
-    ],
-    "over25": 0.459,
-    "btts": 0.511
-   }
-  },
-  {
-   "md": 7,
-   "date": "2026-10-18",
-   "home": "PFC",
-   "away": "REN",
-   "hg": 4,
-   "ag": 3,
-   "htH": 2,
-   "htA": 1,
-   "xgH": 3.62,
-   "xgA": 3.35,
+   "src": "https://onefootball.com/fr/match/2688702",
+   "hg": 1,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 3,
+   "sotA": 4,
+   "xgH": 0.93,
+   "xgA": 1.24,
    "redH": null,
    "redA": null,
-   "goals": null,
-   "odds": [
-    2.26,
-    3.5,
-    2.93
+   "goals": [
+    [
+     "H",
+     61
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Noah Cadiou",
+     "kind": "penalty",
+     "min": 61
+    }
    ],
    "pred": {
-    "lh": 1.819,
-    "la": 1.181,
+    "lh": 1.315,
+    "la": 1.265,
     "p": [
-     0.523,
-     0.23,
-     0.247
+     0.379,
+     0.265,
+     0.356
     ],
-    "over25": 0.577,
-    "btts": 0.58
+    "over25": 0.477,
+    "btts": 0.525
    }
   },
   {
    "md": 7,
    "date": "2026-10-18",
+   "time": "20:45",
    "home": "OL",
    "away": "NIC",
-   "hg": 2,
-   "ag": 1,
-   "htH": 2,
-   "htA": 1,
-   "xgH": 1.5,
-   "xgA": 1.55,
-   "redH": 1,
-   "redA": null,
-   "goals": null,
    "odds": [
     1.66,
     3.98,
     4.63
    ],
-   "pred": {
-    "lh": 1.822,
-    "la": 0.806,
-    "p": [
-     0.615,
-     0.224,
-     0.161
+   "src": "https://onefootball.com/fr/match/2688703",
+   "hg": 2,
+   "ag": 1,
+   "htH": 2,
+   "htA": 1,
+   "sotH": 4,
+   "sotA": 5,
+   "xgH": 1.24,
+   "xgA": 1.55,
+   "redH": 70,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     18
     ],
-    "over25": 0.488,
+    [
+     "H",
+     32
+    ],
+    [
+     "H",
+     36
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Elye Wahi",
+     "kind": "but",
+     "min": 18
+    },
+    {
+     "side": "home",
+     "player": "Pavel Sulc",
+     "kind": "but",
+     "min": 32
+    },
+    {
+     "side": "home",
+     "player": "Tanner Tessmann",
+     "kind": "but",
+     "min": 36
+    }
+   ],
+   "pred": {
+    "lh": 1.782,
+    "la": 0.816,
+    "p": [
+     0.603,
+     0.229,
+     0.168
+    ],
+    "over25": 0.481,
     "btts": 0.464
    }
-  }
- ],
- "upcoming": [
-  {
-   "md": 8,
-   "date": "2026-10-23",
-   "time": "20:45",
-   "home": "BRE",
-   "away": "NIC",
-   "odds": [
-    2.21,
-    3.49,
-    3.11
-   ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 1.726,
-   "la": 1.053
   },
   {
-   "md": 8,
-   "date": "2026-10-24",
-   "time": "20:45",
-   "home": "LEN",
-   "away": "PFC",
+   "md": 7,
+   "date": "2026-10-18",
+   "time": "17:15",
+   "home": "PFC",
+   "away": "REN",
    "odds": [
-    2.39,
-    3.56,
-    2.74
+    2.26,
+    3.5,
+    2.93
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 1.712,
-   "la": 1.404
+   "src": "https://onefootball.com/fr/match/2688704",
+   "hg": 4,
+   "ag": 3,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 9,
+   "sotA": 7,
+   "xgH": 2.79,
+   "xgA": 2.17,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     14
+    ],
+    [
+     "A",
+     29
+    ],
+    [
+     "H",
+     49
+    ],
+    [
+     "A",
+     74
+    ],
+    [
+     "H",
+     76
+    ],
+    [
+     "A",
+     88
+    ],
+    [
+     "H",
+     97
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Maxime Lopez",
+     "kind": "but",
+     "min": 14
+    },
+    {
+     "side": "away",
+     "player": "Estéban Lepaul",
+     "kind": "penalty",
+     "min": 29
+    },
+    {
+     "side": "home",
+     "player": "Maxime Lopez",
+     "kind": "but",
+     "min": 49
+    },
+    {
+     "side": "away",
+     "player": "Estéban Lepaul",
+     "kind": "penalty",
+     "min": 74
+    },
+    {
+     "side": "home",
+     "player": "Lassine Sinayoko",
+     "kind": "but",
+     "min": 76
+    },
+    {
+     "side": "away",
+     "player": "Estéban Lepaul",
+     "kind": "penalty",
+     "min": 88
+    },
+    {
+     "side": "home",
+     "player": "Lassine Sinayoko",
+     "kind": "penalty",
+     "min": 97
+    }
+   ],
+   "pred": {
+    "lh": 1.705,
+    "la": 1.247,
+    "p": [
+     0.481,
+     0.238,
+     0.28
+    ],
+    "over25": 0.566,
+    "btts": 0.583
+   }
   },
   {
-   "md": 8,
-   "date": "2026-10-25",
-   "time": "15:00",
-   "home": "MON",
-   "away": "LIL",
+   "md": 7,
+   "date": "2026-10-17",
+   "time": "17:15",
+   "home": "STR",
+   "away": "PSG",
    "odds": [
-    2.04,
-    3.43,
-    3.46
+    6.35,
+    5.3,
+    1.38
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 1.314,
-   "la": 1.107
+   "src": "https://onefootball.com/fr/match/2688705",
+   "hg": 1,
+   "ag": 3,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 8,
+   "sotA": 7,
+   "xgH": 2.48,
+   "xgA": 2.17,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     17
+    ],
+    [
+     "A",
+     77
+    ],
+    [
+     "A",
+     85
+    ],
+    [
+     "A",
+     93
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Giovanni Reyna",
+     "kind": "but",
+     "min": 17
+    },
+    {
+     "side": "away",
+     "player": "Illia Zabarnyi",
+     "kind": "but",
+     "min": 77
+    },
+    {
+     "side": "away",
+     "player": "Ousmane Dembélé",
+     "kind": "but",
+     "min": 85
+    },
+    {
+     "side": "away",
+     "player": "Desire Doue",
+     "kind": "but",
+     "min": 93
+    }
+   ],
+   "pred": {
+    "lh": 1.483,
+    "la": 1.958,
+    "p": [
+     0.293,
+     0.219,
+     0.488
+    ],
+    "over25": 0.668,
+    "btts": 0.664
+   }
+  },
+  {
+   "md": 7,
+   "date": "2026-10-17",
+   "time": "20:45",
+   "home": "TRO",
+   "away": "LEN",
+   "odds": [
+    3.84,
+    3.89,
+    1.82
+   ],
+   "src": "https://onefootball.com/fr/match/2688706",
+   "hg": 1,
+   "ag": 3,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 5,
+   "sotA": 3,
+   "xgH": 1.55,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     13
+    ],
+    [
+     "H",
+     26
+    ],
+    [
+     "A",
+     47
+    ],
+    [
+     "A",
+     55
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Adrien Monfray",
+     "kind": "csc",
+     "min": 13
+    },
+    {
+     "side": "home",
+     "player": "Timothée Nkada",
+     "kind": "but",
+     "min": 26
+    },
+    {
+     "side": "away",
+     "player": "Odsonne Edouard",
+     "kind": "but",
+     "min": 47
+    },
+    {
+     "side": "away",
+     "player": "Ruben Aguilar",
+     "kind": "but",
+     "min": 55
+    }
+   ],
+   "pred": {
+    "lh": 1.174,
+    "la": 1.919,
+    "p": [
+     0.231,
+     0.222,
+     0.547
+    ],
+    "over25": 0.597,
+    "btts": 0.59
+   }
   },
   {
    "md": 8,
@@ -2443,16 +4729,30 @@
     3.28,
     2.42
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 1.142,
-   "la": 1.415
+   "src": "https://onefootball.com/fr/match/2688707",
+   "hg": 0,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 5,
+   "sotA": 1,
+   "xgH": 1.55,
+   "xgA": 0.31,
+   "redH": null,
+   "redA": null,
+   "goals": [],
+   "scorers": [],
+   "pred": {
+    "lh": 1.071,
+    "la": 1.419,
+    "p": [
+     0.284,
+     0.266,
+     0.45
+    ],
+    "over25": 0.453,
+    "btts": 0.498
+   }
   },
   {
    "md": 8,
@@ -2465,16 +4765,188 @@
     3.59,
     3.22
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 1.939,
-   "la": 1.51
+   "src": "https://onefootball.com/fr/match/2688708",
+   "hg": 1,
+   "ag": 1,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 5,
+   "sotA": 2,
+   "xgH": 1.55,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     48
+    ],
+    [
+     "H",
+     56
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Danny Namaso",
+     "kind": "csc",
+     "min": 48
+    },
+    {
+     "side": "home",
+     "player": "Cameron Archer",
+     "kind": "but",
+     "min": 56
+    }
+   ],
+   "pred": {
+    "lh": 1.838,
+    "la": 1.444,
+    "p": [
+     0.469,
+     0.227,
+     0.304
+    ],
+    "over25": 0.637,
+    "btts": 0.642
+   }
+  },
+  {
+   "md": 8,
+   "date": "2026-10-23",
+   "time": "20:45",
+   "home": "BRE",
+   "away": "NIC",
+   "odds": [
+    2.21,
+    3.49,
+    3.11
+   ],
+   "src": "https://onefootball.com/fr/match/2688709",
+   "hg": 1,
+   "ag": 2,
+   "htH": 1,
+   "htA": 0,
+   "sotH": 7,
+   "sotA": 2,
+   "xgH": 2.17,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     15
+    ],
+    [
+     "A",
+     61
+    ],
+    [
+     "A",
+     83
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Ludovic Ajorque",
+     "kind": "but",
+     "min": 15
+    },
+    {
+     "side": "away",
+     "player": "Elye Wahi",
+     "kind": "but",
+     "min": 61
+    },
+    {
+     "side": "away",
+     "player": "Sofiane Diop",
+     "kind": "but",
+     "min": 83
+    }
+   ],
+   "pred": {
+    "lh": 1.672,
+    "la": 1.052,
+    "p": [
+     0.519,
+     0.243,
+     0.238
+    ],
+    "over25": 0.512,
+    "btts": 0.528
+   }
+  },
+  {
+   "md": 8,
+   "date": "2026-10-24",
+   "time": "20:45",
+   "home": "LEN",
+   "away": "PFC",
+   "odds": [
+    2.39,
+    3.56,
+    2.74
+   ],
+   "src": "https://onefootball.com/fr/match/2688710",
+   "hg": 2,
+   "ag": 1,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 3,
+   "sotA": 1,
+   "xgH": 0.93,
+   "xgA": 0.31,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     47
+    ],
+    [
+     "H",
+     63
+    ],
+    [
+     "H",
+     83
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Luca Koleosho",
+     "kind": "but",
+     "min": 47
+    },
+    {
+     "side": "home",
+     "player": "Florian Thauvin",
+     "kind": "but",
+     "min": 63
+    },
+    {
+     "side": "home",
+     "player": "Thorgan Hazard",
+     "kind": "but",
+     "min": 83
+    }
+   ],
+   "pred": {
+    "lh": 1.721,
+    "la": 1.345,
+    "p": [
+     0.464,
+     0.236,
+     0.301
+    ],
+    "over25": 0.591,
+    "btts": 0.607
+   }
   },
   {
    "md": 8,
@@ -2487,16 +4959,160 @@
     4.38,
     5.09
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 1.868,
-   "la": 1.096
+   "src": "https://onefootball.com/fr/match/2688711",
+   "hg": 4,
+   "ag": 3,
+   "htH": 2,
+   "htA": 0,
+   "sotH": 5,
+   "sotA": 7,
+   "xgH": 1.55,
+   "xgA": 2.17,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     5
+    ],
+    [
+     "H",
+     33
+    ],
+    [
+     "H",
+     50
+    ],
+    [
+     "H",
+     55
+    ],
+    [
+     "A",
+     77
+    ],
+    [
+     "A",
+     86
+    ],
+    [
+     "A",
+     89
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Conrad Egan Riley",
+     "kind": "but",
+     "min": 5
+    },
+    {
+     "side": "home",
+     "player": "Tim Weah",
+     "kind": "but",
+     "min": 33
+    },
+    {
+     "side": "home",
+     "player": "Igor Paixao",
+     "kind": "but",
+     "min": 50
+    },
+    {
+     "side": "home",
+     "player": "Himad Abdelli",
+     "kind": "but",
+     "min": 55
+    },
+    {
+     "side": "away",
+     "player": "Josh Maja",
+     "kind": "penalty",
+     "min": 77
+    },
+    {
+     "side": "away",
+     "player": "Lamine Ndiaye",
+     "kind": "but",
+     "min": 86
+    },
+    {
+     "side": "away",
+     "player": "Josh Maja",
+     "kind": "but",
+     "min": 89
+    }
+   ],
+   "pred": {
+    "lh": 1.799,
+    "la": 1.035,
+    "p": [
+     0.553,
+     0.231,
+     0.216
+    ],
+    "over25": 0.539,
+    "btts": 0.538
+   }
+  },
+  {
+   "md": 8,
+   "date": "2026-10-25",
+   "time": "15:00",
+   "home": "MON",
+   "away": "LIL",
+   "odds": [
+    2.04,
+    3.43,
+    3.46
+   ],
+   "src": "https://onefootball.com/fr/match/2688712",
+   "hg": 1,
+   "ag": 1,
+   "htH": 0,
+   "htA": 1,
+   "sotH": 6,
+   "sotA": 2,
+   "xgH": 1.86,
+   "xgA": 0.62,
+   "redH": null,
+   "redA": 66,
+   "goals": [
+    [
+     "A",
+     24
+    ],
+    [
+     "H",
+     74
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Ethan Mbappé",
+     "kind": "but",
+     "min": 24
+    },
+    {
+     "side": "home",
+     "player": "Edan Diop",
+     "kind": "but",
+     "min": 74
+    }
+   ],
+   "pred": {
+    "lh": 1.3,
+    "la": 1.116,
+    "p": [
+     0.408,
+     0.274,
+     0.318
+    ],
+    "over25": 0.435,
+    "btts": 0.489
+   }
   },
   {
    "md": 8,
@@ -2509,16 +5125,62 @@
     4.2,
     3.92
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 2.327,
-   "la": 1.722
+   "src": "https://onefootball.com/fr/match/2688713",
+   "hg": 3,
+   "ag": 0,
+   "htH": 2,
+   "htA": 0,
+   "sotH": 5,
+   "sotA": 4,
+   "xgH": 1.55,
+   "xgA": 1.24,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     34
+    ],
+    [
+     "H",
+     41
+    ],
+    [
+     "H",
+     61
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Boulaye Dia",
+     "kind": "but",
+     "min": 34
+    },
+    {
+     "side": "home",
+     "player": "Sebastian Szymański",
+     "kind": "but",
+     "min": 41
+    },
+    {
+     "side": "home",
+     "player": "Sebastian Szymański",
+     "kind": "but",
+     "min": 61
+    }
+   ],
+   "pred": {
+    "lh": 2.351,
+    "la": 1.727,
+    "p": [
+     0.519,
+     0.197,
+     0.284
+    ],
+    "over25": 0.773,
+    "btts": 0.744
+   }
   },
   {
    "md": 8,
@@ -2531,17 +5193,33 @@
     4.13,
     4.97
    ],
-   "ctx": {
-    "known": false,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu"
-   },
-   "lh": 2.288,
-   "la": 1.04
-  },
+   "src": "https://onefootball.com/fr/match/2688714",
+   "hg": 0,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 3,
+   "sotA": 0,
+   "xgH": 0.93,
+   "xgA": 0.0,
+   "redH": null,
+   "redA": null,
+   "goals": [],
+   "scorers": [],
+   "pred": {
+    "lh": 2.086,
+    "la": 0.981,
+    "p": [
+     0.628,
+     0.203,
+     0.169
+    ],
+    "over25": 0.592,
+    "btts": 0.548
+   }
+  }
+ ],
+ "upcoming": [
   {
    "md": 8,
    "date": "2026-10-26",
@@ -2553,16 +5231,889 @@
     4.94,
     6.1
    ],
+   "src": "https://onefootball.com/fr/match/2688715",
    "ctx": {
-    "known": false,
+    "known": true,
     "absH": [],
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu"
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
+        "time": "2026-10-26T17:30:00Z"
+       },
+       {
+        "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-presentation-des-lyonnais-gones-surprenants-et-blesses-43675188",
+        "time": "2026-10-26T13:34:21Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "PSG/Lyon – Le match à vivre ensemble en direct !",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-le-match-a-vivre-ensemble-en-direct-43676568",
+        "time": "2026-10-26T18:00:03Z"
+       },
+       {
+        "title": "Ballon d'Or 2026 - Le classement de la 22ème à la 19ème place avec deux nouveaux joueurs du PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-classement-de-la-22eme-a-la-19eme-place-avec-deux-nouveaux-joueurs-du-psg-43676455",
+        "time": "2026-10-26T17:35:00Z"
+       },
+       {
+        "title": "PSG/Lyon – L’avant-match des Parisiens en direct",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-lavant-match-des-parisiens-en-direct-43676387",
+        "time": "2026-10-26T17:30:22Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ferran Torres",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
+        "time": "2026-10-26T17:30:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Jean-Michel Larqué : « Les clubs qui progressent, et que ce soit Duga avec Bordeaux, et moi avec Saint-Etienne, c’est une denrée rare »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/jean-michel-larque-les-clubs-qui-progressent-et-que-ce-soit-duga-avec-bordeaux-et-moi-avec-saint-etienne-cest-une-denree-rare-43676243",
+        "time": "2026-10-26T17:00:23Z"
+       },
+       {
+        "title": "TKYDG : débrief dès le coup de sifflet final de PSG - OL ce lundi",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/tkydg-debrief-des-le-coup-de-sifflet-final-de-psg-ol-ce-lundi-43676137",
+        "time": "2026-10-26T16:40:00Z"
+       },
+       {
+        "title": "OL : une nouvelle recrue envisagée après le coup dur",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946",
+        "time": "2026-10-26T16:00:59Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ernest Nuamah",
+       "goals": 3
+      },
+      "scorerOut": null
+     }
+    }
    },
-   "lh": 1.836,
-   "la": 1.147
+   "lh": 1.812,
+   "la": 1.139
+  },
+  {
+   "md": 9,
+   "date": "2026-10-30",
+   "time": "19:00",
+   "home": "HAV",
+   "away": "PSG",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688717",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "OM - Bruno Genesio énumère tout ce qui lui a plu face au Havre AC, malgré la fin de match totalement ratée",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-bruno-genesio-enumere-tout-ce-qui-lui-a-plu-face-au-havre-ac-malgre-la-fin-de-match-totalement-ratee-43671825",
+        "time": "2026-10-25T20:15:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918",
+        "time": "2026-10-26T16:03:00Z"
+       },
+       {
+        "title": "OM : Riolo dénonce un règlement de comptes inutile après Le Havre",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/om-riolo-denonce-un-reglement-de-comptes-inutile-apres-le-havre-43675366",
+        "time": "2026-10-26T14:00:16Z"
+       },
+       {
+        "title": "OM - \"Le football, ça se respecte\",  les mots forts d'Amine Harit après la victoire étriquée de l'OM face au Havre AC (vidéo)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-le-football-ca-se-respecte-les-mots-forts-damine-harit-apres-la-victoire-etriquee-de-lom-face-au-havre-ac-video-43671859",
+        "time": "2026-10-25T20:35:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Josh Maja",
+       "goals": 3
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
+        "time": "2026-10-26T17:30:00Z"
+       },
+       {
+        "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-presentation-des-lyonnais-gones-surprenants-et-blesses-43675188",
+        "time": "2026-10-26T13:34:21Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "PSG/Lyon – Le match à vivre ensemble en direct !",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-le-match-a-vivre-ensemble-en-direct-43676568",
+        "time": "2026-10-26T18:00:03Z"
+       },
+       {
+        "title": "Ballon d'Or 2026 - Le classement de la 22ème à la 19ème place avec deux nouveaux joueurs du PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-classement-de-la-22eme-a-la-19eme-place-avec-deux-nouveaux-joueurs-du-psg-43676455",
+        "time": "2026-10-26T17:35:00Z"
+       },
+       {
+        "title": "PSG/Lyon – L’avant-match des Parisiens en direct",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-lavant-match-des-parisiens-en-direct-43676387",
+        "time": "2026-10-26T17:30:22Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ferran Torres",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.132,
+   "la": 1.856
+  },
+  {
+   "md": 9,
+   "date": "2026-10-30",
+   "time": "21:05",
+   "home": "LIL",
+   "away": "LEN",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688718",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091",
+        "time": "2026-10-26T13:20:00Z"
+       },
+       {
+        "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650",
+        "time": "2026-10-25T19:45:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lille-lens-les-sang-et-or-interdisent-a-leurs-supporters-de-se-deplacer-pour-le-derby-du-nord-43675008",
+        "time": "2026-10-26T13:02:00Z"
+       },
+       {
+        "title": "AS Monaco - Filipe Luis prend l'entière responsabilité du match nul face au LOSC !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341",
+        "time": "2026-10-25T18:30:00Z"
+       },
+       {
+        "title": "LOSC - Davide Ancelotti analyse le match nul face à l'AS Monaco et se projette sur le derby face au RC Lens",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-analyse-le-match-nul-face-a-las-monaco-et-se-projette-sur-le-derby-face-au-rc-lens-43670994",
+        "time": "2026-10-25T17:16:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Olivier Giroud",
+       "goals": 2
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091",
+        "time": "2026-10-26T13:20:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Mercredi, à deux jours du Derby du Nord, le RC Lens ouvre son entraînement au public",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/mercredi-a-deux-jours-du-derby-du-nord-le-rc-lens-ouvre-son-entrainement-au-public-43676227",
+        "time": "2026-10-26T16:56:16Z"
+       },
+       {
+        "title": "[Vidéo] Après un doublé la semaine dernière, Morgan Guilavogui passeur décisif avec le Real Salt Lake",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/video-apres-un-double-la-semaine-derniere-morgan-guilavogui-passeur-decisif-avec-le-real-salt-lake-43675574",
+        "time": "2026-10-26T14:54:15Z"
+       },
+       {
+        "title": "Les prêtés du RC Lens de Ligue 3 passent le 6e tour de Coupe de France",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/les-pretes-du-rc-lens-de-ligue-3-passent-le-6e-tour-de-coupe-de-france-43675316",
+        "time": "2026-10-26T13:55:45Z"
+       }
+      ],
+      "scorer": {
+       "name": "Florian Thauvin",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.46,
+   "la": 1.25
+  },
+  {
+   "md": 9,
+   "date": "2026-10-31",
+   "time": "17:15",
+   "home": "NIC",
+   "away": "REN",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688721",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611",
+        "time": "2026-10-26T15:00:00Z"
+       },
+       {
+        "title": "Un joueur prêté par l’Eintracht devient le héros du match",
+        "publisher": "Frühes-Tor.de",
+        "url": "https://onefootball.com/fr/news/un-joueur-prete-par-leintracht-devient-le-heros-du-match-43673857",
+        "time": "2026-10-26T10:01:05Z"
+       },
+       {
+        "title": "Stade Brestois - Julien Lachuer et Hugo Magnetti expriment leur déception après le revers face à l'OGC Nice",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791",
+        "time": "2026-10-24T09:47:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Elye Wahi",
+       "goals": 3
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue Europa - La rencontre entre le Stade Rennais et l'Olympiacos pourrait être avancée",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-europa-la-rencontre-entre-le-stade-rennais-et-lolympiacos-pourrait-etre-avancee-43675657",
+        "time": "2026-10-26T15:09:00Z"
+       },
+       {
+        "title": "Stade rennais - Strasbourg : résumé vidéo",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-resume-video-43674192",
+        "time": "2026-10-26T10:45:09Z"
+       },
+       {
+        "title": "Stade Rennais : Haise a trouvé la formule, Camara révèle ce qui a changé",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601",
+        "time": "2026-10-26T09:00:33Z"
+       }
+      ],
+      "scorer": {
+       "name": "Estéban Lepaul",
+       "goals": 7
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.422,
+   "la": 1.637
+  },
+  {
+   "md": 9,
+   "date": "2026-10-31",
+   "time": "20:45",
+   "home": "OL",
+   "away": "ANG",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688716",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
+        "time": "2026-10-26T17:30:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Jean-Michel Larqué : « Les clubs qui progressent, et que ce soit Duga avec Bordeaux, et moi avec Saint-Etienne, c’est une denrée rare »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/jean-michel-larque-les-clubs-qui-progressent-et-que-ce-soit-duga-avec-bordeaux-et-moi-avec-saint-etienne-cest-une-denree-rare-43676243",
+        "time": "2026-10-26T17:00:23Z"
+       },
+       {
+        "title": "TKYDG : débrief dès le coup de sifflet final de PSG - OL ce lundi",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/tkydg-debrief-des-le-coup-de-sifflet-final-de-psg-ol-ce-lundi-43676137",
+        "time": "2026-10-26T16:40:00Z"
+       },
+       {
+        "title": "OL : une nouvelle recrue envisagée après le coup dur",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946",
+        "time": "2026-10-26T16:00:59Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ernest Nuamah",
+       "goals": 3
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885",
+        "time": "2026-10-25T10:05:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Angers – Lorient : un 0-0 qui cache une statistique inquiétante",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/angers-lorient-un-0-0-qui-cache-une-statistique-inquietante-43671893",
+        "time": "2026-10-25T20:46:44Z"
+       },
+       {
+        "title": "Ligue 1 - Pas de vainqueur entre Angers SCO et le FC Lorient (résumé)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-pas-de-vainqueur-entre-angers-sco-et-le-fc-lorient-resume-43671208",
+        "time": "2026-10-25T18:16:00Z"
+       },
+       {
+        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
+        "time": "2026-10-25T18:15:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Amine El Ouazzani",
+       "goals": 2
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 2.015,
+   "la": 0.839
+  },
+  {
+   "md": 9,
+   "date": "2026-10-31",
+   "time": "20:45",
+   "home": "LOR",
+   "away": "BRE",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688719",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885",
+        "time": "2026-10-25T10:05:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343",
+        "time": "2026-10-26T17:18:00Z"
+       },
+       {
+        "title": "Ligue 1 : le derby entre Lorient et Brest décalé au lundi soir",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313",
+        "time": "2026-10-26T17:10:00Z"
+       },
+       {
+        "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611",
+        "time": "2026-10-26T15:00:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Jean-Victor Makengo",
+       "goals": 1
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343",
+        "time": "2026-10-26T17:18:00Z"
+       },
+       {
+        "title": "Ligue 1 : le derby entre Lorient et Brest décalé au lundi soir",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313",
+        "time": "2026-10-26T17:10:00Z"
+       },
+       {
+        "title": "Ligue 1 - Deux rencontres de la 9e journée de L1 déjà sous la menace d'un report !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-deux-rencontres-de-la-9e-journee-de-l1-deja-sous-la-menace-dun-report-43675995",
+        "time": "2026-10-26T16:17:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Kamory Doumbia",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.381,
+   "la": 1.159
+  },
+  {
+   "md": 9,
+   "date": "2026-10-31",
+   "time": "20:45",
+   "home": "TRO",
+   "away": "LMA",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688724",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231",
+        "time": "2026-10-25T18:20:00Z"
+       },
+       {
+        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
+        "time": "2026-10-25T18:15:00Z"
+       },
+       {
+        "title": "Ligue 1 - TFC - ESTAC Troyes : les compos officielles",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-officielles-43670340",
+        "time": "2026-10-25T15:30:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Renaud Ripart",
+       "goals": 1
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572",
+        "time": "2026-10-25T19:15:35Z"
+       },
+       {
+        "title": "AJ Auxerre - Un retour mais plusieurs absents dans le groupe de l'AJA pour le match face au Mans FC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/aj-auxerre-un-retour-mais-plusieurs-absents-dans-le-groupe-de-laja-pour-le-match-face-au-mans-fc-43665402",
+        "time": "2026-10-24T15:55:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
+        "time": "2026-10-25T18:15:00Z"
+       },
+       {
+        "title": "Auxerre-Le Mans : énorme imbroglio, la goal-line valide un but, la VAR ne peut pas confirmer",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/auxerre-le-mans-enorme-imbroglio-la-goal-line-valide-un-but-la-var-ne-peut-pas-confirmer-43670961",
+        "time": "2026-10-25T17:29:00Z"
+       },
+       {
+        "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos officielles",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-officielles-43670313",
+        "time": "2026-10-25T15:15:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Louis Mafouta",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.267,
+   "la": 1.338
+  },
+  {
+   "md": 9,
+   "date": "2026-11-01",
+   "time": "15:00",
+   "home": "STR",
+   "away": "AUX",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688723",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Avant Strasbourg, le PSG et le Real voulaient Coulibaly, ex du Werder",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/avant-strasbourg-le-psg-et-le-real-voulaient-coulibaly-ex-du-werder-43674234",
+        "time": "2026-10-26T10:51:13Z"
+       },
+       {
+        "title": "Stade Rennais : Haise a trouvé la formule, Camara révèle ce qui a changé",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601",
+        "time": "2026-10-26T09:00:33Z"
+       },
+       {
+        "title": "Stade Rennais - La réaction géniale de Brice Samba sur la première place du Stade Rennais au classement",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-rennais-la-reaction-geniale-de-brice-samba-sur-la-premiere-place-du-stade-rennais-au-classement-43671986",
+        "time": "2026-10-25T21:20:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Gessime Yassine",
+       "goals": 2
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572",
+        "time": "2026-10-25T19:15:35Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "AJ Auxerre - L'AJ Auxerre tape du poing sur la table et demande à ce que le match nul face au Mans FC ne \"soit pas homologué\"",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/aj-auxerre-laj-auxerre-tape-du-poing-sur-la-table-et-demande-a-ce-que-le-match-nul-face-au-mans-fc-ne-soit-pas-homologue-43675440",
+        "time": "2026-10-26T14:19:00Z"
+       },
+       {
+        "title": "AJ Auxerre - Will Still révolté après \"un problème informatique inédit\" sur un but du Mans FC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-revolte-apres-un-probleme-informatique-inedit-sur-un-but-du-mans-fc-43671911",
+        "time": "2026-10-25T20:57:00Z"
+       },
+       {
+        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
+        "time": "2026-10-25T18:15:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Cameron Archer",
+       "goals": 5
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.946,
+   "la": 1.476
+  },
+  {
+   "md": 9,
+   "date": "2026-11-01",
+   "time": "17:15",
+   "home": "PFC",
+   "away": "MON",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688722",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Racheté 14 millions d’euros et lié jusqu’en 2031 : l’attaquant italien du Paris FC a enfin marqué à Bollaert, avant d’être sorti dès le retour des vestiaires",
+        "publisher": "Calciomio",
+        "url": "https://onefootball.com/fr/news/rachete-14-millions-deuros-et-lie-jusquen-2031-lattaquant-italien-du-paris-fc-a-enfin-marque-a-bollaert-avant-detre-sorti-des-le-retour-des-vestiaires-43669246",
+        "time": "2026-10-25T11:35:11Z"
+       },
+       {
+        "title": "RC Lens : Walid Acherchour s’enflamme et pointe les erreurs du Paris FC",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/rc-lens-walid-acherchour-senflamme-et-pointe-les-erreurs-du-paris-fc-43669258",
+        "time": "2026-10-25T11:30:50Z"
+       },
+       {
+        "title": "RC Lens - Notez les joueurs lensois après la victoire face au Paris FC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-notez-les-joueurs-lensois-apres-la-victoire-face-au-paris-fc-43668505",
+        "time": "2026-10-25T08:42:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Lassine Sinayoko",
+       "goals": 6
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "AS Monaco : Filipe Luís dénonce le chaos et prend tout sur lui",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329",
+        "time": "2026-10-26T11:00:35Z"
+       },
+       {
+        "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650",
+        "time": "2026-10-25T19:45:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "AS Monaco - Un club anglais suit de près Lamine Camara",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-un-club-anglais-suit-de-pres-lamine-camara-43676299",
+        "time": "2026-10-26T17:01:00Z"
+       },
+       {
+        "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
+        "publisher": "AS Monaco",
+        "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue",
+        "time": "2026-10-26T09:41:00Z"
+       },
+       {
+        "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
+        "publisher": "AS Monaco",
+        "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LE7hiMZ6UPARgS0sA7q50JQ4fN",
+        "time": "2026-10-26T09:37:20Z"
+       }
+      ],
+      "scorer": {
+       "name": "Paris Brunner",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.449,
+   "la": 1.199
+  },
+  {
+   "md": 9,
+   "date": "2026-11-01",
+   "time": "20:45",
+   "home": "OM",
+   "away": "TOU",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688720",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "OM-Le Havre (4-3) Digard note un atout de l’OM",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-note-un-atout-de-lom-43676272",
+        "time": "2026-10-26T17:00:06Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "OM – Daniel Riolo critique la réaction de Genesio",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-daniel-riolo-critique-la-reaction-de-genesio-43676591",
+        "time": "2026-10-26T18:00:02Z"
+       },
+       {
+        "title": "Christophe Dugarry : « 320000€ par mois Gomes, Maupay 250000€ par mois… »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/christophe-dugarry-320000-par-mois-gomes-maupay-250000-par-mois-43676439",
+        "time": "2026-10-26T17:35:35Z"
+       },
+       {
+        "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918",
+        "time": "2026-10-26T16:03:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Amine Gouiri",
+       "goals": 5
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231",
+        "time": "2026-10-25T18:20:00Z"
+       },
+       {
+        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
+        "time": "2026-10-25T18:15:00Z"
+       },
+       {
+        "title": "Ligue 1 (J8) : Rennes leader provisoire, l’OM enfonce Le Havre, Toulouse en échec… les résultats du multiplex",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ligue-1-j8-rennes-leader-provisoire-lom-enfonce-le-havre-toulouse-en-echec-les-resultats-du-multiplex-43671240",
+        "time": "2026-10-25T18:08:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Casper Tengstedt",
+       "goals": 5
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.813,
+   "la": 1.392
   }
  ]
 }

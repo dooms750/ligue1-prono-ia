@@ -1,0 +1,7318 @@
+{
+ "matches": {
+  "2688680": {
+   "id": 2688680,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-19T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Angers SCO",
+   "away": "ESTAC Troyes",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/estac-troyes-700",
+   "hg": 2,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 42,
+     "kind": "but",
+     "player": "Prosper Peter"
+    },
+    {
+     "side": "home",
+     "min": 51,
+     "kind": "refuse",
+     "player": "Amine El Ouazzani"
+    },
+    {
+     "side": "home",
+     "min": 57,
+     "kind": "but",
+     "player": "Amine Sbaï"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     61,
+     39
+    ],
+    "Tirs": [
+     12,
+     19
+    ],
+    "Tirs cadrés": [
+     3,
+     3
+    ],
+    "Duels gagnés": [
+     47,
+     53
+    ]
+   },
+   "starters": {
+    "home": [
+     "Prosper Peter",
+     "Amine El Ouazzani",
+     "Amine Sbaï",
+     "Branco Van den Boomen",
+     "Yassin Belkhdim",
+     "Jim Allevinah",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Carlens Arcus",
+     "Anthony Lopes"
+    ],
+    "away": [
+     "Jeremy Le Douaron",
+     "Timothée Nkada",
+     "Iron Gomis",
+     "Antoine Mille",
+     "Dermane Karim",
+     "Mouhamed Diop",
+     "Anis Ouzenadji",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Noah Donkor",
+     "Patrick Beach"
+    ]
+   }
+  },
+  "2688681": {
+   "id": 2688681,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-20T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AJ Auxerre",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/aj-auxerre-253",
+   "awayLink": "/fr/equipe/stade-brestois-254",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 23,
+     "kind": "but",
+     "player": "Pathé Mboup"
+    },
+    {
+     "side": "home",
+     "min": 47,
+     "kind": "but",
+     "player": "Cameron Archer"
+    },
+    {
+     "side": "home",
+     "min": 83,
+     "kind": "csc",
+     "player": "Raphaël Le Guen"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     52,
+     48
+    ],
+    "Tirs": [
+     11,
+     8
+    ],
+    "Tirs cadrés": [
+     4,
+     2
+    ],
+    "Duels gagnés": [
+     44,
+     57
+    ]
+   },
+   "starters": {
+    "home": [
+     "Rémy Labeau Lascary",
+     "Cameron Archer",
+     "Danny Namaso",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Arthur Piedfort",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Christ Makosso",
+     "Mamadou Diop"
+    ],
+    "away": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Giovani Versini",
+     "Hugo Magnetti",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Raphaël Le Guen",
+     "Kenny Lala",
+     "Egil Selvik"
+    ]
+   }
+  },
+  "2688682": {
+   "id": 2688682,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-19T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Mans FC",
+   "away": "FC Lorient",
+   "homeLink": "/fr/equipe/le-mans-fc-269",
+   "awayLink": "/fr/equipe/fc-lorient-258",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 3,
+     "kind": "but",
+     "player": "Adil Bourabaa"
+    },
+    {
+     "side": "home",
+     "min": 57,
+     "kind": "but",
+     "player": "Habib Diallo"
+    },
+    {
+     "side": "away",
+     "min": 78,
+     "kind": "but",
+     "player": "Isak Jensen"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     52,
+     48
+    ],
+    "Tirs": [
+     11,
+     9
+    ],
+    "Tirs cadrés": [
+     7,
+     2
+    ],
+    "Duels gagnés": [
+     47,
+     54
+    ]
+   },
+   "starters": {
+    "home": [
+     "Louis Mafouta",
+     "Habib Diallo",
+     "Yasser Larouci",
+     "Jean Vercruysse",
+     "Adil Bourabaa",
+     "Rayan Bamba",
+     "Lucas Bretelle",
+     "Harold Voyer",
+     "Samuel Yohou",
+     "Djibril Sidibé",
+     "Nicolas Kocik"
+    ],
+    "away": [
+     "Ibrahima Baldé",
+     "Jean-Victor Makengo",
+     "Gabin Bernardeau",
+     "Arsène Kouassi",
+     "Arthur Avom",
+     "Noah Cadiou",
+     "Panos Katseris",
+     "Nathaniel Adjei",
+     "Montassar Talbi",
+     "Dembo Sylla",
+     "Yvon Mvogo"
+    ]
+   }
+  },
+  "2688683": {
+   "id": 2688683,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-19T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique Lyonnais",
+   "away": "Stade Rennais",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/stade-rennais-264",
+   "hg": 4,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 7,
+     "kind": "but",
+     "player": "Ernest Nuamah"
+    },
+    {
+     "side": "home",
+     "min": 30,
+     "kind": "but",
+     "player": "Ernest Nuamah"
+    },
+    {
+     "side": "home",
+     "min": 48,
+     "kind": "but",
+     "player": "Zachary Athekame"
+    },
+    {
+     "side": "home",
+     "min": 76,
+     "kind": "but",
+     "player": "Corentin Tolisso"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     45,
+     55
+    ],
+    "Tirs": [
+     15,
+     13
+    ],
+    "Tirs cadrés": [
+     9,
+     4
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Loïs Openda",
+     "Corentin Tolisso",
+     "Pavel Sulc",
+     "Ernest Nuamah",
+     "Tyler Morton",
+     "Mads Bidstrup",
+     "Abner Vinicius Da Silva Santos",
+     "Moussa Niakhaté",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Dominik Greif"
+    ],
+    "away": [
+     "Boulaye Dia",
+     "Eliezer Mayenda",
+     "Mahdi Camara",
+     "Adrien Thomasson",
+     "Arnaud Nordin",
+     "Valentin Rongier",
+     "Quentin Merlin",
+     "Abdelhamid Aït Boudlal",
+     "Charlie Cresswell",
+     "Przemysław Frankowski",
+     "Brice Samba"
+    ]
+   }
+  },
+  "2688684": {
+   "id": 2688684,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-18T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AS Monaco",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/as-monaco-259",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 32,
+     "kind": "but",
+     "player": "Paris Brunner"
+    },
+    {
+     "side": "away",
+     "min": 57,
+     "kind": "but",
+     "player": "Matthieu Udol"
+    },
+    {
+     "side": "home",
+     "min": 84,
+     "kind": "csc",
+     "player": "Jonathan Gradit"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     49,
+     51
+    ],
+    "Tirs": [
+     9,
+     12
+    ],
+    "Tirs cadrés": [
+     6,
+     4
+    ],
+    "Duels gagnés": [
+     51,
+     49
+    ]
+   },
+   "starters": {
+    "home": [
+     "Paris Brunner",
+     "Matthis Abline",
+     "Aleksandr Golovin",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Edan Diop",
+     "Flávio Nazinho",
+     "Eric Dier",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ],
+    "away": [
+     "Abdallah Sima",
+     "Mezian Mesloub",
+     "Florian Thauvin",
+     "Junior Kadile",
+     "Amadou Haidara",
+     "Mickael Cuisance",
+     "Ruben Aguilar",
+     "Matthieu Udol",
+     "Jean-Clair Todibo",
+     "Kyllian Antonio",
+     "Robin Risser"
+    ]
+   }
+  },
+  "2688685": {
+   "id": 2688685,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-20T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "OGC Nice",
+   "away": "LOSC",
+   "homeLink": "/fr/equipe/ogc-nice-262",
+   "awayLink": "/fr/equipe/losc-257",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 22,
+     "kind": "csc",
+     "player": "Nathan Ngoy"
+    },
+    {
+     "side": "home",
+     "min": 67,
+     "kind": "but",
+     "player": "Mohamed Amoura"
+    },
+    {
+     "side": "away",
+     "min": 79,
+     "kind": "but",
+     "player": "Ayase Ueda"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     41,
+     59
+    ],
+    "Tirs": [
+     10,
+     21
+    ],
+    "Tirs cadrés": [
+     4,
+     8
+    ],
+    "Duels gagnés": [
+     40,
+     60
+    ]
+   },
+   "starters": {
+    "home": [
+     "Elye Wahi",
+     "Mohamed Amoura",
+     "Gauthier Hein",
+     "Niels Nkounkou",
+     "Axel Witsel",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
+     "Yehvann Diouf"
+    ],
+    "away": [
+     "Ayase Ueda",
+     "Basar Önal",
+     "Hakon Arnar Haraldsson",
+     "Ethan Mbappé",
+     "Nabil Bentaleb",
+     "Benjamin André",
+     "Romain Perraud",
+     "Alexsandro",
+     "Nathan Ngoy",
+     "Tiago Santos",
+     "Berke Ozer"
+    ]
+   }
+  },
+  "2688686": {
+   "id": 2688686,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-19T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Paris FC",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/paris-fc-5170",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 18,
+     "kind": "but",
+     "player": "Ilan Kebbal"
+    },
+    {
+     "side": "home",
+     "min": 57,
+     "kind": "but",
+     "player": "Pablo Pagis"
+    },
+    {
+     "side": "away",
+     "min": 88,
+     "kind": "csc",
+     "player": "Mamadou Mbow"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     52,
+     48
+    ],
+    "Tirs": [
+     17,
+     5
+    ],
+    "Tirs cadrés": [
+     7,
+     1
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Lassine Sinayoko",
+     "Luca Koleosho",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Hamari Traoré",
+     "Diego Coppola",
+     "Mamadou Mbow",
+     "Adama Camara",
+     "Kevin Trapp"
+    ],
+    "away": [
+     "Jacobo Ortega",
+     "Sebastian Nanasi",
+     "Giovanni Reyna",
+     "Diogo Sousa",
+     "Gessime Yassine",
+     "Samir El Mourabet",
+     "Oso",
+     "Ismaël Doukouré",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ]
+   }
+  },
+  "2688687": {
+   "id": 2688687,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-19T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Toulouse FC",
+   "away": "Le Havre AC",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/le-havre-ac-701",
+   "hg": 3,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 49,
+     "kind": "penalty",
+     "player": "Casper Tengstedt"
+    },
+    {
+     "side": "home",
+     "min": 51,
+     "kind": "but",
+     "player": "Casper Tengstedt"
+    },
+    {
+     "side": "away",
+     "min": 71,
+     "kind": "but",
+     "player": "Josh Maja"
+    },
+    {
+     "side": "home",
+     "min": 79,
+     "kind": "but",
+     "player": "Thomas Jørgensen"
+    },
+    {
+     "side": "away",
+     "min": 88,
+     "kind": "but",
+     "player": "Mbwana Samatta"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     54,
+     46
+    ],
+    "Tirs": [
+     14,
+     18
+    ],
+    "Tirs cadrés": [
+     5,
+     7
+    ],
+    "Duels gagnés": [
+     58,
+     42
+    ]
+   },
+   "starters": {
+    "home": [
+     "Casper Tengstedt",
+     "Jacen Russell-Rowe",
+     "Ilyas Azizi",
+     "Cristian Casseres",
+     "Niko Sigur",
+     "Thomas Jørgensen",
+     "Christ Tapé",
+     "Mark McKenzie",
+     "Seny Koumbassa",
+     "Rafik Messali",
+     "Guillaume Restes"
+    ],
+    "away": [
+     "Josh Maja",
+     "Mbwana Samatta",
+     "Rayan Fofana",
+     "Elias Jelert Kristensen",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Djibril Ouziad",
+     "Ahmed Touba",
+     "Ayumu Seko",
+     "Vincent Sasso",
+     "Gauthier Gallon"
+    ]
+   }
+  },
+  "2688688": {
+   "id": 2688688,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-20T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique de Marseille",
+   "away": "PSG",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/psg-263",
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 66,
+     "kind": "but",
+     "player": "Ferran Torres"
+    },
+    {
+     "side": "home",
+     "min": 72,
+     "kind": "but",
+     "player": "Angel Gomes"
+    },
+    {
+     "side": "away",
+     "min": 74,
+     "kind": "but",
+     "player": "Marquinhos"
+    }
+   ],
+   "reds": [
+    {
+     "side": "home",
+     "min": 77,
+     "player": "Tim Weah"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     39,
+     61
+    ],
+    "Tirs": [
+     12,
+     31
+    ],
+    "Tirs cadrés": [
+     4,
+     10
+    ],
+    "Duels gagnés": [
+     43,
+     57
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine Gouiri",
+     "Neal Maupay",
+     "Igor Paixao",
+     "Himad Abdelli",
+     "Pierre-Emile Højbjerg",
+     "Amine Harit",
+     "Emerson",
+     "Nayef Aguerd",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ],
+    "away": [
+     "Khvicha Kvaratskhelia",
+     "Ousmane Dembélé",
+     "Desire Doue",
+     "Fabián Ruiz",
+     "Vitinha",
+     "João Neves",
+     "Nuno Mendes",
+     "Willian Pacho",
+     "Marquinhos",
+     "Warren Zaïre-Emery",
+     "Matvey Safonov"
+    ]
+   }
+  },
+  "2688689": {
+   "id": 2688689,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-10T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Brestois",
+   "away": "Angers SCO",
+   "homeLink": "/fr/equipe/stade-brestois-254",
+   "awayLink": "/fr/equipe/angers-sco-696",
+   "hg": 5,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 9,
+     "kind": "but",
+     "player": "Ludovic Ajorque"
+    },
+    {
+     "side": "home",
+     "min": 17,
+     "kind": "but",
+     "player": "Lucas Tousart"
+    },
+    {
+     "side": "home",
+     "min": 30,
+     "kind": "penalty",
+     "player": "Kenny Lala"
+    },
+    {
+     "side": "home",
+     "min": 45,
+     "kind": "but",
+     "player": "Mama Balde"
+    },
+    {
+     "side": "away",
+     "min": 47,
+     "kind": "but",
+     "player": "Prosper Peter"
+    },
+    {
+     "side": "home",
+     "min": 54,
+     "kind": "but",
+     "player": "Pathé Mboup"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 59,
+     "player": "Jordan Lefort"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     55,
+     45
+    ],
+    "Tirs": [
+     19,
+     9
+    ],
+    "Tirs cadrés": [
+     9,
+     3
+    ],
+    "Duels gagnés": [
+     55,
+     45
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Mama Balde",
+     "Hugo Magnetti",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Lucas Tousart",
+     "Kenny Lala",
+     "Egil Selvik"
+    ],
+    "away": [
+     "Amine Sbaï",
+     "Prosper Peter",
+     "Jim Allevinah",
+     "Branco Van den Boomen",
+     "Haris Belkebla",
+     "Yassin Belkhdim",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Marius Louër",
+     "Anthony Lopes"
+    ]
+   }
+  },
+  "2688690": {
+   "id": 2688690,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-09T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Lens",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 36,
+     "kind": "but",
+     "player": "Florian Sotoca"
+    },
+    {
+     "side": "home",
+     "min": 76,
+     "kind": "but",
+     "player": "Matthieu Udol"
+    },
+    {
+     "side": "away",
+     "min": 85,
+     "kind": "but",
+     "player": "Khalis Merah"
+    }
+   ],
+   "reds": [
+    {
+     "side": "home",
+     "min": 84,
+     "player": "Matthieu Udol"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     48,
+     52
+    ],
+    "Tirs": [
+     15,
+     13
+    ],
+    "Tirs cadrés": [
+     7,
+     5
+    ],
+    "Duels gagnés": [
+     54,
+     46
+    ]
+   },
+   "starters": {
+    "home": [
+     "Odsonne Edouard",
+     "Florian Sotoca",
+     "Florian Thauvin",
+     "Matthieu Udol",
+     "Yacine Titraoui",
+     "Mickael Cuisance",
+     "Ruben Aguilar",
+     "Kyllian Antonio",
+     "Ismaëlo Ganiou",
+     "Jonathan Gradit",
+     "Robin Risser"
+    ],
+    "away": [
+     "Loïs Openda",
+     "Pavel Sulc",
+     "Ernest Nuamah",
+     "Corentin Tolisso",
+     "Tyler Morton",
+     "Mads Bidstrup",
+     "Abner Vinicius Da Silva Santos",
+     "Ruben Kluivert",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Dominik Greif"
+    ]
+   }
+  },
+  "2688691": {
+   "id": 2688691,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-10T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "LOSC",
+   "away": "Le Havre AC",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/le-havre-ac-701",
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 5,
+     "kind": "but",
+     "player": "Dilane Bakwa"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 61,
+     "player": "Ayumu Seko"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     47,
+     53
+    ],
+    "Tirs": [
+     5,
+     17
+    ],
+    "Tirs cadrés": [
+     1,
+     2
+    ],
+    "Duels gagnés": [
+     44,
+     56
+    ]
+   },
+   "starters": {
+    "home": [
+     "Olivier Giroud",
+     "Gaetan Perrin",
+     "Ngal Mukau",
+     "Dilane Bakwa",
+     "Maurits Kjaergaard",
+     "Nabil Bentaleb",
+     "Romain Perraud",
+     "Alexsandro",
+     "Nianzou Tanguy Kouassi",
+     "Tiago Santos",
+     "Berke Ozer"
+    ],
+    "away": [
+     "Mbwana Samatta",
+     "Josh Maja",
+     "Sota Nakamura",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Rassoul Ndiaye",
+     "Lamine Ndiaye",
+     "Ahmed Touba",
+     "Ayumu Seko",
+     "Djibril Ouziad",
+     "Gauthier Gallon"
+    ]
+   }
+  },
+  "2688692": {
+   "id": 2688692,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-10T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "FC Lorient",
+   "away": "Paris FC",
+   "homeLink": "/fr/equipe/fc-lorient-258",
+   "awayLink": "/fr/equipe/paris-fc-5170",
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 68,
+     "kind": "but",
+     "player": "Gabin Bernardeau"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     39,
+     61
+    ],
+    "Tirs": [
+     8,
+     16
+    ],
+    "Tirs cadrés": [
+     5,
+     3
+    ],
+    "Duels gagnés": [
+     59,
+     41
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mamadou Koné",
+     "Isak Jensen",
+     "Jean-Victor Makengo",
+     "Arsène Kouassi",
+     "Alec Georgen",
+     "Noah Cadiou",
+     "Dembo Sylla",
+     "Isaak Touré",
+     "Montassar Talbi",
+     "Nathaniel Adjei",
+     "Yvon Mvogo"
+    ],
+    "away": [
+     "Lassine Sinayoko",
+     "Luca Koleosho",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Hamari Traoré",
+     "Diego Coppola",
+     "Samir Chergui",
+     "Adama Camara",
+     "Kevin Trapp"
+    ]
+   }
+  },
+  "2688693": {
+   "id": 2688693,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-10T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AS Monaco",
+   "away": "Toulouse FC",
+   "homeLink": "/fr/equipe/as-monaco-259",
+   "awayLink": "/fr/equipe/toulouse-fc-267",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 29,
+     "kind": "but",
+     "player": "Edan Diop"
+    },
+    {
+     "side": "home",
+     "min": 38,
+     "kind": "but",
+     "player": "Matthis Abline"
+    },
+    {
+     "side": "away",
+     "min": 48,
+     "kind": "penalty",
+     "player": "Casper Tengstedt"
+    },
+    {
+     "side": "away",
+     "min": 59,
+     "kind": "but",
+     "player": "Sion Oppong"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     59,
+     41
+    ],
+    "Tirs": [
+     16,
+     8
+    ],
+    "Tirs cadrés": [
+     4,
+     4
+    ],
+    "Duels gagnés": [
+     55,
+     45
+    ]
+   },
+   "starters": {
+    "home": [
+     "Matthis Abline",
+     "Mathys Detourbet",
+     "Aleksandr Golovin",
+     "Edan Diop",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Eric Dier",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ],
+    "away": [
+     "Jacen Russell-Rowe",
+     "Ilyas Azizi",
+     "Casper Tengstedt",
+     "Thomas Jørgensen",
+     "Alexis Vossah",
+     "Cristian Casseres",
+     "Christ Tapé",
+     "Mark McKenzie",
+     "Seny Koumbassa",
+     "Rafik Messali",
+     "Guillaume Restes"
+    ]
+   }
+  },
+  "2688694": {
+   "id": 2688694,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-11T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "OGC Nice",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/ogc-nice-262",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 41,
+     "kind": "but",
+     "player": "Dário Essugo"
+    },
+    {
+     "side": "home",
+     "min": 47,
+     "kind": "csc",
+     "player": "Pape Diop"
+    },
+    {
+     "side": "home",
+     "min": 81,
+     "kind": "but",
+     "player": "Jonathan Clauss"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     45,
+     55
+    ],
+    "Tirs": [
+     11,
+     11
+    ],
+    "Tirs cadrés": [
+     6,
+     3
+    ],
+    "Duels gagnés": [
+     52,
+     48
+    ]
+   },
+   "starters": {
+    "home": [
+     "Elye Wahi",
+     "Mohamed Amoura",
+     "Gauthier Hein",
+     "Niels Nkounkou",
+     "Axel Witsel",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
+     "Yehvann Diouf"
+    ],
+    "away": [
+     "Gessime Yassine",
+     "Conrad Harder",
+     "Sam Amo-Ameyaw",
+     "Dário Essugo",
+     "Pape Diop",
+     "Diogo Sousa",
+     "Oso",
+     "Karim Coulibaly",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ]
+   }
+  },
+  "2688695": {
+   "id": 2688695,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-10T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "PSG",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/psg-263",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": 3,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 19,
+     "kind": "penalty",
+     "player": "Lucas Beraldo"
+    },
+    {
+     "side": "away",
+     "min": 54,
+     "kind": "but",
+     "player": "Louis Mafouta"
+    },
+    {
+     "side": "home",
+     "min": 61,
+     "kind": "but",
+     "player": "Khvicha Kvaratskhelia"
+    },
+    {
+     "side": "home",
+     "min": 68,
+     "kind": "but",
+     "player": "Maghnes Akliouche"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     73,
+     27
+    ],
+    "Tirs": [
+     22,
+     11
+    ],
+    "Tirs cadrés": [
+     8,
+     3
+    ],
+    "Duels gagnés": [
+     62,
+     38
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mika Godts",
+     "Ferran Torres",
+     "Maghnes Akliouche",
+     "João Neves",
+     "Lucas Beraldo",
+     "Dro Fernández",
+     "Lucas Digne",
+     "Lucas Hernandez",
+     "Illia Zabarnyi",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ],
+    "away": [
+     "Louis Mafouta",
+     "Habib Diallo",
+     "Lucas Calodat",
+     "Jean Vercruysse",
+     "Lucas Bretelle",
+     "Rayan Bamba",
+     "Alexandre Lauray",
+     "Harold Voyer",
+     "Samuel Yohou",
+     "Noa Boissé",
+     "Nicolas Kocik"
+    ]
+   }
+  },
+  "2688696": {
+   "id": 2688696,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-11T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Rennais",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": 4,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 15,
+     "kind": "but",
+     "player": "Estéban Lepaul"
+    },
+    {
+     "side": "away",
+     "min": 25,
+     "kind": "but",
+     "player": "Cameron Archer"
+    },
+    {
+     "side": "home",
+     "min": 53,
+     "kind": "but",
+     "player": "Adrien Thomasson"
+    },
+    {
+     "side": "home",
+     "min": 92,
+     "kind": "but",
+     "player": "Boulaye Dia"
+    },
+    {
+     "side": "home",
+     "min": 94,
+     "kind": "but",
+     "player": "Boulaye Dia"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     59,
+     41
+    ],
+    "Tirs": [
+     21,
+     12
+    ],
+    "Tirs cadrés": [
+     11,
+     5
+    ],
+    "Duels gagnés": [
+     45,
+     55
+    ]
+   },
+   "starters": {
+    "home": [
+     "Issa Soumaré",
+     "Estéban Lepaul",
+     "Mousa Al-Taamari",
+     "Mahdi Camara",
+     "Valentin Rongier",
+     "Adrien Thomasson",
+     "Aboubakar Nagida",
+     "Anthony Rouault",
+     "Charlie Cresswell",
+     "Bryan Reynolds",
+     "Brice Samba"
+    ],
+    "away": [
+     "Cameron Archer",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Naouirou Ahamada",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Arthur Piedfort",
+     "Mamadou Diop"
+    ]
+   }
+  },
+  "2688697": {
+   "id": 2688697,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-11T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "ESTAC Troyes",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": 0,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 50,
+     "kind": "but",
+     "player": "Amine Harit"
+    },
+    {
+     "side": "away",
+     "min": 98,
+     "kind": "penalty",
+     "player": "Himad Abdelli"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     36,
+     64
+    ],
+    "Tirs": [
+     15,
+     5
+    ],
+    "Tirs cadrés": [
+     3,
+     2
+    ],
+    "Duels gagnés": [
+     56,
+     44
+    ]
+   },
+   "starters": {
+    "home": [
+     "Jeremy Le Douaron",
+     "Kandet Diawara",
+     "Iron Gomis",
+     "Antoine Mille",
+     "Dermane Karim",
+     "Mouhamed Diop",
+     "Paolo Gozzi",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Patrick Beach"
+    ],
+    "away": [
+     "Amine Gouiri",
+     "Igor Paixao",
+     "Angel Gomes",
+     "Amine Harit",
+     "Nouhoum Kamissoko",
+     "Himad Abdelli",
+     "Emerson",
+     "Nayef Aguerd",
+     "Conrad Egan Riley",
+     "Kelyann Bezahaf",
+     "Jeffrey de Lange"
+    ]
+   }
+  },
+  "2688698": {
+   "id": 2688698,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-18T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Angers SCO",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": 2,
+   "ag": 5,
+   "goals": [
+    {
+     "side": "home",
+     "min": 14,
+     "kind": "but",
+     "player": "Lilian Raolisoa"
+    },
+    {
+     "side": "away",
+     "min": 37,
+     "kind": "but",
+     "player": "Himad Abdelli"
+    },
+    {
+     "side": "away",
+     "min": 43,
+     "kind": "but",
+     "player": "Nouhoum Kamissoko"
+    },
+    {
+     "side": "away",
+     "min": 60,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    },
+    {
+     "side": "home",
+     "min": 75,
+     "kind": "penalty",
+     "player": "Amine El Ouazzani"
+    },
+    {
+     "side": "away",
+     "min": 83,
+     "kind": "but",
+     "player": "Amine Harit"
+    },
+    {
+     "side": "away",
+     "min": 85,
+     "kind": "but",
+     "player": "Igor Paixao"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     41,
+     59
+    ],
+    "Tirs": [
+     11,
+     21
+    ],
+    "Tirs cadrés": [
+     3,
+     8
+    ],
+    "Duels gagnés": [
+     56,
+     44
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine El Ouazzani",
+     "Amine Sbaï",
+     "Louis Mouton",
+     "Jim Allevinah",
+     "Branco Van den Boomen",
+     "Yassin Belkhdim",
+     "Lilian Raolisoa",
+     "Maël Gernigon",
+     "Emmanuel Biumla",
+     "Carlens Arcus",
+     "Anthony Lopes"
+    ],
+    "away": [
+     "Amine Gouiri",
+     "Igor Paixao",
+     "Himad Abdelli",
+     "Amine Harit",
+     "Nouhoum Kamissoko",
+     "Tochukwu Nnadi",
+     "Emerson",
+     "Geoffrey Kondogbia",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ]
+   }
+  },
+  "2688699": {
+   "id": 2688699,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-18T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Havre AC",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": 1,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "away",
+     "min": 40,
+     "kind": "but",
+     "player": "Danny Namaso"
+    },
+    {
+     "side": "away",
+     "min": 61,
+     "kind": "but",
+     "player": "Danny Namaso"
+    },
+    {
+     "side": "home",
+     "min": 66,
+     "kind": "but",
+     "player": "Rayan Fofana"
+    },
+    {
+     "side": "away",
+     "min": 80,
+     "kind": "but",
+     "player": "Romain Faivre"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     52,
+     48
+    ],
+    "Tirs": [
+     15,
+     13
+    ],
+    "Tirs cadrés": [
+     6,
+     6
+    ],
+    "Duels gagnés": [
+     52,
+     48
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mbwana Samatta",
+     "Josh Maja",
+     "Sota Nakamura",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Rassoul Ndiaye",
+     "Lamine Ndiaye",
+     "Ahmed Touba",
+     "Junior Mwanga",
+     "Djibril Ouziad",
+     "Gauthier Gallon"
+    ],
+    "away": [
+     "Cameron Archer",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Naouirou Ahamada",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Christ Makosso",
+     "Paul Nardi"
+    ]
+   }
+  },
+  "2688700": {
+   "id": 2688700,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-16T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Mans FC",
+   "away": "Toulouse FC",
+   "homeLink": "/fr/equipe/le-mans-fc-269",
+   "awayLink": "/fr/equipe/toulouse-fc-267",
+   "hg": 0,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "away",
+     "min": 46,
+     "kind": "but",
+     "player": "Jacen Russell-Rowe"
+    },
+    {
+     "side": "away",
+     "min": 59,
+     "kind": "but",
+     "player": "Aron Donnum"
+    },
+    {
+     "side": "away",
+     "min": 78,
+     "kind": "refuse",
+     "player": "Casper Tengstedt"
+    },
+    {
+     "side": "away",
+     "min": 87,
+     "kind": "but",
+     "player": "Casper Tengstedt"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     53,
+     47
+    ],
+    "Tirs": [
+     11,
+     13
+    ],
+    "Tirs cadrés": [
+     1,
+     5
+    ],
+    "Duels gagnés": [
+     40,
+     60
+    ]
+   },
+   "starters": {
+    "home": [
+     "Dame Gueye",
+     "Louis Mafouta",
+     "Yasser Larouci",
+     "Jean Vercruysse",
+     "Daouda Traoré",
+     "Lucas Buades",
+     "Lucas Bretelle",
+     "Harold Voyer",
+     "Samuel Yohou",
+     "Djibril Sidibé",
+     "Nicolas Kocik"
+    ],
+    "away": [
+     "Casper Tengstedt",
+     "Jacen Russell-Rowe",
+     "Thomas Jørgensen",
+     "Niko Sigur",
+     "Cristian Casseres",
+     "Aron Donnum",
+     "Christ Tapé",
+     "Rasmus Nicolaisen",
+     "Mark McKenzie",
+     "Rafik Messali",
+     "Guillaume Restes"
+    ]
+   }
+  },
+  "2688701": {
+   "id": 2688701,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-17T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "LOSC",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/stade-brestois-254",
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 6,
+     "kind": "but",
+     "player": "Mama Balde"
+    },
+    {
+     "side": "home",
+     "min": 64,
+     "kind": "penalty",
+     "player": "Olivier Giroud"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     68,
+     32
+    ],
+    "Tirs": [
+     17,
+     8
+    ],
+    "Tirs cadrés": [
+     5,
+     2
+    ],
+    "Duels gagnés": [
+     57,
+     43
+    ]
+   },
+   "starters": {
+    "home": [
+     "Olivier Giroud",
+     "Dilane Bakwa",
+     "Hakon Arnar Haraldsson",
+     "Ethan Mbappé",
+     "Benjamin André",
+     "Ngal Mukau",
+     "Romain Perraud",
+     "Nianzou Tanguy Kouassi",
+     "Nathan Ngoy",
+     "Maxima Goffi",
+     "Orlando Gill"
+    ],
+    "away": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Mama Balde",
+     "Hugo Magnetti",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Lucas Tousart",
+     "Kenny Lala",
+     "Egil Selvik"
+    ]
+   }
+  },
+  "2688702": {
+   "id": 2688702,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-18T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "FC Lorient",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/fc-lorient-258",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 61,
+     "kind": "penalty",
+     "player": "Noah Cadiou"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     42,
+     58
+    ],
+    "Tirs": [
+     9,
+     15
+    ],
+    "Tirs cadrés": [
+     3,
+     4
+    ],
+    "Duels gagnés": [
+     55,
+     45
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ibrahima Baldé",
+     "Gabin Bernardeau",
+     "Jean-Victor Makengo",
+     "Arsène Kouassi",
+     "Arthur Avom",
+     "Noah Cadiou",
+     "Dembo Sylla",
+     "Isaak Touré",
+     "Montassar Talbi",
+     "Nathaniel Adjei",
+     "Yvon Mvogo"
+    ],
+    "away": [
+     "Matthis Abline",
+     "Aleksandr Golovin",
+     "Ansu Fati",
+     "Takumi Minamino",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Mohammed Salisu",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ]
+   }
+  },
+  "2688703": {
+   "id": 2688703,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-18T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique Lyonnais",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 18,
+     "kind": "but",
+     "player": "Elye Wahi"
+    },
+    {
+     "side": "home",
+     "min": 32,
+     "kind": "but",
+     "player": "Pavel Sulc"
+    },
+    {
+     "side": "home",
+     "min": 36,
+     "kind": "but",
+     "player": "Tanner Tessmann"
+    },
+    {
+     "side": "away",
+     "min": 93,
+     "kind": "refuse",
+     "player": "Elye Wahi"
+    }
+   ],
+   "reds": [
+    {
+     "side": "home",
+     "min": 70,
+     "player": "Keito Nakamura"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     47,
+     53
+    ],
+    "Tirs": [
+     8,
+     12
+    ],
+    "Tirs cadrés": [
+     4,
+     5
+    ],
+    "Duels gagnés": [
+     47,
+     53
+    ]
+   },
+   "starters": {
+    "home": [
+     "Pavel Sulc",
+     "Julien Duranville",
+     "Noah Nartey",
+     "Kaïl Boudache",
+     "Mads Bidstrup",
+     "Tanner Tessmann",
+     "Abner Vinicius Da Silva Santos",
+     "Moussa Niakhaté",
+     "Clinton Mata",
+     "Zachary Athekame",
+     "Rémy Descamps"
+    ],
+    "away": [
+     "Elye Wahi",
+     "Mohamed Amoura",
+     "Gauthier Hein",
+     "Niels Nkounkou",
+     "Hicham Boudaoui",
+     "Axel Witsel",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
+     "Yehvann Diouf"
+    ]
+   }
+  },
+  "2688704": {
+   "id": 2688704,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-18T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Paris FC",
+   "away": "Stade Rennais",
+   "homeLink": "/fr/equipe/paris-fc-5170",
+   "awayLink": "/fr/equipe/stade-rennais-264",
+   "hg": 4,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "home",
+     "min": 14,
+     "kind": "but",
+     "player": "Maxime Lopez"
+    },
+    {
+     "side": "away",
+     "min": 29,
+     "kind": "penalty",
+     "player": "Estéban Lepaul"
+    },
+    {
+     "side": "home",
+     "min": 49,
+     "kind": "but",
+     "player": "Maxime Lopez"
+    },
+    {
+     "side": "away",
+     "min": 51,
+     "kind": "refuse",
+     "player": "Sebastian Szymański"
+    },
+    {
+     "side": "away",
+     "min": 74,
+     "kind": "penalty",
+     "player": "Estéban Lepaul"
+    },
+    {
+     "side": "home",
+     "min": 76,
+     "kind": "but",
+     "player": "Lassine Sinayoko"
+    },
+    {
+     "side": "away",
+     "min": 88,
+     "kind": "penalty",
+     "player": "Estéban Lepaul"
+    },
+    {
+     "side": "home",
+     "min": 97,
+     "kind": "penalty",
+     "player": "Lassine Sinayoko"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     53,
+     47
+    ],
+    "Tirs": [
+     19,
+     12
+    ],
+    "Tirs cadrés": [
+     9,
+     7
+    ],
+    "Duels gagnés": [
+     55,
+     45
+    ]
+   },
+   "starters": {
+    "home": [
+     "Lassine Sinayoko",
+     "Luca Koleosho",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Hamari Traoré",
+     "Diego Coppola",
+     "Samir Chergui",
+     "Adama Camara",
+     "Kevin Trapp"
+    ],
+    "away": [
+     "Issa Soumaré",
+     "Estéban Lepaul",
+     "Ludovic Blas",
+     "Adrien Thomasson",
+     "Djaoui Cissé",
+     "Sebastian Szymański",
+     "Przemysław Frankowski",
+     "Anthony Rouault",
+     "Charlie Cresswell",
+     "Bryan Reynolds",
+     "Brice Samba"
+    ]
+   }
+  },
+  "2688705": {
+   "id": 2688705,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-17T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Strasbourg",
+   "away": "PSG",
+   "homeLink": "/fr/equipe/rc-strasbourg-756",
+   "awayLink": "/fr/equipe/psg-263",
+   "hg": 1,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "home",
+     "min": 17,
+     "kind": "but",
+     "player": "Giovanni Reyna"
+    },
+    {
+     "side": "away",
+     "min": 77,
+     "kind": "but",
+     "player": "Illia Zabarnyi"
+    },
+    {
+     "side": "away",
+     "min": 85,
+     "kind": "but",
+     "player": "Ousmane Dembélé"
+    },
+    {
+     "side": "away",
+     "min": 93,
+     "kind": "but",
+     "player": "Desire Doue"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     27,
+     73
+    ],
+    "Tirs": [
+     16,
+     18
+    ],
+    "Tirs cadrés": [
+     8,
+     7
+    ],
+    "Duels gagnés": [
+     47,
+     53
+    ]
+   },
+   "starters": {
+    "home": [
+     "Conrad Harder",
+     "Fabio Baldé",
+     "Giovanni Reyna",
+     "Gessime Yassine",
+     "Pape Diop",
+     "Dário Essugo",
+     "Oso",
+     "Karim Coulibaly",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ],
+    "away": [
+     "Khvicha Kvaratskhelia",
+     "Ferran Torres",
+     "Maghnes Akliouche",
+     "Lucas Beraldo",
+     "Dro Fernández",
+     "João Neves",
+     "Lucas Digne",
+     "Lucas Hernandez",
+     "Illia Zabarnyi",
+     "Warren Zaïre-Emery",
+     "Matvey Safonov"
+    ]
+   }
+  },
+  "2688706": {
+   "id": 2688706,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-17T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "ESTAC Troyes",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": 1,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "away",
+     "min": 13,
+     "kind": "csc",
+     "player": "Adrien Monfray"
+    },
+    {
+     "side": "home",
+     "min": 26,
+     "kind": "but",
+     "player": "Timothée Nkada"
+    },
+    {
+     "side": "away",
+     "min": 47,
+     "kind": "but",
+     "player": "Odsonne Edouard"
+    },
+    {
+     "side": "away",
+     "min": 55,
+     "kind": "but",
+     "player": "Ruben Aguilar"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     41,
+     59
+    ],
+    "Tirs": [
+     12,
+     13
+    ],
+    "Tirs cadrés": [
+     5,
+     3
+    ],
+    "Duels gagnés": [
+     47,
+     53
+    ]
+   },
+   "starters": {
+    "home": [
+     "Timothée Nkada",
+     "Renaud Ripart",
+     "Merwan Ifnaoui",
+     "Mouhamed Diop",
+     "Dermane Karim",
+     "Antoine Mille",
+     "Paolo Gozzi",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Patrick Beach"
+    ],
+    "away": [
+     "Odsonne Edouard",
+     "Florian Sotoca",
+     "Florian Thauvin",
+     "Michał Skóraś",
+     "Andrija Bulatović",
+     "Yacine Titraoui",
+     "Ruben Aguilar",
+     "Jean-Clair Todibo",
+     "Ismaëlo Ganiou",
+     "Kyllian Antonio",
+     "Robin Risser"
+    ]
+   }
+  },
+  "2688707": {
+   "id": 2688707,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Angers SCO",
+   "away": "FC Lorient",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/fc-lorient-258",
+   "hg": 0,
+   "ag": 0,
+   "goals": [],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     47,
+     53
+    ],
+    "Tirs": [
+     8,
+     10
+    ],
+    "Tirs cadrés": [
+     5,
+     1
+    ],
+    "Duels gagnés": [
+     49,
+     51
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine El Ouazzani",
+     "Prosper Peter",
+     "Amine Sbaï",
+     "Branco Van den Boomen",
+     "Yassin Belkhdim",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Carlens Arcus",
+     "Lilian Raolisoa",
+     "Anthony Lopes"
+    ],
+    "away": [
+     "Ibrahima Baldé",
+     "Souleymane Faye",
+     "Jean-Victor Makengo",
+     "Arsène Kouassi",
+     "Noah Cadiou",
+     "Arthur Avom",
+     "Dembo Sylla",
+     "Isaak Touré",
+     "Montassar Talbi",
+     "Nathaniel Adjei",
+     "Yvon Mvogo"
+    ]
+   }
+  },
+  "2688708": {
+   "id": 2688708,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AJ Auxerre",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/aj-auxerre-253",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 48,
+     "kind": "csc",
+     "player": "Danny Namaso"
+    },
+    {
+     "side": "home",
+     "min": 56,
+     "kind": "but",
+     "player": "Cameron Archer"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     60,
+     40
+    ],
+    "Tirs": [
+     13,
+     11
+    ],
+    "Tirs cadrés": [
+     5,
+     2
+    ],
+    "Duels gagnés": [
+     43,
+     57
+    ]
+   },
+   "starters": {
+    "home": [
+     "Cameron Archer",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Naouirou Ahamada",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Christ Makosso",
+     "Paul Nardi"
+    ],
+    "away": [
+     "Habib Diallo",
+     "Louis Mafouta",
+     "Lucas Calodat",
+     "Lucas Bretelle",
+     "Antoine Rabillard",
+     "Lucas Buades",
+     "Alexandre Lauray",
+     "Raul Torrente",
+     "Samuel Yohou",
+     "Djibril Sidibé",
+     "Nicolas Kocik"
+    ]
+   }
+  },
+  "2688709": {
+   "id": 2688709,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-23T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Brestois",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/stade-brestois-254",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 15,
+     "kind": "but",
+     "player": "Ludovic Ajorque"
+    },
+    {
+     "side": "away",
+     "min": 61,
+     "kind": "but",
+     "player": "Elye Wahi"
+    },
+    {
+     "side": "away",
+     "min": 83,
+     "kind": "but",
+     "player": "Sofiane Diop"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     51,
+     49
+    ],
+    "Tirs": [
+     13,
+     9
+    ],
+    "Tirs cadrés": [
+     7,
+     2
+    ],
+    "Duels gagnés": [
+     55,
+     45
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Mama Balde",
+     "Hugo Magnetti",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Lucas Tousart",
+     "Kenny Lala",
+     "Egil Selvik"
+    ],
+    "away": [
+     "Elye Wahi",
+     "Mohamed Amoura",
+     "Gauthier Hein",
+     "Niels Nkounkou",
+     "Hicham Boudaoui",
+     "Axel Witsel",
+     "Jonathan Clauss",
+     "Mohamed Abdelmonem",
+     "Youssouf Ndayishimiye",
+     "Alidu Seidu",
+     "Yehvann Diouf"
+    ]
+   }
+  },
+  "2688710": {
+   "id": 2688710,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-24T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Lens",
+   "away": "Paris FC",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/paris-fc-5170",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 47,
+     "kind": "but",
+     "player": "Luca Koleosho"
+    },
+    {
+     "side": "home",
+     "min": 63,
+     "kind": "but",
+     "player": "Florian Thauvin"
+    },
+    {
+     "side": "home",
+     "min": 83,
+     "kind": "but",
+     "player": "Thorgan Hazard"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     56,
+     44
+    ],
+    "Tirs": [
+     9,
+     4
+    ],
+    "Tirs cadrés": [
+     3,
+     1
+    ],
+    "Duels gagnés": [
+     50,
+     51
+    ]
+   },
+   "starters": {
+    "home": [
+     "Franjo Ivanović",
+     "Florian Sotoca",
+     "Florian Thauvin",
+     "Matthieu Udol",
+     "Amadou Haidara",
+     "Mickael Cuisance",
+     "Saud Abdulhamid",
+     "Jean-Clair Todibo",
+     "Samson Baidoo",
+     "Ruben Aguilar",
+     "Robin Risser"
+    ],
+    "away": [
+     "Lassine Sinayoko",
+     "Luca Koleosho",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Otávio",
+     "Diego Coppola",
+     "Mamadou Mbow",
+     "Adama Camara",
+     "Obed Nkambadio"
+    ]
+   }
+  },
+  "2688711": {
+   "id": 2688711,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique de Marseille",
+   "away": "Le Havre AC",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/le-havre-ac-701",
+   "hg": 4,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "home",
+     "min": 5,
+     "kind": "but",
+     "player": "Conrad Egan Riley"
+    },
+    {
+     "side": "home",
+     "min": 33,
+     "kind": "but",
+     "player": "Tim Weah"
+    },
+    {
+     "side": "home",
+     "min": 50,
+     "kind": "but",
+     "player": "Igor Paixao"
+    },
+    {
+     "side": "home",
+     "min": 55,
+     "kind": "but",
+     "player": "Himad Abdelli"
+    },
+    {
+     "side": "away",
+     "min": 77,
+     "kind": "penalty",
+     "player": "Josh Maja"
+    },
+    {
+     "side": "away",
+     "min": 86,
+     "kind": "but",
+     "player": "Lamine Ndiaye"
+    },
+    {
+     "side": "away",
+     "min": 89,
+     "kind": "but",
+     "player": "Josh Maja"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     53,
+     47
+    ],
+    "Tirs": [
+     11,
+     21
+    ],
+    "Tirs cadrés": [
+     5,
+     7
+    ],
+    "Duels gagnés": [
+     46,
+     54
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine Gouiri",
+     "Igor Paixao",
+     "Himad Abdelli",
+     "Amine Harit",
+     "Pierre-Emile Højbjerg",
+     "Tochukwu Nnadi",
+     "Emerson",
+     "Nayef Aguerd",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ],
+    "away": [
+     "Mbwana Samatta",
+     "Rayan Fofana",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Rassoul Ndiaye",
+     "Enzo Koffi",
+     "Ahmed Touba",
+     "Junior Mwanga",
+     "Ayumu Seko",
+     "Djibril Ouziad",
+     "Gauthier Gallon"
+    ]
+   }
+  },
+  "2688712": {
+   "id": 2688712,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-25T14:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AS Monaco",
+   "away": "LOSC",
+   "homeLink": "/fr/equipe/as-monaco-259",
+   "awayLink": "/fr/equipe/losc-257",
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 24,
+     "kind": "but",
+     "player": "Ethan Mbappé"
+    },
+    {
+     "side": "home",
+     "min": 74,
+     "kind": "but",
+     "player": "Edan Diop"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 66,
+     "player": "Nianzou Tanguy Kouassi"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     64,
+     36
+    ],
+    "Tirs": [
+     20,
+     4
+    ],
+    "Tirs cadrés": [
+     6,
+     2
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Paris Brunner",
+     "Ansu Fati",
+     "Aleksandr Golovin",
+     "Mamadou Coulibaly",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Jordan Teze",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ],
+    "away": [
+     "Soriba Diaoune",
+     "Hakon Arnar Haraldsson",
+     "Ethan Mbappé",
+     "Benjamin André",
+     "Nabil Bentaleb",
+     "Ngal Mukau",
+     "Romain Perraud",
+     "Alexsandro",
+     "Nianzou Tanguy Kouassi",
+     "Nathan Ngoy",
+     "Berke Ozer"
+    ]
+   }
+  },
+  "2688713": {
+   "id": 2688713,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Rennais",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": 3,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 34,
+     "kind": "but",
+     "player": "Boulaye Dia"
+    },
+    {
+     "side": "home",
+     "min": 41,
+     "kind": "but",
+     "player": "Sebastian Szymański"
+    },
+    {
+     "side": "home",
+     "min": 61,
+     "kind": "but",
+     "player": "Sebastian Szymański"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     46,
+     54
+    ],
+    "Tirs": [
+     15,
+     12
+    ],
+    "Tirs cadrés": [
+     5,
+     4
+    ],
+    "Duels gagnés": [
+     52,
+     49
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mousa Al-Taamari",
+     "Boulaye Dia",
+     "Mahdi Camara",
+     "Valentin Rongier",
+     "Sebastian Szymański",
+     "Aboubakar Nagida",
+     "Anthony Rouault",
+     "Charlie Cresswell",
+     "Abdelhamid Aït Boudlal",
+     "Przemysław Frankowski",
+     "Brice Samba"
+    ],
+    "away": [
+     "Conrad Harder",
+     "Giovanni Reyna",
+     "Diogo Sousa",
+     "Gessime Yassine",
+     "Dário Essugo",
+     "Pape Diop",
+     "Oso",
+     "Karim Coulibaly",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ]
+   }
+  },
+  "2688714": {
+   "id": 2688714,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-25T16:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Toulouse FC",
+   "away": "ESTAC Troyes",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/estac-troyes-700",
+   "hg": 0,
+   "ag": 0,
+   "goals": [],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     63,
+     37
+    ],
+    "Tirs": [
+     7,
+     8
+    ],
+    "Tirs cadrés": [
+     3,
+     0
+    ],
+    "Duels gagnés": [
+     41,
+     59
+    ]
+   },
+   "starters": {
+    "home": [
+     "Casper Tengstedt",
+     "Jacen Russell-Rowe",
+     "Thomas Jørgensen",
+     "Niko Sigur",
+     "Cristian Casseres",
+     "Aron Donnum",
+     "Christ Tapé",
+     "Rasmus Nicolaisen",
+     "Mark McKenzie",
+     "Rafik Messali",
+     "Guillaume Restes"
+    ],
+    "away": [
+     "Timothée Nkada",
+     "Renaud Ripart",
+     "Merwan Ifnaoui",
+     "Mouhamed Diop",
+     "Dermane Karim",
+     "Antoine Mille",
+     "Paolo Gozzi",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Hillel Konaté"
+    ]
+   }
+  },
+  "2688715": {
+   "id": 2688715,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-26T19:30:00Z",
+   "status": "",
+   "period": 1,
+   "home": "PSG",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/psg-263",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [
+     "Mika Godts",
+     "Ferran Torres",
+     "Desire Doue",
+     "Fabián Ruiz",
+     "Vitinha",
+     "João Neves",
+     "Lucas Hernandez",
+     "Willian Pacho",
+     "Illia Zabarnyi",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ],
+    "away": [
+     "Rémi Himbert",
+     "Julien Duranville",
+     "Noah Nartey",
+     "Kaïl Boudache",
+     "Mads Bidstrup",
+     "Tanner Tessmann",
+     "Abner Vinicius Da Silva Santos",
+     "Moussa Niakhaté",
+     "Clinton Mata",
+     "Zachary Athekame",
+     "Rémy Descamps"
+    ]
+   }
+  },
+  "2688679": {
+   "id": 2688679,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-12T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Strasbourg",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/rc-strasbourg-756",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 52,
+     "kind": "csc",
+     "player": "Sadibou Sané"
+    },
+    {
+     "side": "away",
+     "min": 71,
+     "kind": "but",
+     "player": "Paris Brunner"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     43,
+     57
+    ],
+    "Tirs": [
+     13,
+     12
+    ],
+    "Tirs cadrés": [
+     2,
+     3
+    ],
+    "Duels gagnés": [
+     45,
+     55
+    ]
+   },
+   "starters": {
+    "home": [
+     "Sebastian Nanasi",
+     "Jacobo Ortega",
+     "Gessime Yassine",
+     "Giovanni Reyna",
+     "Pape Diop",
+     "Diogo Sousa",
+     "Oso",
+     "Ismaël Doukouré",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ],
+    "away": [
+     "Paris Brunner",
+     "Stanis Idumbo",
+     "Aleksandr Golovin",
+     "Anis Soubeir",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Eric Dier",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ]
+   }
+  },
+  "2688678": {
+   "id": 2688678,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-11T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Rennais",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 52,
+     "kind": "but",
+     "player": "Adrien Thomasson"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     48,
+     52
+    ],
+    "Tirs": [
+     20,
+     13
+    ],
+    "Tirs cadrés": [
+     7,
+     5
+    ],
+    "Duels gagnés": [
+     47,
+     54
+    ]
+   },
+   "starters": {
+    "home": [
+     "Estéban Lepaul",
+     "Issa Soumaré",
+     "Mahdi Camara",
+     "Adrien Thomasson",
+     "Ludovic Blas",
+     "Valentin Rongier",
+     "Aboubakar Nagida",
+     "Anthony Rouault",
+     "Charlie Cresswell",
+     "Przemysław Frankowski",
+     "Brice Samba"
+    ],
+    "away": [
+     "Amine Gouiri",
+     "Igor Paixao",
+     "Himad Abdelli",
+     "Angel Gomes",
+     "Amine Harit",
+     "Pierre-Emile Højbjerg",
+     "Emerson",
+     "Nayef Aguerd",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ]
+   }
+  },
+  "2688677": {
+   "id": 2688677,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-12T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Paris FC",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/paris-fc-5170",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": 0,
+   "ag": 0,
+   "goals": [],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     57,
+     43
+    ],
+    "Tirs": [
+     6,
+     5
+    ],
+    "Tirs cadrés": [
+     4,
+     1
+    ],
+    "Duels gagnés": [
+     44,
+     56
+    ]
+   },
+   "starters": {
+    "home": [
+     "Lassine Sinayoko",
+     "Luca Koleosho",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Hamari Traoré",
+     "Diego Coppola",
+     "Samir Chergui",
+     "Adama Camara",
+     "Kevin Trapp"
+    ],
+    "away": [
+     "Loïs Openda",
+     "Corentin Tolisso",
+     "Pavel Sulc",
+     "Ernest Nuamah",
+     "Tyler Morton",
+     "Mads Bidstrup",
+     "Abner Vinicius Da Silva Santos",
+     "Moussa Niakhaté",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Dominik Greif"
+    ]
+   }
+  },
+  "2688676": {
+   "id": 2688676,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-12T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "FC Lorient",
+   "away": "Toulouse FC",
+   "homeLink": "/fr/equipe/fc-lorient-258",
+   "awayLink": "/fr/equipe/toulouse-fc-267",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 37,
+     "kind": "but",
+     "player": "Ibrahima Baldé"
+    },
+    {
+     "side": "home",
+     "min": 39,
+     "kind": "but",
+     "player": "Noah Mbamba"
+    },
+    {
+     "side": "away",
+     "min": 48,
+     "kind": "but",
+     "player": "Casper Tengstedt"
+    },
+    {
+     "side": "away",
+     "min": 68,
+     "kind": "but",
+     "player": "Thomas Jørgensen"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     41,
+     59
+    ],
+    "Tirs": [
+     10,
+     13
+    ],
+    "Tirs cadrés": [
+     3,
+     4
+    ],
+    "Duels gagnés": [
+     60,
+     40
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ibrahima Baldé",
+     "Jean-Victor Makengo",
+     "Gabin Bernardeau",
+     "Arsène Kouassi",
+     "Noah Mbamba",
+     "Noah Cadiou",
+     "Panos Katseris",
+     "Nathaniel Adjei",
+     "Montassar Talbi",
+     "Dembo Sylla",
+     "Yvon Mvogo"
+    ],
+    "away": [
+     "Jacen Russell-Rowe",
+     "Ilyas Azizi",
+     "Thomas Jørgensen",
+     "Santiago Hidalgo",
+     "Niklas Schmidt",
+     "Cristian Casseres",
+     "Christ Tapé",
+     "Mark McKenzie",
+     "Seny Koumbassa",
+     "Rafik Messali",
+     "Mathys Niflore"
+    ]
+   }
+  },
+  "2688675": {
+   "id": 2688675,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-13T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "LOSC",
+   "away": "ESTAC Troyes",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/estac-troyes-700",
+   "hg": 2,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 3,
+     "kind": "refuse",
+     "player": "Hakon Arnar Haraldsson"
+    },
+    {
+     "side": "home",
+     "min": 18,
+     "kind": "but",
+     "player": "Tiago Santos"
+    },
+    {
+     "side": "home",
+     "min": 93,
+     "kind": "but",
+     "player": "Ethan Mbappé"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     64,
+     36
+    ],
+    "Tirs": [
+     13,
+     8
+    ],
+    "Tirs cadrés": [
+     6,
+     1
+    ],
+    "Duels gagnés": [
+     44,
+     56
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ayase Ueda",
+     "Basar Önal",
+     "Hakon Arnar Haraldsson",
+     "Dilane Bakwa",
+     "Nabil Bentaleb",
+     "Ngal Mukau",
+     "Romain Perraud",
+     "Alexsandro",
+     "Nathan Ngoy",
+     "Tiago Santos",
+     "Berke Ozer"
+    ],
+    "away": [
+     "Jeremy Le Douaron",
+     "Hugo Picard",
+     "Antoine Mille",
+     "Kandet Diawara",
+     "Dermane Karim",
+     "Mouhamed Diop",
+     "Anis Ouzenadji",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Patrick Beach"
+    ]
+   }
+  },
+  "2688674": {
+   "id": 2688674,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-13T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Mans FC",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/le-mans-fc-269",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 32,
+     "kind": "but",
+     "player": "Adil Bourabaa"
+    },
+    {
+     "side": "home",
+     "min": 44,
+     "kind": "but",
+     "player": "Lucas Calodat"
+    },
+    {
+     "side": "away",
+     "min": 47,
+     "kind": "but",
+     "player": "Abdallah Sima"
+    },
+    {
+     "side": "away",
+     "min": 51,
+     "kind": "but",
+     "player": "Franjo Ivanović"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     53,
+     47
+    ],
+    "Tirs": [
+     13,
+     16
+    ],
+    "Tirs cadrés": [
+     5,
+     6
+    ],
+    "Duels gagnés": [
+     52,
+     48
+    ]
+   },
+   "starters": {
+    "home": [
+     "Dame Gueye",
+     "Louis Mafouta",
+     "Lucas Calodat",
+     "Jean Vercruysse",
+     "Adil Bourabaa",
+     "Rayan Bamba",
+     "Lucas Bretelle",
+     "Harold Voyer",
+     "Samuel Yohou",
+     "Noa Boissé",
+     "Ewan Hatfout"
+    ],
+    "away": [
+     "Odsonne Edouard",
+     "Florian Thauvin",
+     "Abdallah Sima",
+     "Michał Skóraś",
+     "Andrija Bulatović",
+     "Mickael Cuisance",
+     "Ruben Aguilar",
+     "Matthieu Udol",
+     "Kyllian Antonio",
+     "Jonathan Gradit",
+     "Robin Risser"
+    ]
+   }
+  },
+  "2688673": {
+   "id": 2688673,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-12T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Havre AC",
+   "away": "Angers SCO",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/angers-sco-696",
+   "hg": 0,
+   "ag": 0,
+   "goals": [],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     45,
+     55
+    ],
+    "Tirs": [
+     16,
+     9
+    ],
+    "Tirs cadrés": [
+     6,
+     1
+    ],
+    "Duels gagnés": [
+     63,
+     37
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mbwana Samatta",
+     "Josh Maja",
+     "Sota Nakamura",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Kaito Mizuta",
+     "Djibril Ouziad",
+     "Ahmed Touba",
+     "Ayumu Seko",
+     "Elias Jelert Kristensen",
+     "Gauthier Gallon"
+    ],
+    "away": [
+     "Amine El Ouazzani",
+     "Amine Sbaï",
+     "Bané Diatta",
+     "Jim Allevinah",
+     "Branco Van den Boomen",
+     "Yassin Belkhdim",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Carlens Arcus",
+     "Anthony Lopes"
+    ]
+   }
+  },
+  "2688672": {
+   "id": 2688672,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-13T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Brestois",
+   "away": "PSG",
+   "homeLink": "/fr/equipe/stade-brestois-254",
+   "awayLink": "/fr/equipe/psg-263",
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 5,
+     "kind": "but",
+     "player": "Ferran Torres"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     40,
+     60
+    ],
+    "Tirs": [
+     16,
+     15
+    ],
+    "Tirs cadrés": [
+     5,
+     7
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Giovani Versini",
+     "Hugo Magnetti",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Raphaël Le Guen",
+     "Kenny Lala",
+     "Egil Selvik"
+    ],
+    "away": [
+     "Khvicha Kvaratskhelia",
+     "Ferran Torres",
+     "Ousmane Dembélé",
+     "João Neves",
+     "Vitinha",
+     "Warren Zaïre-Emery",
+     "Nuno Mendes",
+     "Willian Pacho",
+     "Marquinhos",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ]
+   }
+  },
+  "2688671": {
+   "id": 2688671,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-12T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AJ Auxerre",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/aj-auxerre-253",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 74,
+     "kind": "but",
+     "player": "Cameron Archer"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     30,
+     70
+    ],
+    "Tirs": [
+     11,
+     12
+    ],
+    "Tirs cadrés": [
+     7,
+     4
+    ],
+    "Duels gagnés": [
+     53,
+     47
+    ]
+   },
+   "starters": {
+    "home": [
+     "Rémy Labeau Lascary",
+     "Cameron Archer",
+     "Danny Namaso",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Arthur Piedfort",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Christ Makosso",
+     "Mamadou Diop"
+    ],
+    "away": [
+     "Elye Wahi",
+     "Mohamed Amoura",
+     "Gauthier Hein",
+     "Niels Nkounkou",
+     "Axel Witsel",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
+     "Yehvann Diouf"
+    ]
+   }
+  },
+  "2688670": {
+   "id": 2688670,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-06T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "ESTAC Troyes",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": 2,
+   "ag": 6,
+   "goals": [
+    {
+     "side": "home",
+     "min": 9,
+     "kind": "but",
+     "player": "Antoine Mille"
+    },
+    {
+     "side": "away",
+     "min": 40,
+     "kind": "but",
+     "player": "Jacobo Ortega"
+    },
+    {
+     "side": "away",
+     "min": 42,
+     "kind": "but",
+     "player": "Diogo Sousa"
+    },
+    {
+     "side": "away",
+     "min": 57,
+     "kind": "but",
+     "player": "Giovanni Reyna"
+    },
+    {
+     "side": "away",
+     "min": 85,
+     "kind": "but",
+     "player": "Sam Amo-Ameyaw"
+    },
+    {
+     "side": "away",
+     "min": 88,
+     "kind": "but",
+     "player": "Sam Amo-Ameyaw"
+    },
+    {
+     "side": "away",
+     "min": 92,
+     "kind": "but",
+     "player": "Conrad Harder"
+    },
+    {
+     "side": "home",
+     "min": 95,
+     "kind": "but",
+     "player": "Jeremy Le Douaron"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     44,
+     56
+    ],
+    "Tirs": [
+     27,
+     19
+    ],
+    "Tirs cadrés": [
+     6,
+     12
+    ],
+    "Duels gagnés": [
+     51,
+     49
+    ]
+   },
+   "starters": {
+    "home": [
+     "Renaud Ripart",
+     "Hugo Picard",
+     "Dermane Karim",
+     "Merwan Ifnaoui",
+     "Mouhamed Diop",
+     "Antoine Mille",
+     "Anis Ouzenadji",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Patrick Beach"
+    ],
+    "away": [
+     "Sebastian Nanasi",
+     "Jacobo Ortega",
+     "Gessime Yassine",
+     "Giovanni Reyna",
+     "Pape Diop",
+     "Diogo Sousa",
+     "Oso",
+     "Ismaël Doukouré",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ]
+   }
+  },
+  "2688669": {
+   "id": 2688669,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-03T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Toulouse FC",
+   "away": "LOSC",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/losc-257",
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 73,
+     "kind": "but",
+     "player": "Ayase Ueda"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     54,
+     46
+    ],
+    "Tirs": [
+     24,
+     10
+    ],
+    "Tirs cadrés": [
+     10,
+     6
+    ],
+    "Duels gagnés": [
+     41,
+     59
+    ]
+   },
+   "starters": {
+    "home": [
+     "Jacen Russell-Rowe",
+     "Ilyas Azizi",
+     "Thomas Jørgensen",
+     "Santiago Hidalgo",
+     "Alexis Vossah",
+     "Cristian Casseres",
+     "Christ Tapé",
+     "Rasmus Nicolaisen",
+     "Mark McKenzie",
+     "Rafik Messali",
+     "Guillaume Restes"
+    ],
+    "away": [
+     "Olivier Giroud",
+     "Osame Sahraoui",
+     "Hakon Arnar Haraldsson",
+     "Ethan Mbappé",
+     "Nabil Bentaleb",
+     "Benjamin André",
+     "Calvin Verdonk",
+     "Alexsandro",
+     "Nathan Ngoy",
+     "Tiago Santos",
+     "Berke Ozer"
+    ]
+   }
+  },
+  "2688668": {
+   "id": 2688668,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-04T19:05:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "PSG",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/psg-263",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 31,
+     "kind": "but",
+     "player": "Marquinhos"
+    },
+    {
+     "side": "away",
+     "min": 58,
+     "kind": "but",
+     "player": "Flávio Nazinho"
+    },
+    {
+     "side": "away",
+     "min": 72,
+     "kind": "but",
+     "player": "Stanis Idumbo"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     69,
+     31
+    ],
+    "Tirs": [
+     23,
+     4
+    ],
+    "Tirs cadrés": [
+     10,
+     2
+    ],
+    "Duels gagnés": [
+     52,
+     48
+    ]
+   },
+   "starters": {
+    "home": [
+     "Khvicha Kvaratskhelia",
+     "Desire Doue",
+     "Maghnes Akliouche",
+     "Fabián Ruiz",
+     "Vitinha",
+     "João Neves",
+     "Warren Zaïre-Emery",
+     "Willian Pacho",
+     "Marquinhos",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ],
+    "away": [
+     "Paris Brunner",
+     "Stanis Idumbo",
+     "Aleksandr Golovin",
+     "Mamadou Coulibaly",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Eric Dier",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ]
+   }
+  },
+  "2688667": {
+   "id": 2688667,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-05T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "OGC Nice",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/ogc-nice-262",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 13,
+     "kind": "but",
+     "player": "Adil Bourabaa"
+    },
+    {
+     "side": "home",
+     "min": 44,
+     "kind": "but",
+     "player": "Elye Wahi"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     59,
+     41
+    ],
+    "Tirs": [
+     8,
+     8
+    ],
+    "Tirs cadrés": [
+     2,
+     3
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Elye Wahi",
+     "Sofiane Diop",
+     "Nathan N`Goumou Minpole",
+     "Niels Nkounkou",
+     "Axel Witsel",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
+     "Yehvann Diouf"
+    ],
+    "away": [
+     "Dame Gueye",
+     "Louis Mafouta",
+     "Lucas Calodat",
+     "Jean Vercruysse",
+     "Adil Bourabaa",
+     "Rayan Bamba",
+     "Alexandre Lauray",
+     "Harold Voyer",
+     "Raul Torrente",
+     "Noa Boissé",
+     "Ewan Hatfout"
+    ]
+   }
+  },
+  "2688666": {
+   "id": 2688666,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-06T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique de Marseille",
+   "away": "Paris FC",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/paris-fc-5170",
+   "hg": 2,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "away",
+     "min": 1,
+     "kind": "but",
+     "player": "Lassine Sinayoko"
+    },
+    {
+     "side": "home",
+     "min": 8,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    },
+    {
+     "side": "away",
+     "min": 19,
+     "kind": "but",
+     "player": "Lassine Sinayoko"
+    },
+    {
+     "side": "home",
+     "min": 53,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    },
+    {
+     "side": "away",
+     "min": 86,
+     "kind": "penalty",
+     "player": "Lassine Sinayoko"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     61,
+     39
+    ],
+    "Tirs": [
+     14,
+     18
+    ],
+    "Tirs cadrés": [
+     5,
+     7
+    ],
+    "Duels gagnés": [
+     50,
+     51
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine Gouiri",
+     "Igor Paixao",
+     "Angel Gomes",
+     "Himad Abdelli",
+     "Amine Harit",
+     "Pierre-Emile Højbjerg",
+     "Emerson",
+     "Nayef Aguerd",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ],
+    "away": [
+     "Lassine Sinayoko",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Luca Koleosho",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Adama Camara",
+     "Hamari Traoré",
+     "Diego Coppola",
+     "Samir Chergui",
+     "Kevin Trapp"
+    ]
+   }
+  },
+  "2688665": {
+   "id": 2688665,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-04T17:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique Lyonnais",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": 3,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 18,
+     "kind": "refuse",
+     "player": "Loïs Openda"
+    },
+    {
+     "side": "away",
+     "min": 22,
+     "kind": "refuse",
+     "player": "Cameron Archer"
+    },
+    {
+     "side": "home",
+     "min": 28,
+     "kind": "but",
+     "player": "Felix Bacher"
+    },
+    {
+     "side": "home",
+     "min": 31,
+     "kind": "but",
+     "player": "Zachary Athekame"
+    },
+    {
+     "side": "away",
+     "min": 42,
+     "kind": "but",
+     "player": "Cameron Archer"
+    },
+    {
+     "side": "home",
+     "min": 53,
+     "kind": "but",
+     "player": "Ernest Nuamah"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     64,
+     36
+    ],
+    "Tirs": [
+     21,
+     8
+    ],
+    "Tirs cadrés": [
+     7,
+     3
+    ],
+    "Duels gagnés": [
+     51,
+     49
+    ]
+   },
+   "starters": {
+    "home": [
+     "Loïs Openda",
+     "Pavel Sulc",
+     "Ernest Nuamah",
+     "Corentin Tolisso",
+     "Tyler Morton",
+     "Mads Bidstrup",
+     "Abner Vinicius Da Silva Santos",
+     "Moussa Niakhaté",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Dominik Greif"
+    ],
+    "away": [
+     "Cameron Archer",
+     "Rémy Labeau Lascary",
+     "Naouirou Ahamada",
+     "Danny Namaso",
+     "Arthur Piedfort",
+     "Kévin Danois",
+     "Clément Akpa",
+     "Elikya Legros",
+     "Christ Makosso",
+     "Lamine Sy",
+     "Mamadou Diop"
+    ]
+   }
+  },
+  "2688664": {
+   "id": 2688664,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-05T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Lens",
+   "away": "FC Lorient",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/fc-lorient-258",
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 54,
+     "kind": "but",
+     "player": "Mamadou Koné"
+    }
+   ],
+   "reds": [
+    {
+     "side": "home",
+     "min": 92,
+     "player": "Souleymane Sagnan"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     58,
+     42
+    ],
+    "Tirs": [
+     17,
+     8
+    ],
+    "Tirs cadrés": [
+     6,
+     3
+    ],
+    "Duels gagnés": [
+     49,
+     51
+    ]
+   },
+   "starters": {
+    "home": [
+     "Abdallah Sima",
+     "Thorgan Hazard",
+     "Florian Thauvin",
+     "Michał Skóraś",
+     "Yacine Titraoui",
+     "Amadou Haidara",
+     "Ruben Aguilar",
+     "Matthieu Udol",
+     "Ismaëlo Ganiou",
+     "Kyllian Antonio",
+     "Robin Risser"
+    ],
+    "away": [
+     "Mamadou Koné",
+     "Jean-Victor Makengo",
+     "Gabin Bernardeau",
+     "Arsène Kouassi",
+     "Noah Mbamba",
+     "Noah Cadiou",
+     "Panos Katseris",
+     "Nathaniel Adjei",
+     "Montassar Talbi",
+     "Dembo Sylla",
+     "Yvon Mvogo"
+    ]
+   }
+  },
+  "2688663": {
+   "id": 2688663,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-05T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Havre AC",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/stade-brestois-254",
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 12,
+     "kind": "penalty",
+     "player": "Kamory Doumbia"
+    },
+    {
+     "side": "away",
+     "min": 51,
+     "kind": "but",
+     "player": "Kamory Doumbia"
+    },
+    {
+     "side": "home",
+     "min": 79,
+     "kind": "penalty",
+     "player": "Rayan Fofana"
+    }
+   ],
+   "reds": [
+    {
+     "side": "home",
+     "min": 47,
+     "player": "Junior Mwanga"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     57,
+     43
+    ],
+    "Tirs": [
+     18,
+     19
+    ],
+    "Tirs cadrés": [
+     4,
+     9
+    ],
+    "Duels gagnés": [
+     50,
+     51
+    ]
+   },
+   "starters": {
+    "home": [
+     "Josh Maja",
+     "Mbwana Samatta",
+     "Rassoul Ndiaye",
+     "Timothée Pembele",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Elias Jelert Kristensen",
+     "Ahmed Touba",
+     "Junior Mwanga",
+     "Ayumu Seko",
+     "Lionel M'Pasi"
+    ],
+    "away": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Mama Balde",
+     "Hugo Magnetti",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Raphaël Le Guen",
+     "Kenny Lala",
+     "Egil Selvik"
+    ]
+   }
+  },
+  "2688662": {
+   "id": 2688662,
+   "competition": "Ligue 1",
+   "kickoff": "2026-09-06T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Angers SCO",
+   "away": "Stade Rennais",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/stade-rennais-264",
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 9,
+     "kind": "but",
+     "player": "Przemysław Frankowski"
+    },
+    {
+     "side": "away",
+     "min": 17,
+     "kind": "csc",
+     "player": "Jordan Lefort"
+    },
+    {
+     "side": "home",
+     "min": 35,
+     "kind": "but",
+     "player": "Carlens Arcus"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     44,
+     56
+    ],
+    "Tirs": [
+     19,
+     17
+    ],
+    "Tirs cadrés": [
+     3,
+     5
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine El Ouazzani",
+     "Anthony Bermont",
+     "Amine Sbaï",
+     "Jim Allevinah",
+     "Branco Van den Boomen",
+     "Yassin Belkhdim",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Carlens Arcus",
+     "Anthony Lopes"
+    ],
+    "away": [
+     "Estéban Lepaul",
+     "Mousa Al-Taamari",
+     "Mahdi Camara",
+     "Sebastian Szymański",
+     "Ludovic Blas",
+     "Valentin Rongier",
+     "Quentin Merlin",
+     "Anthony Rouault",
+     "Charlie Cresswell",
+     "Przemysław Frankowski",
+     "Brice Samba"
+    ]
+   }
+  },
+  "2688661": {
+   "id": 2688661,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-28T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "LOSC",
+   "away": "PSG",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/psg-263",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 21,
+     "kind": "but",
+     "player": "Hakon Arnar Haraldsson"
+    },
+    {
+     "side": "home",
+     "min": 84,
+     "kind": "but",
+     "player": "Dilane Bakwa"
+    },
+    {
+     "side": "away",
+     "min": 91,
+     "kind": "but",
+     "player": "Vitinha"
+    },
+    {
+     "side": "away",
+     "min": 95,
+     "kind": "but",
+     "player": "Marquinhos"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     27,
+     73
+    ],
+    "Tirs": [
+     9,
+     18
+    ],
+    "Tirs cadrés": [
+     4,
+     4
+    ],
+    "Duels gagnés": [
+     50,
+     50
+    ]
+   },
+   "starters": {
+    "home": [
+     "Olivier Giroud",
+     "Felix Correia",
+     "Hakon Arnar Haraldsson",
+     "Ethan Mbappé",
+     "Nabil Bentaleb",
+     "Benjamin André",
+     "Romain Perraud",
+     "Alexsandro",
+     "Nathan Ngoy",
+     "Tiago Santos",
+     "Berke Ozer"
+    ],
+    "away": [
+     "Desire Doue",
+     "Ferran Torres",
+     "Maghnes Akliouche",
+     "Fabián Ruiz",
+     "Lucas Beraldo",
+     "Vitinha",
+     "Warren Zaïre-Emery",
+     "Willian Pacho",
+     "Marquinhos",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ]
+   }
+  },
+  "2688660": {
+   "id": 2688660,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-29T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Strasbourg",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/rc-strasbourg-756",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": 2,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 38,
+     "kind": "penalty",
+     "player": "Florian Thauvin"
+    },
+    {
+     "side": "home",
+     "min": 48,
+     "kind": "but",
+     "player": "Gessime Yassine"
+    },
+    {
+     "side": "home",
+     "min": 56,
+     "kind": "refuse",
+     "player": "Jacobo Ortega"
+    },
+    {
+     "side": "home",
+     "min": 85,
+     "kind": "but",
+     "player": "Gessime Yassine"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     52,
+     48
+    ],
+    "Tirs": [
+     16,
+     17
+    ],
+    "Tirs cadrés": [
+     7,
+     7
+    ],
+    "Duels gagnés": [
+     50,
+     50
+    ]
+   },
+   "starters": {
+    "home": [
+     "Sebastian Nanasi",
+     "Jacobo Ortega",
+     "Gessime Yassine",
+     "Giovanni Reyna",
+     "Pape Diop",
+     "Diogo Sousa",
+     "Lucas Høgsberg",
+     "Andrew Abiola Omobamidele",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ],
+    "away": [
+     "Abdallah Sima",
+     "Franjo Ivanović",
+     "Florian Thauvin",
+     "Matthieu Udol",
+     "Mickael Cuisance",
+     "Yacine Titraoui",
+     "Michał Skóraś",
+     "Souleymane Sagnan",
+     "Ismaëlo Ganiou",
+     "Maik Nawrocki",
+     "Robin Risser"
+    ]
+   }
+  },
+  "2688659": {
+   "id": 2688659,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-30T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Rennais",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": 3,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 5,
+     "kind": "but",
+     "player": "Estéban Lepaul"
+    },
+    {
+     "side": "home",
+     "min": 26,
+     "kind": "but",
+     "player": "Valentin Rongier"
+    },
+    {
+     "side": "away",
+     "min": 30,
+     "kind": "but",
+     "player": "Louis Mafouta"
+    },
+    {
+     "side": "away",
+     "min": 54,
+     "kind": "penalty",
+     "player": "Louis Mafouta"
+    },
+    {
+     "side": "home",
+     "min": 96,
+     "kind": "penalty",
+     "player": "Estéban Lepaul"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 68,
+     "player": "Djibril Sidibé"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     64,
+     36
+    ],
+    "Tirs": [
+     22,
+     12
+    ],
+    "Tirs cadrés": [
+     8,
+     5
+    ],
+    "Duels gagnés": [
+     54,
+     47
+    ]
+   },
+   "starters": {
+    "home": [
+     "Issa Soumaré",
+     "Estéban Lepaul",
+     "Mousa Al-Taamari",
+     "Adrien Thomasson",
+     "Valentin Rongier",
+     "Sebastian Szymański",
+     "Quentin Merlin",
+     "Abdelhamid Aït Boudlal",
+     "Charlie Cresswell",
+     "Przemysław Frankowski",
+     "Nicolas Lemaitre"
+    ],
+    "away": [
+     "Louis Mafouta",
+     "Dame Gueye",
+     "Lucas Calodat",
+     "Adil Bourabaa",
+     "Lucas Bretelle",
+     "Lucas Buades",
+     "Alexandre Lauray",
+     "Harold Voyer",
+     "Théo Eyoum",
+     "Noa Boissé",
+     "Nicolas Kocik"
+    ]
+   }
+  },
+  "2688658": {
+   "id": 2688658,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-30T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Paris FC",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/paris-fc-5170",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": 3,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 21,
+     "kind": "penalty",
+     "player": "Lassine Sinayoko"
+    },
+    {
+     "side": "home",
+     "min": 51,
+     "kind": "but",
+     "player": "Samir Chergui"
+    },
+    {
+     "side": "home",
+     "min": 89,
+     "kind": "but",
+     "player": "Vincent Marchetti"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     45,
+     55
+    ],
+    "Tirs": [
+     15,
+     15
+    ],
+    "Tirs cadrés": [
+     4,
+     4
+    ],
+    "Duels gagnés": [
+     42,
+     58
+    ]
+   },
+   "starters": {
+    "home": [
+     "Lassine Sinayoko",
+     "Moses Simon",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Otávio",
+     "Diego Coppola",
+     "Samir Chergui",
+     "Adama Camara",
+     "Kevin Trapp"
+    ],
+    "away": [
+     "Nathan N`Goumou Minpole",
+     "Sofiane Diop",
+     "Gauthier Hein",
+     "Melvin Michel Maxence Bard",
+     "Axel Witsel",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
+     "Yehvann Diouf"
+    ]
+   }
+  },
+  "2688657": {
+   "id": 2688657,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-30T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AS Monaco",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/as-monaco-259",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": 2,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 13,
+     "kind": "but",
+     "player": "Paris Brunner"
+    },
+    {
+     "side": "home",
+     "min": 53,
+     "kind": "but",
+     "player": "Paris Brunner"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     35,
+     65
+    ],
+    "Tirs": [
+     11,
+     13
+    ],
+    "Tirs cadrés": [
+     5,
+     2
+    ],
+    "Duels gagnés": [
+     53,
+     47
+    ]
+   },
+   "starters": {
+    "home": [
+     "Paris Brunner",
+     "Stanis Idumbo",
+     "Aleksandr Golovin",
+     "Mamadou Coulibaly",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Eric Dier",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ],
+    "away": [
+     "Amine Gouiri",
+     "Quinten Timber",
+     "Angel Gomes",
+     "Amine Harit",
+     "Pierre-Emile Højbjerg",
+     "Himad Abdelli",
+     "Emerson",
+     "Geoffrey Kondogbia",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ]
+   }
+  },
+  "2688656": {
+   "id": 2688656,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-29T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique Lyonnais",
+   "away": "Le Havre AC",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/le-havre-ac-701",
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 67,
+     "kind": "refuse",
+     "player": "Corentin Tolisso"
+    },
+    {
+     "side": "away",
+     "min": 74,
+     "kind": "but",
+     "player": "Mbwana Samatta"
+    },
+    {
+     "side": "home",
+     "min": 87,
+     "kind": "but",
+     "player": "Loïs Openda"
+    },
+    {
+     "side": "away",
+     "min": 94,
+     "kind": "refuse",
+     "player": "Sota Nakamura"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     58,
+     42
+    ],
+    "Tirs": [
+     15,
+     12
+    ],
+    "Tirs cadrés": [
+     5,
+     4
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Loïs Openda",
+     "Kaïl Boudache",
+     "Corentin Tolisso",
+     "Ernest Nuamah",
+     "Tyler Morton",
+     "Mads Bidstrup",
+     "Nicolás Tagliafico",
+     "Moussa Niakhaté",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Dominik Greif"
+    ],
+    "away": [
+     "Mbwana Samatta",
+     "Kaito Mizuta",
+     "Rassoul Ndiaye",
+     "Timothée Pembele",
+     "Amir Richardson",
+     "Simon Ebonog",
+     "Djibril Ouziad",
+     "Ahmed Touba",
+     "Junior Mwanga",
+     "Ayumu Seko",
+     "Lionel M'Pasi"
+    ]
+   }
+  },
+  "2688655": {
+   "id": 2688655,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-29T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "FC Lorient",
+   "away": "ESTAC Troyes",
+   "homeLink": "/fr/equipe/fc-lorient-258",
+   "awayLink": "/fr/equipe/estac-troyes-700",
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 29,
+     "kind": "penalty",
+     "player": "Renaud Ripart"
+    },
+    {
+     "side": "away",
+     "min": 38,
+     "kind": "but",
+     "player": "Lucas Maronnier"
+    },
+    {
+     "side": "home",
+     "min": 51,
+     "kind": "but",
+     "player": "Jean-Victor Makengo"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     68,
+     32
+    ],
+    "Tirs": [
+     15,
+     11
+    ],
+    "Tirs cadrés": [
+     6,
+     2
+    ],
+    "Duels gagnés": [
+     54,
+     46
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mamadou Koné",
+     "Jean-Victor Makengo",
+     "Gabin Bernardeau",
+     "Arsène Kouassi",
+     "Noah Cadiou",
+     "Arthur Avom",
+     "Theo Le Bris",
+     "Nathaniel Adjei",
+     "Montassar Talbi",
+     "Dembo Sylla",
+     "Yvon Mvogo"
+    ],
+    "away": [
+     "Renaud Ripart",
+     "Hugo Picard",
+     "Iron Gomis",
+     "Merwan Ifnaoui",
+     "Mouhamed Diop",
+     "Antoine Mille",
+     "Anis Ouzenadji",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Patrick Beach"
+    ]
+   }
+  },
+  "2688654": {
+   "id": 2688654,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-29T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Brestois",
+   "away": "Toulouse FC",
+   "homeLink": "/fr/equipe/stade-brestois-254",
+   "awayLink": "/fr/equipe/toulouse-fc-267",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 9,
+     "kind": "but",
+     "player": "Jacen Russell-Rowe"
+    },
+    {
+     "side": "home",
+     "min": 18,
+     "kind": "but",
+     "player": "Kamory Doumbia"
+    },
+    {
+     "side": "away",
+     "min": 62,
+     "kind": "but",
+     "player": "Christ Tapé"
+    },
+    {
+     "side": "home",
+     "min": 95,
+     "kind": "but",
+     "player": "Ludovic Ajorque"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     51,
+     49
+    ],
+    "Tirs": [
+     26,
+     6
+    ],
+    "Tirs cadrés": [
+     7,
+     2
+    ],
+    "Duels gagnés": [
+     47,
+     54
+    ]
+   },
+   "starters": {
+    "home": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Romain Del Castillo",
+     "Mamady Diambou",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Gautier Lloris",
+     "Raphaël Le Guen",
+     "Kenny Lala",
+     "Egil Selvik"
+    ],
+    "away": [
+     "Jacen Russell-Rowe",
+     "Yann Gboho",
+     "Thomas Jørgensen",
+     "Julián Vignolo",
+     "Cristian Casseres",
+     "Alexis Vossah",
+     "Christ Tapé",
+     "Rasmus Nicolaisen",
+     "Mark McKenzie",
+     "Ismaïl Diallo",
+     "Guillaume Restes"
+    ]
+   }
+  },
+  "2688653": {
+   "id": 2688653,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-29T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "AJ Auxerre",
+   "away": "Angers SCO",
+   "homeLink": "/fr/equipe/aj-auxerre-253",
+   "awayLink": "/fr/equipe/angers-sco-696",
+   "hg": 1,
+   "ag": 3,
+   "goals": [
+    {
+     "side": "away",
+     "min": 5,
+     "kind": "but",
+     "player": "Branco Van den Boomen"
+    },
+    {
+     "side": "home",
+     "min": 35,
+     "kind": "but",
+     "player": "Rémy Labeau Lascary"
+    },
+    {
+     "side": "away",
+     "min": 70,
+     "kind": "but",
+     "player": "Harouna Djibirin"
+    },
+    {
+     "side": "away",
+     "min": 78,
+     "kind": "but",
+     "player": "Amine El Ouazzani"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     61,
+     39
+    ],
+    "Tirs": [
+     20,
+     15
+    ],
+    "Tirs cadrés": [
+     7,
+     6
+    ],
+    "Duels gagnés": [
+     44,
+     56
+    ]
+   },
+   "starters": {
+    "home": [
+     "Rémy Labeau Lascary",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Kévin Danois",
+     "Arthur Piedfort",
+     "Naouirou Ahamada",
+     "Clément Akpa",
+     "Elikya Legros",
+     "Sinaly Diomande",
+     "Lamine Sy",
+     "Mamadou Diop"
+    ],
+    "away": [
+     "Amine El Ouazzani",
+     "Anthony Bermont",
+     "Amine Sbaï",
+     "Jim Allevinah",
+     "Branco Van den Boomen",
+     "Yassin Belkhdim",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Carlens Arcus",
+     "Anthony Lopes"
+    ]
+   }
+  },
+  "2688652": {
+   "id": 2688652,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-22T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "ESTAC Troyes",
+   "away": "Paris FC",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/paris-fc-5170",
+   "hg": 0,
+   "ag": 0,
+   "goals": [],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     41,
+     59
+    ],
+    "Tirs": [
+     9,
+     10
+    ],
+    "Tirs cadrés": [
+     2,
+     1
+    ],
+    "Duels gagnés": [
+     48,
+     52
+    ]
+   },
+   "starters": {
+    "home": [
+     "Kandet Diawara",
+     "Renaud Ripart",
+     "Merwan Ifnaoui",
+     "Hugo Picard",
+     "Mouhamed Diop",
+     "Iron Gomis",
+     "Anis Ouzenadji",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Yvann Titi",
+     "Patrick Beach"
+    ],
+    "away": [
+     "Lassine Sinayoko",
+     "Luca Koleosho",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Rudy Matondo",
+     "Otávio",
+     "Mamadou Mbow",
+     "Diego Coppola",
+     "Adama Camara",
+     "Kevin Trapp"
+    ]
+   }
+  },
+  "2688651": {
+   "id": 2688651,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-22T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Toulouse FC",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": 0,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 68,
+     "kind": "but",
+     "player": "Noah Nartey"
+    },
+    {
+     "side": "away",
+     "min": 85,
+     "kind": "but",
+     "player": "Malick Fofana"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     47,
+     53
+    ],
+    "Tirs": [
+     17,
+     11
+    ],
+    "Tirs cadrés": [
+     2,
+     3
+    ],
+    "Duels gagnés": [
+     53,
+     47
+    ]
+   },
+   "starters": {
+    "home": [
+     "Santiago Hidalgo",
+     "Yann Gboho",
+     "Thomas Jørgensen",
+     "Julián Vignolo",
+     "Niklas Schmidt",
+     "Cristian Casseres",
+     "Christ Tapé",
+     "Rasmus Nicolaisen",
+     "Mark McKenzie",
+     "Ismaïl Diallo",
+     "Guillaume Restes"
+    ],
+    "away": [
+     "Julien Duranville",
+     "Rémi Himbert",
+     "Kaïl Boudache",
+     "Noah Nartey",
+     "Mathys de Carvalho",
+     "Mads Bidstrup",
+     "Mohamed Ouédraogo",
+     "Clinton Mata",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Rémy Descamps"
+    ]
+   }
+  },
+  "2688650": {
+   "id": 2688650,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-23T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Stade Rennais",
+   "away": "PSG",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/psg-263",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 9,
+     "kind": "but",
+     "player": "Sebastian Szymański"
+    },
+    {
+     "side": "home",
+     "min": 38,
+     "kind": "but",
+     "player": "Estéban Lepaul"
+    },
+    {
+     "side": "away",
+     "min": 71,
+     "kind": "but",
+     "player": "Ferran Torres"
+    },
+    {
+     "side": "away",
+     "min": 82,
+     "kind": "but",
+     "player": "Ferran Torres"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     30,
+     70
+    ],
+    "Tirs": [
+     9,
+     19
+    ],
+    "Tirs cadrés": [
+     3,
+     5
+    ],
+    "Duels gagnés": [
+     53,
+     47
+    ]
+   },
+   "starters": {
+    "home": [
+     "Estéban Lepaul",
+     "Issa Soumaré",
+     "Adrien Thomasson",
+     "Sebastian Szymański",
+     "Mousa Al-Taamari",
+     "Valentin Rongier",
+     "Aboubakar Nagida",
+     "Abdelhamid Aït Boudlal",
+     "Charlie Cresswell",
+     "Przemysław Frankowski",
+     "Brice Samba"
+    ],
+    "away": [
+     "Khvicha Kvaratskhelia",
+     "Ousmane Dembélé",
+     "Desire Doue",
+     "João Neves",
+     "Vitinha",
+     "Warren Zaïre-Emery",
+     "Lucas Hernandez",
+     "Willian Pacho",
+     "Marquinhos",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ]
+   }
+  },
+  "2688649": {
+   "id": 2688649,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-22T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "OGC Nice",
+   "away": "FC Lorient",
+   "homeLink": "/fr/equipe/ogc-nice-262",
+   "awayLink": "/fr/equipe/fc-lorient-258",
+   "hg": 0,
+   "ag": 0,
+   "goals": [],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     61,
+     39
+    ],
+    "Tirs": [
+     14,
+     10
+    ],
+    "Tirs cadrés": [
+     1,
+     2
+    ],
+    "Duels gagnés": [
+     48,
+     53
+    ]
+   },
+   "starters": {
+    "home": [
+     "Zoumana Diallo",
+     "Sofiane Diop",
+     "Gauthier Hein",
+     "Melvin Michel Maxence Bard",
+     "Everton Pereira",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
+     "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Antoine Mendy",
+     "Yehvann Diouf"
+    ],
+    "away": [
+     "Mamadou Koné",
+     "Jean-Victor Makengo",
+     "Gabin Bernardeau",
+     "Arsène Kouassi",
+     "Arthur Avom",
+     "Noah Cadiou",
+     "Theo Le Bris",
+     "Nathaniel Adjei",
+     "Montassar Talbi",
+     "Dembo Sylla",
+     "Yvon Mvogo"
+    ]
+   }
+  },
+  "2688648": {
+   "id": 2688648,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-21T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Olympique de Marseille",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": 4,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 46,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    },
+    {
+     "side": "home",
+     "min": 68,
+     "kind": "penalty",
+     "player": "Amine Gouiri"
+    },
+    {
+     "side": "home",
+     "min": 89,
+     "kind": "but",
+     "player": "Keyliane Abdallah"
+    },
+    {
+     "side": "home",
+     "min": 96,
+     "kind": "but",
+     "player": "Pierre-Emile Højbjerg"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 59,
+     "player": "Samir El Mourabet"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     67,
+     33
+    ],
+    "Tirs": [
+     14,
+     5
+    ],
+    "Tirs cadrés": [
+     8,
+     2
+    ],
+    "Duels gagnés": [
+     51,
+     49
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine Gouiri",
+     "Igor Paixao",
+     "Angel Gomes",
+     "Amine Harit",
+     "Pierre-Emile Højbjerg",
+     "Himad Abdelli",
+     "Emerson",
+     "Geoffrey Kondogbia",
+     "Conrad Egan Riley",
+     "Tim Weah",
+     "Jeffrey de Lange"
+    ],
+    "away": [
+     "Sékou Mara",
+     "Gessime Yassine",
+     "Sebastian Nanasi",
+     "Sam Amo-Ameyaw",
+     "Samir El Mourabet",
+     "Diogo Sousa",
+     "Genesis Antwi",
+     "Lucas Høgsberg",
+     "Andrew Abiola Omobamidele",
+     "Guéla Doué",
+     "Filip Jorgensen"
+    ]
+   }
+  },
+  "2688647": {
+   "id": 2688647,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-22T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "RC Lens",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": 5,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 12,
+     "kind": "penalty",
+     "player": "Florian Thauvin"
+    },
+    {
+     "side": "home",
+     "min": 49,
+     "kind": "but",
+     "player": "Franjo Ivanović"
+    },
+    {
+     "side": "home",
+     "min": 54,
+     "kind": "but",
+     "player": "Saud Abdulhamid"
+    },
+    {
+     "side": "away",
+     "min": 61,
+     "kind": "penalty",
+     "player": "Danny Namaso"
+    },
+    {
+     "side": "home",
+     "min": 66,
+     "kind": "but",
+     "player": "Ismaëlo Ganiou"
+    },
+    {
+     "side": "away",
+     "min": 69,
+     "kind": "but",
+     "player": "Lamine Sy"
+    },
+    {
+     "side": "home",
+     "min": 88,
+     "kind": "penalty",
+     "player": "Florian Thauvin"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 35,
+     "player": "Christ Makosso"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     53,
+     47
+    ],
+    "Tirs": [
+     12,
+     10
+    ],
+    "Tirs cadrés": [
+     9,
+     4
+    ],
+    "Duels gagnés": [
+     57,
+     43
+    ]
+   },
+   "starters": {
+    "home": [
+     "Abdallah Sima",
+     "Franjo Ivanović",
+     "Florian Thauvin",
+     "Matthieu Udol",
+     "Yacine Titraoui",
+     "Mickael Cuisance",
+     "Saud Abdulhamid",
+     "Souleymane Sagnan",
+     "Ismaëlo Ganiou",
+     "Maik Nawrocki",
+     "Robin Risser"
+    ],
+    "away": [
+     "Aristide Zossou",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Kévin Danois",
+     "Arthur Piedfort",
+     "Naouirou Ahamada",
+     "Clément Akpa",
+     "Christ Makosso",
+     "Sinaly Diomande",
+     "Lamine Sy",
+     "Mamadou Diop"
+    ]
+   }
+  },
+  "2688646": {
+   "id": 2688646,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-22T18:45:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Mans FC",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/le-mans-fc-269",
+   "awayLink": "/fr/equipe/stade-brestois-254",
+   "hg": 2,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 31,
+     "kind": "but",
+     "player": "Romain Del Castillo"
+    },
+    {
+     "side": "home",
+     "min": 47,
+     "kind": "but",
+     "player": "Dame Gueye"
+    },
+    {
+     "side": "home",
+     "min": 55,
+     "kind": "but",
+     "player": "Louis Mafouta"
+    },
+    {
+     "side": "away",
+     "min": 62,
+     "kind": "but",
+     "player": "Kamory Doumbia"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     49,
+     51
+    ],
+    "Tirs": [
+     8,
+     26
+    ],
+    "Tirs cadrés": [
+     5,
+     7
+    ],
+    "Duels gagnés": [
+     39,
+     61
+    ]
+   },
+   "starters": {
+    "home": [
+     "Louis Mafouta",
+     "Dame Gueye",
+     "Yasser Larouci",
+     "Antoine Rabillard",
+     "Alexandre Lauray",
+     "Adil Bourabaa",
+     "Lucas Buades",
+     "Rayan Bamba",
+     "Théo Eyoum",
+     "Noa Boissé",
+     "Nicolas Kocik"
+    ],
+    "away": [
+     "Ludovic Ajorque",
+     "Pathé Mboup",
+     "Kamory Doumbia",
+     "Romain Del Castillo",
+     "Joseph Nonge",
+     "Joris Chotard",
+     "Bradley Locko",
+     "Raphaël Le Guen",
+     "Lucas Tousart",
+     "Kenny Lala",
+     "Egil Selvik"
+    ]
+   }
+  },
+  "2688645": {
+   "id": 2688645,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-23T15:15:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Le Havre AC",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 14,
+     "kind": "but",
+     "player": "Eric Dier"
+    },
+    {
+     "side": "home",
+     "min": 26,
+     "kind": "refuse",
+     "player": "Amir Richardson"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     49,
+     51
+    ],
+    "Tirs": [
+     14,
+     15
+    ],
+    "Tirs cadrés": [
+     4,
+     7
+    ],
+    "Duels gagnés": [
+     42,
+     58
+    ]
+   },
+   "starters": {
+    "home": [
+     "Mbwana Samatta",
+     "Amir Richardson",
+     "Rassoul Ndiaye",
+     "Yanis Zouaoui",
+     "Junior Mwanga",
+     "Simon Ebonog",
+     "Fodé Doucouré",
+     "Vincent Sasso",
+     "Ayumu Seko",
+     "Timothée Pembele",
+     "Lionel M'Pasi"
+    ],
+    "away": [
+     "Paris Brunner",
+     "Stanis Idumbo",
+     "Aleksandr Golovin",
+     "Mamadou Coulibaly",
+     "Denis Zakaria",
+     "Lamine Camara",
+     "Flávio Nazinho",
+     "Eric Dier",
+     "Sadibou Sané",
+     "Vanderson",
+     "Lukas Hradecky"
+    ]
+   }
+  },
+  "2688644": {
+   "id": 2688644,
+   "competition": "Ligue 1",
+   "kickoff": "2026-08-23T13:00:00Z",
+   "status": "Fin du match",
+   "period": 11,
+   "home": "Angers SCO",
+   "away": "LOSC",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/losc-257",
+   "hg": 0,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 11,
+     "kind": "but",
+     "player": "Olivier Giroud"
+    },
+    {
+     "side": "away",
+     "min": 31,
+     "kind": "but",
+     "player": "Tiago Santos"
+    }
+   ],
+   "reds": [],
+   "stats": {
+    "Possession": [
+     57,
+     43
+    ],
+    "Tirs": [
+     20,
+     11
+    ],
+    "Tirs cadrés": [
+     2,
+     8
+    ],
+    "Duels gagnés": [
+     53,
+     47
+    ]
+   },
+   "starters": {
+    "home": [
+     "Amine El Ouazzani",
+     "Amine Sbaï",
+     "Anthony Bermont",
+     "Jim Allevinah",
+     "Yassin Belkhdim",
+     "Branco Van den Boomen",
+     "Jacques Ekomie",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Lilian Raolisoa",
+     "Anthony Lopes"
+    ],
+    "away": [
+     "Olivier Giroud",
+     "Basar Önal",
+     "Hakon Arnar Haraldsson",
+     "Ethan Mbappé",
+     "Nabil Bentaleb",
+     "Ngal Mukau",
+     "Romain Perraud",
+     "Alexsandro",
+     "Nathan Ngoy",
+     "Tiago Santos",
+     "Berke Ozer"
+    ]
+   }
+  },
+  "2688716": {
+   "id": 2688716,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-31T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Olympique Lyonnais",
+   "away": "Angers SCO",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/angers-sco-696",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688717": {
+   "id": 2688717,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-30T18:00:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Le Havre AC",
+   "away": "PSG",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/psg-263",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688718": {
+   "id": 2688718,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-30T20:05:00Z",
+   "status": "",
+   "period": 1,
+   "home": "LOSC",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688719": {
+   "id": 2688719,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-31T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "FC Lorient",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/fc-lorient-258",
+   "awayLink": "/fr/equipe/stade-brestois-254",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688720": {
+   "id": 2688720,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-01T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Olympique de Marseille",
+   "away": "Toulouse FC",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/toulouse-fc-267",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688721": {
+   "id": 2688721,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-31T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "OGC Nice",
+   "away": "Stade Rennais",
+   "homeLink": "/fr/equipe/ogc-nice-262",
+   "awayLink": "/fr/equipe/stade-rennais-264",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688722": {
+   "id": 2688722,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-01T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Paris FC",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/paris-fc-5170",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688723": {
+   "id": 2688723,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-01T14:00:00Z",
+   "status": "",
+   "period": 1,
+   "home": "RC Strasbourg",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/rc-strasbourg-756",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688724": {
+   "id": 2688724,
+   "competition": "Ligue 1",
+   "kickoff": "2026-10-31T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "ESTAC Troyes",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688725": {
+   "id": 2688725,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Angers SCO",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688726": {
+   "id": 2688726,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-07T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "AJ Auxerre",
+   "away": "Paris FC",
+   "homeLink": "/fr/equipe/aj-auxerre-253",
+   "awayLink": "/fr/equipe/paris-fc-5170",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688727": {
+   "id": 2688727,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Stade Brestois",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/stade-brestois-254",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688728": {
+   "id": 2688728,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Le Havre AC",
+   "away": "FC Lorient",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/fc-lorient-258",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688729": {
+   "id": 2688729,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-08T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Le Mans FC",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/le-mans-fc-269",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688730": {
+   "id": 2688730,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-07T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "PSG",
+   "away": "ESTAC Troyes",
+   "homeLink": "/fr/equipe/psg-263",
+   "awayLink": "/fr/equipe/estac-troyes-700",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688731": {
+   "id": 2688731,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-08T14:00:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Stade Rennais",
+   "away": "LOSC",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/losc-257",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688732": {
+   "id": 2688732,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-06T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Toulouse FC",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688733": {
+   "id": 2688733,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-08T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "RC Lens",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688734": {
+   "id": 2688734,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "RC Lens",
+   "away": "Toulouse FC",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/toulouse-fc-267",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  }
+ },
+ "news": {
+  "AJ Auxerre": [
+   {
+    "title": "AJ Auxerre - L'AJ Auxerre tape du poing sur la table et demande à ce que le match nul face au Mans FC ne \"soit pas homologué\"",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T14:19:00Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-laj-auxerre-tape-du-poing-sur-la-table-et-demande-a-ce-que-le-match-nul-face-au-mans-fc-ne-soit-pas-homologue-43675440"
+   },
+   {
+    "title": "AJ Auxerre - Will Still révolté après \"un problème informatique inédit\" sur un but du Mans FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T20:57:00Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-revolte-apres-un-probleme-informatique-inedit-sur-un-but-du-mans-fc-43671911"
+   },
+   {
+    "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T19:15:35Z",
+    "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572"
+   },
+   {
+    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
+   },
+   {
+    "title": "Auxerre-Le Mans : énorme imbroglio, la goal-line valide un but, la VAR ne peut pas confirmer",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T17:29:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-le-mans-enorme-imbroglio-la-goal-line-valide-un-but-la-var-ne-peut-pas-confirmer-43670961"
+   },
+   {
+    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-officielles-43670313"
+   },
+   {
+    "title": "AJ Auxerre – Le Mans : les Auxerrois veulent confirmer leur retour en forme, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-25T10:16:43Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-le-mans-les-auxerrois-veulent-confirmer-leur-retour-en-forme-compositions-probables-chaine-tv-et-heure-43668967"
+   },
+   {
+    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos probables",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T08:00:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-probables-43668339"
+   },
+   {
+    "title": "Auxerre-Le Mans : chaîne TV, streaming… À quelle heure et où suivre ce match de Ligue 1 de deuxième partie de tableau ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T04:50:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-le-mans-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-de-ligue-1-de-deuxieme-partie-de-tableau-43667916"
+   },
+   {
+    "title": "Auxerre sur une énorme dynamique, Will Still appelle au calme",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-24T17:29:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-sur-une-enorme-dynamique-will-still-appelle-au-calme-43665749"
+   }
+  ],
+  "AS Monaco": [
+   {
+    "title": "AS Monaco - Un club anglais suit de près Lamine Camara",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T17:01:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-un-club-anglais-suit-de-pres-lamine-camara-43676299"
+   },
+   {
+    "title": "AS Monaco : Filipe Luís dénonce le chaos et prend tout sur lui",
+    "publisher": "Morning Foot",
+    "time": "2026-10-26T11:00:35Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329"
+   },
+   {
+    "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
+    "publisher": "AS Monaco",
+    "time": "2026-10-26T09:41:00Z",
+    "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue"
+   },
+   {
+    "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
+    "publisher": "AS Monaco",
+    "time": "2026-10-26T09:37:20Z",
+    "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LE7hiMZ6UPARgS0sA7q50JQ4fN"
+   },
+   {
+    "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T19:45:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650"
+   },
+   {
+    "title": "AS Monaco - Filipe Luis prend l'entière responsabilité du match nul face au LOSC !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:30:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341"
+   },
+   {
+    "title": "ASM-LOSC : les tops, les flops",
+    "publisher": "ASM-SUPPORTERS.FR",
+    "time": "2026-10-25T17:24:09Z",
+    "url": "https://onefootball.com/fr/news/asm-losc-les-tops-les-flops-43670953"
+   },
+   {
+    "title": "LOSC - Davide Ancelotti analyse le match nul face à l'AS Monaco et se projette sur le derby face au RC Lens",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T17:16:00Z",
+    "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-analyse-le-match-nul-face-a-las-monaco-et-se-projette-sur-le-derby-face-au-rc-lens-43670994"
+   }
+  ],
+  "Angers SCO": [
+   {
+    "title": "Angers – Lorient : un 0-0 qui cache une statistique inquiétante",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T20:46:44Z",
+    "url": "https://onefootball.com/fr/news/angers-lorient-un-0-0-qui-cache-une-statistique-inquietante-43671893"
+   },
+   {
+    "title": "Ligue 1 - Pas de vainqueur entre Angers SCO et le FC Lorient (résumé)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-pas-de-vainqueur-entre-angers-sco-et-le-fc-lorient-resume-43671208"
+   },
+   {
+    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
+   },
+   {
+    "title": "Ligue 1 - Angers SCO - FC Lorient : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:25:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-angers-sco-fc-lorient-les-compos-officielles-43670335"
+   },
+   {
+    "title": "Angers SCO - Le groupe angevin pour affronter le FC Lorient",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T10:14:00Z",
+    "url": "https://onefootball.com/fr/news/angers-sco-le-groupe-angevin-pour-affronter-le-fc-lorient-43668941"
+   },
+   {
+    "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T10:05:00Z",
+    "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885"
+   },
+   {
+    "title": "Angers – Lorient : le SCO au bord de la crise face à des Merlus en pleine confiance, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-25T09:58:54Z",
+    "url": "https://onefootball.com/fr/news/angers-lorient-le-sco-au-bord-de-la-crise-face-a-des-merlus-en-pleine-confiance-compositions-probables-chaine-tv-et-heure-43668834"
+   },
+   {
+    "title": "Ligue 1 - Angers SCO - FC Lorient : les compos probables",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T07:40:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-angers-sco-fc-lorient-les-compos-probables-43668274"
+   },
+   {
+    "title": "Angers-Lorient : streaming, chaîne TV… À quelle heure et où suivre cette rencontre de Ligue 1 entre deux équipes au dynamiques opposées ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T04:30:00Z",
+    "url": "https://onefootball.com/fr/news/angers-lorient-streaming-chaine-tv-a-quelle-heure-et-ou-suivre-cette-rencontre-de-ligue-1-entre-deux-equipes-au-dynamiques-opposees-43667869"
+   },
+   {
+    "title": "\"La fusée est lancée\" ... Une légende de l'OM s'enflamme après le succès à Angers",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-20T10:28:00Z",
+    "url": "https://onefootball.com/fr/news/la-fusee-est-lancee-une-legende-de-lom-senflamme-apres-le-succes-a-angers-43641439"
+   }
+  ],
+  "ESTAC Troyes": [
+   {
+    "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:20:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231"
+   },
+   {
+    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
+   },
+   {
+    "title": "Ligue 1 - TFC - ESTAC Troyes : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:30:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-officielles-43670340"
+   },
+   {
+    "title": "Toulouse - Troyes, Angers - Lorient, Auxerre - Le Mans : les compositions officielles du multiplex !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T15:18:00Z",
+    "url": "https://onefootball.com/fr/news/toulouse-troyes-angers-lorient-auxerre-le-mans-les-compositions-officielles-du-multiplex-43670304"
+   },
+   {
+    "title": "Ligue 1 - TFC - ESTAC Troyes : les compos probables",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T07:50:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-probables-43668288"
+   },
+   {
+    "title": "\"On a pris des mesures pour protéger les joueurs\" : Toulouse veille sur son groupe avant la nouvelle journée de mobilisation",
+    "publisher": "Foot National",
+    "time": "2026-10-25T05:22:00Z",
+    "url": "https://onefootball.com/fr/news/on-a-pris-des-mesures-pour-proteger-les-joueurs-toulouse-veille-sur-son-groupe-avant-la-nouvelle-journee-de-mobilisation-43668004"
+   },
+   {
+    "title": "TFC - Le groupe toulousain pour affronter l'ESTAC Troyes",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T14:07:00Z",
+    "url": "https://onefootball.com/fr/news/tfc-le-groupe-toulousain-pour-affronter-lestac-troyes-43664811"
+   },
+   {
+    "title": "Un match de Ligue 1 décalé en marge des manifestations ce week-end, la Ligue confirme !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-21T10:33:00Z",
+    "url": "https://onefootball.com/fr/news/un-match-de-ligue-1-decale-en-marge-des-manifestations-ce-week-end-la-ligue-confirme-43647357"
+   },
+   {
+    "title": "Un match de Ligue 1 décalé à cause des manifestations",
+    "publisher": "Foot National",
+    "time": "2026-10-21T10:27:00Z",
+    "url": "https://onefootball.com/fr/news/un-match-de-ligue-1-decale-a-cause-des-manifestations-43647334"
+   },
+   {
+    "title": "Ligue 1 - TFC - ESTAC Troyes : la LFP décale le match pour une raison précise",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-21T09:25:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-la-lfp-decale-le-match-pour-une-raison-precise-43646961"
+   }
+  ],
+  "FC Lorient": [
+   {
+    "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T17:18:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343"
+   },
+   {
+    "title": "Ligue 1 : le derby entre Lorient et Brest décalé au lundi soir",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T17:10:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313"
+   },
+   {
+    "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
+    "publisher": "Foot National",
+    "time": "2026-10-26T15:00:00Z",
+    "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611"
+   },
+   {
+    "title": "Angers – Lorient : un 0-0 qui cache une statistique inquiétante",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T20:46:44Z",
+    "url": "https://onefootball.com/fr/news/angers-lorient-un-0-0-qui-cache-une-statistique-inquietante-43671893"
+   },
+   {
+    "title": "Ligue 1 - Pas de vainqueur entre Angers SCO et le FC Lorient (résumé)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-pas-de-vainqueur-entre-angers-sco-et-le-fc-lorient-resume-43671208"
+   },
+   {
+    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
+   },
+   {
+    "title": "Ligue 1 - Angers SCO - FC Lorient : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:25:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-angers-sco-fc-lorient-les-compos-officielles-43670335"
+   },
+   {
+    "title": "Angers SCO - Le groupe angevin pour affronter le FC Lorient",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T10:14:00Z",
+    "url": "https://onefootball.com/fr/news/angers-sco-le-groupe-angevin-pour-affronter-le-fc-lorient-43668941"
+   },
+   {
+    "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T10:05:00Z",
+    "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885"
+   },
+   {
+    "title": "Angers – Lorient : le SCO au bord de la crise face à des Merlus en pleine confiance, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-25T09:58:54Z",
+    "url": "https://onefootball.com/fr/news/angers-lorient-le-sco-au-bord-de-la-crise-face-a-des-merlus-en-pleine-confiance-compositions-probables-chaine-tv-et-heure-43668834"
+   }
+  ],
+  "LOSC": [
+   {
+    "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T13:20:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091"
+   },
+   {
+    "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T13:02:00Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-les-sang-et-or-interdisent-a-leurs-supporters-de-se-deplacer-pour-le-derby-du-nord-43675008"
+   },
+   {
+    "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T19:45:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650"
+   },
+   {
+    "title": "AS Monaco - Filipe Luis prend l'entière responsabilité du match nul face au LOSC !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:30:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341"
+   },
+   {
+    "title": "LOSC - Davide Ancelotti analyse le match nul face à l'AS Monaco et se projette sur le derby face au RC Lens",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T17:16:00Z",
+    "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-analyse-le-match-nul-face-a-las-monaco-et-se-projette-sur-le-derby-face-au-rc-lens-43670994"
+   },
+   {
+    "title": "Monaco – Lille : 20 tirs à 4, comment l’ASM a-t-elle pu ne pas gagner ?",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T16:37:53Z",
+    "url": "https://onefootball.com/fr/news/monaco-lille-20-tirs-a-4-comment-lasm-a-t-elle-pu-ne-pas-gagner-43670766"
+   },
+   {
+    "title": "Ligue 1 : réduit à dix, Lille ramène un point de Monaco",
+    "publisher": "Foot National",
+    "time": "2026-10-25T16:02:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-reduit-a-dix-lille-ramene-un-point-de-monaco-43670541"
+   },
+   {
+    "title": "À 10, Lille ramène un bon nul de Monaco, Mbappé buteur !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T15:56:00Z",
+    "url": "https://onefootball.com/fr/news/a-10-lille-ramene-un-bon-nul-de-monaco-mbappe-buteur-43670487"
+   }
+  ],
+  "Le Havre AC": [
+   {
+    "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T16:03:00Z",
+    "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918"
+   },
+   {
+    "title": "OM : Riolo dénonce un règlement de comptes inutile après Le Havre",
+    "publisher": "Morning Foot",
+    "time": "2026-10-26T14:00:16Z",
+    "url": "https://onefootball.com/fr/news/om-riolo-denonce-un-reglement-de-comptes-inutile-apres-le-havre-43675366"
+   },
+   {
+    "title": "OM - \"Le football, ça se respecte\",  les mots forts d'Amine Harit après la victoire étriquée de l'OM face au Havre AC (vidéo)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T20:35:00Z",
+    "url": "https://onefootball.com/fr/news/om-le-football-ca-se-respecte-les-mots-forts-damine-harit-apres-la-victoire-etriquee-de-lom-face-au-havre-ac-video-43671859"
+   },
+   {
+    "title": "OM - Bruno Genesio énumère tout ce qui lui a plu face au Havre AC, malgré la fin de match totalement ratée",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T20:15:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-enumere-tout-ce-qui-lui-a-plu-face-au-havre-ac-malgre-la-fin-de-match-totalement-ratee-43671825"
+   },
+   {
+    "title": "Bertrand Latour : « Si vous voulez qu’on fasse la chenille parce que Marseille, avec Gouiri, Paixao, Hojbjerg, a battu Le Havre 4-3… »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-25T19:46:43Z",
+    "url": "https://onefootball.com/fr/news/bertrand-latour-si-vous-voulez-quon-fasse-la-chenille-parce-que-marseille-avec-gouiri-paixao-hojbjerg-a-battu-le-havre-4-3-43671672"
+   },
+   {
+    "title": "Le Havre AC - Didier Digard peste contre l'arbitrage après la défaite face à l'OM, deux penaltys oubliés selon lui ! (vidéo)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T19:20:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-ac-didier-digard-peste-contre-larbitrage-apres-la-defaite-face-a-lom-deux-penaltys-oublies-selon-lui-video-43671567"
+   },
+   {
+    "title": "OM-Le Havre : les 2 mains ultra-litigieuses non sifflées qui sauvent Marseille de l'humiliation",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T18:25:00Z",
+    "url": "https://onefootball.com/fr/news/om-le-havre-les-2-mains-ultra-litigieuses-non-sifflees-qui-sauvent-marseille-de-lhumiliation-43671242"
+   },
+   {
+    "title": "OM : Marseille s’impose en passant par tous les états, les stats d’un match fou",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T18:21:43Z",
+    "url": "https://onefootball.com/fr/news/om-marseille-simpose-en-passant-par-tous-les-etats-les-stats-dun-match-fou-43671244"
+   },
+   {
+    "title": "L'OM se fait peur contre le Havre, Rennes leader après une démonstration contre Strasbourg... les résultats du multiplex !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/lom-se-fait-peur-contre-le-havre-rennes-leader-apres-une-demonstration-contre-strasbourg-les-resultats-du-multiplex-43671202"
+   }
+  ],
+  "Le Mans FC": [
+   {
+    "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T19:15:35Z",
+    "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572"
+   },
+   {
+    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
+   },
+   {
+    "title": "Auxerre-Le Mans : énorme imbroglio, la goal-line valide un but, la VAR ne peut pas confirmer",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T17:29:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-le-mans-enorme-imbroglio-la-goal-line-valide-un-but-la-var-ne-peut-pas-confirmer-43670961"
+   },
+   {
+    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-officielles-43670313"
+   },
+   {
+    "title": "AJ Auxerre – Le Mans : les Auxerrois veulent confirmer leur retour en forme, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-25T10:16:43Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-le-mans-les-auxerrois-veulent-confirmer-leur-retour-en-forme-compositions-probables-chaine-tv-et-heure-43668967"
+   },
+   {
+    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos probables",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T08:00:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-probables-43668339"
+   },
+   {
+    "title": "Auxerre-Le Mans : chaîne TV, streaming… À quelle heure et où suivre ce match de Ligue 1 de deuxième partie de tableau ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T04:50:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-le-mans-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-de-ligue-1-de-deuxieme-partie-de-tableau-43667916"
+   },
+   {
+    "title": "AJ Auxerre - Un retour mais plusieurs absents dans le groupe de l'AJA pour le match face au Mans FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T15:55:00Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-un-retour-mais-plusieurs-absents-dans-le-groupe-de-laja-pour-le-match-face-au-mans-fc-43665402"
+   },
+   {
+    "title": "Le Mans s’effondre, Toulouse se régale, les chiffres d’une démonstration",
+    "publisher": "Morning Foot",
+    "time": "2026-10-16T20:44:05Z",
+    "url": "https://onefootball.com/fr/news/le-mans-seffondre-toulouse-se-regale-les-chiffres-dune-demonstration-43623791"
+   },
+   {
+    "title": "Ligue 1 - Les notes de Le Mans FC - TFC : Toulouse s'impose largement au Mans et se place aux portes de l'Europe",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-16T20:40:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-le-mans-fc-tfc-toulouse-simpose-largement-au-mans-et-se-place-aux-portes-de-leurope-43623771"
+   }
+  ],
+  "OGC Nice": [
+   {
+    "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
+    "publisher": "Foot National",
+    "time": "2026-10-26T15:00:00Z",
+    "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611"
+   },
+   {
+    "title": "Un joueur prêté par l’Eintracht devient le héros du match",
+    "publisher": "Frühes-Tor.de",
+    "time": "2026-10-26T10:01:05Z",
+    "url": "https://onefootball.com/fr/news/un-joueur-prete-par-leintracht-devient-le-heros-du-match-43673857"
+   },
+   {
+    "title": "Stade Brestois - Julien Lachuer et Hugo Magnetti expriment leur déception après le revers face à l'OGC Nice",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T09:47:00Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791"
+   },
+   {
+    "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T07:50:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337"
+   },
+   {
+    "title": "Stade Brestois : Lachuer et Magnetti pointent un mal qui se répète",
+    "publisher": "Morning Foot",
+    "time": "2026-10-24T07:00:10Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-lachuer-et-magnetti-pointent-un-mal-qui-se-repete-43663171"
+   },
+   {
+    "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
+    "publisher": "Foot National",
+    "time": "2026-10-24T06:39:00Z",
+    "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102"
+   },
+   {
+    "title": "OGC Nice - L'énorme hommage de Sofiane Diop envers Yehvann Diouf après son penalty arrêté",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-23T21:26:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-lenorme-hommage-de-sofiane-diop-envers-yehvann-diouf-apres-son-penalty-arrete-43662244"
+   },
+   {
+    "title": "Brest-Nice : Diouf prend sa revanche sur les critiques !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-23T21:24:00Z",
+    "url": "https://onefootball.com/fr/news/brest-nice-diouf-prend-sa-revanche-sur-les-critiques-43662231"
+   },
+   {
+    "title": "OGC Nice - La réaction pleine de classe de Yehvann Diouf après son penalty arrêté",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-23T21:18:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-la-reaction-pleine-de-classe-de-yehvann-diouf-apres-son-penalty-arrete-43662225"
+   },
+   {
+    "title": "Une bourde et un penalty arrêté : la folle soirée de Yehvann Diouf (Nice) à Brest",
+    "publisher": "Foot National",
+    "time": "2026-10-23T21:08:00Z",
+    "url": "https://onefootball.com/fr/news/une-bourde-et-un-penalty-arrete-la-folle-soiree-de-yehvann-diouf-nice-a-brest-43662208"
+   }
+  ],
+  "Olympique Lyonnais": [
+   {
+    "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T17:30:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389"
+   },
+   {
+    "title": "Jean-Michel Larqué : « Les clubs qui progressent, et que ce soit Duga avec Bordeaux, et moi avec Saint-Etienne, c’est une denrée rare »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-26T17:00:23Z",
+    "url": "https://onefootball.com/fr/news/jean-michel-larque-les-clubs-qui-progressent-et-que-ce-soit-duga-avec-bordeaux-et-moi-avec-saint-etienne-cest-une-denree-rare-43676243"
+   },
+   {
+    "title": "TKYDG : débrief dès le coup de sifflet final de PSG - OL ce lundi",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-26T16:40:00Z",
+    "url": "https://onefootball.com/fr/news/tkydg-debrief-des-le-coup-de-sifflet-final-de-psg-ol-ce-lundi-43676137"
+   },
+   {
+    "title": "OL : une nouvelle recrue envisagée après le coup dur",
+    "publisher": "Morning Foot",
+    "time": "2026-10-26T16:00:59Z",
+    "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946"
+   },
+   {
+    "title": "Mercato : Lassine Sinayoko (Paris FC) était bien suivi par l'OL",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-26T15:50:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-lassine-sinayoko-paris-fc-etait-bien-suivi-par-lol-43675861"
+   },
+   {
+    "title": "PSG - Ballon d'Or ou PSG - OL ? Nasser Al-Khelaïfi a tranché !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T15:32:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ballon-dor-ou-psg-ol-nasser-al-khelaifi-a-tranche-43675776"
+   },
+   {
+    "title": "OL - Mercato : Fonseca dément un retour d’Athekame à l'AC Milan",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-26T14:10:00Z",
+    "url": "https://onefootball.com/fr/news/ol-mercato-fonseca-dement-un-retour-dathekame-a-lac-milan-43675396"
+   },
+   {
+    "title": "Le PSG domine, mais l'OL sait frapper au Parc des Princes",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-26T13:20:24Z",
+    "url": "https://onefootball.com/fr/news/le-psg-domine-mais-lol-sait-frapper-au-parc-des-princes-43675108"
+   },
+   {
+    "title": "Un match le lundi ? Un bon souvenir pour l'OL en 2024",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-26T12:30:00Z",
+    "url": "https://onefootball.com/fr/news/un-match-le-lundi-un-bon-souvenir-pour-lol-en-2024-43674804"
+   },
+   {
+    "title": "PSG - Ballon d'Or : les supporters parisiens apprendront-ils le vainqueur en plein match contre l'OL ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T12:02:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ballon-dor-les-supporters-parisiens-apprendront-ils-le-vainqueur-en-plein-match-contre-lol-43674671"
+   }
+  ],
+  "Olympique de Marseille": [
+   {
+    "title": "OM – Daniel Riolo critique la réaction de Genesio",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T18:00:02Z",
+    "url": "https://onefootball.com/fr/news/om-daniel-riolo-critique-la-reaction-de-genesio-43676591"
+   },
+   {
+    "title": "Christophe Dugarry : « 320000€ par mois Gomes, Maupay 250000€ par mois… »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-26T17:35:35Z",
+    "url": "https://onefootball.com/fr/news/christophe-dugarry-320000-par-mois-gomes-maupay-250000-par-mois-43676439"
+   },
+   {
+    "title": "OM-Le Havre (4-3) Digard note un atout de l’OM",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T17:00:06Z",
+    "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-note-un-atout-de-lom-43676272"
+   },
+   {
+    "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T16:03:00Z",
+    "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918"
+   },
+   {
+    "title": "OM – Règlement de compte dans le vestiaire de l’OM après Le Havre",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T16:00:37Z",
+    "url": "https://onefootball.com/fr/news/om-reglement-de-compte-dans-le-vestiaire-de-lom-apres-le-havre-43675924"
+   },
+   {
+    "title": "Vincent Duluc : « C’est une équipe qui n’a pas assez de talent »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-26T16:00:20Z",
+    "url": "https://onefootball.com/fr/news/vincent-duluc-cest-une-equipe-qui-na-pas-assez-de-talent-43675944"
+   },
+   {
+    "title": "OM – Genesio met en avant l’importance de ce joueur",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T15:00:26Z",
+    "url": "https://onefootball.com/fr/news/om-genesio-met-en-avant-limportance-de-ce-joueur-43675632"
+   },
+   {
+    "title": "Walid Acherchour : « C’est la face cachée d’Amine Gouiri quand il passe du très beau joueur à celui qui te sort par les yeux »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-26T15:00:25Z",
+    "url": "https://onefootball.com/fr/news/walid-acherchour-cest-la-face-cachee-damine-gouiri-quand-il-passe-du-tres-beau-joueur-a-celui-qui-te-sort-par-les-yeux-43675603"
+   },
+   {
+    "title": "OM – Pour quelles raisons Abdallah et Moumbagna sont envoyés en réserve ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T14:15:57Z",
+    "url": "https://onefootball.com/fr/news/om-pour-quelles-raisons-abdallah-et-moumbagna-sont-envoyes-en-reserve-43675439"
+   },
+   {
+    "title": "OM : Riolo dénonce un règlement de comptes inutile après Le Havre",
+    "publisher": "Morning Foot",
+    "time": "2026-10-26T14:00:16Z",
+    "url": "https://onefootball.com/fr/news/om-riolo-denonce-un-reglement-de-comptes-inutile-apres-le-havre-43675366"
+   }
+  ],
+  "PSG": [
+   {
+    "title": "PSG/Lyon – Le match à vivre ensemble en direct !",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-26T18:00:03Z",
+    "url": "https://onefootball.com/fr/news/psglyon-le-match-a-vivre-ensemble-en-direct-43676568"
+   },
+   {
+    "title": "Ballon d'Or 2026 - Le classement de la 22ème à la 19ème place avec deux nouveaux joueurs du PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T17:35:00Z",
+    "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-classement-de-la-22eme-a-la-19eme-place-avec-deux-nouveaux-joueurs-du-psg-43676455"
+   },
+   {
+    "title": "PSG/Lyon – L’avant-match des Parisiens en direct",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-26T17:30:22Z",
+    "url": "https://onefootball.com/fr/news/psglyon-lavant-match-des-parisiens-en-direct-43676387"
+   },
+   {
+    "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T17:30:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389"
+   },
+   {
+    "title": "Jérôme Rothen : « Dans vingt ans, les gens parleront de ce que le PSG a fait avec Luis Enrique »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-26T17:29:04Z",
+    "url": "https://onefootball.com/fr/news/jerome-rothen-dans-vingt-ans-les-gens-parleront-de-ce-que-le-psg-a-fait-avec-luis-enrique-43676400"
+   },
+   {
+    "title": "Ballon d'Or 2026 - Le classement de la 25ème à la 23ème place avec deux joueurs du PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T17:09:00Z",
+    "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-classement-de-la-25eme-a-la-23eme-place-avec-deux-joueurs-du-psg-43676306"
+   },
+   {
+    "title": "Streaming PSG/Lyon : Où et comment voir le match ?",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-26T16:30:21Z",
+    "url": "https://onefootball.com/fr/news/streaming-psglyon-ou-et-comment-voir-le-match-43676077"
+   },
+   {
+    "title": "PSG - Ballon d'Or ou PSG - OL ? Nasser Al-Khelaïfi a tranché !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T15:32:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ballon-dor-ou-psg-ol-nasser-al-khelaifi-a-tranche-43675776"
+   },
+   {
+    "title": "Mercato PSG - Nico Williams revient sur le moment où il a dit \"non\" au PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T14:46:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-nico-williams-revient-sur-le-moment-ou-il-a-dit-non-au-psg-43675559"
+   },
+   {
+    "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-26T13:34:21Z",
+    "url": "https://onefootball.com/fr/news/psglyon-presentation-des-lyonnais-gones-surprenants-et-blesses-43675188"
+   }
+  ],
+  "Paris FC": [
+   {
+    "title": "Racheté 14 millions d’euros et lié jusqu’en 2031 : l’attaquant italien du Paris FC a enfin marqué à Bollaert, avant d’être sorti dès le retour des vestiaires",
+    "publisher": "Calciomio",
+    "time": "2026-10-25T11:35:11Z",
+    "url": "https://onefootball.com/fr/news/rachete-14-millions-deuros-et-lie-jusquen-2031-lattaquant-italien-du-paris-fc-a-enfin-marque-a-bollaert-avant-detre-sorti-des-le-retour-des-vestiaires-43669246"
+   },
+   {
+    "title": "RC Lens : Walid Acherchour s’enflamme et pointe les erreurs du Paris FC",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T11:30:50Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-walid-acherchour-senflamme-et-pointe-les-erreurs-du-paris-fc-43669258"
+   },
+   {
+    "title": "RC Lens - Notez les joueurs lensois après la victoire face au Paris FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T08:42:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-notez-les-joueurs-lensois-apres-la-victoire-face-au-paris-fc-43668505"
+   },
+   {
+    "title": "RC Lens : Thauvin affole les compteurs, Hazard frappe très fort",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T06:00:08Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-thauvin-affole-les-compteurs-hazard-frappe-tres-fort-43668051"
+   },
+   {
+    "title": "Lens - Paris FC : \"On a un gros mental\" ... L'énorme joie de Cahuzac",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-24T21:55:00Z",
+    "url": "https://onefootball.com/fr/news/lens-paris-fc-on-a-un-gros-mental-lenorme-joie-de-cahuzac-43666911"
+   },
+   {
+    "title": "\"On fera confiance à notre légende\" : le message de Florian Thauvin à Zinédine Zidane après le succès de Lens",
+    "publisher": "Foot National",
+    "time": "2026-10-24T21:48:00Z",
+    "url": "https://onefootball.com/fr/news/on-fera-confiance-a-notre-legende-le-message-de-florian-thauvin-a-zinedine-zidane-apres-le-succes-de-lens-43666884"
+   },
+   {
+    "title": "RC Lens - \"Je suis impressionné\" : Yannick Cahuzac souligne la force mentale de son groupe après la victoire face au Paris FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T21:40:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-je-suis-impressionne-yannick-cahuzac-souligne-la-force-mentale-de-son-groupe-apres-la-victoire-face-au-paris-fc-43666828"
+   },
+   {
+    "title": "Equipe de France : \"On fera confiance à notre légende, notre sélectionneur, pour faire ses choix\" ... Le petit message de Thauvin à Zidane",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-24T21:35:00Z",
+    "url": "https://onefootball.com/fr/news/equipe-de-france-on-fera-confiance-a-notre-legende-notre-selectionneur-pour-faire-ses-choix-le-petit-message-de-thauvin-a-zidane-43666806"
+   },
+   {
+    "title": "RC Lens : Thauvin et Hazard renversent Paris, les chiffres ne mentent pas",
+    "publisher": "Morning Foot",
+    "time": "2026-10-24T21:30:30Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-thauvin-et-hazard-renversent-paris-les-chiffres-ne-mentent-pas-43666808"
+   },
+   {
+    "title": "RC Lens - Florian Thauvin raconte son but sensationnel face au Paris FC et sa 300ème en Ligue 1",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T21:25:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-florian-thauvin-raconte-son-but-sensationnel-face-au-paris-fc-et-sa-300eme-en-ligue-1-43666756"
+   }
+  ],
+  "RC Lens": [
+   {
+    "title": "Mercredi, à deux jours du Derby du Nord, le RC Lens ouvre son entraînement au public",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T16:56:16Z",
+    "url": "https://onefootball.com/fr/news/mercredi-a-deux-jours-du-derby-du-nord-le-rc-lens-ouvre-son-entrainement-au-public-43676227"
+   },
+   {
+    "title": "[Vidéo] Après un doublé la semaine dernière, Morgan Guilavogui passeur décisif avec le Real Salt Lake",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T14:54:15Z",
+    "url": "https://onefootball.com/fr/news/video-apres-un-double-la-semaine-derniere-morgan-guilavogui-passeur-decisif-avec-le-real-salt-lake-43675574"
+   },
+   {
+    "title": "Les prêtés du RC Lens de Ligue 3 passent le 6e tour de Coupe de France",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T13:55:45Z",
+    "url": "https://onefootball.com/fr/news/les-pretes-du-rc-lens-de-ligue-3-passent-le-6e-tour-de-coupe-de-france-43675316"
+   },
+   {
+    "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T13:20:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091"
+   },
+   {
+    "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T13:02:00Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-les-sang-et-or-interdisent-a-leurs-supporters-de-se-deplacer-pour-le-derby-du-nord-43675008"
+   },
+   {
+    "title": "Le RC Lens décide de ne pas commercialiser les places du parcage visiteurs pour le derby à Lille",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T11:07:02Z",
+    "url": "https://onefootball.com/fr/news/le-rc-lens-decide-de-ne-pas-commercialiser-les-places-du-parcage-visiteurs-pour-le-derby-a-lille-43674339"
+   },
+   {
+    "title": "Lens ou Lille, qui est le mieux armé pour briller cette saison ?",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T10:44:19Z",
+    "url": "https://onefootball.com/fr/news/lens-ou-lille-qui-est-le-mieux-arme-pour-briller-cette-saison-43674196"
+   },
+   {
+    "title": "A 37 ans, Dusan Cvetinovic est toujours dans le coup",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T09:48:16Z",
+    "url": "https://onefootball.com/fr/news/a-37-ans-dusan-cvetinovic-est-toujours-dans-le-coup-43673800"
+   },
+   {
+    "title": "Le point sur le week-end des prochains adversaires du RC Lens en Ligue des Champions",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T09:00:22Z",
+    "url": "https://onefootball.com/fr/news/le-point-sur-le-week-end-des-prochains-adversaires-du-rc-lens-en-ligue-des-champions-43673579"
+   },
+   {
+    "title": "14 ans après, Thorgan Hazard a remis ça, améliorant des stats impressionnantes en carrière",
+    "publisher": "Lensois.com",
+    "time": "2026-10-26T08:13:43Z",
+    "url": "https://onefootball.com/fr/news/14-ans-apres-thorgan-hazard-a-remis-ca-ameliorant-des-stats-impressionnantes-en-carriere-43673374"
+   }
+  ],
+  "RC Strasbourg": [
+   {
+    "title": "Avant Strasbourg, le PSG et le Real voulaient Coulibaly, ex du Werder",
+    "publisher": "fussball-news.de",
+    "time": "2026-10-26T10:51:13Z",
+    "url": "https://onefootball.com/fr/news/avant-strasbourg-le-psg-et-le-real-voulaient-coulibaly-ex-du-werder-43674234"
+   },
+   {
+    "title": "Stade Rennais : Haise a trouvé la formule, Camara révèle ce qui a changé",
+    "publisher": "Morning Foot",
+    "time": "2026-10-26T09:00:33Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601"
+   },
+   {
+    "title": "Stade Rennais - La réaction géniale de Brice Samba sur la première place du Stade Rennais au classement",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T21:20:00Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-la-reaction-geniale-de-brice-samba-sur-la-premiere-place-du-stade-rennais-au-classement-43671986"
+   },
+   {
+    "title": "L'OM se fait peur contre le Havre, Rennes leader après une démonstration contre Strasbourg... les résultats du multiplex !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/lom-se-fait-peur-contre-le-havre-rennes-leader-apres-une-demonstration-contre-strasbourg-les-resultats-du-multiplex-43671202"
+   },
+   {
+    "title": "Ligue 1 - Les notes de Stade Rennais - RC Strasbourg : le SRFC cartonne le RCSA et prend la tête de la L1 !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-stade-rennais-rc-strasbourg-le-srfc-cartonne-le-rcsa-et-prend-la-tete-de-la-l1-43671206"
+   },
+   {
+    "title": "Stade Rennais – Strasbourg : Leader, le SRFC atomise un RCSA ou rien ne va plus, les chiffres",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T17:13:03Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-leader-le-srfc-atomise-un-rcsa-ou-rien-ne-va-plus-les-chiffres-43671199"
+   },
+   {
+    "title": "Ligue 1 - Stade Rennais - RC Strasbourg : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:20:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-stade-rennais-rc-strasbourg-les-compos-officielles-43670326"
+   },
+   {
+    "title": "Rennes - Strasbourg : les compositions officielles !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T15:16:00Z",
+    "url": "https://onefootball.com/fr/news/rennes-strasbourg-les-compositions-officielles-43670301"
+   },
+   {
+    "title": "Stade Rennais : Haise a pris une décision forte",
+    "publisher": "Morning Foot",
+    "time": "2026-10-25T13:30:34Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-pris-une-decision-forte-43669794"
+   },
+   {
+    "title": "Rennes – Strasbourg : les Rennais veulent rebondir face à un Racing en difficulté, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-25T13:28:30Z",
+    "url": "https://onefootball.com/fr/news/rennes-strasbourg-les-rennais-veulent-rebondir-face-a-un-racing-en-difficulte-compositions-probables-chaine-tv-et-heure-43669778"
+   }
+  ],
+  "Stade Brestois": [
+   {
+    "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T17:18:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343"
+   },
+   {
+    "title": "Ligue 1 : le derby entre Lorient et Brest décalé au lundi soir",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-26T17:10:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313"
+   },
+   {
+    "title": "Ligue 1 - Deux rencontres de la 9e journée de L1 déjà sous la menace d'un report !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T16:17:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-deux-rencontres-de-la-9e-journee-de-l1-deja-sous-la-menace-dun-report-43675995"
+   },
+   {
+    "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
+    "publisher": "Foot National",
+    "time": "2026-10-26T15:00:00Z",
+    "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611"
+   },
+   {
+    "title": "Un joueur prêté par l’Eintracht devient le héros du match",
+    "publisher": "Frühes-Tor.de",
+    "time": "2026-10-26T10:01:05Z",
+    "url": "https://onefootball.com/fr/news/un-joueur-prete-par-leintracht-devient-le-heros-du-match-43673857"
+   },
+   {
+    "title": "Stade Brestois - Julien Lachuer et Hugo Magnetti expriment leur déception après le revers face à l'OGC Nice",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T09:47:00Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791"
+   },
+   {
+    "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T07:50:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337"
+   },
+   {
+    "title": "Stade Brestois : Lachuer et Magnetti pointent un mal qui se répète",
+    "publisher": "Morning Foot",
+    "time": "2026-10-24T07:00:10Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-lachuer-et-magnetti-pointent-un-mal-qui-se-repete-43663171"
+   },
+   {
+    "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
+    "publisher": "Foot National",
+    "time": "2026-10-24T06:39:00Z",
+    "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102"
+   },
+   {
+    "title": "OGC Nice - L'énorme hommage de Sofiane Diop envers Yehvann Diouf après son penalty arrêté",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-23T21:26:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-lenorme-hommage-de-sofiane-diop-envers-yehvann-diouf-apres-son-penalty-arrete-43662244"
+   }
+  ],
+  "Stade Rennais": [
+   {
+    "title": "Ligue Europa - La rencontre entre le Stade Rennais et l'Olympiacos pourrait être avancée",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T15:09:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-europa-la-rencontre-entre-le-stade-rennais-et-lolympiacos-pourrait-etre-avancee-43675657"
+   },
+   {
+    "title": "Stade rennais - Strasbourg : résumé vidéo",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-26T10:45:09Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-resume-video-43674192"
+   },
+   {
+    "title": "Stade Rennais : Haise a trouvé la formule, Camara révèle ce qui a changé",
+    "publisher": "Morning Foot",
+    "time": "2026-10-26T09:00:33Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601"
+   },
+   {
+    "title": "Stade Rennais - La réaction géniale de Brice Samba sur la première place du Stade Rennais au classement",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T21:20:00Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-la-reaction-geniale-de-brice-samba-sur-la-premiere-place-du-stade-rennais-au-classement-43671986"
+   },
+   {
+    "title": "[Ligue 1 - 9e journée] O.G.C. Nice - Stade Rennais F.C.",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-25T21:05:10Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-9e-journee-ogc-nice-stade-rennais-fc-43671940"
+   },
+   {
+    "title": "Ligue Europa : Stade rennais - Olympiakos pourrait être reporté en raison des manifestations",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-25T20:40:09Z",
+    "url": "https://onefootball.com/fr/news/ligue-europa-stade-rennais-olympiakos-pourrait-etre-reporte-en-raison-des-manifestations-43671860"
+   },
+   {
+    "title": "Stade rennais - Strasbourg : Rennes s’impose largement et prend la tête de la Ligue 1",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-25T18:40:09Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-rennes-simpose-largement-et-prend-la-tete-de-la-ligue-1-43671345"
+   },
+   {
+    "title": "L'OM se fait peur contre le Havre, Rennes leader après une démonstration contre Strasbourg... les résultats du multiplex !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/lom-se-fait-peur-contre-le-havre-rennes-leader-apres-une-demonstration-contre-strasbourg-les-resultats-du-multiplex-43671202"
+   },
+   {
+    "title": "Ligue 1 - Les notes de Stade Rennais - RC Strasbourg : le SRFC cartonne le RCSA et prend la tête de la L1 !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-stade-rennais-rc-strasbourg-le-srfc-cartonne-le-rcsa-et-prend-la-tete-de-la-l1-43671206"
+   },
+   {
+    "title": "Ligue 1 (J8) : Rennes leader provisoire, l’OM enfonce Le Havre, Toulouse en échec… les résultats du multiplex",
+    "publisher": "Foot National",
+    "time": "2026-10-25T18:08:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-j8-rennes-leader-provisoire-lom-enfonce-le-havre-toulouse-en-echec-les-resultats-du-multiplex-43671240"
+   }
+  ],
+  "Toulouse FC": [
+   {
+    "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:20:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231"
+   },
+   {
+    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T18:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
+   },
+   {
+    "title": "Ligue 1 (J8) : Rennes leader provisoire, l’OM enfonce Le Havre, Toulouse en échec… les résultats du multiplex",
+    "publisher": "Foot National",
+    "time": "2026-10-25T18:08:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-j8-rennes-leader-provisoire-lom-enfonce-le-havre-toulouse-en-echec-les-resultats-du-multiplex-43671240"
+   },
+   {
+    "title": "Ligue 1 - TFC - ESTAC Troyes : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T15:30:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-officielles-43670340"
+   },
+   {
+    "title": "Toulouse - Troyes, Angers - Lorient, Auxerre - Le Mans : les compositions officielles du multiplex !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-25T15:18:00Z",
+    "url": "https://onefootball.com/fr/news/toulouse-troyes-angers-lorient-auxerre-le-mans-les-compositions-officielles-du-multiplex-43670304"
+   },
+   {
+    "title": "Ligue 1 - TFC - ESTAC Troyes : les compos probables",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-25T07:50:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-probables-43668288"
+   },
+   {
+    "title": "\"On a pris des mesures pour protéger les joueurs\" : Toulouse veille sur son groupe avant la nouvelle journée de mobilisation",
+    "publisher": "Foot National",
+    "time": "2026-10-25T05:22:00Z",
+    "url": "https://onefootball.com/fr/news/on-a-pris-des-mesures-pour-proteger-les-joueurs-toulouse-veille-sur-son-groupe-avant-la-nouvelle-journee-de-mobilisation-43668004"
+   },
+   {
+    "title": "Mercato TFC - Toulouse veut prolonger Guillaume Restes",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T18:21:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-tfc-toulouse-veut-prolonger-guillaume-restes-43665941"
+   },
+   {
+    "title": "TFC - Le groupe toulousain pour affronter l'ESTAC Troyes",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-24T14:07:00Z",
+    "url": "https://onefootball.com/fr/news/tfc-le-groupe-toulousain-pour-affronter-lestac-troyes-43664811"
+   },
+   {
+    "title": "Un match de Ligue 1 décalé en marge des manifestations ce week-end, la Ligue confirme !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-21T10:33:00Z",
+    "url": "https://onefootball.com/fr/news/un-match-de-ligue-1-decale-en-marge-des-manifestations-ce-week-end-la-ligue-confirme-43647357"
+   }
+  ]
+ },
+ "backfilled": true,
+ "fetchedAt": "2026-10-26T18:44+00:00"
+}
