@@ -123,7 +123,9 @@ p { margin: 0; }
 }
 .fixture:hover { box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 26px 50px -18px rgba(0, 0, 0, 0.95); }
 .fixture-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
-.fixture-teams { display: flex; align-items: center; gap: 10px; min-width: 0; font-family: var(--display); font-weight: 700; font-size: 19px; }
+.fixtures > li { min-width: 0; }
+.fixture { min-width: 0; grid-template-columns: minmax(0, 1fr); }
+.fixture-teams { flex: 1; overflow: hidden; display: flex; align-items: center; gap: 10px; min-width: 0; font-family: var(--display); font-weight: 700; font-size: 19px; }
 .fixture-teams .vs { color: var(--gris); font-family: var(--body); font-weight: 500; font-size: 14px; }
 .fixture-teams .nm { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .fixture-meta { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; font-size: 14px; color: var(--gris); }

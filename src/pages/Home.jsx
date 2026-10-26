@@ -42,7 +42,7 @@ export default function Home({ data, picks }) {
 
       <DemoBanner meta={meta} />
 
-      <h2 className="section-title">Les {upcoming.length} matchs de la journée</h2>
+      <h2 className="section-title">{new Set(upcoming.map((u) => u.md)).size > 1 ? "Les prochains matchs" : `Les ${upcoming.length} matchs de la journée`}</h2>
       <ul className="fixtures">
         {upcoming.map((m) => {
           const id = matchId(m);
@@ -66,7 +66,7 @@ export default function Home({ data, picks }) {
                 <div className="fixture-meta">
                   <Confidence c={c} />
                   <span>Score probable {pr.topScores[0].h}-{pr.topScores[0].a} · plus de 2,5 buts {pct(pr.over25)}</span>
-                  <span className="ranks">{isPast(m) ? "Joué, résultat bientôt intégré" : kickLabel(m)} · {ord(H.rank)} contre {ord(A.rank)}</span>
+                  <span className="ranks">{isPast(m) ? "Joué, résultat bientôt intégré" : kickLabel(m)}{m.md !== meta.nextMatchday ? ` · ${m.md}e journée` : ""} · {ord(H.rank)} contre {ord(A.rank)}</span>
                   {mine != null && (
                     <span className="mine">Ton prono : {PICK_LABEL[mine]}{mine === pr.pick ? ", comme l'IA" : ""}</span>
                   )}

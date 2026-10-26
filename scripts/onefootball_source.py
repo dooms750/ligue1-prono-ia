@@ -22,11 +22,24 @@ OF_NAMES = {
 # Mots de la presse qui signalent une absence ou un doute.
 ABSENCE = re.compile(
     r"bless|forfait|absen|suspendu|suspension|incertain|infirmerie|indisponible|touch[ée]|"
-    r"manquera|priv[ée] de|out\b|ménag|rechute|claquage|entorse|lésion|opér",
+    r"manquera|\bforfait|\bout\b|ménag|rechute|claquage|entorse|lésion|opéré|opération|ischio|cuisse|genou|cheville|mollet",
     re.I,
 )
 # Mots qui annoncent au contraire un retour.
 RETURN = re.compile(r"retour|de retour|revient|apte|rétabli|reprend", re.I)
+
+# Façons dont la presse désigne chaque club (sans accents, en minuscules).
+ALIASES = {
+    "PSG": ["psg", "paris saint-germain", "paris sg", "parisien"], "OL": ["ol", "lyon", "lyonnais", "gones"],
+    "OM": ["om", "marseille", "olympien", "phoceen"], "MON": ["monaco", "asm", "monegasque"],
+    "LIL": ["losc", "lille", "lillois", "dogues"], "LEN": ["lens", "lensois", "sang et or"],
+    "REN": ["rennes", "stade rennais", "rennais", "srfc"], "NIC": ["nice", "ogc nice", "nicois", "aiglons"],
+    "STR": ["strasbourg", "racing", "rcsa", "strasbourgeois"], "BRE": ["brest", "brestois", "stade brestois", "sb29"],
+    "TOU": ["toulouse", "tfc", "toulousain", "violets"], "PFC": ["paris fc", "pfc"],
+    "LOR": ["lorient", "fcl", "lorientais", "merlus"], "ANG": ["angers", "sco", "angevin"],
+    "AUX": ["auxerre", "aja", "auxerrois"], "HAV": ["le havre", "havre", "hac", "havrais"],
+    "LMA": ["le mans", "manceau", "manceaux"], "TRO": ["troyes", "estac", "troyen"],
+}
 
 SHOTS_ON_TARGET = "Tirs cadrés"
 SOT_TO_GOALS = 0.31  # en Ligue 1, environ 0,3 but par tir cadré
@@ -94,9 +107,32 @@ def top_scorers(played):
     return {t: max(p.items(), key=lambda x: x[1]) for t, p in tally.items()}
 
 
-def press_context(team, news, scorer, now):
-    """Articles récents qui parlent d'absences, et si le meilleur buteur semble concerné."""
-    recent = [n for n in news if now - datetime.fromisoformat(n["time"].replace("Z", "+00:00")) < timedelta(days=6)]
+def first_club(text):
+    """Le club cité en premier dans un titre (souvent le sujet de l'article)."""
+    best = None
+    for code, names in ALIASES.items():
+        for a in names:
+            m = re.search(rf"(?<![a-z]){re.escape(a)}(?![a-z])", text)
+            if m and (best is None or m.start() < best[0]):
+                best = (m.start(), code)
+    return best[1] if best else None
+
+
+def about_team(title, team, players):
+    """Le titre concerne-t-il ce club ? Il doit citer un de ses joueurs, ou le club en premier."""
+    t = fold(title)
+    for p in players:
+        last = fold(p.split()[-1])
+        if len(last) > 3 and re.search(rf"\b{re.escape(last)}\b", t):
+            return True
+    return first_club(t) == team
+
+
+def press_context(team, news, scorer, now, players=(), since=None):
+    """Articles parus depuis le dernier match du club qui parlent d'absences, et si le meilleur buteur semble concerné."""
+    since = since or now - timedelta(days=6)
+    recent = [n for n in news if datetime.fromisoformat(n["time"].replace("Z", "+00:00")) > since
+              and about_team(n["title"], team, players)]
     flagged, scorer_out = [], None
     last_name = fold(scorer[0].split()[-1]) if scorer else None
     for n in recent:
@@ -167,6 +203,22 @@ def build_onefootball(path, raw):
         pending = [p for p in pending if p["md"] <= first_md + 1 and (p["md"] == first_md or p["date"] <= horizon)]
 
     scorers = top_scorers(played)
+    # Joueurs de chaque club, vus dans les compos et parmi les buteurs de la saison.
+    last_game = {}
+    for m in all_m:
+        if m.get("hg") is not None and "fin" in (m.get("status") or "").lower():
+            for side in ("home", "away"):
+                code = OF_NAMES[m[side]]
+                last_game[code] = max(last_game.get(code, kickoff(m)), kickoff(m))
+    players = {}
+    for m in all_m:
+        for side in ("home", "away"):
+            code = OF_NAMES[m[side]]
+            players.setdefault(code, set()).update(m.get("starters", {}).get(side, []))
+    for m in played:
+        for g in m.get("scorers", []):
+            if g.get("player") and g["kind"] != "csc":
+                players.setdefault(m["home"] if g["side"] == "home" else m["away"], set()).add(g["player"])
     news = {OF_NAMES.get(k): v for k, v in cache.get("news", {}).items() if OF_NAMES.get(k)}
     upcoming = []
     for p in pending:
@@ -174,7 +226,9 @@ def build_onefootball(path, raw):
         ctx = {"known": True, "absH": [], "absA": [], "europeH": False, "europeA": False,
                "weather": "inconnu", "press": {}}
         for side, team in (("H", p["home"]), ("A", p["away"])):
-            flagged, scorer_out, general = press_context(team, news.get(team, []), scorers.get(team), now)
+            flagged, scorer_out, general = press_context(
+                team, news.get(team, []), scorers.get(team), now, players.get(team, ()),
+                since=last_game.get(team, now - timedelta(days=6)) + timedelta(hours=2))
             sc = scorers.get(team)
             ctx["press"][side] = {
                 "absences": flagged, "other": general,

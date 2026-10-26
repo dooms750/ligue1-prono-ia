@@ -7,7 +7,7 @@
   "lastMatchday": 8,
   "nextMatchday": 9,
   "fetchedAt": "2026-10-26T18:44+00:00",
-  "generatedAt": "2026-10-26T18:45+00:00"
+  "generatedAt": "2026-10-26T18:46+00:00"
  },
  "model": {
   "mu": 0.235,
@@ -5243,12 +5243,6 @@
      "H": {
       "absences": [
        {
-        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
-        "time": "2026-10-26T17:30:00Z"
-       },
-       {
         "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
         "publisher": "Parisfans.fr",
         "url": "https://onefootball.com/fr/news/psglyon-presentation-des-lyonnais-gones-surprenants-et-blesses-43675188",
@@ -5282,32 +5276,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
-        "time": "2026-10-26T17:30:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
-       {
-        "title": "Jean-Michel Larqué : « Les clubs qui progressent, et que ce soit Duga avec Bordeaux, et moi avec Saint-Etienne, c’est une denrée rare »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/jean-michel-larque-les-clubs-qui-progressent-et-que-ce-soit-duga-avec-bordeaux-et-moi-avec-saint-etienne-cest-une-denree-rare-43676243",
-        "time": "2026-10-26T17:00:23Z"
-       },
-       {
-        "title": "TKYDG : débrief dès le coup de sifflet final de PSG - OL ce lundi",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/tkydg-debrief-des-le-coup-de-sifflet-final-de-psg-ol-ce-lundi-43676137",
-        "time": "2026-10-26T16:40:00Z"
-       },
        {
         "title": "OL : une nouvelle recrue envisagée après le coup dur",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946",
         "time": "2026-10-26T16:00:59Z"
+       },
+       {
+        "title": "OL - Mercato : Fonseca dément un retour d’Athekame à l'AC Milan",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-mercato-fonseca-dement-un-retour-dathekame-a-lac-milan-43675396",
+        "time": "2026-10-26T14:10:00Z"
+       },
+       {
+        "title": "Un match le lundi ? Un bon souvenir pour l'OL en 2024",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/un-match-le-lundi-un-bon-souvenir-pour-lol-en-2024-43674804",
+        "time": "2026-10-26T12:30:00Z"
        }
       ],
       "scorer": {
@@ -5338,32 +5325,13 @@
     "weather": "inconnu",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "OM - Bruno Genesio énumère tout ce qui lui a plu face au Havre AC, malgré la fin de match totalement ratée",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-bruno-genesio-enumere-tout-ce-qui-lui-a-plu-face-au-havre-ac-malgre-la-fin-de-match-totalement-ratee-43671825",
-        "time": "2026-10-25T20:15:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918",
-        "time": "2026-10-26T16:03:00Z"
-       },
-       {
-        "title": "OM : Riolo dénonce un règlement de comptes inutile après Le Havre",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/om-riolo-denonce-un-reglement-de-comptes-inutile-apres-le-havre-43675366",
-        "time": "2026-10-26T14:00:16Z"
-       },
-       {
-        "title": "OM - \"Le football, ça se respecte\",  les mots forts d'Amine Harit après la victoire étriquée de l'OM face au Havre AC (vidéo)",
+        "title": "Le Havre AC - Didier Digard peste contre l'arbitrage après la défaite face à l'OM, deux penaltys oubliés selon lui ! (vidéo)",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-le-football-ca-se-respecte-les-mots-forts-damine-harit-apres-la-victoire-etriquee-de-lom-face-au-havre-ac-video-43671859",
-        "time": "2026-10-25T20:35:00Z"
+        "url": "https://onefootball.com/fr/news/le-havre-ac-didier-digard-peste-contre-larbitrage-apres-la-defaite-face-a-lom-deux-penaltys-oublies-selon-lui-video-43671567",
+        "time": "2026-10-25T19:20:00Z"
        }
       ],
       "scorer": {
@@ -5374,12 +5342,6 @@
      },
      "A": {
       "absences": [
-       {
-        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
-        "time": "2026-10-26T17:30:00Z"
-       },
        {
         "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
         "publisher": "Parisfans.fr",
@@ -5435,20 +5397,7 @@
     "weather": "inconnu",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091",
-        "time": "2026-10-26T13:20:00Z"
-       },
-       {
-        "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650",
-        "time": "2026-10-25T19:45:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
         "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
@@ -5457,16 +5406,16 @@
         "time": "2026-10-26T13:02:00Z"
        },
        {
-        "title": "AS Monaco - Filipe Luis prend l'entière responsabilité du match nul face au LOSC !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341",
-        "time": "2026-10-25T18:30:00Z"
-       },
-       {
         "title": "LOSC - Davide Ancelotti analyse le match nul face à l'AS Monaco et se projette sur le derby face au RC Lens",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-analyse-le-match-nul-face-a-las-monaco-et-se-projette-sur-le-derby-face-au-rc-lens-43670994",
         "time": "2026-10-25T17:16:00Z"
+       },
+       {
+        "title": "Ligue 1 : réduit à dix, Lille ramène un point de Monaco",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ligue-1-reduit-a-dix-lille-ramene-un-point-de-monaco-43670541",
+        "time": "2026-10-25T16:02:00Z"
        }
       ],
       "scorer": {
@@ -5476,14 +5425,7 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091",
-        "time": "2026-10-26T13:20:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
         "title": "Mercredi, à deux jours du Derby du Nord, le RC Lens ouvre son entraînement au public",
@@ -5492,16 +5434,16 @@
         "time": "2026-10-26T16:56:16Z"
        },
        {
-        "title": "[Vidéo] Après un doublé la semaine dernière, Morgan Guilavogui passeur décisif avec le Real Salt Lake",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/video-apres-un-double-la-semaine-derniere-morgan-guilavogui-passeur-decisif-avec-le-real-salt-lake-43675574",
-        "time": "2026-10-26T14:54:15Z"
-       },
-       {
         "title": "Les prêtés du RC Lens de Ligue 3 passent le 6e tour de Coupe de France",
         "publisher": "Lensois.com",
         "url": "https://onefootball.com/fr/news/les-pretes-du-rc-lens-de-ligue-3-passent-le-6e-tour-de-coupe-de-france-43675316",
         "time": "2026-10-26T13:55:45Z"
+       },
+       {
+        "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091",
+        "time": "2026-10-26T13:20:00Z"
        }
       ],
       "scorer": {
@@ -5535,22 +5477,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611",
-        "time": "2026-10-26T15:00:00Z"
-       },
-       {
-        "title": "Un joueur prêté par l’Eintracht devient le héros du match",
-        "publisher": "Frühes-Tor.de",
-        "url": "https://onefootball.com/fr/news/un-joueur-prete-par-leintracht-devient-le-heros-du-match-43673857",
-        "time": "2026-10-26T10:01:05Z"
-       },
-       {
-        "title": "Stade Brestois - Julien Lachuer et Hugo Magnetti expriment leur déception après le revers face à l'OGC Nice",
+        "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791",
-        "time": "2026-10-24T09:47:00Z"
+        "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337",
+        "time": "2026-10-24T07:50:00Z"
+       },
+       {
+        "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102",
+        "time": "2026-10-24T06:39:00Z"
+       },
+       {
+        "title": "OGC Nice - L'énorme hommage de Sofiane Diop envers Yehvann Diouf après son penalty arrêté",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ogc-nice-lenorme-hommage-de-sofiane-diop-envers-yehvann-diouf-apres-son-penalty-arrete-43662244",
+        "time": "2026-10-23T21:26:00Z"
        }
       ],
       "scorer": {
@@ -5609,32 +5551,25 @@
     "weather": "inconnu",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389",
-        "time": "2026-10-26T17:30:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
-       {
-        "title": "Jean-Michel Larqué : « Les clubs qui progressent, et que ce soit Duga avec Bordeaux, et moi avec Saint-Etienne, c’est une denrée rare »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/jean-michel-larque-les-clubs-qui-progressent-et-que-ce-soit-duga-avec-bordeaux-et-moi-avec-saint-etienne-cest-une-denree-rare-43676243",
-        "time": "2026-10-26T17:00:23Z"
-       },
-       {
-        "title": "TKYDG : débrief dès le coup de sifflet final de PSG - OL ce lundi",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/tkydg-debrief-des-le-coup-de-sifflet-final-de-psg-ol-ce-lundi-43676137",
-        "time": "2026-10-26T16:40:00Z"
-       },
        {
         "title": "OL : une nouvelle recrue envisagée après le coup dur",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946",
         "time": "2026-10-26T16:00:59Z"
+       },
+       {
+        "title": "OL - Mercato : Fonseca dément un retour d’Athekame à l'AC Milan",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-mercato-fonseca-dement-un-retour-dathekame-a-lac-milan-43675396",
+        "time": "2026-10-26T14:10:00Z"
+       },
+       {
+        "title": "Un match le lundi ? Un bon souvenir pour l'OL en 2024",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/un-match-le-lundi-un-bon-souvenir-pour-lol-en-2024-43674804",
+        "time": "2026-10-26T12:30:00Z"
        }
       ],
       "scorer": {
@@ -5644,14 +5579,7 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885",
-        "time": "2026-10-25T10:05:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
         "title": "Angers – Lorient : un 0-0 qui cache une statistique inquiétante",
@@ -5664,12 +5592,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-pas-de-vainqueur-entre-angers-sco-et-le-fc-lorient-resume-43671208",
         "time": "2026-10-25T18:16:00Z"
-       },
-       {
-        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
-        "time": "2026-10-25T18:15:00Z"
        }
       ],
       "scorer": {
@@ -5700,14 +5622,7 @@
     "weather": "inconnu",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885",
-        "time": "2026-10-25T10:05:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
         "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
@@ -5738,22 +5653,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
+        "title": "Stade Brestois - Julien Lachuer et Hugo Magnetti expriment leur déception après le revers face à l'OGC Nice",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343",
-        "time": "2026-10-26T17:18:00Z"
+        "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791",
+        "time": "2026-10-24T09:47:00Z"
        },
        {
-        "title": "Ligue 1 : le derby entre Lorient et Brest décalé au lundi soir",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313",
-        "time": "2026-10-26T17:10:00Z"
+        "title": "Stade Brestois : Lachuer et Magnetti pointent un mal qui se répète",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-lachuer-et-magnetti-pointent-un-mal-qui-se-repete-43663171",
+        "time": "2026-10-24T07:00:10Z"
        },
        {
-        "title": "Ligue 1 - Deux rencontres de la 9e journée de L1 déjà sous la menace d'un report !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-deux-rencontres-de-la-9e-journee-de-l1-deja-sous-la-menace-dun-report-43675995",
-        "time": "2026-10-26T16:17:00Z"
+        "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102",
+        "time": "2026-10-24T06:39:00Z"
        }
       ],
       "scorer": {
@@ -5785,26 +5700,7 @@
     "press": {
      "H": {
       "absences": [],
-      "other": [
-       {
-        "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231",
-        "time": "2026-10-25T18:20:00Z"
-       },
-       {
-        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
-        "time": "2026-10-25T18:15:00Z"
-       },
-       {
-        "title": "Ligue 1 - TFC - ESTAC Troyes : les compos officielles",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-officielles-43670340",
-        "time": "2026-10-25T15:30:00Z"
-       }
-      ],
+      "other": [],
       "scorer": {
        "name": "Renaud Ripart",
        "goals": 1
@@ -5812,40 +5708,8 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572",
-        "time": "2026-10-25T19:15:35Z"
-       },
-       {
-        "title": "AJ Auxerre - Un retour mais plusieurs absents dans le groupe de l'AJA pour le match face au Mans FC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/aj-auxerre-un-retour-mais-plusieurs-absents-dans-le-groupe-de-laja-pour-le-match-face-au-mans-fc-43665402",
-        "time": "2026-10-24T15:55:00Z"
-       }
-      ],
-      "other": [
-       {
-        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
-        "time": "2026-10-25T18:15:00Z"
-       },
-       {
-        "title": "Auxerre-Le Mans : énorme imbroglio, la goal-line valide un but, la VAR ne peut pas confirmer",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/auxerre-le-mans-enorme-imbroglio-la-goal-line-valide-un-but-la-var-ne-peut-pas-confirmer-43670961",
-        "time": "2026-10-25T17:29:00Z"
-       },
-       {
-        "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos officielles",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-officielles-43670313",
-        "time": "2026-10-25T15:15:00Z"
-       }
-      ],
+      "absences": [],
+      "other": [],
       "scorer": {
        "name": "Louis Mafouta",
        "goals": 4
@@ -5881,18 +5745,6 @@
         "publisher": "fussball-news.de",
         "url": "https://onefootball.com/fr/news/avant-strasbourg-le-psg-et-le-real-voulaient-coulibaly-ex-du-werder-43674234",
         "time": "2026-10-26T10:51:13Z"
-       },
-       {
-        "title": "Stade Rennais : Haise a trouvé la formule, Camara révèle ce qui a changé",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601",
-        "time": "2026-10-26T09:00:33Z"
-       },
-       {
-        "title": "Stade Rennais - La réaction géniale de Brice Samba sur la première place du Stade Rennais au classement",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/stade-rennais-la-reaction-geniale-de-brice-samba-sur-la-premiere-place-du-stade-rennais-au-classement-43671986",
-        "time": "2026-10-25T21:20:00Z"
        }
       ],
       "scorer": {
@@ -5902,14 +5754,7 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572",
-        "time": "2026-10-25T19:15:35Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
         "title": "AJ Auxerre - L'AJ Auxerre tape du poing sur la table et demande à ce que le match nul face au Mans FC ne \"soit pas homologué\"",
@@ -5924,10 +5769,10 @@
         "time": "2026-10-25T20:57:00Z"
        },
        {
-        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
-        "time": "2026-10-25T18:15:00Z"
+        "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572",
+        "time": "2026-10-25T19:15:35Z"
        }
       ],
       "scorer": {
@@ -5965,18 +5810,6 @@
         "publisher": "Calciomio",
         "url": "https://onefootball.com/fr/news/rachete-14-millions-deuros-et-lie-jusquen-2031-lattaquant-italien-du-paris-fc-a-enfin-marque-a-bollaert-avant-detre-sorti-des-le-retour-des-vestiaires-43669246",
         "time": "2026-10-25T11:35:11Z"
-       },
-       {
-        "title": "RC Lens : Walid Acherchour s’enflamme et pointe les erreurs du Paris FC",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/rc-lens-walid-acherchour-senflamme-et-pointe-les-erreurs-du-paris-fc-43669258",
-        "time": "2026-10-25T11:30:50Z"
-       },
-       {
-        "title": "RC Lens - Notez les joueurs lensois après la victoire face au Paris FC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-notez-les-joueurs-lensois-apres-la-victoire-face-au-paris-fc-43668505",
-        "time": "2026-10-25T08:42:00Z"
        }
       ],
       "scorer": {
@@ -5987,12 +5820,6 @@
      },
      "A": {
       "absences": [
-       {
-        "title": "AS Monaco : Filipe Luís dénonce le chaos et prend tout sur lui",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329",
-        "time": "2026-10-26T11:00:35Z"
-       },
        {
         "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
         "publisher": "MadeInFOOT",
@@ -6008,16 +5835,16 @@
         "time": "2026-10-26T17:01:00Z"
        },
        {
-        "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
-        "publisher": "AS Monaco",
-        "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue",
-        "time": "2026-10-26T09:41:00Z"
+        "title": "AS Monaco : Filipe Luís dénonce le chaos et prend tout sur lui",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329",
+        "time": "2026-10-26T11:00:35Z"
        },
        {
         "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
         "publisher": "AS Monaco",
-        "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LE7hiMZ6UPARgS0sA7q50JQ4fN",
-        "time": "2026-10-26T09:37:20Z"
+        "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue",
+        "time": "2026-10-26T09:41:00Z"
        }
       ],
       "scorer": {
@@ -6048,14 +5875,7 @@
     "weather": "inconnu",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "OM-Le Havre (4-3) Digard note un atout de l’OM",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-note-un-atout-de-lom-43676272",
-        "time": "2026-10-26T17:00:06Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
         "title": "OM – Daniel Riolo critique la réaction de Genesio",
@@ -6070,10 +5890,10 @@
         "time": "2026-10-26T17:35:35Z"
        },
        {
-        "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918",
-        "time": "2026-10-26T16:03:00Z"
+        "title": "OM-Le Havre (4-3) Digard note un atout de l’OM",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-note-un-atout-de-lom-43676272",
+        "time": "2026-10-26T17:00:06Z"
        }
       ],
       "scorer": {
@@ -6090,18 +5910,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231",
         "time": "2026-10-25T18:20:00Z"
-       },
-       {
-        "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200",
-        "time": "2026-10-25T18:15:00Z"
-       },
-       {
-        "title": "Ligue 1 (J8) : Rennes leader provisoire, l’OM enfonce Le Havre, Toulouse en échec… les résultats du multiplex",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ligue-1-j8-rennes-leader-provisoire-lom-enfonce-le-havre-toulouse-en-echec-les-resultats-du-multiplex-43671240",
-        "time": "2026-10-25T18:08:00Z"
        }
       ],
       "scorer": {
