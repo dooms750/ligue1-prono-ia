@@ -2923,30 +2923,30 @@
    "stats": {},
    "starters": {
     "home": [
-     "Mika Godts",
+     "Maghnes Akliouche",
      "Ferran Torres",
      "Desire Doue",
      "Fabián Ruiz",
      "Vitinha",
      "João Neves",
-     "Lucas Hernandez",
+     "Warren Zaïre-Emery",
      "Willian Pacho",
      "Illia Zabarnyi",
      "Achraf Hakimi",
      "Matvey Safonov"
     ],
     "away": [
-     "Rémi Himbert",
      "Julien Duranville",
-     "Noah Nartey",
-     "Kaïl Boudache",
-     "Mads Bidstrup",
+     "Khalis Merah",
+     "Ernest Nuamah",
+     "Corentin Tolisso",
+     "Tyler Morton",
      "Tanner Tessmann",
      "Abner Vinicius Da Silva Santos",
      "Moussa Niakhaté",
-     "Clinton Mata",
+     "Felix Bacher",
      "Zachary Athekame",
-     "Rémy Descamps"
+     "Dominik Greif"
     ]
    }
   },
@@ -6223,6 +6223,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688735": {
+   "id": 2688735,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "LOSC",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7314,5 +7334,5 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-26T18:44+00:00"
+ "fetchedAt": "2026-10-26T18:48+00:00"
 }
