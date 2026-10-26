@@ -3,45 +3,45 @@
   "mode": "onefootball",
   "season": "2026-27",
   "source": "OneFootball et la presse spécialisée",
-  "lastResult": "2026-10-25",
+  "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-26T18:48+00:00",
-  "generatedAt": "2026-10-26T18:49+00:00"
+  "fetchedAt": "2026-10-26T21:39+00:00",
+  "generatedAt": "2026-10-26T21:39+00:00"
  },
  "model": {
-  "mu": 0.235,
-  "home": 0.205
+  "mu": 0.231,
+  "home": 0.213
  },
  "teams": {
   "PSG": {
    "name": "Paris Saint-Germain",
    "short": "PSG",
    "color": "#1B3A8C",
-   "att": 0.319,
-   "def": -0.207,
-   "played": 7,
-   "w": 4,
+   "att": 0.341,
+   "def": -0.234,
+   "played": 8,
+   "w": 5,
    "d": 2,
    "l": 1,
-   "gf": 14,
+   "gf": 16,
    "ga": 9,
-   "pts": 14,
+   "pts": 17,
    "form": [
-    "D",
+    "V",
     "V",
     "V",
     "V",
     "V"
    ],
-   "rank": 5
+   "rank": 1
   },
   "MON": {
    "name": "Monaco",
    "short": "MON",
    "color": "#D62828",
-   "att": 0.084,
-   "def": -0.123,
+   "att": 0.085,
+   "def": -0.124,
    "played": 8,
    "w": 4,
    "d": 3,
@@ -56,14 +56,14 @@
     "D",
     "N"
    ],
-   "rank": 3
+   "rank": 4
   },
   "OM": {
    "name": "Marseille",
    "short": "OM",
    "color": "#2A9FD6",
-   "att": 0.202,
-   "def": 0.076,
+   "att": 0.203,
+   "def": 0.074,
    "played": 8,
    "w": 4,
    "d": 0,
@@ -84,30 +84,30 @@
    "name": "Lyon",
    "short": "OL",
    "color": "#C8102E",
-   "att": 0.102,
-   "def": -0.165,
-   "played": 7,
+   "att": 0.08,
+   "def": -0.135,
+   "played": 8,
    "w": 4,
    "d": 2,
-   "l": 1,
+   "l": 2,
    "gf": 13,
-   "ga": 5,
+   "ga": 7,
    "pts": 14,
    "form": [
-    "V",
     "N",
     "V",
     "D",
-    "V"
+    "V",
+    "D"
    ],
-   "rank": 4
+   "rank": 5
   },
   "LIL": {
    "name": "Lille",
    "short": "LIL",
    "color": "#B5121B",
-   "att": -0.023,
-   "def": -0.254,
+   "att": -0.022,
+   "def": -0.255,
    "played": 8,
    "w": 4,
    "d": 3,
@@ -122,14 +122,14 @@
     "N",
     "N"
    ],
-   "rank": 2
+   "rank": 3
   },
   "LEN": {
    "name": "Lens",
    "short": "LEN",
    "color": "#E8A317",
-   "att": 0.241,
-   "def": -0.039,
+   "att": 0.24,
+   "def": -0.038,
    "played": 8,
    "w": 4,
    "d": 1,
@@ -150,8 +150,8 @@
    "name": "Rennes",
    "short": "REN",
    "color": "#A3161B",
-   "att": 0.257,
-   "def": 0.097,
+   "att": 0.256,
+   "def": 0.098,
    "played": 8,
    "w": 5,
    "d": 1,
@@ -166,14 +166,14 @@
     "D",
     "V"
    ],
-   "rank": 1
+   "rank": 2
   },
   "NIC": {
    "name": "Nice",
    "short": "NIC",
    "color": "#B01E23",
    "att": -0.186,
-   "def": 0.0,
+   "def": 0.002,
    "played": 8,
    "w": 3,
    "d": 2,
@@ -194,8 +194,8 @@
    "name": "Strasbourg",
    "short": "STR",
    "color": "#1C5DA8",
-   "att": 0.109,
-   "def": 0.16,
+   "att": 0.111,
+   "def": 0.158,
    "played": 8,
    "w": 2,
    "d": 1,
@@ -216,8 +216,8 @@
    "name": "Brest",
    "short": "BRE",
    "color": "#D7263D",
-   "att": 0.072,
-   "def": 0.043,
+   "att": 0.073,
+   "def": 0.042,
    "played": 8,
    "w": 2,
    "d": 3,
@@ -238,7 +238,7 @@
    "name": "Toulouse",
    "short": "TOU",
    "color": "#5B2C83",
-   "att": 0.019,
+   "att": 0.018,
    "def": -0.047,
    "played": 8,
    "w": 2,
@@ -260,8 +260,8 @@
    "name": "Paris FC",
    "short": "PFC",
    "color": "#1D2A4D",
-   "att": 0.053,
-   "def": -0.138,
+   "att": 0.052,
+   "def": -0.137,
    "played": 8,
    "w": 4,
    "d": 2,
@@ -326,8 +326,8 @@
    "name": "Auxerre",
    "short": "AUX",
    "color": "#2563A6",
-   "att": -0.006,
-   "def": 0.116,
+   "att": -0.007,
+   "def": 0.117,
    "played": 8,
    "w": 3,
    "d": 1,
@@ -348,8 +348,8 @@
    "name": "Le Havre",
    "short": "HAV",
    "color": "#3F7CC0",
-   "att": -0.109,
-   "def": 0.064,
+   "att": -0.11,
+   "def": 0.065,
    "played": 8,
    "w": 0,
    "d": 2,
@@ -370,8 +370,8 @@
    "name": "Le Mans",
    "short": "LMA",
    "color": "#C8102E",
-   "att": -0.054,
-   "def": 0.122,
+   "att": -0.053,
+   "def": 0.119,
    "played": 8,
    "w": 1,
    "d": 4,
@@ -5217,9 +5217,7 @@
     "over25": 0.592,
     "btts": 0.548
    }
-  }
- ],
- "upcoming": [
+  },
   {
    "md": 8,
    "date": "2026-10-26",
@@ -5232,82 +5230,54 @@
     6.1
    ],
    "src": "https://onefootball.com/fr/match/2688715",
-   "ctx": {
-    "known": true,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "inconnu",
-    "press": {
-     "H": {
-      "absences": [
-       {
-        "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-presentation-des-lyonnais-gones-surprenants-et-blesses-43675188",
-        "time": "2026-10-26T13:34:21Z"
-       }
-      ],
-      "other": [
-       {
-        "title": "PSG/Lyon – Le match à vivre ensemble en direct !",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-le-match-a-vivre-ensemble-en-direct-43676568",
-        "time": "2026-10-26T18:00:03Z"
-       },
-       {
-        "title": "Ballon d'Or 2026 - Le classement de la 22ème à la 19ème place avec deux nouveaux joueurs du PSG",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-classement-de-la-22eme-a-la-19eme-place-avec-deux-nouveaux-joueurs-du-psg-43676455",
-        "time": "2026-10-26T17:35:00Z"
-       },
-       {
-        "title": "PSG/Lyon – L’avant-match des Parisiens en direct",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-lavant-match-des-parisiens-en-direct-43676387",
-        "time": "2026-10-26T17:30:22Z"
-       }
-      ],
-      "scorer": {
-       "name": "Ferran Torres",
-       "goals": 4
-      },
-      "scorerOut": null
-     },
-     "A": {
-      "absences": [],
-      "other": [
-       {
-        "title": "OL : une nouvelle recrue envisagée après le coup dur",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946",
-        "time": "2026-10-26T16:00:59Z"
-       },
-       {
-        "title": "OL - Mercato : Fonseca dément un retour d’Athekame à l'AC Milan",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-mercato-fonseca-dement-un-retour-dathekame-a-lac-milan-43675396",
-        "time": "2026-10-26T14:10:00Z"
-       },
-       {
-        "title": "Un match le lundi ? Un bon souvenir pour l'OL en 2024",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/un-match-le-lundi-un-bon-souvenir-pour-lol-en-2024-43674804",
-        "time": "2026-10-26T12:30:00Z"
-       }
-      ],
-      "scorer": {
-       "name": "Ernest Nuamah",
-       "goals": 3
-      },
-      "scorerOut": null
-     }
+   "hg": 2,
+   "ag": 0,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 10,
+   "sotA": 5,
+   "xgH": 3.1,
+   "xgA": 1.55,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "H",
+     72
+    ],
+    [
+     "H",
+     84
+    ]
+   ],
+   "scorers": [
+    {
+     "side": "home",
+     "player": "Senny Mayulu",
+     "kind": "but",
+     "min": 72
+    },
+    {
+     "side": "home",
+     "player": "Mika Godts",
+     "kind": "but",
+     "min": 84
     }
-   },
-   "lh": 1.812,
-   "la": 1.139
-  },
+   ],
+   "pred": {
+    "lh": 1.808,
+    "la": 1.135,
+    "p": [
+     0.531,
+     0.231,
+     0.238
+    ],
+    "over25": 0.564,
+    "btts": 0.567
+   }
+  }
+ ],
+ "upcoming": [
   {
    "md": 9,
    "date": "2026-10-30",
@@ -5341,34 +5311,8 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "PSG/Lyon – Présentation des Lyonnais : Gones surprenants et blessés",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-presentation-des-lyonnais-gones-surprenants-et-blesses-43675188",
-        "time": "2026-10-26T13:34:21Z"
-       }
-      ],
-      "other": [
-       {
-        "title": "PSG/Lyon – Le match à vivre ensemble en direct !",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-le-match-a-vivre-ensemble-en-direct-43676568",
-        "time": "2026-10-26T18:00:03Z"
-       },
-       {
-        "title": "Ballon d'Or 2026 - Le classement de la 22ème à la 19ème place avec deux nouveaux joueurs du PSG",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-classement-de-la-22eme-a-la-19eme-place-avec-deux-nouveaux-joueurs-du-psg-43676455",
-        "time": "2026-10-26T17:35:00Z"
-       },
-       {
-        "title": "PSG/Lyon – L’avant-match des Parisiens en direct",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-lavant-match-des-parisiens-en-direct-43676387",
-        "time": "2026-10-26T17:30:22Z"
-       }
-      ],
+      "absences": [],
+      "other": [],
       "scorer": {
        "name": "Ferran Torres",
        "goals": 4
@@ -5377,8 +5321,8 @@
      }
     }
    },
-   "lh": 1.132,
-   "la": 1.856
+   "lh": 1.106,
+   "la": 1.891
   },
   {
    "md": 9,
@@ -5400,22 +5344,22 @@
       "absences": [],
       "other": [
        {
+        "title": "LOSC : Ethan Mbappé devient incontournable, voici pourquoi",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/losc-ethan-mbappe-devient-incontournable-voici-pourquoi-43676729",
+        "time": "2026-10-26T18:30:34Z"
+       },
+       {
+        "title": "Lille-Lens : les supporters lensois interdits de derby",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lille-lens-les-supporters-lensois-interdits-de-derby-43676544",
+        "time": "2026-10-26T17:58:00Z"
+       },
+       {
         "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/lille-lens-les-sang-et-or-interdisent-a-leurs-supporters-de-se-deplacer-pour-le-derby-du-nord-43675008",
         "time": "2026-10-26T13:02:00Z"
-       },
-       {
-        "title": "LOSC - Davide Ancelotti analyse le match nul face à l'AS Monaco et se projette sur le derby face au RC Lens",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-analyse-le-match-nul-face-a-las-monaco-et-se-projette-sur-le-derby-face-au-rc-lens-43670994",
-        "time": "2026-10-25T17:16:00Z"
-       },
-       {
-        "title": "Ligue 1 : réduit à dix, Lille ramène un point de Monaco",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ligue-1-reduit-a-dix-lille-ramene-un-point-de-monaco-43670541",
-        "time": "2026-10-25T16:02:00Z"
        }
       ],
       "scorer": {
@@ -5454,8 +5398,8 @@
      }
     }
    },
-   "lh": 1.46,
-   "la": 1.25
+   "lh": 1.469,
+   "la": 1.241
   },
   {
    "md": 9,
@@ -5477,6 +5421,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Ligue 1 - Le match OGC Nice - Stade Rennais (J9 L1) change également de date !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-match-ogc-nice-stade-rennais-j9-l1-change-egalement-de-date-43676583",
+        "time": "2026-10-26T18:03:00Z"
+       },
+       {
         "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337",
@@ -5487,12 +5437,6 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102",
         "time": "2026-10-24T06:39:00Z"
-       },
-       {
-        "title": "OGC Nice - L'énorme hommage de Sofiane Diop envers Yehvann Diouf après son penalty arrêté",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ogc-nice-lenorme-hommage-de-sofiane-diop-envers-yehvann-diouf-apres-son-penalty-arrete-43662244",
-        "time": "2026-10-23T21:26:00Z"
        }
       ],
       "scorer": {
@@ -5531,8 +5475,8 @@
      }
     }
    },
-   "lh": 1.422,
-   "la": 1.637
+   "lh": 1.427,
+   "la": 1.63
   },
   {
    "md": 9,
@@ -5552,26 +5496,7 @@
     "press": {
      "H": {
       "absences": [],
-      "other": [
-       {
-        "title": "OL : une nouvelle recrue envisagée après le coup dur",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/ol-une-nouvelle-recrue-envisagee-apres-le-coup-dur-43675946",
-        "time": "2026-10-26T16:00:59Z"
-       },
-       {
-        "title": "OL - Mercato : Fonseca dément un retour d’Athekame à l'AC Milan",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-mercato-fonseca-dement-un-retour-dathekame-a-lac-milan-43675396",
-        "time": "2026-10-26T14:10:00Z"
-       },
-       {
-        "title": "Un match le lundi ? Un bon souvenir pour l'OL en 2024",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/un-match-le-lundi-un-bon-souvenir-pour-lol-en-2024-43674804",
-        "time": "2026-10-26T12:30:00Z"
-       }
-      ],
+      "other": [],
       "scorer": {
        "name": "Ernest Nuamah",
        "goals": 3
@@ -5602,8 +5527,8 @@
      }
     }
    },
-   "lh": 2.015,
-   "la": 0.839
+   "lh": 1.978,
+   "la": 0.86
   },
   {
    "md": 9,
@@ -5625,6 +5550,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Lorient-Brest : à la demande de la Préfecture, la LFP modifie la programmation du derby",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lorient-brest-a-la-demande-de-la-prefecture-la-lfp-modifie-la-programmation-du-derby-43676649",
+        "time": "2026-10-26T18:19:00Z"
+       },
+       {
         "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343",
@@ -5635,12 +5566,6 @@
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313",
         "time": "2026-10-26T17:10:00Z"
-       },
-       {
-        "title": "Derby Lorient-Brest, OL, Nice : plusieurs matchs de Ligue 1 reportés à cause des manifestations… et d’Halloween ?",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/derby-lorient-brest-ol-nice-plusieurs-matchs-de-ligue-1-reportes-a-cause-des-manifestations-et-dhalloween-43675611",
-        "time": "2026-10-26T15:00:00Z"
        }
       ],
       "scorer": {
@@ -5679,8 +5604,8 @@
      }
     }
    },
-   "lh": 1.381,
-   "la": 1.159
+   "lh": 1.384,
+   "la": 1.155
   },
   {
    "md": 9,
@@ -5718,8 +5643,8 @@
      }
     }
    },
-   "lh": 1.267,
-   "la": 1.338
+   "lh": 1.269,
+   "la": 1.334
   },
   {
    "md": 9,
@@ -5783,8 +5708,8 @@
      }
     }
    },
-   "lh": 1.946,
-   "la": 1.476
+   "lh": 1.96,
+   "la": 1.464
   },
   {
    "md": 9,
@@ -5821,6 +5746,12 @@
      "A": {
       "absences": [
        {
+        "title": "AS Monaco - Nouveau coup d'arrêt longue durée pour Ansu Fati, qui est fixé après sa blessure face au LOSC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-nouveau-coup-darret-longue-duree-pour-ansu-fati-qui-est-fixe-apres-sa-blessure-face-au-losc-43676844",
+        "time": "2026-10-26T19:00:00Z"
+       },
+       {
         "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650",
@@ -5855,8 +5786,8 @@
      }
     }
    },
-   "lh": 1.449,
-   "la": 1.199
+   "lh": 1.45,
+   "la": 1.196
   },
   {
    "md": 9,
@@ -5878,22 +5809,22 @@
       "absences": [],
       "other": [
        {
+        "title": "OM – McCourt met en vente sa résidence à 112M€",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-mccourt-met-en-vente-sa-residence-a-112m-43677345",
+        "time": "2026-10-26T21:00:43Z"
+       },
+       {
+        "title": "OM – Himad Abdelli revient sur sa sortie après Le Havre",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-himad-abdelli-revient-sur-sa-sortie-apres-le-havre-43676872",
+        "time": "2026-10-26T19:00:46Z"
+       },
+       {
         "title": "OM – Daniel Riolo critique la réaction de Genesio",
         "publisher": "CoeurMarseillais",
         "url": "https://onefootball.com/fr/news/om-daniel-riolo-critique-la-reaction-de-genesio-43676591",
         "time": "2026-10-26T18:00:02Z"
-       },
-       {
-        "title": "Christophe Dugarry : « 320000€ par mois Gomes, Maupay 250000€ par mois… »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/christophe-dugarry-320000-par-mois-gomes-maupay-250000-par-mois-43676439",
-        "time": "2026-10-26T17:35:35Z"
-       },
-       {
-        "title": "OM-Le Havre (4-3) Digard note un atout de l’OM",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-note-un-atout-de-lom-43676272",
-        "time": "2026-10-26T17:00:06Z"
        }
       ],
       "scorer": {
@@ -5920,8 +5851,8 @@
      }
     }
    },
-   "lh": 1.813,
-   "la": 1.392
+   "lh": 1.823,
+   "la": 1.382
   }
  ]
 }
