@@ -35,7 +35,6 @@ export default function Match({ id, data, picks, setPick }) {
     setLastWhy(on ? l.why : `« ${l.label} » n'est plus pris en compte.`);
   };
 
-  const groups = [...new Set(levers.map((l) => l.group))];
 
   return (
     <article className="match">
@@ -107,24 +106,27 @@ export default function Match({ id, data, picks, setPick }) {
       <section className="block">
         <h2>Les leviers</h2>
         <p className="muted">
-          {m.ctx.press
-            ? "Les facteurs allumés viennent de la presse. Vérifie la compo et la météo avant le match, puis ajuste : les colonnes du stade bougent en direct."
-            : m.ctx.known === false
-            ? "Les absences et la météo ne sont pas dans les données : vérifie la compo avant le match et allume les facteurs qui s'appliquent. Les colonnes du stade bougent en direct."
-            : "Active ou coupe un facteur pour voir son poids réel. Ceux déjà allumés sont les informations que l'IA a prises en compte."}
+          Cinq facteurs qui comptent vraiment. Ceux marqués « détecté » ont été allumés par l'IA à partir de la presse,
+          du calendrier ou de la météo. Touche-les pour voir leur poids : les colonnes du stade bougent en direct.
         </p>
         <div className="levers">
-          {groups.map((g) => (
-            <fieldset key={g}>
-              <legend>{g}</legend>
-              {levers.filter((l) => l.group === g).map((l) => (
-                <label key={l.id} className={`lever ${active[l.id] ? "on" : ""}`}>
-                  <input type="checkbox" checked={!!active[l.id]} onChange={() => toggle(l)} />
-                  <span className="switch" aria-hidden="true" />
-                  {l.label}
-                </label>
-              ))}
-            </fieldset>
+          {levers.map((l) => (
+            <label key={l.id} className={`lever ${active[l.id] ? "on" : ""}`}>
+              <input type="checkbox" checked={!!active[l.id]} onChange={() => toggle(l)} />
+              <span className="switch" aria-hidden="true" />
+              <span className="lever-txt">
+                <span>{l.label}</span>
+                {l.on && <span className="lever-tag">Détecté</span>}
+                {l.on && l.source && (
+                  <small>
+                    {l.source.url
+                      ? <a href={l.source.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>{l.source.text}</a>
+                      : l.source.text}
+                    {" · "}{l.source.by}
+                  </small>
+                )}
+              </span>
+            </label>
           ))}
         </div>
         <ProbaPitch p={cur.p} home={H} away={A} size="md" />

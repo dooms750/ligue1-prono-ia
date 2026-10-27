@@ -232,6 +232,30 @@ def main():
         if items:
             cache["news"][name] = items[:NEWS_PER_TEAM]
 
+    # 5. Le calendrier complet de chaque club, toutes compétitions (coupes d'Europe, Coupe de France).
+    print(f"OneFootball : calendrier de {len(teams)} clubs, toutes compétitions")
+    cache.setdefault("schedule", {})
+    for name, team_path in sorted(teams.items()):
+        games = []
+        for tab in ("resultats", "matchs"):
+            try:
+                data = get_next_data(team_path.rstrip("/") + "/" + tab)
+            except Exception as e:
+                print(f"  calendrier {name} ({tab}) : {e}", file=sys.stderr)
+                continue
+            for o in walk(data):
+                if o.get("homeTeam") and o.get("awayTeam") and isinstance(o.get("kickoff"), str) and isinstance(o.get("link"), str):
+                    games.append({"kickoff": o["kickoff"], "competition": o.get("competitionName") or "",
+                                  "home": (o["homeTeam"] or {}).get("name"), "away": (o["awayTeam"] or {}).get("name"),
+                                  "link": o["link"]})
+        if games:
+            seen, uniq = set(), []
+            for g in sorted(games, key=lambda g: g["kickoff"]):
+                if g["link"] not in seen:
+                    seen.add(g["link"])
+                    uniq.append(g)
+            cache["schedule"][name] = uniq
+
     cache["fetchedAt"] = NOW.isoformat(timespec="minutes")
     path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
     done = sum(1 for m in matches.values() if finished(m))

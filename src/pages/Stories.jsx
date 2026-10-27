@@ -39,11 +39,12 @@ export default function Stories({ id, data, picks, setPick }) {
   const sh = teamStats(H), sa = teamStats(A);
   const pr = predict(m, teams);
   const why = reasons(m, teams, pr.active);
+  const cupTxt = (t, g) => (g ? `${t.name} a joué ${g.day} en ${g.competition} (${g.home ? "contre" : "à"} ${g.opponent}).` : `${t.name} a joué un match de coupe cette semaine.`);
   const ctxItems = [
     ...(m.ctx.absH || []).map((a) => `${H.name} sera privé de ${ABS[a]}.`),
     ...(m.ctx.absA || []).map((a) => `${A.name} sera privé de ${ABS[a]}.`),
-    m.ctx.europeH && `${H.name} a joué en Coupe d'Europe cette semaine.`,
-    m.ctx.europeA && `${A.name} a joué en Coupe d'Europe cette semaine.`,
+    m.ctx.europeH && cupTxt(H, m.ctx.cupH),
+    m.ctx.europeA && cupTxt(A, m.ctx.cupA),
     m.ctx.weather !== "beau" && WEATHER[m.ctx.weather],
   ].filter(Boolean);
   const maxG = Math.max(sh.gpg, sh.gapg, sa.gpg, sa.gapg, 2);
@@ -105,6 +106,12 @@ export default function Stories({ id, data, picks, setPick }) {
           <p className="small">Risque de pluie {Math.round(m.ctx.meteo.pRain * 100)} %, rafales vers {m.ctx.meteo.gust} km/h ({m.ctx.meteo.stadium}).</p>
         )}
       </div>
+      {(m.ctx.cupH || m.ctx.cupA) && (
+        <ul className="st-list">
+          {m.ctx.cupH && <li>{cupTxt(H, m.ctx.cupH)}</li>}
+          {m.ctx.cupA && <li>{cupTxt(A, m.ctx.cupA)}</li>}
+        </ul>
+      )}
       {m.ctx.press ? (
         pressItems.length ? (
           <ul className="st-list st-press">

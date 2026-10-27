@@ -52,9 +52,9 @@ export function reasons(match, teams, active) {
 
   if (active?.butH) out.push({ w: 1, text: `${H.name} est privé de son meilleur buteur.` });
   if (active?.butA) out.push({ w: 1, text: `${A.name} est privé de son meilleur buteur.` });
-  if (active?.gardH) out.push({ w: 0.8, text: `${H.name} joue avec son gardien remplaçant.` });
-  if (active?.gardA) out.push({ w: 0.8, text: `${A.name} joue avec son gardien remplaçant.` });
-  if (active?.eurH || active?.eurA) out.push({ w: 0.4, text: `Un match européen en semaine pèse sur les organismes.` });
+  const cup = (t, g) => (g ? `${t.name} a joué ${g.day} en ${g.competition} : de la fatigue et sans doute de la rotation.` : `${t.name} sort d'un match de coupe en semaine.`);
+  if (active?.eurH) out.push({ w: 0.5, text: cup(H, match.ctx?.cupH) });
+  if (active?.eurA) out.push({ w: 0.5, text: cup(A, match.ctx?.cupA) });
   if (active?.pluie) out.push({ w: 0.4, text: `La météo annoncée devrait freiner le jeu et le nombre de buts.` });
 
   return out.sort((x, y) => y.w - x.w).slice(0, 4).map((r) => r.text);

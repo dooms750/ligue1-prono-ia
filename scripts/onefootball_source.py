@@ -41,6 +41,14 @@ ALIASES = {
     "LMA": ["le mans", "manceau", "manceaux"], "TRO": ["troyes", "estac", "troyen"],
 }
 
+# Compétitions qui fatiguent : coupes d'Europe et Coupe de France, avec leur nom court.
+CUPS = {
+    "UEFA Champions League": "Ligue des champions", "UEFA Europa League": "Ligue Europa",
+    "UEFA Conference League": "Ligue Conférence", "UEFA Europa Conference League": "Ligue Conférence",
+    "Coupe de France": "Coupe de France",
+}
+JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+
 SHOTS_ON_TARGET = "Tirs cadrés"
 SOT_TO_GOALS = 0.31  # en Ligue 1, environ 0,3 but par tir cadré
 
@@ -156,6 +164,22 @@ def press_context(team, news, scorer, now, players=(), since=None):
     return flagged[:4], scorer_out, general
 
 
+def midweek_game(schedule, team_name, league_ko):
+    """Match de coupe joué entre 4,5 jours et 12 heures avant le match de Ligue 1."""
+    for g in schedule.get(team_name, []):
+        comp = CUPS.get(g.get("competition"))
+        if not comp:
+            continue
+        ko = datetime.fromisoformat(g["kickoff"].replace("Z", "+00:00"))
+        gap = (league_ko - ko).total_seconds() / 3600
+        if 12 <= gap <= 108:
+            opp = g["away"] if g["home"] == team_name else g["home"]
+            local = paris(ko)
+            return {"competition": comp, "opponent": opp, "day": JOURS[local.weekday()],
+                    "home": g["home"] == team_name, "hoursBefore": round(gap)}
+    return None
+
+
 def build_onefootball(path, raw):
     cache = json.loads(Path(path).read_text(encoding="utf-8"))
     all_m = [m for m in cache["matches"].values()
@@ -223,8 +247,9 @@ def build_onefootball(path, raw):
                 players.setdefault(m["home"] if g["side"] == "home" else m["away"], set()).add(g["player"])
     news = {OF_NAMES.get(k): v for k, v in cache.get("news", {}).items() if OF_NAMES.get(k)}
     upcoming = []
+    schedule = cache.get("schedule", {})
     for p in pending:
-        p.pop("_m")
+        m0 = p.pop("_m")
         ctx = {"known": True, "absH": [], "absA": [], "europeH": False, "europeA": False,
                "weather": "inconnu", "press": {}}
         for side, team in (("H", p["home"]), ("A", p["away"])):
@@ -239,6 +264,11 @@ def build_onefootball(path, raw):
             }
             if scorer_out:
                 ctx[f"abs{side}"].append("buteur")
+        for side, name in (("H", m0["home"]), ("A", m0["away"])):
+            mw = midweek_game(schedule, name, kickoff(m0))
+            if mw:
+                ctx[f"europe{side}"] = True
+                ctx[f"cup{side}"] = mw
         w = weather.get(f"{p['date']}-{p['home']}-{p['away']}")
         if w:
             ctx["weather"] = w["kind"]

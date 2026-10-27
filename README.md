@@ -14,7 +14,7 @@ les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la d
 | --- | --- |
 | **Journée** | L'affiche de la journée dans un stade 3D de nuit, puis les 9 matchs avec le pronostic de l'IA. |
 | **Stories** | L'avant-match en 7 écrans, avec une caméra qui se déplace dans le stade : affiche, forme, attaque contre défense, contexte, verdict de l'IA, raisons, ton avis. |
-| **Fiche match** | Le stade 3D (à faire tourner au doigt) où chaque issue est une colonne de lumière et où le ballon roule vers le favori, les **leviers** (absences, Europe, météo, enjeu) qui font monter ou descendre les colonnes, la grille des scores, la comparaison avec les cotes. |
+| **Fiche match** | Le stade 3D (à faire tourner au doigt) où chaque issue est une colonne de lumière et où le ballon roule vers le favori, les **5 leviers** (meilleur buteur absent pour chaque équipe, match de coupe en semaine pour chaque équipe, pluie ou vent), allumés automatiquement avec leur source, qui font monter ou descendre les colonnes, la grille des scores, la comparaison avec les cotes. |
 | **Débrief** | Prono contre réalité pour chaque match, avec ce qui a fait basculer la rencontre (carton rouge, renversement, but tardif). |
 | **Bilan** | Le bilan public de l'IA : taux de réussite, score de Brier contre le marché, calibration. Chaque prono est calculé avec les seuls matchs joués avant. |
 | **Académie** | 5 notions manipulables : ce que veut dire 60 %, la loi de Poisson, la marge des bookmakers, la régression vers la moyenne, le jeu responsable. |
@@ -54,8 +54,16 @@ Fichier `scripts/build_data.py` :
    et en ramenant les équipes vers la moyenne quand il y a peu de matchs.
 4. La grille des scores donne toutes les probabilités : 1N2, plus de 2,5 buts, les deux équipes marquent, score exact.
 
-Les leviers de contexte (`src/model/levers.js`) ajustent ensuite les buts attendus avec des effets simples et lisibles.
-Ce sont des ordres de grandeur à affiner avec des données réelles.
+Les 5 leviers de contexte (`src/model/levers.js`) ajustent ensuite les buts attendus avec des effets simples et lisibles :
+
+| Levier | Effet | Détecté par |
+| --- | --- | --- |
+| Sans son meilleur buteur (une par équipe) | −14 % de buts pour l'équipe | Titres de presse récents qui citent le joueur avec un mot d'absence |
+| Match de coupe en semaine (une par équipe) | −5 % de buts pour l'équipe, +3 % pour l'adversaire | Calendrier OneFootball du club : Ligue des champions, Ligue Europa, Ligue Conférence ou Coupe de France joué entre 12 h et 4,5 jours avant |
+| Pluie ou vent | −10 % de buts pour les deux équipes | Prévision d'ensemble ECMWF : plus de 50 % de risque |
+
+Les leviers sans source fiable (gardien, défenseur, enjeu du maintien) ont été retirés : leur effet était faible et
+rien ne permettait de les activer automatiquement.
 
 ## Les données
 
@@ -94,7 +102,6 @@ Le workflow GitHub fait la même chose tout seul deux fois par jour (6 h 17 et 1
 nouvelles données dans le dépôt puis republie le site. Si le téléchargement échoue, il garde les derniers fichiers.
 
 La collecte est volontairement lente (une page toutes les 0,8 seconde) et ne recharge que les matchs non terminés.
-Ce que les sources ne fournissent pas encore : la fatigue des matchs européens, à régler avec le levier.
 La saison simulée reste disponible avec `npm run data:demo`.
 
 ## Publier sur GitHub Pages

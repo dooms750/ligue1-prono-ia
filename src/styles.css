@@ -224,9 +224,7 @@ p { margin: 0; }
 .why li::marker { color: var(--projecteur); }
 
 .levers { display: grid; gap: 14px; }
-@media (min-width: 680px) { .levers { grid-template-columns: 1fr 1fr; } .levers fieldset:last-child { grid-column: 1 / -1; } }
-.levers fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; align-content: start; }
-.levers legend { font-family: var(--display); font-weight: 700; font-size: 16px; margin-bottom: 4px; padding: 0; }
+
 .lever { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: var(--r-s); background: rgba(6, 15, 25, 0.45); cursor: pointer; font-size: 15.5px; border: 1px solid transparent; transition: border-color 0.2s, background 0.2s; }
 .lever.on { background: rgba(255, 224, 138, 0.08); border-color: rgba(255, 224, 138, 0.35); }
 .lever input { position: absolute; opacity: 0; width: 1px; height: 1px; }
@@ -425,3 +423,12 @@ p { margin: 0; }
 .wx-hist li b { color: var(--craie); font-size: 14px; }
 .wx-src { font-size: 12.5px; color: var(--gris); }
 .st-wx { gap: 6px; }
+
+/* ---------- leviers ---------- */
+.levers { display: grid; gap: 8px; }
+.lever { align-items: flex-start; }
+.lever .switch { margin-top: 2px; }
+.lever-txt { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; min-width: 0; }
+.lever-txt small { flex-basis: 100%; font-size: 13px; color: var(--gris); line-height: 1.35; }
+.lever-txt small a { color: var(--gris); text-decoration: underline; }
+.lever-tag { font-size: 11.5px; font-weight: 700; padding: 1px 7px; border-radius: 999px; background: var(--projecteur); color: var(--nuit); }
