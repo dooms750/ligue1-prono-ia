@@ -45,7 +45,8 @@ ALIASES = {
 CUPS = {
     "UEFA Champions League": "Ligue des champions", "UEFA Europa League": "Ligue Europa",
     "UEFA Conference League": "Ligue Conférence", "UEFA Europa Conference League": "Ligue Conférence",
-    "Coupe de France": "Coupe de France",
+    "UEFA Ligue Conférence": "Ligue Conférence", "UEFA Ligue des Champions": "Ligue des champions",
+    "UEFA Ligue Europa": "Ligue Europa", "Coupe de France": "Coupe de France", "Trophée des Champions": "Trophée des champions",
 }
 JOURS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
 
