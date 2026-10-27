@@ -19,6 +19,14 @@ les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la d
 | **Bilan** | Le bilan public de l'IA : taux de réussite, score de Brier contre le marché, calibration. Chaque prono est calculé avec les seuls matchs joués avant. |
 | **Académie** | 5 notions manipulables : ce que veut dire 60 %, la loi de Poisson, la marge des bookmakers, la régression vers la moyenne, le jeu responsable. |
 
+## Installer l'app sur un téléphone
+
+Lucide est une application web installable (PWA) : icône sur l'écran d'accueil, ouverture en plein écran,
+consultation hors connexion des derniers pronos téléchargés.
+
+- **iPhone (Safari)** : ouvrir le site, toucher le bouton Partager, puis « Sur l'écran d'accueil », puis « Ajouter ».
+- **Android (Chrome)** : ouvrir le site, menu ⋮, puis « Installer l'application ».
+
 ## La scène 3D
 
 `src/components/Stadium3D.jsx` construit le stade avec [Three.js](https://threejs.org) : pelouse et lignes dessinées

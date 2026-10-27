@@ -182,3 +182,9 @@ h1, h2, h3 { font-family: var(--display); letter-spacing: 0.005em; font-weight: 
 .st-progress i.done, .st-progress i.now { background: var(--craie); }
 .st-cta { background: var(--craie); border-radius: var(--r-m); }
 .cd { white-space: nowrap; }
+
+/* ---------- iPhone : encoche et barre d'accueil ---------- */
+.topbar { padding-top: calc(10px + env(safe-area-inset-top)); padding-left: calc(16px + env(safe-area-inset-left)); padding-right: calc(16px + env(safe-area-inset-right)); }
+.guide-day h3, .sticky-blade { top: calc(52px + env(safe-area-inset-top)); }
+.st-top { padding-top: calc(12px + env(safe-area-inset-top)); }
+@media (display-mode: standalone) { body { overscroll-behavior-y: none; } }

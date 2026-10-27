@@ -12,3 +12,10 @@ import "./styles.css";
 import "./theme.css";
 
 createRoot(document.getElementById("root")).render(<App />);
+
+// Mode hors connexion (et installation sur l'écran d'accueil).
+if ("serviceWorker" in navigator && import.meta.env.PROD) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(() => {});
+  });
+}
