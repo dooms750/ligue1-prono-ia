@@ -6313,6 +6313,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688738": {
+   "id": 2688738,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "AS Monaco",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/as-monaco-259",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -6846,6 +6866,24 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "PSG : \"C'est une Formule 1, c'est une machine !\" ... Luis Enrique soufflé par l'un de ses joueurs !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T08:28:00Z",
+    "url": "https://onefootball.com/fr/news/psg-cest-une-formule-1-cest-une-machine-luis-enrique-souffle-par-lun-de-ses-joueurs-43679130"
+   },
+   {
+    "title": "Bidstrup, Tolisso, Morton… L’hécatombe se poursuit dans l’entrejeu",
+    "publisher": "FerveurLyonnaise",
+    "time": "2026-10-27T08:25:09Z",
+    "url": "https://onefootball.com/fr/news/bidstrup-tolisso-morton-lhecatombe-se-poursuit-dans-lentrejeu-43679111"
+   },
+   {
+    "title": "Paulo Fonseca après PSG - OL (2-0) : \"Stratégiquement, presque tout était parfait, jusqu'au but\"",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-27T08:25:00Z",
+    "url": "https://onefootball.com/fr/news/paulo-fonseca-apres-psg-ol-2-0-strategiquement-presque-tout-etait-parfait-jusquau-but-43679115"
+   },
+   {
     "title": "OL : alerte rouge pour les Gones après la défaite à Paris, trois nouveaux joueurs confrontés à des pépins physiques",
     "publisher": "Foot National",
     "time": "2026-10-27T07:23:00Z",
@@ -6886,24 +6924,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-26T22:20:00Z",
     "url": "https://onefootball.com/fr/news/psg-lenorme-soulagement-de-mika-godts-apres-son-premier-but-liberateur-sous-les-couleurs-du-psg-face-a-lol-43677835"
-   },
-   {
-    "title": "OL - Les regrets de Moussa Niakhaté après la défaite face au PSG, malgré la \"bravoure\" de son équipe",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T22:01:00Z",
-    "url": "https://onefootball.com/fr/news/ol-les-regrets-de-moussa-niakhate-apres-la-defaite-face-au-psg-malgre-la-bravoure-de-son-equipe-43677731"
-   },
-   {
-    "title": "PSG - La première réaction de Luis Enrique après la victoire parisienne face à l'OL",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T21:58:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-premiere-reaction-de-luis-enrique-apres-la-victoire-parisienne-face-a-lol-43677765"
-   },
-   {
-    "title": "OL - La réaction à chaud de Julien Duranville après la défaite de l'OL face au PSG",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T21:31:00Z",
-    "url": "https://onefootball.com/fr/news/ol-la-reaction-a-chaud-de-julien-duranville-apres-la-defaite-de-lol-face-au-psg-43677546"
    }
   ],
   "Olympique de Marseille": [
@@ -6970,6 +6990,12 @@
   ],
   "PSG": [
    {
+    "title": "PSG : \"C'est une Formule 1, c'est une machine !\" ... Luis Enrique soufflé par l'un de ses joueurs !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T08:28:00Z",
+    "url": "https://onefootball.com/fr/news/psg-cest-une-formule-1-cest-une-machine-luis-enrique-souffle-par-lun-de-ses-joueurs-43679130"
+   },
+   {
     "title": "Revue de presse : Ballon d’Or 2026 et PSG/Lyon, avec la 1ere place obtenue",
     "publisher": "Parisfans.fr",
     "time": "2026-10-27T08:00:11Z",
@@ -7022,12 +7048,6 @@
     "publisher": "Foot National",
     "time": "2026-10-27T05:20:00Z",
     "url": "https://onefootball.com/fr/news/psg-on-a-cree-un-groupe-et-un-club-incroyable-le-show-dembele-au-ballon-dor-43678665"
-   },
-   {
-    "title": "Le PSG reprend la tête de la Ligue 1 après sa victoire 2-0 contre Lyon",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-10-27T03:02:00Z",
-    "url": "https://onefootball.com/fr/video/le-psg-reprend-la-tete-de-la-ligue-1-apres-sa-victoire-2-0-contre-lyon-3LGCqL57QkeILSYo4sONnTzNqXd"
    }
   ],
   "Paris FC": [
@@ -7404,5 +7424,2437 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-27T08:29+00:00"
+ "fetchedAt": "2026-10-27T08:38+00:00",
+ "schedule": {
+  "AJ Auxerre": [
+   {
+    "kickoff": "2026-08-15T12:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Werder Brême",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2690566"
+   },
+   {
+    "kickoff": "2026-08-22T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688647"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688653"
+   },
+   {
+    "kickoff": "2026-09-04T17:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688665"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688671"
+   },
+   {
+    "kickoff": "2026-09-20T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688681"
+   },
+   {
+    "kickoff": "2026-10-02T13:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "AJ Auxerre",
+    "away": "Clermont",
+    "link": "/fr/match/2735792"
+   },
+   {
+    "kickoff": "2026-10-11T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688696"
+   },
+   {
+    "kickoff": "2026-10-18T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688699"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688708"
+   },
+   {
+    "kickoff": "2026-11-01T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688723"
+   },
+   {
+    "kickoff": "2026-11-07T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Paris FC",
+    "link": "/fr/match/2688726"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688738"
+   },
+   {
+    "kickoff": "2026-11-29T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688744"
+   },
+   {
+    "kickoff": "2026-12-05T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688753"
+   },
+   {
+    "kickoff": "2026-12-11T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688762"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688773"
+   },
+   {
+    "kickoff": "2027-01-16T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688780"
+   },
+   {
+    "kickoff": "2027-01-23T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688794"
+   }
+  ],
+  "AS Monaco": [
+   {
+    "kickoff": "2026-08-30T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688657"
+   },
+   {
+    "kickoff": "2026-09-04T19:05:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688668"
+   },
+   {
+    "kickoff": "2026-09-12T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688679"
+   },
+   {
+    "kickoff": "2026-09-18T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "RC Lens",
+    "link": "/fr/match/2688684"
+   },
+   {
+    "kickoff": "2026-10-03T09:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "AS Monaco",
+    "away": "AC Pise",
+    "link": "/fr/match/2735912"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688693"
+   },
+   {
+    "kickoff": "2026-10-15T16:45:00Z",
+    "competition": "UEFA Ligue Conférence",
+    "home": "CSKA Sofia",
+    "away": "AS Monaco",
+    "link": "/fr/match/2732367"
+   },
+   {
+    "kickoff": "2026-10-18T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688702"
+   },
+   {
+    "kickoff": "2026-10-22T19:00:00Z",
+    "competition": "UEFA Ligue Conférence",
+    "home": "AS Monaco",
+    "away": "Fribourg",
+    "link": "/fr/match/2732390"
+   },
+   {
+    "kickoff": "2026-10-25T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "LOSC",
+    "link": "/fr/match/2688712"
+   },
+   {
+    "kickoff": "2026-11-01T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688722"
+   },
+   {
+    "kickoff": "2026-11-05T20:00:00Z",
+    "competition": "UEFA Ligue Conférence",
+    "home": "AS Monaco",
+    "away": "Nordsjaelland",
+    "link": "/fr/match/2732405"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688729"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688738"
+   },
+   {
+    "kickoff": "2026-11-26T17:45:00Z",
+    "competition": "UEFA Ligue Conférence",
+    "home": "Heart of Midlothian FC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2732420"
+   },
+   {
+    "kickoff": "2026-11-29T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688748"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688755"
+   },
+   {
+    "kickoff": "2026-12-10T20:00:00Z",
+    "competition": "UEFA Ligue Conférence",
+    "home": "Brighton & Hove Albion FC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2732443"
+   },
+   {
+    "kickoff": "2026-12-13T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688768"
+   }
+  ],
+  "Angers SCO": [
+   {
+    "kickoff": "2026-08-08T15:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "FC Lorient",
+    "away": "Angers SCO",
+    "link": "/fr/match/2685007"
+   },
+   {
+    "kickoff": "2026-08-15T15:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Angers SCO",
+    "away": "Paris FC",
+    "link": "/fr/match/2685008"
+   },
+   {
+    "kickoff": "2026-08-23T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "LOSC",
+    "link": "/fr/match/2688644"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688653"
+   },
+   {
+    "kickoff": "2026-09-06T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688662"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688673"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688680"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688689"
+   },
+   {
+    "kickoff": "2026-10-18T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688698"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688707"
+   },
+   {
+    "kickoff": "2026-10-31T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688716"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688725"
+   },
+   {
+    "kickoff": "2026-11-22T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688740"
+   },
+   {
+    "kickoff": "2026-11-28T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "RC Lens",
+    "link": "/fr/match/2688743"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688755"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688761"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688776"
+   },
+   {
+    "kickoff": "2027-01-16T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "PSG",
+    "link": "/fr/match/2688779"
+   },
+   {
+    "kickoff": "2027-01-23T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688790"
+   }
+  ],
+  "ESTAC Troyes": [
+   {
+    "kickoff": "2026-08-14T17:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "ESTAC Troyes",
+    "away": "Panetolikos FC",
+    "link": "/fr/match/2716705"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Paris FC",
+    "link": "/fr/match/2688652"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688655"
+   },
+   {
+    "kickoff": "2026-09-06T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688670"
+   },
+   {
+    "kickoff": "2026-09-13T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688675"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688680"
+   },
+   {
+    "kickoff": "2026-10-02T16:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Dijon",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2735794"
+   },
+   {
+    "kickoff": "2026-10-11T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688697"
+   },
+   {
+    "kickoff": "2026-10-17T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "RC Lens",
+    "link": "/fr/match/2688706"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688714"
+   },
+   {
+    "kickoff": "2026-10-31T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688724"
+   },
+   {
+    "kickoff": "2026-11-07T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688730"
+   },
+   {
+    "kickoff": "2026-11-20T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688742"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688749"
+   },
+   {
+    "kickoff": "2026-12-06T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688760"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688763"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688777"
+   },
+   {
+    "kickoff": "2027-01-16T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688780"
+   },
+   {
+    "kickoff": "2027-01-22T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688788"
+   }
+  ],
+  "FC Lorient": [
+   {
+    "kickoff": "2026-08-15T13:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "SV 07 Elversberg",
+    "away": "FC Lorient",
+    "link": "/fr/match/2695861"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688649"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688655"
+   },
+   {
+    "kickoff": "2026-09-05T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688664"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688676"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688682"
+   },
+   {
+    "kickoff": "2026-10-03T13:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "FC Lorient",
+    "away": "FC Nantes",
+    "link": "/fr/match/2735894"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Paris FC",
+    "link": "/fr/match/2688692"
+   },
+   {
+    "kickoff": "2026-10-18T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688702"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688707"
+   },
+   {
+    "kickoff": "2026-10-31T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688719"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688728"
+   },
+   {
+    "kickoff": "2026-11-22T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688736"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688750"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688758"
+   },
+   {
+    "kickoff": "2026-12-13T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "LOSC",
+    "link": "/fr/match/2688765"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688773"
+   },
+   {
+    "kickoff": "2027-01-17T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688781"
+   },
+   {
+    "kickoff": "2027-01-24T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688793"
+   }
+  ],
+  "LOSC": [
+   {
+    "kickoff": "2026-08-28T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "PSG",
+    "link": "/fr/match/2688661"
+   },
+   {
+    "kickoff": "2026-09-03T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "LOSC",
+    "link": "/fr/match/2688669"
+   },
+   {
+    "kickoff": "2026-09-08T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "LOSC",
+    "away": "Real Betis Balompié",
+    "link": "/fr/match/2732040"
+   },
+   {
+    "kickoff": "2026-09-13T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688675"
+   },
+   {
+    "kickoff": "2026-09-20T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "LOSC",
+    "link": "/fr/match/2688685"
+   },
+   {
+    "kickoff": "2026-10-10T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688691"
+   },
+   {
+    "kickoff": "2026-10-13T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Arsenal",
+    "away": "LOSC",
+    "link": "/fr/match/2732058"
+   },
+   {
+    "kickoff": "2026-10-17T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688701"
+   },
+   {
+    "kickoff": "2026-10-21T16:45:00Z",
+    "competition": "UEFA Champions League",
+    "home": "LOSC",
+    "away": "Galatasaray",
+    "link": "/fr/match/2732082"
+   },
+   {
+    "kickoff": "2026-10-25T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "LOSC",
+    "link": "/fr/match/2688712"
+   },
+   {
+    "kickoff": "2026-10-30T20:05:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "RC Lens",
+    "link": "/fr/match/2688718"
+   },
+   {
+    "kickoff": "2026-11-03T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Bodo/Glimt",
+    "away": "LOSC",
+    "link": "/fr/match/2732097"
+   },
+   {
+    "kickoff": "2026-11-08T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "LOSC",
+    "link": "/fr/match/2688731"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688735"
+   },
+   {
+    "kickoff": "2026-11-25T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "LOSC",
+    "away": "Bayern Munich",
+    "link": "/fr/match/2732120"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "LOSC",
+    "link": "/fr/match/2688747"
+   },
+   {
+    "kickoff": "2026-12-05T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688753"
+   },
+   {
+    "kickoff": "2026-12-09T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Stuttgart",
+    "away": "LOSC",
+    "link": "/fr/match/2732144"
+   },
+   {
+    "kickoff": "2026-12-13T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "LOSC",
+    "link": "/fr/match/2688765"
+   }
+  ],
+  "Le Havre AC": [
+   {
+    "kickoff": "2026-08-15T16:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Le Mans FC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2705398"
+   },
+   {
+    "kickoff": "2026-08-23T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688645"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688656"
+   },
+   {
+    "kickoff": "2026-09-05T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688663"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688673"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688687"
+   },
+   {
+    "kickoff": "2026-10-02T10:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Le Havre AC",
+    "away": "US Boulogne",
+    "link": "/fr/match/2735787"
+   },
+   {
+    "kickoff": "2026-10-10T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688691"
+   },
+   {
+    "kickoff": "2026-10-18T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688699"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688711"
+   },
+   {
+    "kickoff": "2026-10-30T18:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "PSG",
+    "link": "/fr/match/2688717"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688728"
+   },
+   {
+    "kickoff": "2026-11-20T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688742"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688746"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688752"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688764"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688775"
+   },
+   {
+    "kickoff": "2027-01-16T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688784"
+   },
+   {
+    "kickoff": "2027-01-24T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688789"
+   }
+  ],
+  "Le Mans FC": [
+   {
+    "kickoff": "2026-08-15T16:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Le Mans FC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2705398"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688646"
+   },
+   {
+    "kickoff": "2026-08-30T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688659"
+   },
+   {
+    "kickoff": "2026-09-05T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688667"
+   },
+   {
+    "kickoff": "2026-09-13T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "RC Lens",
+    "link": "/fr/match/2688674"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688682"
+   },
+   {
+    "kickoff": "2026-10-02T16:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Guingamp",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2735790"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688695"
+   },
+   {
+    "kickoff": "2026-10-16T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688700"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688708"
+   },
+   {
+    "kickoff": "2026-10-31T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688724"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688729"
+   },
+   {
+    "kickoff": "2026-11-22T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688737"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "LOSC",
+    "link": "/fr/match/2688747"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688756"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688764"
+   },
+   {
+    "kickoff": "2027-01-03T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688771"
+   },
+   {
+    "kickoff": "2027-01-16T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688787"
+   },
+   {
+    "kickoff": "2027-01-23T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688790"
+   }
+  ],
+  "OGC Nice": [
+   {
+    "kickoff": "2026-08-08T18:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Cagliari",
+    "away": "OGC Nice",
+    "link": "/fr/match/2699165"
+   },
+   {
+    "kickoff": "2026-08-15T14:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Hull City",
+    "away": "OGC Nice",
+    "link": "/fr/match/2713422"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688649"
+   },
+   {
+    "kickoff": "2026-08-30T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688658"
+   },
+   {
+    "kickoff": "2026-09-05T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688667"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688671"
+   },
+   {
+    "kickoff": "2026-09-20T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "LOSC",
+    "link": "/fr/match/2688685"
+   },
+   {
+    "kickoff": "2026-10-11T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688694"
+   },
+   {
+    "kickoff": "2026-10-18T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688703"
+   },
+   {
+    "kickoff": "2026-10-23T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688709"
+   },
+   {
+    "kickoff": "2026-10-31T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688721"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688725"
+   },
+   {
+    "kickoff": "2026-11-21T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "PSG",
+    "link": "/fr/match/2688739"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688749"
+   },
+   {
+    "kickoff": "2026-12-06T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688754"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "RC Lens",
+    "link": "/fr/match/2688766"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688774"
+   },
+   {
+    "kickoff": "2027-01-16T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688784"
+   },
+   {
+    "kickoff": "2027-01-23T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688796"
+   }
+  ],
+  "Olympique Lyonnais": [
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688656"
+   },
+   {
+    "kickoff": "2026-09-04T17:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688665"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688677"
+   },
+   {
+    "kickoff": "2026-09-16T19:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "RSC Anderlecht",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2732209"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688683"
+   },
+   {
+    "kickoff": "2026-10-09T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688690"
+   },
+   {
+    "kickoff": "2026-10-15T16:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Olympique Lyonnais",
+    "away": "Crystal Palace",
+    "link": "/fr/match/2732229"
+   },
+   {
+    "kickoff": "2026-10-18T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688703"
+   },
+   {
+    "kickoff": "2026-10-22T19:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Hoffenheim",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2732255"
+   },
+   {
+    "kickoff": "2026-10-26T19:30:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688715"
+   },
+   {
+    "kickoff": "2026-10-31T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688716"
+   },
+   {
+    "kickoff": "2026-11-05T17:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Real Sociedad",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2732263"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688727"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688735"
+   },
+   {
+    "kickoff": "2026-11-26T20:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Olympique Lyonnais",
+    "away": "Lillestrom SK",
+    "link": "/fr/match/2732280"
+   },
+   {
+    "kickoff": "2026-11-29T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688748"
+   },
+   {
+    "kickoff": "2026-12-06T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688760"
+   },
+   {
+    "kickoff": "2026-12-10T20:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Olympique Lyonnais",
+    "away": "Union Saint-Gilloise",
+    "link": "/fr/match/2732298"
+   },
+   {
+    "kickoff": "2026-12-13T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688769"
+   }
+  ],
+  "Olympique de Marseille": [
+   {
+    "kickoff": "2026-09-06T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Paris FC",
+    "link": "/fr/match/2688666"
+   },
+   {
+    "kickoff": "2026-09-11T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688678"
+   },
+   {
+    "kickoff": "2026-09-17T19:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Besiktas",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2732220"
+   },
+   {
+    "kickoff": "2026-09-20T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "PSG",
+    "link": "/fr/match/2688688"
+   },
+   {
+    "kickoff": "2026-10-03T15:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Montpellier",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2735895"
+   },
+   {
+    "kickoff": "2026-10-11T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688697"
+   },
+   {
+    "kickoff": "2026-10-15T19:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Olympique de Marseille",
+    "away": "Olympiakos",
+    "link": "/fr/match/2732236"
+   },
+   {
+    "kickoff": "2026-10-18T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688698"
+   },
+   {
+    "kickoff": "2026-10-22T16:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "SK Sturm Graz",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2732248"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688711"
+   },
+   {
+    "kickoff": "2026-11-01T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688720"
+   },
+   {
+    "kickoff": "2026-11-05T20:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Bayer Leverkusen",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2732272"
+   },
+   {
+    "kickoff": "2026-11-08T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688733"
+   },
+   {
+    "kickoff": "2026-11-22T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688737"
+   },
+   {
+    "kickoff": "2026-11-26T17:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Olympique de Marseille",
+    "away": "Levski Sofia",
+    "link": "/fr/match/2732286"
+   },
+   {
+    "kickoff": "2026-11-29T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688744"
+   },
+   {
+    "kickoff": "2026-12-06T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688754"
+   },
+   {
+    "kickoff": "2026-12-10T17:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Olympique de Marseille",
+    "away": "Celta de Vigo",
+    "link": "/fr/match/2732304"
+   },
+   {
+    "kickoff": "2026-12-13T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688769"
+   }
+  ],
+  "PSG": [
+   {
+    "kickoff": "2026-08-28T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "PSG",
+    "link": "/fr/match/2688661"
+   },
+   {
+    "kickoff": "2026-09-04T19:05:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688668"
+   },
+   {
+    "kickoff": "2026-09-09T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "PSG",
+    "away": "Slovan Bratislava",
+    "link": "/fr/match/2732048"
+   },
+   {
+    "kickoff": "2026-09-13T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "PSG",
+    "link": "/fr/match/2688672"
+   },
+   {
+    "kickoff": "2026-09-20T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "PSG",
+    "link": "/fr/match/2688688"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688695"
+   },
+   {
+    "kickoff": "2026-10-14T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Manchester City",
+    "away": "PSG",
+    "link": "/fr/match/2732069"
+   },
+   {
+    "kickoff": "2026-10-17T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "PSG",
+    "link": "/fr/match/2688705"
+   },
+   {
+    "kickoff": "2026-10-20T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "PSG",
+    "away": "FC Barcelone",
+    "link": "/fr/match/2732078"
+   },
+   {
+    "kickoff": "2026-10-26T19:30:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688715"
+   },
+   {
+    "kickoff": "2026-10-30T18:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "PSG",
+    "link": "/fr/match/2688717"
+   },
+   {
+    "kickoff": "2026-11-03T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Villarreal",
+    "away": "PSG",
+    "link": "/fr/match/2732093"
+   },
+   {
+    "kickoff": "2026-11-07T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688730"
+   },
+   {
+    "kickoff": "2026-11-21T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "PSG",
+    "link": "/fr/match/2688739"
+   },
+   {
+    "kickoff": "2026-11-25T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "PSG",
+    "away": "AS Rome",
+    "link": "/fr/match/2732123"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688750"
+   },
+   {
+    "kickoff": "2026-12-04T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "PSG",
+    "link": "/fr/match/2688759"
+   },
+   {
+    "kickoff": "2026-12-08T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Aston Villa",
+    "away": "PSG",
+    "link": "/fr/match/2732133"
+   },
+   {
+    "kickoff": "2026-12-12T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Paris FC",
+    "link": "/fr/match/2688767"
+   }
+  ],
+  "Paris FC": [
+   {
+    "kickoff": "2026-08-15T15:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Angers SCO",
+    "away": "Paris FC",
+    "link": "/fr/match/2685008"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Paris FC",
+    "link": "/fr/match/2688652"
+   },
+   {
+    "kickoff": "2026-08-30T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688658"
+   },
+   {
+    "kickoff": "2026-09-06T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Paris FC",
+    "link": "/fr/match/2688666"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688677"
+   },
+   {
+    "kickoff": "2026-09-19T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688686"
+   },
+   {
+    "kickoff": "2026-10-03T09:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Paris FC",
+    "away": "Red Star FC",
+    "link": "/fr/match/2735911"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Paris FC",
+    "link": "/fr/match/2688692"
+   },
+   {
+    "kickoff": "2026-10-18T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688704"
+   },
+   {
+    "kickoff": "2026-10-24T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Paris FC",
+    "link": "/fr/match/2688710"
+   },
+   {
+    "kickoff": "2026-11-01T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688722"
+   },
+   {
+    "kickoff": "2026-11-07T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Paris FC",
+    "link": "/fr/match/2688726"
+   },
+   {
+    "kickoff": "2026-11-22T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688740"
+   },
+   {
+    "kickoff": "2026-11-27T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Paris FC",
+    "link": "/fr/match/2688745"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688756"
+   },
+   {
+    "kickoff": "2026-12-12T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Paris FC",
+    "link": "/fr/match/2688767"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688775"
+   },
+   {
+    "kickoff": "2027-01-17T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688785"
+   },
+   {
+    "kickoff": "2027-01-23T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Paris FC",
+    "link": "/fr/match/2688792"
+   }
+  ],
+  "RC Lens": [
+   {
+    "kickoff": "2026-09-05T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688664"
+   },
+   {
+    "kickoff": "2026-09-10T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Slavia Prague",
+    "away": "RC Lens",
+    "link": "/fr/match/2732054"
+   },
+   {
+    "kickoff": "2026-09-13T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "RC Lens",
+    "link": "/fr/match/2688674"
+   },
+   {
+    "kickoff": "2026-09-18T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "RC Lens",
+    "link": "/fr/match/2688684"
+   },
+   {
+    "kickoff": "2026-10-02T11:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Standard de Liège",
+    "away": "RC Lens",
+    "link": "/fr/match/2735850"
+   },
+   {
+    "kickoff": "2026-10-09T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688690"
+   },
+   {
+    "kickoff": "2026-10-13T16:45:00Z",
+    "competition": "UEFA Champions League",
+    "home": "RC Lens",
+    "away": "Sporting CP",
+    "link": "/fr/match/2732056"
+   },
+   {
+    "kickoff": "2026-10-17T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "RC Lens",
+    "link": "/fr/match/2688706"
+   },
+   {
+    "kickoff": "2026-10-21T19:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "Club Bruges",
+    "away": "RC Lens",
+    "link": "/fr/match/2732090"
+   },
+   {
+    "kickoff": "2026-10-24T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Paris FC",
+    "link": "/fr/match/2688710"
+   },
+   {
+    "kickoff": "2026-10-30T20:05:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "RC Lens",
+    "link": "/fr/match/2688718"
+   },
+   {
+    "kickoff": "2026-11-04T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "RC Lens",
+    "away": "Come",
+    "link": "/fr/match/2732103"
+   },
+   {
+    "kickoff": "2026-11-08T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688733"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688734"
+   },
+   {
+    "kickoff": "2026-11-24T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "RB Leipzig",
+    "away": "RC Lens",
+    "link": "/fr/match/2732111"
+   },
+   {
+    "kickoff": "2026-11-28T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "RC Lens",
+    "link": "/fr/match/2688743"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688752"
+   },
+   {
+    "kickoff": "2026-12-09T20:00:00Z",
+    "competition": "UEFA Champions League",
+    "home": "RC Lens",
+    "away": "Bodo/Glimt",
+    "link": "/fr/match/2732139"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "RC Lens",
+    "link": "/fr/match/2688766"
+   }
+  ],
+  "RC Strasbourg": [
+   {
+    "kickoff": "2026-08-08T13:30:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Fribourg",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2706462"
+   },
+   {
+    "kickoff": "2026-08-16T15:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Newcastle",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2706917"
+   },
+   {
+    "kickoff": "2026-08-21T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688648"
+   },
+   {
+    "kickoff": "2026-08-29T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "RC Lens",
+    "link": "/fr/match/2688660"
+   },
+   {
+    "kickoff": "2026-09-06T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688670"
+   },
+   {
+    "kickoff": "2026-09-12T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688679"
+   },
+   {
+    "kickoff": "2026-09-19T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688686"
+   },
+   {
+    "kickoff": "2026-10-11T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688694"
+   },
+   {
+    "kickoff": "2026-10-17T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "PSG",
+    "link": "/fr/match/2688705"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688713"
+   },
+   {
+    "kickoff": "2026-11-01T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688723"
+   },
+   {
+    "kickoff": "2026-11-06T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688732"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688741"
+   },
+   {
+    "kickoff": "2026-11-28T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688746"
+   },
+   {
+    "kickoff": "2026-12-05T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "FC Lorient",
+    "link": "/fr/match/2688758"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688761"
+   },
+   {
+    "kickoff": "2027-01-03T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688772"
+   },
+   {
+    "kickoff": "2027-01-16T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "Le Mans FC",
+    "link": "/fr/match/2688787"
+   },
+   {
+    "kickoff": "2027-01-24T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688795"
+   }
+  ],
+  "Stade Brestois": [
+   {
+    "kickoff": "2026-08-16T13:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Nottingham Forest",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2704116"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688646"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688654"
+   },
+   {
+    "kickoff": "2026-09-05T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Havre AC",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688663"
+   },
+   {
+    "kickoff": "2026-09-13T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "PSG",
+    "link": "/fr/match/2688672"
+   },
+   {
+    "kickoff": "2026-09-20T13:00:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688681"
+   },
+   {
+    "kickoff": "2026-10-03T16:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Stade Brestois",
+    "away": "AC Monza",
+    "link": "/fr/match/2735306"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688689"
+   },
+   {
+    "kickoff": "2026-10-17T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688701"
+   },
+   {
+    "kickoff": "2026-10-23T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688709"
+   },
+   {
+    "kickoff": "2026-10-31T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688719"
+   },
+   {
+    "kickoff": "2026-11-08T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688727"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Strasbourg",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688741"
+   },
+   {
+    "kickoff": "2026-11-27T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Paris FC",
+    "link": "/fr/match/2688745"
+   },
+   {
+    "kickoff": "2026-12-06T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688757"
+   },
+   {
+    "kickoff": "2026-12-12T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688763"
+   },
+   {
+    "kickoff": "2027-01-02T16:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688770"
+   },
+   {
+    "kickoff": "2027-01-17T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688783"
+   },
+   {
+    "kickoff": "2027-01-23T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688791"
+   }
+  ],
+  "Stade Rennais": [
+   {
+    "kickoff": "2026-09-06T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688662"
+   },
+   {
+    "kickoff": "2026-09-11T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "Olympique de Marseille",
+    "link": "/fr/match/2688678"
+   },
+   {
+    "kickoff": "2026-09-16T19:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "SK Sturm Graz",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2732213"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique Lyonnais",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688683"
+   },
+   {
+    "kickoff": "2026-10-02T17:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Stade Lavallois Mayenne FC",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2735308"
+   },
+   {
+    "kickoff": "2026-10-11T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "AJ Auxerre",
+    "link": "/fr/match/2688696"
+   },
+   {
+    "kickoff": "2026-10-15T19:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Stade Rennais",
+    "away": "OFI Crète",
+    "link": "/fr/match/2732225"
+   },
+   {
+    "kickoff": "2026-10-18T15:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688704"
+   },
+   {
+    "kickoff": "2026-10-22T16:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Juventus Turin",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2732247"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688713"
+   },
+   {
+    "kickoff": "2026-10-31T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "OGC Nice",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688721"
+   },
+   {
+    "kickoff": "2026-11-05T17:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Stade Rennais",
+    "away": "Olympiakos",
+    "link": "/fr/match/2732264"
+   },
+   {
+    "kickoff": "2026-11-08T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "LOSC",
+    "link": "/fr/match/2688731"
+   },
+   {
+    "kickoff": "2026-11-22T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688736"
+   },
+   {
+    "kickoff": "2026-11-26T20:00:00Z",
+    "competition": "UEFA Europa League",
+    "home": "NEC Nimègue",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2732279"
+   },
+   {
+    "kickoff": "2026-11-29T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688751"
+   },
+   {
+    "kickoff": "2026-12-06T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688757"
+   },
+   {
+    "kickoff": "2026-12-10T17:45:00Z",
+    "competition": "UEFA Europa League",
+    "home": "Stade Rennais",
+    "away": "Dinamo Zagreb",
+    "link": "/fr/match/2732302"
+   },
+   {
+    "kickoff": "2026-12-13T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Rennais",
+    "away": "AS Monaco",
+    "link": "/fr/match/2688768"
+   }
+  ],
+  "Toulouse FC": [
+   {
+    "kickoff": "2026-08-15T17:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Toulouse FC",
+    "away": "Hambourg",
+    "link": "/fr/match/2716706"
+   },
+   {
+    "kickoff": "2026-08-22T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Olympique Lyonnais",
+    "link": "/fr/match/2688651"
+   },
+   {
+    "kickoff": "2026-08-29T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Stade Brestois",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688654"
+   },
+   {
+    "kickoff": "2026-09-03T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "LOSC",
+    "link": "/fr/match/2688669"
+   },
+   {
+    "kickoff": "2026-09-12T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "FC Lorient",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688676"
+   },
+   {
+    "kickoff": "2026-09-19T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688687"
+   },
+   {
+    "kickoff": "2026-10-03T09:00:00Z",
+    "competition": "Matchs amicaux, Clubs",
+    "home": "Toulouse FC",
+    "away": "Pau FC",
+    "link": "/fr/match/2735791"
+   },
+   {
+    "kickoff": "2026-10-10T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AS Monaco",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688693"
+   },
+   {
+    "kickoff": "2026-10-16T18:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688700"
+   },
+   {
+    "kickoff": "2026-10-25T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "ESTAC Troyes",
+    "link": "/fr/match/2688714"
+   },
+   {
+    "kickoff": "2026-11-01T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Olympique de Marseille",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688720"
+   },
+   {
+    "kickoff": "2026-11-06T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688732"
+   },
+   {
+    "kickoff": "2026-11-21T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688734"
+   },
+   {
+    "kickoff": "2026-11-29T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688751"
+   },
+   {
+    "kickoff": "2026-12-04T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "PSG",
+    "link": "/fr/match/2688759"
+   },
+   {
+    "kickoff": "2026-12-11T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "AJ Auxerre",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688762"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "Angers SCO",
+    "link": "/fr/match/2688776"
+   },
+   {
+    "kickoff": "2027-01-17T14:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Paris FC",
+    "away": "Toulouse FC",
+    "link": "/fr/match/2688785"
+   },
+   {
+    "kickoff": "2027-01-23T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Toulouse FC",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688796"
+   }
+  ]
+ }
 }

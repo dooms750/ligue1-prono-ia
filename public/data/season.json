@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-27T08:29+00:00",
-  "generatedAt": "2026-10-27T08:37+00:00"
+  "fetchedAt": "2026-10-27T08:38+00:00",
+  "generatedAt": "2026-10-27T08:40+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5321,6 +5321,12 @@
       ],
       "other": [
        {
+        "title": "PSG : \"C'est une Formule 1, c'est une machine !\" ... Luis Enrique soufflé par l'un de ses joueurs !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-cest-une-formule-1-cest-une-machine-luis-enrique-souffle-par-lun-de-ses-joueurs-43679130",
+        "time": "2026-10-27T08:28:00Z"
+       },
+       {
         "title": "Revue de presse : Ballon d’Or 2026 et PSG/Lyon, avec la 1ere place obtenue",
         "publisher": "Parisfans.fr",
         "url": "https://onefootball.com/fr/news/revue-de-presse-ballon-dor-2026-et-psglyon-avec-la-1ere-place-obtenue-43679011",
@@ -5331,12 +5337,6 @@
         "publisher": "Le Fussball",
         "url": "https://onefootball.com/fr/news/le-psg-vise-ibrahim-maza-leverkusen-pourrait-perdre-son-joyau-43678908",
         "time": "2026-10-27T07:20:00Z"
-       },
-       {
-        "title": "PSG/Lyon – Le banc offre la victoire et la première place : les tops et les flops !",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-le-banc-offre-la-victoire-et-la-premiere-place-les-tops-et-les-flops-43678841",
-        "time": "2026-10-27T07:00:04Z"
        }
       ],
       "scorer": {
@@ -5366,7 +5366,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5475,7 +5475,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5620,6 +5620,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Bidstrup, Tolisso, Morton… L’hécatombe se poursuit dans l’entrejeu",
+        "publisher": "FerveurLyonnaise",
+        "url": "https://onefootball.com/fr/news/bidstrup-tolisso-morton-lhecatombe-se-poursuit-dans-lentrejeu-43679111",
+        "time": "2026-10-27T08:25:09Z"
+       },
+       {
         "title": "OL : alerte rouge pour les Gones après la défaite à Paris, trois nouveaux joueurs confrontés à des pépins physiques",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/ol-alerte-rouge-pour-les-gones-apres-la-defaite-a-paris-trois-nouveaux-joueurs-confrontes-a-des-pepins-physiques-43678906",
@@ -5630,12 +5636,6 @@
         "publisher": "ConsultantsFoot",
         "url": "https://onefootball.com/fr/news/daniel-riolo-si-tu-es-lol-tu-ne-peux-pas-de-contenter-dun-tolisso-moyen-ca-doit-etre-ton-meilleur-joueur-43678677",
         "time": "2026-10-27T05:29:32Z"
-       },
-       {
-        "title": "Ligue 1 J8 / PSG – OL 2-0 : Duranville belle promesse pour la suite, Greif a fait son match, Merah impuissant… Les tops et flops",
-        "publisher": "FerveurLyonnaise",
-        "url": "https://onefootball.com/fr/news/ligue-1-j8-psg-ol-2-0-duranville-belle-promesse-pour-la-suite-greif-a-fait-son-match-merah-impuissant-les-tops-et-flops-43677883",
-        "time": "2026-10-26T22:40:08Z"
        }
       ],
       "scorer": {
@@ -5687,7 +5687,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5796,7 +5796,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5867,7 +5867,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5964,7 +5964,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6074,7 +6074,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:29+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6162,8 +6162,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 23,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 69,
      "confidenceLabel": "moyenne",
@@ -6171,13 +6171,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:39+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 5,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 14,
        "conf": 69
       }
