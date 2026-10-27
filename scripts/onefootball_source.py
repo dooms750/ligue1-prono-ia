@@ -202,6 +202,8 @@ def build_onefootball(path, raw):
         horizon = (now + timedelta(days=9)).strftime("%Y-%m-%d")
         pending = [p for p in pending if p["md"] <= first_md + 1 and (p["md"] == first_md or p["date"] <= horizon)]
 
+    weather_file = Path(raw) / "weather.json"
+    weather = json.loads(weather_file.read_text(encoding="utf-8")) if weather_file.exists() else {}
     scorers = top_scorers(played)
     # Joueurs de chaque club, vus dans les compos et parmi les buteurs de la saison.
     last_game = {}
@@ -237,6 +239,10 @@ def build_onefootball(path, raw):
             }
             if scorer_out:
                 ctx[f"abs{side}"].append("buteur")
+        w = weather.get(f"{p['date']}-{p['home']}-{p['away']}")
+        if w:
+            ctx["weather"] = w["kind"]
+            ctx["meteo"] = w
         if not news:
             ctx["known"] = False
         upcoming.append({**p, "ctx": ctx})

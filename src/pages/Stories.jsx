@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Badge, Form, Confidence } from "../components/ui.jsx";
 import Stadium3D from "../components/Stadium3D.jsx";
+import { WeatherChip } from "../components/Weather.jsx";
 import { predict } from "../model/predict.js";
 import { confidence } from "../model/poisson.js";
 import { reasons, formSentence, teamStats, fr1, pct, ord } from "../model/narrative.js";
@@ -98,6 +99,12 @@ export default function Stories({ id, data, picks, setPick }) {
     <div className="st-slide" key="3">
       <h2 className="st-title">{m.ctx.press ? "Ce que dit la presse" : "Le contexte"}</h2>
       <div className="st-push" />
+      <div className="st-glass st-wx" onClick={(e) => e.stopPropagation()}>
+        <WeatherChip w={m.ctx.meteo} date={m.date} />
+        {m.ctx.meteo && !m.ctx.meteo.roof && (
+          <p className="small">Risque de pluie {Math.round(m.ctx.meteo.pRain * 100)} %, rafales vers {m.ctx.meteo.gust} km/h ({m.ctx.meteo.stadium}).</p>
+        )}
+      </div>
       {m.ctx.press ? (
         pressItems.length ? (
           <ul className="st-list st-press">
@@ -189,7 +196,7 @@ export default function Stories({ id, data, picks, setPick }) {
 
   return (
     <div className="stories" role="dialog" aria-label={`${H.name} contre ${A.name}, en stories`}>
-      <Stadium3D p={pr.p} home={H} away={A} shot={SHOT[i]} showPillars={i >= 4}
+      <Stadium3D p={pr.p} home={H} away={A} shot={SHOT[i]} showPillars={i >= 4} rain={m.ctx.weather === "pluie"}
         interactive={false} height="100%" className={`s3d-bg ${i === 4 ? "" : "s3d-nolabels"}`} fallback={null} />
       <div className={`st-veil ${i === 4 ? "light" : ""}`} />
       <div className="st-ui">

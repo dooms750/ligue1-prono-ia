@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "test": "node --test src/model/*.test.js",
     "data:demo": "python3 scripts/build_data.py --demo",
-    "data:fetch": "python3 scripts/fetch_onefootball.py && python3 scripts/fetch_data.py",
+    "data:fetch": "python3 scripts/fetch_onefootball.py && python3 scripts/fetch_weather.py && python3 scripts/fetch_data.py",
     "data:real": "python3 scripts/build_data.py --real"
   },
   "dependencies": {

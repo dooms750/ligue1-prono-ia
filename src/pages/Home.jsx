@@ -1,6 +1,7 @@
 import React from "react";
 import { Badge, ProbaPitch, Confidence, DemoBanner, isPast } from "../components/ui.jsx";
 import Stadium3D from "../components/Stadium3D.jsx";
+import { WeatherChip } from "../components/Weather.jsx";
 import { predict } from "../model/predict.js";
 import { ord, pct } from "../model/narrative.js";
 import { confidence, outcomeOf } from "../model/poisson.js";
@@ -56,15 +57,16 @@ export default function Home({ data, picks }) {
                 <div className="fixture-row">
                   <span className="fixture-teams">
                     <Badge team={H} size={34} />
-                    <span className="nm">{H.name}</span>
+                    <span className="nm">{H.name.length > 13 ? H.short : H.name}</span>
                     <span className="vs">contre</span>
-                    <span className="nm">{A.name}</span>
+                    <span className="nm">{A.name.length > 13 ? A.short : A.name}</span>
                     <Badge team={A} size={34} />
                   </span>
                 </div>
                 <ProbaPitch p={pr.p} home={H} away={A} size="md" />
                 <div className="fixture-meta">
                   <Confidence c={c} />
+                  {!isPast(m) && <WeatherChip w={m.ctx?.meteo} date={m.date} />}
                   <span>Score probable {pr.topScores[0].h}-{pr.topScores[0].a} · plus de 2,5 buts {pct(pr.over25)}</span>
                   <span className="ranks">{isPast(m) ? "Joué, résultat bientôt intégré" : kickLabel(m)}{m.md !== meta.nextMatchday ? ` · ${m.md}e journée` : ""} · {ord(H.rank)} contre {ord(A.rank)}</span>
                   {mine != null && (

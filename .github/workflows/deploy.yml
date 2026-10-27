@@ -30,6 +30,9 @@ jobs:
       - name: Matchs, buteurs, compos et presse (OneFootball)
         run: python scripts/fetch_onefootball.py
         continue-on-error: true
+      - name: Météo des matchs, de J-7 à J-2 (ECMWF et Météo-France via Open-Meteo)
+        run: python scripts/fetch_weather.py
+        continue-on-error: true
       - name: Cotes du marché (football-data.co.uk)
         run: python scripts/fetch_data.py
         continue-on-error: true

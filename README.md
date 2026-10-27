@@ -71,6 +71,15 @@ parlent d'absence (blessé, forfait, suspendu, incertain…). Si un titre cite l
 des buteurs de la saison) sans annonce de retour plus récente, le levier « sans son meilleur buteur » s'allume, avec le
 titre et le média affichés pour que chacun puisse vérifier. L'app ne reprend que les titres, avec un lien vers l'article.
 
+**La météo du match, de J-7 à J-2.** `scripts/fetch_weather.py` publie une prévision pour chaque match dès 7 jours
+avant le coup d'envoi, puis l'affine à chaque mise à jour. Elle s'appuie sur les 51 scénarios de la prévision
+d'ensemble ECMWF (la part des scénarios qui annoncent plus de 1,5 mm de pluie pendant le match, ou des rafales de plus
+de 55 km/h, donne le risque) et sur Météo-France (AROME / ARPEGE) pour le ciel et la température à moins de 4 jours,
+le tout via [Open-Meteo](https://open-meteo.com). L'**indice de confiance** (0 à 100) combine l'accord des scénarios
+et l'échéance : à 7 jours, il plafonne autour de 60 ; à 2 jours, il peut dépasser 90. L'historique de chaque prévision
+est conservé pour voir comment elle évolue. Si le risque de pluie ou de vent dépasse 50 %, le levier météo s'allume
+et il pleut dans le stade 3D. Le stade Pierre-Mauroy (Lille), couvert, n'est pas concerné.
+
 **Les tirs cadrés à la place des xG.** OneFootball ne publie pas d'xG : l'IA apprend des buts et des tirs cadrés
 (environ 0,3 but par tir cadré en Ligue 1), un indicateur de la qualité des occasions plus stable que le score seul.
 
@@ -85,7 +94,7 @@ Le workflow GitHub fait la même chose tout seul deux fois par jour (6 h 17 et 1
 nouvelles données dans le dépôt puis republie le site. Si le téléchargement échoue, il garde les derniers fichiers.
 
 La collecte est volontairement lente (une page toutes les 0,8 seconde) et ne recharge que les matchs non terminés.
-Ce que les sources ne fournissent pas : la météo et la fatigue des matchs européens, à régler avec les leviers.
+Ce que les sources ne fournissent pas encore : la fatigue des matchs européens, à régler avec le levier.
 La saison simulée reste disponible avec `npm run data:demo`.
 
 ## Publier sur GitHub Pages

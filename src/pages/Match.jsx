@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Badge, Form, ProbaPitch, Confidence, ScoreGrid, PressList } from "../components/ui.jsx";
 import Stadium3D from "../components/Stadium3D.jsx";
+import { WeatherCard } from "../components/Weather.jsx";
 import { predict } from "../model/predict.js";
 import { buildLevers, defaultActive } from "../model/levers.js";
 import { confidence, impliedFromOdds } from "../model/poisson.js";
@@ -39,7 +40,7 @@ export default function Match({ id, data, picks, setPick }) {
   return (
     <article className="match">
       <div className="match-stage">
-        <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(60vh, 460px)"
+        <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(60vh, 460px)" rain={!!active.pluie}
           fallback={<div style={{ padding: "16px" }}><ProbaPitch p={cur.p} home={H} away={A} size="lg" /></div>} />
         <header className="match-head">
           <p className="kicker">{formatKick(m)} · {m.md}e journée</p>
@@ -73,6 +74,11 @@ export default function Match({ id, data, picks, setPick }) {
           </p>
         )}
         <ul className="why">{why.map((w) => <li key={w}>{w}</li>)}</ul>
+      </section>
+
+      <section className="block">
+        <h2>La météo du match</h2>
+        <WeatherCard w={m.ctx.meteo} date={m.date} />
       </section>
 
       {m.ctx.press && (

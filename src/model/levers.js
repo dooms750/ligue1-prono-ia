@@ -62,10 +62,12 @@ export function buildLevers(match, teams) {
       why: `Un déplacement après un match européen, c'est souvent des jambes lourdes pour ${A}.`,
     },
     {
-      id: "pluie", group: "Conditions", label: "Pluie forte ou vent sur le stade",
+      id: "pluie", group: "Conditions",
+      label: c.meteo ? `Pluie ou vent au coup d'envoi (risque ${Math.round(Math.max(c.meteo.pRain, c.meteo.pWind) * 100)} %)` : "Pluie forte ou vent sur le stade",
       on: c.weather === "pluie" || c.weather === "vent",
       apply: (x) => ({ lh: x.lh * 0.9, la: x.la * 0.9 }),
-      why: "Un terrain lourd ou du vent font baisser le nombre de buts : le nul et le « moins de 2,5 buts » gagnent du terrain.",
+      why: "Un terrain lourd ou du vent font baisser le nombre de buts : le nul et le « moins de 2,5 buts » gagnent du terrain." +
+        (c.meteo ? ` Prévision actuelle : ${Math.round(c.meteo.pRain * 100)} % de risque de pluie, rafales vers ${c.meteo.gust} km/h, confiance ${c.meteo.confidenceLabel}.` : ""),
     },
     {
       id: "maintien", group: "Conditions",

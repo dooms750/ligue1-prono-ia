@@ -238,13 +238,13 @@ function buildScene(homeColor, rawAway) {
   return { scene, pillars, ball, disposables };
 }
 
-export default function Stadium3D({ p, home, away, shot = "verdict", showPillars = true, height = 320, interactive = true, fallback = null, className = "", offsetY = 0 }) {
+export default function Stadium3D({ p, home, away, shot = "verdict", showPillars = true, height = 320, interactive = true, fallback = null, className = "", offsetY = 0, rain = false }) {
   const wrap = useRef(null);
   const labels = useRef([]);
-  const state = useRef({ p, shot, showPillars });
+  const state = useRef({ p, shot, showPillars, rain });
   const [ok] = useState(webglAvailable);
 
-  state.current = { p, shot, showPillars };
+  state.current = { p, shot, showPillars, rain };
 
   useEffect(() => {
     if (!ok || !wrap.current) return undefined;
@@ -263,6 +263,23 @@ export default function Stadium3D({ p, home, away, shot = "verdict", showPillars
     el.prepend(renderer.domElement);
 
     const { scene, pillars, ball, disposables } = buildScene(home.color, away.color);
+    // La pluie : des gouttes qui tombent au-dessus du terrain quand elle est annoncée.
+    const DROPS = 1400;
+    const dropPos = new Float32Array(DROPS * 6);
+    const dropSpeed = new Float32Array(DROPS);
+    for (let i = 0; i < DROPS; i++) {
+      const x = (Math.random() - 0.5) * 22, y = Math.random() * 9, z = (Math.random() - 0.5) * 16;
+      dropPos.set([x, y, z, x + 0.03, y - 0.28, z], i * 6);
+      dropSpeed[i] = 9 + Math.random() * 5;
+    }
+    const dropGeo = new THREE.BufferGeometry();
+    dropGeo.setAttribute("position", new THREE.BufferAttribute(dropPos, 3));
+    const dropMat = new THREE.LineBasicMaterial({ color: "#a9c4ff", transparent: true, opacity: 0.55 });
+    const drops = new THREE.LineSegments(dropGeo, dropMat);
+    drops.visible = false;
+    scene.add(drops);
+    disposables.push(dropGeo, dropMat);
+
     const camera = new THREE.PerspectiveCamera(42, 1, 0.1, 100);
     const cam = { r: SHOTS.aerial.r, y: SHOTS.aerial.y, look: 0, angle: 0 };
     let fit = 1;
@@ -309,7 +326,22 @@ export default function Stadium3D({ p, home, away, shot = "verdict", showPillars
       if (!visible) return;
       const dt = Math.min(clock.getDelta(), 0.05);
       const t = clock.elapsedTime;
-      const { p: probs, shot: s, showPillars: sp } = state.current;
+      const { p: probs, shot: s, showPillars: sp, rain: raining } = state.current;
+      drops.visible = !!raining;
+      if (raining) {
+        scene.fog.near = 10;
+        if (!reduced) {
+          const arr = dropGeo.attributes.position.array;
+          for (let i = 0; i < DROPS; i++) {
+            const o = i * 6, dy = dropSpeed[i] * dt;
+            arr[o + 1] -= dy; arr[o + 4] -= dy;
+            if (arr[o + 4] < 0) { arr[o + 1] += 9; arr[o + 4] += 9; }
+          }
+          dropGeo.attributes.position.needsUpdate = true;
+        }
+      } else {
+        scene.fog.near = 18;
+      }
       const preset = SHOTS[s] || SHOTS.verdict;
       const k = reduced ? 1 : 1 - Math.exp(-dt * 2.2);
       cam.r += (preset.r - cam.r) * k;
