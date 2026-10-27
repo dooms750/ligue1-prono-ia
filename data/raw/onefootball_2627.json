@@ -6293,6 +6293,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688737": {
+   "id": 2688737,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-22T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Olympique de Marseille",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -6826,67 +6846,115 @@
   ],
   "Olympique Lyonnais": [
    {
-    "title": "PSG - OL : la force de l'habitude, Paris fait le boulot et prend la place de leader !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T21:25:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-la-force-de-lhabitude-paris-fait-le-boulot-et-prend-la-place-de-leader-43677490"
-   },
-   {
-    "title": "Ligue 1 : le PSG s'offre le choc face à l'OL et s'empare du fauteuil de leader",
+    "title": "OL : alerte rouge pour les Gones après la défaite à Paris, trois nouveaux joueurs confrontés à des pépins physiques",
     "publisher": "Foot National",
-    "time": "2026-10-26T21:21:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-psg-soffre-le-choc-face-a-lol-et-sempare-du-fauteuil-de-leader-43677452"
+    "time": "2026-10-27T07:23:00Z",
+    "url": "https://onefootball.com/fr/news/ol-alerte-rouge-pour-les-gones-apres-la-defaite-a-paris-trois-nouveaux-joueurs-confrontes-a-des-pepins-physiques-43678906"
    },
    {
-    "title": "PSG - La banderole de soutien du Collectif Ultras Paris envers Khvicha Kvaratskhelia, gravement blessé",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T19:10:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-banderole-de-soutien-du-collectif-ultras-paris-envers-khvicha-kvaratskhelia-gravement-blesse-43676898"
+    "title": "\"Le peuple rouge et bleu avec toi\" : le PSG fait bloc derrière Khvitcha Kvaratskhelia, blessé au genou",
+    "publisher": "Foot National",
+    "time": "2026-10-27T06:40:00Z",
+    "url": "https://onefootball.com/fr/news/le-peuple-rouge-et-bleu-avec-toi-le-psg-fait-bloc-derriere-khvitcha-kvaratskhelia-blesse-au-genou-43678807"
    },
    {
-    "title": "🚨 En plein Ballon d’Or... les COMPOS de PSG-Lyon",
-    "publisher": "OneFootball",
-    "time": "2026-10-26T18:46:23Z",
-    "url": "https://onefootball.com/fr/news/en-plein-ballon-dor-les-compos-de-psg-lyon-43676785"
-   },
-   {
-    "title": "Ligue 1 - PSG - OL : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T18:45:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-psg-ol-les-compos-officielles-43676777"
-   },
-   {
-    "title": "PSG - OL : les compositions officielles !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T18:36:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-les-compositions-officielles-43676737"
-   },
-   {
-    "title": "PSG - OL : Merah aligné comme faux numéro 9",
+    "title": "PSG - OL (2-0) : le baromètre du match, ce qu'il faut retenir",
     "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-26T18:32:11Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-merah-aligne-comme-faux-numero-9-43676721"
+    "time": "2026-10-27T06:30:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ol-2-0-le-barometre-du-match-ce-quil-faut-retenir-43678775"
    },
    {
-    "title": "PSG-OL : victoires, buts, records... tout savoir sur l'histoire de ce choc !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T17:30:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-victoires-buts-records-tout-savoir-sur-lhistoire-de-ce-choc-43676389"
-   },
-   {
-    "title": "Jean-Michel Larqué : « Les clubs qui progressent, et que ce soit Duga avec Bordeaux, et moi avec Saint-Etienne, c’est une denrée rare »",
+    "title": "Daniel Riolo :  » Si tu es l’OL, tu ne peux pas de contenter d’un Tolisso moyen, ça doit être ton meilleur joueur »",
     "publisher": "ConsultantsFoot",
-    "time": "2026-10-26T17:00:23Z",
-    "url": "https://onefootball.com/fr/news/jean-michel-larque-les-clubs-qui-progressent-et-que-ce-soit-duga-avec-bordeaux-et-moi-avec-saint-etienne-cest-une-denree-rare-43676243"
+    "time": "2026-10-27T05:29:32Z",
+    "url": "https://onefootball.com/fr/news/daniel-riolo-si-tu-es-lol-tu-ne-peux-pas-de-contenter-dun-tolisso-moyen-ca-doit-etre-ton-meilleur-joueur-43678677"
    },
    {
-    "title": "TKYDG : débrief dès le coup de sifflet final de PSG - OL ce lundi",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-26T16:40:00Z",
-    "url": "https://onefootball.com/fr/news/tkydg-debrief-des-le-coup-de-sifflet-final-de-psg-ol-ce-lundi-43676137"
+    "title": "PSG - \"Cette victoire est pour lui\", le PSG dédie la victoire face à l'OL à Khvicha Kvaratskhelia",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T23:15:00Z",
+    "url": "https://onefootball.com/fr/news/psg-cette-victoire-est-pour-lui-le-psg-dedie-la-victoire-face-a-lol-a-khvicha-kvaratskhelia-43678120"
+   },
+   {
+    "title": "Ligue 1 J8 / PSG – OL 2-0 : Duranville belle promesse pour la suite, Greif a fait son match, Merah impuissant… Les tops et flops",
+    "publisher": "FerveurLyonnaise",
+    "time": "2026-10-26T22:40:08Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-j8-psg-ol-2-0-duranville-belle-promesse-pour-la-suite-greif-a-fait-son-match-merah-impuissant-les-tops-et-flops-43677883"
+   },
+   {
+    "title": "PSG - L'énorme soulagement de Mika Godts après son premier but libérateur sous les couleurs du PSG face à l'OL",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T22:20:00Z",
+    "url": "https://onefootball.com/fr/news/psg-lenorme-soulagement-de-mika-godts-apres-son-premier-but-liberateur-sous-les-couleurs-du-psg-face-a-lol-43677835"
+   },
+   {
+    "title": "OL - Les regrets de Moussa Niakhaté après la défaite face au PSG, malgré la \"bravoure\" de son équipe",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T22:01:00Z",
+    "url": "https://onefootball.com/fr/news/ol-les-regrets-de-moussa-niakhate-apres-la-defaite-face-au-psg-malgre-la-bravoure-de-son-equipe-43677731"
+   },
+   {
+    "title": "PSG - La première réaction de Luis Enrique après la victoire parisienne face à l'OL",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T21:58:00Z",
+    "url": "https://onefootball.com/fr/news/psg-la-premiere-reaction-de-luis-enrique-apres-la-victoire-parisienne-face-a-lol-43677765"
+   },
+   {
+    "title": "OL - La réaction à chaud de Julien Duranville après la défaite de l'OL face au PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-26T21:31:00Z",
+    "url": "https://onefootball.com/fr/news/ol-la-reaction-a-chaud-de-julien-duranville-apres-la-defaite-de-lol-face-au-psg-43677546"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Harit heureux du retour en forme d’Himad Abdelli",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-27T08:00:33Z",
+    "url": "https://onefootball.com/fr/news/om-harit-heureux-du-retour-en-forme-dhimad-abdelli-43679029"
+   },
+   {
+    "title": "Pierre Ménès : « Clément Turpin a sauvé l’OM d’un match nul »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-27T08:00:26Z",
+    "url": "https://onefootball.com/fr/news/pierre-menes-clement-turpin-a-sauve-lom-dun-match-nul-43679046"
+   },
+   {
+    "title": "OM : meilleure attaque du championnat, joueurs écartés, carton plein... le paradoxe marseillais",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T06:29:00Z",
+    "url": "https://onefootball.com/fr/news/om-meilleure-attaque-du-championnat-joueurs-ecartes-carton-plein-le-paradoxe-marseillais-43678772"
+   },
+   {
+    "title": "OM-Le Havre (4-3) Genesio revient sur la physionomie du match",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-27T01:00:19Z",
+    "url": "https://onefootball.com/fr/news/om-le-havre-4-3-genesio-revient-sur-la-physionomie-du-match-43678371"
+   },
+   {
+    "title": "OM-Le Havre (4-3) Digard : « Pour moi, il y a main »",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-27T00:00:33Z",
+    "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-pour-moi-il-y-a-main-43678239"
+   },
+   {
+    "title": "Mercato OM : Un international italien dans le viseur",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T23:00:51Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-un-international-italien-dans-le-viseur-43678027"
+   },
+   {
+    "title": "OM – Le calendrier qui ne laisse aucun répit à l’OM jusqu’à Noël",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-26T22:00:53Z",
+    "url": "https://onefootball.com/fr/news/om-le-calendrier-qui-ne-laisse-aucun-repit-a-lom-jusqua-noeal-43677750"
+   },
+   {
+    "title": "Ligue 1 : tous les résultats de la huitième journée et le classement",
+    "publisher": "Foot National",
+    "time": "2026-10-26T21:54:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-tous-les-resultats-de-la-huitieme-journee-et-le-classement-43677690"
+   },
    {
     "title": "OM – McCourt met en vente sa résidence à 112M€",
     "publisher": "CoeurMarseillais",
@@ -6898,116 +6966,68 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-10-26T19:00:46Z",
     "url": "https://onefootball.com/fr/news/om-himad-abdelli-revient-sur-sa-sortie-apres-le-havre-43676872"
-   },
-   {
-    "title": "Nicolas Georgereau : « Il y a un truc qui me heurte, c’est quand j’entends les ‘McCourt dégage’… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-26T19:00:40Z",
-    "url": "https://onefootball.com/fr/news/nicolas-georgereau-il-y-a-un-truc-qui-me-heurte-cest-quand-jentends-les-mccourt-degage-43676856"
-   },
-   {
-    "title": "OM – Daniel Riolo critique la réaction de Genesio",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-26T18:00:02Z",
-    "url": "https://onefootball.com/fr/news/om-daniel-riolo-critique-la-reaction-de-genesio-43676591"
-   },
-   {
-    "title": "Christophe Dugarry : « 320000€ par mois Gomes, Maupay 250000€ par mois… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-26T17:35:35Z",
-    "url": "https://onefootball.com/fr/news/christophe-dugarry-320000-par-mois-gomes-maupay-250000-par-mois-43676439"
-   },
-   {
-    "title": "OM-Le Havre (4-3) Digard note un atout de l’OM",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-26T17:00:06Z",
-    "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-note-un-atout-de-lom-43676272"
-   },
-   {
-    "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T16:03:00Z",
-    "url": "https://onefootball.com/fr/news/om-kamissoko-sermonne-par-hojbjerg-maupay-recadre-par-genesio-lenorme-coup-de-colere-du-vestiaire-apres-le-havre-43675918"
-   },
-   {
-    "title": "OM – Règlement de compte dans le vestiaire de l’OM après Le Havre",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-26T16:00:37Z",
-    "url": "https://onefootball.com/fr/news/om-reglement-de-compte-dans-le-vestiaire-de-lom-apres-le-havre-43675924"
-   },
-   {
-    "title": "Vincent Duluc : « C’est une équipe qui n’a pas assez de talent »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-26T16:00:20Z",
-    "url": "https://onefootball.com/fr/news/vincent-duluc-cest-une-equipe-qui-na-pas-assez-de-talent-43675944"
-   },
-   {
-    "title": "OM – Genesio met en avant l’importance de ce joueur",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-26T15:00:26Z",
-    "url": "https://onefootball.com/fr/news/om-genesio-met-en-avant-limportance-de-ce-joueur-43675632"
    }
   ],
   "PSG": [
    {
-    "title": "PSG/Lyon – Les notes des Parisiens : Paris patient, le banc décisif",
+    "title": "Revue de presse : Ballon d’Or 2026 et PSG/Lyon, avec la 1ere place obtenue",
     "publisher": "Parisfans.fr",
-    "time": "2026-10-26T21:28:15Z",
-    "url": "https://onefootball.com/fr/news/psglyon-les-notes-des-parisiens-paris-patient-le-banc-decisif-43677481"
+    "time": "2026-10-27T08:00:11Z",
+    "url": "https://onefootball.com/fr/news/revue-de-presse-ballon-dor-2026-et-psglyon-avec-la-1ere-place-obtenue-43679011"
    },
    {
-    "title": "PSG - OL : la force de l'habitude, Paris fait le boulot et prend la place de leader !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T21:25:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-la-force-de-lhabitude-paris-fait-le-boulot-et-prend-la-place-de-leader-43677490"
+    "title": "Le PSG vise Ibrahim Maza : Leverkusen pourrait perdre son  joyau !",
+    "publisher": "Le Fussball",
+    "time": "2026-10-27T07:20:00Z",
+    "url": "https://onefootball.com/fr/news/le-psg-vise-ibrahim-maza-leverkusen-pourrait-perdre-son-joyau-43678908"
    },
    {
-    "title": "Ligue 1 : le PSG s'offre le choc face à l'OL et s'empare du fauteuil de leader",
+    "title": "PSG/Lyon – Le banc offre la victoire et la première place : les tops et les flops !",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-27T07:00:04Z",
+    "url": "https://onefootball.com/fr/news/psglyon-le-banc-offre-la-victoire-et-la-premiere-place-les-tops-et-les-flops-43678841"
+   },
+   {
+    "title": "\"Le peuple rouge et bleu avec toi\" : le PSG fait bloc derrière Khvitcha Kvaratskhelia, blessé au genou",
     "publisher": "Foot National",
-    "time": "2026-10-26T21:21:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-psg-soffre-le-choc-face-a-lol-et-sempare-du-fauteuil-de-leader-43677452"
+    "time": "2026-10-27T06:40:00Z",
+    "url": "https://onefootball.com/fr/news/le-peuple-rouge-et-bleu-avec-toi-le-psg-fait-bloc-derriere-khvitcha-kvaratskhelia-blesse-au-genou-43678807"
    },
    {
-    "title": "PSG-OL : la banderole magnifique du Parc en hommage à Kvaratskhelia",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T19:18:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-la-banderole-magnifique-du-parc-en-hommage-a-kvaratskhelia-43676915"
-   },
-   {
-    "title": "PSG - La banderole de soutien du Collectif Ultras Paris envers Khvicha Kvaratskhelia, gravement blessé",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T19:10:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-banderole-de-soutien-du-collectif-ultras-paris-envers-khvicha-kvaratskhelia-gravement-blesse-43676898"
-   },
-   {
-    "title": "PSG/Lyon – Les équipes officielles : Neves et Zaïre-Emery titulaires",
+    "title": "PSG/Lyon – Les notes des Parisiens dans la presse : Akliouche convainc, Torres reste frustré",
     "publisher": "Parisfans.fr",
-    "time": "2026-10-26T18:53:49Z",
-    "url": "https://onefootball.com/fr/news/psglyon-les-equipes-officielles-neves-et-zaire-emery-titulaires-43676812"
+    "time": "2026-10-27T06:00:14Z",
+    "url": "https://onefootball.com/fr/news/psglyon-les-notes-des-parisiens-dans-la-presse-akliouche-convainc-torres-reste-frustre-43678706"
    },
    {
-    "title": "🚨 En plein Ballon d’Or... les COMPOS de PSG-Lyon",
-    "publisher": "OneFootball",
-    "time": "2026-10-26T18:46:23Z",
-    "url": "https://onefootball.com/fr/news/en-plein-ballon-dor-les-compos-de-psg-lyon-43676785"
-   },
-   {
-    "title": "Ligue 1 - PSG - OL : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T18:45:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-psg-ol-les-compos-officielles-43676777"
-   },
-   {
-    "title": "Inquiétude à Leverkusen : un cador convoite Ibrahim Maza !",
-    "publisher": "fussball-news.de",
-    "time": "2026-10-26T18:36:32Z",
-    "url": "https://onefootball.com/fr/news/inquietude-a-leverkusen-un-cador-convoite-ibrahim-maza-43676735"
-   },
-   {
-    "title": "PSG - OL : les compositions officielles !",
+    "title": "PSG : « Je suis sûr qu’il reviendra plus fort », le magnifique message d'un joueur du Barça à Kvaratskhelia",
     "publisher": "OnzeMondial",
-    "time": "2026-10-26T18:36:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-les-compositions-officielles-43676737"
+    "time": "2026-10-27T06:00:00Z",
+    "url": "https://onefootball.com/fr/news/psg-je-suis-sur-quil-reviendra-plus-fort-le-magnifique-message-dun-joueur-du-barca-a-kvaratskhelia-43678707"
+   },
+   {
+    "title": "Ligue 1 – Ce qu’on retient de la 8e journée : le PSG seul leader",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-27T05:30:20Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-ce-quon-retient-de-la-8e-journee-le-psg-seul-leader-43678685"
+   },
+   {
+    "title": "Daniel Riolo :  » Si tu es l’OL, tu ne peux pas de contenter d’un Tolisso moyen, ça doit être ton meilleur joueur »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-27T05:29:32Z",
+    "url": "https://onefootball.com/fr/news/daniel-riolo-si-tu-es-lol-tu-ne-peux-pas-de-contenter-dun-tolisso-moyen-ca-doit-etre-ton-meilleur-joueur-43678677"
+   },
+   {
+    "title": "PSG : \"On a créé un groupe et un club incroyable\", le show Dembélé au Ballon d'Or",
+    "publisher": "Foot National",
+    "time": "2026-10-27T05:20:00Z",
+    "url": "https://onefootball.com/fr/news/psg-on-a-cree-un-groupe-et-un-club-incroyable-le-show-dembele-au-ballon-dor-43678665"
+   },
+   {
+    "title": "Le PSG reprend la tête de la Ligue 1 après sa victoire 2-0 contre Lyon",
+    "publisher": "Paris Saint-Germain",
+    "time": "2026-10-27T03:02:00Z",
+    "url": "https://onefootball.com/fr/video/le-psg-reprend-la-tete-de-la-ligue-1-apres-sa-victoire-2-0-contre-lyon-3LGCqL57QkeILSYo4sONnTzNqXd"
    }
   ],
   "Paris FC": [
@@ -7074,6 +7094,36 @@
   ],
   "RC Lens": [
    {
+    "title": "Ducourtioux buteur, Bermont et Fortin sur le banc : le tour d’horizon du week-end des prêtés du RC Lens",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T08:07:02Z",
+    "url": "https://onefootball.com/fr/news/ducourtioux-buteur-bermont-et-fortin-sur-le-banc-le-tour-dhorizon-du-week-end-des-pretes-du-rc-lens-43679065"
+   },
+   {
+    "title": "Thorgan Hazard, l’option avant-centre validée",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T07:35:36Z",
+    "url": "https://onefootball.com/fr/news/thorgan-hazard-loption-avant-centre-validee-43678964"
+   },
+   {
+    "title": "[Vidéo] Le débrief de RC Lens – Paris FC avec Lens Foot, c’est dispo sur Lensois.com !",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T06:47:12Z",
+    "url": "https://onefootball.com/fr/news/video-le-debrief-de-rc-lens-paris-fc-avec-lens-foot-cest-dispo-sur-lensoiscom-43678826"
+   },
+   {
+    "title": "[L1-J8] Le Paris SG prend les commandes en s’imposant contre Lyon, le RC Lens 7e",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T06:07:40Z",
+    "url": "https://onefootball.com/fr/news/l1-j8-le-paris-sg-prend-les-commandes-en-simposant-contre-lyon-le-rc-lens-7e-43678747"
+   },
+   {
+    "title": "Harry Kane sacré ballon d’or, Kylian Mbappé sur le podium : le palmarès complet",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T05:49:17Z",
+    "url": "https://onefootball.com/fr/news/harry-kane-sacre-ballon-dor-kylian-mbappe-sur-le-podium-le-palmares-complet-43678696"
+   },
+   {
     "title": "Lille-Lens : les supporters lensois interdits de derby",
     "publisher": "Foot National",
     "time": "2026-10-26T17:58:00Z",
@@ -7102,36 +7152,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-26T13:20:00Z",
     "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091"
-   },
-   {
-    "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T13:02:00Z",
-    "url": "https://onefootball.com/fr/news/lille-lens-les-sang-et-or-interdisent-a-leurs-supporters-de-se-deplacer-pour-le-derby-du-nord-43675008"
-   },
-   {
-    "title": "Le RC Lens décide de ne pas commercialiser les places du parcage visiteurs pour le derby à Lille",
-    "publisher": "Lensois.com",
-    "time": "2026-10-26T11:07:02Z",
-    "url": "https://onefootball.com/fr/news/le-rc-lens-decide-de-ne-pas-commercialiser-les-places-du-parcage-visiteurs-pour-le-derby-a-lille-43674339"
-   },
-   {
-    "title": "Lens ou Lille, qui est le mieux armé pour briller cette saison ?",
-    "publisher": "Lensois.com",
-    "time": "2026-10-26T10:44:19Z",
-    "url": "https://onefootball.com/fr/news/lens-ou-lille-qui-est-le-mieux-arme-pour-briller-cette-saison-43674196"
-   },
-   {
-    "title": "A 37 ans, Dusan Cvetinovic est toujours dans le coup",
-    "publisher": "Lensois.com",
-    "time": "2026-10-26T09:48:16Z",
-    "url": "https://onefootball.com/fr/news/a-37-ans-dusan-cvetinovic-est-toujours-dans-le-coup-43673800"
-   },
-   {
-    "title": "Le point sur le week-end des prochains adversaires du RC Lens en Ligue des Champions",
-    "publisher": "Lensois.com",
-    "time": "2026-10-26T09:00:22Z",
-    "url": "https://onefootball.com/fr/news/le-point-sur-le-week-end-des-prochains-adversaires-du-rc-lens-en-ligue-des-champions-43673579"
    }
   ],
   "RC Strasbourg": [
@@ -7384,5 +7404,5 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-26T21:39+00:00"
+ "fetchedAt": "2026-10-27T08:29+00:00"
 }

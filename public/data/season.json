@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-26T21:39+00:00",
-  "generatedAt": "2026-10-27T08:28+00:00"
+  "fetchedAt": "2026-10-27T08:29+00:00",
+  "generatedAt": "2026-10-27T08:30+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5311,8 +5311,34 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
-      "other": [],
+      "absences": [
+       {
+        "title": "\"Le peuple rouge et bleu avec toi\" : le PSG fait bloc derrière Khvitcha Kvaratskhelia, blessé au genou",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/le-peuple-rouge-et-bleu-avec-toi-le-psg-fait-bloc-derriere-khvitcha-kvaratskhelia-blesse-au-genou-43678807",
+        "time": "2026-10-27T06:40:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Revue de presse : Ballon d’Or 2026 et PSG/Lyon, avec la 1ere place obtenue",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/revue-de-presse-ballon-dor-2026-et-psglyon-avec-la-1ere-place-obtenue-43679011",
+        "time": "2026-10-27T08:00:11Z"
+       },
+       {
+        "title": "Le PSG vise Ibrahim Maza : Leverkusen pourrait perdre son  joyau !",
+        "publisher": "Le Fussball",
+        "url": "https://onefootball.com/fr/news/le-psg-vise-ibrahim-maza-leverkusen-pourrait-perdre-son-joyau-43678908",
+        "time": "2026-10-27T07:20:00Z"
+       },
+       {
+        "title": "PSG/Lyon – Le banc offre la victoire et la première place : les tops et les flops !",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-le-banc-offre-la-victoire-et-la-premiere-place-les-tops-et-les-flops-43678841",
+        "time": "2026-10-27T07:00:04Z"
+       }
+      ],
       "scorer": {
        "name": "Ferran Torres",
        "goals": 4
@@ -5330,9 +5356,9 @@
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 25,
-     "pRain": 0,
-     "pWind": 0,
+     "gust": 24,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 83,
      "confidenceLabel": "forte",
@@ -5340,13 +5366,13 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 3,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 10,
        "conf": 83
       }
@@ -5404,22 +5430,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Mercredi, à deux jours du Derby du Nord, le RC Lens ouvre son entraînement au public",
+        "title": "Ducourtioux buteur, Bermont et Fortin sur le banc : le tour d’horizon du week-end des prêtés du RC Lens",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/mercredi-a-deux-jours-du-derby-du-nord-le-rc-lens-ouvre-son-entrainement-au-public-43676227",
-        "time": "2026-10-26T16:56:16Z"
+        "url": "https://onefootball.com/fr/news/ducourtioux-buteur-bermont-et-fortin-sur-le-banc-le-tour-dhorizon-du-week-end-des-pretes-du-rc-lens-43679065",
+        "time": "2026-10-27T08:07:02Z"
        },
        {
-        "title": "Les prêtés du RC Lens de Ligue 3 passent le 6e tour de Coupe de France",
+        "title": "Thorgan Hazard, l’option avant-centre validée",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/les-pretes-du-rc-lens-de-ligue-3-passent-le-6e-tour-de-coupe-de-france-43675316",
-        "time": "2026-10-26T13:55:45Z"
+        "url": "https://onefootball.com/fr/news/thorgan-hazard-loption-avant-centre-validee-43678964",
+        "time": "2026-10-27T07:35:36Z"
        },
        {
-        "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091",
-        "time": "2026-10-26T13:20:00Z"
+        "title": "[Vidéo] Le débrief de RC Lens – Paris FC avec Lens Foot, c’est dispo sur Lensois.com !",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/video-le-debrief-de-rc-lens-paris-fc-avec-lens-foot-cest-dispo-sur-lensoiscom-43678826",
+        "time": "2026-10-27T06:47:12Z"
        }
       ],
       "scorer": {
@@ -5440,8 +5466,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 19,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 82,
      "confidenceLabel": "forte",
@@ -5449,13 +5475,13 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 3,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 8,
        "conf": 82
       }
@@ -5548,9 +5574,9 @@
      "code": 1,
      "rain": 0,
      "rainMax": 0,
-     "gust": 25,
-     "pRain": 0,
-     "pWind": 0,
+     "gust": 24,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 77,
      "confidenceLabel": "forte",
@@ -5558,13 +5584,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 4,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 17,
        "conf": 77
       }
@@ -5592,7 +5618,26 @@
     "press": {
      "H": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "OL : alerte rouge pour les Gones après la défaite à Paris, trois nouveaux joueurs confrontés à des pépins physiques",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ol-alerte-rouge-pour-les-gones-apres-la-defaite-a-paris-trois-nouveaux-joueurs-confrontes-a-des-pepins-physiques-43678906",
+        "time": "2026-10-27T07:23:00Z"
+       },
+       {
+        "title": "Daniel Riolo :  » Si tu es l’OL, tu ne peux pas de contenter d’un Tolisso moyen, ça doit être ton meilleur joueur »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/daniel-riolo-si-tu-es-lol-tu-ne-peux-pas-de-contenter-dun-tolisso-moyen-ca-doit-etre-ton-meilleur-joueur-43678677",
+        "time": "2026-10-27T05:29:32Z"
+       },
+       {
+        "title": "Ligue 1 J8 / PSG – OL 2-0 : Duranville belle promesse pour la suite, Greif a fait son match, Merah impuissant… Les tops et flops",
+        "publisher": "FerveurLyonnaise",
+        "url": "https://onefootball.com/fr/news/ligue-1-j8-psg-ol-2-0-duranville-belle-promesse-pour-la-suite-greif-a-fait-son-match-merah-impuissant-les-tops-et-flops-43677883",
+        "time": "2026-10-26T22:40:08Z"
+       }
+      ],
       "scorer": {
        "name": "Ernest Nuamah",
        "goals": 3
@@ -5633,8 +5678,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 19,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 76,
      "confidenceLabel": "forte",
@@ -5642,13 +5687,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 4,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 8,
        "conf": 76
       }
@@ -5742,8 +5787,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 28,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 76,
      "confidenceLabel": "forte",
@@ -5751,13 +5796,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 4,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 10,
        "conf": 76
       }
@@ -5813,8 +5858,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 26,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 76,
      "confidenceLabel": "forte",
@@ -5822,13 +5867,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 4,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 8,
        "conf": 76
       }
@@ -5910,8 +5955,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 21,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 70,
      "confidenceLabel": "forte",
@@ -5919,13 +5964,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 5,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 11,
        "conf": 70
       }
@@ -6020,8 +6065,8 @@
      "rain": 0,
      "rainMax": 0,
      "gust": 23,
-     "pRain": 0,
-     "pWind": 0,
+     "pRain": 0.0,
+     "pWind": 0.0,
      "members": 51,
      "confidence": 70,
      "confidenceLabel": "forte",
@@ -6029,13 +6074,13 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:30+00:00",
+     "updated": "2026-10-27T08:29+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 5,
-       "pRain": 0,
-       "pWind": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
        "temp": 12,
        "conf": 70
       }
@@ -6065,22 +6110,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – McCourt met en vente sa résidence à 112M€",
+        "title": "OM – Harit heureux du retour en forme d’Himad Abdelli",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-mccourt-met-en-vente-sa-residence-a-112m-43677345",
-        "time": "2026-10-26T21:00:43Z"
+        "url": "https://onefootball.com/fr/news/om-harit-heureux-du-retour-en-forme-dhimad-abdelli-43679029",
+        "time": "2026-10-27T08:00:33Z"
        },
        {
-        "title": "OM – Himad Abdelli revient sur sa sortie après Le Havre",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-himad-abdelli-revient-sur-sa-sortie-apres-le-havre-43676872",
-        "time": "2026-10-26T19:00:46Z"
+        "title": "OM : meilleure attaque du championnat, joueurs écartés, carton plein... le paradoxe marseillais",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-meilleure-attaque-du-championnat-joueurs-ecartes-carton-plein-le-paradoxe-marseillais-43678772",
+        "time": "2026-10-27T06:29:00Z"
        },
        {
-        "title": "OM – Daniel Riolo critique la réaction de Genesio",
+        "title": "OM-Le Havre (4-3) Genesio revient sur la physionomie du match",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-daniel-riolo-critique-la-reaction-de-genesio-43676591",
-        "time": "2026-10-26T18:00:02Z"
+        "url": "https://onefootball.com/fr/news/om-le-havre-4-3-genesio-revient-sur-la-physionomie-du-match-43678371",
+        "time": "2026-10-27T01:00:19Z"
        }
       ],
       "scorer": {
