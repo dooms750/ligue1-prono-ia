@@ -6461,6 +6461,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688743": {
+   "id": 2688743,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-28T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Angers SCO",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/angers-sco-696",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7056,6 +7076,12 @@
   ],
   "Olympique de Marseille": [
    {
+    "title": "OM – Paixão touché à l’épaule, quel verdict ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-27T16:00:59Z",
+    "url": "https://onefootball.com/fr/news/om-paixao-touche-a-lepaule-quel-verdict-43681505"
+   },
+   {
     "title": "OM – Moumbagna ne comprend pas la décision de Genesio",
     "publisher": "CoeurMarseillais",
     "time": "2026-10-27T15:00:59Z",
@@ -7108,12 +7134,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-27T06:29:00Z",
     "url": "https://onefootball.com/fr/news/om-meilleure-attaque-du-championnat-joueurs-ecartes-carton-plein-le-paradoxe-marseillais-43678772"
-   },
-   {
-    "title": "OM-Le Havre (4-3) Genesio revient sur la physionomie du match",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T01:00:19Z",
-    "url": "https://onefootball.com/fr/news/om-le-havre-4-3-genesio-revient-sur-la-physionomie-du-match-43678371"
    }
   ],
   "PSG": [
@@ -7428,6 +7448,12 @@
   ],
   "Stade Rennais": [
    {
+    "title": "OFFICIEL : l'horaire lunaire de Rennes-Olympiakos annoncé par l'UEFA",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T16:21:00Z",
+    "url": "https://onefootball.com/fr/news/officiel-lhoraire-lunaire-de-rennes-olympiakos-annonce-par-luefa-43681620"
+   },
+   {
     "title": "Stade rennais - Strasbourg : Vu par RV",
     "publisher": "Stade Rennais Online",
     "time": "2026-10-27T13:10:10Z",
@@ -7480,12 +7506,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T21:20:00Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-la-reaction-geniale-de-brice-samba-sur-la-premiere-place-du-stade-rennais-au-classement-43671986"
-   },
-   {
-    "title": "[Ligue 1 - 9e journée] O.G.C. Nice - Stade Rennais F.C.",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-10-25T21:05:10Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-9e-journee-ogc-nice-stade-rennais-fc-43671940"
    }
   ],
   "Toulouse FC": [
@@ -7552,7 +7572,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-27T15:48+00:00",
+ "fetchedAt": "2026-10-27T16:50+00:00",
  "schedule": {
   "AJ Auxerre": [
    {

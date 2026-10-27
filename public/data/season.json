@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-27T15:48+00:00",
-  "generatedAt": "2026-10-27T15:50+00:00"
+  "fetchedAt": "2026-10-27T16:50+00:00",
+  "generatedAt": "2026-10-27T16:52+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5372,7 +5372,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5436,6 +5436,12 @@
       "absences": [],
       "other": [
        {
+        "title": "OFFICIEL : l'horaire lunaire de Rennes-Olympiakos annoncé par l'UEFA",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/officiel-lhoraire-lunaire-de-rennes-olympiakos-annonce-par-luefa-43681620",
+        "time": "2026-10-27T16:21:00Z"
+       },
+       {
         "title": "Stade rennais - Strasbourg : Vu par RV",
         "publisher": "Stade Rennais Online",
         "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-vu-par-rv-43680594",
@@ -5446,12 +5452,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-europa-la-rencontre-entre-le-stade-rennais-et-lolympiacos-pourrait-etre-avancee-43675657",
         "time": "2026-10-26T15:09:00Z"
-       },
-       {
-        "title": "Stade rennais - Strasbourg : résumé vidéo",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-resume-video-43674192",
-        "time": "2026-10-26T10:45:09Z"
        }
       ],
       "scorer": {
@@ -5470,26 +5470,26 @@
      "desc": "plutôt dégagé",
      "code": 1,
      "rain": 0,
-     "rainMax": 2.0,
-     "gust": 19,
-     "pRain": 0.02,
+     "rainMax": 0.6,
+     "gust": 18,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 83,
+     "confidence": 84,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
        "daysBefore": 3,
-       "pRain": 0.02,
+       "pRain": 0.0,
        "pWind": 0.0,
        "temp": 14,
-       "conf": 83
+       "conf": 84
       }
      ]
     }
@@ -5580,17 +5580,17 @@
      "code": 2,
      "rain": 0,
      "rainMax": 0,
-     "gust": 20,
+     "gust": 18,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 84,
+     "confidence": 85,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5598,7 +5598,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 84
+       "conf": 85
       }
      ]
     }
@@ -5646,7 +5646,7 @@
      "stadium": "Stade de l'Aube",
      "roof": false,
      "daysBefore": 4,
-     "temp": 9,
+     "temp": 8,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
@@ -5661,7 +5661,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5743,7 +5743,7 @@
      "stadium": "Stade de la Meinau",
      "roof": false,
      "daysBefore": 5,
-     "temp": 12,
+     "temp": 10,
      "desc": "partiellement nuageux",
      "code": 2,
      "rain": 0,
@@ -5758,7 +5758,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5846,9 +5846,9 @@
      "stadium": "Groupama Stadium",
      "roof": false,
      "daysBefore": 5,
-     "temp": 10,
-     "desc": "couvert",
-     "code": 3,
+     "temp": 11,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
      "rainMax": 0,
      "gust": 17,
@@ -5861,7 +5861,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5957,8 +5957,8 @@
      "roof": false,
      "daysBefore": 5,
      "temp": 11,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 0,
      "gust": 23,
@@ -5971,7 +5971,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6004,7 +6004,14 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "OM – Paixão touché à l’épaule, quel verdict ?",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-paixao-touche-a-lepaule-quel-verdict-43681505",
+        "time": "2026-10-27T16:00:59Z"
+       }
+      ],
       "other": [
        {
         "title": "OM – Moumbagna ne comprend pas la décision de Genesio",
@@ -6165,13 +6172,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 64,
+     "confidence": 65,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T16:51+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6179,7 +6186,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 64
+       "conf": 65
       }
      ]
     }
