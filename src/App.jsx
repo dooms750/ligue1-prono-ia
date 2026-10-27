@@ -6,6 +6,7 @@ import Stories from "./pages/Stories.jsx";
 import Debrief from "./pages/Debrief.jsx";
 import Bilan from "./pages/Bilan.jsx";
 import Academie from "./pages/Academie.jsx";
+import Intro from "./components/Intro.jsx";
 
 const NAV = [
   { path: "/", label: "Journée", icon: "M4 6h16M4 12h16M4 18h10" },
@@ -19,6 +20,11 @@ export default function App() {
   const [picks, setPick] = usePicks();
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const [intro, setIntro] = useState(true);
+
+  useEffect(() => {
+    document.documentElement.style.overflow = intro ? "hidden" : "";
+  }, [intro]);
 
   useEffect(() => {
     fetch("./data/season.json")
@@ -27,13 +33,14 @@ export default function App() {
       .catch(() => setError("Les données de la saison n'ont pas pu être chargées. Lance « npm run data:demo » puis recharge la page."));
   }, []);
 
-  if (error) return <main className="shell"><p className="empty">{error}</p></main>;
-  if (!data) return <main className="shell"><p className="loading">Chargement de la journée…</p></main>;
+  const overlay = intro && <Intro data={data} ready={!!(data || error)} onDone={() => setIntro(false)} />;
+  if (error) return <>{overlay}<main className="shell"><p className="empty">{error}</p></main></>;
+  if (!data) return <>{overlay}<main className="shell"><p className="loading">Chargement de la journée…</p></main></>;
 
   const parts = route.split("/").filter(Boolean);
   const ctx = { data, picks, setPick };
 
-  if (parts[0] === "match" && parts[2] === "story") return <Stories id={parts[1]} {...ctx} />;
+  if (parts[0] === "match" && parts[2] === "story") return <>{overlay}<Stories id={parts[1]} {...ctx} /></>;
 
   let page;
   if (parts[0] === "match") page = <Match id={parts[1]} {...ctx} />;
@@ -46,6 +53,7 @@ export default function App() {
 
   return (
     <>
+      {overlay}
       <header className="topbar">
         <a href="#/" className="logo" aria-label="Lucide, accueil">
           <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true">

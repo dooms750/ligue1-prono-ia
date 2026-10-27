@@ -10,6 +10,7 @@ import "@fontsource/figtree/600";
 import "@fontsource/figtree/700";
 import "./styles.css";
 import "./theme.css";
+import "./intro.css";
 
 createRoot(document.getElementById("root")).render(<App />);
 

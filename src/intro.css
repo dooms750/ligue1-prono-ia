@@ -1,0 +1,130 @@
+/* Animation de lancement : environ 3 secondes, orchestrées en une seule séquence. */
+
+.intro {
+  position: fixed; inset: 0; z-index: 100; overflow: hidden;
+  background: #020409; color: var(--craie);
+  display: grid; place-items: center;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.intro-out { animation: intro-out 0.62s cubic-bezier(0.6, 0, 0.3, 1) forwards; }
+@keyframes intro-out {
+  to { opacity: 0; transform: scale(1.18); filter: blur(6px); }
+}
+
+/* 1. Les projecteurs claquent un par un. */
+.intro-floods { position: absolute; inset: 0; pointer-events: none; }
+.flood { position: absolute; width: 90vmax; height: 90vmax; opacity: 0; }
+.flood i {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 244, 210, 0.95) 0%, rgba(255, 232, 170, 0.45) 9%, rgba(255, 224, 138, 0.14) 30%, rgba(255, 224, 138, 0) 62%);
+}
+.flood::after {
+  content: ""; position: absolute; left: 50%; top: 50%; width: 22px; height: 12px; margin: -6px 0 0 -11px;
+  border-radius: 3px; background: #fff7dc; box-shadow: 0 0 24px 10px rgba(255, 240, 200, 0.9);
+}
+.flood-0 { left: -45vmax; top: -45vmax; animation: flood-on 0.01s 0.15s forwards, flood-flicker 0.4s 0.15s; }
+.flood-1 { right: -45vmax; top: -45vmax; animation: flood-on 0.01s 0.38s forwards, flood-flicker 0.4s 0.38s; }
+.flood-2 { left: -45vmax; bottom: -45vmax; animation: flood-on 0.01s 0.6s forwards, flood-flicker 0.4s 0.6s; }
+.flood-3 { right: -45vmax; bottom: -45vmax; animation: flood-on 0.01s 0.8s forwards, flood-flicker 0.4s 0.8s; }
+@keyframes flood-on { to { opacity: 1; } }
+@keyframes flood-flicker { 0% { opacity: 0; } 15% { opacity: 1; } 30% { opacity: 0.25; } 45% { opacity: 1; } 100% { opacity: 1; } }
+
+/* Les faisceaux qui tombent sur la pelouse. */
+.beam {
+  position: absolute; width: 130vmax; height: 34vmax; margin-top: -17vmax; opacity: 0;
+  transform-origin: 0 50%;
+  background: linear-gradient(90deg, rgba(255, 240, 200, 0.42), rgba(255, 240, 200, 0.08) 55%, rgba(255, 240, 200, 0) 80%);
+  clip-path: polygon(0 47%, 100% 0, 100% 100%, 0 53%);
+  mix-blend-mode: screen;
+}
+.beam-0 { left: 0; top: 0; transform: rotate(var(--a0, 58deg)); animation: beam 1.6s 0.15s forwards; }
+.beam-1 { left: 100%; top: 0; transform: rotate(var(--a1, 122deg)); animation: beam 1.6s 0.38s forwards; }
+.beam-2 { left: 0; top: 100%; transform: rotate(var(--a2, -58deg)); animation: beam 1.6s 0.6s forwards; }
+.beam-3 { left: 100%; top: 100%; transform: rotate(var(--a3, -122deg)); animation: beam 1.6s 0.8s forwards; }
+@keyframes beam { 0% { opacity: 0; } 6% { opacity: 1; } 12% { opacity: 0.3; } 20%, 70% { opacity: 1; } 100% { opacity: 0.35; } }
+
+/* Le coup de flash quand le stade est entièrement éclairé. */
+.intro-flash { position: absolute; inset: 0; background: #fff8e1; opacity: 0; animation: punch 0.45s 0.82s ease-out; }
+@keyframes punch { 0% { opacity: 0; } 15% { opacity: 0.35; } 100% { opacity: 0; } }
+
+/* Les flashs des supporters. */
+.intro-flashes span {
+  position: absolute; border-radius: 50%; background: #fff; opacity: 0;
+  box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.7);
+  animation: flash 0.32s ease-out;
+}
+@keyframes flash { 0% { opacity: 0; transform: scale(0.4); } 25% { opacity: 1; transform: scale(1.4); } 100% { opacity: 0; transform: scale(0.8); } }
+
+/* 2. Le terrain se dessine en perspective, puis la caméra monte au-dessus. */
+.intro-stage { position: absolute; left: 50%; top: 42%; transform: translate(-50%, -50%); perspective: 900px; width: min(96vw, 760px); }
+.intro-pitch {
+  width: 100%; display: block; transform-origin: 50% 50%;
+  transform: rotateX(60deg) scale(1.25);
+  animation: cam-up 0.9s 1.25s cubic-bezier(0.65, 0, 0.25, 1) forwards;
+  filter: drop-shadow(0 30px 60px rgba(0, 0, 0, 0.6));
+}
+@keyframes cam-up { to { transform: rotateX(0deg) scale(0.4); } }
+
+.ip-grass { opacity: 0; animation: fade-in 0.6s 0.5s forwards, fade-out 0.45s 1.45s forwards; }
+.ip-l { stroke-dasharray: 1; stroke-dashoffset: 1; }
+.ip-outer { animation: draw 0.7s 0.55s cubic-bezier(0.5, 0, 0.2, 1) forwards; }
+.ip-box { animation: draw 0.55s 0.8s ease-out forwards; }
+.ip-six { animation: draw 0.4s 0.95s ease-out forwards; }
+.ip-half { animation: draw 0.5s 0.75s ease-out forwards; }
+.ip-circle { animation: draw 0.6s 0.85s ease-out forwards; }
+.ip-lines { animation: fade-out 0.4s 1.4s forwards; }
+.ip-mark { animation: thicken 0.7s 1.3s forwards, mark-glow 0.6s 1.9s forwards; }
+@keyframes thicken { to { stroke-width: 15; } }
+.ip-spot { opacity: 0; transform-origin: 525px 340px; animation: spot 0.5s 1.45s cubic-bezier(0.3, 1.6, 0.5, 1) forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+@keyframes fade-in { to { opacity: 1; } }
+@keyframes fade-out { to { opacity: 0; } }
+@keyframes spot { 0% { opacity: 0; transform: scale(0); } 100% { opacity: 1; transform: scale(1); } }
+@keyframes mark-glow { to { filter: drop-shadow(0 0 14px rgba(255, 224, 138, 0.8)); } }
+
+/* 3. Le nom apparaît sous le logo, lettre par lettre. */
+.intro-word { position: absolute; top: calc(42% + min(19vw, 140px)); left: 0; right: 0; display: grid; justify-items: center; gap: 6px; pointer-events: none; }
+.iw-name { display: flex; overflow: hidden; font-family: var(--display); font-weight: 900; font-size: clamp(54px, 16vw, 96px); line-height: 0.9; letter-spacing: 0.01em; }
+.iw-name i { font-style: normal; display: inline-block; transform: translateY(105%); animation: rise 0.55s cubic-bezier(0.2, 0.9, 0.2, 1) forwards; }
+@keyframes rise { to { transform: translateY(0); } }
+.iw-tag { font-size: 14px; color: var(--gris); opacity: 0; animation: fade-in 0.5s 2.05s forwards; }
+
+/* 4. L'affiche balaie l'écran aux couleurs des clubs, comme un générique TV. */
+.intro-affiche {
+  position: absolute; left: 0; right: 0; bottom: calc(14% + env(safe-area-inset-bottom));
+  display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); align-items: stretch;
+  pointer-events: none;
+}
+.ia-bar {
+  font-family: var(--display); font-weight: 900; font-size: clamp(24px, 7vw, 40px); line-height: 1;
+  padding: 12px 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.ia-home { text-align: right; clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); transform: translateX(-105%); animation: wipe-l 0.5s 2.2s cubic-bezier(0.2, 0.9, 0.2, 1) forwards; }
+.ia-away { clip-path: polygon(14px 0, 100% 0, 100% 100%, 0 100%); transform: translateX(105%); animation: wipe-r 0.5s 2.2s cubic-bezier(0.2, 0.9, 0.2, 1) forwards; }
+.ia-md {
+  display: grid; place-items: center; padding: 0 12px; margin: 0 -4px;
+  font-family: var(--display); font-weight: 900; font-size: clamp(22px, 6vw, 34px);
+  background: var(--craie); color: #04070d; z-index: 1;
+  transform: scale(0); animation: pop 0.35s 2.55s cubic-bezier(0.3, 1.7, 0.5, 1) forwards;
+}
+@keyframes wipe-l { to { transform: translateX(0); } }
+@keyframes wipe-r { to { transform: translateX(0); } }
+@keyframes pop { to { transform: scale(1); } }
+
+.intro-skip {
+  position: absolute; right: 16px; top: calc(14px + env(safe-area-inset-top));
+  background: rgba(242, 245, 248, 0.08); border: 1px solid rgba(242, 245, 248, 0.2); color: var(--gris);
+  padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 600;
+}
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Réduire les animations : un simple fondu sur le logo. */
+.intro-reduced *, .intro-reduced *::after { animation: none !important; }
+.intro-reduced .intro-pitch { transform: scale(0.4); }
+.intro-reduced .ip-mark { stroke-width: 15; }
+.intro-reduced .ip-grass, .intro-reduced .ip-lines, .intro-reduced .intro-flashes, .intro-reduced .intro-floods { display: none; }
+.intro-reduced .ip-l { stroke-dashoffset: 0; }
+.intro-reduced .ip-spot, .intro-reduced .iw-tag { opacity: 1; }
+.intro-reduced .iw-name i, .intro-reduced .ia-bar, .intro-reduced .ia-md { transform: none; }
+.intro-reduced.intro-out { animation: fade-out 0.25s forwards !important; }

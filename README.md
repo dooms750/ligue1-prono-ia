@@ -19,6 +19,14 @@ les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la d
 | **Bilan** | Le bilan public de l'IA : taux de réussite, score de Brier contre le marché, calibration. Chaque prono est calculé avec les seuls matchs joués avant. |
 | **Académie** | 5 notions manipulables : ce que veut dire 60 %, la loi de Poisson, la marge des bookmakers, la régression vers la moyenne, le jeu responsable. |
 
+## L'animation de lancement
+
+À chaque ouverture, `src/components/Intro.jsx` joue une séquence d'environ 3 secondes : les quatre projecteurs
+s'allument un par un et croisent leurs faisceaux, les supporters mitraillent les tribunes, les lignes du terrain se
+tracent en perspective, la caméra monte au-dessus de la pelouse et le rond central devient le logo, puis l'affiche
+de la journée balaie l'écran aux couleurs des deux clubs. L'animation couvre le chargement des données, se passe d'un
+toucher et se réduit à un simple fondu si le réglage « réduire les animations » est actif.
+
 ## Installer l'app sur un téléphone
 
 Lucide est une application web installable (PWA) : icône sur l'écran d'accueil, ouverture en plein écran,
