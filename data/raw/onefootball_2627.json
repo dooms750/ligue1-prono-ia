@@ -5877,7 +5877,7 @@
   "2688716": {
    "id": 2688716,
    "competition": "Ligue 1",
-   "kickoff": "2026-10-31T19:45:00Z",
+   "kickoff": "2026-11-01T16:15:00Z",
    "status": "",
    "period": 1,
    "home": "Olympique Lyonnais",
@@ -5985,7 +5985,7 @@
   "2688719": {
    "id": 2688719,
    "competition": "Ligue 1",
-   "kickoff": "2026-10-31T19:45:00Z",
+   "kickoff": "2026-11-02T19:45:00Z",
    "status": "",
    "period": 1,
    "home": "FC Lorient",
@@ -6412,6 +6412,26 @@
    "away": "Angers SCO",
    "homeLink": "/fr/equipe/paris-fc-5170",
    "awayLink": "/fr/equipe/angers-sco-696",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
+  },
+  "2688741": {
+   "id": 2688741,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-21T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "RC Strasbourg",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/rc-strasbourg-756",
+   "awayLink": "/fr/equipe/stade-brestois-254",
    "hg": null,
    "ag": null,
    "goals": [],
@@ -6892,6 +6912,12 @@
   ],
   "OGC Nice": [
    {
+    "title": "Brest - Nice : l'album photos",
+    "publisher": "Ogcnissa.com ",
+    "time": "2026-10-27T13:38:27Z",
+    "url": "https://onefootball.com/fr/news/brest-nice-lalbum-photos-43680736"
+   },
+   {
     "title": "Nice–Rennes : date, heure, diffusion... les détails de la nouvelle programmation",
     "publisher": "Foot National",
     "time": "2026-10-26T19:30:00Z",
@@ -6944,15 +6970,39 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-23T21:26:00Z",
     "url": "https://onefootball.com/fr/news/ogc-nice-lenorme-hommage-de-sofiane-diop-envers-yehvann-diouf-apres-son-penalty-arrete-43662244"
-   },
-   {
-    "title": "Brest-Nice : Diouf prend sa revanche sur les critiques !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-23T21:24:00Z",
-    "url": "https://onefootball.com/fr/news/brest-nice-diouf-prend-sa-revanche-sur-les-critiques-43662231"
    }
   ],
   "Olympique Lyonnais": [
+   {
+    "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T15:27:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ol-on-a-pose-plus-de-problemes-que-le-barca-et-city-fonseca-fier-de-son-equipe-43681283"
+   },
+   {
+    "title": "Luis Enrique souligne la victoire \"méritée\" du PSG face à l'OL (2-0)",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-27T15:00:00Z",
+    "url": "https://onefootball.com/fr/news/luis-enrique-souligne-la-victoire-meritee-du-psg-face-a-lol-2-0-43681139"
+   },
+   {
+    "title": "OL - Après PSG - OL, Abner déplore les occasions manquées en première période",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T13:34:00Z",
+    "url": "https://onefootball.com/fr/news/ol-apres-psg-ol-abner-deplore-les-occasions-manquees-en-premiere-periode-43680688"
+   },
+   {
+    "title": "Tant qu'il y aura des Gones : le débrief de PSG - OL est disponible en podcast et en replay",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-27T13:00:00Z",
+    "url": "https://onefootball.com/fr/news/tant-quil-y-aura-des-gones-le-debrief-de-psg-ol-est-disponible-en-podcast-et-en-replay-43680522"
+   },
+   {
+    "title": "Fonseca salue la performance tactique de Lyon malgré la défaite face au PSG",
+    "publisher": "Olympique Lyonnais",
+    "time": "2026-10-27T12:04:00Z",
+    "url": "https://onefootball.com/fr/video/fonseca-salue-la-performance-tactique-de-lyon-malgre-la-defaite-face-au-psg-3LHGVcxKhpiZBcDja4ow2RfOJzX"
+   },
    {
     "title": "Fonseca salue la performance tactique de Lyon malgré la défaite face au PSG",
     "publisher": "Olympique Lyonnais",
@@ -6972,49 +7022,37 @@
     "url": "https://onefootball.com/fr/news/officiel-ol-angers-decale-au-1er-novembre-43680060"
    },
    {
+    "title": "PSG - La grosse pensée de Luis Enrique pour Khvicha Kvaratskhelia après la victoire face à Lyon",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T11:34:00Z",
+    "url": "https://onefootball.com/fr/news/psg-la-grosse-pensee-de-luis-enrique-pour-khvicha-kvaratskhelia-apres-la-victoire-face-a-lyon-43679982"
+   },
+   {
     "title": "Marc Bollengier pour diriger le match OL - Angers",
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-27T10:50:00Z",
     "url": "https://onefootball.com/fr/news/marc-bollengier-pour-diriger-le-match-ol-angers-43679737"
-   },
-   {
-    "title": "Ligue 1 : l'OL sort du podium après sa défaite à Paris",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T10:00:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-lol-sort-du-podium-apres-sa-defaite-a-paris-43679479"
-   },
-   {
-    "title": "Malgré les efforts, Moussa Niakhaté (OL) a reconnu la supériorité du PSG (2-0)",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T09:10:00Z",
-    "url": "https://onefootball.com/fr/news/malgre-les-efforts-moussa-niakhate-ol-a-reconnu-la-superiorite-du-psg-2-0-43679310"
-   },
-   {
-    "title": "PSG - Notez les joueurs parisiens après la victoire face à l'OL",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T08:44:00Z",
-    "url": "https://onefootball.com/fr/news/psg-notez-les-joueurs-parisiens-apres-la-victoire-face-a-lol-43679216"
-   },
-   {
-    "title": "PSG : \"C'est une Formule 1, c'est une machine !\" ... Luis Enrique soufflé par l'un de ses joueurs !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T08:28:00Z",
-    "url": "https://onefootball.com/fr/news/psg-cest-une-formule-1-cest-une-machine-luis-enrique-souffle-par-lun-de-ses-joueurs-43679130"
-   },
-   {
-    "title": "Bidstrup, Tolisso, Morton… L’hécatombe se poursuit dans l’entrejeu",
-    "publisher": "FerveurLyonnaise",
-    "time": "2026-10-27T08:25:09Z",
-    "url": "https://onefootball.com/fr/news/bidstrup-tolisso-morton-lhecatombe-se-poursuit-dans-lentrejeu-43679111"
-   },
-   {
-    "title": "Paulo Fonseca après PSG - OL (2-0) : \"Stratégiquement, presque tout était parfait, jusqu'au but\"",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T08:25:00Z",
-    "url": "https://onefootball.com/fr/news/paulo-fonseca-apres-psg-ol-2-0-strategiquement-presque-tout-etait-parfait-jusquau-but-43679115"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Moumbagna ne comprend pas la décision de Genesio",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-27T15:00:59Z",
+    "url": "https://onefootball.com/fr/news/om-moumbagna-ne-comprend-pas-la-decision-de-genesio-43681181"
+   },
+   {
+    "title": "OM - Bruno Genesio a pris une décision radicale pour Faris Moumbagna",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T13:33:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-a-pris-une-decision-radicale-pour-faris-moumbagna-43680717"
+   },
+   {
+    "title": "OM - L'attitude de Keyliane Abdallah face à la sanction de Bruno Genesio",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T12:10:00Z",
+    "url": "https://onefootball.com/fr/news/om-lattitude-de-keyliane-abdallah-face-a-la-sanction-de-bruno-genesio-43680273"
+   },
    {
     "title": "OM – Gros plan sur l’attaquant Francis Amuzu",
     "publisher": "CoeurMarseillais",
@@ -7056,86 +7094,68 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-10-27T01:00:19Z",
     "url": "https://onefootball.com/fr/news/om-le-havre-4-3-genesio-revient-sur-la-physionomie-du-match-43678371"
-   },
-   {
-    "title": "OM-Le Havre (4-3) Digard : « Pour moi, il y a main »",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T00:00:33Z",
-    "url": "https://onefootball.com/fr/news/om-le-havre-4-3-digard-pour-moi-il-y-a-main-43678239"
-   },
-   {
-    "title": "Mercato OM : Un international italien dans le viseur",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-26T23:00:51Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-un-international-italien-dans-le-viseur-43678027"
-   },
-   {
-    "title": "OM – Le calendrier qui ne laisse aucun répit à l’OM jusqu’à Noël",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-26T22:00:53Z",
-    "url": "https://onefootball.com/fr/news/om-le-calendrier-qui-ne-laisse-aucun-repit-a-lom-jusqua-noeal-43677750"
    }
   ],
   "PSG": [
    {
-    "title": "PSG - La grosse pensée de Luis Enrique pour Khvicha Kvaratskhelia après la victoire face à Lyon",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T11:34:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-grosse-pensee-de-luis-enrique-pour-khvicha-kvaratskhelia-apres-la-victoire-face-a-lyon-43679982"
+    "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T15:27:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ol-on-a-pose-plus-de-problemes-que-le-barca-et-city-fonseca-fier-de-son-equipe-43681283"
    },
    {
-    "title": "Ballon d’Or – Le PSG sacré club de l'année pour la deuxième fois",
+    "title": "PSG - La réaction amusée de Senny Mayulu à une question sur le Ballon d'Or",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T15:12:00Z",
+    "url": "https://onefootball.com/fr/news/psg-la-reaction-amusee-de-senny-mayulu-a-une-question-sur-le-ballon-dor-43681218"
+   },
+   {
+    "title": "Officiel – Le PSG donne des nouvelles de Kvaratskhelia après l’opération",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-27T15:01:20Z",
+    "url": "https://onefootball.com/fr/news/officiel-le-psg-donne-des-nouvelles-de-kvaratskhelia-apres-loperation-43681149"
+   },
+   {
+    "title": "PSG - Nasser Al-Khelaïfi réagit au nouveau trophée remporté par le PSG lors de la cérémonie du Ballon d'Or",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T14:56:00Z",
+    "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-reagit-au-nouveau-trophee-remporte-par-le-psg-lors-de-la-ceremonie-du-ballon-dor-43681122"
+   },
+   {
+    "title": "PSG : très bonne nouvelle, Kvaratskhelia opéré avec succès",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T14:27:00Z",
+    "url": "https://onefootball.com/fr/news/psg-tres-bonne-nouvelle-kvaratskhelia-opere-avec-succes-43680989"
+   },
+   {
+    "title": "PSG - Le Paris Saint-Germain donne des nouvelles de Khvicha Kvaratskhelia",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T14:07:00Z",
+    "url": "https://onefootball.com/fr/news/psg-le-paris-saint-germain-donne-des-nouvelles-de-khvicha-kvaratskhelia-43680897"
+   },
+   {
+    "title": "PSG/Lyon – Niakhaté détaille la défaite avec « les regrets »",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-27T14:00:31Z",
+    "url": "https://onefootball.com/fr/news/psglyon-niakhate-detaille-la-defaite-avec-les-regrets-43680851"
+   },
+   {
+    "title": "PSG : Daniel Riolo a déjà choisi ses titulaires à Paris",
+    "publisher": "Morning Foot",
+    "time": "2026-10-27T14:00:05Z",
+    "url": "https://onefootball.com/fr/news/psg-daniel-riolo-a-deja-choisi-ses-titulaires-a-paris-43680853"
+   },
+   {
+    "title": "OL - Après PSG - OL, Abner déplore les occasions manquées en première période",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T13:34:00Z",
+    "url": "https://onefootball.com/fr/news/ol-apres-psg-ol-abner-deplore-les-occasions-manquees-en-premiere-periode-43680688"
+   },
+   {
+    "title": "Le moment où le vainqueur du Ballon d'Or a été annoncé",
     "publisher": "Stats Perform",
-    "time": "2026-10-27T11:27:33Z",
-    "url": "https://onefootball.com/fr/video/ballon-dor-le-psg-sacre-club-de-lannee-pour-la-deuxieme-fois-3LHA7V9II2ivAaDCxrHHTbUPXEd"
-   },
-   {
-    "title": "Vidéo PSG/Lyon – Paris 1er, Mayulu et Godts lancés, Ballon d’Or…le débrief",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-27T11:16:35Z",
-    "url": "https://onefootball.com/fr/news/video-psglyon-paris-1er-mayulu-et-godts-lances-ballon-dorle-debrief-43679882"
-   },
-   {
-    "title": "Ballon d'Or 2026 : le moment sympa entre Lamine Yamal et Dembélé après la cérémonie",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T09:26:00Z",
-    "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-moment-sympa-entre-lamine-yamal-et-dembele-apres-la-ceremonie-43679366"
-   },
-   {
-    "title": "Ballon d'Or 2026 : le PSG s'est raté dans sa campagne, le constat du patron de France Football",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T09:02:00Z",
-    "url": "https://onefootball.com/fr/news/ballon-dor-2026-le-psg-sest-rate-dans-sa-campagne-le-constat-du-patron-de-france-football-43679272"
-   },
-   {
-    "title": "PSG - Notez les joueurs parisiens après la victoire face à l'OL",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T08:44:00Z",
-    "url": "https://onefootball.com/fr/news/psg-notez-les-joueurs-parisiens-apres-la-victoire-face-a-lol-43679216"
-   },
-   {
-    "title": "PSG : \"C'est une Formule 1, c'est une machine !\" ... Luis Enrique soufflé par l'un de ses joueurs !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T08:28:00Z",
-    "url": "https://onefootball.com/fr/news/psg-cest-une-formule-1-cest-une-machine-luis-enrique-souffle-par-lun-de-ses-joueurs-43679130"
-   },
-   {
-    "title": "Revue de presse : Ballon d’Or 2026 et PSG/Lyon, avec la 1ere place obtenue",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-27T08:00:11Z",
-    "url": "https://onefootball.com/fr/news/revue-de-presse-ballon-dor-2026-et-psglyon-avec-la-1ere-place-obtenue-43679011"
-   },
-   {
-    "title": "Le PSG vise Ibrahim Maza : Leverkusen pourrait perdre son  joyau !",
-    "publisher": "Le Fussball",
-    "time": "2026-10-27T07:20:00Z",
-    "url": "https://onefootball.com/fr/news/le-psg-vise-ibrahim-maza-leverkusen-pourrait-perdre-son-joyau-43678908"
-   },
-   {
-    "title": "PSG/Lyon – Le banc offre la victoire et la première place : les tops et les flops !",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-27T07:00:04Z",
-    "url": "https://onefootball.com/fr/news/psglyon-le-banc-offre-la-victoire-et-la-premiere-place-les-tops-et-les-flops-43678841"
+    "time": "2026-10-27T12:52:29Z",
+    "url": "https://onefootball.com/fr/video/le-moment-ou-le-vainqueur-du-ballon-dor-a-ete-annonce-3LHKYrj4wJnPotIwKy3FofmvPl6"
    }
   ],
   "Paris FC": [
@@ -7202,6 +7222,18 @@
   ],
   "RC Lens": [
    {
+    "title": "[L1-J9] Le concours pronos des internautes",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T14:01:14Z",
+    "url": "https://onefootball.com/fr/news/l1-j9-le-concours-pronos-des-internautes-43680872"
+   },
+   {
+    "title": "[L2-J11] Le concours pronos des internautes",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T14:00:34Z",
+    "url": "https://onefootball.com/fr/news/l2-j11-le-concours-pronos-des-internautes-43680870"
+   },
+   {
     "title": "« Incompréhensible » ou « nécessaire », la sanction du RC Lens avant le derby du nord divise les supporters",
     "publisher": "Lensois.com",
     "time": "2026-10-27T11:08:56Z",
@@ -7248,18 +7280,6 @@
     "publisher": "Lensois.com",
     "time": "2026-10-27T05:49:17Z",
     "url": "https://onefootball.com/fr/news/harry-kane-sacre-ballon-dor-kylian-mbappe-sur-le-podium-le-palmares-complet-43678696"
-   },
-   {
-    "title": "Lille-Lens : les supporters lensois interdits de derby",
-    "publisher": "Foot National",
-    "time": "2026-10-26T17:58:00Z",
-    "url": "https://onefootball.com/fr/news/lille-lens-les-supporters-lensois-interdits-de-derby-43676544"
-   },
-   {
-    "title": "Mercredi, à deux jours du Derby du Nord, le RC Lens ouvre son entraînement au public",
-    "publisher": "Lensois.com",
-    "time": "2026-10-26T16:56:16Z",
-    "url": "https://onefootball.com/fr/news/mercredi-a-deux-jours-du-derby-du-nord-le-rc-lens-ouvre-son-entrainement-au-public-43676227"
    }
   ],
   "RC Strasbourg": [
@@ -7388,6 +7408,12 @@
   ],
   "Stade Rennais": [
    {
+    "title": "Stade rennais - Strasbourg : Vu par RV",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-27T13:10:10Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-vu-par-rv-43680594"
+   },
+   {
     "title": "Nice–Rennes : date, heure, diffusion... les détails de la nouvelle programmation",
     "publisher": "Foot National",
     "time": "2026-10-26T19:30:00Z",
@@ -7440,12 +7466,6 @@
     "publisher": "Stade Rennais Online",
     "time": "2026-10-25T21:05:10Z",
     "url": "https://onefootball.com/fr/news/ligue-1-9e-journee-ogc-nice-stade-rennais-fc-43671940"
-   },
-   {
-    "title": "Ligue Europa : Stade rennais - Olympiakos pourrait être reporté en raison des manifestations",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-10-25T20:40:09Z",
-    "url": "https://onefootball.com/fr/news/ligue-europa-stade-rennais-olympiakos-pourrait-etre-reporte-en-raison-des-manifestations-43671860"
    }
   ],
   "Toulouse FC": [
@@ -7512,7 +7532,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-27T12:15+00:00",
+ "fetchedAt": "2026-10-27T15:42+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
@@ -7856,7 +7876,7 @@
     "link": "/fr/match/2688707"
    },
    {
-    "kickoff": "2026-10-31T19:45:00Z",
+    "kickoff": "2026-11-01T16:15:00Z",
     "competition": "Ligue 1",
     "home": "Olympique Lyonnais",
     "away": "Angers SCO",
@@ -8126,7 +8146,7 @@
     "link": "/fr/match/2688707"
    },
    {
-    "kickoff": "2026-10-31T19:45:00Z",
+    "kickoff": "2026-11-02T19:45:00Z",
     "competition": "Ligue 1",
     "home": "FC Lorient",
     "away": "Stade Brestois",
@@ -8801,7 +8821,7 @@
     "link": "/fr/match/2688715"
    },
    {
-    "kickoff": "2026-10-31T19:45:00Z",
+    "kickoff": "2026-11-01T16:15:00Z",
     "competition": "Ligue 1",
     "home": "Olympique Lyonnais",
     "away": "Angers SCO",
@@ -9611,7 +9631,7 @@
     "link": "/fr/match/2688709"
    },
    {
-    "kickoff": "2026-10-31T19:45:00Z",
+    "kickoff": "2026-11-02T19:45:00Z",
     "competition": "Ligue 1",
     "home": "FC Lorient",
     "away": "Stade Brestois",
