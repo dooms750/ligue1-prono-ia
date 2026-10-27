@@ -138,3 +138,89 @@ export function isPast(m) {
   const kick = new Date(`${m.date}T${m.time || "21:00"}:00`);
   return Date.now() > kick.getTime() + 2 * 3600 * 1000;
 }
+
+// ---------- Design v3 : couleurs des clubs et bandeau de probabilités ----------
+
+function hexRgb(h) {
+  const n = parseInt(h.replace("#", ""), 16);
+  return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+}
+
+function luminance(h) {
+  const [r, g, b] = hexRgb(h).map((v) => {
+    const c = v / 255;
+    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+// Couleurs des deux clubs ; si elles se ressemblent, l'équipe à l'extérieur passe en orange.
+export function pairColors(home, away) {
+  const a = hexRgb(home.color), b = hexRgb(away.color);
+  const d = Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]) / 255;
+  return [home.color, d < 0.35 ? "#FF6A2B" : away.color];
+}
+
+export const inkOn = (hex) => (luminance(hex) > 0.42 ? "#0A0F18" : "#FFFFFF");
+
+// Nombre qui glisse vers sa nouvelle valeur quand il change (réponse à une action).
+export function Count({ value }) {
+  const [shown, setShown] = React.useState(value);
+  const from = React.useRef(value);
+  React.useEffect(() => {
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduced || from.current === value) { from.current = value; setShown(value); return undefined; }
+    const start = performance.now(), a = from.current, dur = 420;
+    let raf;
+    const step = (t) => {
+      const k = Math.min(1, (t - start) / dur);
+      const e = 1 - (1 - k) ** 3;
+      setShown(Math.round(a + (value - a) * e));
+      if (k < 1) raf = requestAnimationFrame(step); else from.current = value;
+    };
+    raf = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(raf);
+  }, [value]);
+  return <>{shown}</>;
+}
+
+// Le bandeau : trois lames aux couleurs des clubs, largeur = probabilité.
+export function ProbaBlade({ p, home, away, size = "md", labels = true }) {
+  const [ch, ca] = pairColors(home, away);
+  const segs = [
+    { v: p[0], c: ch, t: home.short },
+    { v: p[1], c: "#2A3548", t: "Nul" },
+    { v: p[2], c: ca, t: away.short },
+  ];
+  const fav = p.indexOf(Math.max(...p));
+  return (
+    <div className={`blade blade-${size}`} role="img"
+      aria-label={`${home.name} ${pct(p[0])}, nul ${pct(p[1])}, ${away.name} ${pct(p[2])}`}>
+      {segs.map((s, i) => (
+        <div key={i} className={`blade-seg ${i === fav ? "fav" : ""}`}
+          style={{ flexGrow: Math.max(s.v, 0.06), background: s.c, color: inkOn(s.c) }}>
+          <b><Count value={Math.round(s.v * 100)} /><small>%</small></b>
+          {labels && size !== "sm" && <span>{s.t}</span>}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// Compte à rebours jusqu'au prochain coup d'envoi.
+export function Countdown({ date, time }) {
+  const target = new Date(`${date}T${time || "21:00"}:00`).getTime();
+  const [now, setNow] = React.useState(Date.now());
+  React.useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 30000);
+    return () => clearInterval(id);
+  }, []);
+  const ms = target - now;
+  if (ms <= 0) return <span className="cd cd-live">Coup d'envoi passé</span>;
+  const d = Math.floor(ms / 864e5), h = Math.floor((ms % 864e5) / 36e5), m = Math.floor((ms % 36e5) / 6e4);
+  return (
+    <span className="cd" aria-label={`Coup d'envoi dans ${d} jours ${h} heures ${m} minutes`}>
+      {d > 0 && <><b>{d}</b>j </>}<b>{String(h).padStart(2, "0")}</b>h <b>{String(m).padStart(2, "0")}</b>min
+    </span>
+  );
+}

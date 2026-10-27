@@ -1,5 +1,5 @@
 import React from "react";
-import { Badge, ProbaPitch, DemoBanner } from "../components/ui.jsx";
+import { Badge, ProbaBlade, DemoBanner } from "../components/ui.jsx";
 import { debrief, pct } from "../model/narrative.js";
 import { matchId, formatDate } from "../lib/store.js";
 
@@ -52,7 +52,7 @@ export default function Debrief({ md, data, picks }) {
                 <b>{m.hg}<i>-</i>{m.ag}</b>
                 <span className="t t-r"><span className="nm">{A.name}</span><Badge team={A} size={28} /></span>
               </div>
-              <ProbaPitch p={m.pred.p} home={H} away={A} size="sm" />
+              <ProbaBlade p={m.pred.p} home={H} away={A} size="sm" />
               <p className="db-verdict">
                 <span className="tag">{d.right ? "Vu juste" : "Raté"}</span>
                 {d.verdict}

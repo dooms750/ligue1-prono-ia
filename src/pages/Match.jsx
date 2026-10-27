@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import { Badge, Form, ProbaPitch, Confidence, ScoreGrid, PressList } from "../components/ui.jsx";
+import { Badge, Form, Confidence, ScoreGrid, PressList, ProbaBlade, Countdown, pairColors } from "../components/ui.jsx";
 import Stadium3D from "../components/Stadium3D.jsx";
 import { WeatherCard } from "../components/Weather.jsx";
 import { predict } from "../model/predict.js";
@@ -21,6 +21,7 @@ export default function Match({ id, data, picks, setPick }) {
   if (!m) return <p className="empty">Ce match n'est pas dans la journée à venir. <a href="#/">Revenir à la journée</a></p>;
 
   const H = teams[m.home], A = teams[m.away];
+  const [cH, cA] = pairColors(H, A);
   const base = predict(m, teams, {});
   const cur = predict(m, teams, active);
   const ia = predict(m, teams, initial);
@@ -39,17 +40,25 @@ export default function Match({ id, data, picks, setPick }) {
   return (
     <article className="match">
       <div className="match-stage">
-        <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(60vh, 460px)" rain={!!active.pluie}
-          fallback={<div style={{ padding: "16px" }}><ProbaPitch p={cur.p} home={H} away={A} size="lg" /></div>} />
-        <header className="match-head">
-          <p className="kicker">{formatKick(m)} · {m.md}e journée</p>
-          <div className="match-teams">
-            <div><Badge team={H} size={40} /><h1>{H.name}</h1></div>
-            <span>contre</span>
-            <div><h1>{A.name}</h1><Badge team={A} size={40} /></div>
+        <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(58vh, 460px)" rain={!!active.pluie} offsetY={0.1}
+          fallback={<div style={{ height: 120 }} />} />
+        <header className="scorebug">
+          <div className="scorebug-row">
+            <span className="sb-team" style={{ "--c": cH }}><Badge team={H} size={30} /><b>{H.name}</b></span>
+            <span className="sb-mid">J{m.md}</span>
+            <span className="sb-team sb-away" style={{ "--c": cA }}><b>{A.name}</b><Badge team={A} size={30} /></span>
           </div>
+          <p className="scorebug-sub">{formatKick(m)} · coup d'envoi dans <Countdown date={m.date} time={m.time} /></p>
         </header>
         <span className="s3d-hint">Fais glisser pour tourner autour du terrain</span>
+      </div>
+
+      <div className="sticky-blade">
+        <ProbaBlade p={cur.p} home={H} away={A} size="md" />
+        <div className="sticky-meta">
+          <Confidence c={confidence(cur.p)} />
+          {changed ? <span className="tuned">Réglé par toi</span> : <span>Pronostic de l'IA</span>}
+        </div>
       </div>
 
       <div className="match-bar">
@@ -107,7 +116,7 @@ export default function Match({ id, data, picks, setPick }) {
         <h2>Les leviers</h2>
         <p className="muted">
           Cinq facteurs qui comptent vraiment. Ceux marqués « détecté » ont été allumés par l'IA à partir de la presse,
-          du calendrier ou de la météo. Touche-les pour voir leur poids : les colonnes du stade bougent en direct.
+          du calendrier ou de la météo. Touche-les : le bandeau en haut et les colonnes du stade bougent en direct.
         </p>
         <div className="levers">
           {levers.map((l) => (
@@ -129,7 +138,6 @@ export default function Match({ id, data, picks, setPick }) {
             </label>
           ))}
         </div>
-        <ProbaPitch p={cur.p} home={H} away={A} size="md" />
         <p className="explain" aria-live="polite">
           {lastWhy || "Touche un levier : l'explication de son effet s'affiche ici."}
         </p>
