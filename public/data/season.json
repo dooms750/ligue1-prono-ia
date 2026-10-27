@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-27T08:41+00:00",
-  "generatedAt": "2026-10-27T08:43+00:00"
+  "fetchedAt": "2026-10-27T12:15+00:00",
+  "generatedAt": "2026-10-27T12:17+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5311,32 +5311,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "\"Le peuple rouge et bleu avec toi\" : le PSG fait bloc derrière Khvitcha Kvaratskhelia, blessé au genou",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/le-peuple-rouge-et-bleu-avec-toi-le-psg-fait-bloc-derriere-khvitcha-kvaratskhelia-blesse-au-genou-43678807",
-        "time": "2026-10-27T06:40:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "PSG : \"C'est une Formule 1, c'est une machine !\" ... Luis Enrique soufflé par l'un de ses joueurs !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-cest-une-formule-1-cest-une-machine-luis-enrique-souffle-par-lun-de-ses-joueurs-43679130",
-        "time": "2026-10-27T08:28:00Z"
+        "title": "PSG - La grosse pensée de Luis Enrique pour Khvicha Kvaratskhelia après la victoire face à Lyon",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-la-grosse-pensee-de-luis-enrique-pour-khvicha-kvaratskhelia-apres-la-victoire-face-a-lyon-43679982",
+        "time": "2026-10-27T11:34:00Z"
        },
        {
-        "title": "Revue de presse : Ballon d’Or 2026 et PSG/Lyon, avec la 1ere place obtenue",
+        "title": "Ballon d’Or – Le PSG sacré club de l'année pour la deuxième fois",
+        "publisher": "Stats Perform",
+        "url": "https://onefootball.com/fr/video/ballon-dor-le-psg-sacre-club-de-lannee-pour-la-deuxieme-fois-3LHA7V9II2ivAaDCxrHHTbUPXEd",
+        "time": "2026-10-27T11:27:33Z"
+       },
+       {
+        "title": "Vidéo PSG/Lyon – Paris 1er, Mayulu et Godts lancés, Ballon d’Or…le débrief",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/revue-de-presse-ballon-dor-2026-et-psglyon-avec-la-1ere-place-obtenue-43679011",
-        "time": "2026-10-27T08:00:11Z"
-       },
-       {
-        "title": "Le PSG vise Ibrahim Maza : Leverkusen pourrait perdre son  joyau !",
-        "publisher": "Le Fussball",
-        "url": "https://onefootball.com/fr/news/le-psg-vise-ibrahim-maza-leverkusen-pourrait-perdre-son-joyau-43678908",
-        "time": "2026-10-27T07:20:00Z"
+        "url": "https://onefootball.com/fr/news/video-psglyon-paris-1er-mayulu-et-godts-lances-ballon-dorle-debrief-43679882",
+        "time": "2026-10-27T11:16:35Z"
        }
       ],
       "scorer": {
@@ -5351,7 +5344,7 @@
      "stadium": "Stade Océane",
      "roof": false,
      "daysBefore": 3,
-     "temp": 10,
+     "temp": 9,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
@@ -5360,13 +5353,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 83,
+     "confidence": 84,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5374,13 +5367,90 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 83
+       "conf": 84
       }
      ]
     }
    },
    "lh": 1.106,
    "la": 1.891
+  },
+  {
+   "md": 9,
+   "date": "2026-10-30",
+   "time": "19:00",
+   "home": "NIC",
+   "away": "REN",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688721",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue 1 - Le match OGC Nice - Stade Rennais (J9 L1) change également de date !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-match-ogc-nice-stade-rennais-j9-l1-change-egalement-de-date-43676583",
+        "time": "2026-10-26T18:03:00Z"
+       },
+       {
+        "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337",
+        "time": "2026-10-24T07:50:00Z"
+       },
+       {
+        "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102",
+        "time": "2026-10-24T06:39:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Elye Wahi",
+       "goals": 3
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue Europa - La rencontre entre le Stade Rennais et l'Olympiacos pourrait être avancée",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-europa-la-rencontre-entre-le-stade-rennais-et-lolympiacos-pourrait-etre-avancee-43675657",
+        "time": "2026-10-26T15:09:00Z"
+       },
+       {
+        "title": "Stade rennais - Strasbourg : résumé vidéo",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-resume-video-43674192",
+        "time": "2026-10-26T10:45:09Z"
+       },
+       {
+        "title": "Stade Rennais : Haise a trouvé la formule, Camara révèle ce qui a changé",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601",
+        "time": "2026-10-26T09:00:33Z"
+       }
+      ],
+      "scorer": {
+       "name": "Estéban Lepaul",
+       "goals": 7
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.427,
+   "la": 1.63
   },
   {
    "md": 9,
@@ -5430,22 +5500,22 @@
       "absences": [],
       "other": [
        {
+        "title": "« Incompréhensible » ou « nécessaire », la sanction du RC Lens avant le derby du nord divise les supporters",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/incomprehensible-ou-necessaire-la-sanction-du-rc-lens-avant-le-derby-du-nord-divise-les-supporters-43679846",
+        "time": "2026-10-27T11:08:56Z"
+       },
+       {
+        "title": "[L1-J8] RC Lens – Paris, troisième meilleure affluence de la journée",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/l1-j8-rc-lens-paris-troisieme-meilleure-affluence-de-la-journee-43679278",
+        "time": "2026-10-27T09:00:41Z"
+       },
+       {
         "title": "Ducourtioux buteur, Bermont et Fortin sur le banc : le tour d’horizon du week-end des prêtés du RC Lens",
         "publisher": "Lensois.com",
         "url": "https://onefootball.com/fr/news/ducourtioux-buteur-bermont-et-fortin-sur-le-banc-le-tour-dhorizon-du-week-end-des-pretes-du-rc-lens-43679065",
         "time": "2026-10-27T08:07:02Z"
-       },
-       {
-        "title": "Thorgan Hazard, l’option avant-centre validée",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/thorgan-hazard-loption-avant-centre-validee-43678964",
-        "time": "2026-10-27T07:35:36Z"
-       },
-       {
-        "title": "[Vidéo] Le débrief de RC Lens – Paris FC avec Lens Foot, c’est dispo sur Lensois.com !",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/video-le-debrief-de-rc-lens-paris-fc-avec-lens-foot-cest-dispo-sur-lensoiscom-43678826",
-        "time": "2026-10-27T06:47:12Z"
        }
       ],
       "scorer": {
@@ -5469,13 +5539,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 82,
+     "confidence": 83,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5483,122 +5553,13 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 82
+       "conf": 83
       }
      ]
     }
    },
    "lh": 1.469,
    "la": 1.241
-  },
-  {
-   "md": 9,
-   "date": "2026-10-31",
-   "time": "17:15",
-   "home": "NIC",
-   "away": "REN",
-   "odds": null,
-   "src": "https://onefootball.com/fr/match/2688721",
-   "ctx": {
-    "known": true,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "beau",
-    "press": {
-     "H": {
-      "absences": [],
-      "other": [
-       {
-        "title": "Ligue 1 - Le match OGC Nice - Stade Rennais (J9 L1) change également de date !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-match-ogc-nice-stade-rennais-j9-l1-change-egalement-de-date-43676583",
-        "time": "2026-10-26T18:03:00Z"
-       },
-       {
-        "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337",
-        "time": "2026-10-24T07:50:00Z"
-       },
-       {
-        "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102",
-        "time": "2026-10-24T06:39:00Z"
-       }
-      ],
-      "scorer": {
-       "name": "Elye Wahi",
-       "goals": 3
-      },
-      "scorerOut": null
-     },
-     "A": {
-      "absences": [],
-      "other": [
-       {
-        "title": "Ligue 1 : Le Stade Rennais et l’OL dominent un classement européen surprenant",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-stade-rennais-et-lol-dominent-un-classement-europeen-surprenant-43679154",
-        "time": "2026-10-27T08:30:07Z"
-       },
-       {
-        "title": "Ligue Europa - La rencontre entre le Stade Rennais et l'Olympiacos pourrait être avancée",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-europa-la-rencontre-entre-le-stade-rennais-et-lolympiacos-pourrait-etre-avancee-43675657",
-        "time": "2026-10-26T15:09:00Z"
-       },
-       {
-        "title": "Stade rennais - Strasbourg : résumé vidéo",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-resume-video-43674192",
-        "time": "2026-10-26T10:45:09Z"
-       }
-      ],
-      "scorer": {
-       "name": "Estéban Lepaul",
-       "goals": 7
-      },
-      "scorerOut": null
-     }
-    },
-    "meteo": {
-     "kind": "beau",
-     "stadium": "Allianz Riviera",
-     "roof": false,
-     "daysBefore": 4,
-     "temp": 18,
-     "desc": "plutôt dégagé",
-     "code": 1,
-     "rain": 0,
-     "rainMax": 0,
-     "gust": 24,
-     "pRain": 0.0,
-     "pWind": 0.0,
-     "members": 51,
-     "confidence": 77,
-     "confidenceLabel": "forte",
-     "sources": [
-      "ECMWF (51 scénarios)",
-      "modèle mondial"
-     ],
-     "updated": "2026-10-27T08:29+00:00",
-     "history": [
-      {
-       "day": "2026-10-27",
-       "daysBefore": 4,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 17,
-       "conf": 77
-      }
-     ]
-    }
-   },
-   "lh": 1.427,
-   "la": 1.63
   },
   {
    "md": 9,
@@ -5620,22 +5581,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Bidstrup, Tolisso, Morton… L’hécatombe se poursuit dans l’entrejeu",
-        "publisher": "FerveurLyonnaise",
-        "url": "https://onefootball.com/fr/news/bidstrup-tolisso-morton-lhecatombe-se-poursuit-dans-lentrejeu-43679111",
-        "time": "2026-10-27T08:25:09Z"
+        "title": "Fonseca salue la performance tactique de Lyon malgré la défaite face au PSG",
+        "publisher": "Olympique Lyonnais",
+        "url": "https://onefootball.com/fr/video/fonseca-salue-la-performance-tactique-de-lyon-malgre-la-defaite-face-au-psg-3LHEeBYi1xj0P596I7gR2yXGVds",
+        "time": "2026-10-27T12:03:54Z"
        },
        {
-        "title": "OL : alerte rouge pour les Gones après la défaite à Paris, trois nouveaux joueurs confrontés à des pépins physiques",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ol-alerte-rouge-pour-les-gones-apres-la-defaite-a-paris-trois-nouveaux-joueurs-confrontes-a-des-pepins-physiques-43678906",
-        "time": "2026-10-27T07:23:00Z"
+        "title": "Ligue 1 : OL - Angers se jouera finalement dimanche",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ligue-1-ol-angers-se-jouera-finalement-dimanche-43680138",
+        "time": "2026-10-27T12:00:00Z"
        },
        {
-        "title": "Daniel Riolo :  » Si tu es l’OL, tu ne peux pas de contenter d’un Tolisso moyen, ça doit être ton meilleur joueur »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/daniel-riolo-si-tu-es-lol-tu-ne-peux-pas-de-contenter-dun-tolisso-moyen-ca-doit-etre-ton-meilleur-joueur-43678677",
-        "time": "2026-10-27T05:29:32Z"
+        "title": "OFFICIEL : OL - Angers décalé au 1er novembre",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/officiel-ol-angers-decale-au-1er-novembre-43680060",
+        "time": "2026-10-27T11:45:00Z"
        }
       ],
       "scorer": {
@@ -5672,7 +5633,7 @@
      "stadium": "Groupama Stadium",
      "roof": false,
      "daysBefore": 4,
-     "temp": 8,
+     "temp": 9,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -5681,13 +5642,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 76,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5695,7 +5656,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 76
+       "conf": 77
       }
      ]
     }
@@ -5723,6 +5684,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Lorient-Brest et Nice-Rennes reportés : vers d'autres rencontres de Ligue 1 et Ligue 2 menacées ?",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lorient-brest-et-nice-rennes-reportes-vers-dautres-rencontres-de-ligue-1-et-ligue-2-menacees-43679375",
+        "time": "2026-10-27T09:29:00Z"
+       },
+       {
         "title": "Lorient-Brest : à la demande de la Préfecture, la LFP modifie la programmation du derby",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/lorient-brest-a-la-demande-de-la-prefecture-la-lfp-modifie-la-programmation-du-derby-43676649",
@@ -5733,12 +5700,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343",
         "time": "2026-10-26T17:18:00Z"
-       },
-       {
-        "title": "Ligue 1 : le derby entre Lorient et Brest décalé au lundi soir",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-entre-lorient-et-brest-decale-au-lundi-soir-43676313",
-        "time": "2026-10-26T17:10:00Z"
        }
       ],
       "scorer": {
@@ -5761,12 +5722,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-lachuer-et-magnetti-pointent-un-mal-qui-se-repete-43663171",
         "time": "2026-10-24T07:00:10Z"
-       },
-       {
-        "title": "« Ça ne m’était jamais arrivé » : Yehvann Diouf revient sur sa drôle de soirée pendant Brest-Nice",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102",
-        "time": "2026-10-24T06:39:00Z"
        }
       ],
       "scorer": {
@@ -5790,13 +5745,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 76,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5804,7 +5759,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 76
+       "conf": 77
       }
      ]
     }
@@ -5852,7 +5807,7 @@
      "stadium": "Stade de l'Aube",
      "roof": false,
      "daysBefore": 4,
-     "temp": 8,
+     "temp": 9,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
@@ -5861,13 +5816,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 76,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5875,7 +5830,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 76
+       "conf": 77
       }
      ]
     }
@@ -5958,13 +5913,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 70,
+     "confidence": 71,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5972,7 +5927,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 70
+       "conf": 71
       }
      ]
     }
@@ -6068,13 +6023,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 70,
+     "confidence": 71,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6082,7 +6037,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 12,
-       "conf": 70
+       "conf": 71
       }
      ]
     }
@@ -6110,22 +6065,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – Harit heureux du retour en forme d’Himad Abdelli",
+        "title": "OM – Gros plan sur l’attaquant Francis Amuzu",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-harit-heureux-du-retour-en-forme-dhimad-abdelli-43679029",
-        "time": "2026-10-27T08:00:33Z"
+        "url": "https://onefootball.com/fr/news/om-gros-plan-sur-lattaquant-francis-amuzu-43680195",
+        "time": "2026-10-27T12:00:19Z"
        },
        {
-        "title": "OM : meilleure attaque du championnat, joueurs écartés, carton plein... le paradoxe marseillais",
+        "title": "OM : la décision radicale de Genesio avec Moumbagna",
         "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-meilleure-attaque-du-championnat-joueurs-ecartes-carton-plein-le-paradoxe-marseillais-43678772",
-        "time": "2026-10-27T06:29:00Z"
+        "url": "https://onefootball.com/fr/news/om-la-decision-radicale-de-genesio-avec-moumbagna-43680140",
+        "time": "2026-10-27T12:00:00Z"
        },
        {
-        "title": "OM-Le Havre (4-3) Genesio revient sur la physionomie du match",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-le-havre-4-3-genesio-revient-sur-la-physionomie-du-match-43678371",
-        "time": "2026-10-27T01:00:19Z"
+        "title": "OM : après Abdallah, un autre attaquant de l’équipe rétrogradé par Bruno Génésio",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/om-apres-abdallah-un-autre-attaquant-de-lequipe-retrograde-par-bruno-genesio-43679921",
+        "time": "2026-10-27T11:28:00Z"
        }
       ],
       "scorer": {
@@ -6165,13 +6120,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 69,
-     "confidenceLabel": "moyenne",
+     "confidence": 70,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T08:42+00:00",
+     "updated": "2026-10-27T12:16+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6179,7 +6134,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 14,
-       "conf": 69
+       "conf": 70
       }
      ]
     }
