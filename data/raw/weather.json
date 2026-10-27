@@ -13,13 +13,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 71,
+  "confidence": 72,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -27,7 +27,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 11,
-    "conf": 71
+    "conf": 72
    }
   ]
  },
@@ -45,13 +45,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 85,
+  "confidence": 86,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -59,7 +59,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 85
+    "conf": 86
    }
   ]
  },
@@ -77,13 +77,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 85,
+  "confidence": 86,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -91,7 +91,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 8,
-    "conf": 85
+    "conf": 86
    }
   ]
  },
@@ -100,7 +100,7 @@
   "stadium": "Stade du Moustoir",
   "roof": false,
   "daysBefore": 6,
-  "temp": 10,
+  "temp": 11,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
@@ -109,13 +109,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 65,
+  "confidence": 66,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -123,7 +123,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 65
+    "conf": 66
    }
   ]
  },
@@ -133,21 +133,21 @@
   "roof": false,
   "daysBefore": 5,
   "temp": 14,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "desc": "plutôt dégagé",
+  "code": 1,
   "rain": 0,
-  "rainMax": 0.9,
+  "rainMax": 0.6,
   "gust": 23,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 71,
+  "confidence": 72,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T15:49+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -155,7 +155,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 14,
-    "conf": 71
+    "conf": 72
    }
   ]
  },
@@ -205,13 +205,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 72,
+  "confidence": 73,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -219,7 +219,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 12,
-    "conf": 72
+    "conf": 73
    }
   ]
  },
@@ -237,13 +237,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 73,
+  "confidence": 74,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -251,7 +251,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 11,
-    "conf": 73
+    "conf": 74
    }
   ]
  },
@@ -269,13 +269,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 78,
+  "confidence": 80,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-27T21:22+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -283,7 +283,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 8,
-    "conf": 78
+    "conf": 80
    }
   ]
  }

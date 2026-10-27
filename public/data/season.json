@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-27T16:50+00:00",
-  "generatedAt": "2026-10-27T16:52+00:00"
+  "fetchedAt": "2026-10-27T21:21+00:00",
+  "generatedAt": "2026-10-27T21:23+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5327,22 +5327,22 @@
       ],
       "other": [
        {
-        "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-ol-on-a-pose-plus-de-problemes-que-le-barca-et-city-fonseca-fier-de-son-equipe-43681283",
-        "time": "2026-10-27T15:27:00Z"
+        "title": "PSG/Lyon – Luis Enrique fier de la mentalité des remplaçants",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psglyon-luis-enrique-fier-de-la-mentalite-des-remplacants-43682954",
+        "time": "2026-10-27T21:00:18Z"
        },
        {
-        "title": "PSG - La réaction amusée de Senny Mayulu à une question sur le Ballon d'Or",
+        "title": "PSG - Le PSG répond au rédacteur en chef de France Football !",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-la-reaction-amusee-de-senny-mayulu-a-une-question-sur-le-ballon-dor-43681218",
-        "time": "2026-10-27T15:12:00Z"
+        "url": "https://onefootball.com/fr/news/psg-le-psg-repond-au-redacteur-en-chef-de-france-football-43682929",
+        "time": "2026-10-27T20:54:00Z"
        },
        {
-        "title": "PSG - Nasser Al-Khelaïfi réagit au nouveau trophée remporté par le PSG lors de la cérémonie du Ballon d'Or",
+        "title": "Mercato PSG - Le PSG a ciblé ce joueur de Bundesliga pour renforcer sa ligne offensive !",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-reagit-au-nouveau-trophee-remporte-par-le-psg-lors-de-la-ceremonie-du-ballon-dor-43681122",
-        "time": "2026-10-27T14:56:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-a-cible-ce-joueur-de-bundesliga-pour-renforcer-sa-ligne-offensive-43682276",
+        "time": "2026-10-27T18:43:00Z"
        }
       ],
       "scorer": {
@@ -5366,13 +5366,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 85,
+     "confidence": 86,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5380,7 +5380,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 85
+       "conf": 86
       }
      ]
     }
@@ -5436,6 +5436,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Ligue Europa : Rennes - Olympiakos officiellement avancé au mercredi 4 novembre à 16h30",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/ligue-europa-rennes-olympiakos-officiellement-avance-au-mercredi-4-novembre-a-16h30-43681969",
+        "time": "2026-10-27T17:40:09Z"
+       },
+       {
         "title": "OFFICIEL : l'horaire lunaire de Rennes-Olympiakos annoncé par l'UEFA",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/officiel-lhoraire-lunaire-de-rennes-olympiakos-annonce-par-luefa-43681620",
@@ -5446,12 +5452,6 @@
         "publisher": "Stade Rennais Online",
         "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-vu-par-rv-43680594",
         "time": "2026-10-27T13:10:10Z"
-       },
-       {
-        "title": "Ligue Europa - La rencontre entre le Stade Rennais et l'Olympiacos pourrait être avancée",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-europa-la-rencontre-entre-le-stade-rennais-et-lolympiacos-pourrait-etre-avancee-43675657",
-        "time": "2026-10-26T15:09:00Z"
        }
       ],
       "scorer": {
@@ -5545,22 +5545,22 @@
       "absences": [],
       "other": [
        {
-        "title": "« Incompréhensible » ou « nécessaire », la sanction du RC Lens avant le derby du nord divise les supporters",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/incomprehensible-ou-necessaire-la-sanction-du-rc-lens-avant-le-derby-du-nord-divise-les-supporters-43679846",
-        "time": "2026-10-27T11:08:56Z"
+        "title": "RC Lens : l'UEFA sévit après les débordements survenus à Bruges",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/rc-lens-luefa-sevit-apres-les-debordements-survenus-a-bruges-43682216",
+        "time": "2026-10-27T18:29:00Z"
        },
        {
-        "title": "[L1-J8] RC Lens – Paris, troisième meilleure affluence de la journée",
+        "title": "Les supporters du RC Lens privés de déplacement à Leipzig et à Liverpool",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/l1-j8-rc-lens-paris-troisieme-meilleure-affluence-de-la-journee-43679278",
-        "time": "2026-10-27T09:00:41Z"
+        "url": "https://onefootball.com/fr/news/les-supporters-du-rc-lens-prives-de-deplacement-a-leipzig-et-a-liverpool-43682202",
+        "time": "2026-10-27T18:24:54Z"
        },
        {
-        "title": "Ducourtioux buteur, Bermont et Fortin sur le banc : le tour d’horizon du week-end des prêtés du RC Lens",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/ducourtioux-buteur-bermont-et-fortin-sur-le-banc-le-tour-dhorizon-du-week-end-des-pretes-du-rc-lens-43679065",
-        "time": "2026-10-27T08:07:02Z"
+        "title": "RC Lens - L'UEFA sanctionne lourdement le RCL et ses supporters !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-luefa-sanctionne-lourdement-le-rcl-et-ses-supporters-43682196",
+        "time": "2026-10-27T18:24:00Z"
        }
       ],
       "scorer": {
@@ -5584,13 +5584,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 85,
+     "confidence": 86,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5598,7 +5598,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 85
+       "conf": 86
       }
      ]
     }
@@ -5655,13 +5655,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 78,
+     "confidence": 80,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5669,7 +5669,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 78
+       "conf": 80
       }
      ]
     }
@@ -5752,13 +5752,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 73,
+     "confidence": 74,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5766,7 +5766,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 73
+       "conf": 74
       }
      ]
     }
@@ -5855,13 +5855,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 71,
+     "confidence": 72,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5869,7 +5869,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 71
+       "conf": 72
       }
      ]
     }
@@ -5926,6 +5926,12 @@
       ],
       "other": [
        {
+        "title": "AS Monaco - Le programme de la semaine de l'ASM du 26 octobre au 1er novembre",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-le-programme-de-la-semaine-de-lasm-du-26-octobre-au-1er-novembre-43682532",
+        "time": "2026-10-27T19:30:00Z"
+       },
+       {
         "title": "AS Monaco - Un club anglais suit de près Lamine Camara",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-un-club-anglais-suit-de-pres-lamine-camara-43676299",
@@ -5936,12 +5942,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329",
         "time": "2026-10-26T11:00:35Z"
-       },
-       {
-        "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
-        "publisher": "AS Monaco",
-        "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue",
-        "time": "2026-10-26T09:41:00Z"
        }
       ],
       "scorer": {
@@ -5965,13 +5965,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 72,
+     "confidence": 73,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5979,7 +5979,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 12,
-       "conf": 72
+       "conf": 73
       }
      ]
     }
@@ -6014,22 +6014,22 @@
       ],
       "other": [
        {
+        "title": "Mercato - OM : grosse décision avec Mmadi et Valero ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-om-grosse-decision-avec-mmadi-et-valero-43682514",
+        "time": "2026-10-27T19:30:00Z"
+       },
+       {
+        "title": "OM – Abdallah prêt à se battre pour regagner sa place",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-abdallah-pret-a-se-battre-pour-regagner-sa-place-43681819",
+        "time": "2026-10-27T17:00:31Z"
+       },
+       {
         "title": "OM – Moumbagna ne comprend pas la décision de Genesio",
         "publisher": "CoeurMarseillais",
         "url": "https://onefootball.com/fr/news/om-moumbagna-ne-comprend-pas-la-decision-de-genesio-43681181",
         "time": "2026-10-27T15:00:59Z"
-       },
-       {
-        "title": "OM - Bruno Genesio a pris une décision radicale pour Faris Moumbagna",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-bruno-genesio-a-pris-une-decision-radicale-pour-faris-moumbagna-43680717",
-        "time": "2026-10-27T13:33:00Z"
-       },
-       {
-        "title": "OM - L'attitude de Keyliane Abdallah face à la sanction de Bruno Genesio",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-lattitude-de-keyliane-abdallah-face-a-la-sanction-de-bruno-genesio-43680273",
-        "time": "2026-10-27T12:10:00Z"
        }
       ],
       "scorer": {
@@ -6061,21 +6061,21 @@
      "roof": false,
      "daysBefore": 5,
      "temp": 14,
-     "desc": "ciel dégagé",
-     "code": 0,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 0.9,
+     "rainMax": 0.6,
      "gust": 23,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 71,
+     "confidence": 72,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:49+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6083,7 +6083,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 14,
-       "conf": 71
+       "conf": 72
       }
      ]
     }
@@ -6163,7 +6163,7 @@
      "stadium": "Stade du Moustoir",
      "roof": false,
      "daysBefore": 6,
-     "temp": 10,
+     "temp": 11,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -6172,13 +6172,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 65,
+     "confidence": 66,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-27T21:22+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6186,7 +6186,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 65
+       "conf": 66
       }
      ]
     }

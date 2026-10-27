@@ -6481,6 +6481,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688744": {
+   "id": 2688744,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-29T14:00:00Z",
+   "status": "",
+   "period": 1,
+   "home": "AJ Auxerre",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/aj-auxerre-253",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -6548,6 +6568,12 @@
   ],
   "AS Monaco": [
    {
+    "title": "AS Monaco - Le programme de la semaine de l'ASM du 26 octobre au 1er novembre",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T19:30:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-le-programme-de-la-semaine-de-lasm-du-26-octobre-au-1er-novembre-43682532"
+   },
+   {
     "title": "AS Monaco - Nouveau coup d'arrêt longue durée pour Ansu Fati, qui est fixé après sa blessure face au LOSC",
     "publisher": "MadeInFOOT",
     "time": "2026-10-26T19:00:00Z",
@@ -6588,12 +6614,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T18:30:00Z",
     "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341"
-   },
-   {
-    "title": "ASM-LOSC : les tops, les flops",
-    "publisher": "ASM-SUPPORTERS.FR",
-    "time": "2026-10-25T17:24:09Z",
-    "url": "https://onefootball.com/fr/news/asm-losc-les-tops-les-flops-43670953"
    }
   ],
   "Angers SCO": [
@@ -7076,6 +7096,24 @@
   ],
   "Olympique de Marseille": [
    {
+    "title": "Loïc Tanzi : « Le problème à l’OM, c’est l’environnement cette année »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-27T20:00:37Z",
+    "url": "https://onefootball.com/fr/news/loic-tanzi-le-probleme-a-lom-cest-lenvironnement-cette-annee-43682721"
+   },
+   {
+    "title": "Mercato - OM : grosse décision avec Mmadi et Valero ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T19:30:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-grosse-decision-avec-mmadi-et-valero-43682514"
+   },
+   {
+    "title": "OM – Abdallah prêt à se battre pour regagner sa place",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-27T17:00:31Z",
+    "url": "https://onefootball.com/fr/news/om-abdallah-pret-a-se-battre-pour-regagner-sa-place-43681819"
+   },
+   {
     "title": "OM – Paixão touché à l’épaule, quel verdict ?",
     "publisher": "CoeurMarseillais",
     "time": "2026-10-27T16:00:59Z",
@@ -7116,27 +7154,39 @@
     "publisher": "Foot National",
     "time": "2026-10-27T11:28:00Z",
     "url": "https://onefootball.com/fr/news/om-apres-abdallah-un-autre-attaquant-de-lequipe-retrograde-par-bruno-genesio-43679921"
-   },
-   {
-    "title": "OM – Turpin, la statistique qui fâche",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T10:00:46Z",
-    "url": "https://onefootball.com/fr/news/om-turpin-la-statistique-qui-fache-43679515"
-   },
-   {
-    "title": "Pierre Ménès : « Clément Turpin a sauvé l’OM d’un match nul »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-27T08:00:26Z",
-    "url": "https://onefootball.com/fr/news/pierre-menes-clement-turpin-a-sauve-lom-dun-match-nul-43679046"
-   },
-   {
-    "title": "OM : meilleure attaque du championnat, joueurs écartés, carton plein... le paradoxe marseillais",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T06:29:00Z",
-    "url": "https://onefootball.com/fr/news/om-meilleure-attaque-du-championnat-joueurs-ecartes-carton-plein-le-paradoxe-marseillais-43678772"
    }
   ],
   "PSG": [
+   {
+    "title": "PSG/Lyon – Luis Enrique fier de la mentalité des remplaçants",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-27T21:00:18Z",
+    "url": "https://onefootball.com/fr/news/psglyon-luis-enrique-fier-de-la-mentalite-des-remplacants-43682954"
+   },
+   {
+    "title": "PSG - Le PSG répond au rédacteur en chef de France Football !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T20:54:00Z",
+    "url": "https://onefootball.com/fr/news/psg-le-psg-repond-au-redacteur-en-chef-de-france-football-43682929"
+   },
+   {
+    "title": "Mercato PSG - Le PSG a ciblé ce joueur de Bundesliga pour renforcer sa ligne offensive !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T18:43:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-a-cible-ce-joueur-de-bundesliga-pour-renforcer-sa-ligne-offensive-43682276"
+   },
+   {
+    "title": "PSG/Lyon – Les supporters ont élu le meilleur joueur parisien",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-27T18:30:21Z",
+    "url": "https://onefootball.com/fr/news/psglyon-les-supporters-ont-elu-le-meilleur-joueur-parisien-43682227"
+   },
+   {
+    "title": "Dominique Séverac : « Pour Kvara, le 5 juin, avec une blessure comme ça… »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-27T17:59:10Z",
+    "url": "https://onefootball.com/fr/news/dominique-severac-pour-kvara-le-5-juin-avec-une-blessure-comme-ca-43682061"
+   },
    {
     "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
     "publisher": "OnzeMondial",
@@ -7166,36 +7216,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-27T14:27:00Z",
     "url": "https://onefootball.com/fr/news/psg-tres-bonne-nouvelle-kvaratskhelia-opere-avec-succes-43680989"
-   },
-   {
-    "title": "PSG - Le Paris Saint-Germain donne des nouvelles de Khvicha Kvaratskhelia",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T14:07:00Z",
-    "url": "https://onefootball.com/fr/news/psg-le-paris-saint-germain-donne-des-nouvelles-de-khvicha-kvaratskhelia-43680897"
-   },
-   {
-    "title": "PSG/Lyon – Niakhaté détaille la défaite avec « les regrets »",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-27T14:00:31Z",
-    "url": "https://onefootball.com/fr/news/psglyon-niakhate-detaille-la-defaite-avec-les-regrets-43680851"
-   },
-   {
-    "title": "PSG : Daniel Riolo a déjà choisi ses titulaires à Paris",
-    "publisher": "Morning Foot",
-    "time": "2026-10-27T14:00:05Z",
-    "url": "https://onefootball.com/fr/news/psg-daniel-riolo-a-deja-choisi-ses-titulaires-a-paris-43680853"
-   },
-   {
-    "title": "OL - Après PSG - OL, Abner déplore les occasions manquées en première période",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T13:34:00Z",
-    "url": "https://onefootball.com/fr/news/ol-apres-psg-ol-abner-deplore-les-occasions-manquees-en-premiere-periode-43680688"
-   },
-   {
-    "title": "Le moment où le vainqueur du Ballon d'Or a été annoncé",
-    "publisher": "Stats Perform",
-    "time": "2026-10-27T12:52:29Z",
-    "url": "https://onefootball.com/fr/video/le-moment-ou-le-vainqueur-du-ballon-dor-a-ete-annonce-3LHKYrj4wJnPotIwKy3FofmvPl6"
    }
   ],
   "Paris FC": [
@@ -7262,6 +7282,24 @@
   ],
   "RC Lens": [
    {
+    "title": "RC Lens : l'UEFA sévit après les débordements survenus à Bruges",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T18:29:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-luefa-sevit-apres-les-debordements-survenus-a-bruges-43682216"
+   },
+   {
+    "title": "Les supporters du RC Lens privés de déplacement à Leipzig et à Liverpool",
+    "publisher": "Lensois.com",
+    "time": "2026-10-27T18:24:54Z",
+    "url": "https://onefootball.com/fr/news/les-supporters-du-rc-lens-prives-de-deplacement-a-leipzig-et-a-liverpool-43682202"
+   },
+   {
+    "title": "RC Lens - L'UEFA sanctionne lourdement le RCL et ses supporters !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T18:24:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-luefa-sanctionne-lourdement-le-rcl-et-ses-supporters-43682196"
+   },
+   {
     "title": "[L1-J9] Le concours pronos des internautes",
     "publisher": "Lensois.com",
     "time": "2026-10-27T14:01:14Z",
@@ -7302,24 +7340,6 @@
     "publisher": "Lensois.com",
     "time": "2026-10-27T07:35:36Z",
     "url": "https://onefootball.com/fr/news/thorgan-hazard-loption-avant-centre-validee-43678964"
-   },
-   {
-    "title": "[Vidéo] Le débrief de RC Lens – Paris FC avec Lens Foot, c’est dispo sur Lensois.com !",
-    "publisher": "Lensois.com",
-    "time": "2026-10-27T06:47:12Z",
-    "url": "https://onefootball.com/fr/news/video-le-debrief-de-rc-lens-paris-fc-avec-lens-foot-cest-dispo-sur-lensoiscom-43678826"
-   },
-   {
-    "title": "[L1-J8] Le Paris SG prend les commandes en s’imposant contre Lyon, le RC Lens 7e",
-    "publisher": "Lensois.com",
-    "time": "2026-10-27T06:07:40Z",
-    "url": "https://onefootball.com/fr/news/l1-j8-le-paris-sg-prend-les-commandes-en-simposant-contre-lyon-le-rc-lens-7e-43678747"
-   },
-   {
-    "title": "Harry Kane sacré ballon d’or, Kylian Mbappé sur le podium : le palmarès complet",
-    "publisher": "Lensois.com",
-    "time": "2026-10-27T05:49:17Z",
-    "url": "https://onefootball.com/fr/news/harry-kane-sacre-ballon-dor-kylian-mbappe-sur-le-podium-le-palmares-complet-43678696"
    }
   ],
   "RC Strasbourg": [
@@ -7448,6 +7468,12 @@
   ],
   "Stade Rennais": [
    {
+    "title": "Ligue Europa : Rennes - Olympiakos officiellement avancé au mercredi 4 novembre à 16h30",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-27T17:40:09Z",
+    "url": "https://onefootball.com/fr/news/ligue-europa-rennes-olympiakos-officiellement-avance-au-mercredi-4-novembre-a-16h30-43681969"
+   },
+   {
     "title": "OFFICIEL : l'horaire lunaire de Rennes-Olympiakos annoncé par l'UEFA",
     "publisher": "OnzeMondial",
     "time": "2026-10-27T16:21:00Z",
@@ -7500,12 +7526,6 @@
     "publisher": "Morning Foot",
     "time": "2026-10-26T09:00:33Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-trouve-la-formule-camara-revele-ce-qui-a-change-43673601"
-   },
-   {
-    "title": "Stade Rennais - La réaction géniale de Brice Samba sur la première place du Stade Rennais au classement",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T21:20:00Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-la-reaction-geniale-de-brice-samba-sur-la-premiere-place-du-stade-rennais-au-classement-43671986"
    }
   ],
   "Toulouse FC": [
@@ -7572,7 +7592,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-27T16:50+00:00",
+ "fetchedAt": "2026-10-27T21:21+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
