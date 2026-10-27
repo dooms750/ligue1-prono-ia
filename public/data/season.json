@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-27T15:42+00:00",
-  "generatedAt": "2026-10-27T15:44+00:00"
+  "fetchedAt": "2026-10-27T15:48+00:00",
+  "generatedAt": "2026-10-27T15:50+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5372,7 +5372,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5590,7 +5590,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5646,7 +5646,7 @@
      "stadium": "Stade de l'Aube",
      "roof": false,
      "daysBefore": 4,
-     "temp": 8,
+     "temp": 9,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
@@ -5661,7 +5661,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5713,6 +5713,12 @@
       "absences": [],
       "other": [
        {
+        "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-ne-decolere-pas-et-demande-une-action-inedite-43681340",
+        "time": "2026-10-27T15:30:20Z"
+       },
+       {
         "title": "AJ Auxerre - L'AJ Auxerre tape du poing sur la table et demande à ce que le match nul face au Mans FC ne \"soit pas homologué\"",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/aj-auxerre-laj-auxerre-tape-du-poing-sur-la-table-et-demande-a-ce-que-le-match-nul-face-au-mans-fc-ne-soit-pas-homologue-43675440",
@@ -5723,12 +5729,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-revolte-apres-un-probleme-informatique-inedit-sur-un-but-du-mans-fc-43671911",
         "time": "2026-10-25T20:57:00Z"
-       },
-       {
-        "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572",
-        "time": "2026-10-25T19:15:35Z"
        }
       ],
       "scorer": {
@@ -5758,7 +5758,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5861,7 +5861,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5971,7 +5971,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6057,18 +6057,18 @@
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 0,
+     "rainMax": 0.9,
      "gust": 23,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 70,
+     "confidence": 71,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T12:16+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6076,7 +6076,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 14,
-       "conf": 70
+       "conf": 71
       }
      ]
     }
@@ -6171,7 +6171,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T15:43+00:00",
+     "updated": "2026-10-27T15:49+00:00",
      "history": [
       {
        "day": "2026-10-27",

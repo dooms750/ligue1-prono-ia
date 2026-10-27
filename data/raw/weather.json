@@ -19,7 +19,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -51,7 +51,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -83,7 +83,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -115,7 +115,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -136,18 +136,18 @@
   "desc": "ciel dégagé",
   "code": 0,
   "rain": 0,
-  "rainMax": 0,
+  "rainMax": 0.9,
   "gust": 23,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 70,
+  "confidence": 71,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T12:16+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -155,7 +155,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 14,
-    "conf": 70
+    "conf": 71
    }
   ]
  },
@@ -211,7 +211,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -243,7 +243,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -260,7 +260,7 @@
   "stadium": "Stade de l'Aube",
   "roof": false,
   "daysBefore": 4,
-  "temp": 8,
+  "temp": 9,
   "desc": "ciel dégagé",
   "code": 0,
   "rain": 0,
@@ -275,7 +275,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T15:43+00:00",
+  "updated": "2026-10-27T15:49+00:00",
   "history": [
    {
     "day": "2026-10-27",

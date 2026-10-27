@@ -6441,10 +6441,36 @@
     "home": [],
     "away": []
    }
+  },
+  "2688742": {
+   "id": 2688742,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-20T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "ESTAC Troyes",
+   "away": "Le Havre AC",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/le-havre-ac-701",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
+    "publisher": "Morning Foot",
+    "time": "2026-10-27T15:30:20Z",
+    "url": "https://onefootball.com/fr/news/aja-laj-auxerre-ne-decolere-pas-et-demande-une-action-inedite-43681340"
+   },
    {
     "title": "AJ Auxerre - L'AJ Auxerre tape du poing sur la table et demande à ce que le match nul face au Mans FC ne \"soit pas homologué\"",
     "publisher": "MadeInFOOT",
@@ -6498,12 +6524,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-25T04:50:00Z",
     "url": "https://onefootball.com/fr/news/auxerre-le-mans-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-de-ligue-1-de-deuxieme-partie-de-tableau-43667916"
-   },
-   {
-    "title": "Auxerre sur une énorme dynamique, Will Still appelle au calme",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-24T17:29:00Z",
-    "url": "https://onefootball.com/fr/news/auxerre-sur-une-enorme-dynamique-will-still-appelle-au-calme-43665749"
    }
   ],
   "AS Monaco": [
@@ -6850,6 +6870,12 @@
   ],
   "Le Mans FC": [
    {
+    "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
+    "publisher": "Morning Foot",
+    "time": "2026-10-27T15:30:20Z",
+    "url": "https://onefootball.com/fr/news/aja-laj-auxerre-ne-decolere-pas-et-demande-une-action-inedite-43681340"
+   },
+   {
     "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
     "publisher": "Morning Foot",
     "time": "2026-10-25T19:15:35Z",
@@ -6902,12 +6928,6 @@
     "publisher": "Morning Foot",
     "time": "2026-10-16T20:44:05Z",
     "url": "https://onefootball.com/fr/news/le-mans-seffondre-toulouse-se-regale-les-chiffres-dune-demonstration-43623791"
-   },
-   {
-    "title": "Ligue 1 - Les notes de Le Mans FC - TFC : Toulouse s'impose largement au Mans et se place aux portes de l'Europe",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-16T20:40:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-le-mans-fc-tfc-toulouse-simpose-largement-au-mans-et-se-place-aux-portes-de-leurope-43623771"
    }
   ],
   "OGC Nice": [
@@ -7532,7 +7552,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-27T15:42+00:00",
+ "fetchedAt": "2026-10-27T15:48+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
