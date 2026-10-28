@@ -6865,6 +6865,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688749": {
+   "id": 2688749,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-28T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "OGC Nice",
+   "away": "ESTAC Troyes",
+   "homeLink": "/fr/equipe/ogc-nice-262",
+   "awayLink": "/fr/equipe/estac-troyes-700",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7968,7 +7988,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T18:53+00:00",
+ "fetchedAt": "2026-10-28T18:57+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
