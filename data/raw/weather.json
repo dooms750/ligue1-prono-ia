@@ -13,13 +13,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 79,
+  "confidence": 80,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -35,7 +35,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 79
+    "conf": 80
    }
   ]
  },
@@ -53,13 +53,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 92,
+  "confidence": 93,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -75,7 +75,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 92
+    "conf": 93
    }
   ]
  },
@@ -93,13 +93,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 92,
+  "confidence": 93,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -115,7 +115,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 9,
-    "conf": 92
+    "conf": 93
    }
   ]
  },
@@ -133,13 +133,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 71,
+  "confidence": 72,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -155,7 +155,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 71
+    "conf": 72
    }
   ]
  },
@@ -173,13 +173,13 @@
   "pRain": 0.1,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 70,
+  "confidence": 71,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-28T18:58+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -195,7 +195,7 @@
     "pRain": 0.1,
     "pWind": 0.0,
     "temp": 13,
-    "conf": 70
+    "conf": 71
    }
   ]
  },
@@ -213,13 +213,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 92,
+  "confidence": 93,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -235,7 +235,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 15,
-    "conf": 92
+    "conf": 93
    }
   ]
  },
@@ -293,13 +293,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 80,
+  "confidence": 81,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -315,7 +315,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 80
+    "conf": 81
    }
   ]
  },
@@ -333,13 +333,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 85,
+  "confidence": 86,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T19:04+00:00",
+  "updated": "2026-10-28T21:41+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -355,7 +355,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 8,
-    "conf": 85
+    "conf": 86
    }
   ]
  }

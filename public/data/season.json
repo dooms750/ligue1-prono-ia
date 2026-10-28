@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-28T19:03+00:00",
-  "generatedAt": "2026-10-28T19:05+00:00"
+  "fetchedAt": "2026-10-28T21:39+00:00",
+  "generatedAt": "2026-10-28T21:42+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5606,22 +5606,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Samir Nasri : « Le seul profil que je vois en cador, c’est Vinicius, mais est-ce que tu vas te prendre un problème comme lui au PSG… »",
+        "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253",
+        "time": "2026-10-28T21:02:00Z"
+       },
+       {
+        "title": "Mercato – Maza au PSG : deux réponses nettes à la rumeur",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/mercato-maza-au-psg-deux-reponses-nettes-a-la-rumeur-43688152",
+        "time": "2026-10-28T20:37:57Z"
+       },
+       {
+        "title": "Alain Roche : « Ça va faire du bien à Godts, il fallait qu’il marque pour montrer à tout le monde que c’était un bon joueur »",
         "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/samir-nasri-le-seul-profil-que-je-vois-en-cador-cest-vinicius-mais-est-ce-que-tu-vas-te-prendre-un-probleme-comme-lui-au-psg-43687470",
-        "time": "2026-10-28T18:30:48Z"
-       },
-       {
-        "title": "Mercato : Gonçalo Ramos l'annonce, il voulait déjà partir avant cet été du PSG",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/mercato-goncalo-ramos-lannonce-il-voulait-deja-partir-avant-cet-ete-du-psg-43687187",
-        "time": "2026-10-28T17:32:00Z"
-       },
-       {
-        "title": "Mercato - PSG : premier couac annoncé dans le dossier Maza ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/mercato-psg-premier-couac-annonce-dans-le-dossier-maza-43686715",
-        "time": "2026-10-28T16:01:00Z"
+        "url": "https://onefootball.com/fr/news/alain-roche-ca-va-faire-du-bien-a-godts-il-fallait-quil-marque-pour-montrer-a-tout-le-monde-que-cetait-un-bon-joueur-43687798",
+        "time": "2026-10-28T19:30:03Z"
        }
       ],
       "scorer": {
@@ -5645,13 +5645,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 92,
+     "confidence": 93,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5667,7 +5667,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 92
+       "conf": 93
       }
      ]
     }
@@ -5762,13 +5762,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 92,
+     "confidence": 93,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5784,7 +5784,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 15,
-       "conf": 92
+       "conf": 93
       }
      ]
     }
@@ -5892,13 +5892,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 92,
+     "confidence": 93,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5914,7 +5914,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 9,
-       "conf": 92
+       "conf": 93
       }
      ]
     }
@@ -5971,13 +5971,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 85,
+     "confidence": 86,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5993,7 +5993,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 8,
-       "conf": 85
+       "conf": 86
       }
      ]
     }
@@ -6020,6 +6020,12 @@
      "H": {
       "absences": [],
       "other": [
+       {
+        "title": "Mercato Strasbourg - Le RCSA sécurise l'avenir d'un joueur clé de son effectif ! (officiel)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-strasbourg-le-rcsa-securise-lavenir-dun-joueur-cle-de-son-effectif-officiel-43687913",
+        "time": "2026-10-28T19:48:00Z"
+       },
        {
         "title": "Strasbourg : la chute libre, rien ne va plus au RCSA,  Hugo Oliveira sous pression",
         "publisher": "Morning Foot",
@@ -6082,13 +6088,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 80,
+     "confidence": 81,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6104,7 +6110,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 80
+       "conf": 81
       }
      ]
     }
@@ -6132,6 +6138,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Mercato OL - Zachary Athekame explique pourquoi il a choisi l’OL plutôt que l’OM",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630",
+        "time": "2026-10-28T18:59:00Z"
+       },
+       {
         "title": "OL : deux bonnes nouvelles à l'entraînement ce mercredi",
         "publisher": "Olympique-et-Lyonnais",
         "url": "https://onefootball.com/fr/news/ol-deux-bonnes-nouvelles-a-lentrainement-ce-mercredi-43686623",
@@ -6142,12 +6154,6 @@
         "publisher": "Olympique-et-Lyonnais",
         "url": "https://onefootball.com/fr/news/ol-un-jour-de-recuperation-en-plus-bienvenu-avant-angers-43686422",
         "time": "2026-10-28T15:00:00Z"
-       },
-       {
-        "title": "OL - Dominik Greif réalise une performance record malgré le revers face au PSG",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-dominik-greif-realise-une-performance-record-malgre-le-revers-face-au-psg-43686284",
-        "time": "2026-10-28T14:30:00Z"
        }
       ],
       "scorer": {
@@ -6193,13 +6199,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 79,
+     "confidence": 80,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6215,7 +6221,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 79
+       "conf": 80
       }
      ]
     }
@@ -6355,22 +6361,22 @@
       "absences": [],
       "other": [
        {
+        "title": "OM – Ibrahim Gomis bientôt promu chez les gardiens ?",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-ibrahim-gomis-bientot-promu-chez-les-gardiens-43688255",
+        "time": "2026-10-28T21:00:31Z"
+       },
+       {
+        "title": "OM - Adidas a trouvé un accord, une somme conséquente attend Marseille",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-adidas-a-trouve-un-accord-une-somme-consequente-attend-marseille-43688193",
+        "time": "2026-10-28T20:45:00Z"
+       },
+       {
         "title": "OM – Pérès : « Je ne vois pas McCourt vendre le club à moyen terme »",
         "publisher": "CoeurMarseillais",
         "url": "https://onefootball.com/fr/news/om-peres-je-ne-vois-pas-mccourt-vendre-le-club-a-moyen-terme-43687056",
         "time": "2026-10-28T17:00:03Z"
-       },
-       {
-        "title": "OM - Jérémy Mathieu dézingue le niveau de l'OM et la gestion du club",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-jeremy-mathieu-dezingue-le-niveau-de-lom-et-la-gestion-du-club-43686751",
-        "time": "2026-10-28T16:04:00Z"
-       },
-       {
-        "title": "OM – Une bonne nouvelle avant le passage devant la DNCG ?",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-une-bonne-nouvelle-avant-le-passage-devant-la-dncg-43686455",
-        "time": "2026-10-28T15:00:45Z"
        }
       ],
       "scorer": {
@@ -6410,13 +6416,13 @@
      "pRain": 0.1,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 70,
+     "confidence": 71,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-28T18:58+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6432,7 +6438,7 @@
        "pRain": 0.1,
        "pWind": 0.0,
        "temp": 13,
-       "conf": 70
+       "conf": 71
       }
      ]
     }
@@ -6521,13 +6527,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 71,
+     "confidence": 72,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-28T21:41+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6543,7 +6549,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 71
+       "conf": 72
       }
      ]
     }
@@ -6586,6 +6592,12 @@
      "A": {
       "absences": [],
       "other": [
+       {
+        "title": "Mercato Strasbourg - Le RCSA sécurise l'avenir d'un joueur clé de son effectif ! (officiel)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-strasbourg-le-rcsa-securise-lavenir-dun-joueur-cle-de-son-effectif-officiel-43687913",
+        "time": "2026-10-28T19:48:00Z"
+       },
        {
         "title": "Strasbourg : la chute libre, rien ne va plus au RCSA,  Hugo Oliveira sous pression",
         "publisher": "Morning Foot",

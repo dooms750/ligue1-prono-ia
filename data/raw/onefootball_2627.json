@@ -6905,6 +6905,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688751": {
+   "id": 2688751,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-29T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Toulouse FC",
+   "away": "Stade Rennais",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/stade-rennais-264",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7450,6 +7470,18 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "Alain Roche : « Ça va faire du bien à Godts, il fallait qu’il marque pour montrer à tout le monde que c’était un bon joueur »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-28T19:30:03Z",
+    "url": "https://onefootball.com/fr/news/alain-roche-ca-va-faire-du-bien-a-godts-il-fallait-quil-marque-pour-montrer-a-tout-le-monde-que-cetait-un-bon-joueur-43687798"
+   },
+   {
+    "title": "Mercato OL - Zachary Athekame explique pourquoi il a choisi l’OL plutôt que l’OM",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T18:59:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630"
+   },
+   {
     "title": "OL : deux bonnes nouvelles à l'entraînement ce mercredi",
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-28T15:37:59Z",
@@ -7496,21 +7528,27 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-27T21:29:00Z",
     "url": "https://onefootball.com/fr/news/ol-sidney-govou-ne-cache-pas-sa-grande-frustration-apres-la-defaite-des-gones-face-au-psg-43683092"
-   },
-   {
-    "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T15:27:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-on-a-pose-plus-de-problemes-que-le-barca-et-city-fonseca-fier-de-son-equipe-43681283"
-   },
-   {
-    "title": "Luis Enrique souligne la victoire \"méritée\" du PSG face à l'OL (2-0)",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T15:00:00Z",
-    "url": "https://onefootball.com/fr/news/luis-enrique-souligne-la-victoire-meritee-du-psg-face-a-lol-2-0-43681139"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Ibrahim Gomis bientôt promu chez les gardiens ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T21:00:31Z",
+    "url": "https://onefootball.com/fr/news/om-ibrahim-gomis-bientot-promu-chez-les-gardiens-43688255"
+   },
+   {
+    "title": "OM - Adidas a trouvé un accord, une somme conséquente attend Marseille",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T20:45:00Z",
+    "url": "https://onefootball.com/fr/news/om-adidas-a-trouve-un-accord-une-somme-consequente-attend-marseille-43688193"
+   },
+   {
+    "title": "Mercato OL - Zachary Athekame explique pourquoi il a choisi l’OL plutôt que l’OM",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T18:59:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630"
+   },
    {
     "title": "OM – Pérès : « Je ne vois pas McCourt vendre le club à moyen terme »",
     "publisher": "CoeurMarseillais",
@@ -7552,27 +7590,39 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-10-28T12:00:57Z",
     "url": "https://onefootball.com/fr/news/om-un-insider-accuse-genesio-de-mentir-43685536"
-   },
-   {
-    "title": "Mercato - OM : trois joueurs auraient déjà dit oui pour venir cet hiver",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T11:00:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-trois-joueurs-auraient-deja-dit-oui-pour-venir-cet-hiver-43685204"
-   },
-   {
-    "title": "Ligue 1 - OM - Le Havre AC : la DTA se prononce sur les deux pénaltys potentiels en faveur des Havrais",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T10:37:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-om-le-havre-ac-la-dta-se-prononce-sur-les-deux-penaltys-potentiels-en-faveur-des-havrais-43685106"
-   },
-   {
-    "title": "OM : deux penaltys oubliés pour Le Havre au Vélodrome ? La DTA a tranché !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T10:32:00Z",
-    "url": "https://onefootball.com/fr/news/om-deux-penaltys-oublies-pour-le-havre-au-velodrome-la-dta-a-tranche-43685052"
    }
   ],
   "PSG": [
+   {
+    "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T21:02:00Z",
+    "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253"
+   },
+   {
+    "title": "Mercato – Maza au PSG : deux réponses nettes à la rumeur",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-28T20:37:57Z",
+    "url": "https://onefootball.com/fr/news/mercato-maza-au-psg-deux-reponses-nettes-a-la-rumeur-43688152"
+   },
+   {
+    "title": "Mercato–PSG : l'énorme décision prise pour Ibrahim Maza !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T20:03:00Z",
+    "url": "https://onefootball.com/fr/news/mercatopsg-lenorme-decision-prise-pour-ibrahim-maza-43687966"
+   },
+   {
+    "title": "Alain Roche : « Ça va faire du bien à Godts, il fallait qu’il marque pour montrer à tout le monde que c’était un bon joueur »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-28T19:30:03Z",
+    "url": "https://onefootball.com/fr/news/alain-roche-ca-va-faire-du-bien-a-godts-il-fallait-quil-marque-pour-montrer-a-tout-le-monde-que-cetait-un-bon-joueur-43687798"
+   },
+   {
+    "title": "PSG - Nasser Al-Khelaïfi réalise un geste magnifique envers Khvicha Kvaratskhelia",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T19:24:00Z",
+    "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-realise-un-geste-magnifique-envers-khvicha-kvaratskhelia-43687742"
+   },
    {
     "title": "Samir Nasri : « Le seul profil que je vois en cador, c’est Vinicius, mais est-ce que tu vas te prendre un problème comme lui au PSG… »",
     "publisher": "ConsultantsFoot",
@@ -7592,46 +7642,16 @@
     "url": "https://onefootball.com/fr/news/mercato-psg-premier-couac-annonce-dans-le-dossier-maza-43686715"
    },
    {
+    "title": "Mercato PSG - Le Barça veut récupérer un cadre du PSG cet hiver !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T15:22:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-le-barca-veut-recuperer-un-cadre-du-psg-cet-hiver-43686580"
+   },
+   {
     "title": "Mercato PSG - Le Bayer Leverkusen veut contrarier les plans du PSG pour Ibrahim Maza",
     "publisher": "MadeInFOOT",
     "time": "2026-10-28T14:59:00Z",
     "url": "https://onefootball.com/fr/news/mercato-psg-le-bayer-leverkusen-veut-contrarier-les-plans-du-psg-pour-ibrahim-maza-43686447"
-   },
-   {
-    "title": "OL - Dominik Greif réalise une performance record malgré le revers face au PSG",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T14:30:00Z",
-    "url": "https://onefootball.com/fr/news/ol-dominik-greif-realise-une-performance-record-malgre-le-revers-face-au-psg-43686284"
-   },
-   {
-    "title": "Rio Mavuba : « C’est un joueur impressionnant et il postulera un jour pour le Ballon d’Or »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-28T12:30:44Z",
-    "url": "https://onefootball.com/fr/news/rio-mavuba-cest-un-joueur-impressionnant-et-il-postulera-un-jour-pour-le-ballon-dor-43685681"
-   },
-   {
-    "title": "Ballon d'Or 2026 : aucun joueur du PSG dans le Top 5 ... La Coupe du monde vampirise-t-elle trop le scrutin ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T12:00:00Z",
-    "url": "https://onefootball.com/fr/news/ballon-dor-2026-aucun-joueur-du-psg-dans-le-top-5-la-coupe-du-monde-vampirise-t-elle-trop-le-scrutin-43685509"
-   },
-   {
-    "title": "« ça n’avait aucun sens », Ramos se lâche sur son passage au PSG",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-28T11:30:04Z",
-    "url": "https://onefootball.com/fr/news/ca-navait-aucun-sens-ramos-se-lache-sur-son-passage-au-psg-43685350"
-   },
-   {
-    "title": "Mercato – Le PSG prêt à recruter cet hiver !",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-28T11:05:06Z",
-    "url": "https://onefootball.com/fr/news/mercato-le-psg-pret-a-recruter-cet-hiver-43685241"
-   },
-   {
-    "title": "Les cadors à l’affût : le PSG se bat pour garder Doué",
-    "publisher": "fussball-news.de",
-    "time": "2026-10-28T10:31:08Z",
-    "url": "https://onefootball.com/fr/news/les-cadors-a-laffut-le-psg-se-bat-pour-garder-doue-43685045"
    }
   ],
   "Paris FC": [
@@ -7760,6 +7780,12 @@
   ],
   "RC Strasbourg": [
    {
+    "title": "Mercato Strasbourg - Le RCSA sécurise l'avenir d'un joueur clé de son effectif ! (officiel)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T19:48:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-strasbourg-le-rcsa-securise-lavenir-dun-joueur-cle-de-son-effectif-officiel-43687913"
+   },
+   {
     "title": "Strasbourg : la chute libre, rien ne va plus au RCSA,  Hugo Oliveira sous pression",
     "publisher": "Morning Foot",
     "time": "2026-10-28T12:23:06Z",
@@ -7812,12 +7838,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-25T15:16:00Z",
     "url": "https://onefootball.com/fr/news/rennes-strasbourg-les-compositions-officielles-43670301"
-   },
-   {
-    "title": "Stade Rennais : Haise a pris une décision forte",
-    "publisher": "Morning Foot",
-    "time": "2026-10-25T13:30:34Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-pris-une-decision-forte-43669794"
    }
   ],
   "Stade Brestois": [
@@ -8008,7 +8028,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T19:03+00:00",
+ "fetchedAt": "2026-10-28T21:39+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
