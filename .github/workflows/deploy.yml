@@ -4,8 +4,13 @@ on:
   push:
     branches: [main]
   schedule:
-    # Deux fois par jour (heure UTC) : nouveaux résultats et matchs de la semaine.
+    # Collecte complète deux fois par jour (heure UTC) : résultats, calendrier, presse, météo, cotes.
     - cron: "17 6,17 * * *"
+    # Pendant les créneaux de match (heure UTC), toutes les 20 minutes : seulement les matchs en cours
+    # ou terminés depuis peu, pour que les résultats entrent vite dans le débrief et le bilan.
+    - cron: "7,27,47 18-22 * * 1-5"
+    - cron: "7,27,47 13-22 * * 6"
+    - cron: "7,27,47 11-22 * * 0"
   workflow_dispatch:
 
 permissions:
@@ -27,13 +32,28 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Mode de collecte
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" != "17 6,17 * * *" ]; then
+            echo "quick=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "quick=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Matchs en cours ou terminés depuis peu (OneFootball, mode rapide)
+        if: steps.mode.outputs.quick == 'true'
+        run: python scripts/fetch_onefootball.py --quick
+        continue-on-error: true
       - name: Matchs, buteurs, compos et presse (OneFootball)
+        if: steps.mode.outputs.quick != 'true'
         run: python scripts/fetch_onefootball.py
         continue-on-error: true
       - name: Météo des matchs, de J-7 à J-2 (ECMWF et Météo-France via Open-Meteo)
+        if: steps.mode.outputs.quick != 'true'
         run: python scripts/fetch_weather.py
         continue-on-error: true
-      - name: Cotes du marché (football-data.co.uk)
+      - name: Cotes du marché et scores à la pause (football-data.co.uk)
+        if: steps.mode.outputs.quick != 'true'
         run: python scripts/fetch_data.py
         continue-on-error: true
       - name: Recalculer les pronostics

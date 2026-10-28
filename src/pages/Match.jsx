@@ -7,10 +7,12 @@ import { buildLevers, defaultActive } from "../model/levers.js";
 import { confidence, impliedFromOdds } from "../model/poisson.js";
 import { reasons, pct } from "../model/narrative.js";
 import { matchId, formatKick } from "../lib/store.js";
+import { liveLabel } from "../lib/live.js";
+import { liveMarkets } from "../model/liveProbs.js";
 
 const LABELS = ["Domicile", "Nul", "Extérieur"];
 
-export default function Match({ id, data, picks, setPick }) {
+export default function Match({ id, data, picks, setPick, live = {} }) {
   const { teams, upcoming } = data;
   const m = upcoming.find((x) => matchId(x) === id);
   const levers = useMemo(() => (m ? buildLevers(m, teams) : []), [m, teams]);
@@ -29,6 +31,9 @@ export default function Match({ id, data, picks, setPick }) {
   const mine = picks[id];
   const why = reasons(m, teams, active);
   const changed = JSON.stringify(active) !== JSON.stringify(initial);
+  const l = live[id];
+  const lp = l ? liveMarkets(cur.lh, cur.la, l) : null;
+  const shown = lp ? lp.p : cur.p;
 
   const toggle = (l) => {
     const on = !active[l.id];
@@ -40,24 +45,39 @@ export default function Match({ id, data, picks, setPick }) {
   return (
     <article className="match">
       <div className="match-stage">
-        <Stadium3D p={cur.p} home={H} away={A} shot="verdict" height="min(58vh, 460px)" rain={!!active.pluie} offsetY={0.1}
+        <Stadium3D p={shown} home={H} away={A} labelTop={130} shot="verdict" height="min(58vh, 460px)" rain={!!active.pluie} offsetY={0.1}
           fallback={<div style={{ height: 120 }} />} />
         <header className="scorebug">
           <div className="scorebug-row">
             <span className="sb-team" style={{ "--c": cH }}><Badge team={H} size={30} /><b>{H.name}</b></span>
-            <span className="sb-mid">J{m.md}</span>
+            <span className={`sb-mid ${l ? "sb-live" : ""}`}>{l ? `${l.hg} - ${l.ag}` : `J${m.md}`}</span>
             <span className="sb-team sb-away" style={{ "--c": cA }}><b>{A.name}</b><Badge team={A} size={30} /></span>
           </div>
-          <p className="scorebug-sub">{formatKick(m)} · coup d'envoi dans <Countdown date={m.date} time={m.time} /></p>
+          {l ? (
+            <p className="scorebug-sub">
+              {l.state === "in" ? <><span className="live-dot" aria-hidden="true" />En direct · <b className="cd">{liveLabel(l)}</b></> : <>Terminé · {formatKick(m)}</>}
+            </p>
+          ) : (
+            <p className="scorebug-sub">{formatKick(m)} · coup d'envoi dans <Countdown date={m.date} time={m.time} /></p>
+          )}
         </header>
         <span className="s3d-hint">Fais glisser pour tourner autour du terrain</span>
       </div>
 
       <div className="sticky-blade">
-        <ProbaBlade p={cur.p} home={H} away={A} size="md" />
+        <ProbaBlade p={shown} home={H} away={A} size="md" />
         <div className="sticky-meta">
-          <Confidence c={confidence(cur.p)} />
-          {changed ? <span className="tuned">Réglé par toi</span> : <span>Pronostic de l'IA</span>}
+          {lp ? (
+            <>
+              <span className="tuned live-tag"><span className="live-dot" aria-hidden="true" />{l.state === "in" ? `Probabilités en direct · ${liveLabel(l)}` : "Match terminé"}</span>
+              <span>Avant le match : {Math.round(cur.p[0] * 100)} / {Math.round(cur.p[1] * 100)} / {Math.round(cur.p[2] * 100)}</span>
+            </>
+          ) : (
+            <>
+              <Confidence c={confidence(cur.p)} />
+              {changed ? <span className="tuned">Réglé par toi</span> : <span>Pronostic de l'IA</span>}
+            </>
+          )}
         </div>
       </div>
 
@@ -68,6 +88,28 @@ export default function Match({ id, data, picks, setPick }) {
         </div>
         <a className="link-btn" href={`#/match/${id}/story`}>Vivre l'avant-match</a>
       </div>
+
+      {l && (
+        <section className="block live-block">
+          <h2>{l.state === "in" ? "Le match en direct" : "Le match"}</h2>
+          <p className="muted small">
+            Les probabilités du bandeau repartent du score actuel et ajoutent les buts encore possibles sur le temps
+            restant ({Math.round(lp.remaining * 94)} min environ), en tenant compte des cartons rouges. Mise à jour toutes les 30 secondes.
+          </p>
+          {l.events.length ? (
+            <ol className="timeline">
+              {l.events.map((e, k) => (
+                <li key={k} className={`tl-${e.side} tl-${e.type}`}>
+                  <b>{e.label}</b>
+                  <span>{e.type === "rouge" ? "Carton rouge" : e.type === "csc" ? "But contre son camp" : e.type === "penalty" ? "But sur penalty" : "But"}</span>
+                  <em>{e.player}{e.player ? " · " : ""}{e.side === "H" ? H.name : A.name}</em>
+                </li>
+              ))}
+            </ol>
+          ) : <p className="muted">Pas encore de but ni de carton rouge.</p>}
+          <p className="wx-src">Direct : tableau des scores ESPN.</p>
+        </section>
+      )}
 
       <section className="block">
         <h2>Le pronostic de l'IA</h2>

@@ -28,3 +28,21 @@ test("la marge du bookmaker est retirée", () => {
 test("score de Brier : parfait = 0", () => {
   assert.equal(brier([1, 0, 0], outcomeOf(2, 1)), 0);
 });
+
+import { liveMarkets } from "./liveProbs.js";
+
+test("en direct : 2-0 à la 85e, la victoire est quasi certaine", () => {
+  const r = liveMarkets(1.4, 1.2, { state: "in", period: 2, minute: 85, extra: 0, hg: 2, ag: 0, redH: 0, redA: 0 });
+  assert.ok(r.p[0] > 0.95);
+});
+
+test("en direct : match terminé, l'issue est certaine", () => {
+  const r = liveMarkets(1.4, 1.2, { state: "post", period: 2, minute: 90, extra: 0, hg: 1, ag: 1, redH: 0, redA: 0 });
+  assert.ok(Math.abs(r.p[1] - 1) < 1e-9);
+});
+
+test("en direct : un carton rouge fait baisser les chances de l'équipe réduite à 10", () => {
+  const base = { state: "in", period: 1, minute: 20, extra: 0, hg: 0, ag: 0, redH: 0, redA: 0 };
+  const a = liveMarkets(1.4, 1.2, base), b = liveMarkets(1.4, 1.2, { ...base, redH: 1 });
+  assert.ok(b.p[0] < a.p[0]);
+});

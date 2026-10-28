@@ -238,13 +238,13 @@ function buildScene(homeColor, rawAway) {
   return { scene, pillars, ball, disposables };
 }
 
-export default function Stadium3D({ p, home, away, shot = "verdict", showPillars = true, height = 320, interactive = true, fallback = null, className = "", offsetY = 0, rain = false }) {
+export default function Stadium3D({ p, home, away, shot = "verdict", showPillars = true, height = 320, interactive = true, fallback = null, className = "", offsetY = 0, rain = false, labelTop = 64 }) {
   const wrap = useRef(null);
   const labels = useRef([]);
-  const state = useRef({ p, shot, showPillars, rain });
+  const state = useRef({ p, shot, showPillars, rain, labelTop });
   const [ok] = useState(webglAvailable);
 
-  state.current = { p, shot, showPillars, rain };
+  state.current = { p, shot, showPillars, rain, labelTop };
 
   useEffect(() => {
     if (!ok || !wrap.current) return undefined;
@@ -369,7 +369,8 @@ export default function Stadium3D({ p, home, away, shot = "verdict", showPillars
         if (lab) {
           tmp.set(pl.x, pl.h + 0.55, 0).project(camera);
           const x = (tmp.x * 0.5 + 0.5) * el.clientWidth;
-          const y = (-tmp.y * 0.5 + 0.5) * el.clientHeight;
+          // L'étiquette reste dans le cadre, même quand la colonne monte très haut.
+          const y = Math.max(state.current.labelTop + 40, (-tmp.y * 0.5 + 0.5) * el.clientHeight);
           lab.style.transform = `translate(-50%, -100%) translate(${x}px, ${y}px)`;
           lab.style.opacity = sp && pl.h > 0.3 ? "1" : "0";
         }

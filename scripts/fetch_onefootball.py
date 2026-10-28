@@ -10,7 +10,8 @@ data/raw/onefootball_<saison>.json :
 
 Le script est poli : une requête toutes les 0,8 seconde, et seuls les matchs non
 terminés sont re-téléchargés (les autres restent en cache).
-Usage : python scripts/fetch_onefootball.py
+Usage : python scripts/fetch_onefootball.py           collecte complète
+        python scripts/fetch_onefootball.py --quick   matchs en cours ou terminés depuis peu
 """
 
 import json
@@ -106,16 +107,18 @@ def parse_match(mid, data):
         "goals": [], "reds": [], "stats": {}, "starters": {"home": [], "away": []},
     }
     events = find(data, "matchEvents")
-    for e in (events[0].get("events", []) if events else []):
+    evs = events[0].get("events", []) if events else []
+    halves = split_halves([minute(e.get("timeline")) for e in evs])
+    for e, half in zip(evs, halves):
         t = e.get("type") or {}
         side = "home" if e.get("teamSide") == 0 else "away"
         if t.get("$case") == "goal":
             g = t["goal"]
             kind = {0: "but", 1: "csc", 2: "penalty", 3: "refuse"}.get(g.get("type"), "but")
-            out["goals"].append({"side": side, "min": minute(e.get("timeline")), "kind": kind,
+            out["goals"].append({"side": side, "min": minute(e.get("timeline")), "half": half, "kind": kind,
                                  "player": (g.get("scorer") or {}).get("name")})
         elif t.get("$case") == "card" and t["card"].get("type") in (1, 2):
-            out["reds"].append({"side": side, "min": minute(e.get("timeline")),
+            out["reds"].append({"side": side, "min": minute(e.get("timeline")), "half": half,
                                 "player": (t["card"].get("player") or {}).get("name")})
     stats = find(data, "matchStats")
     for st in (stats[0].get("stats", []) if stats else []):
@@ -130,8 +133,31 @@ def parse_match(mid, data):
     return out
 
 
+def split_halves(minutes):
+    """Mi-temps de chaque événement, dans l'ordre chronologique de la page.
+
+    OneFootball note le temps additionnel de la 1re mi-temps comme « 47' » au lieu de « 45+2' ».
+    La 2e mi-temps commence au premier événement de la 46e minute ou plus qu'aucun événement
+    plus tardif ne précède dans le temps (un « 47' » suivi d'un remplacement « 46' » est donc
+    encore en 1re mi-temps)."""
+    n = len(minutes)
+    start = n
+    for i, m in enumerate(minutes):
+        if m is None or m < 46:
+            continue
+        later = [x for x in minutes[i + 1:] if x is not None]
+        if not later or min(later) >= m:
+            start = i
+            break
+    return [1 if (i < start or (m is not None and m <= 45)) else 2 for i, m in enumerate(minutes)]
+
+
+CACHE_VERSION = 2  # 2 : mi-temps de chaque but et carton
+
+
 def finished(m):
-    return m.get("hg") is not None and "fin" in (m.get("status") or "").lower()
+    st = (m.get("status") or "").lower()
+    return m.get("hg") is not None and (m.get("period") == 11 or st.startswith("fin du match") or "après" in st)
 
 
 def season_bounds(today):
@@ -152,6 +178,11 @@ def main():
     path = RAW / f"onefootball_{year % 100:02d}{(year + 1) % 100:02d}.json"
     cache = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"matches": {}, "news": {}}
     matches = cache["matches"]
+    if cache.get("version") != CACHE_VERSION:
+        # Nouveau format : on recharge toute la saison une fois.
+        for m in matches.values():
+            m["status"] = "a-recharger"
+        cache["version"] = CACHE_VERSION
 
     def fetch(mid):
         try:
@@ -179,11 +210,29 @@ def main():
     if not known:
         sys.exit("Impossible de trouver des matchs de Ligue 1 sur OneFootball.")
 
+    quick = "--quick" in sys.argv
+
+    def kicked_off_recently(i):
+        m = matches.get(str(i))
+        if not m or not m.get("kickoff"):
+            return False
+        ko = datetime.fromisoformat(m["kickoff"].replace("Z", "+00:00"))
+        return NOW - timedelta(hours=5) < ko < NOW + timedelta(minutes=10)
+
     # 1. Matchs récents ou non terminés : (re)téléchargés.
     todo = [i for i in known if str(i) not in matches or not finished(matches[str(i)])]
+    if quick:
+        # Mode rapide (pendant les matchs) : seulement ceux qui se jouent ou viennent de finir.
+        todo = [i for i in todo if kicked_off_recently(i)]
     print(f"  {len(todo)} matchs à mettre à jour")
     for mid in todo:
         fetch(mid)
+
+    if quick:
+        cache["fetchedAt"] = NOW.isoformat(timespec="minutes")
+        path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"Mode rapide : {len(todo)} matchs mis à jour")
+        return
 
     # 2. Début de saison : on remonte les identifiants tant qu'on trouve de la Ligue 1.
     if not cache.get("backfilled"):

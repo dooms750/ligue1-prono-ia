@@ -6,10 +6,12 @@ import { buildLevers } from "../model/levers.js";
 import { ord, pct } from "../model/narrative.js";
 import { confidence, outcomeOf } from "../model/poisson.js";
 import { matchId } from "../lib/store.js";
+import { liveLabel } from "../lib/live.js";
+import { liveMarkets } from "../model/liveProbs.js";
 
 const PICK_SHORT = ["1", "N", "2"];
 
-export default function Home({ data, picks }) {
+export default function Home({ data, picks, live = {} }) {
   const { teams, upcoming, played, meta } = data;
   const last = played.filter((m) => m.md === meta.lastMatchday);
   const iaRight = last.filter((m) => m.pred.p.indexOf(Math.max(...m.pred.p)) === outcomeOf(m.hg, m.ag)).length;
@@ -55,6 +57,8 @@ export default function Home({ data, picks }) {
 
       <DemoBanner meta={meta} />
 
+      <LiveStrip upcoming={upcoming} teams={teams} live={live} />
+
       <section className="guide">
         <header className="guide-head">
           <h2>Le programme</h2>
@@ -64,7 +68,7 @@ export default function Home({ data, picks }) {
           <div className="guide-day" key={d.date}>
             <h3>{dayLabel(d.date)}</h3>
             <ul>
-              {d.items.map((m) => <Row key={matchId(m)} m={m} teams={teams} mine={picks[matchId(m)]} meta={meta} />)}
+              {d.items.map((m) => <Row key={matchId(m)} m={m} teams={teams} mine={picks[matchId(m)]} meta={meta} l={live[matchId(m)]} />)}
             </ul>
           </div>
         ))}
@@ -81,21 +85,25 @@ export default function Home({ data, picks }) {
   );
 }
 
-function Row({ m, teams, mine, meta }) {
+function Row({ m, teams, mine, meta, l }) {
   const id = matchId(m);
   const H = teams[m.home], A = teams[m.away];
   const pr = predict(m, teams);
   const c = confidence(pr.p);
   const [cH, cA] = pairColors(H, A);
   const detected = buildLevers(m, teams).filter((l) => l.on);
-  const past = isPast(m);
+  const past = isPast(m) && !l;
   const w = m.ctx?.meteo;
+  const lp = l ? liveMarkets(pr.lh, pr.la, l) : null;
   return (
     <li>
-      <a className={`row ${past ? "row-past" : ""}`} href={`#/match/${id}`}>
+      <a className={`row ${past ? "row-past" : ""} ${l ? `row-live row-${l.state}` : ""}`} href={`#/match/${id}`}>
         <span className="row-time">
-          <b>{m.time ? m.time.replace(":", "h") : "–"}</b>
-          {m.md !== meta.nextMatchday && <small>J{m.md}</small>}
+          {l ? (
+            <><b className="live-score">{l.hg}-{l.ag}</b><small className={l.state === "in" ? "live-min" : ""}>{liveLabel(l)}</small></>
+          ) : (
+            <><b>{m.time ? m.time.replace(":", "h") : "–"}</b>{m.md !== meta.nextMatchday && <small>J{m.md}</small>}</>
+          )}
         </span>
         <span className="row-main">
           <span className="row-teams">
@@ -106,9 +114,13 @@ function Row({ m, teams, mine, meta }) {
               <Badge team={A} size={26} /><span className="nm">{A.name}</span><em>{ord(A.rank)}</em>
             </span>
           </span>
-          <ProbaBlade p={pr.p} home={H} away={A} size="sm" />
+          <ProbaBlade p={lp ? lp.p : pr.p} home={H} away={A} size="sm" />
           <span className="row-meta">
-            {past ? <span className="chip">Joué, résultat bientôt intégré</span> : (
+            {l ? (
+              <span className={`chip ${l.state === "in" ? "chip-live" : ""}`}>
+                {l.state === "in" ? "Probabilités en direct" : `Terminé ${l.hg}-${l.ag}, résultat bientôt dans le débrief`}
+              </span>
+            ) : past ? <span className="chip">Joué, résultat bientôt intégré</span> : (
               <>
                 <span className={`chip chip-conf chip-c${c.level}`}>Confiance {c.label.toLowerCase()}</span>
                 <span className="chip">{pr.topScores[0].h}-{pr.topScores[0].a} probable</span>
@@ -121,6 +133,37 @@ function Row({ m, teams, mine, meta }) {
         </span>
       </a>
     </li>
+  );
+}
+
+// Le bandeau « En direct » en tête de l'accueil, quand des matchs se jouent.
+function LiveStrip({ upcoming, teams, live }) {
+  const now = upcoming.filter((m) => live[matchId(m)]?.state === "in");
+  if (!now.length) return null;
+  return (
+    <section className="live-strip" aria-live="polite">
+      <h2><span className="live-dot" aria-hidden="true" />En direct</h2>
+      <div className="live-cards">
+        {now.map((m) => {
+          const l = live[matchId(m)];
+          const H = teams[m.home], A = teams[m.away];
+          const pr = predict(m, teams);
+          const lp = liveMarkets(pr.lh, pr.la, l);
+          const [cH, cA] = pairColors(H, A);
+          return (
+            <a key={matchId(m)} className="live-card" href={`#/match/${matchId(m)}`}>
+              <span className="lc-top">
+                <span className="lc-team" style={{ "--c": cH }}>{H.short}{l.redH > 0 && <i className="red" aria-label="carton rouge" />}</span>
+                <b className="lc-score">{l.hg}<span>-</span>{l.ag}</b>
+                <span className="lc-team lc-away" style={{ "--c": cA }}>{l.redA > 0 && <i className="red" aria-label="carton rouge" />}{A.short}</span>
+              </span>
+              <span className="lc-min">{liveLabel(l)}</span>
+              <ProbaBlade p={lp.p} home={H} away={A} size="sm" />
+            </a>
+          );
+        })}
+      </div>
+    </section>
   );
 }
 

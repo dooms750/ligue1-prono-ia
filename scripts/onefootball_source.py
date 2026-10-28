@@ -85,6 +85,26 @@ def fix_goal_sides(m):
     return flipped if count(flipped) == (m["hg"], m["ag"]) else goals
 
 
+def first_half(g):
+    if g.get("half") in (1, 2):
+        return g["half"] == 1
+    return (g.get("min") or 99) <= 45
+
+
+def load_halftime(raw):
+    """Scores à la pause publiés par football-data.co.uk : la référence quand ils existent."""
+    from build_data import CSV_NAMES
+    ht = {}
+    for f in sorted(raw.glob("F1_*.csv"))[-1:]:
+        for row in csv.DictReader(open(f, encoding="utf-8-sig")):
+            h, a = CSV_NAMES.get(row.get("HomeTeam")), CSV_NAMES.get(row.get("AwayTeam"))
+            try:
+                ht[(h, a)] = (int(row["HTHG"]), int(row["HTAG"]))
+            except (KeyError, TypeError, ValueError):
+                pass
+    return ht
+
+
 def load_odds(raw):
     """Cotes du marché (complément football-data.co.uk), par affiche domicile-extérieur."""
     from build_data import CSV_NAMES  # import tardif : évite une boucle
@@ -191,6 +211,7 @@ def build_onefootball(path, raw):
         m["md"] = rank // 9 + 1
 
     odds = load_odds(raw)
+    halftime = load_halftime(raw)
     now = datetime.now(timezone.utc)
     played, pending = [], []
     for m in all_m:
@@ -198,7 +219,8 @@ def build_onefootball(path, raw):
         ko = paris(kickoff(m))
         base = {"md": m["md"], "date": ko.strftime("%Y-%m-%d"), "time": ko.strftime("%H:%M"),
                 "home": h, "away": a, "odds": odds.get((h, a)), "src": f"https://onefootball.com/fr/match/{m['id']}"}
-        done = m.get("hg") is not None and "fin" in (m.get("status") or "").lower()
+        st = (m.get("status") or "").lower()
+        done = m.get("hg") is not None and (m.get("period") == 11 or st.startswith("fin du match") or "après" in st)
         if not done:
             pending.append({**base, "_m": m})
             continue
@@ -209,16 +231,22 @@ def build_onefootball(path, raw):
         red_a = next((r["min"] or 1 for r in reds if r["side"] == "away"), None)
         played.append({
             **base, "hg": m["hg"], "ag": m["ag"],
-            "htH": sum(1 for g in goals if g["side"] == "home" and (g["min"] or 99) <= 45),
-            "htA": sum(1 for g in goals if g["side"] == "away" and (g["min"] or 99) <= 45),
+            "htH": sum(1 for g in goals if g["side"] == "home" and first_half(g)),
+            "htA": sum(1 for g in goals if g["side"] == "away" and first_half(g)),
             "sotH": sot[0] if sot else None, "sotA": sot[1] if sot else None,
             # Les tirs cadrés servent d'indicateur de la qualité des occasions.
             "xgH": round(sot[0] * SOT_TO_GOALS, 2) if sot else None,
             "xgA": round(sot[1] * SOT_TO_GOALS, 2) if sot else None,
             "redH": red_h, "redA": red_a,
             "goals": [["H" if g["side"] == "home" else "A", g["min"] or 0] for g in goals],
+            "htSource": "football-data" if (h, a) in halftime else "onefootball",
             "scorers": [{"side": g["side"], "player": g["player"], "kind": g["kind"], "min": g["min"]} for g in goals],
         })
+
+    # Score à la pause : football-data.co.uk fait foi quand il est disponible.
+    for pm in played:
+        if (pm["home"], pm["away"]) in halftime:
+            pm["htH"], pm["htA"] = halftime[(pm["home"], pm["away"])]
 
     # À venir : les matchs non joués des deux prochaines semaines (ou de la prochaine journée).
     pending.sort(key=lambda x: (x["date"], x["time"]))
@@ -233,7 +261,7 @@ def build_onefootball(path, raw):
     # Joueurs de chaque club, vus dans les compos et parmi les buteurs de la saison.
     last_game = {}
     for m in all_m:
-        if m.get("hg") is not None and "fin" in (m.get("status") or "").lower():
+        if m.get("hg") is not None and (m.get("period") == 11 or (m.get("status") or "").lower().startswith("fin du match")):
             for side in ("home", "away"):
                 code = OF_NAMES[m[side]]
                 last_game[code] = max(last_game.get(code, kickoff(m)), kickoff(m))

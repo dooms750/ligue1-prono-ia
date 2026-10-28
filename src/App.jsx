@@ -7,6 +7,7 @@ import Debrief from "./pages/Debrief.jsx";
 import Bilan from "./pages/Bilan.jsx";
 import Academie from "./pages/Academie.jsx";
 import Intro from "./components/Intro.jsx";
+import { useLive } from "./lib/live.js";
 
 const NAV = [
   { path: "/", label: "Journée", icon: "M4 6h16M4 12h16M4 18h10" },
@@ -21,6 +22,7 @@ export default function App() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [intro, setIntro] = useState(true);
+  const live = useLive(data ? data.upcoming : null);
 
   useEffect(() => {
     document.documentElement.style.overflow = intro ? "hidden" : "";
@@ -38,7 +40,7 @@ export default function App() {
   if (!data) return <>{overlay}<main className="shell"><p className="loading">Chargement de la journée…</p></main></>;
 
   const parts = route.split("/").filter(Boolean);
-  const ctx = { data, picks, setPick };
+  const ctx = { data, picks, setPick, live };
 
   if (parts[0] === "match" && parts[2] === "story") return <>{overlay}<Stories id={parts[1]} {...ctx} /></>;
 

@@ -7,7 +7,7 @@
   "lastMatchday": 8,
   "nextMatchday": 9,
   "fetchedAt": "2026-10-28T12:58+00:00",
-  "generatedAt": "2026-10-28T13:01+00:00"
+  "generatedAt": "2026-10-28T18:39+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -444,6 +444,7 @@
      31
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -498,6 +499,7 @@
      14
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -532,7 +534,7 @@
    "src": "https://onefootball.com/fr/match/2688646",
    "hg": 2,
    "ag": 2,
-   "htH": 0,
+   "htH": 1,
    "htA": 1,
    "sotH": 5,
    "sotA": 7,
@@ -558,6 +560,7 @@
      62
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -648,6 +651,7 @@
      88
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -744,6 +748,7 @@
      96
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -805,6 +810,7 @@
    "redH": null,
    "redA": null,
    "goals": [],
+   "htSource": "football-data",
    "scorers": [],
    "pred": {
     "lh": 1.233,
@@ -858,6 +864,7 @@
      82
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -928,6 +935,7 @@
      85
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -977,6 +985,7 @@
    "redH": null,
    "redA": null,
    "goals": [],
+   "htSource": "football-data",
    "scorers": [],
    "pred": {
     "lh": 1.423,
@@ -1030,6 +1039,7 @@
      78
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1108,6 +1118,7 @@
      95
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1182,6 +1193,7 @@
      51
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1246,6 +1258,7 @@
      87
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1304,6 +1317,7 @@
      53
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -1366,6 +1380,7 @@
      89
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -1442,6 +1457,7 @@
      96
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -1522,6 +1538,7 @@
      85
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1594,6 +1611,7 @@
      95
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -1668,6 +1686,7 @@
      35
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1736,6 +1755,7 @@
      79
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1796,6 +1816,7 @@
      54
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -1856,6 +1877,7 @@
      53
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -1938,6 +1960,7 @@
      86
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -2014,6 +2037,7 @@
      44
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -2076,6 +2100,7 @@
      72
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2136,6 +2161,7 @@
      73
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -2212,6 +2238,7 @@
      95
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2302,6 +2329,7 @@
      74
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2350,6 +2378,7 @@
      5
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -2393,6 +2422,7 @@
    "redH": null,
    "redA": null,
    "goals": [],
+   "htSource": "football-data",
    "scorers": [],
    "pred": {
     "lh": 1.325,
@@ -2421,7 +2451,7 @@
    "hg": 2,
    "ag": 2,
    "htH": 2,
-   "htA": 0,
+   "htA": 1,
    "sotH": 5,
    "sotA": 6,
    "xgH": 1.55,
@@ -2446,6 +2476,7 @@
      51
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2516,6 +2547,7 @@
      93
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2582,6 +2614,7 @@
      68
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2643,6 +2676,7 @@
    "redH": null,
    "redA": null,
    "goals": [],
+   "htSource": "football-data",
    "scorers": [],
    "pred": {
     "lh": 1.459,
@@ -2684,6 +2718,7 @@
      52
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2736,6 +2771,7 @@
      71
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2794,6 +2830,7 @@
      57
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2856,6 +2893,7 @@
      83
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -2924,6 +2962,7 @@
      78
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -2996,6 +3035,7 @@
      76
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3070,6 +3110,7 @@
      84
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3138,6 +3179,7 @@
      79
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3206,6 +3248,7 @@
      88
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3282,6 +3325,7 @@
      88
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3362,6 +3406,7 @@
      74
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -3442,6 +3487,7 @@
      54
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3528,6 +3574,7 @@
      85
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3588,6 +3635,7 @@
      5
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3636,6 +3684,7 @@
      68
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3696,6 +3745,7 @@
      59
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3748,7 +3798,7 @@
    "src": "https://onefootball.com/fr/match/2688694",
    "hg": 2,
    "ag": 1,
-   "htH": 0,
+   "htH": 1,
    "htA": 1,
    "sotH": 6,
    "sotA": 3,
@@ -3770,6 +3820,7 @@
      81
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -3842,6 +3893,7 @@
      68
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -3924,6 +3976,7 @@
      94
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -4000,6 +4053,7 @@
      98
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4078,6 +4132,7 @@
      85
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -4174,6 +4229,7 @@
      80
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4248,6 +4304,7 @@
      87
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4312,6 +4369,7 @@
      64
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4366,6 +4424,7 @@
      61
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -4422,6 +4481,7 @@
      36
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4468,7 +4528,7 @@
    "src": "https://onefootball.com/fr/match/2688704",
    "hg": 4,
    "ag": 3,
-   "htH": 1,
+   "htH": 2,
    "htA": 1,
    "sotH": 9,
    "sotA": 7,
@@ -4506,6 +4566,7 @@
      97
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -4602,6 +4663,7 @@
      93
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -4655,7 +4717,7 @@
    "hg": 1,
    "ag": 3,
    "htH": 1,
-   "htA": 1,
+   "htA": 2,
    "sotH": 5,
    "sotA": 3,
    "xgH": 1.55,
@@ -4680,6 +4742,7 @@
      55
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4741,6 +4804,7 @@
    "redH": null,
    "redA": null,
    "goals": [],
+   "htSource": "football-data",
    "scorers": [],
    "pred": {
     "lh": 1.071,
@@ -4786,6 +4850,7 @@
      56
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -4848,6 +4913,7 @@
      83
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -4895,7 +4961,7 @@
    "hg": 2,
    "ag": 1,
    "htH": 0,
-   "htA": 0,
+   "htA": 1,
    "sotH": 3,
    "sotA": 1,
    "xgH": 0.93,
@@ -4916,6 +4982,7 @@
      83
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -5000,6 +5067,7 @@
      89
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -5088,6 +5156,7 @@
      74
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -5150,6 +5219,7 @@
      61
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -5205,6 +5275,7 @@
    "redH": null,
    "redA": null,
    "goals": [],
+   "htSource": "football-data",
    "scorers": [],
    "pred": {
     "lh": 2.086,
@@ -5250,6 +5321,7 @@
      84
     ]
    ],
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",

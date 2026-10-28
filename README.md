@@ -19,6 +19,21 @@ les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la d
 | **Bilan** | Le bilan public de l'IA : taux de réussite, score de Brier contre le marché, calibration. Chaque prono est calculé avec les seuls matchs joués avant. |
 | **Académie** | 5 notions manipulables : ce que veut dire 60 %, la loi de Poisson, la marge des bookmakers, la régression vers la moyenne, le jeu responsable. |
 
+## Le direct
+
+Pendant les matchs, l'app lit le tableau des scores public d'ESPN toutes les 30 secondes, directement depuis le
+téléphone (`src/lib/live.js`) : score, minute, buts (avec le temps additionnel, par exemple 45'+2') et cartons rouges.
+Rien n'est téléchargé en dehors des créneaux de match (de 20 minutes avant à 2 h 40 après le coup d'envoi).
+
+- **Accueil** : un bandeau « En direct » avec les matchs en cours ; dans le programme, l'heure laisse place au score et à la minute.
+- **Fiche du match** : le score et la minute dans le bandeau, et des **probabilités en direct** (`src/model/liveProbs.js`) :
+  on part du score actuel et on ajoute les buts encore possibles sur le temps restant, avec la même loi de Poisson
+  qu'avant le match, en tenant compte des cartons rouges (−28 % de buts pour l'équipe à 10, +25 % pour l'adversaire).
+  Les colonnes du stade 3D suivent. La chronologie des buts et cartons rouges s'affiche dessous.
+
+Les résultats définitifs restent ceux de OneFootball : pendant les créneaux de match, GitHub fait une collecte légère
+toutes les 20 minutes (seulement les matchs en cours ou terminés depuis peu), pour qu'ils entrent vite dans le débrief.
+
 ## L'animation de lancement
 
 À chaque ouverture, `src/components/Intro.jsx` joue une séquence d'environ 3 secondes : les quatre projecteurs
@@ -103,6 +118,10 @@ le tout via [Open-Meteo](https://open-meteo.com). L'**indice de confiance** (0 �
 et l'échéance : à 7 jours, il plafonne autour de 60 ; à 2 jours, il peut dépasser 90. L'historique de chaque prévision
 est conservé pour voir comment elle évolue. Si le risque de pluie ou de vent dépasse 50 %, le levier météo s'allume
 et il pleut dans le stade 3D. Le stade Pierre-Mauroy (Lille), couvert, n'est pas concerné.
+
+**Le score à la pause.** OneFootball note le temps additionnel de la 1re mi-temps comme « 47' ». La mi-temps de chaque
+but est donc déduite de l'ordre des événements de la page (un « 47' » qui précède les changements de la 46e minute
+est encore en 1re mi-temps), et le score à la pause publié par football-data.co.uk fait foi quand il est disponible.
 
 **Les tirs cadrés à la place des xG.** OneFootball ne publie pas d'xG : l'IA apprend des buts et des tirs cadrés
 (environ 0,3 but par tir cadré en Ligue 1), un indicateur de la qualité des occasions plus stable que le score seul.
