@@ -4,7 +4,7 @@
    "id": 2688680,
    "competition": "Ligue 1",
    "kickoff": "2026-09-19T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Angers SCO",
    "away": "ESTAC Troyes",
@@ -84,7 +84,7 @@
    "id": 2688681,
    "competition": "Ligue 1",
    "kickoff": "2026-09-20T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AJ Auxerre",
    "away": "Stade Brestois",
@@ -164,7 +164,7 @@
    "id": 2688682,
    "competition": "Ligue 1",
    "kickoff": "2026-09-19T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Mans FC",
    "away": "FC Lorient",
@@ -244,7 +244,7 @@
    "id": 2688683,
    "competition": "Ligue 1",
    "kickoff": "2026-09-19T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique Lyonnais",
    "away": "Stade Rennais",
@@ -330,7 +330,7 @@
    "id": 2688684,
    "competition": "Ligue 1",
    "kickoff": "2026-09-18T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AS Monaco",
    "away": "RC Lens",
@@ -410,7 +410,7 @@
    "id": 2688685,
    "competition": "Ligue 1",
    "kickoff": "2026-09-20T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "OGC Nice",
    "away": "LOSC",
@@ -490,7 +490,7 @@
    "id": 2688686,
    "competition": "Ligue 1",
    "kickoff": "2026-09-19T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Paris FC",
    "away": "RC Strasbourg",
@@ -570,7 +570,7 @@
    "id": 2688687,
    "competition": "Ligue 1",
    "kickoff": "2026-09-19T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Toulouse FC",
    "away": "Le Havre AC",
@@ -662,7 +662,7 @@
    "id": 2688688,
    "competition": "Ligue 1",
    "kickoff": "2026-09-20T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique de Marseille",
    "away": "PSG",
@@ -748,7 +748,7 @@
    "id": 2688689,
    "competition": "Ligue 1",
    "kickoff": "2026-10-10T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Brestois",
    "away": "Angers SCO",
@@ -852,7 +852,7 @@
    "id": 2688690,
    "competition": "Ligue 1",
    "kickoff": "2026-10-09T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Lens",
    "away": "Olympique Lyonnais",
@@ -938,7 +938,7 @@
    "id": 2688691,
    "competition": "Ligue 1",
    "kickoff": "2026-10-10T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "LOSC",
    "away": "Le Havre AC",
@@ -1012,7 +1012,7 @@
    "id": 2688692,
    "competition": "Ligue 1",
    "kickoff": "2026-10-10T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "FC Lorient",
    "away": "Paris FC",
@@ -1080,7 +1080,7 @@
    "id": 2688693,
    "competition": "Ligue 1",
    "kickoff": "2026-10-10T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AS Monaco",
    "away": "Toulouse FC",
@@ -1166,7 +1166,7 @@
    "id": 2688694,
    "competition": "Ligue 1",
    "kickoff": "2026-10-11T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "OGC Nice",
    "away": "RC Strasbourg",
@@ -1246,7 +1246,7 @@
    "id": 2688695,
    "competition": "Ligue 1",
    "kickoff": "2026-10-10T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "PSG",
    "away": "Le Mans FC",
@@ -1332,7 +1332,7 @@
    "id": 2688696,
    "competition": "Ligue 1",
    "kickoff": "2026-10-11T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Rennais",
    "away": "AJ Auxerre",
@@ -1424,7 +1424,7 @@
    "id": 2688697,
    "competition": "Ligue 1",
    "kickoff": "2026-10-11T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "ESTAC Troyes",
    "away": "Olympique de Marseille",
@@ -1498,7 +1498,7 @@
    "id": 2688698,
    "competition": "Ligue 1",
    "kickoff": "2026-10-18T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Angers SCO",
    "away": "Olympique de Marseille",
@@ -1602,7 +1602,7 @@
    "id": 2688699,
    "competition": "Ligue 1",
    "kickoff": "2026-10-18T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Havre AC",
    "away": "AJ Auxerre",
@@ -1688,7 +1688,7 @@
    "id": 2688700,
    "competition": "Ligue 1",
    "kickoff": "2026-10-16T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Mans FC",
    "away": "Toulouse FC",
@@ -1774,7 +1774,7 @@
    "id": 2688701,
    "competition": "Ligue 1",
    "kickoff": "2026-10-17T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "LOSC",
    "away": "Stade Brestois",
@@ -1848,7 +1848,7 @@
    "id": 2688702,
    "competition": "Ligue 1",
    "kickoff": "2026-10-18T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "FC Lorient",
    "away": "AS Monaco",
@@ -1916,7 +1916,7 @@
    "id": 2688703,
    "competition": "Ligue 1",
    "kickoff": "2026-10-18T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique Lyonnais",
    "away": "OGC Nice",
@@ -2008,7 +2008,7 @@
    "id": 2688704,
    "competition": "Ligue 1",
    "kickoff": "2026-10-18T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Paris FC",
    "away": "Stade Rennais",
@@ -2118,7 +2118,7 @@
    "id": 2688705,
    "competition": "Ligue 1",
    "kickoff": "2026-10-17T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Strasbourg",
    "away": "PSG",
@@ -2204,7 +2204,7 @@
    "id": 2688706,
    "competition": "Ligue 1",
    "kickoff": "2026-10-17T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "ESTAC Troyes",
    "away": "RC Lens",
@@ -2290,7 +2290,7 @@
    "id": 2688707,
    "competition": "Ligue 1",
    "kickoff": "2026-10-25T16:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Angers SCO",
    "away": "FC Lorient",
@@ -2351,7 +2351,7 @@
    "id": 2688708,
    "competition": "Ligue 1",
    "kickoff": "2026-10-25T16:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AJ Auxerre",
    "away": "Le Mans FC",
@@ -2425,7 +2425,7 @@
    "id": 2688709,
    "competition": "Ligue 1",
    "kickoff": "2026-10-23T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Brestois",
    "away": "OGC Nice",
@@ -2505,7 +2505,7 @@
    "id": 2688710,
    "competition": "Ligue 1",
    "kickoff": "2026-10-24T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Lens",
    "away": "Paris FC",
@@ -2585,7 +2585,7 @@
    "id": 2688711,
    "competition": "Ligue 1",
    "kickoff": "2026-10-25T16:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique de Marseille",
    "away": "Le Havre AC",
@@ -2689,7 +2689,7 @@
    "id": 2688712,
    "competition": "Ligue 1",
    "kickoff": "2026-10-25T14:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AS Monaco",
    "away": "LOSC",
@@ -2769,7 +2769,7 @@
    "id": 2688713,
    "competition": "Ligue 1",
    "kickoff": "2026-10-25T16:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Rennais",
    "away": "RC Strasbourg",
@@ -2849,7 +2849,7 @@
    "id": 2688714,
    "competition": "Ligue 1",
    "kickoff": "2026-10-25T16:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Toulouse FC",
    "away": "ESTAC Troyes",
@@ -2910,7 +2910,7 @@
    "id": 2688715,
    "competition": "Ligue 1",
    "kickoff": "2026-10-26T19:30:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "PSG",
    "away": "Olympique Lyonnais",
@@ -2984,7 +2984,7 @@
    "id": 2688679,
    "competition": "Ligue 1",
    "kickoff": "2026-09-12T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Strasbourg",
    "away": "AS Monaco",
@@ -3058,7 +3058,7 @@
    "id": 2688678,
    "competition": "Ligue 1",
    "kickoff": "2026-09-11T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Rennais",
    "away": "Olympique de Marseille",
@@ -3126,7 +3126,7 @@
    "id": 2688677,
    "competition": "Ligue 1",
    "kickoff": "2026-09-12T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Paris FC",
    "away": "Olympique Lyonnais",
@@ -3187,7 +3187,7 @@
    "id": 2688676,
    "competition": "Ligue 1",
    "kickoff": "2026-09-12T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "FC Lorient",
    "away": "Toulouse FC",
@@ -3273,7 +3273,7 @@
    "id": 2688675,
    "competition": "Ligue 1",
    "kickoff": "2026-09-13T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "LOSC",
    "away": "ESTAC Troyes",
@@ -3353,7 +3353,7 @@
    "id": 2688674,
    "competition": "Ligue 1",
    "kickoff": "2026-09-13T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Mans FC",
    "away": "RC Lens",
@@ -3439,7 +3439,7 @@
    "id": 2688673,
    "competition": "Ligue 1",
    "kickoff": "2026-09-12T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Havre AC",
    "away": "Angers SCO",
@@ -3500,7 +3500,7 @@
    "id": 2688672,
    "competition": "Ligue 1",
    "kickoff": "2026-09-13T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Brestois",
    "away": "PSG",
@@ -3568,7 +3568,7 @@
    "id": 2688671,
    "competition": "Ligue 1",
    "kickoff": "2026-09-12T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AJ Auxerre",
    "away": "OGC Nice",
@@ -3636,7 +3636,7 @@
    "id": 2688670,
    "competition": "Ligue 1",
    "kickoff": "2026-09-06T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "ESTAC Troyes",
    "away": "RC Strasbourg",
@@ -3746,7 +3746,7 @@
    "id": 2688669,
    "competition": "Ligue 1",
    "kickoff": "2026-09-03T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Toulouse FC",
    "away": "LOSC",
@@ -3814,7 +3814,7 @@
    "id": 2688668,
    "competition": "Ligue 1",
    "kickoff": "2026-09-04T19:05:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "PSG",
    "away": "AS Monaco",
@@ -3894,7 +3894,7 @@
    "id": 2688667,
    "competition": "Ligue 1",
    "kickoff": "2026-09-05T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "OGC Nice",
    "away": "Le Mans FC",
@@ -3968,7 +3968,7 @@
    "id": 2688666,
    "competition": "Ligue 1",
    "kickoff": "2026-09-06T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique de Marseille",
    "away": "Paris FC",
@@ -4060,7 +4060,7 @@
    "id": 2688665,
    "competition": "Ligue 1",
    "kickoff": "2026-09-04T17:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique Lyonnais",
    "away": "AJ Auxerre",
@@ -4158,7 +4158,7 @@
    "id": 2688664,
    "competition": "Ligue 1",
    "kickoff": "2026-09-05T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Lens",
    "away": "FC Lorient",
@@ -4232,7 +4232,7 @@
    "id": 2688663,
    "competition": "Ligue 1",
    "kickoff": "2026-09-05T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Havre AC",
    "away": "Stade Brestois",
@@ -4318,7 +4318,7 @@
    "id": 2688662,
    "competition": "Ligue 1",
    "kickoff": "2026-09-06T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Angers SCO",
    "away": "Stade Rennais",
@@ -4398,7 +4398,7 @@
    "id": 2688661,
    "competition": "Ligue 1",
    "kickoff": "2026-08-28T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "LOSC",
    "away": "PSG",
@@ -4484,7 +4484,7 @@
    "id": 2688660,
    "competition": "Ligue 1",
    "kickoff": "2026-08-29T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Strasbourg",
    "away": "RC Lens",
@@ -4570,7 +4570,7 @@
    "id": 2688659,
    "competition": "Ligue 1",
    "kickoff": "2026-08-30T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Rennais",
    "away": "Le Mans FC",
@@ -4668,7 +4668,7 @@
    "id": 2688658,
    "competition": "Ligue 1",
    "kickoff": "2026-08-30T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Paris FC",
    "away": "OGC Nice",
@@ -4748,7 +4748,7 @@
    "id": 2688657,
    "competition": "Ligue 1",
    "kickoff": "2026-08-30T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AS Monaco",
    "away": "Olympique de Marseille",
@@ -4822,7 +4822,7 @@
    "id": 2688656,
    "competition": "Ligue 1",
    "kickoff": "2026-08-29T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique Lyonnais",
    "away": "Le Havre AC",
@@ -4908,7 +4908,7 @@
    "id": 2688655,
    "competition": "Ligue 1",
    "kickoff": "2026-08-29T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "FC Lorient",
    "away": "ESTAC Troyes",
@@ -4988,7 +4988,7 @@
    "id": 2688654,
    "competition": "Ligue 1",
    "kickoff": "2026-08-29T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Brestois",
    "away": "Toulouse FC",
@@ -5074,7 +5074,7 @@
    "id": 2688653,
    "competition": "Ligue 1",
    "kickoff": "2026-08-29T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "AJ Auxerre",
    "away": "Angers SCO",
@@ -5160,7 +5160,7 @@
    "id": 2688652,
    "competition": "Ligue 1",
    "kickoff": "2026-08-22T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "ESTAC Troyes",
    "away": "Paris FC",
@@ -5221,7 +5221,7 @@
    "id": 2688651,
    "competition": "Ligue 1",
    "kickoff": "2026-08-22T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Toulouse FC",
    "away": "Olympique Lyonnais",
@@ -5295,7 +5295,7 @@
    "id": 2688650,
    "competition": "Ligue 1",
    "kickoff": "2026-08-23T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Stade Rennais",
    "away": "PSG",
@@ -5381,7 +5381,7 @@
    "id": 2688649,
    "competition": "Ligue 1",
    "kickoff": "2026-08-22T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "OGC Nice",
    "away": "FC Lorient",
@@ -5442,7 +5442,7 @@
    "id": 2688648,
    "competition": "Ligue 1",
    "kickoff": "2026-08-21T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Olympique de Marseille",
    "away": "RC Strasbourg",
@@ -5534,7 +5534,7 @@
    "id": 2688647,
    "competition": "Ligue 1",
    "kickoff": "2026-08-22T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "RC Lens",
    "away": "AJ Auxerre",
@@ -5644,7 +5644,7 @@
    "id": 2688646,
    "competition": "Ligue 1",
    "kickoff": "2026-08-22T18:45:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Mans FC",
    "away": "Stade Brestois",
@@ -5730,7 +5730,7 @@
    "id": 2688645,
    "competition": "Ligue 1",
    "kickoff": "2026-08-23T15:15:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Le Havre AC",
    "away": "AS Monaco",
@@ -5804,7 +5804,7 @@
    "id": 2688644,
    "competition": "Ligue 1",
    "kickoff": "2026-08-23T13:00:00Z",
-   "status": "Fin du match",
+   "status": "a-recharger",
    "period": 11,
    "home": "Angers SCO",
    "away": "LOSC",
@@ -6122,8 +6122,32 @@
    "reds": [],
    "stats": {},
    "starters": {
-    "home": [],
-    "away": []
+    "home": [
+     "Timothée Nkada",
+     "Renaud Ripart",
+     "Merwan Ifnaoui",
+     "Mouhamed Diop",
+     "Dermane Karim",
+     "Antoine Mille",
+     "Paolo Gozzi",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Hillel Konaté"
+    ],
+    "away": [
+     "Habib Diallo",
+     "Louis Mafouta",
+     "Lucas Calodat",
+     "Lucas Bretelle",
+     "Antoine Rabillard",
+     "Lucas Buades",
+     "Alexandre Lauray",
+     "Raul Torrente",
+     "Samuel Yohou",
+     "Noa Boissé",
+     "Nicolas Kocik"
+    ]
    }
   },
   "2688725": {
@@ -6545,10 +6569,36 @@
     "home": [],
     "away": []
    }
+  },
+  "2688746": {
+   "id": 2688746,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-28T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Le Havre AC",
+   "away": "RC Strasbourg",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/rc-strasbourg-756",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "Auxerre - Le Mans : la DTA sort du silence sur le but polémique accordé aux Manceaux",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T14:29:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-le-mans-la-dta-sort-du-silence-sur-le-but-polemique-accorde-aux-manceaux-43686255"
+   },
    {
     "title": "Ligue 1 - AJ Auxerre - Le Mans FC : la DTA donne son avis sur le bug de la goal-line et le but complètement fou accordé au Mans",
     "publisher": "MadeInFOOT",
@@ -6602,12 +6652,6 @@
     "publisher": "BeFootball",
     "time": "2026-10-25T10:16:43Z",
     "url": "https://onefootball.com/fr/news/aj-auxerre-le-mans-les-auxerrois-veulent-confirmer-leur-retour-en-forme-compositions-probables-chaine-tv-et-heure-43668967"
-   },
-   {
-    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T08:00:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-probables-43668339"
    }
   ],
   "AS Monaco": [
@@ -6848,55 +6892,73 @@
   ],
   "LOSC": [
    {
+    "title": "Lille - Lens : les supporters lensois présents en masse à l'entraînement malgré l'interdiction de déplacement prononcée par le club",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T18:29:00Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-les-supporters-lensois-presents-en-masse-a-lentrainement-malgre-linterdiction-de-deplacement-prononcee-par-le-club-43687458"
+   },
+   {
+    "title": "RC Lens - Mauvaise nouvelle pour les supporters lensois avant le derby contre le LOSC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T18:18:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-mauvaise-nouvelle-pour-les-supporters-lensois-avant-le-derby-contre-le-losc-43687412"
+   },
+   {
+    "title": "Vincent Moscato : « Il y a des règles. Le casseur payeur. Le jeteur de torche, c’est à dégager voie 12 »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-28T16:00:23Z",
+    "url": "https://onefootball.com/fr/news/vincent-moscato-il-y-a-des-regles-le-casseur-payeur-le-jeteur-de-torche-cest-a-degager-voie-12-43686740"
+   },
+   {
+    "title": "Gabriel Magalhães (ex-LOSC) hors du Top 20 : Le classement complet du Ballon d’Or 2026",
+    "publisher": "Le Petit Lillois",
+    "time": "2026-10-28T14:40:11Z",
+    "url": "https://onefootball.com/fr/news/gabriel-magalhaes-ex-losc-hors-du-top-20-le-classement-complet-du-ballon-dor-2026-43686314"
+   },
+   {
+    "title": "Ayyoub Bouaddi (ex-LOSC) encore battu par Lamine Yamal au Trophée Kopa",
+    "publisher": "Le Petit Lillois",
+    "time": "2026-10-28T14:40:11Z",
+    "url": "https://onefootball.com/fr/news/ayyoub-bouaddi-ex-losc-encore-battu-par-lamine-yamal-au-trophee-kopa-43686315"
+   },
+   {
+    "title": "LOSC : Nabil Bentaleb félicite Harry Kane pour son sacre au Ballon d’Or 2026",
+    "publisher": "Le Petit Lillois",
+    "time": "2026-10-28T14:40:09Z",
+    "url": "https://onefootball.com/fr/news/losc-nabil-bentaleb-felicite-harry-kane-pour-son-sacre-au-ballon-dor-2026-43686310"
+   },
+   {
+    "title": "RC Lens : gros coup dur avant le derby, 4 absents pour le RCL",
+    "publisher": "Morning Foot",
+    "time": "2026-10-28T14:30:57Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-gros-coup-dur-avant-le-derby-4-absents-pour-le-rcl-43686306"
+   },
+   {
+    "title": "RC Lens - Yannick Cahuzac a une seule mission face au LOSC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T14:10:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-a-une-seule-mission-face-au-losc-43686206"
+   },
+   {
+    "title": "RC Lens - Yannick Cahuzac se prononce sur la longue absence d'Odsonne Édouard et annonce d'autres mauvaises nouvelles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T13:59:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-se-prononce-sur-la-longue-absence-dodsonne-edouard-et-annonce-dautres-mauvaises-nouvelles-43686098"
+   },
+   {
     "title": "\"Une ligne rouge a été franchie\" ... Lens justifie l'interdiction de déplacement prononcée contre ses supporters à Lille",
     "publisher": "OnzeMondial",
     "time": "2026-10-28T10:03:00Z",
     "url": "https://onefootball.com/fr/news/une-ligne-rouge-a-ete-franchie-lens-justifie-linterdiction-de-deplacement-prononcee-contre-ses-supporters-a-lille-43684924"
-   },
-   {
-    "title": "AS Monaco - Nouveau coup d'arrêt longue durée pour Ansu Fati, qui est fixé après sa blessure face au LOSC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T19:00:00Z",
-    "url": "https://onefootball.com/fr/news/as-monaco-nouveau-coup-darret-longue-duree-pour-ansu-fati-qui-est-fixe-apres-sa-blessure-face-au-losc-43676844"
-   },
-   {
-    "title": "LOSC : Ethan Mbappé devient incontournable, voici pourquoi",
-    "publisher": "Morning Foot",
-    "time": "2026-10-26T18:30:34Z",
-    "url": "https://onefootball.com/fr/news/losc-ethan-mbappe-devient-incontournable-voici-pourquoi-43676729"
-   },
-   {
-    "title": "Lille-Lens : les supporters lensois interdits de derby",
-    "publisher": "Foot National",
-    "time": "2026-10-26T17:58:00Z",
-    "url": "https://onefootball.com/fr/news/lille-lens-les-supporters-lensois-interdits-de-derby-43676544"
-   },
-   {
-    "title": "RC Lens - Le RC Lens sanctionne ses propres supporters et... les prive de derby face au LOSC !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-26T13:20:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-sanctionne-ses-propres-supporters-et-les-prive-de-derby-face-au-losc-43675091"
-   },
-   {
-    "title": "Lille - Lens : les Sang et Or interdisent à leurs supporters de se déplacer pour le derby du Nord",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-26T13:02:00Z",
-    "url": "https://onefootball.com/fr/news/lille-lens-les-sang-et-or-interdisent-a-leurs-supporters-de-se-deplacer-pour-le-derby-du-nord-43675008"
-   },
-   {
-    "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T19:45:00Z",
-    "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650"
-   },
-   {
-    "title": "AS Monaco - Filipe Luis prend l'entière responsabilité du match nul face au LOSC !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T18:30:00Z",
-    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "Le Havre aurait-il dû bénéficier d'un penalty contre l'OM en fin de match ? La direction de l'arbitrage a tranché",
+    "publisher": "Foot National",
+    "time": "2026-10-28T16:33:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883"
+   },
    {
     "title": "Ligue 1 - OM - Le Havre AC : la DTA se prononce sur les deux pénaltys potentiels en faveur des Havrais",
     "publisher": "MadeInFOOT",
@@ -6944,15 +7006,15 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T19:20:00Z",
     "url": "https://onefootball.com/fr/news/le-havre-ac-didier-digard-peste-contre-larbitrage-apres-la-defaite-face-a-lom-deux-penaltys-oublies-selon-lui-video-43671567"
-   },
-   {
-    "title": "OM-Le Havre : les 2 mains ultra-litigieuses non sifflées qui sauvent Marseille de l'humiliation",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T18:25:00Z",
-    "url": "https://onefootball.com/fr/news/om-le-havre-les-2-mains-ultra-litigieuses-non-sifflees-qui-sauvent-marseille-de-lhumiliation-43671242"
    }
   ],
   "Le Mans FC": [
+   {
+    "title": "Auxerre - Le Mans : la DTA sort du silence sur le but polémique accordé aux Manceaux",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T14:29:00Z",
+    "url": "https://onefootball.com/fr/news/auxerre-le-mans-la-dta-sort-du-silence-sur-le-but-polemique-accorde-aux-manceaux-43686255"
+   },
    {
     "title": "Ligue 1 - AJ Auxerre - Le Mans FC : la DTA donne son avis sur le bug de la goal-line et le but complètement fou accordé au Mans",
     "publisher": "MadeInFOOT",
@@ -7006,12 +7068,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-25T04:50:00Z",
     "url": "https://onefootball.com/fr/news/auxerre-le-mans-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-de-ligue-1-de-deuxieme-partie-de-tableau-43667916"
-   },
-   {
-    "title": "AJ Auxerre - Un retour mais plusieurs absents dans le groupe de l'AJA pour le match face au Mans FC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-24T15:55:00Z",
-    "url": "https://onefootball.com/fr/news/aj-auxerre-un-retour-mais-plusieurs-absents-dans-le-groupe-de-laja-pour-le-match-face-au-mans-fc-43665402"
    }
   ],
   "OGC Nice": [
@@ -7078,6 +7134,30 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "OL : deux bonnes nouvelles à l'entraînement ce mercredi",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-28T15:37:59Z",
+    "url": "https://onefootball.com/fr/news/ol-deux-bonnes-nouvelles-a-lentrainement-ce-mercredi-43686623"
+   },
+   {
+    "title": "OL : un jour de récupération en plus bienvenu avant Angers",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-28T15:00:00Z",
+    "url": "https://onefootball.com/fr/news/ol-un-jour-de-recuperation-en-plus-bienvenu-avant-angers-43686422"
+   },
+   {
+    "title": "OL - Dominik Greif réalise une performance record malgré le revers face au PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T14:30:00Z",
+    "url": "https://onefootball.com/fr/news/ol-dominik-greif-realise-une-performance-record-malgre-le-revers-face-au-psg-43686284"
+   },
+   {
+    "title": "OL : attaque muette, mais défense plus permissive",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-28T13:20:00Z",
+    "url": "https://onefootball.com/fr/news/ol-attaque-muette-mais-defense-plus-permissive-43685915"
+   },
+   {
     "title": "OL - Angers : pourquoi ce match est déjà un tournant pour les Lyonnais",
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-28T10:50:00Z",
@@ -7112,33 +7192,45 @@
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-27T15:00:00Z",
     "url": "https://onefootball.com/fr/news/luis-enrique-souligne-la-victoire-meritee-du-psg-face-a-lol-2-0-43681139"
-   },
-   {
-    "title": "OL - Après PSG - OL, Abner déplore les occasions manquées en première période",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T13:34:00Z",
-    "url": "https://onefootball.com/fr/news/ol-apres-psg-ol-abner-deplore-les-occasions-manquees-en-premiere-periode-43680688"
-   },
-   {
-    "title": "Tant qu'il y aura des Gones : le débrief de PSG - OL est disponible en podcast et en replay",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T13:00:00Z",
-    "url": "https://onefootball.com/fr/news/tant-quil-y-aura-des-gones-le-debrief-de-psg-ol-est-disponible-en-podcast-et-en-replay-43680522"
-   },
-   {
-    "title": "Fonseca salue la performance tactique de Lyon malgré la défaite face au PSG",
-    "publisher": "Olympique Lyonnais",
-    "time": "2026-10-27T12:04:00Z",
-    "url": "https://onefootball.com/fr/video/fonseca-salue-la-performance-tactique-de-lyon-malgre-la-defaite-face-au-psg-3LHGVcxKhpiZBcDja4ow2RfOJzX"
-   },
-   {
-    "title": "Fonseca salue la performance tactique de Lyon malgré la défaite face au PSG",
-    "publisher": "Olympique Lyonnais",
-    "time": "2026-10-27T12:03:54Z",
-    "url": "https://onefootball.com/fr/video/fonseca-salue-la-performance-tactique-de-lyon-malgre-la-defaite-face-au-psg-3LHEeBYi1xj0P596I7gR2yXGVds"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Pérès : « Je ne vois pas McCourt vendre le club à moyen terme »",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T17:00:03Z",
+    "url": "https://onefootball.com/fr/news/om-peres-je-ne-vois-pas-mccourt-vendre-le-club-a-moyen-terme-43687056"
+   },
+   {
+    "title": "Le Havre aurait-il dû bénéficier d'un penalty contre l'OM en fin de match ? La direction de l'arbitrage a tranché",
+    "publisher": "Foot National",
+    "time": "2026-10-28T16:33:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883"
+   },
+   {
+    "title": "OM - Jérémy Mathieu dézingue le niveau de l'OM et la gestion du club",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T16:04:00Z",
+    "url": "https://onefootball.com/fr/news/om-jeremy-mathieu-dezingue-le-niveau-de-lom-et-la-gestion-du-club-43686751"
+   },
+   {
+    "title": "Bayer Leverkusen - Le Bayer face à un énorme problème avant le choc contre l’OM, avec plusieurs absences de taille",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T15:39:00Z",
+    "url": "https://onefootball.com/fr/news/bayer-leverkusen-le-bayer-face-a-un-enorme-probleme-avant-le-choc-contre-lom-avec-plusieurs-absences-de-taille-43686616"
+   },
+   {
+    "title": "OM – Une bonne nouvelle avant le passage devant la DNCG ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T15:00:45Z",
+    "url": "https://onefootball.com/fr/news/om-une-bonne-nouvelle-avant-le-passage-devant-la-dncg-43686455"
+   },
+   {
+    "title": "OM – Le dossier Ngapandouetnbu prend une tournure différente",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T14:00:18Z",
+    "url": "https://onefootball.com/fr/news/om-le-dossier-ngapandouetnbu-prend-une-tournure-differente-43686125"
+   },
    {
     "title": "OM – Un insider accuse Genesio de mentir",
     "publisher": "CoeurMarseillais",
@@ -7162,50 +7254,44 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-28T10:32:00Z",
     "url": "https://onefootball.com/fr/news/om-deux-penaltys-oublies-pour-le-havre-au-velodrome-la-dta-a-tranche-43685052"
-   },
-   {
-    "title": "OM – Aubameyang félicite Abdelli après Le Havre",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T10:00:08Z",
-    "url": "https://onefootball.com/fr/news/om-aubameyang-felicite-abdelli-apres-le-havre-43684930"
-   },
-   {
-    "title": "OM - L'OM travaille pour annoncer l'arrivée d'un nouvel investisseur",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T08:53:00Z",
-    "url": "https://onefootball.com/fr/news/om-lom-travaille-pour-annoncer-larrivee-dun-nouvel-investisseur-43684646"
-   },
-   {
-    "title": "Mercato OM : Contrat pro à venir pour ce jeune",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T08:00:16Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-contrat-pro-a-venir-pour-ce-jeune-43684366"
-   },
-   {
-    "title": "OM - Éric Di Meco réagit à la mise à l'écart de Keyliane Abdallah",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T07:46:00Z",
-    "url": "https://onefootball.com/fr/news/om-eric-di-meco-reagit-a-la-mise-a-lecart-de-keyliane-abdallah-43684306"
-   },
-   {
-    "title": "OM : McCourt cherche de nouveaux actionnaires, le Moyen-Orient ciblé ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T07:32:00Z",
-    "url": "https://onefootball.com/fr/news/om-mccourt-cherche-de-nouveaux-actionnaires-le-moyen-orient-cible-43684253"
-   },
-   {
-    "title": "OM – Le vestiaire gronde après la déclaration d’Abdelli",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T01:00:21Z",
-    "url": "https://onefootball.com/fr/news/om-le-vestiaire-gronde-apres-la-declaration-dabdelli-43683704"
    }
   ],
   "PSG": [
+   {
+    "title": "Mercato : Gonçalo Ramos l'annonce, il voulait déjà partir avant cet été du PSG",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T17:32:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-goncalo-ramos-lannonce-il-voulait-deja-partir-avant-cet-ete-du-psg-43687187"
+   },
+   {
+    "title": "Mercato - PSG : premier couac annoncé dans le dossier Maza ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T16:01:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-premier-couac-annonce-dans-le-dossier-maza-43686715"
+   },
+   {
+    "title": "Mercato PSG - Le Bayer Leverkusen veut contrarier les plans du PSG pour Ibrahim Maza",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T14:59:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-le-bayer-leverkusen-veut-contrarier-les-plans-du-psg-pour-ibrahim-maza-43686447"
+   },
+   {
+    "title": "OL - Dominik Greif réalise une performance record malgré le revers face au PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T14:30:00Z",
+    "url": "https://onefootball.com/fr/news/ol-dominik-greif-realise-une-performance-record-malgre-le-revers-face-au-psg-43686284"
+   },
    {
     "title": "Rio Mavuba : « C’est un joueur impressionnant et il postulera un jour pour le Ballon d’Or »",
     "publisher": "ConsultantsFoot",
     "time": "2026-10-28T12:30:44Z",
     "url": "https://onefootball.com/fr/news/rio-mavuba-cest-un-joueur-impressionnant-et-il-postulera-un-jour-pour-le-ballon-dor-43685681"
+   },
+   {
+    "title": "Ballon d'Or 2026 : aucun joueur du PSG dans le Top 5 ... La Coupe du monde vampirise-t-elle trop le scrutin ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T12:00:00Z",
+    "url": "https://onefootball.com/fr/news/ballon-dor-2026-aucun-joueur-du-psg-dans-le-top-5-la-coupe-du-monde-vampirise-t-elle-trop-le-scrutin-43685509"
    },
    {
     "title": "« ça n’avait aucun sens », Ramos se lâche sur son passage au PSG",
@@ -7230,36 +7316,6 @@
     "publisher": "Parisfans.fr",
     "time": "2026-10-28T08:14:48Z",
     "url": "https://onefootball.com/fr/news/mercato-une-tentative-du-psg-pour-maza-cet-hiver-43684426"
-   },
-   {
-    "title": "Mercato : le PSG dans le coup pour Maza, énorme concurrence déjà en vue ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T08:01:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-le-psg-dans-le-coup-pour-maza-enorme-concurrence-deja-en-vue-43684356"
-   },
-   {
-    "title": "Le superbe premier but de Godts avec le PSG",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-10-28T07:29:14Z",
-    "url": "https://onefootball.com/fr/video/le-superbe-premier-but-de-godts-avec-le-psg-3LJWMpRXi4bYVkwwwzJsRTGC2Mx"
-   },
-   {
-    "title": "Revue de presse : L’importance des remplaçants au PSG, Kvaratskhelia et Ballon d’Or",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-28T06:52:38Z",
-    "url": "https://onefootball.com/fr/news/revue-de-presse-limportance-des-remplacants-au-psg-kvaratskhelia-et-ballon-dor-43684135"
-   },
-   {
-    "title": "Le superbe premier but de Godts avec le PSG",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-10-28T06:29:00Z",
-    "url": "https://onefootball.com/fr/video/le-superbe-premier-but-de-godts-avec-le-psg-3LJSiMikYvd1tJLCKge65S6LJtD"
-   },
-   {
-    "title": "PSG : le club prêt à arracher un crack à Leverkusen ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T22:02:00Z",
-    "url": "https://onefootball.com/fr/news/psg-le-club-pret-a-arracher-un-crack-a-leverkusen-43683201"
    }
   ],
   "Paris FC": [
@@ -7326,64 +7382,64 @@
   ],
   "RC Lens": [
    {
-    "title": "Odsonne Edouard opéré et absent plusieurs semaines",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T12:09:55Z",
-    "url": "https://onefootball.com/fr/news/odsonne-edouard-opere-et-absent-plusieurs-semaines-43685584"
-   },
-   {
-    "title": "« On veut le derby ! » : 3 500 Lensois à l’entraînement public pour pousser les Sang et or avant le derby",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T11:54:44Z",
-    "url": "https://onefootball.com/fr/news/on-veut-le-derby-3-500-lensois-a-lentrainement-public-pour-pousser-les-sang-et-or-avant-le-derby-43685476"
-   },
-   {
-    "title": "Lens ou Lille, qui est le mieux armé pour briller cette saison ? Les réponses",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T10:44:34Z",
-    "url": "https://onefootball.com/fr/news/lens-ou-lille-qui-est-le-mieux-arme-pour-briller-cette-saison-les-reponses-43685113"
-   },
-   {
-    "title": "RC Lens - Le RC Lens annonce une décision radicale contre ses supporters après les débordements à Bruges",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T10:28:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-annonce-une-decision-radicale-contre-ses-supporters-apres-les-debordements-a-bruges-43685059"
-   },
-   {
-    "title": "\"Une ligne rouge a été franchie\" ... Lens justifie l'interdiction de déplacement prononcée contre ses supporters à Lille",
+    "title": "Lille - Lens : les supporters lensois présents en masse à l'entraînement malgré l'interdiction de déplacement prononcée par le club",
     "publisher": "OnzeMondial",
-    "time": "2026-10-28T10:03:00Z",
-    "url": "https://onefootball.com/fr/news/une-ligne-rouge-a-ete-franchie-lens-justifie-linterdiction-de-deplacement-prononcee-contre-ses-supporters-a-lille-43684924"
+    "time": "2026-10-28T18:29:00Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-les-supporters-lensois-presents-en-masse-a-lentrainement-malgre-linterdiction-de-deplacement-prononcee-par-le-club-43687458"
    },
    {
-    "title": "Incidents à Bruges : le RC Lens dénonce « une ligne rouge franchie » et annonce de lourdes sanctions",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T09:54:53Z",
-    "url": "https://onefootball.com/fr/news/incidents-a-bruges-le-rc-lens-denonce-une-ligne-rouge-franchie-et-annonce-de-lourdes-sanctions-43684864"
+    "title": "RC Lens - Mauvaise nouvelle pour les supporters lensois avant le derby contre le LOSC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T18:18:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-mauvaise-nouvelle-pour-les-supporters-lensois-avant-le-derby-contre-le-losc-43687412"
    },
    {
-    "title": "Suivez en direct l’entraînement public du RC Lens avant le derby",
+    "title": "Yannick Cahuzac sur Mezian Mesloub : « Il est là où il faut, au moment où il faut »",
     "publisher": "Lensois.com",
-    "time": "2026-10-28T09:00:24Z",
-    "url": "https://onefootball.com/fr/news/suivez-en-direct-lentrainement-public-du-rc-lens-avant-le-derby-43684631"
+    "time": "2026-10-28T17:00:27Z",
+    "url": "https://onefootball.com/fr/news/yannick-cahuzac-sur-mezian-mesloub-il-est-la-ou-il-faut-au-moment-ou-il-faut-43687065"
    },
    {
-    "title": "Côme entretient sa confiance avant d’affronter le RC Lens",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T08:14:09Z",
-    "url": "https://onefootball.com/fr/news/come-entretient-sa-confiance-avant-daffronter-le-rc-lens-43684420"
+    "title": "LOSC-Lens – Cahuzac : \"Un derby, c'est toujours un match avec une saveur particulière\"",
+    "publisher": "Stats Perform",
+    "time": "2026-10-28T16:42:09Z",
+    "url": "https://onefootball.com/fr/video/losc-lens-cahuzac-un-derby-cest-toujours-un-match-avec-une-saveur-particuliere-3LKbb6LS3tohpol7G94EO0bKHQj"
    },
    {
-    "title": "Lille-RC Lens, quand la meilleure défense reçoit l’une des meilleures attaques",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T06:31:31Z",
-    "url": "https://onefootball.com/fr/news/lille-rc-lens-quand-la-meilleure-defense-recoit-lune-des-meilleures-attaques-43684102"
+    "title": "RC Lens - La confidence déchirante de Samson Baidoo sur ses blessures",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T16:10:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-la-confidence-dechirante-de-samson-baidoo-sur-ses-blessures-43686807"
    },
    {
-    "title": "Florian Thauvin rejoint le Top 10 des buteurs et creuse son avance chez les passeurs",
+    "title": "Vincent Moscato : « Il y a des règles. Le casseur payeur. Le jeteur de torche, c’est à dégager voie 12 »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-28T16:00:23Z",
+    "url": "https://onefootball.com/fr/news/vincent-moscato-il-y-a-des-regles-le-casseur-payeur-le-jeteur-de-torche-cest-a-degager-voie-12-43686740"
+   },
+   {
+    "title": "RC Lens : gros coup dur avant le derby, 4 absents pour le RCL",
+    "publisher": "Morning Foot",
+    "time": "2026-10-28T14:30:57Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-gros-coup-dur-avant-le-derby-4-absents-pour-le-rcl-43686306"
+   },
+   {
+    "title": "RC Lens - Yannick Cahuzac a une seule mission face au LOSC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T14:10:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-a-une-seule-mission-face-au-losc-43686206"
+   },
+   {
+    "title": "Samson Baidoo : « Ce n’était pas une période facile pour moi »",
     "publisher": "Lensois.com",
-    "time": "2026-10-28T06:13:04Z",
-    "url": "https://onefootball.com/fr/news/florian-thauvin-rejoint-le-top-10-des-buteurs-et-creuse-son-avance-chez-les-passeurs-43684055"
+    "time": "2026-10-28T14:04:45Z",
+    "url": "https://onefootball.com/fr/news/samson-baidoo-ce-netait-pas-une-periode-facile-pour-moi-43686131"
+   },
+   {
+    "title": "RC Lens - Yannick Cahuzac se prononce sur la longue absence d'Odsonne Édouard et annonce d'autres mauvaises nouvelles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T13:59:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-se-prononce-sur-la-longue-absence-dodsonne-edouard-et-annonce-dautres-mauvaises-nouvelles-43686098"
    }
   ],
   "RC Strasbourg": [
@@ -7636,7 +7692,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T12:58+00:00",
+ "fetchedAt": "2026-10-28T18:45+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
@@ -9877,7 +9933,7 @@
     "link": "/fr/match/2688721"
    },
    {
-    "kickoff": "2026-11-05T17:45:00Z",
+    "kickoff": "2026-11-04T15:30:00Z",
     "competition": "UEFA Europa League",
     "home": "Stade Rennais",
     "away": "Olympiakos",
@@ -10068,5 +10124,6 @@
     "link": "/fr/match/2688796"
    }
   ]
- }
+ },
+ "version": 2
 }
