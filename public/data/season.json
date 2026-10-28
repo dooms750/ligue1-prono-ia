@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-27T21:21+00:00",
-  "generatedAt": "2026-10-27T21:23+00:00"
+  "fetchedAt": "2026-10-28T12:58+00:00",
+  "generatedAt": "2026-10-28T13:01+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5311,38 +5311,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "Officiel – Le PSG donne des nouvelles de Kvaratskhelia après l’opération",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/officiel-le-psg-donne-des-nouvelles-de-kvaratskhelia-apres-loperation-43681149",
-        "time": "2026-10-27T15:01:20Z"
-       },
-       {
-        "title": "PSG : très bonne nouvelle, Kvaratskhelia opéré avec succès",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-tres-bonne-nouvelle-kvaratskhelia-opere-avec-succes-43680989",
-        "time": "2026-10-27T14:27:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "PSG/Lyon – Luis Enrique fier de la mentalité des remplaçants",
+        "title": "« ça n’avait aucun sens », Ramos se lâche sur son passage au PSG",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psglyon-luis-enrique-fier-de-la-mentalite-des-remplacants-43682954",
-        "time": "2026-10-27T21:00:18Z"
+        "url": "https://onefootball.com/fr/news/ca-navait-aucun-sens-ramos-se-lache-sur-son-passage-au-psg-43685350",
+        "time": "2026-10-28T11:30:04Z"
        },
        {
-        "title": "PSG - Le PSG répond au rédacteur en chef de France Football !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-le-psg-repond-au-redacteur-en-chef-de-france-football-43682929",
-        "time": "2026-10-27T20:54:00Z"
+        "title": "Mercato – Le PSG prêt à recruter cet hiver !",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/mercato-le-psg-pret-a-recruter-cet-hiver-43685241",
+        "time": "2026-10-28T11:05:06Z"
        },
        {
-        "title": "Mercato PSG - Le PSG a ciblé ce joueur de Bundesliga pour renforcer sa ligne offensive !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-a-cible-ce-joueur-de-bundesliga-pour-renforcer-sa-ligne-offensive-43682276",
-        "time": "2026-10-27T18:43:00Z"
+        "title": "Les cadors à l’affût : le PSG se bat pour garder Doué",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/les-cadors-a-laffut-le-psg-se-bat-pour-garder-doue-43685045",
+        "time": "2026-10-28T10:31:08Z"
        }
       ],
       "scorer": {
@@ -5356,23 +5343,23 @@
      "kind": "beau",
      "stadium": "Stade Océane",
      "roof": false,
-     "daysBefore": 3,
-     "temp": 9,
-     "desc": "ciel dégagé",
-     "code": 0,
+     "daysBefore": 2,
+     "temp": 10,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
      "rainMax": 0,
-     "gust": 25,
+     "gust": 27,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 86,
+     "confidence": 91,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5381,6 +5368,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 86
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 2,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 91
       }
      ]
     }
@@ -5465,23 +5460,23 @@
      "kind": "beau",
      "stadium": "Allianz Riviera",
      "roof": false,
-     "daysBefore": 3,
-     "temp": 17,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 2,
+     "temp": 16,
+     "desc": "bruine",
+     "code": 53,
      "rain": 0,
-     "rainMax": 0.6,
-     "gust": 18,
+     "rainMax": 0.8,
+     "gust": 17,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 84,
+     "confidence": 90,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T16:51+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5490,6 +5485,14 @@
        "pWind": 0.0,
        "temp": 14,
        "conf": 84
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 2,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 15,
+       "conf": 90
       }
      ]
     }
@@ -5542,25 +5545,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Odsonne Edouard opéré et absent plusieurs semaines",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/odsonne-edouard-opere-et-absent-plusieurs-semaines-43685584",
+        "time": "2026-10-28T12:09:55Z"
+       }
+      ],
       "other": [
        {
-        "title": "RC Lens : l'UEFA sévit après les débordements survenus à Bruges",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/rc-lens-luefa-sevit-apres-les-debordements-survenus-a-bruges-43682216",
-        "time": "2026-10-27T18:29:00Z"
-       },
-       {
-        "title": "Les supporters du RC Lens privés de déplacement à Leipzig et à Liverpool",
+        "title": "« On veut le derby ! » : 3 500 Lensois à l’entraînement public pour pousser les Sang et or avant le derby",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/les-supporters-du-rc-lens-prives-de-deplacement-a-leipzig-et-a-liverpool-43682202",
-        "time": "2026-10-27T18:24:54Z"
+        "url": "https://onefootball.com/fr/news/on-veut-le-derby-3-500-lensois-a-lentrainement-public-pour-pousser-les-sang-et-or-avant-le-derby-43685476",
+        "time": "2026-10-28T11:54:44Z"
        },
        {
-        "title": "RC Lens - L'UEFA sanctionne lourdement le RCL et ses supporters !",
+        "title": "Lens ou Lille, qui est le mieux armé pour briller cette saison ? Les réponses",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/lens-ou-lille-qui-est-le-mieux-arme-pour-briller-cette-saison-les-reponses-43685113",
+        "time": "2026-10-28T10:44:34Z"
+       },
+       {
+        "title": "RC Lens - Le RC Lens annonce une décision radicale contre ses supporters après les débordements à Bruges",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-luefa-sanctionne-lourdement-le-rcl-et-ses-supporters-43682196",
-        "time": "2026-10-27T18:24:00Z"
+        "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-annonce-une-decision-radicale-contre-ses-supporters-apres-les-debordements-a-bruges-43685059",
+        "time": "2026-10-28T10:28:00Z"
        }
       ],
       "scorer": {
@@ -5574,23 +5584,23 @@
      "kind": "beau",
      "stadium": "Stade Pierre-Mauroy",
      "roof": true,
-     "daysBefore": 3,
+     "daysBefore": 2,
      "temp": 8,
      "desc": "partiellement nuageux",
      "code": 2,
      "rain": 0,
      "rainMax": 0,
-     "gust": 18,
+     "gust": 19,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 86,
+     "confidence": 90,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5599,6 +5609,14 @@
        "pWind": 0.0,
        "temp": 8,
        "conf": 86
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 2,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 9,
+       "conf": 90
       }
      ]
     }
@@ -5645,23 +5663,23 @@
      "kind": "beau",
      "stadium": "Stade de l'Aube",
      "roof": false,
-     "daysBefore": 4,
+     "daysBefore": 3,
      "temp": 8,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 26,
+     "gust": 23,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 80,
+     "confidence": 84,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5670,6 +5688,14 @@
        "pWind": 0.0,
        "temp": 8,
        "conf": 80
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 3,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 9,
+       "conf": 84
       }
      ]
     }
@@ -5697,6 +5723,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Strasbourg : la chute libre, rien ne va plus au RCSA,  Hugo Oliveira sous pression",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/strasbourg-la-chute-libre-rien-ne-va-plus-au-rcsa-hugo-oliveira-sous-pression-43685657",
+        "time": "2026-10-28T12:23:06Z"
+       },
+       {
         "title": "Avant Strasbourg, le PSG et le Real voulaient Coulibaly, ex du Werder",
         "publisher": "fussball-news.de",
         "url": "https://onefootball.com/fr/news/avant-strasbourg-le-psg-et-le-real-voulaient-coulibaly-ex-du-werder-43674234",
@@ -5713,6 +5745,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Ligue 1 - AJ Auxerre - Le Mans FC : la DTA donne son avis sur le bug de la goal-line et le but complètement fou accordé au Mans",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-la-dta-donne-son-avis-sur-le-bug-de-la-goal-line-et-le-but-completement-fou-accorde-au-mans-43685199",
+        "time": "2026-10-28T10:53:00Z"
+       },
+       {
         "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/aja-laj-auxerre-ne-decolere-pas-et-demande-une-action-inedite-43681340",
@@ -5723,12 +5761,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/aj-auxerre-laj-auxerre-tape-du-poing-sur-la-table-et-demande-a-ce-que-le-match-nul-face-au-mans-fc-ne-soit-pas-homologue-43675440",
         "time": "2026-10-26T14:19:00Z"
-       },
-       {
-        "title": "AJ Auxerre - Will Still révolté après \"un problème informatique inédit\" sur un but du Mans FC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-revolte-apres-un-probleme-informatique-inedit-sur-un-but-du-mans-fc-43671911",
-        "time": "2026-10-25T20:57:00Z"
        }
       ],
       "scorer": {
@@ -5742,23 +5774,23 @@
      "kind": "beau",
      "stadium": "Stade de la Meinau",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 10,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "daysBefore": 4,
+     "temp": 11,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 0,
+     "rainMax": 0.5,
      "gust": 21,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 74,
+     "confidence": 78,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5767,6 +5799,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 74
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 4,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 78
       }
      ]
     }
@@ -5794,22 +5834,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OL - Après PSG - OL, Abner déplore les occasions manquées en première période",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-apres-psg-ol-abner-deplore-les-occasions-manquees-en-premiere-periode-43680688",
-        "time": "2026-10-27T13:34:00Z"
-       },
-       {
-        "title": "Tant qu'il y aura des Gones : le débrief de PSG - OL est disponible en podcast et en replay",
+        "title": "OL - Angers : pourquoi ce match est déjà un tournant pour les Lyonnais",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/tant-quil-y-aura-des-gones-le-debrief-de-psg-ol-est-disponible-en-podcast-et-en-replay-43680522",
-        "time": "2026-10-27T13:00:00Z"
+        "url": "https://onefootball.com/fr/news/ol-angers-pourquoi-ce-match-est-deja-un-tournant-pour-les-lyonnais-43685146",
+        "time": "2026-10-28T10:50:00Z"
        },
        {
-        "title": "Fonseca salue la performance tactique de Lyon malgré la défaite face au PSG",
-        "publisher": "Olympique Lyonnais",
-        "url": "https://onefootball.com/fr/video/fonseca-salue-la-performance-tactique-de-lyon-malgre-la-defaite-face-au-psg-3LHGVcxKhpiZBcDja4ow2RfOJzX",
-        "time": "2026-10-27T12:04:00Z"
+        "title": "OL : Dominik Greif bat son record d'arrêts face au PSG",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-dominik-greif-bat-son-record-darrets-face-au-psg-43684293",
+        "time": "2026-10-28T07:45:00Z"
+       },
+       {
+        "title": "OL - Sidney Govou ne cache pas sa grande frustration après la défaite des Gones face au PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-sidney-govou-ne-cache-pas-sa-grande-frustration-apres-la-defaite-des-gones-face-au-psg-43683092",
+        "time": "2026-10-27T21:29:00Z"
        }
       ],
       "scorer": {
@@ -5845,23 +5885,23 @@
      "kind": "beau",
      "stadium": "Groupama Stadium",
      "roof": false,
-     "daysBefore": 5,
+     "daysBefore": 4,
      "temp": 11,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
      "rainMax": 0,
      "gust": 17,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 72,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5870,6 +5910,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 72
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 4,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 77
       }
      ]
     }
@@ -5916,15 +5964,15 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-nouveau-coup-darret-longue-duree-pour-ansu-fati-qui-est-fixe-apres-sa-blessure-face-au-losc-43676844",
         "time": "2026-10-26T19:00:00Z"
-       },
-       {
-        "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650",
-        "time": "2026-10-25T19:45:00Z"
        }
       ],
       "other": [
+       {
+        "title": "Mercato Monaco - Un géant d'Europe en pince pour Folarin Balogun !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-un-geant-deurope-en-pince-pour-folarin-balogun-43683171",
+        "time": "2026-10-27T21:45:00Z"
+       },
        {
         "title": "AS Monaco - Le programme de la semaine de l'ASM du 26 octobre au 1er novembre",
         "publisher": "MadeInFOOT",
@@ -5936,12 +5984,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-un-club-anglais-suit-de-pres-lamine-camara-43676299",
         "time": "2026-10-26T17:01:00Z"
-       },
-       {
-        "title": "AS Monaco : Filipe Luís dénonce le chaos et prend tout sur lui",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329",
-        "time": "2026-10-26T11:00:35Z"
        }
       ],
       "scorer": {
@@ -5955,7 +5997,7 @@
      "kind": "beau",
      "stadium": "Stade Jean-Bouin",
      "roof": false,
-     "daysBefore": 5,
+     "daysBefore": 4,
      "temp": 11,
      "desc": "couvert",
      "code": 3,
@@ -5965,13 +6007,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 73,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5980,6 +6022,14 @@
        "pWind": 0.0,
        "temp": 12,
        "conf": 73
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 4,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 77
       }
      ]
     }
@@ -6004,32 +6054,25 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "OM – Paixão touché à l’épaule, quel verdict ?",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-paixao-touche-a-lepaule-quel-verdict-43681505",
-        "time": "2026-10-27T16:00:59Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "Mercato - OM : grosse décision avec Mmadi et Valero ?",
+        "title": "OM – Un insider accuse Genesio de mentir",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-un-insider-accuse-genesio-de-mentir-43685536",
+        "time": "2026-10-28T12:00:57Z"
+       },
+       {
+        "title": "Mercato - OM : trois joueurs auraient déjà dit oui pour venir cet hiver",
         "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/mercato-om-grosse-decision-avec-mmadi-et-valero-43682514",
-        "time": "2026-10-27T19:30:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-trois-joueurs-auraient-deja-dit-oui-pour-venir-cet-hiver-43685204",
+        "time": "2026-10-28T11:00:00Z"
        },
        {
-        "title": "OM – Abdallah prêt à se battre pour regagner sa place",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-abdallah-pret-a-se-battre-pour-regagner-sa-place-43681819",
-        "time": "2026-10-27T17:00:31Z"
-       },
-       {
-        "title": "OM – Moumbagna ne comprend pas la décision de Genesio",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-moumbagna-ne-comprend-pas-la-decision-de-genesio-43681181",
-        "time": "2026-10-27T15:00:59Z"
+        "title": "Ligue 1 - OM - Le Havre AC : la DTA se prononce sur les deux pénaltys potentiels en faveur des Havrais",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-om-le-havre-ac-la-dta-se-prononce-sur-les-deux-penaltys-potentiels-en-faveur-des-havrais-43685106",
+        "time": "2026-10-28T10:37:00Z"
        }
       ],
       "scorer": {
@@ -6162,23 +6205,23 @@
      "kind": "beau",
      "stadium": "Stade du Moustoir",
      "roof": false,
-     "daysBefore": 6,
+     "daysBefore": 5,
      "temp": 11,
-     "desc": "couvert",
-     "code": 3,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 35,
+     "gust": 40,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 66,
+     "confidence": 69,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-27T21:22+00:00",
+     "updated": "2026-10-28T12:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6187,12 +6230,79 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 66
+      },
+      {
+       "day": "2026-10-28",
+       "daysBefore": 5,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 69
       }
      ]
     }
    },
    "lh": 1.384,
    "la": 1.155
+  },
+  {
+   "md": 10,
+   "date": "2026-11-06",
+   "time": "20:45",
+   "home": "TOU",
+   "away": "STR",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688732",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231",
+        "time": "2026-10-25T18:20:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Casper Tengstedt",
+       "goals": 5
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Strasbourg : la chute libre, rien ne va plus au RCSA,  Hugo Oliveira sous pression",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/strasbourg-la-chute-libre-rien-ne-va-plus-au-rcsa-hugo-oliveira-sous-pression-43685657",
+        "time": "2026-10-28T12:23:06Z"
+       },
+       {
+        "title": "Avant Strasbourg, le PSG et le Real voulaient Coulibaly, ex du Werder",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/avant-strasbourg-le-psg-et-le-real-voulaient-coulibaly-ex-du-werder-43674234",
+        "time": "2026-10-26T10:51:13Z"
+       }
+      ],
+      "scorer": {
+       "name": "Gessime Yassine",
+       "goals": 2
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.86,
+   "la": 1.344
   }
  ]
 }

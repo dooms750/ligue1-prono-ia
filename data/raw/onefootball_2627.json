@@ -6038,8 +6038,32 @@
    "reds": [],
    "stats": {},
    "starters": {
-    "home": [],
-    "away": []
+    "home": [
+     "Elye Wahi",
+     "Mohamed Amoura",
+     "Gauthier Hein",
+     "Niels Nkounkou",
+     "Hicham Boudaoui",
+     "Axel Witsel",
+     "Hamza Koutoune",
+     "Mohamed Abdelmonem",
+     "Youssouf Ndayishimiye",
+     "Alidu Seidu",
+     "Yehvann Diouf"
+    ],
+    "away": [
+     "Mousa Al-Taamari",
+     "Boulaye Dia",
+     "Mahdi Camara",
+     "Valentin Rongier",
+     "Adrien Thomasson",
+     "Aboubakar Nagida",
+     "Anthony Rouault",
+     "Charlie Cresswell",
+     "Abdelhamid Aït Boudlal",
+     "Przemysław Frankowski",
+     "Brice Samba"
+    ]
    }
   },
   "2688722": {
@@ -6501,10 +6525,36 @@
     "home": [],
     "away": []
    }
+  },
+  "2688745": {
+   "id": 2688745,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-27T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Stade Brestois",
+   "away": "Paris FC",
+   "homeLink": "/fr/equipe/stade-brestois-254",
+   "awayLink": "/fr/equipe/paris-fc-5170",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : la DTA donne son avis sur le bug de la goal-line et le but complètement fou accordé au Mans",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T10:53:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-la-dta-donne-son-avis-sur-le-bug-de-la-goal-line-et-le-but-completement-fou-accorde-au-mans-43685199"
+   },
    {
     "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
     "publisher": "Morning Foot",
@@ -6558,15 +6608,27 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T08:00:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-probables-43668339"
-   },
-   {
-    "title": "Auxerre-Le Mans : chaîne TV, streaming… À quelle heure et où suivre ce match de Ligue 1 de deuxième partie de tableau ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T04:50:00Z",
-    "url": "https://onefootball.com/fr/news/auxerre-le-mans-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-de-ligue-1-de-deuxieme-partie-de-tableau-43667916"
    }
   ],
   "AS Monaco": [
+   {
+    "title": "Folarin Balogun vers la Juventus ?",
+    "publisher": "Mercato Foot anglais",
+    "time": "2026-10-28T11:05:00Z",
+    "url": "https://onefootball.com/fr/news/folarin-balogun-vers-la-juventus-43685232"
+   },
+   {
+    "title": "De la concurrence pour Woltemade : la Juventus cible un attaquant",
+    "publisher": "fussball-news.de",
+    "time": "2026-10-28T07:31:05Z",
+    "url": "https://onefootball.com/fr/news/de-la-concurrence-pour-woltemade-la-juventus-cible-un-attaquant-43684245"
+   },
+   {
+    "title": "Mercato Monaco - Un géant d'Europe en pince pour Folarin Balogun !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T21:45:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-monaco-un-geant-deurope-en-pince-pour-folarin-balogun-43683171"
+   },
    {
     "title": "AS Monaco - Le programme de la semaine de l'ASM du 26 octobre au 1er novembre",
     "publisher": "MadeInFOOT",
@@ -6596,24 +6658,6 @@
     "publisher": "AS Monaco",
     "time": "2026-10-26T09:41:00Z",
     "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue"
-   },
-   {
-    "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
-    "publisher": "AS Monaco",
-    "time": "2026-10-26T09:37:20Z",
-    "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LE7hiMZ6UPARgS0sA7q50JQ4fN"
-   },
-   {
-    "title": "AS Monaco - Les premières nouvelles ne sont pas très bonnes pour Ansu Fati, de nouveau blessé",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T19:45:00Z",
-    "url": "https://onefootball.com/fr/news/as-monaco-les-premieres-nouvelles-ne-sont-pas-tres-bonnes-pour-ansu-fati-de-nouveau-blesse-43671650"
-   },
-   {
-    "title": "AS Monaco - Filipe Luis prend l'entière responsabilité du match nul face au LOSC !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T18:30:00Z",
-    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341"
    }
   ],
   "Angers SCO": [
@@ -6804,6 +6848,12 @@
   ],
   "LOSC": [
    {
+    "title": "\"Une ligne rouge a été franchie\" ... Lens justifie l'interdiction de déplacement prononcée contre ses supporters à Lille",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T10:03:00Z",
+    "url": "https://onefootball.com/fr/news/une-ligne-rouge-a-ete-franchie-lens-justifie-linterdiction-de-deplacement-prononcee-contre-ses-supporters-a-lille-43684924"
+   },
+   {
     "title": "AS Monaco - Nouveau coup d'arrêt longue durée pour Ansu Fati, qui est fixé après sa blessure face au LOSC",
     "publisher": "MadeInFOOT",
     "time": "2026-10-26T19:00:00Z",
@@ -6844,15 +6894,21 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T18:30:00Z",
     "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-prend-lentiere-responsabilite-du-match-nul-face-au-losc-43671341"
-   },
-   {
-    "title": "LOSC - Davide Ancelotti analyse le match nul face à l'AS Monaco et se projette sur le derby face au RC Lens",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T17:16:00Z",
-    "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-analyse-le-match-nul-face-a-las-monaco-et-se-projette-sur-le-derby-face-au-rc-lens-43670994"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "Ligue 1 - OM - Le Havre AC : la DTA se prononce sur les deux pénaltys potentiels en faveur des Havrais",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T10:37:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-om-le-havre-ac-la-dta-se-prononce-sur-les-deux-penaltys-potentiels-en-faveur-des-havrais-43685106"
+   },
+   {
+    "title": "OM : deux penaltys oubliés pour Le Havre au Vélodrome ? La DTA a tranché !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T10:32:00Z",
+    "url": "https://onefootball.com/fr/news/om-deux-penaltys-oublies-pour-le-havre-au-velodrome-la-dta-a-tranche-43685052"
+   },
    {
     "title": "OM : Kamissoko sermonné par Hojbjerg, Maupay recadré par Genesio... l'énorme coup de colère du vestiaire après Le Havre",
     "publisher": "OnzeMondial",
@@ -6894,21 +6950,15 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-25T18:25:00Z",
     "url": "https://onefootball.com/fr/news/om-le-havre-les-2-mains-ultra-litigieuses-non-sifflees-qui-sauvent-marseille-de-lhumiliation-43671242"
-   },
-   {
-    "title": "OM : Marseille s’impose en passant par tous les états, les stats d’un match fou",
-    "publisher": "Morning Foot",
-    "time": "2026-10-25T18:21:43Z",
-    "url": "https://onefootball.com/fr/news/om-marseille-simpose-en-passant-par-tous-les-etats-les-stats-dun-match-fou-43671244"
-   },
-   {
-    "title": "L'OM se fait peur contre le Havre, Rennes leader après une démonstration contre Strasbourg... les résultats du multiplex !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T18:16:00Z",
-    "url": "https://onefootball.com/fr/news/lom-se-fait-peur-contre-le-havre-rennes-leader-apres-une-demonstration-contre-strasbourg-les-resultats-du-multiplex-43671202"
    }
   ],
   "Le Mans FC": [
+   {
+    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : la DTA donne son avis sur le bug de la goal-line et le but complètement fou accordé au Mans",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T10:53:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-la-dta-donne-son-avis-sur-le-bug-de-la-goal-line-et-le-but-completement-fou-accorde-au-mans-43685199"
+   },
    {
     "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
     "publisher": "Morning Foot",
@@ -6962,12 +7012,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-24T15:55:00Z",
     "url": "https://onefootball.com/fr/news/aj-auxerre-un-retour-mais-plusieurs-absents-dans-le-groupe-de-laja-pour-le-match-face-au-mans-fc-43665402"
-   },
-   {
-    "title": "Le Mans s’effondre, Toulouse se régale, les chiffres d’une démonstration",
-    "publisher": "Morning Foot",
-    "time": "2026-10-16T20:44:05Z",
-    "url": "https://onefootball.com/fr/news/le-mans-seffondre-toulouse-se-regale-les-chiffres-dune-demonstration-43623791"
    }
   ],
   "OGC Nice": [
@@ -7034,6 +7078,30 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "OL - Angers : pourquoi ce match est déjà un tournant pour les Lyonnais",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-28T10:50:00Z",
+    "url": "https://onefootball.com/fr/news/ol-angers-pourquoi-ce-match-est-deja-un-tournant-pour-les-lyonnais-43685146"
+   },
+   {
+    "title": "OL : Dominik Greif bat son record d'arrêts face au PSG",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-28T07:45:00Z",
+    "url": "https://onefootball.com/fr/news/ol-dominik-greif-bat-son-record-darrets-face-au-psg-43684293"
+   },
+   {
+    "title": "Le superbe premier but de Godts avec le PSG",
+    "publisher": "Paris Saint-Germain",
+    "time": "2026-10-28T07:29:14Z",
+    "url": "https://onefootball.com/fr/video/le-superbe-premier-but-de-godts-avec-le-psg-3LJWMpRXi4bYVkwwwzJsRTGC2Mx"
+   },
+   {
+    "title": "OL - Sidney Govou ne cache pas sa grande frustration après la défaite des Gones face au PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-27T21:29:00Z",
+    "url": "https://onefootball.com/fr/news/ol-sidney-govou-ne-cache-pas-sa-grande-frustration-apres-la-defaite-des-gones-face-au-psg-43683092"
+   },
+   {
     "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
     "publisher": "OnzeMondial",
     "time": "2026-10-27T15:27:00Z",
@@ -7068,154 +7136,130 @@
     "publisher": "Olympique Lyonnais",
     "time": "2026-10-27T12:03:54Z",
     "url": "https://onefootball.com/fr/video/fonseca-salue-la-performance-tactique-de-lyon-malgre-la-defaite-face-au-psg-3LHEeBYi1xj0P596I7gR2yXGVds"
-   },
-   {
-    "title": "Ligue 1 : OL - Angers se jouera finalement dimanche",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T12:00:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-ol-angers-se-jouera-finalement-dimanche-43680138"
-   },
-   {
-    "title": "OFFICIEL : OL - Angers décalé au 1er novembre",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T11:45:00Z",
-    "url": "https://onefootball.com/fr/news/officiel-ol-angers-decale-au-1er-novembre-43680060"
-   },
-   {
-    "title": "PSG - La grosse pensée de Luis Enrique pour Khvicha Kvaratskhelia après la victoire face à Lyon",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T11:34:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-grosse-pensee-de-luis-enrique-pour-khvicha-kvaratskhelia-apres-la-victoire-face-a-lyon-43679982"
-   },
-   {
-    "title": "Marc Bollengier pour diriger le match OL - Angers",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-27T10:50:00Z",
-    "url": "https://onefootball.com/fr/news/marc-bollengier-pour-diriger-le-match-ol-angers-43679737"
    }
   ],
   "Olympique de Marseille": [
    {
-    "title": "Loïc Tanzi : « Le problème à l’OM, c’est l’environnement cette année »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-27T20:00:37Z",
-    "url": "https://onefootball.com/fr/news/loic-tanzi-le-probleme-a-lom-cest-lenvironnement-cette-annee-43682721"
+    "title": "OM – Un insider accuse Genesio de mentir",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T12:00:57Z",
+    "url": "https://onefootball.com/fr/news/om-un-insider-accuse-genesio-de-mentir-43685536"
    },
    {
-    "title": "Mercato - OM : grosse décision avec Mmadi et Valero ?",
+    "title": "Mercato - OM : trois joueurs auraient déjà dit oui pour venir cet hiver",
     "publisher": "OnzeMondial",
-    "time": "2026-10-27T19:30:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-grosse-decision-avec-mmadi-et-valero-43682514"
+    "time": "2026-10-28T11:00:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-trois-joueurs-auraient-deja-dit-oui-pour-venir-cet-hiver-43685204"
    },
    {
-    "title": "OM – Abdallah prêt à se battre pour regagner sa place",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T17:00:31Z",
-    "url": "https://onefootball.com/fr/news/om-abdallah-pret-a-se-battre-pour-regagner-sa-place-43681819"
-   },
-   {
-    "title": "OM – Paixão touché à l’épaule, quel verdict ?",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T16:00:59Z",
-    "url": "https://onefootball.com/fr/news/om-paixao-touche-a-lepaule-quel-verdict-43681505"
-   },
-   {
-    "title": "OM – Moumbagna ne comprend pas la décision de Genesio",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T15:00:59Z",
-    "url": "https://onefootball.com/fr/news/om-moumbagna-ne-comprend-pas-la-decision-de-genesio-43681181"
-   },
-   {
-    "title": "OM - Bruno Genesio a pris une décision radicale pour Faris Moumbagna",
+    "title": "Ligue 1 - OM - Le Havre AC : la DTA se prononce sur les deux pénaltys potentiels en faveur des Havrais",
     "publisher": "MadeInFOOT",
-    "time": "2026-10-27T13:33:00Z",
-    "url": "https://onefootball.com/fr/news/om-bruno-genesio-a-pris-une-decision-radicale-pour-faris-moumbagna-43680717"
+    "time": "2026-10-28T10:37:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-om-le-havre-ac-la-dta-se-prononce-sur-les-deux-penaltys-potentiels-en-faveur-des-havrais-43685106"
    },
    {
-    "title": "OM - L'attitude de Keyliane Abdallah face à la sanction de Bruno Genesio",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T12:10:00Z",
-    "url": "https://onefootball.com/fr/news/om-lattitude-de-keyliane-abdallah-face-a-la-sanction-de-bruno-genesio-43680273"
-   },
-   {
-    "title": "OM – Gros plan sur l’attaquant Francis Amuzu",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-27T12:00:19Z",
-    "url": "https://onefootball.com/fr/news/om-gros-plan-sur-lattaquant-francis-amuzu-43680195"
-   },
-   {
-    "title": "OM : la décision radicale de Genesio avec Moumbagna",
+    "title": "OM : deux penaltys oubliés pour Le Havre au Vélodrome ? La DTA a tranché !",
     "publisher": "OnzeMondial",
-    "time": "2026-10-27T12:00:00Z",
-    "url": "https://onefootball.com/fr/news/om-la-decision-radicale-de-genesio-avec-moumbagna-43680140"
+    "time": "2026-10-28T10:32:00Z",
+    "url": "https://onefootball.com/fr/news/om-deux-penaltys-oublies-pour-le-havre-au-velodrome-la-dta-a-tranche-43685052"
    },
    {
-    "title": "OM : après Abdallah, un autre attaquant de l’équipe rétrogradé par Bruno Génésio",
-    "publisher": "Foot National",
-    "time": "2026-10-27T11:28:00Z",
-    "url": "https://onefootball.com/fr/news/om-apres-abdallah-un-autre-attaquant-de-lequipe-retrograde-par-bruno-genesio-43679921"
+    "title": "OM – Aubameyang félicite Abdelli après Le Havre",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T10:00:08Z",
+    "url": "https://onefootball.com/fr/news/om-aubameyang-felicite-abdelli-apres-le-havre-43684930"
+   },
+   {
+    "title": "OM - L'OM travaille pour annoncer l'arrivée d'un nouvel investisseur",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T08:53:00Z",
+    "url": "https://onefootball.com/fr/news/om-lom-travaille-pour-annoncer-larrivee-dun-nouvel-investisseur-43684646"
+   },
+   {
+    "title": "Mercato OM : Contrat pro à venir pour ce jeune",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T08:00:16Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-contrat-pro-a-venir-pour-ce-jeune-43684366"
+   },
+   {
+    "title": "OM - Éric Di Meco réagit à la mise à l'écart de Keyliane Abdallah",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-28T07:46:00Z",
+    "url": "https://onefootball.com/fr/news/om-eric-di-meco-reagit-a-la-mise-a-lecart-de-keyliane-abdallah-43684306"
+   },
+   {
+    "title": "OM : McCourt cherche de nouveaux actionnaires, le Moyen-Orient ciblé ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T07:32:00Z",
+    "url": "https://onefootball.com/fr/news/om-mccourt-cherche-de-nouveaux-actionnaires-le-moyen-orient-cible-43684253"
+   },
+   {
+    "title": "OM – Le vestiaire gronde après la déclaration d’Abdelli",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T01:00:21Z",
+    "url": "https://onefootball.com/fr/news/om-le-vestiaire-gronde-apres-la-declaration-dabdelli-43683704"
    }
   ],
   "PSG": [
    {
-    "title": "PSG/Lyon – Luis Enrique fier de la mentalité des remplaçants",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-27T21:00:18Z",
-    "url": "https://onefootball.com/fr/news/psglyon-luis-enrique-fier-de-la-mentalite-des-remplacants-43682954"
-   },
-   {
-    "title": "PSG - Le PSG répond au rédacteur en chef de France Football !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T20:54:00Z",
-    "url": "https://onefootball.com/fr/news/psg-le-psg-repond-au-redacteur-en-chef-de-france-football-43682929"
-   },
-   {
-    "title": "Mercato PSG - Le PSG a ciblé ce joueur de Bundesliga pour renforcer sa ligne offensive !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T18:43:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-a-cible-ce-joueur-de-bundesliga-pour-renforcer-sa-ligne-offensive-43682276"
-   },
-   {
-    "title": "PSG/Lyon – Les supporters ont élu le meilleur joueur parisien",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-27T18:30:21Z",
-    "url": "https://onefootball.com/fr/news/psglyon-les-supporters-ont-elu-le-meilleur-joueur-parisien-43682227"
-   },
-   {
-    "title": "Dominique Séverac : « Pour Kvara, le 5 juin, avec une blessure comme ça… »",
+    "title": "Rio Mavuba : « C’est un joueur impressionnant et il postulera un jour pour le Ballon d’Or »",
     "publisher": "ConsultantsFoot",
-    "time": "2026-10-27T17:59:10Z",
-    "url": "https://onefootball.com/fr/news/dominique-severac-pour-kvara-le-5-juin-avec-une-blessure-comme-ca-43682061"
+    "time": "2026-10-28T12:30:44Z",
+    "url": "https://onefootball.com/fr/news/rio-mavuba-cest-un-joueur-impressionnant-et-il-postulera-un-jour-pour-le-ballon-dor-43685681"
    },
    {
-    "title": "PSG - OL : \"On a posé plus de problèmes que le Barça et City\" ... Fonseca fier de son équipe",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T15:27:00Z",
-    "url": "https://onefootball.com/fr/news/psg-ol-on-a-pose-plus-de-problemes-que-le-barca-et-city-fonseca-fier-de-son-equipe-43681283"
-   },
-   {
-    "title": "PSG - La réaction amusée de Senny Mayulu à une question sur le Ballon d'Or",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T15:12:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-reaction-amusee-de-senny-mayulu-a-une-question-sur-le-ballon-dor-43681218"
-   },
-   {
-    "title": "Officiel – Le PSG donne des nouvelles de Kvaratskhelia après l’opération",
+    "title": "« ça n’avait aucun sens », Ramos se lâche sur son passage au PSG",
     "publisher": "Parisfans.fr",
-    "time": "2026-10-27T15:01:20Z",
-    "url": "https://onefootball.com/fr/news/officiel-le-psg-donne-des-nouvelles-de-kvaratskhelia-apres-loperation-43681149"
+    "time": "2026-10-28T11:30:04Z",
+    "url": "https://onefootball.com/fr/news/ca-navait-aucun-sens-ramos-se-lache-sur-son-passage-au-psg-43685350"
    },
    {
-    "title": "PSG - Nasser Al-Khelaïfi réagit au nouveau trophée remporté par le PSG lors de la cérémonie du Ballon d'Or",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T14:56:00Z",
-    "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-reagit-au-nouveau-trophee-remporte-par-le-psg-lors-de-la-ceremonie-du-ballon-dor-43681122"
+    "title": "Mercato – Le PSG prêt à recruter cet hiver !",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-28T11:05:06Z",
+    "url": "https://onefootball.com/fr/news/mercato-le-psg-pret-a-recruter-cet-hiver-43685241"
    },
    {
-    "title": "PSG : très bonne nouvelle, Kvaratskhelia opéré avec succès",
+    "title": "Les cadors à l’affût : le PSG se bat pour garder Doué",
+    "publisher": "fussball-news.de",
+    "time": "2026-10-28T10:31:08Z",
+    "url": "https://onefootball.com/fr/news/les-cadors-a-laffut-le-psg-se-bat-pour-garder-doue-43685045"
+   },
+   {
+    "title": "Mercato – Une tentative du PSG pour Maza cet hiver ?",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-28T08:14:48Z",
+    "url": "https://onefootball.com/fr/news/mercato-une-tentative-du-psg-pour-maza-cet-hiver-43684426"
+   },
+   {
+    "title": "Mercato : le PSG dans le coup pour Maza, énorme concurrence déjà en vue ?",
     "publisher": "OnzeMondial",
-    "time": "2026-10-27T14:27:00Z",
-    "url": "https://onefootball.com/fr/news/psg-tres-bonne-nouvelle-kvaratskhelia-opere-avec-succes-43680989"
+    "time": "2026-10-28T08:01:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-le-psg-dans-le-coup-pour-maza-enorme-concurrence-deja-en-vue-43684356"
+   },
+   {
+    "title": "Le superbe premier but de Godts avec le PSG",
+    "publisher": "Paris Saint-Germain",
+    "time": "2026-10-28T07:29:14Z",
+    "url": "https://onefootball.com/fr/video/le-superbe-premier-but-de-godts-avec-le-psg-3LJWMpRXi4bYVkwwwzJsRTGC2Mx"
+   },
+   {
+    "title": "Revue de presse : L’importance des remplaçants au PSG, Kvaratskhelia et Ballon d’Or",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-28T06:52:38Z",
+    "url": "https://onefootball.com/fr/news/revue-de-presse-limportance-des-remplacants-au-psg-kvaratskhelia-et-ballon-dor-43684135"
+   },
+   {
+    "title": "Le superbe premier but de Godts avec le PSG",
+    "publisher": "Paris Saint-Germain",
+    "time": "2026-10-28T06:29:00Z",
+    "url": "https://onefootball.com/fr/video/le-superbe-premier-but-de-godts-avec-le-psg-3LJSiMikYvd1tJLCKge65S6LJtD"
+   },
+   {
+    "title": "PSG : le club prêt à arracher un crack à Leverkusen ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-27T22:02:00Z",
+    "url": "https://onefootball.com/fr/news/psg-le-club-pret-a-arracher-un-crack-a-leverkusen-43683201"
    }
   ],
   "Paris FC": [
@@ -7282,67 +7326,73 @@
   ],
   "RC Lens": [
    {
-    "title": "RC Lens : l'UEFA sévit après les débordements survenus à Bruges",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-27T18:29:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-luefa-sevit-apres-les-debordements-survenus-a-bruges-43682216"
-   },
-   {
-    "title": "Les supporters du RC Lens privés de déplacement à Leipzig et à Liverpool",
+    "title": "Odsonne Edouard opéré et absent plusieurs semaines",
     "publisher": "Lensois.com",
-    "time": "2026-10-27T18:24:54Z",
-    "url": "https://onefootball.com/fr/news/les-supporters-du-rc-lens-prives-de-deplacement-a-leipzig-et-a-liverpool-43682202"
+    "time": "2026-10-28T12:09:55Z",
+    "url": "https://onefootball.com/fr/news/odsonne-edouard-opere-et-absent-plusieurs-semaines-43685584"
    },
    {
-    "title": "RC Lens - L'UEFA sanctionne lourdement le RCL et ses supporters !",
+    "title": "« On veut le derby ! » : 3 500 Lensois à l’entraînement public pour pousser les Sang et or avant le derby",
+    "publisher": "Lensois.com",
+    "time": "2026-10-28T11:54:44Z",
+    "url": "https://onefootball.com/fr/news/on-veut-le-derby-3-500-lensois-a-lentrainement-public-pour-pousser-les-sang-et-or-avant-le-derby-43685476"
+   },
+   {
+    "title": "Lens ou Lille, qui est le mieux armé pour briller cette saison ? Les réponses",
+    "publisher": "Lensois.com",
+    "time": "2026-10-28T10:44:34Z",
+    "url": "https://onefootball.com/fr/news/lens-ou-lille-qui-est-le-mieux-arme-pour-briller-cette-saison-les-reponses-43685113"
+   },
+   {
+    "title": "RC Lens - Le RC Lens annonce une décision radicale contre ses supporters après les débordements à Bruges",
     "publisher": "MadeInFOOT",
-    "time": "2026-10-27T18:24:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-luefa-sanctionne-lourdement-le-rcl-et-ses-supporters-43682196"
+    "time": "2026-10-28T10:28:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-le-rc-lens-annonce-une-decision-radicale-contre-ses-supporters-apres-les-debordements-a-bruges-43685059"
    },
    {
-    "title": "[L1-J9] Le concours pronos des internautes",
-    "publisher": "Lensois.com",
-    "time": "2026-10-27T14:01:14Z",
-    "url": "https://onefootball.com/fr/news/l1-j9-le-concours-pronos-des-internautes-43680872"
+    "title": "\"Une ligne rouge a été franchie\" ... Lens justifie l'interdiction de déplacement prononcée contre ses supporters à Lille",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-28T10:03:00Z",
+    "url": "https://onefootball.com/fr/news/une-ligne-rouge-a-ete-franchie-lens-justifie-linterdiction-de-deplacement-prononcee-contre-ses-supporters-a-lille-43684924"
    },
    {
-    "title": "[L2-J11] Le concours pronos des internautes",
+    "title": "Incidents à Bruges : le RC Lens dénonce « une ligne rouge franchie » et annonce de lourdes sanctions",
     "publisher": "Lensois.com",
-    "time": "2026-10-27T14:00:34Z",
-    "url": "https://onefootball.com/fr/news/l2-j11-le-concours-pronos-des-internautes-43680870"
+    "time": "2026-10-28T09:54:53Z",
+    "url": "https://onefootball.com/fr/news/incidents-a-bruges-le-rc-lens-denonce-une-ligne-rouge-franchie-et-annonce-de-lourdes-sanctions-43684864"
    },
    {
-    "title": "« Incompréhensible » ou « nécessaire », la sanction du RC Lens avant le derby du nord divise les supporters",
+    "title": "Suivez en direct l’entraînement public du RC Lens avant le derby",
     "publisher": "Lensois.com",
-    "time": "2026-10-27T11:08:56Z",
-    "url": "https://onefootball.com/fr/news/incomprehensible-ou-necessaire-la-sanction-du-rc-lens-avant-le-derby-du-nord-divise-les-supporters-43679846"
+    "time": "2026-10-28T09:00:24Z",
+    "url": "https://onefootball.com/fr/news/suivez-en-direct-lentrainement-public-du-rc-lens-avant-le-derby-43684631"
    },
    {
-    "title": "[L2-J10] Grâce à son succès, Montpellier est le nouveau dauphin du championnat",
+    "title": "Côme entretient sa confiance avant d’affronter le RC Lens",
     "publisher": "Lensois.com",
-    "time": "2026-10-27T10:09:30Z",
-    "url": "https://onefootball.com/fr/news/l2-j10-grace-a-son-succes-montpellier-est-le-nouveau-dauphin-du-championnat-43679545"
+    "time": "2026-10-28T08:14:09Z",
+    "url": "https://onefootball.com/fr/news/come-entretient-sa-confiance-avant-daffronter-le-rc-lens-43684420"
    },
    {
-    "title": "[L1-J8] RC Lens – Paris, troisième meilleure affluence de la journée",
+    "title": "Lille-RC Lens, quand la meilleure défense reçoit l’une des meilleures attaques",
     "publisher": "Lensois.com",
-    "time": "2026-10-27T09:00:41Z",
-    "url": "https://onefootball.com/fr/news/l1-j8-rc-lens-paris-troisieme-meilleure-affluence-de-la-journee-43679278"
+    "time": "2026-10-28T06:31:31Z",
+    "url": "https://onefootball.com/fr/news/lille-rc-lens-quand-la-meilleure-defense-recoit-lune-des-meilleures-attaques-43684102"
    },
    {
-    "title": "Ducourtioux buteur, Bermont et Fortin sur le banc : le tour d’horizon du week-end des prêtés du RC Lens",
+    "title": "Florian Thauvin rejoint le Top 10 des buteurs et creuse son avance chez les passeurs",
     "publisher": "Lensois.com",
-    "time": "2026-10-27T08:07:02Z",
-    "url": "https://onefootball.com/fr/news/ducourtioux-buteur-bermont-et-fortin-sur-le-banc-le-tour-dhorizon-du-week-end-des-pretes-du-rc-lens-43679065"
-   },
-   {
-    "title": "Thorgan Hazard, l’option avant-centre validée",
-    "publisher": "Lensois.com",
-    "time": "2026-10-27T07:35:36Z",
-    "url": "https://onefootball.com/fr/news/thorgan-hazard-loption-avant-centre-validee-43678964"
+    "time": "2026-10-28T06:13:04Z",
+    "url": "https://onefootball.com/fr/news/florian-thauvin-rejoint-le-top-10-des-buteurs-et-creuse-son-avance-chez-les-passeurs-43684055"
    }
   ],
   "RC Strasbourg": [
+   {
+    "title": "Strasbourg : la chute libre, rien ne va plus au RCSA,  Hugo Oliveira sous pression",
+    "publisher": "Morning Foot",
+    "time": "2026-10-28T12:23:06Z",
+    "url": "https://onefootball.com/fr/news/strasbourg-la-chute-libre-rien-ne-va-plus-au-rcsa-hugo-oliveira-sous-pression-43685657"
+   },
    {
     "title": "Avant Strasbourg, le PSG et le Real voulaient Coulibaly, ex du Werder",
     "publisher": "fussball-news.de",
@@ -7396,12 +7446,6 @@
     "publisher": "Morning Foot",
     "time": "2026-10-25T13:30:34Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-haise-a-pris-une-decision-forte-43669794"
-   },
-   {
-    "title": "Rennes – Strasbourg : les Rennais veulent rebondir face à un Racing en difficulté, compositions probables, chaîne TV et heure",
-    "publisher": "BeFootball",
-    "time": "2026-10-25T13:28:30Z",
-    "url": "https://onefootball.com/fr/news/rennes-strasbourg-les-rennais-veulent-rebondir-face-a-un-racing-en-difficulte-compositions-probables-chaine-tv-et-heure-43669778"
    }
   ],
   "Stade Brestois": [
@@ -7592,7 +7636,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-27T21:21+00:00",
+ "fetchedAt": "2026-10-28T12:58+00:00",
  "schedule": {
   "AJ Auxerre": [
    {

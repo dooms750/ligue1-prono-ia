@@ -3,23 +3,23 @@
   "kind": "beau",
   "stadium": "Groupama Stadium",
   "roof": false,
-  "daysBefore": 5,
+  "daysBefore": 4,
   "temp": 11,
-  "desc": "plutôt dégagé",
-  "code": 1,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
   "rainMax": 0,
   "gust": 17,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 72,
+  "confidence": 77,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -28,6 +28,14 @@
     "pWind": 0.0,
     "temp": 11,
     "conf": 72
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 4,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 10,
+    "conf": 77
    }
   ]
  },
@@ -35,23 +43,23 @@
   "kind": "beau",
   "stadium": "Stade Océane",
   "roof": false,
-  "daysBefore": 3,
-  "temp": 9,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "daysBefore": 2,
+  "temp": 10,
+  "desc": "plutôt dégagé",
+  "code": 1,
   "rain": 0,
   "rainMax": 0,
-  "gust": 25,
+  "gust": 27,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 86,
+  "confidence": 91,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -60,6 +68,14 @@
     "pWind": 0.0,
     "temp": 10,
     "conf": 86
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 2,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 11,
+    "conf": 91
    }
   ]
  },
@@ -67,23 +83,23 @@
   "kind": "beau",
   "stadium": "Stade Pierre-Mauroy",
   "roof": true,
-  "daysBefore": 3,
+  "daysBefore": 2,
   "temp": 8,
   "desc": "partiellement nuageux",
   "code": 2,
   "rain": 0,
   "rainMax": 0,
-  "gust": 18,
+  "gust": 19,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 86,
+  "confidence": 90,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -92,6 +108,14 @@
     "pWind": 0.0,
     "temp": 8,
     "conf": 86
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 2,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 9,
+    "conf": 90
    }
   ]
  },
@@ -99,23 +123,23 @@
   "kind": "beau",
   "stadium": "Stade du Moustoir",
   "roof": false,
-  "daysBefore": 6,
+  "daysBefore": 5,
   "temp": 11,
-  "desc": "couvert",
-  "code": 3,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
   "rainMax": 0,
-  "gust": 35,
+  "gust": 40,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 66,
+  "confidence": 69,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -124,6 +148,14 @@
     "pWind": 0.0,
     "temp": 10,
     "conf": 66
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 5,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 10,
+    "conf": 69
    }
   ]
  },
@@ -163,23 +195,23 @@
   "kind": "beau",
   "stadium": "Allianz Riviera",
   "roof": false,
-  "daysBefore": 3,
-  "temp": 17,
-  "desc": "plutôt dégagé",
-  "code": 1,
+  "daysBefore": 2,
+  "temp": 16,
+  "desc": "bruine",
+  "code": 53,
   "rain": 0,
-  "rainMax": 0.6,
-  "gust": 18,
+  "rainMax": 0.8,
+  "gust": 17,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 84,
+  "confidence": 90,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-27T16:51+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -188,6 +220,14 @@
     "pWind": 0.0,
     "temp": 14,
     "conf": 84
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 2,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 15,
+    "conf": 90
    }
   ]
  },
@@ -195,7 +235,7 @@
   "kind": "beau",
   "stadium": "Stade Jean-Bouin",
   "roof": false,
-  "daysBefore": 5,
+  "daysBefore": 4,
   "temp": 11,
   "desc": "couvert",
   "code": 3,
@@ -205,13 +245,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 73,
+  "confidence": 77,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -220,6 +260,14 @@
     "pWind": 0.0,
     "temp": 12,
     "conf": 73
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 4,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 11,
+    "conf": 77
    }
   ]
  },
@@ -227,23 +275,23 @@
   "kind": "beau",
   "stadium": "Stade de la Meinau",
   "roof": false,
-  "daysBefore": 5,
-  "temp": 10,
-  "desc": "partiellement nuageux",
-  "code": 2,
+  "daysBefore": 4,
+  "temp": 11,
+  "desc": "plutôt dégagé",
+  "code": 1,
   "rain": 0,
-  "rainMax": 0,
+  "rainMax": 0.5,
   "gust": 21,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 74,
+  "confidence": 78,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -252,6 +300,14 @@
     "pWind": 0.0,
     "temp": 11,
     "conf": 74
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 4,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 11,
+    "conf": 78
    }
   ]
  },
@@ -259,23 +315,23 @@
   "kind": "beau",
   "stadium": "Stade de l'Aube",
   "roof": false,
-  "daysBefore": 4,
+  "daysBefore": 3,
   "temp": 8,
   "desc": "ciel dégagé",
   "code": 0,
   "rain": 0,
   "rainMax": 0,
-  "gust": 26,
+  "gust": 23,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 80,
+  "confidence": 84,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-27T21:22+00:00",
+  "updated": "2026-10-28T12:59+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -284,6 +340,14 @@
     "pWind": 0.0,
     "temp": 8,
     "conf": 80
+   },
+   {
+    "day": "2026-10-28",
+    "daysBefore": 3,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 9,
+    "conf": 84
    }
   ]
  }
