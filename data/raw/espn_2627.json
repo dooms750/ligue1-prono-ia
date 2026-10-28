@@ -1,0 +1,1888 @@
+{
+ "days": {
+  "20260821": "2026-10-28T18:54+00:00",
+  "20260822": "2026-10-28T18:54+00:00",
+  "20260823": "2026-10-28T18:54+00:00",
+  "20260828": "2026-10-28T18:54+00:00",
+  "20260829": "2026-10-28T18:54+00:00",
+  "20260830": "2026-10-28T18:54+00:00",
+  "20260903": "2026-10-28T18:54+00:00",
+  "20260904": "2026-10-28T18:54+00:00",
+  "20260905": "2026-10-28T18:54+00:00",
+  "20260906": "2026-10-28T18:54+00:00",
+  "20260911": "2026-10-28T18:54+00:00",
+  "20260912": "2026-10-28T18:54+00:00",
+  "20260913": "2026-10-28T18:54+00:00",
+  "20260918": "2026-10-28T18:54+00:00",
+  "20260919": "2026-10-28T18:54+00:00",
+  "20260920": "2026-10-28T18:54+00:00",
+  "20261009": "2026-10-28T18:54+00:00",
+  "20261010": "2026-10-28T18:54+00:00",
+  "20261011": "2026-10-28T18:54+00:00",
+  "20261016": "2026-10-28T18:54+00:00",
+  "20261017": "2026-10-28T18:54+00:00",
+  "20261018": "2026-10-28T18:54+00:00",
+  "20261023": "2026-10-28T18:54+00:00",
+  "20261024": "2026-10-28T18:54+00:00",
+  "20261025": "2026-10-28T18:54+00:00",
+  "20261026": "2026-10-28T18:54+00:00"
+ },
+ "matches": {
+  "OM-STR": {
+   "hg": 4,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "46'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "68'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "89'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+6'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260821"
+  },
+  "LEN-AUX": {
+   "hg": 5,
+   "ag": 2,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "12'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "49'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "54'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "61'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "66'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "69'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "88'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260822"
+  },
+  "LMA-BRE": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "31'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "45'+2'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "55'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "62'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260822"
+  },
+  "NIC-LOR": {
+   "hg": 0,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [],
+   "date": "20260822"
+  },
+  "TOU-OL": {
+   "hg": 0,
+   "ag": 2,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "68'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "85'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260822"
+  },
+  "TRO-PFC": {
+   "hg": 0,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [],
+   "date": "20260822"
+  },
+  "ANG-LIL": {
+   "hg": 0,
+   "ag": 2,
+   "ht": [
+    0,
+    2
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "11'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "31'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260823"
+  },
+  "HAV-MON": {
+   "hg": 0,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "14'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260823"
+  },
+  "REN-PSG": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "9'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "38'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "71'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "82'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260823"
+  },
+  "LIL-PSG": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "21'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "84'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "90'+1'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "90'+5'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260828"
+  },
+  "STR-LEN": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "38'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "48'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "85'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260829"
+  },
+  "AUX-ANG": {
+   "hg": 1,
+   "ag": 3,
+   "ht": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "5'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "35'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "70'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "78'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260829"
+  },
+  "BRE-TOU": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "9'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "18'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "62'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+5'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260829"
+  },
+  "LOR-TRO": {
+   "hg": 1,
+   "ag": 2,
+   "ht": [
+    0,
+    2
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "29'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "38'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "51'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260829"
+  },
+  "OL-HAV": {
+   "hg": 1,
+   "ag": 1,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "74'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "87'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260829"
+  },
+  "PFC-NIC": {
+   "hg": 3,
+   "ag": 0,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "21'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "51'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "89'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260830"
+  },
+  "REN-LMA": {
+   "hg": 3,
+   "ag": 2,
+   "ht": [
+    2,
+    1
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "5'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "26'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "30'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "54'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+6'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260830"
+  },
+  "MON-OM": {
+   "hg": 2,
+   "ag": 0,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "13'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "53'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260830"
+  },
+  "TOU-LIL": {
+   "hg": 0,
+   "ag": 1,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "73'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260903"
+  },
+  "OL-AUX": {
+   "hg": 3,
+   "ag": 1,
+   "ht": [
+    2,
+    1
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "28'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "31'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "42'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "53'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260904"
+  },
+  "PSG-MON": {
+   "hg": 1,
+   "ag": 2,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "31'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "58'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "72'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260904"
+  },
+  "LEN-LOR": {
+   "hg": 0,
+   "ag": 1,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "54'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260905"
+  },
+  "HAV-BRE": {
+   "hg": 1,
+   "ag": 2,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "12'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "51'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "79'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260905"
+  },
+  "NIC-LMA": {
+   "hg": 1,
+   "ag": 1,
+   "ht": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "13'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "44'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260905"
+  },
+  "TRO-STR": {
+   "hg": 2,
+   "ag": 6,
+   "ht": [
+    1,
+    2
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "9'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "40'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "42'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "57'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "85'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "88'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "90'+2'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+5'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260906"
+  },
+  "ANG-REN": {
+   "hg": 1,
+   "ag": 2,
+   "ht": [
+    1,
+    2
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "9'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "17'",
+     "ownGoal": true
+    },
+    {
+     "side": "home",
+     "clock": "35'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260906"
+  },
+  "OM-PFC": {
+   "hg": 2,
+   "ag": 3,
+   "ht": [
+    1,
+    2
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "1'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "8'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "19'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "53'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "86'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260906"
+  },
+  "REN-OM": {
+   "hg": 1,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "52'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260911"
+  },
+  "STR-MON": {
+   "hg": 1,
+   "ag": 1,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "52'",
+     "ownGoal": true
+    },
+    {
+     "side": "away",
+     "clock": "71'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260912"
+  },
+  "AUX-NIC": {
+   "hg": 1,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "74'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260912"
+  },
+  "HAV-ANG": {
+   "hg": 0,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [],
+   "date": "20260912"
+  },
+  "LOR-TOU": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "37'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "39'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "48'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "68'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260912"
+  },
+  "PFC-OL": {
+   "hg": 0,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [],
+   "date": "20260912"
+  },
+  "LIL-TRO": {
+   "hg": 2,
+   "ag": 0,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "18'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+3'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260913"
+  },
+  "LMA-LEN": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    2,
+    1
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "32'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "44'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "45'+2'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "51'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260913"
+  },
+  "BRE-PSG": {
+   "hg": 0,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "5'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260913"
+  },
+  "MON-LEN": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "32'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "57'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "84'",
+     "ownGoal": true
+    }
+   ],
+   "date": "20260918"
+  },
+  "PFC-STR": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "18'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "57'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "88'",
+     "ownGoal": true
+    }
+   ],
+   "date": "20260919"
+  },
+  "ANG-TRO": {
+   "hg": 2,
+   "ag": 0,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "42'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "57'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260919"
+  },
+  "LMA-LOR": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "3'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "57'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "78'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260919"
+  },
+  "OL-REN": {
+   "hg": 4,
+   "ag": 0,
+   "ht": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "7'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "30'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "48'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "76'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260919"
+  },
+  "TOU-HAV": {
+   "hg": 3,
+   "ag": 2,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "49'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "51'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "71'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "79'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "88'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260919"
+  },
+  "AUX-BRE": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "23'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "46'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "83'",
+     "ownGoal": true
+    }
+   ],
+   "date": "20260920"
+  },
+  "NIC-LIL": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "22'",
+     "ownGoal": true
+    },
+    {
+     "side": "home",
+     "clock": "67'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "79'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260920"
+  },
+  "OM-PSG": {
+   "hg": 1,
+   "ag": 2,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "66'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "72'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "74'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20260920"
+  },
+  "LEN-OL": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "36'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "76'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "85'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261009"
+  },
+  "LIL-HAV": {
+   "hg": 1,
+   "ag": 0,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "5'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261010"
+  },
+  "MON-TOU": {
+   "hg": 2,
+   "ag": 2,
+   "ht": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "29'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "38'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "48'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "59'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261010"
+  },
+  "BRE-ANG": {
+   "hg": 5,
+   "ag": 1,
+   "ht": [
+    4,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "9'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "17'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "30'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "45'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "47'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "54'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261010"
+  },
+  "LOR-PFC": {
+   "hg": 1,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "68'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261010"
+  },
+  "PSG-LMA": {
+   "hg": 3,
+   "ag": 1,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "19'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "54'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "61'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "68'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261010"
+  },
+  "NIC-STR": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "41'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "45'+2'",
+     "ownGoal": true
+    },
+    {
+     "side": "home",
+     "clock": "81'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261011"
+  },
+  "REN-AUX": {
+   "hg": 4,
+   "ag": 1,
+   "ht": [
+    1,
+    1
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "15'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "25'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "53'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+2'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+4'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261011"
+  },
+  "TRO-OM": {
+   "hg": 0,
+   "ag": 2,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "50'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "90'+8'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261011"
+  },
+  "LMA-TOU": {
+   "hg": 0,
+   "ag": 3,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "46'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "59'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "87'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261016"
+  },
+  "STR-PSG": {
+   "hg": 1,
+   "ag": 3,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "17'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "77'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "85'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "90'+3'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261017"
+  },
+  "LIL-BRE": {
+   "hg": 1,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "6'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "64'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261017"
+  },
+  "TRO-LEN": {
+   "hg": 1,
+   "ag": 3,
+   "ht": [
+    1,
+    2
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "13'",
+     "ownGoal": true
+    },
+    {
+     "side": "home",
+     "clock": "26'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "45'+2'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "55'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261017"
+  },
+  "ANG-OM": {
+   "hg": 2,
+   "ag": 5,
+   "ht": [
+    1,
+    2
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "14'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "37'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "43'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "60'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "75'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "83'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "85'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261018"
+  },
+  "HAV-AUX": {
+   "hg": 1,
+   "ag": 3,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "40'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "61'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "66'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "80'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261018"
+  },
+  "LOR-MON": {
+   "hg": 1,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "61'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261018"
+  },
+  "PFC-REN": {
+   "hg": 4,
+   "ag": 3,
+   "ht": [
+    2,
+    1
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "14'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "29'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "45'+4'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "74'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "76'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "88'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "90'+7'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261018"
+  },
+  "OL-NIC": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    2,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "18'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "32'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "36'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261018"
+  },
+  "BRE-NIC": {
+   "hg": 1,
+   "ag": 2,
+   "ht": [
+    1,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "15'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "61'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "83'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261023"
+  },
+  "LEN-PFC": {
+   "hg": 2,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "45'+2'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "63'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "83'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261024"
+  },
+  "MON-LIL": {
+   "hg": 1,
+   "ag": 1,
+   "ht": [
+    0,
+    1
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "24'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "74'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261025"
+  },
+  "AUX-LMA": {
+   "hg": 1,
+   "ag": 1,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "away",
+     "clock": "48'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "56'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261025"
+  },
+  "ANG-LOR": {
+   "hg": 0,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [],
+   "date": "20261025"
+  },
+  "OM-HAV": {
+   "hg": 4,
+   "ag": 3,
+   "ht": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "5'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "33'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "50'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "55'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "77'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "86'",
+     "ownGoal": false
+    },
+    {
+     "side": "away",
+     "clock": "89'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261025"
+  },
+  "REN-STR": {
+   "hg": 3,
+   "ag": 0,
+   "ht": [
+    2,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "34'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "41'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "61'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261025"
+  },
+  "TOU-TRO": {
+   "hg": 0,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [],
+   "date": "20261025"
+  },
+  "PSG-OL": {
+   "hg": 2,
+   "ag": 0,
+   "ht": [
+    0,
+    0
+   ],
+   "goals": [
+    {
+     "side": "home",
+     "clock": "72'",
+     "ownGoal": false
+    },
+    {
+     "side": "home",
+     "clock": "84'",
+     "ownGoal": false
+    }
+   ],
+   "date": "20261026"
+  }
+ }
+}

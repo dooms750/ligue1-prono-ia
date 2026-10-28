@@ -6845,6 +6845,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688748": {
+   "id": 2688748,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-29T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Olympique Lyonnais",
+   "away": "AS Monaco",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/as-monaco-259",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7148,6 +7168,12 @@
   ],
   "LOSC": [
    {
+    "title": "RC Lens : Cahuzac annonce la couleur avant le derby contre Lille",
+    "publisher": "Morning Foot",
+    "time": "2026-10-28T18:30:50Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-cahuzac-annonce-la-couleur-avant-le-derby-contre-lille-43687505"
+   },
+   {
     "title": "Lille - Lens : les supporters lensois présents en masse à l'entraînement malgré l'interdiction de déplacement prononcée par le club",
     "publisher": "OnzeMondial",
     "time": "2026-10-28T18:29:00Z",
@@ -7200,12 +7226,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-28T13:59:00Z",
     "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-se-prononce-sur-la-longue-absence-dodsonne-edouard-et-annonce-dautres-mauvaises-nouvelles-43686098"
-   },
-   {
-    "title": "\"Une ligne rouge a été franchie\" ... Lens justifie l'interdiction de déplacement prononcée contre ses supporters à Lille",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T10:03:00Z",
-    "url": "https://onefootball.com/fr/news/une-ligne-rouge-a-ete-franchie-lens-justifie-linterdiction-de-deplacement-prononcee-contre-ses-supporters-a-lille-43684924"
    }
   ],
   "Le Havre AC": [
@@ -7638,6 +7658,12 @@
   ],
   "RC Lens": [
    {
+    "title": "RC Lens : Cahuzac annonce la couleur avant le derby contre Lille",
+    "publisher": "Morning Foot",
+    "time": "2026-10-28T18:30:50Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-cahuzac-annonce-la-couleur-avant-le-derby-contre-lille-43687505"
+   },
+   {
     "title": "Lille - Lens : les supporters lensois présents en masse à l'entraînement malgré l'interdiction de déplacement prononcée par le club",
     "publisher": "OnzeMondial",
     "time": "2026-10-28T18:29:00Z",
@@ -7690,12 +7716,6 @@
     "publisher": "Lensois.com",
     "time": "2026-10-28T14:04:45Z",
     "url": "https://onefootball.com/fr/news/samson-baidoo-ce-netait-pas-une-periode-facile-pour-moi-43686131"
-   },
-   {
-    "title": "RC Lens - Yannick Cahuzac se prononce sur la longue absence d'Odsonne Édouard et annonce d'autres mauvaises nouvelles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T13:59:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-se-prononce-sur-la-longue-absence-dodsonne-edouard-et-annonce-dautres-mauvaises-nouvelles-43686098"
    }
   ],
   "RC Strasbourg": [
@@ -7948,7 +7968,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T18:48+00:00",
+ "fetchedAt": "2026-10-28T18:53+00:00",
  "schedule": {
   "AJ Auxerre": [
    {

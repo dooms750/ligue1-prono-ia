@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-28T18:48+00:00",
-  "generatedAt": "2026-10-28T18:52+00:00"
+  "fetchedAt": "2026-10-28T18:53+00:00",
+  "generatedAt": "2026-10-28T18:55+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5437,7 +5437,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5554,7 +5554,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5635,15 +5635,15 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/rc-lens-gros-coup-dur-avant-le-derby-4-absents-pour-le-rcl-43686306",
         "time": "2026-10-28T14:30:57Z"
-       },
-       {
-        "title": "RC Lens - Yannick Cahuzac se prononce sur la longue absence d'Odsonne Édouard et annonce d'autres mauvaises nouvelles",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-se-prononce-sur-la-longue-absence-dodsonne-edouard-et-annonce-dautres-mauvaises-nouvelles-43686098",
-        "time": "2026-10-28T13:59:00Z"
        }
       ],
       "other": [
+       {
+        "title": "RC Lens : Cahuzac annonce la couleur avant le derby contre Lille",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/rc-lens-cahuzac-annonce-la-couleur-avant-le-derby-contre-lille-43687505",
+        "time": "2026-10-28T18:30:50Z"
+       },
        {
         "title": "RC Lens - Mauvaise nouvelle pour les supporters lensois avant le derby contre le LOSC",
         "publisher": "MadeInFOOT",
@@ -5655,12 +5655,6 @@
         "publisher": "Lensois.com",
         "url": "https://onefootball.com/fr/news/yannick-cahuzac-sur-mezian-mesloub-il-est-la-ou-il-faut-au-moment-ou-il-faut-43687065",
         "time": "2026-10-28T17:00:27Z"
-       },
-       {
-        "title": "RC Lens - Yannick Cahuzac a une seule mission face au LOSC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-a-une-seule-mission-face-au-losc-43686206",
-        "time": "2026-10-28T14:10:00Z"
        }
       ],
       "scorer": {
@@ -5690,7 +5684,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5769,7 +5763,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5880,7 +5874,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5991,7 +5985,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6103,7 +6097,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6319,7 +6313,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-28T18:50+00:00",
+     "updated": "2026-10-28T18:54+00:00",
      "history": [
       {
        "day": "2026-10-27",
