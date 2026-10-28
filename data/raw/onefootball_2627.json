@@ -6885,6 +6885,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688750": {
+   "id": 2688750,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-28T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "PSG",
+   "away": "FC Lorient",
+   "homeLink": "/fr/equipe/psg-263",
+   "awayLink": "/fr/equipe/fc-lorient-258",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7988,7 +8008,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T18:57+00:00",
+ "fetchedAt": "2026-10-28T19:03+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
