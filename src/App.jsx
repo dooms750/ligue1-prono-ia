@@ -29,7 +29,7 @@ export default function App() {
   }, [intro]);
 
   useEffect(() => {
-    fetch("./data/season.json")
+    fetch("./data/season.json", { cache: "no-cache" })
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
       .then(setData)
       .catch(() => setError("Les données de la saison n'ont pas pu être chargées. Lance « npm run data:demo » puis recharge la page."));

@@ -1,7 +1,7 @@
 // Lucide : fonctionne hors connexion.
 // L'app est gardée en cache ; les données des matchs passent d'abord par le réseau
 // (pour avoir les derniers pronos), et la dernière version connue sert de secours.
-const CACHE = "lucide-v3";
+const CACHE = "lucide-v4";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html", "./data/season.json", "./manifest.webmanifest"])));
@@ -19,7 +19,7 @@ self.addEventListener("fetch", (e) => {
   const fresh = url.pathname.endsWith("season.json") || e.request.mode === "navigate";
   if (fresh) {
     e.respondWith(
-      fetch(e.request)
+      fetch(e.request, { cache: "no-cache" })
         .then((r) => { const copy = r.clone(); caches.open(CACHE).then((c) => c.put(e.request, copy)); return r; })
         .catch(() => caches.match(e.request).then((r) => r || caches.match("./index.html")))
     );
