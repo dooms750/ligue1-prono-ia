@@ -243,10 +243,21 @@ def build_onefootball(path, raw):
             "scorers": [{"side": g["side"], "player": g["player"], "kind": g["kind"], "min": g["min"]} for g in goals],
         })
 
-    # Score à la pause : football-data.co.uk fait foi quand il est disponible.
+    # Score à la pause : football-data.co.uk fait foi, puis ESPN (qui note « 45'+2' »),
+    # puis l'ordre des événements OneFootball.
+    espn = {}
+    for f in sorted(Path(raw).glob("espn_*.json"))[-1:]:
+        for k, v in json.loads(f.read_text(encoding="utf-8")).get("matches", {}).items():
+            espn[tuple(k.split("-"))] = v
     for pm in played:
-        if (pm["home"], pm["away"]) in halftime:
-            pm["htH"], pm["htA"] = halftime[(pm["home"], pm["away"])]
+        key = (pm["home"], pm["away"])
+        e = espn.get(key)
+        if key in halftime:
+            pm["htH"], pm["htA"] = halftime[key]
+            pm["htSource"] = "football-data"
+        elif e and (e["hg"], e["ag"]) == (pm["hg"], pm["ag"]):
+            pm["htH"], pm["htA"] = e["ht"]
+            pm["htSource"] = "espn"
 
     # À venir : les matchs non joués des deux prochaines semaines (ou de la prochaine journée).
     pending.sort(key=lambda x: (x["date"], x["time"]))

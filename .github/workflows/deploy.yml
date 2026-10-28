@@ -48,6 +48,9 @@ jobs:
         if: steps.mode.outputs.quick != 'true'
         run: python scripts/fetch_onefootball.py
         continue-on-error: true
+      - name: Scores à la pause des matchs récents (ESPN)
+        run: python scripts/fetch_espn.py
+        continue-on-error: true
       - name: Météo des matchs, de J-7 à J-2 (ECMWF et Météo-France via Open-Meteo)
         if: steps.mode.outputs.quick != 'true'
         run: python scripts/fetch_weather.py
