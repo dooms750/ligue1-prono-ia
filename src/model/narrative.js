@@ -115,6 +115,6 @@ export function debrief(m, teams) {
     );
   }
   const scorers = (m.scorers || []).filter((g) => g.player).map((g) =>
-    `${g.player.split(" ").slice(-1)[0]} ${g.min}'${g.kind === "penalty" ? " (pen.)" : g.kind === "csc" ? " (csc)" : ""}`);
+    `${g.player.split(" ").slice(-1)[0]} ${g.half === 1 && g.min > 45 ? `45+${g.min - 45}` : g.min}'${g.kind === "penalty" ? " (pen.)" : g.kind === "csc" ? " (csc)" : ""}`);
   return { right, pActual, pick, outcome: o, verdict, lines, surprise: 1 - pActual, scorers };
 }

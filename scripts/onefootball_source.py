@@ -212,6 +212,10 @@ def build_onefootball(path, raw):
 
     odds = load_odds(raw)
     halftime = load_halftime(raw)
+    espn = {}
+    for f in sorted(Path(raw).glob("espn_*.json"))[-1:]:
+        for k, v in json.loads(f.read_text(encoding="utf-8")).get("matches", {}).items():
+            espn[tuple(k.split("-"))] = v
     now = datetime.now(timezone.utc)
     played, pending = [], []
     for m in all_m:
@@ -225,6 +229,17 @@ def build_onefootball(path, raw):
             pending.append({**base, "_m": m})
             continue
         goals = fix_goal_sides(m)
+        # Mi-temps de chaque but : ESPN (qui note « 45'+2' ») corrige l'estimation OneFootball.
+        e = espn.get((h, a))
+        if e and (e["hg"], e["ag"]) == (m["hg"], m["ag"]):
+            for side in ("home", "away"):
+                ours = [g for g in goals if g["side"] == side]
+                theirs = [x for x in e.get("goals", []) if x["side"] == side]
+                if len(ours) == len(theirs):
+                    for g, x in zip(sorted(ours, key=lambda g: g["min"] or 0), theirs):
+                        mm = re.match(r"(\d+)'?(?:\+(\d+))?", x.get("clock") or "")
+                        if mm:
+                            g["half"] = 1 if int(mm.group(1)) <= 45 else 2
         sot = m.get("stats", {}).get(SHOTS_ON_TARGET)
         reds = m.get("reds", [])
         red_h = next((r["min"] or 1 for r in reds if r["side"] == "home"), None)
@@ -240,15 +255,11 @@ def build_onefootball(path, raw):
             "redH": red_h, "redA": red_a,
             "goals": [["H" if g["side"] == "home" else "A", g["min"] or 0] for g in goals],
             "htSource": "football-data" if (h, a) in halftime else "onefootball",
-            "scorers": [{"side": g["side"], "player": g["player"], "kind": g["kind"], "min": g["min"]} for g in goals],
+            "scorers": [{"side": g["side"], "player": g["player"], "kind": g["kind"], "min": g["min"], "half": g.get("half")} for g in goals],
         })
 
     # Score à la pause : football-data.co.uk fait foi, puis ESPN (qui note « 45'+2' »),
     # puis l'ordre des événements OneFootball.
-    espn = {}
-    for f in sorted(Path(raw).glob("espn_*.json"))[-1:]:
-        for k, v in json.loads(f.read_text(encoding="utf-8")).get("matches", {}).items():
-            espn[tuple(k.split("-"))] = v
     for pm in played:
         key = (pm["home"], pm["away"])
         e = espn.get(key)
