@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-28T18:45+00:00",
-  "generatedAt": "2026-10-28T18:47+00:00"
+  "fetchedAt": "2026-10-28T18:48+00:00",
+  "generatedAt": "2026-10-28T18:51+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5392,6 +5392,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Samir Nasri : « Le seul profil que je vois en cador, c’est Vinicius, mais est-ce que tu vas te prendre un problème comme lui au PSG… »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/samir-nasri-le-seul-profil-que-je-vois-en-cador-cest-vinicius-mais-est-ce-que-tu-vas-te-prendre-un-probleme-comme-lui-au-psg-43687470",
+        "time": "2026-10-28T18:30:48Z"
+       },
+       {
         "title": "Mercato : Gonçalo Ramos l'annonce, il voulait déjà partir avant cet été du PSG",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/mercato-goncalo-ramos-lannonce-il-voulait-deja-partir-avant-cet-ete-du-psg-43687187",
@@ -5402,12 +5408,6 @@
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/mercato-psg-premier-couac-annonce-dans-le-dossier-maza-43686715",
         "time": "2026-10-28T16:01:00Z"
-       },
-       {
-        "title": "Mercato PSG - Le Bayer Leverkusen veut contrarier les plans du PSG pour Ibrahim Maza",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-psg-le-bayer-leverkusen-veut-contrarier-les-plans-du-psg-pour-ibrahim-maza-43686447",
-        "time": "2026-10-28T14:59:00Z"
        }
       ],
       "scorer": {
@@ -5437,7 +5437,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5539,22 +5539,22 @@
      "stadium": "Allianz Riviera",
      "roof": false,
      "daysBefore": 2,
-     "temp": 16,
-     "desc": "bruine",
-     "code": 53,
+     "temp": 17,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 0.8,
+     "rainMax": 0.2,
      "gust": 17,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 90,
+     "confidence": 92,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T12:59+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5570,7 +5570,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 15,
-       "conf": 90
+       "conf": 92
       }
      ]
     }
@@ -5690,7 +5690,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5769,7 +5769,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5880,7 +5880,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5991,7 +5991,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6103,7 +6103,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6193,9 +6193,9 @@
      "stadium": "Orange Vélodrome",
      "roof": false,
      "daysBefore": 4,
-     "temp": 13,
-     "desc": "bruine légère",
-     "code": 51,
+     "temp": 12,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
      "rainMax": 3.6,
      "gust": 23,
@@ -6208,7 +6208,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6304,9 +6304,9 @@
      "stadium": "Stade du Moustoir",
      "roof": false,
      "daysBefore": 5,
-     "temp": 11,
-     "desc": "ciel dégagé",
-     "code": 0,
+     "temp": 12,
+     "desc": "partiellement nuageux",
+     "code": 2,
      "rain": 0,
      "rainMax": 0,
      "gust": 40,
@@ -6319,7 +6319,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-28T18:46+00:00",
+     "updated": "2026-10-28T18:50+00:00",
      "history": [
       {
        "day": "2026-10-27",

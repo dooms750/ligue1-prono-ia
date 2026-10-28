@@ -19,7 +19,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -59,7 +59,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -99,7 +99,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -124,9 +124,9 @@
   "stadium": "Stade du Moustoir",
   "roof": false,
   "daysBefore": 5,
-  "temp": 11,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "temp": 12,
+  "desc": "partiellement nuageux",
+  "code": 2,
   "rain": 0,
   "rainMax": 0,
   "gust": 40,
@@ -139,7 +139,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -164,9 +164,9 @@
   "stadium": "Orange Vélodrome",
   "roof": false,
   "daysBefore": 4,
-  "temp": 13,
-  "desc": "bruine légère",
-  "code": 51,
+  "temp": 12,
+  "desc": "plutôt dégagé",
+  "code": 1,
   "rain": 0,
   "rainMax": 3.6,
   "gust": 23,
@@ -179,7 +179,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -204,22 +204,22 @@
   "stadium": "Allianz Riviera",
   "roof": false,
   "daysBefore": 2,
-  "temp": 16,
-  "desc": "bruine",
-  "code": 53,
+  "temp": 17,
+  "desc": "plutôt dégagé",
+  "code": 1,
   "rain": 0,
-  "rainMax": 0.8,
+  "rainMax": 0.2,
   "gust": 17,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 90,
+  "confidence": 92,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T12:59+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -235,7 +235,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 15,
-    "conf": 90
+    "conf": 92
    }
   ]
  },
@@ -259,7 +259,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -299,7 +299,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -339,7 +339,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-28T18:46+00:00",
+  "updated": "2026-10-28T18:50+00:00",
   "history": [
    {
     "day": "2026-10-27",

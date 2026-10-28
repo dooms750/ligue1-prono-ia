@@ -16,18 +16,21 @@
     {
      "side": "home",
      "min": 42,
+     "half": 1,
      "kind": "but",
      "player": "Prosper Peter"
     },
     {
      "side": "home",
      "min": 51,
+     "half": 2,
      "kind": "refuse",
      "player": "Amine El Ouazzani"
     },
     {
      "side": "home",
      "min": 57,
+     "half": 2,
      "kind": "but",
      "player": "Amine Sbaï"
     }
@@ -96,18 +99,21 @@
     {
      "side": "away",
      "min": 23,
+     "half": 1,
      "kind": "but",
      "player": "Pathé Mboup"
     },
     {
      "side": "home",
      "min": 47,
+     "half": 2,
      "kind": "but",
      "player": "Cameron Archer"
     },
     {
      "side": "home",
      "min": 83,
+     "half": 2,
      "kind": "csc",
      "player": "Raphaël Le Guen"
     }
@@ -176,18 +182,21 @@
     {
      "side": "home",
      "min": 3,
+     "half": 1,
      "kind": "but",
      "player": "Adil Bourabaa"
     },
     {
      "side": "home",
      "min": 57,
+     "half": 2,
      "kind": "but",
      "player": "Habib Diallo"
     },
     {
      "side": "away",
      "min": 78,
+     "half": 2,
      "kind": "but",
      "player": "Isak Jensen"
     }
@@ -256,24 +265,28 @@
     {
      "side": "home",
      "min": 7,
+     "half": 1,
      "kind": "but",
      "player": "Ernest Nuamah"
     },
     {
      "side": "home",
      "min": 30,
+     "half": 1,
      "kind": "but",
      "player": "Ernest Nuamah"
     },
     {
      "side": "home",
      "min": 48,
+     "half": 2,
      "kind": "but",
      "player": "Zachary Athekame"
     },
     {
      "side": "home",
      "min": 76,
+     "half": 2,
      "kind": "but",
      "player": "Corentin Tolisso"
     }
@@ -342,18 +355,21 @@
     {
      "side": "home",
      "min": 32,
+     "half": 1,
      "kind": "but",
      "player": "Paris Brunner"
     },
     {
      "side": "away",
      "min": 57,
+     "half": 2,
      "kind": "but",
      "player": "Matthieu Udol"
     },
     {
      "side": "home",
      "min": 84,
+     "half": 2,
      "kind": "csc",
      "player": "Jonathan Gradit"
     }
@@ -422,18 +438,21 @@
     {
      "side": "home",
      "min": 22,
+     "half": 1,
      "kind": "csc",
      "player": "Nathan Ngoy"
     },
     {
      "side": "home",
      "min": 67,
+     "half": 2,
      "kind": "but",
      "player": "Mohamed Amoura"
     },
     {
      "side": "away",
      "min": 79,
+     "half": 2,
      "kind": "but",
      "player": "Ayase Ueda"
     }
@@ -502,18 +521,21 @@
     {
      "side": "home",
      "min": 18,
+     "half": 1,
      "kind": "but",
      "player": "Ilan Kebbal"
     },
     {
      "side": "home",
      "min": 57,
+     "half": 2,
      "kind": "but",
      "player": "Pablo Pagis"
     },
     {
      "side": "away",
      "min": 88,
+     "half": 2,
      "kind": "csc",
      "player": "Mamadou Mbow"
     }
@@ -582,30 +604,35 @@
     {
      "side": "home",
      "min": 49,
+     "half": 2,
      "kind": "penalty",
      "player": "Casper Tengstedt"
     },
     {
      "side": "home",
      "min": 51,
+     "half": 2,
      "kind": "but",
      "player": "Casper Tengstedt"
     },
     {
      "side": "away",
      "min": 71,
+     "half": 2,
      "kind": "but",
      "player": "Josh Maja"
     },
     {
      "side": "home",
      "min": 79,
+     "half": 2,
      "kind": "but",
      "player": "Thomas Jørgensen"
     },
     {
      "side": "away",
      "min": 88,
+     "half": 2,
      "kind": "but",
      "player": "Mbwana Samatta"
     }
@@ -674,18 +701,21 @@
     {
      "side": "away",
      "min": 66,
+     "half": 2,
      "kind": "but",
      "player": "Ferran Torres"
     },
     {
      "side": "home",
      "min": 72,
+     "half": 2,
      "kind": "but",
      "player": "Angel Gomes"
     },
     {
      "side": "away",
      "min": 74,
+     "half": 2,
      "kind": "but",
      "player": "Marquinhos"
     }
@@ -694,6 +724,7 @@
     {
      "side": "home",
      "min": 77,
+     "half": 2,
      "player": "Tim Weah"
     }
    ],
@@ -760,36 +791,42 @@
     {
      "side": "home",
      "min": 9,
+     "half": 1,
      "kind": "but",
      "player": "Ludovic Ajorque"
     },
     {
      "side": "home",
      "min": 17,
+     "half": 1,
      "kind": "but",
      "player": "Lucas Tousart"
     },
     {
      "side": "home",
      "min": 30,
+     "half": 1,
      "kind": "penalty",
      "player": "Kenny Lala"
     },
     {
      "side": "home",
      "min": 45,
+     "half": 1,
      "kind": "but",
      "player": "Mama Balde"
     },
     {
      "side": "away",
      "min": 47,
+     "half": 2,
      "kind": "but",
      "player": "Prosper Peter"
     },
     {
      "side": "home",
      "min": 54,
+     "half": 2,
      "kind": "but",
      "player": "Pathé Mboup"
     }
@@ -798,6 +835,7 @@
     {
      "side": "away",
      "min": 59,
+     "half": 2,
      "player": "Jordan Lefort"
     }
    ],
@@ -864,18 +902,21 @@
     {
      "side": "home",
      "min": 36,
+     "half": 1,
      "kind": "but",
      "player": "Florian Sotoca"
     },
     {
      "side": "home",
      "min": 76,
+     "half": 2,
      "kind": "but",
      "player": "Matthieu Udol"
     },
     {
      "side": "away",
      "min": 85,
+     "half": 2,
      "kind": "but",
      "player": "Khalis Merah"
     }
@@ -884,6 +925,7 @@
     {
      "side": "home",
      "min": 84,
+     "half": 2,
      "player": "Matthieu Udol"
     }
    ],
@@ -950,6 +992,7 @@
     {
      "side": "home",
      "min": 5,
+     "half": 1,
      "kind": "but",
      "player": "Dilane Bakwa"
     }
@@ -958,6 +1001,7 @@
     {
      "side": "away",
      "min": 61,
+     "half": 2,
      "player": "Ayumu Seko"
     }
    ],
@@ -1024,6 +1068,7 @@
     {
      "side": "home",
      "min": 68,
+     "half": 2,
      "kind": "but",
      "player": "Gabin Bernardeau"
     }
@@ -1092,24 +1137,28 @@
     {
      "side": "home",
      "min": 29,
+     "half": 1,
      "kind": "but",
      "player": "Edan Diop"
     },
     {
      "side": "home",
      "min": 38,
+     "half": 1,
      "kind": "but",
      "player": "Matthis Abline"
     },
     {
      "side": "away",
      "min": 48,
+     "half": 2,
      "kind": "penalty",
      "player": "Casper Tengstedt"
     },
     {
      "side": "away",
      "min": 59,
+     "half": 2,
      "kind": "but",
      "player": "Sion Oppong"
     }
@@ -1178,18 +1227,21 @@
     {
      "side": "away",
      "min": 41,
+     "half": 1,
      "kind": "but",
      "player": "Dário Essugo"
     },
     {
      "side": "home",
      "min": 47,
+     "half": 2,
      "kind": "csc",
      "player": "Pape Diop"
     },
     {
      "side": "home",
      "min": 81,
+     "half": 2,
      "kind": "but",
      "player": "Jonathan Clauss"
     }
@@ -1258,24 +1310,28 @@
     {
      "side": "home",
      "min": 19,
+     "half": 1,
      "kind": "penalty",
      "player": "Lucas Beraldo"
     },
     {
      "side": "away",
      "min": 54,
+     "half": 2,
      "kind": "but",
      "player": "Louis Mafouta"
     },
     {
      "side": "home",
      "min": 61,
+     "half": 2,
      "kind": "but",
      "player": "Khvicha Kvaratskhelia"
     },
     {
      "side": "home",
      "min": 68,
+     "half": 2,
      "kind": "but",
      "player": "Maghnes Akliouche"
     }
@@ -1344,30 +1400,35 @@
     {
      "side": "home",
      "min": 15,
+     "half": 1,
      "kind": "but",
      "player": "Estéban Lepaul"
     },
     {
      "side": "away",
      "min": 25,
+     "half": 1,
      "kind": "but",
      "player": "Cameron Archer"
     },
     {
      "side": "home",
      "min": 53,
+     "half": 2,
      "kind": "but",
      "player": "Adrien Thomasson"
     },
     {
      "side": "home",
      "min": 92,
+     "half": 2,
      "kind": "but",
      "player": "Boulaye Dia"
     },
     {
      "side": "home",
      "min": 94,
+     "half": 2,
      "kind": "but",
      "player": "Boulaye Dia"
     }
@@ -1436,12 +1497,14 @@
     {
      "side": "away",
      "min": 50,
+     "half": 2,
      "kind": "but",
      "player": "Amine Harit"
     },
     {
      "side": "away",
      "min": 98,
+     "half": 2,
      "kind": "penalty",
      "player": "Himad Abdelli"
     }
@@ -1510,42 +1573,49 @@
     {
      "side": "home",
      "min": 14,
+     "half": 1,
      "kind": "but",
      "player": "Lilian Raolisoa"
     },
     {
      "side": "away",
      "min": 37,
+     "half": 1,
      "kind": "but",
      "player": "Himad Abdelli"
     },
     {
      "side": "away",
      "min": 43,
+     "half": 1,
      "kind": "but",
      "player": "Nouhoum Kamissoko"
     },
     {
      "side": "away",
      "min": 60,
+     "half": 2,
      "kind": "but",
      "player": "Amine Gouiri"
     },
     {
      "side": "home",
      "min": 75,
+     "half": 2,
      "kind": "penalty",
      "player": "Amine El Ouazzani"
     },
     {
      "side": "away",
      "min": 83,
+     "half": 2,
      "kind": "but",
      "player": "Amine Harit"
     },
     {
      "side": "away",
      "min": 85,
+     "half": 2,
      "kind": "but",
      "player": "Igor Paixao"
     }
@@ -1614,24 +1684,28 @@
     {
      "side": "away",
      "min": 40,
+     "half": 1,
      "kind": "but",
      "player": "Danny Namaso"
     },
     {
      "side": "away",
      "min": 61,
+     "half": 2,
      "kind": "but",
      "player": "Danny Namaso"
     },
     {
      "side": "home",
      "min": 66,
+     "half": 2,
      "kind": "but",
      "player": "Rayan Fofana"
     },
     {
      "side": "away",
      "min": 80,
+     "half": 2,
      "kind": "but",
      "player": "Romain Faivre"
     }
@@ -1700,24 +1774,28 @@
     {
      "side": "away",
      "min": 46,
+     "half": 2,
      "kind": "but",
      "player": "Jacen Russell-Rowe"
     },
     {
      "side": "away",
      "min": 59,
+     "half": 2,
      "kind": "but",
      "player": "Aron Donnum"
     },
     {
      "side": "away",
      "min": 78,
+     "half": 2,
      "kind": "refuse",
      "player": "Casper Tengstedt"
     },
     {
      "side": "away",
      "min": 87,
+     "half": 2,
      "kind": "but",
      "player": "Casper Tengstedt"
     }
@@ -1786,12 +1864,14 @@
     {
      "side": "away",
      "min": 6,
+     "half": 1,
      "kind": "but",
      "player": "Mama Balde"
     },
     {
      "side": "home",
      "min": 64,
+     "half": 2,
      "kind": "penalty",
      "player": "Olivier Giroud"
     }
@@ -1860,6 +1940,7 @@
     {
      "side": "home",
      "min": 61,
+     "half": 2,
      "kind": "penalty",
      "player": "Noah Cadiou"
     }
@@ -1928,24 +2009,28 @@
     {
      "side": "away",
      "min": 18,
+     "half": 1,
      "kind": "but",
      "player": "Elye Wahi"
     },
     {
      "side": "home",
      "min": 32,
+     "half": 1,
      "kind": "but",
      "player": "Pavel Sulc"
     },
     {
      "side": "home",
      "min": 36,
+     "half": 1,
      "kind": "but",
      "player": "Tanner Tessmann"
     },
     {
      "side": "away",
      "min": 93,
+     "half": 2,
      "kind": "refuse",
      "player": "Elye Wahi"
     }
@@ -1954,6 +2039,7 @@
     {
      "side": "home",
      "min": 70,
+     "half": 2,
      "player": "Keito Nakamura"
     }
    ],
@@ -2020,48 +2106,56 @@
     {
      "side": "home",
      "min": 14,
+     "half": 1,
      "kind": "but",
      "player": "Maxime Lopez"
     },
     {
      "side": "away",
      "min": 29,
+     "half": 1,
      "kind": "penalty",
      "player": "Estéban Lepaul"
     },
     {
      "side": "home",
      "min": 49,
+     "half": 1,
      "kind": "but",
      "player": "Maxime Lopez"
     },
     {
      "side": "away",
      "min": 51,
+     "half": 2,
      "kind": "refuse",
      "player": "Sebastian Szymański"
     },
     {
      "side": "away",
      "min": 74,
+     "half": 2,
      "kind": "penalty",
      "player": "Estéban Lepaul"
     },
     {
      "side": "home",
      "min": 76,
+     "half": 2,
      "kind": "but",
      "player": "Lassine Sinayoko"
     },
     {
      "side": "away",
      "min": 88,
+     "half": 2,
      "kind": "penalty",
      "player": "Estéban Lepaul"
     },
     {
      "side": "home",
      "min": 97,
+     "half": 2,
      "kind": "penalty",
      "player": "Lassine Sinayoko"
     }
@@ -2130,24 +2224,28 @@
     {
      "side": "home",
      "min": 17,
+     "half": 1,
      "kind": "but",
      "player": "Giovanni Reyna"
     },
     {
      "side": "away",
      "min": 77,
+     "half": 2,
      "kind": "but",
      "player": "Illia Zabarnyi"
     },
     {
      "side": "away",
      "min": 85,
+     "half": 2,
      "kind": "but",
      "player": "Ousmane Dembélé"
     },
     {
      "side": "away",
      "min": 93,
+     "half": 2,
      "kind": "but",
      "player": "Desire Doue"
     }
@@ -2216,24 +2314,28 @@
     {
      "side": "away",
      "min": 13,
+     "half": 1,
      "kind": "csc",
      "player": "Adrien Monfray"
     },
     {
      "side": "home",
      "min": 26,
+     "half": 1,
      "kind": "but",
      "player": "Timothée Nkada"
     },
     {
      "side": "away",
      "min": 47,
+     "half": 2,
      "kind": "but",
      "player": "Odsonne Edouard"
     },
     {
      "side": "away",
      "min": 55,
+     "half": 2,
      "kind": "but",
      "player": "Ruben Aguilar"
     }
@@ -2363,12 +2465,14 @@
     {
      "side": "away",
      "min": 48,
+     "half": 2,
      "kind": "csc",
      "player": "Danny Namaso"
     },
     {
      "side": "home",
      "min": 56,
+     "half": 2,
      "kind": "but",
      "player": "Cameron Archer"
     }
@@ -2437,18 +2541,21 @@
     {
      "side": "home",
      "min": 15,
+     "half": 1,
      "kind": "but",
      "player": "Ludovic Ajorque"
     },
     {
      "side": "away",
      "min": 61,
+     "half": 2,
      "kind": "but",
      "player": "Elye Wahi"
     },
     {
      "side": "away",
      "min": 83,
+     "half": 2,
      "kind": "but",
      "player": "Sofiane Diop"
     }
@@ -2517,18 +2624,21 @@
     {
      "side": "away",
      "min": 47,
+     "half": 1,
      "kind": "but",
      "player": "Luca Koleosho"
     },
     {
      "side": "home",
      "min": 63,
+     "half": 2,
      "kind": "but",
      "player": "Florian Thauvin"
     },
     {
      "side": "home",
      "min": 83,
+     "half": 2,
      "kind": "but",
      "player": "Thorgan Hazard"
     }
@@ -2597,42 +2707,49 @@
     {
      "side": "home",
      "min": 5,
+     "half": 1,
      "kind": "but",
      "player": "Conrad Egan Riley"
     },
     {
      "side": "home",
      "min": 33,
+     "half": 1,
      "kind": "but",
      "player": "Tim Weah"
     },
     {
      "side": "home",
      "min": 50,
+     "half": 2,
      "kind": "but",
      "player": "Igor Paixao"
     },
     {
      "side": "home",
      "min": 55,
+     "half": 2,
      "kind": "but",
      "player": "Himad Abdelli"
     },
     {
      "side": "away",
      "min": 77,
+     "half": 2,
      "kind": "penalty",
      "player": "Josh Maja"
     },
     {
      "side": "away",
      "min": 86,
+     "half": 2,
      "kind": "but",
      "player": "Lamine Ndiaye"
     },
     {
      "side": "away",
      "min": 89,
+     "half": 2,
      "kind": "but",
      "player": "Josh Maja"
     }
@@ -2701,12 +2818,14 @@
     {
      "side": "away",
      "min": 24,
+     "half": 1,
      "kind": "but",
      "player": "Ethan Mbappé"
     },
     {
      "side": "home",
      "min": 74,
+     "half": 2,
      "kind": "but",
      "player": "Edan Diop"
     }
@@ -2715,6 +2834,7 @@
     {
      "side": "away",
      "min": 66,
+     "half": 2,
      "player": "Nianzou Tanguy Kouassi"
     }
    ],
@@ -2781,18 +2901,21 @@
     {
      "side": "home",
      "min": 34,
+     "half": 1,
      "kind": "but",
      "player": "Boulaye Dia"
     },
     {
      "side": "home",
      "min": 41,
+     "half": 1,
      "kind": "but",
      "player": "Sebastian Szymański"
     },
     {
      "side": "home",
      "min": 61,
+     "half": 2,
      "kind": "but",
      "player": "Sebastian Szymański"
     }
@@ -2922,12 +3045,14 @@
     {
      "side": "home",
      "min": 72,
+     "half": 2,
      "kind": "but",
      "player": "Senny Mayulu"
     },
     {
      "side": "home",
      "min": 84,
+     "half": 2,
      "kind": "but",
      "player": "Mika Godts"
     }
@@ -2996,12 +3121,14 @@
     {
      "side": "home",
      "min": 52,
+     "half": 2,
      "kind": "csc",
      "player": "Sadibou Sané"
     },
     {
      "side": "away",
      "min": 71,
+     "half": 2,
      "kind": "but",
      "player": "Paris Brunner"
     }
@@ -3070,6 +3197,7 @@
     {
      "side": "home",
      "min": 52,
+     "half": 2,
      "kind": "but",
      "player": "Adrien Thomasson"
     }
@@ -3199,24 +3327,28 @@
     {
      "side": "home",
      "min": 37,
+     "half": 1,
      "kind": "but",
      "player": "Ibrahima Baldé"
     },
     {
      "side": "home",
      "min": 39,
+     "half": 1,
      "kind": "but",
      "player": "Noah Mbamba"
     },
     {
      "side": "away",
      "min": 48,
+     "half": 2,
      "kind": "but",
      "player": "Casper Tengstedt"
     },
     {
      "side": "away",
      "min": 68,
+     "half": 2,
      "kind": "but",
      "player": "Thomas Jørgensen"
     }
@@ -3285,18 +3417,21 @@
     {
      "side": "home",
      "min": 3,
+     "half": 1,
      "kind": "refuse",
      "player": "Hakon Arnar Haraldsson"
     },
     {
      "side": "home",
      "min": 18,
+     "half": 1,
      "kind": "but",
      "player": "Tiago Santos"
     },
     {
      "side": "home",
      "min": 93,
+     "half": 2,
      "kind": "but",
      "player": "Ethan Mbappé"
     }
@@ -3365,24 +3500,28 @@
     {
      "side": "home",
      "min": 32,
+     "half": 1,
      "kind": "but",
      "player": "Adil Bourabaa"
     },
     {
      "side": "home",
      "min": 44,
+     "half": 1,
      "kind": "but",
      "player": "Lucas Calodat"
     },
     {
      "side": "away",
      "min": 47,
+     "half": 1,
      "kind": "but",
      "player": "Abdallah Sima"
     },
     {
      "side": "away",
      "min": 51,
+     "half": 2,
      "kind": "but",
      "player": "Franjo Ivanović"
     }
@@ -3512,6 +3651,7 @@
     {
      "side": "away",
      "min": 5,
+     "half": 1,
      "kind": "but",
      "player": "Ferran Torres"
     }
@@ -3580,6 +3720,7 @@
     {
      "side": "home",
      "min": 74,
+     "half": 2,
      "kind": "but",
      "player": "Cameron Archer"
     }
@@ -3648,48 +3789,56 @@
     {
      "side": "home",
      "min": 9,
+     "half": 1,
      "kind": "but",
      "player": "Antoine Mille"
     },
     {
      "side": "away",
      "min": 40,
+     "half": 1,
      "kind": "but",
      "player": "Jacobo Ortega"
     },
     {
      "side": "away",
      "min": 42,
+     "half": 1,
      "kind": "but",
      "player": "Diogo Sousa"
     },
     {
      "side": "away",
      "min": 57,
+     "half": 2,
      "kind": "but",
      "player": "Giovanni Reyna"
     },
     {
      "side": "away",
      "min": 85,
+     "half": 2,
      "kind": "but",
      "player": "Sam Amo-Ameyaw"
     },
     {
      "side": "away",
      "min": 88,
+     "half": 2,
      "kind": "but",
      "player": "Sam Amo-Ameyaw"
     },
     {
      "side": "away",
      "min": 92,
+     "half": 2,
      "kind": "but",
      "player": "Conrad Harder"
     },
     {
      "side": "home",
      "min": 95,
+     "half": 2,
      "kind": "but",
      "player": "Jeremy Le Douaron"
     }
@@ -3758,6 +3907,7 @@
     {
      "side": "away",
      "min": 73,
+     "half": 2,
      "kind": "but",
      "player": "Ayase Ueda"
     }
@@ -3826,18 +3976,21 @@
     {
      "side": "home",
      "min": 31,
+     "half": 1,
      "kind": "but",
      "player": "Marquinhos"
     },
     {
      "side": "away",
      "min": 58,
+     "half": 2,
      "kind": "but",
      "player": "Flávio Nazinho"
     },
     {
      "side": "away",
      "min": 72,
+     "half": 2,
      "kind": "but",
      "player": "Stanis Idumbo"
     }
@@ -3906,12 +4059,14 @@
     {
      "side": "away",
      "min": 13,
+     "half": 1,
      "kind": "but",
      "player": "Adil Bourabaa"
     },
     {
      "side": "home",
      "min": 44,
+     "half": 1,
      "kind": "but",
      "player": "Elye Wahi"
     }
@@ -3980,30 +4135,35 @@
     {
      "side": "away",
      "min": 1,
+     "half": 1,
      "kind": "but",
      "player": "Lassine Sinayoko"
     },
     {
      "side": "home",
      "min": 8,
+     "half": 1,
      "kind": "but",
      "player": "Amine Gouiri"
     },
     {
      "side": "away",
      "min": 19,
+     "half": 1,
      "kind": "but",
      "player": "Lassine Sinayoko"
     },
     {
      "side": "home",
      "min": 53,
+     "half": 2,
      "kind": "but",
      "player": "Amine Gouiri"
     },
     {
      "side": "away",
      "min": 86,
+     "half": 2,
      "kind": "penalty",
      "player": "Lassine Sinayoko"
     }
@@ -4072,36 +4232,42 @@
     {
      "side": "home",
      "min": 18,
+     "half": 1,
      "kind": "refuse",
      "player": "Loïs Openda"
     },
     {
      "side": "away",
      "min": 22,
+     "half": 1,
      "kind": "refuse",
      "player": "Cameron Archer"
     },
     {
      "side": "home",
      "min": 28,
+     "half": 1,
      "kind": "but",
      "player": "Felix Bacher"
     },
     {
      "side": "home",
      "min": 31,
+     "half": 1,
      "kind": "but",
      "player": "Zachary Athekame"
     },
     {
      "side": "away",
      "min": 42,
+     "half": 1,
      "kind": "but",
      "player": "Cameron Archer"
     },
     {
      "side": "home",
      "min": 53,
+     "half": 2,
      "kind": "but",
      "player": "Ernest Nuamah"
     }
@@ -4170,6 +4336,7 @@
     {
      "side": "away",
      "min": 54,
+     "half": 2,
      "kind": "but",
      "player": "Mamadou Koné"
     }
@@ -4178,6 +4345,7 @@
     {
      "side": "home",
      "min": 92,
+     "half": 2,
      "player": "Souleymane Sagnan"
     }
    ],
@@ -4244,18 +4412,21 @@
     {
      "side": "away",
      "min": 12,
+     "half": 1,
      "kind": "penalty",
      "player": "Kamory Doumbia"
     },
     {
      "side": "away",
      "min": 51,
+     "half": 2,
      "kind": "but",
      "player": "Kamory Doumbia"
     },
     {
      "side": "home",
      "min": 79,
+     "half": 2,
      "kind": "penalty",
      "player": "Rayan Fofana"
     }
@@ -4264,6 +4435,7 @@
     {
      "side": "home",
      "min": 47,
+     "half": 1,
      "player": "Junior Mwanga"
     }
    ],
@@ -4330,18 +4502,21 @@
     {
      "side": "away",
      "min": 9,
+     "half": 1,
      "kind": "but",
      "player": "Przemysław Frankowski"
     },
     {
      "side": "away",
      "min": 17,
+     "half": 1,
      "kind": "csc",
      "player": "Jordan Lefort"
     },
     {
      "side": "home",
      "min": 35,
+     "half": 1,
      "kind": "but",
      "player": "Carlens Arcus"
     }
@@ -4410,24 +4585,28 @@
     {
      "side": "home",
      "min": 21,
+     "half": 1,
      "kind": "but",
      "player": "Hakon Arnar Haraldsson"
     },
     {
      "side": "home",
      "min": 84,
+     "half": 2,
      "kind": "but",
      "player": "Dilane Bakwa"
     },
     {
      "side": "away",
      "min": 91,
+     "half": 2,
      "kind": "but",
      "player": "Vitinha"
     },
     {
      "side": "away",
      "min": 95,
+     "half": 2,
      "kind": "but",
      "player": "Marquinhos"
     }
@@ -4496,24 +4675,28 @@
     {
      "side": "away",
      "min": 38,
+     "half": 1,
      "kind": "penalty",
      "player": "Florian Thauvin"
     },
     {
      "side": "home",
      "min": 48,
+     "half": 2,
      "kind": "but",
      "player": "Gessime Yassine"
     },
     {
      "side": "home",
      "min": 56,
+     "half": 2,
      "kind": "refuse",
      "player": "Jacobo Ortega"
     },
     {
      "side": "home",
      "min": 85,
+     "half": 2,
      "kind": "but",
      "player": "Gessime Yassine"
     }
@@ -4582,30 +4765,35 @@
     {
      "side": "home",
      "min": 5,
+     "half": 1,
      "kind": "but",
      "player": "Estéban Lepaul"
     },
     {
      "side": "home",
      "min": 26,
+     "half": 1,
      "kind": "but",
      "player": "Valentin Rongier"
     },
     {
      "side": "away",
      "min": 30,
+     "half": 1,
      "kind": "but",
      "player": "Louis Mafouta"
     },
     {
      "side": "away",
      "min": 54,
+     "half": 2,
      "kind": "penalty",
      "player": "Louis Mafouta"
     },
     {
      "side": "home",
      "min": 96,
+     "half": 2,
      "kind": "penalty",
      "player": "Estéban Lepaul"
     }
@@ -4614,6 +4802,7 @@
     {
      "side": "away",
      "min": 68,
+     "half": 2,
      "player": "Djibril Sidibé"
     }
    ],
@@ -4680,18 +4869,21 @@
     {
      "side": "home",
      "min": 21,
+     "half": 1,
      "kind": "penalty",
      "player": "Lassine Sinayoko"
     },
     {
      "side": "home",
      "min": 51,
+     "half": 2,
      "kind": "but",
      "player": "Samir Chergui"
     },
     {
      "side": "home",
      "min": 89,
+     "half": 2,
      "kind": "but",
      "player": "Vincent Marchetti"
     }
@@ -4760,12 +4952,14 @@
     {
      "side": "home",
      "min": 13,
+     "half": 1,
      "kind": "but",
      "player": "Paris Brunner"
     },
     {
      "side": "home",
      "min": 53,
+     "half": 2,
      "kind": "but",
      "player": "Paris Brunner"
     }
@@ -4834,24 +5028,28 @@
     {
      "side": "home",
      "min": 67,
+     "half": 2,
      "kind": "refuse",
      "player": "Corentin Tolisso"
     },
     {
      "side": "away",
      "min": 74,
+     "half": 2,
      "kind": "but",
      "player": "Mbwana Samatta"
     },
     {
      "side": "home",
      "min": 87,
+     "half": 2,
      "kind": "but",
      "player": "Loïs Openda"
     },
     {
      "side": "away",
      "min": 94,
+     "half": 2,
      "kind": "refuse",
      "player": "Sota Nakamura"
     }
@@ -4920,18 +5118,21 @@
     {
      "side": "away",
      "min": 29,
+     "half": 1,
      "kind": "penalty",
      "player": "Renaud Ripart"
     },
     {
      "side": "away",
      "min": 38,
+     "half": 1,
      "kind": "but",
      "player": "Lucas Maronnier"
     },
     {
      "side": "home",
      "min": 51,
+     "half": 2,
      "kind": "but",
      "player": "Jean-Victor Makengo"
     }
@@ -5000,24 +5201,28 @@
     {
      "side": "away",
      "min": 9,
+     "half": 1,
      "kind": "but",
      "player": "Jacen Russell-Rowe"
     },
     {
      "side": "home",
      "min": 18,
+     "half": 1,
      "kind": "but",
      "player": "Kamory Doumbia"
     },
     {
      "side": "away",
      "min": 62,
+     "half": 2,
      "kind": "but",
      "player": "Christ Tapé"
     },
     {
      "side": "home",
      "min": 95,
+     "half": 2,
      "kind": "but",
      "player": "Ludovic Ajorque"
     }
@@ -5086,24 +5291,28 @@
     {
      "side": "away",
      "min": 5,
+     "half": 1,
      "kind": "but",
      "player": "Branco Van den Boomen"
     },
     {
      "side": "home",
      "min": 35,
+     "half": 1,
      "kind": "but",
      "player": "Rémy Labeau Lascary"
     },
     {
      "side": "away",
      "min": 70,
+     "half": 2,
      "kind": "but",
      "player": "Harouna Djibirin"
     },
     {
      "side": "away",
      "min": 78,
+     "half": 2,
      "kind": "but",
      "player": "Amine El Ouazzani"
     }
@@ -5233,12 +5442,14 @@
     {
      "side": "away",
      "min": 68,
+     "half": 2,
      "kind": "but",
      "player": "Noah Nartey"
     },
     {
      "side": "away",
      "min": 85,
+     "half": 2,
      "kind": "but",
      "player": "Malick Fofana"
     }
@@ -5307,24 +5518,28 @@
     {
      "side": "home",
      "min": 9,
+     "half": 1,
      "kind": "but",
      "player": "Sebastian Szymański"
     },
     {
      "side": "home",
      "min": 38,
+     "half": 1,
      "kind": "but",
      "player": "Estéban Lepaul"
     },
     {
      "side": "away",
      "min": 71,
+     "half": 2,
      "kind": "but",
      "player": "Ferran Torres"
     },
     {
      "side": "away",
      "min": 82,
+     "half": 2,
      "kind": "but",
      "player": "Ferran Torres"
     }
@@ -5454,24 +5669,28 @@
     {
      "side": "home",
      "min": 46,
+     "half": 2,
      "kind": "but",
      "player": "Amine Gouiri"
     },
     {
      "side": "home",
      "min": 68,
+     "half": 2,
      "kind": "penalty",
      "player": "Amine Gouiri"
     },
     {
      "side": "home",
      "min": 89,
+     "half": 2,
      "kind": "but",
      "player": "Keyliane Abdallah"
     },
     {
      "side": "home",
      "min": 96,
+     "half": 2,
      "kind": "but",
      "player": "Pierre-Emile Højbjerg"
     }
@@ -5480,6 +5699,7 @@
     {
      "side": "away",
      "min": 59,
+     "half": 2,
      "player": "Samir El Mourabet"
     }
    ],
@@ -5546,42 +5766,49 @@
     {
      "side": "home",
      "min": 12,
+     "half": 1,
      "kind": "penalty",
      "player": "Florian Thauvin"
     },
     {
      "side": "home",
      "min": 49,
+     "half": 2,
      "kind": "but",
      "player": "Franjo Ivanović"
     },
     {
      "side": "home",
      "min": 54,
+     "half": 2,
      "kind": "but",
      "player": "Saud Abdulhamid"
     },
     {
      "side": "away",
      "min": 61,
+     "half": 2,
      "kind": "penalty",
      "player": "Danny Namaso"
     },
     {
      "side": "home",
      "min": 66,
+     "half": 2,
      "kind": "but",
      "player": "Ismaëlo Ganiou"
     },
     {
      "side": "away",
      "min": 69,
+     "half": 2,
      "kind": "but",
      "player": "Lamine Sy"
     },
     {
      "side": "home",
      "min": 88,
+     "half": 2,
      "kind": "penalty",
      "player": "Florian Thauvin"
     }
@@ -5590,6 +5817,7 @@
     {
      "side": "away",
      "min": 35,
+     "half": 1,
      "player": "Christ Makosso"
     }
    ],
@@ -5656,24 +5884,28 @@
     {
      "side": "away",
      "min": 31,
+     "half": 1,
      "kind": "but",
      "player": "Romain Del Castillo"
     },
     {
      "side": "home",
      "min": 47,
+     "half": 2,
      "kind": "but",
      "player": "Dame Gueye"
     },
     {
      "side": "home",
      "min": 55,
+     "half": 2,
      "kind": "but",
      "player": "Louis Mafouta"
     },
     {
      "side": "away",
      "min": 62,
+     "half": 2,
      "kind": "but",
      "player": "Kamory Doumbia"
     }
@@ -5742,12 +5974,14 @@
     {
      "side": "away",
      "min": 14,
+     "half": 1,
      "kind": "but",
      "player": "Eric Dier"
     },
     {
      "side": "home",
      "min": 26,
+     "half": 1,
      "kind": "refuse",
      "player": "Amir Richardson"
     }
@@ -5816,12 +6050,14 @@
     {
      "side": "away",
      "min": 11,
+     "half": 1,
      "kind": "but",
      "player": "Olivier Giroud"
     },
     {
      "side": "away",
      "min": 31,
+     "half": 1,
      "kind": "but",
      "player": "Tiago Santos"
     }
@@ -6589,6 +6825,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688747": {
+   "id": 2688747,
+   "competition": "Ligue 1",
+   "kickoff": "2026-11-28T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Le Mans FC",
+   "away": "LOSC",
+   "homeLink": "/fr/equipe/le-mans-fc-269",
+   "awayLink": "/fr/equipe/losc-257",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7258,6 +7514,12 @@
   ],
   "PSG": [
    {
+    "title": "Samir Nasri : « Le seul profil que je vois en cador, c’est Vinicius, mais est-ce que tu vas te prendre un problème comme lui au PSG… »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-28T18:30:48Z",
+    "url": "https://onefootball.com/fr/news/samir-nasri-le-seul-profil-que-je-vois-en-cador-cest-vinicius-mais-est-ce-que-tu-vas-te-prendre-un-probleme-comme-lui-au-psg-43687470"
+   },
+   {
     "title": "Mercato : Gonçalo Ramos l'annonce, il voulait déjà partir avant cet été du PSG",
     "publisher": "OnzeMondial",
     "time": "2026-10-28T17:32:00Z",
@@ -7310,12 +7572,6 @@
     "publisher": "fussball-news.de",
     "time": "2026-10-28T10:31:08Z",
     "url": "https://onefootball.com/fr/news/les-cadors-a-laffut-le-psg-se-bat-pour-garder-doue-43685045"
-   },
-   {
-    "title": "Mercato – Une tentative du PSG pour Maza cet hiver ?",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-28T08:14:48Z",
-    "url": "https://onefootball.com/fr/news/mercato-une-tentative-du-psg-pour-maza-cet-hiver-43684426"
    }
   ],
   "Paris FC": [
@@ -7692,7 +7948,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T18:45+00:00",
+ "fetchedAt": "2026-10-28T18:48+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
@@ -10125,5 +10381,5 @@
    }
   ]
  },
- "version": 1
+ "version": 2
 }
