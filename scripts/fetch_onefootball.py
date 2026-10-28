@@ -181,7 +181,7 @@ def main():
     if cache.get("version") != CACHE_VERSION:
         # Nouveau format : on recharge toute la saison une fois.
         for m in matches.values():
-            m["status"] = "a-recharger"
+            m["stale"] = True
         cache["version"] = CACHE_VERSION
 
     def fetch(mid):
@@ -220,7 +220,7 @@ def main():
         return NOW - timedelta(hours=5) < ko < NOW + timedelta(minutes=10)
 
     # 1. Matchs récents ou non terminés : (re)téléchargés.
-    todo = [i for i in known if str(i) not in matches or not finished(matches[str(i)])]
+    todo = [i for i in known if str(i) not in matches or not finished(matches[str(i)]) or matches[str(i)].get("stale")]
     if quick:
         # Mode rapide (pendant les matchs) : seulement ceux qui se jouent ou viennent de finir.
         todo = [i for i in todo if kicked_off_recently(i)]
