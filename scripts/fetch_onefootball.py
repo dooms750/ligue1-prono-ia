@@ -310,7 +310,10 @@ def main():
     done = sum(1 for m in matches.values() if finished(m))
     print(f"{path.relative_to(ROOT)} : {done} matchs terminés, {len(matches) - done} à venir, "
           f"actus de {len(cache['news'])} clubs")
+    return {"count": len(matches), "finished": done}
 
 
 if __name__ == "__main__":
-    main()
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from health import record
+    record("onefootball" + ("_quick" if "--quick" in sys.argv else ""), main)

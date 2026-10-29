@@ -82,7 +82,9 @@ def main():
         time.sleep(0.4)
     cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{cache_path.relative_to(ROOT)} : {len(cache['matches'])} matchs")
+    return {"count": len(cache["matches"])}
 
 
 if __name__ == "__main__":
-    main()
+    from health import record
+    record("espn", main)

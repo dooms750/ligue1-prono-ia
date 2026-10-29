@@ -59,6 +59,10 @@ jobs:
         if: steps.mode.outputs.quick != 'true'
         run: python scripts/fetch_data.py
         continue-on-error: true
+      - name: Historique des saisons passées, pour mesurer le modèle (ESPN, archives météo)
+        if: steps.mode.outputs.quick != 'true'
+        run: python scripts/fetch_history.py
+        continue-on-error: true
       - name: Recalculer les pronostics
         run: python scripts/build_data.py --real
       - name: Enregistrer les nouvelles données dans le dépôt

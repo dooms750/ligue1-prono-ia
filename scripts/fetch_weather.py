@@ -213,7 +213,9 @@ def main():
 
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"data/raw/weather.json : {len(out)} matchs")
+    return {"count": len(out)}
 
 
 if __name__ == "__main__":
-    main()
+    from health import record
+    record("weather", main)

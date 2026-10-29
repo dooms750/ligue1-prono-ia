@@ -3,6 +3,7 @@ Télécharge les vraies données de Ligue 1 depuis football-data.co.uk dans data
 
   F1_<saison>.csv       résultats de la saison en cours (scores, mi-temps, xG, cartons, cotes)
   F1_<saison-1>.csv     résultats de la saison précédente (pour démarrer le modèle)
+  F1_<saison-2>.csv, F1_<saison-3>.csv   saisons plus anciennes, pour mesurer le modèle (bilan, leviers)
   fixtures_F1.csv       matchs à venir de la semaine, avec leurs cotes
 
 Si un téléchargement échoue, le fichier déjà présent est conservé.
@@ -22,7 +23,8 @@ BASE = "https://www.football-data.co.uk"
 UA = {"User-Agent": "Mozilla/5.0 (Lucide; projet open source de pronostics expliqués)"}
 
 KEEP_RESULTS = ["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "HTHG", "HTAG",
-                "HxG", "AxG", "HR", "AR", "AvgH", "AvgD", "AvgA"]
+                "HxG", "AxG", "HS", "AS", "HST", "AST", "HR", "AR",
+                "AvgH", "AvgD", "AvgA", "AvgCH", "AvgCD", "AvgCA"]
 KEEP_FIXTURES = ["Div", "Date", "Time", "HomeTeam", "AwayTeam", "AvgH", "AvgD", "AvgA"]
 
 
@@ -70,15 +72,22 @@ def main():
     RAW.mkdir(parents=True, exist_ok=True)
     today = date.today()
     cur = season_code(today)
-    prev = season_code(date(today.year - 1, today.month, 1))
     print("Téléchargement des données Ligue 1 (football-data.co.uk)")
     ok = save(f"F1_{cur}.csv", f"{BASE}/mmz4281/{cur}/F1.csv", KEEP_RESULTS)
-    if not (RAW / f"F1_{prev}.csv").exists():
-        save(f"F1_{prev}.csv", f"{BASE}/mmz4281/{prev}/F1.csv", KEEP_RESULTS)
+    # Saisons terminées : téléchargées une fois (ou à nouveau s'il manque des colonnes).
+    for back in (1, 2, 3):
+        code = season_code(date(today.year - back, today.month, 1))
+        f = RAW / f"F1_{code}.csv"
+        if not f.exists() or "HST" not in f.read_text(encoding="utf-8").splitlines()[0]:
+            save(f.name, f"{BASE}/mmz4281/{code}/F1.csv", KEEP_RESULTS)
     save("fixtures_F1.csv", f"{BASE}/fixtures.csv", KEEP_FIXTURES, lambda r: r.get("Div") == "F1")
     if not ok and not (RAW / f"F1_{cur}.csv").exists():
         sys.exit("Aucune donnée de la saison en cours disponible.")
+    return {"count": sum(1 for _ in open(RAW / f"F1_{cur}.csv")) - 1 if (RAW / f"F1_{cur}.csv").exists() else 0,
+            "errors": 0 if ok else 1}
 
 
 if __name__ == "__main__":
-    main()
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from health import record
+    record("footballdata", main)
