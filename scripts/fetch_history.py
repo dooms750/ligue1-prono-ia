@@ -170,7 +170,7 @@ def weather(l1, obs):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--max-summaries", type=int, default=400)
+    ap.add_argument("--max-summaries", type=int, default=1200)
     args = ap.parse_args()
     HIST.mkdir(parents=True, exist_ok=True)
     meta = load("meta.json", {"years": {}})
