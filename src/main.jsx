@@ -1,13 +1,8 @@
+import "@fontsource-variable/sora";
+import "@fontsource-variable/inter";
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
-import "@fontsource/big-shoulders-display/700";
-import "@fontsource/big-shoulders-display/800";
-import "@fontsource/big-shoulders-display/900";
-import "@fontsource/figtree/400";
-import "@fontsource/figtree/500";
-import "@fontsource/figtree/600";
-import "@fontsource/figtree/700";
 import "./styles.css";
 import "./theme.css";
 import "./intro.css";
