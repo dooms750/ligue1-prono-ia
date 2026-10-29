@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-29T10:40+00:00",
-  "generatedAt": "2026-10-29T10:44+00:00",
+  "fetchedAt": "2026-10-29T13:05+00:00",
+  "generatedAt": "2026-10-29T13:09+00:00",
   "checks": {
    "compared": 72,
    "agree": 72,
@@ -19,18 +19,18 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-10-29T10:40+00:00",
-    "lastAttempt": "2026-10-29T10:40+00:00",
+    "lastOk": "2026-10-29T13:05+00:00",
+    "lastAttempt": "2026-10-29T13:05+00:00",
     "error": null,
     "failures": 0,
-    "count": 113
+    "count": 114
    },
    {
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-10-29T10:42+00:00",
-    "lastAttempt": "2026-10-29T10:42+00:00",
+    "lastOk": "2026-10-29T13:06+00:00",
+    "lastAttempt": "2026-10-29T13:06+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -39,8 +39,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-10-29T10:42+00:00",
-    "lastAttempt": "2026-10-29T10:42+00:00",
+    "lastOk": "2026-10-29T13:06+00:00",
+    "lastAttempt": "2026-10-29T13:06+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -49,8 +49,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-10-29T10:43+00:00",
-    "lastAttempt": "2026-10-29T10:43+00:00",
+    "lastOk": "2026-10-29T13:07+00:00",
+    "lastAttempt": "2026-10-29T13:07+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -59,8 +59,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-10-29T10:43+00:00",
-    "lastAttempt": "2026-10-29T10:43+00:00",
+    "lastOk": "2026-10-29T13:07+00:00",
+    "lastAttempt": "2026-10-29T13:07+00:00",
     "error": null,
     "failures": 0,
     "count": 1210
@@ -780,7 +780,7 @@
    "notInCommon": 0
   },
   "linked": 990,
-  "generatedAt": "2026-10-29T10:43+00:00",
+  "generatedAt": "2026-10-29T13:07+00:00",
   "levers": {
    "buteur": {
     "n": 331,
@@ -7735,25 +7735,38 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Le Havre/PSG – Les mots forts de Luis Enrique : Safonov, blessures, Digne, Doué, Vitinha et le match",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/le-havrepsg-les-mots-forts-de-luis-enrique-safonov-blessures-digne-doue-vitinha-et-le-match-43691566",
+        "time": "2026-10-29T12:30:16Z"
+       },
+       {
+        "title": "PSG - Dembélé, Mendes et Marquinhos : Paris donne des nouvelles de ses blessés avant le match face au Havre AC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-dembele-mendes-et-marquinhos-paris-donne-des-nouvelles-de-ses-blesses-avant-le-match-face-au-havre-ac-43691199",
+        "time": "2026-10-29T11:10:00Z"
+       }
+      ],
       "other": [
+       {
+        "title": "Pierre Ménès : « Le PSG devrait se pencher sur une voire deux recrues, et peut-être même prendre un défenseur central »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/pierre-menes-le-psg-devrait-se-pencher-sur-une-voire-deux-recrues-et-peut-etre-meme-prendre-un-defenseur-central-43691286",
+        "time": "2026-10-29T11:25:51Z"
+       },
+       {
+        "title": "Mercato PSG - Les grosses interrogations des titis du PSG sur leur avenir",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-psg-les-grosses-interrogations-des-titis-du-psg-sur-leur-avenir-43691046",
+        "time": "2026-10-29T10:40:00Z"
+       },
        {
         "title": "Chelsea et le PSG : duel au mercato pour une star du Barça ?",
         "publisher": "fussball-news.de",
         "url": "https://onefootball.com/fr/news/chelsea-et-le-psg-duel-au-mercato-pour-une-star-du-barca-43690386",
         "time": "2026-10-29T08:31:07Z"
-       },
-       {
-        "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142",
-        "time": "2026-10-29T07:26:00Z"
-       },
-       {
-        "title": "Gavi adresse un bel hommage à Kvaratskhelia",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343",
-        "time": "2026-10-28T21:30:01Z"
        }
       ],
       "scorer": {
@@ -7773,17 +7786,17 @@
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 28,
+     "gust": 29,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 97,
+     "confidence": 98,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7807,7 +7820,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 97
+       "conf": 98
       }
      ]
     }
@@ -7898,12 +7911,12 @@
     ],
     "over25": 0.576,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7991,18 +8004,18 @@
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 0.2,
-     "gust": 18,
+     "rainMax": 0.6,
+     "gust": 16,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 95,
+     "confidence": 97,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8026,7 +8039,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 15,
-       "conf": 95
+       "conf": 97
       }
      ]
     }
@@ -8117,12 +8130,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8189,6 +8202,12 @@
       ],
       "other": [
        {
+        "title": "« On avance dans le plan », Yannick Cahuzac voit son RC Lens progresser",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/on-avance-dans-le-plan-yannick-cahuzac-voit-son-rc-lens-progresser-43691104",
+        "time": "2026-10-29T10:50:44Z"
+       },
+       {
         "title": "Le RC Lens invite des jeunes internationaux haïtiens pour un séjour à la Gaillette",
         "publisher": "Lensois.com",
         "url": "https://onefootball.com/fr/news/le-rc-lens-invite-des-jeunes-internationaux-haitiens-pour-un-sejour-a-la-gaillette-43690335",
@@ -8199,12 +8218,6 @@
         "publisher": "Lensois.com",
         "url": "https://onefootball.com/fr/news/ou-en-sont-les-lensois-avec-les-cartons-avant-le-derby-43690060",
         "time": "2026-10-29T06:48:21Z"
-       },
-       {
-        "title": "RC Lens : Cahuzac annonce la couleur avant le derby contre Lille",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/rc-lens-cahuzac-annonce-la-couleur-avant-le-derby-contre-lille-43687505",
-        "time": "2026-10-28T18:30:50Z"
        }
       ],
       "scorer": {
@@ -8224,17 +8237,17 @@
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 20,
+     "gust": 19,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 96,
+     "confidence": 97,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8258,7 +8271,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 9,
-       "conf": 96
+       "conf": 97
       }
      ]
     }
@@ -8349,12 +8362,12 @@
     ],
     "over25": 0.509,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8405,17 +8418,17 @@
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 23,
+     "gust": 22,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 89,
+     "confidence": 91,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8439,7 +8452,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 9,
-       "conf": 89
+       "conf": 91
       }
      ]
     }
@@ -8530,12 +8543,12 @@
     ],
     "over25": 0.482,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8749,12 +8762,12 @@
     ],
     "over25": 0.665,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8780,6 +8793,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Corentin Tolisso parmi les joueurs les plus fidèles de l'OL",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/corentin-tolisso-parmi-les-joueurs-les-plus-fideles-de-lol-43691562",
+        "time": "2026-10-29T12:30:00Z"
+       },
+       {
         "title": "ASSE vs OL : un duel au sommet pour accueillir le premier sacre de Zidane ?",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/asse-vs-ol-un-duel-au-sommet-pour-accueillir-le-premier-sacre-de-zidane-43690542",
@@ -8790,12 +8809,6 @@
         "publisher": "Olympique-et-Lyonnais",
         "url": "https://onefootball.com/fr/news/ol-academie-premier-entrainement-avec-les-pros-pour-walid-nechab-43690377",
         "time": "2026-10-29T08:30:00Z"
-       },
-       {
-        "title": "Mercato OL - Lyon va encore devoir dégraisser cet hiver",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-ol-lyon-va-encore-devoir-degraisser-cet-hiver-43690374",
-        "time": "2026-10-29T08:25:00Z"
        }
       ],
       "scorer": {
@@ -8837,17 +8850,17 @@
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 16,
+     "gust": 46,
      "pRain": 0.0,
-     "pWind": 0.0,
+     "pWind": 0.12,
      "members": 51,
-     "confidence": 83,
+     "confidence": 80,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8869,9 +8882,9 @@
        "day": "2026-10-29",
        "daysBefore": 3,
        "pRain": 0.0,
-       "pWind": 0.0,
+       "pWind": 0.12,
        "temp": 10,
-       "conf": 83
+       "conf": 80
       }
      ]
     }
@@ -8962,12 +8975,12 @@
     ],
     "over25": 0.539,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9051,17 +9064,17 @@
      "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 22,
+     "gust": 27,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 83,
+     "confidence": 84,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9085,7 +9098,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 83
+       "conf": 84
       }
      ]
     }
@@ -9176,12 +9189,12 @@
     ],
     "over25": 0.493,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9207,6 +9220,12 @@
       "absences": [],
       "other": [
        {
+        "title": "OM : \"Un certain sentiment de dégoût\", Ali Zarrak règle ses comptes avec Jean-Pierre Papin",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/om-un-certain-sentiment-de-degout-ali-zarrak-regle-ses-comptes-avec-jean-pierre-papin-43691264",
+        "time": "2026-10-29T11:25:00Z"
+       },
+       {
         "title": "Ex-OM : Des débuts tonitruants pour Gattuso à la Lazio Rome",
         "publisher": "CoeurMarseillais",
         "url": "https://onefootball.com/fr/news/ex-om-des-debuts-tonitruants-pour-gattuso-a-la-lazio-rome-43690790",
@@ -9217,12 +9236,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/om-flavien-tait-lavoue-il-naurait-jamais-pu-jouer-a-lom-43690562",
         "time": "2026-10-29T09:10:00Z"
-       },
-       {
-        "title": "Ex-OM : Gros changement à venir pour Greenwood et Guendouzi",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-gros-changement-a-venir-pour-greenwood-et-guendouzi-43690295",
-        "time": "2026-10-29T08:00:36Z"
        }
       ],
       "scorer": {
@@ -9258,17 +9271,17 @@
      "code": 51,
      "rain": 0,
      "rainMax": 2.1,
-     "gust": 23,
-     "pRain": 0.06,
+     "gust": 19,
+     "pRain": 0.04,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 77,
+     "confidence": 79,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9289,10 +9302,10 @@
       {
        "day": "2026-10-29",
        "daysBefore": 3,
-       "pRain": 0.06,
+       "pRain": 0.04,
        "pWind": 0.0,
        "temp": 13,
-       "conf": 77
+       "conf": 79
       }
      ]
     }
@@ -9383,12 +9396,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9469,13 +9482,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 75,
+     "confidence": 76,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-29T10:42+00:00",
+     "updated": "2026-10-29T13:06+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9499,7 +9512,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 75
+       "conf": 76
       }
      ]
     }
@@ -9590,12 +9603,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9749,12 +9762,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9908,12 +9921,12 @@
     ],
     "over25": 0.54,
     "levers": [],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9936,25 +9949,38 @@
     "weather": "inconnu",
     "press": {
      "H": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Le Havre/PSG – Les mots forts de Luis Enrique : Safonov, blessures, Digne, Doué, Vitinha et le match",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/le-havrepsg-les-mots-forts-de-luis-enrique-safonov-blessures-digne-doue-vitinha-et-le-match-43691566",
+        "time": "2026-10-29T12:30:16Z"
+       },
+       {
+        "title": "PSG - Dembélé, Mendes et Marquinhos : Paris donne des nouvelles de ses blessés avant le match face au Havre AC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-dembele-mendes-et-marquinhos-paris-donne-des-nouvelles-de-ses-blesses-avant-le-match-face-au-havre-ac-43691199",
+        "time": "2026-10-29T11:10:00Z"
+       }
+      ],
       "other": [
+       {
+        "title": "Pierre Ménès : « Le PSG devrait se pencher sur une voire deux recrues, et peut-être même prendre un défenseur central »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/pierre-menes-le-psg-devrait-se-pencher-sur-une-voire-deux-recrues-et-peut-etre-meme-prendre-un-defenseur-central-43691286",
+        "time": "2026-10-29T11:25:51Z"
+       },
+       {
+        "title": "Mercato PSG - Les grosses interrogations des titis du PSG sur leur avenir",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-psg-les-grosses-interrogations-des-titis-du-psg-sur-leur-avenir-43691046",
+        "time": "2026-10-29T10:40:00Z"
+       },
        {
         "title": "Chelsea et le PSG : duel au mercato pour une star du Barça ?",
         "publisher": "fussball-news.de",
         "url": "https://onefootball.com/fr/news/chelsea-et-le-psg-duel-au-mercato-pour-une-star-du-barca-43690386",
         "time": "2026-10-29T08:31:07Z"
-       },
-       {
-        "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142",
-        "time": "2026-10-29T07:26:00Z"
-       },
-       {
-        "title": "Gavi adresse un bel hommage à Kvaratskhelia",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343",
-        "time": "2026-10-28T21:30:01Z"
        }
       ],
       "scorer": {
@@ -10069,12 +10095,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-10-29T10:44+00:00",
+    "at": "2026-10-29T13:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T10:40+00:00",
+    "dataAt": "2026-10-29T13:05+00:00",
     "changes": 1,
     "model": {
-     "version": "7a5f020",
+     "version": "0028a2d",
      "mu": 0.231,
      "home": 0.213
     }

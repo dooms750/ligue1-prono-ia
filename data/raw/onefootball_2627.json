@@ -6362,8 +6362,32 @@
    "reds": [],
    "stats": {},
    "starters": {
-    "home": [],
-    "away": []
+    "home": [
+     "Conrad Harder",
+     "Giovanni Reyna",
+     "Diogo Sousa",
+     "Gessime Yassine",
+     "Dário Essugo",
+     "Pape Diop",
+     "Oso",
+     "Karim Coulibaly",
+     "Jeyland Mitchell",
+     "Genesis Antwi",
+     "Filip Jorgensen"
+    ],
+    "away": [
+     "Cameron Archer",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Naouirou Ahamada",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Christ Makosso",
+     "Paul Nardi"
+    ]
    }
   },
   "2688724": {
@@ -7049,6 +7073,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688757": {
+   "id": 2688757,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-06T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Stade Rennais",
+   "away": "Stade Brestois",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/stade-brestois-254",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7594,6 +7638,12 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "Corentin Tolisso parmi les joueurs les plus fidèles de l'OL",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-29T12:30:00Z",
+    "url": "https://onefootball.com/fr/news/corentin-tolisso-parmi-les-joueurs-les-plus-fideles-de-lol-43691562"
+   },
+   {
     "title": "ASSE vs OL : un duel au sommet pour accueillir le premier sacre de Zidane ?",
     "publisher": "OnzeMondial",
     "time": "2026-10-29T09:13:00Z",
@@ -7646,15 +7696,15 @@
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-28T13:20:00Z",
     "url": "https://onefootball.com/fr/news/ol-attaque-muette-mais-defense-plus-permissive-43685915"
-   },
-   {
-    "title": "OL - Angers : pourquoi ce match est déjà un tournant pour les Lyonnais",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-28T10:50:00Z",
-    "url": "https://onefootball.com/fr/news/ol-angers-pourquoi-ce-match-est-deja-un-tournant-pour-les-lyonnais-43685146"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM : \"Un certain sentiment de dégoût\", Ali Zarrak règle ses comptes avec Jean-Pierre Papin",
+    "publisher": "Foot National",
+    "time": "2026-10-29T11:25:00Z",
+    "url": "https://onefootball.com/fr/news/om-un-certain-sentiment-de-degout-ali-zarrak-regle-ses-comptes-avec-jean-pierre-papin-43691264"
+   },
    {
     "title": "Ex-OM : Des débuts tonitruants pour Gattuso à la Lazio Rome",
     "publisher": "CoeurMarseillais",
@@ -7680,6 +7730,12 @@
     "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
    },
    {
+    "title": "OM - Ali Zarrak détruit Jean-Pierre Papin après ses accusations d'harcèlement moral",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-29T07:34:00Z",
+    "url": "https://onefootball.com/fr/news/om-ali-zarrak-detruit-jean-pierre-papin-apres-ses-accusations-dharcelement-moral-43690197"
+   },
+   {
     "title": "OM x adidas : les chiffres fous du nouveau contrat dévoilés !",
     "publisher": "OnzeMondial",
     "time": "2026-10-29T07:02:00Z",
@@ -7702,21 +7758,39 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-10-28T23:00:42Z",
     "url": "https://onefootball.com/fr/news/om-la-provence-calme-les-ardeurs-pour-himad-abdelli-43688852"
-   },
-   {
-    "title": "L1 – Trois matchs reprogrammés",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T22:00:09Z",
-    "url": "https://onefootball.com/fr/news/l1-trois-matchs-reprogrammes-43688552"
-   },
-   {
-    "title": "OM – Ibrahim Gomis bientôt promu chez les gardiens ?",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T21:00:31Z",
-    "url": "https://onefootball.com/fr/news/om-ibrahim-gomis-bientot-promu-chez-les-gardiens-43688255"
    }
   ],
   "PSG": [
+   {
+    "title": "Le Havre/PSG – Les mots forts de Luis Enrique : Safonov, blessures, Digne, Doué, Vitinha et le match",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-29T12:30:16Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-les-mots-forts-de-luis-enrique-safonov-blessures-digne-doue-vitinha-et-le-match-43691566"
+   },
+   {
+    "title": "Pierre Ménès : « Le PSG devrait se pencher sur une voire deux recrues, et peut-être même prendre un défenseur central »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-29T11:25:51Z",
+    "url": "https://onefootball.com/fr/news/pierre-menes-le-psg-devrait-se-pencher-sur-une-voire-deux-recrues-et-peut-etre-meme-prendre-un-defenseur-central-43691286"
+   },
+   {
+    "title": "PSG - Dembélé, Mendes et Marquinhos : Paris donne des nouvelles de ses blessés avant le match face au Havre AC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-29T11:10:00Z",
+    "url": "https://onefootball.com/fr/news/psg-dembele-mendes-et-marquinhos-paris-donne-des-nouvelles-de-ses-blesses-avant-le-match-face-au-havre-ac-43691199"
+   },
+   {
+    "title": "Le Havre/PSG – Le point médical parisien, avec 3 joueurs",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-29T10:49:39Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-le-point-medical-parisien-avec-3-joueurs-43691086"
+   },
+   {
+    "title": "Mercato PSG - Les grosses interrogations des titis du PSG sur leur avenir",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-29T10:40:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-les-grosses-interrogations-des-titis-du-psg-sur-leur-avenir-43691046"
+   },
    {
     "title": "Le Havre/PSG – Un absent surprise à l’entraînement du PSG",
     "publisher": "Parisfans.fr",
@@ -7746,36 +7820,6 @@
     "publisher": "ConsultantsFoot",
     "time": "2026-10-29T06:30:44Z",
     "url": "https://onefootball.com/fr/news/jerome-rothen-les-gens-qui-font-cette-liste-ont-de-la-merde-dans-les-yeux-43690030"
-   },
-   {
-    "title": "St. Louis CITY SC - Portland Timbers 2 - 3 | CARTON ROUGE - Kamal Miller",
-    "publisher": "Major League Soccer",
-    "time": "2026-10-29T02:43:28Z",
-    "url": "https://onefootball.com/fr/video/st-louis-city-sc-portland-timbers-2-3-carton-rouge-kamal-miller-3LLn5UGHHpn7vemB3KyWVgHffBd"
-   },
-   {
-    "title": "Gavi adresse un bel hommage à Kvaratskhelia",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-28T21:30:01Z",
-    "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343"
-   },
-   {
-    "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T21:02:00Z",
-    "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253"
-   },
-   {
-    "title": "Mercato – Maza au PSG : deux réponses nettes à la rumeur",
-    "publisher": "Parisfans.fr",
-    "time": "2026-10-28T20:37:57Z",
-    "url": "https://onefootball.com/fr/news/mercato-maza-au-psg-deux-reponses-nettes-a-la-rumeur-43688152"
-   },
-   {
-    "title": "Mercato–PSG : l'énorme décision prise pour Ibrahim Maza !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T20:03:00Z",
-    "url": "https://onefootball.com/fr/news/mercatopsg-lenorme-decision-prise-pour-ibrahim-maza-43687966"
    }
   ],
   "Paris FC": [
@@ -7842,6 +7886,12 @@
   ],
   "RC Lens": [
    {
+    "title": "« On avance dans le plan », Yannick Cahuzac voit son RC Lens progresser",
+    "publisher": "Lensois.com",
+    "time": "2026-10-29T10:50:44Z",
+    "url": "https://onefootball.com/fr/news/on-avance-dans-le-plan-yannick-cahuzac-voit-son-rc-lens-progresser-43691104"
+   },
+   {
     "title": "[Vidéo] Un jour, un derby Lille-RC Lens : 2002-2003, une victoire sans fioriture",
     "publisher": "Lensois.com",
     "time": "2026-10-29T09:00:26Z",
@@ -7894,12 +7944,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-28T18:29:00Z",
     "url": "https://onefootball.com/fr/news/lille-lens-les-supporters-lensois-presents-en-masse-a-lentrainement-malgre-linterdiction-de-deplacement-prononcee-par-le-club-43687458"
-   },
-   {
-    "title": "RC Lens - Mauvaise nouvelle pour les supporters lensois avant le derby contre le LOSC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T18:18:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-mauvaise-nouvelle-pour-les-supporters-lensois-avant-le-derby-contre-le-losc-43687412"
    }
   ],
   "RC Strasbourg": [
@@ -8152,7 +8196,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-29T10:40+00:00",
+ "fetchedAt": "2026-10-29T13:05+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
