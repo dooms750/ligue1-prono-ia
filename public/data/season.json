@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-29T09:04+00:00",
-  "generatedAt": "2026-10-29T09:08+00:00",
+  "fetchedAt": "2026-10-29T10:40+00:00",
+  "generatedAt": "2026-10-29T10:44+00:00",
   "checks": {
    "compared": 72,
    "agree": 72,
@@ -19,18 +19,18 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-10-29T09:04+00:00",
-    "lastAttempt": "2026-10-29T09:04+00:00",
+    "lastOk": "2026-10-29T10:40+00:00",
+    "lastAttempt": "2026-10-29T10:40+00:00",
     "error": null,
     "failures": 0,
-    "count": 112
+    "count": 113
    },
    {
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-10-29T09:06+00:00",
-    "lastAttempt": "2026-10-29T09:06+00:00",
+    "lastOk": "2026-10-29T10:42+00:00",
+    "lastAttempt": "2026-10-29T10:42+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -39,8 +39,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-10-29T09:06+00:00",
-    "lastAttempt": "2026-10-29T09:06+00:00",
+    "lastOk": "2026-10-29T10:42+00:00",
+    "lastAttempt": "2026-10-29T10:42+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -49,8 +49,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-10-29T09:07+00:00",
-    "lastAttempt": "2026-10-29T09:07+00:00",
+    "lastOk": "2026-10-29T10:43+00:00",
+    "lastAttempt": "2026-10-29T10:43+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -59,8 +59,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-10-29T09:07+00:00",
-    "lastAttempt": "2026-10-29T09:07+00:00",
+    "lastOk": "2026-10-29T10:43+00:00",
+    "lastAttempt": "2026-10-29T10:43+00:00",
     "error": null,
     "failures": 0,
     "count": 1210
@@ -780,7 +780,7 @@
    "notInCommon": 0
   },
   "linked": 990,
-  "generatedAt": "2026-10-29T09:07+00:00",
+  "generatedAt": "2026-10-29T10:43+00:00",
   "levers": {
    "buteur": {
     "n": 331,
@@ -7783,7 +7783,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7898,12 +7898,12 @@
     ],
     "over25": 0.576,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8117,12 +8117,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8228,13 +8228,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 95,
+     "confidence": 96,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8258,7 +8258,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 9,
-       "conf": 95
+       "conf": 96
       }
      ]
     }
@@ -8349,12 +8349,12 @@
     ],
     "over25": 0.509,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8415,7 +8415,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8530,12 +8530,12 @@
     ],
     "over25": 0.482,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8634,7 +8634,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8749,12 +8749,12 @@
     ],
     "over25": 0.665,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8780,6 +8780,12 @@
       "absences": [],
       "other": [
        {
+        "title": "ASSE vs OL : un duel au sommet pour accueillir le premier sacre de Zidane ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/asse-vs-ol-un-duel-au-sommet-pour-accueillir-le-premier-sacre-de-zidane-43690542",
+        "time": "2026-10-29T09:13:00Z"
+       },
+       {
         "title": "OL Académie : premier entraînement avec les pros pour Walid Nechab",
         "publisher": "Olympique-et-Lyonnais",
         "url": "https://onefootball.com/fr/news/ol-academie-premier-entrainement-avec-les-pros-pour-walid-nechab-43690377",
@@ -8790,12 +8796,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-ol-lyon-va-encore-devoir-degraisser-cet-hiver-43690374",
         "time": "2026-10-29T08:25:00Z"
-       },
-       {
-        "title": "Mercato OL - Zachary Athekame explique pourquoi il a choisi l’OL plutôt que l’OM",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630",
-        "time": "2026-10-28T18:59:00Z"
        }
       ],
       "scorer": {
@@ -8847,7 +8847,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8962,12 +8962,12 @@
     ],
     "over25": 0.539,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9055,13 +9055,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 82,
+     "confidence": 83,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:46+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9085,7 +9085,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 82
+       "conf": 83
       }
      ]
     }
@@ -9176,12 +9176,12 @@
     ],
     "over25": 0.493,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9207,22 +9207,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Ex-OM : Des débuts tonitruants pour Gattuso à la Lazio Rome",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/ex-om-des-debuts-tonitruants-pour-gattuso-a-la-lazio-rome-43690790",
+        "time": "2026-10-29T10:00:01Z"
+       },
+       {
+        "title": "OM - Flavien Tait l'avoue : il n'aurait jamais pu jouer à l'OM",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-flavien-tait-lavoue-il-naurait-jamais-pu-jouer-a-lom-43690562",
+        "time": "2026-10-29T09:10:00Z"
+       },
+       {
         "title": "Ex-OM : Gros changement à venir pour Greenwood et Guendouzi",
         "publisher": "CoeurMarseillais",
         "url": "https://onefootball.com/fr/news/ex-om-gros-changement-a-venir-pour-greenwood-et-guendouzi-43690295",
         "time": "2026-10-29T08:00:36Z"
-       },
-       {
-        "title": "OM x adidas : les chiffres fous du nouveau contrat dévoilés !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-x-adidas-les-chiffres-fous-du-nouveau-contrat-devoiles-43690094",
-        "time": "2026-10-29T07:02:00Z"
-       },
-       {
-        "title": "OM – Kays El Mouttaqui se fait remarquer avec l’Equipe de France U15",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-kays-el-mouttaqui-se-fait-remarquer-avec-lequipe-de-france-u15-43689164",
-        "time": "2026-10-29T01:00:08Z"
        }
       ],
       "scorer": {
@@ -9262,13 +9262,13 @@
      "pRain": 0.06,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 76,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9292,7 +9292,7 @@
        "pRain": 0.06,
        "pWind": 0.0,
        "temp": 13,
-       "conf": 76
+       "conf": 77
       }
      ]
     }
@@ -9383,12 +9383,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9475,7 +9475,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-29T09:06+00:00",
+     "updated": "2026-10-29T10:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9590,12 +9590,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9749,12 +9749,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9908,12 +9908,12 @@
     ],
     "over25": 0.54,
     "levers": [],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }
@@ -10069,12 +10069,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-10-29T09:08+00:00",
+    "at": "2026-10-29T10:44+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T09:04+00:00",
+    "dataAt": "2026-10-29T10:40+00:00",
     "changes": 1,
     "model": {
-     "version": "60ccbe3",
+     "version": "7a5f020",
      "mu": 0.231,
      "home": 0.213
     }

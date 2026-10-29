@@ -6126,8 +6126,32 @@
    "reds": [],
    "stats": {},
    "starters": {
-    "home": [],
-    "away": []
+    "home": [
+     "Julien Duranville",
+     "Keito Nakamura",
+     "Ernest Nuamah",
+     "Corentin Tolisso",
+     "Tyler Morton",
+     "Tanner Tessmann",
+     "Abner Vinicius Da Silva Santos",
+     "Moussa Niakhaté",
+     "Felix Bacher",
+     "Zachary Athekame",
+     "Dominik Greif"
+    ],
+    "away": [
+     "Prosper Peter",
+     "Amine Sbaï",
+     "Yassin Belkhdim",
+     "Lilian Raolisoa",
+     "Branco Van den Boomen",
+     "Haris Belkebla",
+     "Joseph Kalulu",
+     "Jordan Lefort",
+     "Ousmane Camara",
+     "Carlens Arcus",
+     "Anthony Lopes"
+    ]
    }
   },
   "2688717": {
@@ -7005,6 +7029,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688756": {
+   "id": 2688756,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-05T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Paris FC",
+   "away": "Le Mans FC",
+   "homeLink": "/fr/equipe/paris-fc-5170",
+   "awayLink": "/fr/equipe/le-mans-fc-269",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7550,6 +7594,12 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "ASSE vs OL : un duel au sommet pour accueillir le premier sacre de Zidane ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-29T09:13:00Z",
+    "url": "https://onefootball.com/fr/news/asse-vs-ol-un-duel-au-sommet-pour-accueillir-le-premier-sacre-de-zidane-43690542"
+   },
+   {
     "title": "OL Académie : premier entraînement avec les pros pour Walid Nechab",
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-29T08:30:00Z",
@@ -7602,15 +7652,21 @@
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-28T10:50:00Z",
     "url": "https://onefootball.com/fr/news/ol-angers-pourquoi-ce-match-est-deja-un-tournant-pour-les-lyonnais-43685146"
-   },
-   {
-    "title": "OL : Dominik Greif bat son record d'arrêts face au PSG",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-28T07:45:00Z",
-    "url": "https://onefootball.com/fr/news/ol-dominik-greif-bat-son-record-darrets-face-au-psg-43684293"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "Ex-OM : Des débuts tonitruants pour Gattuso à la Lazio Rome",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-29T10:00:01Z",
+    "url": "https://onefootball.com/fr/news/ex-om-des-debuts-tonitruants-pour-gattuso-a-la-lazio-rome-43690790"
+   },
+   {
+    "title": "OM - Flavien Tait l'avoue : il n'aurait jamais pu jouer à l'OM",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-29T09:10:00Z",
+    "url": "https://onefootball.com/fr/news/om-flavien-tait-lavoue-il-naurait-jamais-pu-jouer-a-lom-43690562"
+   },
    {
     "title": "Ex-OM : Gros changement à venir pour Greenwood et Guendouzi",
     "publisher": "CoeurMarseillais",
@@ -7658,21 +7714,21 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-10-28T21:00:31Z",
     "url": "https://onefootball.com/fr/news/om-ibrahim-gomis-bientot-promu-chez-les-gardiens-43688255"
-   },
-   {
-    "title": "OM - Adidas a trouvé un accord, une somme conséquente attend Marseille",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T20:45:00Z",
-    "url": "https://onefootball.com/fr/news/om-adidas-a-trouve-un-accord-une-somme-consequente-attend-marseille-43688193"
-   },
-   {
-    "title": "Mercato OL - Zachary Athekame explique pourquoi il a choisi l’OL plutôt que l’OM",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T18:59:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630"
    }
   ],
   "PSG": [
+   {
+    "title": "Le Havre/PSG – Un absent surprise à l’entraînement du PSG",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-29T10:21:41Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-un-absent-surprise-a-lentrainement-du-psg-43690933"
+   },
+   {
+    "title": "Guerre de géants pour Batrakov : le Barça passe à l’action",
+    "publisher": "Dosis Futbolera",
+    "time": "2026-10-29T10:01:44Z",
+    "url": "https://onefootball.com/fr/news/guerre-de-geants-pour-batrakov-le-barca-passe-a-laction-43690751"
+   },
    {
     "title": "Chelsea et le PSG : duel au mercato pour une star du Barça ?",
     "publisher": "fussball-news.de",
@@ -7720,18 +7776,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-28T20:03:00Z",
     "url": "https://onefootball.com/fr/news/mercatopsg-lenorme-decision-prise-pour-ibrahim-maza-43687966"
-   },
-   {
-    "title": "Alain Roche : « Ça va faire du bien à Godts, il fallait qu’il marque pour montrer à tout le monde que c’était un bon joueur »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-28T19:30:03Z",
-    "url": "https://onefootball.com/fr/news/alain-roche-ca-va-faire-du-bien-a-godts-il-fallait-quil-marque-pour-montrer-a-tout-le-monde-que-cetait-un-bon-joueur-43687798"
-   },
-   {
-    "title": "PSG - Nasser Al-Khelaïfi réalise un geste magnifique envers Khvicha Kvaratskhelia",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T19:24:00Z",
-    "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-realise-un-geste-magnifique-envers-khvicha-kvaratskhelia-43687742"
    }
   ],
   "Paris FC": [
@@ -7798,6 +7842,12 @@
   ],
   "RC Lens": [
    {
+    "title": "[Vidéo] Un jour, un derby Lille-RC Lens : 2002-2003, une victoire sans fioriture",
+    "publisher": "Lensois.com",
+    "time": "2026-10-29T09:00:26Z",
+    "url": "https://onefootball.com/fr/news/video-un-jour-un-derby-lille-rc-lens-2002-2003-une-victoire-sans-fioriture-43690506"
+   },
+   {
     "title": "Ligue 1 - Lille vs. Lens, Les prédictions d’Opta",
     "publisher": "Stats Perform",
     "time": "2026-10-29T08:47:10Z",
@@ -7850,12 +7900,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-28T18:18:00Z",
     "url": "https://onefootball.com/fr/news/rc-lens-mauvaise-nouvelle-pour-les-supporters-lensois-avant-le-derby-contre-le-losc-43687412"
-   },
-   {
-    "title": "Yannick Cahuzac sur Mezian Mesloub : « Il est là où il faut, au moment où il faut »",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T17:00:27Z",
-    "url": "https://onefootball.com/fr/news/yannick-cahuzac-sur-mezian-mesloub-il-est-la-ou-il-faut-au-moment-ou-il-faut-43687065"
    }
   ],
   "RC Strasbourg": [
@@ -8108,7 +8152,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-29T09:04+00:00",
+ "fetchedAt": "2026-10-29T10:40+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
