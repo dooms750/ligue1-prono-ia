@@ -6925,6 +6925,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688752": {
+   "id": 2688752,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-05T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "RC Lens",
+   "away": "Le Havre AC",
+   "homeLink": "/fr/equipe/rc-lens-256",
+   "awayLink": "/fr/equipe/le-havre-ac-701",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7532,6 +7552,36 @@
   ],
   "Olympique de Marseille": [
    {
+    "title": "OM x adidas : les chiffres fous du nouveau contrat dévoilés !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-29T07:02:00Z",
+    "url": "https://onefootball.com/fr/news/om-x-adidas-les-chiffres-fous-du-nouveau-contrat-devoiles-43690094"
+   },
+   {
+    "title": "L1 – Trois marseillais dans l’équipe type de la 8ème journée",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-29T06:00:56Z",
+    "url": "https://onefootball.com/fr/news/l1-trois-marseillais-dans-lequipe-type-de-la-8eme-journee-43689948"
+   },
+   {
+    "title": "OM – Kays El Mouttaqui se fait remarquer avec l’Equipe de France U15",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-29T01:00:08Z",
+    "url": "https://onefootball.com/fr/news/om-kays-el-mouttaqui-se-fait-remarquer-avec-lequipe-de-france-u15-43689164"
+   },
+   {
+    "title": "OM – La Provence calme les ardeurs pour Himad Abdelli",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T23:00:42Z",
+    "url": "https://onefootball.com/fr/news/om-la-provence-calme-les-ardeurs-pour-himad-abdelli-43688852"
+   },
+   {
+    "title": "L1 – Trois matchs reprogrammés",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-28T22:00:09Z",
+    "url": "https://onefootball.com/fr/news/l1-trois-matchs-reprogrammes-43688552"
+   },
+   {
     "title": "OM – Ibrahim Gomis bientôt promu chez les gardiens ?",
     "publisher": "CoeurMarseillais",
     "time": "2026-10-28T21:00:31Z",
@@ -7560,39 +7610,33 @@
     "publisher": "Foot National",
     "time": "2026-10-28T16:33:00Z",
     "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883"
-   },
-   {
-    "title": "OM - Jérémy Mathieu dézingue le niveau de l'OM et la gestion du club",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T16:04:00Z",
-    "url": "https://onefootball.com/fr/news/om-jeremy-mathieu-dezingue-le-niveau-de-lom-et-la-gestion-du-club-43686751"
-   },
-   {
-    "title": "Bayer Leverkusen - Le Bayer face à un énorme problème avant le choc contre l’OM, avec plusieurs absences de taille",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T15:39:00Z",
-    "url": "https://onefootball.com/fr/news/bayer-leverkusen-le-bayer-face-a-un-enorme-probleme-avant-le-choc-contre-lom-avec-plusieurs-absences-de-taille-43686616"
-   },
-   {
-    "title": "OM – Une bonne nouvelle avant le passage devant la DNCG ?",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T15:00:45Z",
-    "url": "https://onefootball.com/fr/news/om-une-bonne-nouvelle-avant-le-passage-devant-la-dncg-43686455"
-   },
-   {
-    "title": "OM – Le dossier Ngapandouetnbu prend une tournure différente",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T14:00:18Z",
-    "url": "https://onefootball.com/fr/news/om-le-dossier-ngapandouetnbu-prend-une-tournure-differente-43686125"
-   },
-   {
-    "title": "OM – Un insider accuse Genesio de mentir",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T12:00:57Z",
-    "url": "https://onefootball.com/fr/news/om-un-insider-accuse-genesio-de-mentir-43685536"
    }
   ],
   "PSG": [
+   {
+    "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-29T07:26:00Z",
+    "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142"
+   },
+   {
+    "title": "Jérôme Rothen : « Les gens qui font cette liste ont de la merde dans les yeux »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-29T06:30:44Z",
+    "url": "https://onefootball.com/fr/news/jerome-rothen-les-gens-qui-font-cette-liste-ont-de-la-merde-dans-les-yeux-43690030"
+   },
+   {
+    "title": "St. Louis CITY SC - Portland Timbers 2 - 3 | CARTON ROUGE - Kamal Miller",
+    "publisher": "Major League Soccer",
+    "time": "2026-10-29T02:43:28Z",
+    "url": "https://onefootball.com/fr/video/st-louis-city-sc-portland-timbers-2-3-carton-rouge-kamal-miller-3LLn5UGHHpn7vemB3KyWVgHffBd"
+   },
+   {
+    "title": "Gavi adresse un bel hommage à Kvaratskhelia",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-28T21:30:01Z",
+    "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343"
+   },
    {
     "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
     "publisher": "MadeInFOOT",
@@ -7628,30 +7672,6 @@
     "publisher": "ConsultantsFoot",
     "time": "2026-10-28T18:30:48Z",
     "url": "https://onefootball.com/fr/news/samir-nasri-le-seul-profil-que-je-vois-en-cador-cest-vinicius-mais-est-ce-que-tu-vas-te-prendre-un-probleme-comme-lui-au-psg-43687470"
-   },
-   {
-    "title": "Mercato : Gonçalo Ramos l'annonce, il voulait déjà partir avant cet été du PSG",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T17:32:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-goncalo-ramos-lannonce-il-voulait-deja-partir-avant-cet-ete-du-psg-43687187"
-   },
-   {
-    "title": "Mercato - PSG : premier couac annoncé dans le dossier Maza ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T16:01:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-premier-couac-annonce-dans-le-dossier-maza-43686715"
-   },
-   {
-    "title": "Mercato PSG - Le Barça veut récupérer un cadre du PSG cet hiver !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T15:22:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-le-barca-veut-recuperer-un-cadre-du-psg-cet-hiver-43686580"
-   },
-   {
-    "title": "Mercato PSG - Le Bayer Leverkusen veut contrarier les plans du PSG pour Ibrahim Maza",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T14:59:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-le-bayer-leverkusen-veut-contrarier-les-plans-du-psg-pour-ibrahim-maza-43686447"
    }
   ],
   "Paris FC": [
@@ -7718,6 +7738,30 @@
   ],
   "RC Lens": [
    {
+    "title": "La sanction de l’UEFA jugée logique par une large majorité",
+    "publisher": "Lensois.com",
+    "time": "2026-10-29T07:25:54Z",
+    "url": "https://onefootball.com/fr/news/la-sanction-de-luefa-jugee-logique-par-une-large-majorite-43690156"
+   },
+   {
+    "title": "Où en sont les Lensois avec les cartons avant le derby ?",
+    "publisher": "Lensois.com",
+    "time": "2026-10-29T06:48:21Z",
+    "url": "https://onefootball.com/fr/news/ou-en-sont-les-lensois-avec-les-cartons-avant-le-derby-43690060"
+   },
+   {
+    "title": "Opéré avec succès des adducteurs, Odsonne Édouard donne de ses nouvelles",
+    "publisher": "Lensois.com",
+    "time": "2026-10-29T06:19:32Z",
+    "url": "https://onefootball.com/fr/news/opere-avec-succes-des-adducteurs-odsonne-edouard-donne-de-ses-nouvelles-43689992"
+   },
+   {
+    "title": "Lens : nouveau coup dur pour le Racing, Odsonne Edouard absent plusieurs semaines",
+    "publisher": "Foot National",
+    "time": "2026-10-29T06:18:00Z",
+    "url": "https://onefootball.com/fr/news/lens-nouveau-coup-dur-pour-le-racing-odsonne-edouard-absent-plusieurs-semaines-43689988"
+   },
+   {
     "title": "RC Lens : Cahuzac annonce la couleur avant le derby contre Lille",
     "publisher": "Morning Foot",
     "time": "2026-10-28T18:30:50Z",
@@ -7752,30 +7796,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-28T16:10:00Z",
     "url": "https://onefootball.com/fr/news/rc-lens-la-confidence-dechirante-de-samson-baidoo-sur-ses-blessures-43686807"
-   },
-   {
-    "title": "Vincent Moscato : « Il y a des règles. Le casseur payeur. Le jeteur de torche, c’est à dégager voie 12 »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-28T16:00:23Z",
-    "url": "https://onefootball.com/fr/news/vincent-moscato-il-y-a-des-regles-le-casseur-payeur-le-jeteur-de-torche-cest-a-degager-voie-12-43686740"
-   },
-   {
-    "title": "RC Lens : gros coup dur avant le derby, 4 absents pour le RCL",
-    "publisher": "Morning Foot",
-    "time": "2026-10-28T14:30:57Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-gros-coup-dur-avant-le-derby-4-absents-pour-le-rcl-43686306"
-   },
-   {
-    "title": "RC Lens - Yannick Cahuzac a une seule mission face au LOSC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T14:10:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-a-une-seule-mission-face-au-losc-43686206"
-   },
-   {
-    "title": "Samson Baidoo : « Ce n’était pas une période facile pour moi »",
-    "publisher": "Lensois.com",
-    "time": "2026-10-28T14:04:45Z",
-    "url": "https://onefootball.com/fr/news/samson-baidoo-ce-netait-pas-une-periode-facile-pour-moi-43686131"
    }
   ],
   "RC Strasbourg": [
@@ -8028,7 +8048,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-28T22:53+00:00",
+ "fetchedAt": "2026-10-29T07:57+00:00",
  "schedule": {
   "AJ Auxerre": [
    {

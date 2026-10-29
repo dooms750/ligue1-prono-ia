@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-28T22:53+00:00",
-  "generatedAt": "2026-10-28T22:53+00:00"
+  "fetchedAt": "2026-10-29T07:57+00:00",
+  "generatedAt": "2026-10-29T08:12+00:00"
  },
  "model": {
   "mu": 0.231,
@@ -5606,22 +5606,22 @@
       "absences": [],
       "other": [
        {
+        "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142",
+        "time": "2026-10-29T07:26:00Z"
+       },
+       {
+        "title": "Gavi adresse un bel hommage à Kvaratskhelia",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343",
+        "time": "2026-10-28T21:30:01Z"
+       },
+       {
         "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253",
         "time": "2026-10-28T21:02:00Z"
-       },
-       {
-        "title": "Mercato – Maza au PSG : deux réponses nettes à la rumeur",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/mercato-maza-au-psg-deux-reponses-nettes-a-la-rumeur-43688152",
-        "time": "2026-10-28T20:37:57Z"
-       },
-       {
-        "title": "Alain Roche : « Ça va faire du bien à Godts, il fallait qu’il marque pour montrer à tout le monde que c’était un bon joueur »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/alain-roche-ca-va-faire-du-bien-a-godts-il-fallait-quil-marque-pour-montrer-a-tout-le-monde-que-cetait-un-bon-joueur-43687798",
-        "time": "2026-10-28T19:30:03Z"
        }
       ],
       "scorer": {
@@ -5635,23 +5635,23 @@
      "kind": "beau",
      "stadium": "Stade Océane",
      "roof": false,
-     "daysBefore": 2,
-     "temp": 10,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 1,
+     "temp": 11,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
      "rainMax": 0,
      "gust": 28,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 93,
+     "confidence": 96,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5668,6 +5668,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 93
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 96
       }
      ]
     }
@@ -5752,23 +5760,23 @@
      "kind": "beau",
      "stadium": "Allianz Riviera",
      "roof": false,
-     "daysBefore": 2,
-     "temp": 17,
+     "daysBefore": 1,
+     "temp": 16,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
      "rainMax": 0.2,
-     "gust": 17,
+     "gust": 18,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 93,
+     "confidence": 95,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5785,6 +5793,14 @@
        "pWind": 0.0,
        "temp": 15,
        "conf": 93
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 15,
+       "conf": 95
       }
      ]
     }
@@ -5839,19 +5855,31 @@
      "A": {
       "absences": [
        {
+        "title": "Opéré avec succès des adducteurs, Odsonne Édouard donne de ses nouvelles",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/opere-avec-succes-des-adducteurs-odsonne-edouard-donne-de-ses-nouvelles-43689992",
+        "time": "2026-10-29T06:19:32Z"
+       },
+       {
+        "title": "Lens : nouveau coup dur pour le Racing, Odsonne Edouard absent plusieurs semaines",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lens-nouveau-coup-dur-pour-le-racing-odsonne-edouard-absent-plusieurs-semaines-43689988",
+        "time": "2026-10-29T06:18:00Z"
+       },
+       {
         "title": "RC Lens - La confidence déchirante de Samson Baidoo sur ses blessures",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/rc-lens-la-confidence-dechirante-de-samson-baidoo-sur-ses-blessures-43686807",
         "time": "2026-10-28T16:10:00Z"
-       },
-       {
-        "title": "RC Lens : gros coup dur avant le derby, 4 absents pour le RCL",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/rc-lens-gros-coup-dur-avant-le-derby-4-absents-pour-le-rcl-43686306",
-        "time": "2026-10-28T14:30:57Z"
        }
       ],
       "other": [
+       {
+        "title": "Où en sont les Lensois avec les cartons avant le derby ?",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/ou-en-sont-les-lensois-avec-les-cartons-avant-le-derby-43690060",
+        "time": "2026-10-29T06:48:21Z"
+       },
        {
         "title": "RC Lens : Cahuzac annonce la couleur avant le derby contre Lille",
         "publisher": "Morning Foot",
@@ -5863,12 +5891,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/rc-lens-mauvaise-nouvelle-pour-les-supporters-lensois-avant-le-derby-contre-le-losc-43687412",
         "time": "2026-10-28T18:18:00Z"
-       },
-       {
-        "title": "Yannick Cahuzac sur Mezian Mesloub : « Il est là où il faut, au moment où il faut »",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/yannick-cahuzac-sur-mezian-mesloub-il-est-la-ou-il-faut-au-moment-ou-il-faut-43687065",
-        "time": "2026-10-28T17:00:27Z"
        }
       ],
       "scorer": {
@@ -5882,23 +5904,23 @@
      "kind": "beau",
      "stadium": "Stade Pierre-Mauroy",
      "roof": true,
-     "daysBefore": 2,
-     "temp": 8,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "daysBefore": 1,
+     "temp": 9,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
      "rainMax": 0,
      "gust": 20,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 93,
+     "confidence": 95,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5915,6 +5937,14 @@
        "pWind": 0.0,
        "temp": 9,
        "conf": 93
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 9,
+       "conf": 95
       }
      ]
     }
@@ -5961,8 +5991,8 @@
      "kind": "beau",
      "stadium": "Stade de l'Aube",
      "roof": false,
-     "daysBefore": 3,
-     "temp": 8,
+     "daysBefore": 2,
+     "temp": 9,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
@@ -5971,13 +6001,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 86,
+     "confidence": 88,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5994,6 +6024,14 @@
        "pWind": 0.0,
        "temp": 8,
        "conf": 86
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 2,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 9,
+       "conf": 88
       }
      ]
     }
@@ -6078,23 +6116,23 @@
      "kind": "beau",
      "stadium": "Stade de la Meinau",
      "roof": false,
-     "daysBefore": 4,
+     "daysBefore": 3,
      "temp": 11,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
-     "rainMax": 0.2,
-     "gust": 21,
+     "rainMax": 0.3,
+     "gust": 23,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 81,
+     "confidence": 83,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6111,6 +6149,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 81
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 3,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 83
       }
      ]
     }
@@ -6189,23 +6235,23 @@
      "kind": "beau",
      "stadium": "Groupama Stadium",
      "roof": false,
-     "daysBefore": 4,
+     "daysBefore": 3,
      "temp": 12,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
      "rainMax": 0,
-     "gust": 17,
+     "gust": 16,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 80,
+     "confidence": 83,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6222,6 +6268,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 80
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 3,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 83
       }
      ]
     }
@@ -6361,22 +6415,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – Ibrahim Gomis bientôt promu chez les gardiens ?",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-ibrahim-gomis-bientot-promu-chez-les-gardiens-43688255",
-        "time": "2026-10-28T21:00:31Z"
+        "title": "OM x adidas : les chiffres fous du nouveau contrat dévoilés !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-x-adidas-les-chiffres-fous-du-nouveau-contrat-devoiles-43690094",
+        "time": "2026-10-29T07:02:00Z"
        },
        {
-        "title": "OM - Adidas a trouvé un accord, une somme conséquente attend Marseille",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-adidas-a-trouve-un-accord-une-somme-consequente-attend-marseille-43688193",
-        "time": "2026-10-28T20:45:00Z"
+        "title": "OM – Kays El Mouttaqui se fait remarquer avec l’Equipe de France U15",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-kays-el-mouttaqui-se-fait-remarquer-avec-lequipe-de-france-u15-43689164",
+        "time": "2026-10-29T01:00:08Z"
        },
        {
-        "title": "OM – Pérès : « Je ne vois pas McCourt vendre le club à moyen terme »",
+        "title": "OM – La Provence calme les ardeurs pour Himad Abdelli",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-peres-je-ne-vois-pas-mccourt-vendre-le-club-a-moyen-terme-43687056",
-        "time": "2026-10-28T17:00:03Z"
+        "url": "https://onefootball.com/fr/news/om-la-provence-calme-les-ardeurs-pour-himad-abdelli-43688852",
+        "time": "2026-10-28T23:00:42Z"
        }
       ],
       "scorer": {
@@ -6406,23 +6460,23 @@
      "kind": "beau",
      "stadium": "Orange Vélodrome",
      "roof": false,
-     "daysBefore": 4,
-     "temp": 12,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 3,
+     "temp": 14,
+     "desc": "bruine",
+     "code": 53,
      "rain": 0,
-     "rainMax": 3.6,
+     "rainMax": 2.1,
      "gust": 23,
-     "pRain": 0.1,
+     "pRain": 0.06,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 71,
+     "confidence": 76,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
-      "modèle mondial"
+      "Météo-France"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6439,6 +6493,14 @@
        "pWind": 0.0,
        "temp": 13,
        "conf": 71
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 3,
+       "pRain": 0.06,
+       "pWind": 0.0,
+       "temp": 13,
+       "conf": 76
       }
      ]
     }
@@ -6517,23 +6579,23 @@
      "kind": "beau",
      "stadium": "Stade du Moustoir",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 12,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "daysBefore": 4,
+     "temp": 11,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
      "rainMax": 0,
      "gust": 40,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 72,
+     "confidence": 75,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-28T21:41+00:00",
+     "updated": "2026-10-29T07:59+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6550,6 +6612,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 72
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 4,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 75
       }
      ]
     }
@@ -6621,6 +6691,136 @@
    },
    "lh": 1.86,
    "la": 1.344
+  },
+  {
+   "md": 10,
+   "date": "2026-11-07",
+   "time": "17:15",
+   "home": "AUX",
+   "away": "PFC",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688726",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Auxerre - Le Mans : la DTA sort du silence sur le but polémique accordé aux Manceaux",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/auxerre-le-mans-la-dta-sort-du-silence-sur-le-but-polemique-accorde-aux-manceaux-43686255",
+        "time": "2026-10-28T14:29:00Z"
+       },
+       {
+        "title": "Ligue 1 - AJ Auxerre - Le Mans FC : la DTA donne son avis sur le bug de la goal-line et le but complètement fou accordé au Mans",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-la-dta-donne-son-avis-sur-le-bug-de-la-goal-line-et-le-but-completement-fou-accorde-au-mans-43685199",
+        "time": "2026-10-28T10:53:00Z"
+       },
+       {
+        "title": "AJA : L’AJ Auxerre ne décolère pas et demande une action inédite",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aja-laj-auxerre-ne-decolere-pas-et-demande-une-action-inedite-43681340",
+        "time": "2026-10-27T15:30:20Z"
+       }
+      ],
+      "scorer": {
+       "name": "Cameron Archer",
+       "goals": 5
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Racheté 14 millions d’euros et lié jusqu’en 2031 : l’attaquant italien du Paris FC a enfin marqué à Bollaert, avant d’être sorti dès le retour des vestiaires",
+        "publisher": "Calciomio",
+        "url": "https://onefootball.com/fr/news/rachete-14-millions-deuros-et-lie-jusquen-2031-lattaquant-italien-du-paris-fc-a-enfin-marque-a-bollaert-avant-detre-sorti-des-le-retour-des-vestiaires-43669246",
+        "time": "2026-10-25T11:35:11Z"
+       }
+      ],
+      "scorer": {
+       "name": "Lassine Sinayoko",
+       "goals": 6
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.35,
+   "la": 1.492
+  },
+  {
+   "md": 10,
+   "date": "2026-11-07",
+   "time": "20:45",
+   "home": "PSG",
+   "away": "TRO",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688730",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": true,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142",
+        "time": "2026-10-29T07:26:00Z"
+       },
+       {
+        "title": "Gavi adresse un bel hommage à Kvaratskhelia",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343",
+        "time": "2026-10-28T21:30:01Z"
+       },
+       {
+        "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253",
+        "time": "2026-10-28T21:02:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ferran Torres",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [],
+      "scorer": {
+       "name": "Renaud Ripart",
+       "goals": 1
+      },
+      "scorerOut": null
+     }
+    },
+    "cupH": {
+     "competition": "Ligue des champions",
+     "opponent": "Villarreal",
+     "day": "mardi",
+     "home": false,
+     "hoursBefore": 96
+    }
+   },
+   "lh": 2.448,
+   "la": 0.72
   }
  ]
 }
