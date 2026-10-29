@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-29T08:41+00:00",
-  "generatedAt": "2026-10-29T08:44+00:00",
+  "fetchedAt": "2026-10-29T08:45+00:00",
+  "generatedAt": "2026-10-29T08:48+00:00",
   "checks": {
    "compared": 72,
    "agree": 72,
@@ -19,8 +19,8 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:41+00:00",
-    "lastAttempt": "2026-10-29T08:41+00:00",
+    "lastOk": "2026-10-29T08:45+00:00",
+    "lastAttempt": "2026-10-29T08:45+00:00",
     "error": null,
     "failures": 0,
     "count": 111
@@ -29,8 +29,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:42+00:00",
-    "lastAttempt": "2026-10-29T08:42+00:00",
+    "lastOk": "2026-10-29T08:46+00:00",
+    "lastAttempt": "2026-10-29T08:46+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -39,8 +39,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:42+00:00",
-    "lastAttempt": "2026-10-29T08:42+00:00",
+    "lastOk": "2026-10-29T08:46+00:00",
+    "lastAttempt": "2026-10-29T08:46+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -49,8 +49,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:43+00:00",
-    "lastAttempt": "2026-10-29T08:43+00:00",
+    "lastOk": "2026-10-29T08:47+00:00",
+    "lastAttempt": "2026-10-29T08:47+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -59,8 +59,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:43+00:00",
-    "lastAttempt": "2026-10-29T08:43+00:00",
+    "lastOk": "2026-10-29T08:47+00:00",
+    "lastAttempt": "2026-10-29T08:47+00:00",
     "error": null,
     "failures": 0,
     "count": 1210
@@ -780,7 +780,7 @@
    "notInCommon": 0
   },
   "linked": 990,
-  "generatedAt": "2026-10-29T08:43+00:00",
+  "generatedAt": "2026-10-29T08:47+00:00",
   "levers": {
    "buteur": {
     "n": 331,
@@ -7783,7 +7783,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7898,12 +7898,12 @@
     ],
     "over25": 0.576,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8117,12 +8117,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8234,7 +8234,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8349,12 +8349,12 @@
     ],
     "over25": 0.509,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8415,7 +8415,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8530,12 +8530,12 @@
     ],
     "over25": 0.482,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8634,7 +8634,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8749,12 +8749,12 @@
     ],
     "over25": 0.665,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8847,7 +8847,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -8962,12 +8962,12 @@
     ],
     "over25": 0.539,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9061,7 +9061,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9176,12 +9176,12 @@
     ],
     "over25": 0.493,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9253,9 +9253,9 @@
      "stadium": "Orange Vélodrome",
      "roof": false,
      "daysBefore": 3,
-     "temp": 14,
-     "desc": "bruine",
-     "code": 53,
+     "temp": 13,
+     "desc": "bruine légère",
+     "code": 51,
      "rain": 0,
      "rainMax": 2.1,
      "gust": 23,
@@ -9268,7 +9268,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9383,12 +9383,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9475,7 +9475,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-29T08:42+00:00",
+     "updated": "2026-10-29T08:46+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -9590,12 +9590,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9749,12 +9749,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9908,12 +9908,12 @@
     ],
     "over25": 0.54,
     "levers": [],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
@@ -10069,12 +10069,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-10-29T08:44+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T08:41+00:00",
+    "at": "2026-10-29T08:48+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:45+00:00",
     "changes": 1,
     "model": {
-     "version": "efa3d2c",
+     "version": "4eee253",
      "mu": 0.231,
      "home": 0.213
     }
