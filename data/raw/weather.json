@@ -19,7 +19,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -61,13 +61,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 96,
+  "confidence": 97,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -91,7 +91,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 11,
-    "conf": 96
+    "conf": 97
    }
   ]
  },
@@ -115,7 +115,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -163,7 +163,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -211,7 +211,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -259,7 +259,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:42+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -349,13 +349,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 83,
+  "confidence": 84,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -379,7 +379,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 83
+    "conf": 84
    }
   ]
  },
@@ -403,7 +403,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-29T08:46+00:00",
+  "updated": "2026-10-29T09:06+00:00",
   "history": [
    {
     "day": "2026-10-27",
