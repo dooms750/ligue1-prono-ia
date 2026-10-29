@@ -10,9 +10,9 @@
   "finished": 72
  },
  "espn": {
-  "lastAttempt": "2026-10-29T21:50+00:00",
+  "lastAttempt": "2026-10-29T22:41+00:00",
   "ok": true,
-  "lastOk": "2026-10-29T21:50+00:00",
+  "lastOk": "2026-10-29T22:41+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
@@ -46,5 +46,13 @@
   "partial": false,
   "count": 1210,
   "errors": 0
+ },
+ "onefootball_quick": {
+  "lastAttempt": "2026-10-29T22:41+00:00",
+  "ok": true,
+  "lastOk": "2026-10-29T22:41+00:00",
+  "failures": 0,
+  "error": null,
+  "partial": false
  }
 }
