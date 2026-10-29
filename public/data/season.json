@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-29T08:19+00:00",
-  "generatedAt": "2026-10-29T08:23+00:00",
+  "fetchedAt": "2026-10-29T08:41+00:00",
+  "generatedAt": "2026-10-29T08:44+00:00",
   "checks": {
    "compared": 72,
    "agree": 72,
@@ -19,18 +19,18 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:19+00:00",
-    "lastAttempt": "2026-10-29T08:19+00:00",
+    "lastOk": "2026-10-29T08:41+00:00",
+    "lastAttempt": "2026-10-29T08:41+00:00",
     "error": null,
     "failures": 0,
-    "count": 110
+    "count": 111
    },
    {
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:20+00:00",
-    "lastAttempt": "2026-10-29T08:20+00:00",
+    "lastOk": "2026-10-29T08:42+00:00",
+    "lastAttempt": "2026-10-29T08:42+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -39,8 +39,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:20+00:00",
-    "lastAttempt": "2026-10-29T08:20+00:00",
+    "lastOk": "2026-10-29T08:42+00:00",
+    "lastAttempt": "2026-10-29T08:42+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -49,8 +49,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:21+00:00",
-    "lastAttempt": "2026-10-29T08:21+00:00",
+    "lastOk": "2026-10-29T08:43+00:00",
+    "lastAttempt": "2026-10-29T08:43+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -59,8 +59,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-10-29T08:21+00:00",
-    "lastAttempt": "2026-10-29T08:21+00:00",
+    "lastOk": "2026-10-29T08:43+00:00",
+    "lastAttempt": "2026-10-29T08:43+00:00",
     "error": null,
     "failures": 0,
     "count": 1210
@@ -780,7 +780,7 @@
    "notInCommon": 0
   },
   "linked": 990,
-  "generatedAt": "2026-10-29T08:22+00:00",
+  "generatedAt": "2026-10-29T08:43+00:00",
   "levers": {
    "buteur": {
     "n": 331,
@@ -1164,7 +1164,63 @@
     "V",
     "V"
    ],
-   "rank": 1
+   "rank": 1,
+   "history": [
+    {
+     "md": 0,
+     "index": 163.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 161.9,
+     "pts": 1,
+     "rank": 6
+    },
+    {
+     "md": 2,
+     "index": 159.1,
+     "pts": 2,
+     "rank": 11
+    },
+    {
+     "md": 3,
+     "index": 155.8,
+     "pts": 2,
+     "rank": 13
+    },
+    {
+     "md": 4,
+     "index": 159.9,
+     "pts": 5,
+     "rank": 7
+    },
+    {
+     "md": 5,
+     "index": 165.2,
+     "pts": 8,
+     "rank": 6
+    },
+    {
+     "md": 6,
+     "index": 171.1,
+     "pts": 11,
+     "rank": 6
+    },
+    {
+     "md": 7,
+     "index": 170.9,
+     "pts": 14,
+     "rank": 2
+    },
+    {
+     "md": 8,
+     "index": 177.7,
+     "pts": 17,
+     "rank": 1
+    }
+   ]
   },
   "MON": {
    "name": "Monaco",
@@ -1186,7 +1242,63 @@
     "D",
     "N"
    ],
-   "rank": 4
+   "rank": 4,
+   "history": [
+    {
+     "md": 0,
+     "index": 107.4,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 113.7,
+     "pts": 3,
+     "rank": 5
+    },
+    {
+     "md": 2,
+     "index": 122.8,
+     "pts": 6,
+     "rank": 1
+    },
+    {
+     "md": 3,
+     "index": 123.5,
+     "pts": 9,
+     "rank": 1
+    },
+    {
+     "md": 4,
+     "index": 125.5,
+     "pts": 10,
+     "rank": 2
+    },
+    {
+     "md": 5,
+     "index": 128.9,
+     "pts": 13,
+     "rank": 1
+    },
+    {
+     "md": 6,
+     "index": 124.3,
+     "pts": 14,
+     "rank": 1
+    },
+    {
+     "md": 7,
+     "index": 122.5,
+     "pts": 14,
+     "rank": 5
+    },
+    {
+     "md": 8,
+     "index": 123.3,
+     "pts": 15,
+     "rank": 4
+    }
+   ]
   },
   "OM": {
    "name": "Marseille",
@@ -1208,7 +1320,63 @@
     "V",
     "V"
    ],
-   "rank": 8
+   "rank": 8,
+   "history": [
+    {
+     "md": 0,
+     "index": 107.1,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 126.0,
+     "pts": 3,
+     "rank": 1
+    },
+    {
+     "md": 2,
+     "index": 116.6,
+     "pts": 3,
+     "rank": 8
+    },
+    {
+     "md": 3,
+     "index": 111.9,
+     "pts": 3,
+     "rank": 10
+    },
+    {
+     "md": 4,
+     "index": 109.1,
+     "pts": 3,
+     "rank": 13
+    },
+    {
+     "md": 5,
+     "index": 102.4,
+     "pts": 3,
+     "rank": 17
+    },
+    {
+     "md": 6,
+     "index": 106.0,
+     "pts": 6,
+     "rank": 13
+    },
+    {
+     "md": 7,
+     "index": 115.8,
+     "pts": 9,
+     "rank": 9
+    },
+    {
+     "md": 8,
+     "index": 113.7,
+     "pts": 12,
+     "rank": 8
+    }
+   ]
   },
   "OL": {
    "name": "Lyon",
@@ -1230,7 +1398,63 @@
     "V",
     "D"
    ],
-   "rank": 5
+   "rank": 5,
+   "history": [
+    {
+     "md": 0,
+     "index": 109.9,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 119.4,
+     "pts": 3,
+     "rank": 3
+    },
+    {
+     "md": 2,
+     "index": 115.2,
+     "pts": 4,
+     "rank": 4
+    },
+    {
+     "md": 3,
+     "index": 121.5,
+     "pts": 7,
+     "rank": 2
+    },
+    {
+     "md": 4,
+     "index": 121.7,
+     "pts": 8,
+     "rank": 4
+    },
+    {
+     "md": 5,
+     "index": 138.8,
+     "pts": 11,
+     "rank": 2
+    },
+    {
+     "md": 6,
+     "index": 133.4,
+     "pts": 11,
+     "rank": 4
+    },
+    {
+     "md": 7,
+     "index": 130.7,
+     "pts": 14,
+     "rank": 1
+    },
+    {
+     "md": 8,
+     "index": 124.0,
+     "pts": 14,
+     "rank": 5
+    }
+   ]
   },
   "LIL": {
    "name": "Lille",
@@ -1252,7 +1476,63 @@
     "N",
     "N"
    ],
-   "rank": 3
+   "rank": 3,
+   "history": [
+    {
+     "md": 0,
+     "index": 120.4,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 132.9,
+     "pts": 3,
+     "rank": 4
+    },
+    {
+     "md": 2,
+     "index": 131.9,
+     "pts": 4,
+     "rank": 3
+    },
+    {
+     "md": 3,
+     "index": 129.8,
+     "pts": 7,
+     "rank": 4
+    },
+    {
+     "md": 4,
+     "index": 136.8,
+     "pts": 10,
+     "rank": 1
+    },
+    {
+     "md": 5,
+     "index": 130.6,
+     "pts": 10,
+     "rank": 4
+    },
+    {
+     "md": 6,
+     "index": 129.2,
+     "pts": 13,
+     "rank": 2
+    },
+    {
+     "md": 7,
+     "index": 128.1,
+     "pts": 14,
+     "rank": 4
+    },
+    {
+     "md": 8,
+     "index": 126.2,
+     "pts": 15,
+     "rank": 3
+    }
+   ]
   },
   "LEN": {
    "name": "Lens",
@@ -1274,7 +1554,63 @@
     "V",
     "V"
    ],
-   "rank": 7
+   "rank": 7,
+   "history": [
+    {
+     "md": 0,
+     "index": 139.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 149.1,
+     "pts": 3,
+     "rank": 2
+    },
+    {
+     "md": 2,
+     "index": 138.3,
+     "pts": 3,
+     "rank": 7
+    },
+    {
+     "md": 3,
+     "index": 135.0,
+     "pts": 3,
+     "rank": 11
+    },
+    {
+     "md": 4,
+     "index": 132.3,
+     "pts": 4,
+     "rank": 10
+    },
+    {
+     "md": 5,
+     "index": 128.6,
+     "pts": 4,
+     "rank": 15
+    },
+    {
+     "md": 6,
+     "index": 130.8,
+     "pts": 7,
+     "rank": 10
+    },
+    {
+     "md": 7,
+     "index": 129.9,
+     "pts": 10,
+     "rank": 8
+    },
+    {
+     "md": 8,
+     "index": 132.0,
+     "pts": 13,
+     "rank": 7
+    }
+   ]
   },
   "REN": {
    "name": "Rennes",
@@ -1296,7 +1632,63 @@
     "D",
     "V"
    ],
-   "rank": 2
+   "rank": 2,
+   "history": [
+    {
+     "md": 0,
+     "index": 112.6,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 113.4,
+     "pts": 1,
+     "rank": 7
+    },
+    {
+     "md": 2,
+     "index": 113.8,
+     "pts": 4,
+     "rank": 5
+    },
+    {
+     "md": 3,
+     "index": 118.3,
+     "pts": 7,
+     "rank": 5
+    },
+    {
+     "md": 4,
+     "index": 121.4,
+     "pts": 10,
+     "rank": 3
+    },
+    {
+     "md": 5,
+     "index": 106.7,
+     "pts": 10,
+     "rank": 5
+    },
+    {
+     "md": 6,
+     "index": 114.0,
+     "pts": 13,
+     "rank": 3
+    },
+    {
+     "md": 7,
+     "index": 111.7,
+     "pts": 13,
+     "rank": 6
+    },
+    {
+     "md": 8,
+     "index": 117.2,
+     "pts": 16,
+     "rank": 2
+    }
+   ]
   },
   "NIC": {
    "name": "Nice",
@@ -1318,7 +1710,63 @@
     "D",
     "V"
    ],
-   "rank": 10
+   "rank": 10,
+   "history": [
+    {
+     "md": 0,
+     "index": 75.4,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 75.6,
+     "pts": 1,
+     "rank": 10
+    },
+    {
+     "md": 2,
+     "index": 71.0,
+     "pts": 1,
+     "rank": 17
+    },
+    {
+     "md": 3,
+     "index": 72.2,
+     "pts": 2,
+     "rank": 15
+    },
+    {
+     "md": 4,
+     "index": 69.7,
+     "pts": 2,
+     "rank": 18
+    },
+    {
+     "md": 5,
+     "index": 73.7,
+     "pts": 5,
+     "rank": 14
+    },
+    {
+     "md": 6,
+     "index": 78.0,
+     "pts": 8,
+     "rank": 9
+    },
+    {
+     "md": 7,
+     "index": 80.7,
+     "pts": 8,
+     "rank": 13
+    },
+    {
+     "md": 8,
+     "index": 82.9,
+     "pts": 11,
+     "rank": 10
+    }
+   ]
   },
   "STR": {
    "name": "Strasbourg",
@@ -1340,7 +1788,63 @@
     "D",
     "D"
    ],
-   "rank": 16
+   "rank": 16,
+   "history": [
+    {
+     "md": 0,
+     "index": 109.6,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 94.1,
+     "pts": 0,
+     "rank": 18
+    },
+    {
+     "md": 2,
+     "index": 98.6,
+     "pts": 3,
+     "rank": 10
+    },
+    {
+     "md": 3,
+     "index": 114.9,
+     "pts": 6,
+     "rank": 6
+    },
+    {
+     "md": 4,
+     "index": 112.8,
+     "pts": 7,
+     "rank": 6
+    },
+    {
+     "md": 5,
+     "index": 107.1,
+     "pts": 7,
+     "rank": 8
+    },
+    {
+     "md": 6,
+     "index": 101.5,
+     "pts": 7,
+     "rank": 11
+    },
+    {
+     "md": 7,
+     "index": 100.0,
+     "pts": 7,
+     "rank": 14
+    },
+    {
+     "md": 8,
+     "index": 95.5,
+     "pts": 7,
+     "rank": 16
+    }
+   ]
   },
   "BRE": {
    "name": "Brest",
@@ -1362,7 +1866,63 @@
     "N",
     "D"
    ],
-   "rank": 13
+   "rank": 13,
+   "history": [
+    {
+     "md": 0,
+     "index": 83.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 87.1,
+     "pts": 1,
+     "rank": 8
+    },
+    {
+     "md": 2,
+     "index": 89.6,
+     "pts": 2,
+     "rank": 12
+    },
+    {
+     "md": 3,
+     "index": 97.6,
+     "pts": 5,
+     "rank": 7
+    },
+    {
+     "md": 4,
+     "index": 96.4,
+     "pts": 5,
+     "rank": 8
+    },
+    {
+     "md": 5,
+     "index": 93.7,
+     "pts": 5,
+     "rank": 11
+    },
+    {
+     "md": 6,
+     "index": 105.4,
+     "pts": 8,
+     "rank": 7
+    },
+    {
+     "md": 7,
+     "index": 105.3,
+     "pts": 9,
+     "rank": 10
+    },
+    {
+     "md": 8,
+     "index": 103.2,
+     "pts": 9,
+     "rank": 13
+    }
+   ]
   },
   "TOU": {
    "name": "Toulouse",
@@ -1384,7 +1944,63 @@
     "V",
     "N"
    ],
-   "rank": 11
+   "rank": 11,
+   "history": [
+    {
+     "md": 0,
+     "index": 98.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 90.8,
+     "pts": 0,
+     "rank": 15
+    },
+    {
+     "md": 2,
+     "index": 88.8,
+     "pts": 1,
+     "rank": 16
+    },
+    {
+     "md": 3,
+     "index": 91.7,
+     "pts": 1,
+     "rank": 17
+    },
+    {
+     "md": 4,
+     "index": 94.5,
+     "pts": 2,
+     "rank": 17
+    },
+    {
+     "md": 5,
+     "index": 94.8,
+     "pts": 5,
+     "rank": 13
+    },
+    {
+     "md": 6,
+     "index": 99.5,
+     "pts": 6,
+     "rank": 15
+    },
+    {
+     "md": 7,
+     "index": 110.4,
+     "pts": 9,
+     "rank": 11
+    },
+    {
+     "md": 8,
+     "index": 106.7,
+     "pts": 10,
+     "rank": 11
+    }
+   ]
   },
   "PFC": {
    "name": "Paris FC",
@@ -1406,7 +2022,63 @@
     "V",
     "D"
    ],
-   "rank": 6
+   "rank": 6,
+   "history": [
+    {
+     "md": 0,
+     "index": 110.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 110.5,
+     "pts": 1,
+     "rank": 11
+    },
+    {
+     "md": 2,
+     "index": 118.2,
+     "pts": 4,
+     "rank": 2
+    },
+    {
+     "md": 3,
+     "index": 122.5,
+     "pts": 7,
+     "rank": 3
+    },
+    {
+     "md": 4,
+     "index": 123.5,
+     "pts": 8,
+     "rank": 5
+    },
+    {
+     "md": 5,
+     "index": 128.8,
+     "pts": 11,
+     "rank": 3
+    },
+    {
+     "md": 6,
+     "index": 122.0,
+     "pts": 11,
+     "rank": 5
+    },
+    {
+     "md": 7,
+     "index": 123.7,
+     "pts": 14,
+     "rank": 3
+    },
+    {
+     "md": 8,
+     "index": 120.8,
+     "pts": 14,
+     "rank": 6
+    }
+   ]
   },
   "LOR": {
    "name": "Lorient",
@@ -1428,7 +2100,63 @@
     "V",
     "N"
    ],
-   "rank": 9
+   "rank": 9,
+   "history": [
+    {
+     "md": 0,
+     "index": 104.4,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 104.4,
+     "pts": 1,
+     "rank": 12
+    },
+    {
+     "md": 2,
+     "index": 101.6,
+     "pts": 1,
+     "rank": 14
+    },
+    {
+     "md": 3,
+     "index": 105.1,
+     "pts": 4,
+     "rank": 8
+    },
+    {
+     "md": 4,
+     "index": 101.7,
+     "pts": 5,
+     "rank": 9
+    },
+    {
+     "md": 5,
+     "index": 96.0,
+     "pts": 5,
+     "rank": 12
+    },
+    {
+     "md": 6,
+     "index": 101.2,
+     "pts": 8,
+     "rank": 8
+    },
+    {
+     "md": 7,
+     "index": 103.8,
+     "pts": 11,
+     "rank": 7
+    },
+    {
+     "md": 8,
+     "index": 99.8,
+     "pts": 12,
+     "rank": 9
+    }
+   ]
   },
   "ANG": {
    "name": "Angers",
@@ -1450,7 +2178,63 @@
     "D",
     "N"
    ],
-   "rank": 14
+   "rank": 14,
+   "history": [
+    {
+     "md": 0,
+     "index": 74.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 67.7,
+     "pts": 0,
+     "rank": 16
+    },
+    {
+     "md": 2,
+     "index": 76.3,
+     "pts": 3,
+     "rank": 9
+    },
+    {
+     "md": 3,
+     "index": 75.2,
+     "pts": 3,
+     "rank": 12
+    },
+    {
+     "md": 4,
+     "index": 74.0,
+     "pts": 4,
+     "rank": 11
+    },
+    {
+     "md": 5,
+     "index": 77.3,
+     "pts": 7,
+     "rank": 7
+    },
+    {
+     "md": 6,
+     "index": 69.0,
+     "pts": 7,
+     "rank": 12
+    },
+    {
+     "md": 7,
+     "index": 64.3,
+     "pts": 7,
+     "rank": 15
+    },
+    {
+     "md": 8,
+     "index": 66.7,
+     "pts": 8,
+     "rank": 14
+    }
+   ]
   },
   "AUX": {
    "name": "Auxerre",
@@ -1472,7 +2256,63 @@
     "V",
     "N"
    ],
-   "rank": 12
+   "rank": 12,
+   "history": [
+    {
+     "md": 0,
+     "index": 101.9,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 93.2,
+     "pts": 0,
+     "rank": 17
+    },
+    {
+     "md": 2,
+     "index": 84.9,
+     "pts": 0,
+     "rank": 18
+    },
+    {
+     "md": 3,
+     "index": 81.3,
+     "pts": 0,
+     "rank": 18
+    },
+    {
+     "md": 4,
+     "index": 83.8,
+     "pts": 3,
+     "rank": 15
+    },
+    {
+     "md": 5,
+     "index": 88.4,
+     "pts": 6,
+     "rank": 10
+    },
+    {
+     "md": 6,
+     "index": 82.0,
+     "pts": 6,
+     "rank": 16
+    },
+    {
+     "md": 7,
+     "index": 87.8,
+     "pts": 9,
+     "rank": 12
+    },
+    {
+     "md": 8,
+     "index": 88.3,
+     "pts": 10,
+     "rank": 12
+    }
+   ]
   },
   "HAV": {
    "name": "Le Havre",
@@ -1494,7 +2334,63 @@
     "D",
     "D"
    ],
-   "rank": 18
+   "rank": 18,
+   "history": [
+    {
+     "md": 0,
+     "index": 90.2,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 85.3,
+     "pts": 0,
+     "rank": 14
+    },
+    {
+     "md": 2,
+     "index": 88.6,
+     "pts": 1,
+     "rank": 15
+    },
+    {
+     "md": 3,
+     "index": 83.3,
+     "pts": 1,
+     "rank": 16
+    },
+    {
+     "md": 4,
+     "index": 84.6,
+     "pts": 2,
+     "rank": 16
+    },
+    {
+     "md": 5,
+     "index": 86.2,
+     "pts": 2,
+     "rank": 18
+    },
+    {
+     "md": 6,
+     "index": 87.1,
+     "pts": 2,
+     "rank": 18
+    },
+    {
+     "md": 7,
+     "index": 81.2,
+     "pts": 2,
+     "rank": 18
+    },
+    {
+     "md": 8,
+     "index": 83.9,
+     "pts": 2,
+     "rank": 18
+    }
+   ]
   },
   "LMA": {
    "name": "Le Mans",
@@ -1516,7 +2412,63 @@
     "D",
     "N"
    ],
-   "rank": 15
+   "rank": 15,
+   "history": [
+    {
+     "md": 0,
+     "index": 100.0,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 91.3,
+     "pts": 1,
+     "rank": 9
+    },
+    {
+     "md": 2,
+     "index": 89.4,
+     "pts": 1,
+     "rank": 13
+    },
+    {
+     "md": 3,
+     "index": 91.2,
+     "pts": 2,
+     "rank": 14
+    },
+    {
+     "md": 4,
+     "index": 93.3,
+     "pts": 3,
+     "rank": 14
+    },
+    {
+     "md": 5,
+     "index": 99.0,
+     "pts": 6,
+     "rank": 9
+    },
+    {
+     "md": 6,
+     "index": 97.8,
+     "pts": 6,
+     "rank": 14
+    },
+    {
+     "md": 7,
+     "index": 84.1,
+     "pts": 6,
+     "rank": 16
+    },
+    {
+     "md": 8,
+     "index": 84.2,
+     "pts": 7,
+     "rank": 15
+    }
+   ]
   },
   "TRO": {
    "name": "Troyes",
@@ -1538,7 +2490,63 @@
     "D",
     "N"
    ],
-   "rank": 17
+   "rank": 17,
+   "history": [
+    {
+     "md": 0,
+     "index": 100.0,
+     "pts": 0,
+     "rank": null
+    },
+    {
+     "md": 1,
+     "index": 100.6,
+     "pts": 1,
+     "rank": 13
+    },
+    {
+     "md": 2,
+     "index": 105.2,
+     "pts": 4,
+     "rank": 6
+    },
+    {
+     "md": 3,
+     "index": 78.7,
+     "pts": 4,
+     "rank": 9
+    },
+    {
+     "md": 4,
+     "index": 72.6,
+     "pts": 4,
+     "rank": 12
+    },
+    {
+     "md": 5,
+     "index": 67.3,
+     "pts": 4,
+     "rank": 16
+    },
+    {
+     "md": 6,
+     "index": 62.7,
+     "pts": 4,
+     "rank": 17
+    },
+    {
+     "md": 7,
+     "index": 63.3,
+     "pts": 4,
+     "rank": 17
+    },
+    {
+     "md": 8,
+     "index": 64.7,
+     "pts": 5,
+     "rank": 17
+    }
+   ]
   }
  },
  "played": [
@@ -6730,6 +7738,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Chelsea et le PSG : duel au mercato pour une star du Barça ?",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/chelsea-et-le-psg-duel-au-mercato-pour-une-star-du-barca-43690386",
+        "time": "2026-10-29T08:31:07Z"
+       },
+       {
         "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142",
@@ -6740,12 +7754,6 @@
         "publisher": "Parisfans.fr",
         "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343",
         "time": "2026-10-28T21:30:01Z"
-       },
-       {
-        "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253",
-        "time": "2026-10-28T21:02:00Z"
        }
       ],
       "scorer": {
@@ -6775,7 +7783,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6806,6 +7814,80 @@
    },
    "lh": 1.106,
    "la": 1.891,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.249,
+      0.253,
+      0.498
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.237,
+      0.253,
+      0.51
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.255,
+      0.253,
+      0.492
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.232,
+      0.241,
+      0.527
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.234,
+      0.25,
+      0.516
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.243,
+      0.242,
+      0.515
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.246,
+      0.251,
+      0.503
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.218,
+      0.234,
+      0.548
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.22,
+      0.224,
+      0.557
+     ]
+    }
+   ],
    "published": {
     "lh": 1.106,
     "la": 1.891,
@@ -6816,12 +7898,12 @@
     ],
     "over25": 0.576,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -6920,7 +8002,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6951,6 +8033,80 @@
    },
    "lh": 1.427,
    "la": 1.63,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.306,
+      0.242,
+      0.453
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.302,
+      0.253,
+      0.445
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.288,
+      0.244,
+      0.468
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.267,
+      0.244,
+      0.489
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.255,
+      0.249,
+      0.496
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.322,
+      0.251,
+      0.427
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.333,
+      0.246,
+      0.42
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.339,
+      0.237,
+      0.424
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.336,
+      0.239,
+      0.425
+     ]
+    }
+   ],
    "published": {
     "lh": 1.427,
     "la": 1.63,
@@ -6961,12 +8117,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7078,7 +8234,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7109,6 +8265,80 @@
    },
    "lh": 1.469,
    "la": 1.241,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.378,
+      0.262,
+      0.36
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.394,
+      0.25,
+      0.356
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.423,
+      0.245,
+      0.332
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.405,
+      0.251,
+      0.344
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.435,
+      0.25,
+      0.315
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.448,
+      0.245,
+      0.307
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.447,
+      0.251,
+      0.302
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.43,
+      0.254,
+      0.316
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.424,
+      0.256,
+      0.32
+     ]
+    }
+   ],
    "published": {
     "lh": 1.469,
     "la": 1.241,
@@ -7119,12 +8349,12 @@
     ],
     "over25": 0.509,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7185,7 +8415,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7216,6 +8446,80 @@
    },
    "lh": 1.269,
    "la": 1.334,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.429,
+      0.253,
+      0.319
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.448,
+      0.264,
+      0.288
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.489,
+      0.242,
+      0.269
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.381,
+      0.231,
+      0.388
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.351,
+      0.234,
+      0.415
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.322,
+      0.235,
+      0.443
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.314,
+      0.24,
+      0.446
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.349,
+      0.247,
+      0.404
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.353,
+      0.264,
+      0.384
+     ]
+    }
+   ],
    "published": {
     "lh": 1.269,
     "la": 1.334,
@@ -7226,12 +8530,12 @@
     ],
     "over25": 0.482,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7330,7 +8634,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7361,6 +8665,80 @@
    },
    "lh": 1.96,
    "la": 1.464,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.456,
+      0.245,
+      0.299
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.445,
+      0.234,
+      0.321
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.504,
+      0.221,
+      0.274
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.575,
+      0.195,
+      0.23
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.557,
+      0.204,
+      0.239
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.532,
+      0.212,
+      0.257
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.558,
+      0.204,
+      0.238
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.513,
+      0.21,
+      0.278
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.492,
+      0.219,
+      0.289
+     ]
+    }
+   ],
    "published": {
     "lh": 1.96,
     "la": 1.464,
@@ -7371,12 +8749,12 @@
     ],
     "over25": 0.665,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7402,22 +8780,22 @@
       "absences": [],
       "other": [
        {
+        "title": "OL Académie : premier entraînement avec les pros pour Walid Nechab",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-academie-premier-entrainement-avec-les-pros-pour-walid-nechab-43690377",
+        "time": "2026-10-29T08:30:00Z"
+       },
+       {
+        "title": "Mercato OL - Lyon va encore devoir dégraisser cet hiver",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-ol-lyon-va-encore-devoir-degraisser-cet-hiver-43690374",
+        "time": "2026-10-29T08:25:00Z"
+       },
+       {
         "title": "Mercato OL - Zachary Athekame explique pourquoi il a choisi l’OL plutôt que l’OM",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630",
         "time": "2026-10-28T18:59:00Z"
-       },
-       {
-        "title": "OL : deux bonnes nouvelles à l'entraînement ce mercredi",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-deux-bonnes-nouvelles-a-lentrainement-ce-mercredi-43686623",
-        "time": "2026-10-28T15:37:59Z"
-       },
-       {
-        "title": "OL : un jour de récupération en plus bienvenu avant Angers",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-un-jour-de-recuperation-en-plus-bienvenu-avant-angers-43686422",
-        "time": "2026-10-28T15:00:00Z"
        }
       ],
       "scorer": {
@@ -7469,7 +8847,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7500,6 +8878,80 @@
    },
    "lh": 1.978,
    "la": 0.86,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.547,
+      0.24,
+      0.213
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.596,
+      0.229,
+      0.175
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.559,
+      0.236,
+      0.206
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.566,
+      0.232,
+      0.202
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.561,
+      0.244,
+      0.195
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.602,
+      0.231,
+      0.167
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.651,
+      0.206,
+      0.143
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.665,
+      0.195,
+      0.14
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.635,
+      0.209,
+      0.156
+     ]
+    }
+   ],
    "published": {
     "lh": 1.978,
     "la": 0.86,
@@ -7510,12 +8962,12 @@
     ],
     "over25": 0.539,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7609,7 +9061,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7640,6 +9092,80 @@
    },
    "lh": 1.45,
    "la": 1.196,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.451,
+      0.233,
+      0.316
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.422,
+      0.249,
+      0.329
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.421,
+      0.253,
+      0.326
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.418,
+      0.248,
+      0.335
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.412,
+      0.261,
+      0.327
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.43,
+      0.262,
+      0.308
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.437,
+      0.262,
+      0.301
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.437,
+      0.255,
+      0.308
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.43,
+      0.259,
+      0.312
+     ]
+    }
+   ],
    "published": {
     "lh": 1.45,
     "la": 1.196,
@@ -7650,12 +9176,12 @@
     ],
     "over25": 0.493,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7773,6 +9299,80 @@
    },
    "lh": 1.823,
    "la": 1.382,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.461,
+      0.244,
+      0.295
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.538,
+      0.233,
+      0.229
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.524,
+      0.237,
+      0.239
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.489,
+      0.238,
+      0.274
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.477,
+      0.239,
+      0.284
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.478,
+      0.232,
+      0.29
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.484,
+      0.234,
+      0.282
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.467,
+      0.23,
+      0.302
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.479,
+      0.228,
+      0.293
+     ]
+    }
+   ],
    "published": {
     "lh": 1.823,
     "la": 1.382,
@@ -7783,12 +9383,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7875,7 +9475,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-29T08:20+00:00",
+     "updated": "2026-10-29T08:42+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -7906,6 +9506,80 @@
    },
    "lh": 1.384,
    "la": 1.155,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.507,
+      0.238,
+      0.255
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.485,
+      0.248,
+      0.267
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.476,
+      0.245,
+      0.279
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.439,
+      0.254,
+      0.308
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.438,
+      0.254,
+      0.308
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.441,
+      0.257,
+      0.301
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.437,
+      0.253,
+      0.31
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.425,
+      0.261,
+      0.314
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.421,
+      0.265,
+      0.313
+     ]
+    }
+   ],
    "published": {
     "lh": 1.384,
     "la": 1.155,
@@ -7916,12 +9590,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -7991,6 +9665,80 @@
    },
    "lh": 1.86,
    "la": 1.344,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.401,
+      0.242,
+      0.358
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.423,
+      0.244,
+      0.333
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.407,
+      0.241,
+      0.352
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.355,
+      0.228,
+      0.417
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.378,
+      0.23,
+      0.392
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.417,
+      0.224,
+      0.359
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.47,
+      0.219,
+      0.311
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.497,
+      0.216,
+      0.287
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.496,
+      0.226,
+      0.278
+     ]
+    }
+   ],
    "published": {
     "lh": 1.86,
     "la": 1.344,
@@ -8001,12 +9749,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8076,6 +9824,80 @@
    },
    "lh": 1.35,
    "la": 1.492,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.395,
+      0.267,
+      0.338
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.369,
+      0.264,
+      0.367
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.328,
+      0.255,
+      0.417
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.292,
+      0.241,
+      0.468
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.302,
+      0.251,
+      0.447
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.318,
+      0.258,
+      0.424
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.324,
+      0.257,
+      0.419
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.331,
+      0.242,
+      0.426
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.343,
+      0.25,
+      0.407
+     ]
+    }
+   ],
    "published": {
     "lh": 1.35,
     "la": 1.492,
@@ -8086,12 +9908,12 @@
     ],
     "over25": 0.54,
     "levers": [],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8117,6 +9939,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Chelsea et le PSG : duel au mercato pour une star du Barça ?",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/chelsea-et-le-psg-duel-au-mercato-pour-une-star-du-barca-43690386",
+        "time": "2026-10-29T08:31:07Z"
+       },
+       {
         "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/psg-oubliez-maza-luis-enrique-a-deja-identifie-le-successeur-de-kvaratskhelia-43690142",
@@ -8127,12 +9955,6 @@
         "publisher": "Parisfans.fr",
         "url": "https://onefootball.com/fr/news/gavi-adresse-un-bel-hommage-a-kvaratskhelia-43688343",
         "time": "2026-10-28T21:30:01Z"
-       },
-       {
-        "title": "PSG - Jérôme Rothen pointe \"une anomalie\" concernant Désiré Doué",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-jerome-rothen-pointe-une-anomalie-concernant-desire-doue-43688253",
-        "time": "2026-10-28T21:02:00Z"
        }
       ],
       "scorer": {
@@ -8161,6 +9983,80 @@
    },
    "lh": 2.448,
    "la": 0.72,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.596,
+      0.215,
+      0.189
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.565,
+      0.24,
+      0.195
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.561,
+      0.234,
+      0.205
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.672,
+      0.178,
+      0.15
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.7,
+      0.172,
+      0.128
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.742,
+      0.155,
+      0.102
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.775,
+      0.142,
+      0.083
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.763,
+      0.147,
+      0.09
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.754,
+      0.156,
+      0.09
+     ]
+    }
+   ],
    "published": {
     "lh": 2.614,
     "la": 0.68,
@@ -8173,12 +10069,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-10-29T08:23+00:00",
-    "firstAt": "2026-10-29T08:23+00:00",
-    "dataAt": "2026-10-29T08:19+00:00",
+    "at": "2026-10-29T08:44+00:00",
+    "firstAt": "2026-10-29T08:44+00:00",
+    "dataAt": "2026-10-29T08:41+00:00",
     "changes": 1,
     "model": {
-     "version": "8508c8e",
+     "version": "efa3d2c",
      "mu": 0.231,
      "home": 0.213
     }

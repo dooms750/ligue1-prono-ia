@@ -6965,6 +6965,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688754": {
+   "id": 2688754,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-06T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Olympique de Marseille",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/olympique-de-marseille-22",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -7510,6 +7530,18 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "OL Académie : premier entraînement avec les pros pour Walid Nechab",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-29T08:30:00Z",
+    "url": "https://onefootball.com/fr/news/ol-academie-premier-entrainement-avec-les-pros-pour-walid-nechab-43690377"
+   },
+   {
+    "title": "Mercato OL - Lyon va encore devoir dégraisser cet hiver",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-29T08:25:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-lyon-va-encore-devoir-degraisser-cet-hiver-43690374"
+   },
+   {
     "title": "Alain Roche : « Ça va faire du bien à Godts, il fallait qu’il marque pour montrer à tout le monde que c’était un bon joueur »",
     "publisher": "ConsultantsFoot",
     "time": "2026-10-28T19:30:03Z",
@@ -7556,18 +7588,6 @@
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-28T07:45:00Z",
     "url": "https://onefootball.com/fr/news/ol-dominik-greif-bat-son-record-darrets-face-au-psg-43684293"
-   },
-   {
-    "title": "Le superbe premier but de Godts avec le PSG",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-10-28T07:29:14Z",
-    "url": "https://onefootball.com/fr/video/le-superbe-premier-but-de-godts-avec-le-psg-3LJWMpRXi4bYVkwwwzJsRTGC2Mx"
-   },
-   {
-    "title": "OL - Sidney Govou ne cache pas sa grande frustration après la défaite des Gones face au PSG",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-27T21:29:00Z",
-    "url": "https://onefootball.com/fr/news/ol-sidney-govou-ne-cache-pas-sa-grande-frustration-apres-la-defaite-des-gones-face-au-psg-43683092"
    }
   ],
   "Olympique de Marseille": [
@@ -7634,6 +7654,12 @@
   ],
   "PSG": [
    {
+    "title": "Chelsea et le PSG : duel au mercato pour une star du Barça ?",
+    "publisher": "fussball-news.de",
+    "time": "2026-10-29T08:31:07Z",
+    "url": "https://onefootball.com/fr/news/chelsea-et-le-psg-duel-au-mercato-pour-une-star-du-barca-43690386"
+   },
+   {
     "title": "PSG : oubliez Maza, Luis Enrique a déjà identifié le successeur de Kvaratskhelia !",
     "publisher": "OnzeMondial",
     "time": "2026-10-29T07:26:00Z",
@@ -7686,12 +7712,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-28T19:24:00Z",
     "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-realise-un-geste-magnifique-envers-khvicha-kvaratskhelia-43687742"
-   },
-   {
-    "title": "Samir Nasri : « Le seul profil que je vois en cador, c’est Vinicius, mais est-ce que tu vas te prendre un problème comme lui au PSG… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-28T18:30:48Z",
-    "url": "https://onefootball.com/fr/news/samir-nasri-le-seul-profil-que-je-vois-en-cador-cest-vinicius-mais-est-ce-que-tu-vas-te-prendre-un-probleme-comme-lui-au-psg-43687470"
    }
   ],
   "Paris FC": [
@@ -8068,7 +8088,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-29T08:19+00:00",
+ "fetchedAt": "2026-10-29T08:41+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
