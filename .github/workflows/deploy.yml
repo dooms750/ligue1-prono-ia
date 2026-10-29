@@ -73,7 +73,11 @@ jobs:
           if ! git diff --cached --quiet; then
             git add public/data/season.json
             git commit -m "Données Ligue 1 mises à jour"
-            git push
+            # Si le dépôt a bougé pendant la collecte, on rejoue nos données par-dessus (elles priment).
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin main && git push && break
+              sleep 5
+            done
           fi
       - uses: actions/setup-node@v4
         with:

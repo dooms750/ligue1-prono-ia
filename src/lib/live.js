@@ -1,4 +1,4 @@
-// Le direct : score, minute, buts et cartons rouges, lus toutes les 30 secondes
+// Le direct : score, minute, buts, cartons rouges et tirs cadrés, lus toutes les 30 secondes
 // pendant les matchs (source : tableau des scores public d'ESPN, accessible depuis le navigateur).
 // Hors des créneaux de match, rien n'est téléchargé.
 import { useEffect, useState } from "react";
@@ -40,6 +40,12 @@ function parseEvent(ev, homeId) {
   return { type, side, min: c.min, extra: c.extra, label: ev.clock?.displayValue || "", player: ev.athletesInvolved?.[0]?.displayName || "" };
 }
 
+function stat(team, name) {
+  const s = (team?.statistics || []).find((x) => x.name === name);
+  const v = s ? parseFloat(s.displayValue) : NaN;
+  return Number.isFinite(v) ? v : null;
+}
+
 function parse(json) {
   const out = {};
   for (const e of json.events || []) {
@@ -61,6 +67,8 @@ function parse(json) {
       hg: +home.score || 0, ag: +away.score || 0,
       redH: events.filter((x) => x.type === "rouge" && x.side === "H").length,
       redA: events.filter((x) => x.type === "rouge" && x.side === "A").length,
+      sotH: stat(home, "shotsOnTarget"), sotA: stat(away, "shotsOnTarget"),
+      shotsH: stat(home, "totalShots"), shotsA: stat(away, "totalShots"),
       events,
     };
   }

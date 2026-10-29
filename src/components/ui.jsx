@@ -128,11 +128,6 @@ export function PressList({ items, empty }) {
   );
 }
 
-function ago(iso) {
-  const h = Math.max(1, Math.round((Date.now() - new Date(iso).getTime()) / 3.6e6));
-  return h < 24 ? `il y a ${h} h` : `il y a ${Math.round(h / 24)} j`;
-}
-
 // Un match de la liste « à venir » dont la date est passée : joué, en attente du résultat.
 export function isPast(m) {
   const kick = new Date(`${m.date}T${m.time || "21:00"}:00`);
@@ -222,5 +217,35 @@ export function Countdown({ date, time }) {
     <span className="cd" aria-label={`Coup d'envoi dans ${d} jours ${h} heures ${m} minutes`}>
       {d > 0 && <><b>{d}</b>j </>}<b>{String(h).padStart(2, "0")}</b>h <b>{String(m).padStart(2, "0")}</b>min
     </span>
+  );
+}
+
+// Fraîcheur des données : date de la dernière collecte et état des sources.
+export function ago(iso) {
+  if (!iso) return "date inconnue";
+  const min = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+  if (min < 2) return "à l'instant";
+  if (min < 60) return `il y a ${min} min`;
+  const h = Math.round(min / 60);
+  if (h < 24) return `il y a ${h} h`;
+  const d = Math.round(h / 24);
+  return `il y a ${d} jour${d > 1 ? "s" : ""}`;
+}
+
+export function dataStatus(meta) {
+  const hs = meta?.health || [];
+  const issues = meta?.checks?.issues?.length || 0;
+  if (hs.some((h) => h.status === "ko")) return "ko";
+  if (issues || hs.some((h) => h.status === "late" || h.status === "partial")) return "warn";
+  return "ok";
+}
+
+export function Freshness({ meta }) {
+  const st = dataStatus(meta);
+  return (
+    <a className={`fresh fresh-${st}`} href="#/bilan/donnees" title="État des sources de données">
+      <i aria-hidden="true" />
+      <span>Ligue 1 · {meta.season}<br /><small>Données {ago(meta.fetchedAt || meta.generatedAt)}</small></span>
+    </a>
   );
 }

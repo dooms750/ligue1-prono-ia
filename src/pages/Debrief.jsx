@@ -53,6 +53,15 @@ export default function Debrief({ md, data, picks }) {
                 <span className="t t-r"><span className="nm">{A.name}</span><Badge team={A} size={28} /></span>
               </div>
               <ProbaBlade p={m.pred.p} home={H} away={A} size="sm" />
+              {m.published && (
+                <p className="db-pub">
+                  Pronostic publié avant le match, figé au coup d'envoi : {m.published.p.map(pct).join(" / ")}
+                  {m.published.levers.length ? `, avec ${m.published.levers.length} levier${m.published.levers.length > 1 ? "s" : ""}` : ""}.
+                </p>
+              )}
+              {m.scoreFixed && (
+                <p className="db-pub">Score vérifié : OneFootball indiquait {m.scoreFixed.onefootball.join("-")}, corrigé d'après {m.scoreFixed.by.join(" et ")}.</p>
+              )}
               <p className="db-verdict">
                 <span className="tag">{d.right ? "Vu juste" : "Raté"}</span>
                 {d.verdict}

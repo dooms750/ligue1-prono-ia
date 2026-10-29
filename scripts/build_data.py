@@ -281,6 +281,7 @@ def read_results(path, known_only):
             "home": home, "away": away, "hg": hg, "ag": ag,
             "htH": num(row, "HTHG", int), "htA": num(row, "HTAG", int),
             "xgH": num(row, "HxG"), "xgA": num(row, "AxG"),
+            "sotH": num(row, "HST", int), "sotA": num(row, "AST", int),
             "redH": 1 if (num(row, "HR", int) or 0) > 0 else None,
             "redA": 1 if (num(row, "AR", int) or 0) > 0 else None,
             "goals": None,
@@ -305,6 +306,10 @@ def build_real():
         from onefootball_source import build_onefootball
         played, upcoming, fetched = build_onefootball(of_files[-1], RAW)
         build_real.fetched = fetched
+        from onefootball_source import OF_NAMES
+        cache = json.loads(of_files[-1].read_text(encoding="utf-8"))
+        build_real.unknown = {m[s_] for m in cache["matches"].values() if m.get("competition") == "Ligue 1"
+                              for s_ in ("home", "away") if m.get(s_) and m[s_] not in OF_NAMES}
         history = []
         seasons = sorted(RAW.glob("F1_*.csv"))
         # Saison précédente (archive football-data.co.uk) pour démarrer le modèle.
@@ -346,6 +351,73 @@ def build_real():
     season = current.stem.split("_")[1]
     label = f"20{season[:2]}-{season[2:]}"
     return played, upcoming, "reel", history, label
+
+
+# ---------------------------------------------------------------- mesures, leviers, trace
+
+MODEL_KEY = f"v1|{PENALTY}|{DECAY}|{XG_WEIGHT}|{PREV_WEIGHT}"
+EVAL_CACHE = RAW / "history" / "eval_cache.json"
+
+
+def evaluate_cached(played, code):
+    """Les mesures prennent une minute : on les réutilise tant que les données n'ont pas changé."""
+    import hashlib
+    from evaluate import run
+    h = hashlib.sha1(MODEL_KEY.encode())
+    for f in sorted((RAW / "history").glob("*.json")) + sorted(RAW.glob("F1_*.csv")):
+        if f.name not in ("eval_cache.json", "backtest.json"):
+            h.update(f.name.encode() + f.read_bytes())
+    h.update(json.dumps([(m["date"], m["home"], m["away"], m["hg"], m["ag"], m["pred"]["p"]) for m in played]).encode())
+    key = h.hexdigest()
+    try:
+        cached = json.loads(EVAL_CACHE.read_text(encoding="utf-8"))
+        if cached.get("key") == key:
+            return cached["eval"]
+    except (FileNotFoundError, ValueError):
+        pass
+    try:
+        ev = run(played, code, {"read_results": read_results, "fit": fit, "expected_goals": expected_goals,
+                                "markets": markets, "prev_weight": PREV_WEIGHT, "key": MODEL_KEY})
+    except Exception as e:  # noqa: BLE001  une mesure ratée ne doit pas bloquer les pronostics
+        import traceback
+        traceback.print_exc()
+        print(f"Mesures indisponibles : {e}")
+        return None
+    EVAL_CACHE.parent.mkdir(parents=True, exist_ok=True)
+    EVAL_CACHE.write_text(json.dumps({"key": key, "eval": ev}, ensure_ascii=False), encoding="utf-8")
+    return ev
+
+
+def publish(m, cfg):
+    """Le pronostic tel que l'app l'affiche : modèle + leviers retenus allumés automatiquement."""
+    lh, la = m["lh"], m["la"]
+    c = m.get("ctx") or {}
+    on = []
+    cfg = cfg or {}
+
+    def use(name):
+        return cfg.get(name, {}).get("kept")
+    for side, own_key, other_key in (("H", "lh", "la"), ("A", "la", "lh")):
+        x = {"lh": lh, "la": la}
+        if use("buteur") and "buteur" in (c.get(f"abs{side}") or []):
+            x[own_key] *= cfg["buteur"]["own"]
+            x[other_key] *= cfg["buteur"]["other"]
+            on.append(f"but{side}")
+        if use("coupe") and c.get(f"europe{side}"):
+            x[own_key] *= cfg["coupe"]["own"]
+            x[other_key] *= cfg["coupe"]["other"]
+            on.append(f"eur{side}")
+        lh, la = x["lh"], x["la"]
+    if use("meteo") and c.get("weather") in ("pluie", "vent"):
+        lh, la = lh * cfg["meteo"]["own"], la * cfg["meteo"]["own"]
+        on.append("pluie")
+    p, over, _ = markets(lh, la)
+    return {"lh": r(lh), "la": r(la), "p": [r(x) for x in p], "over25": r(over), "levers": on}
+
+
+def paris_now():
+    from onefootball_source import paris
+    return paris(datetime.now(timezone.utc))
 
 
 # ---------------------------------------------------------------- assemblage
@@ -403,6 +475,24 @@ def main():
         lh, la = expected_goals(params, m["home"], m["away"])
         m["lh"], m["la"] = r(lh), r(la)
 
+    evaluation, checks, health, lever_cfg, live_cfg = None, None, [], None, None
+    if args.real and mode == "onefootball":
+        from integrity import cross_check, health as health_status, snapshots, model_info
+        code = season.replace("20", "", 1).replace("-", "")
+        checks = cross_check(played, code, CSV_NAMES, getattr(build_real, "unknown", ()))
+        health = health_status()
+        evaluation = evaluate_cached(played, code)
+        if evaluation and evaluation.get("levers"):
+            lever_cfg = {k: {"kept": v["kept"], "own": v["own"] if v["kept"] else 1.0,
+                             "other": v["other"] if v["kept"] else 1.0, "measuredOwn": v["own"],
+                             "n": v["n"], "nTest": v["nTest"], "gain": v["gain"]}
+                         for k, v in evaluation["levers"].items()}
+        if evaluation and evaluation.get("live"):
+            live_cfg = {"params": evaluation["live"]["params"], "dur": evaluation["live"]["dur"], "used": evaluation["live"]["used"]}
+        for m in upcoming:
+            m["published"] = publish(m, lever_cfg)
+        snapshots(upcoming, played, code, paris_now(), model_info(params), fetched_at)
+
     tab = standings(played, codes)
     teams = {}
     for c in codes:
@@ -415,8 +505,10 @@ def main():
                  "lastResult": max((m["date"] for m in played), default=None), "lastMatchday": last_md,
                  "nextMatchday": max(set(u["md"] for u in upcoming), key=[u["md"] for u in upcoming].count) if upcoming else last_md + 1,
                  "fetchedAt": fetched_at,
-                 "generatedAt": datetime.now(timezone.utc).isoformat(timespec="minutes")},
-        "model": {"mu": r(params["mu"]), "home": r(params["home"])},
+                 "generatedAt": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+                 "checks": checks, "health": health},
+        "model": {"mu": r(params["mu"]), "home": r(params["home"]), "levers": lever_cfg, "live": live_cfg},
+        "eval": evaluation,
         "teams": teams,
         "played": played,
         "upcoming": upcoming,

@@ -8,6 +8,8 @@ import Bilan from "./pages/Bilan.jsx";
 import Academie from "./pages/Academie.jsx";
 import Intro from "./components/Intro.jsx";
 import { useLive } from "./lib/live.js";
+import { setModelConfig } from "./model/config.js";
+import { Freshness } from "./components/ui.jsx";
 
 const NAV = [
   { path: "/", label: "Journée", icon: "M4 6h16M4 12h16M4 18h10" },
@@ -31,7 +33,7 @@ export default function App() {
   useEffect(() => {
     fetch("./data/season.json", { cache: "no-cache" })
       .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
-      .then(setData)
+      .then((d) => { setModelConfig(d.model); setData(d); })
       .catch(() => setError("Les données de la saison n'ont pas pu être chargées. Lance « npm run data:demo » puis recharge la page."));
   }, []);
 
@@ -47,7 +49,7 @@ export default function App() {
   let page;
   if (parts[0] === "match") page = <Match id={parts[1]} {...ctx} />;
   else if (parts[0] === "debrief") page = <Debrief md={Number(parts[1]) || data.meta.lastMatchday} {...ctx} />;
-  else if (parts[0] === "bilan") page = <Bilan {...ctx} />;
+  else if (parts[0] === "bilan") page = <Bilan section={parts[1]} {...ctx} />;
   else if (parts[0] === "academie") page = <Academie />;
   else page = <Home {...ctx} />;
 
@@ -65,7 +67,7 @@ export default function App() {
           </svg>
           Lucide
         </a>
-        <span className="topbar-season">Ligue 1 · {data.meta.season}</span>
+        <Freshness meta={data.meta} />
       </header>
       <main className="shell">{page}</main>
       <footer className="foot">

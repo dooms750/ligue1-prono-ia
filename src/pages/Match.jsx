@@ -93,9 +93,15 @@ export default function Match({ id, data, picks, setPick, live = {} }) {
         <section className="block live-block">
           <h2>{l.state === "in" ? "Le match en direct" : "Le match"}</h2>
           <p className="muted small">
-            Les probabilités du bandeau repartent du score actuel et ajoutent les buts encore possibles sur le temps
-            restant ({Math.round(lp.remaining * 94)} min environ), en tenant compte des cartons rouges. Mise à jour toutes les 30 secondes.
+            Les probabilités du bandeau repartent du score actuel et simulent chaque minute restante
+            ({Math.round(lp.remaining * 100)} % des buts d'un match restent à marquer). Elles tiennent compte du score
+            (l'équipe menée pousse), des cartons rouges{l.sotH != null ? " et des tirs cadrés" : ""}, avec des effets
+            mesurés sur les saisons passées. Mise à jour toutes les 30 secondes.
           </p>
+          {l.sotH != null && (
+            <p className="live-shots"><b>{l.sotH}</b> tirs cadrés <b>{l.sotA}</b>
+              {l.shotsH != null && <span> · tirs : {l.shotsH} contre {l.shotsA}</span>}</p>
+          )}
           {l.events.length ? (
             <ol className="timeline">
               {l.events.map((e, k) => (
@@ -157,18 +163,21 @@ export default function Match({ id, data, picks, setPick, live = {} }) {
       <section className="block">
         <h2>Les leviers</h2>
         <p className="muted">
-          Cinq facteurs qui comptent vraiment. Ceux marqués « détecté » ont été allumés par l'IA à partir de la presse,
-          du calendrier ou de la météo. Touche-les : le bandeau en haut et les colonnes du stade bougent en direct.
+          Cinq facteurs de contexte. Ceux marqués « détecté » ont été repérés par l'IA dans la presse, le calendrier ou
+          la météo. Leur effet est mesuré sur les saisons passées : un levier qui n'améliore pas les pronostics est
+          écarté et ne compte pas. Touche-les : le bandeau en haut et les colonnes du stade bougent en direct.
         </p>
         <div className="levers">
           {levers.map((l) => (
-            <label key={l.id} className={`lever ${active[l.id] ? "on" : ""}`}>
-              <input type="checkbox" checked={!!active[l.id]} onChange={() => toggle(l)} />
+            <label key={l.id} className={`lever ${active[l.id] && l.kept ? "on" : ""} ${l.kept ? "" : "lever-off"}`}
+              onClick={l.kept ? undefined : () => setLastWhy(l.why)}>
+              <input type="checkbox" checked={!!active[l.id] && l.kept} disabled={!l.kept} onChange={() => toggle(l)} />
               <span className="switch" aria-hidden="true" />
               <span className="lever-txt">
                 <span>{l.label}</span>
-                {l.on && <span className="lever-tag">Détecté</span>}
-                {l.on && l.source && (
+                {l.detected && <span className="lever-tag">Détecté</span>}
+                {!l.kept && <span className="lever-tag lever-tag-off">Écarté par les données</span>}
+                {l.detected && l.source && (
                   <small>
                     {l.source.url
                       ? <a href={l.source.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>{l.source.text}</a>
@@ -187,6 +196,8 @@ export default function Match({ id, data, picks, setPick, live = {} }) {
           Sans aucun facteur de contexte, l'IA donnerait {pct(base.p[0])} / {pct(base.p[1])} / {pct(base.p[2])}.
         </p>
       </section>
+
+      {m.published && <Trace pub={m.published} />}
 
       <section className="block">
         <h2>Buts et scores</h2>
@@ -254,4 +265,34 @@ export default function Match({ id, data, picks, setPick, live = {} }) {
 function signed(x) {
   const v = Math.round(x * 100);
   return `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v)} pt${Math.abs(v) > 1 ? "s" : ""}`;
+}
+
+const when = (iso) => iso ? new Date(iso).toLocaleString("fr-FR", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" }).replace(":", " h ") : "?";
+
+const LEVER_NAMES = {
+  butH: "meilleur buteur absent (domicile)", butA: "meilleur buteur absent (extérieur)",
+  eurH: "match de coupe (domicile)", eurA: "match de coupe (extérieur)", pluie: "pluie ou vent",
+};
+
+// Trace du pronostic publié : ce qui a été calculé, quand, et avec quelles données.
+function Trace({ pub }) {
+  const [p1, pn, p2] = pub.p;
+  return (
+    <section className="block trace">
+      <h2>La trace du pronostic</h2>
+      <p>
+        Pronostic publié : <b>{pct(p1)} / {pct(pn)} / {pct(p2)}</b>, calculé {when(pub.at)} avec les données
+        collectées {when(pub.dataAt)}.
+      </p>
+      <ul className="trace-list">
+        <li>Leviers comptés : {pub.levers.length ? pub.levers.map((id) => LEVER_NAMES[id] || id).join(", ") : "aucun"}</li>
+        {pub.firstAt && <li>Premier calcul : {when(pub.firstAt)}{pub.changes > 1 ? `, puis ${pub.changes - 1} mise${pub.changes > 2 ? "s" : ""} à jour` : ""}</li>}
+        {pub.model && <li>Version du modèle : {pub.model.version}</li>}
+      </ul>
+      <p className="muted small">
+        Cette trace est enregistrée dans le dépôt GitHub et figée au coup d'envoi : impossible de la retoucher
+        après coup. Le débrief la rappelle à côté du résultat.
+      </p>
+    </section>
+  );
 }

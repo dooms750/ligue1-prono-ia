@@ -46,3 +46,23 @@ test("en direct : un carton rouge fait baisser les chances de l'équipe réduite
   const a = liveMarkets(1.4, 1.2, base), b = liveMarkets(1.4, 1.2, { ...base, redH: 1 });
   assert.ok(b.p[0] < a.p[0]);
 });
+
+test("en direct : à 0-0 avant le coup d'envoi, on retrouve le pronostic d'avant-match", () => {
+  const pre = liveMarkets(1.5, 1.1, { state: "in", period: 1, minute: 0, extra: 0, hg: 0, ag: 0, redH: 0, redA: 0 });
+  assert.ok(Math.abs(pre.p.reduce((a, b) => a + b, 0) - 1) < 1e-6);
+  assert.ok(pre.p[0] > 0.42 && pre.p[0] < 0.52);
+});
+
+test("en direct : l'équipe menée pousse quand l'effet du score est mesuré", () => {
+  const st = { state: "in", period: 2, minute: 60, extra: 0, hg: 1, ag: 0, redH: 0, redA: 0 };
+  const base = { alpha: 0, gamma: 0, trail: 0, lead: 0, redOwn: 0, redOpp: 0, sot: 0 };
+  const a = liveMarkets(1.3, 1.3, st, base), b = liveMarkets(1.3, 1.3, st, { ...base, trail: 0.3, lead: -0.1 });
+  assert.ok(b.p[0] < a.p[0]);
+});
+
+test("en direct : plus de tirs cadrés que prévu, plus de chances de marquer", () => {
+  const st = { state: "in", period: 1, minute: 30, extra: 0, hg: 0, ag: 0, redH: 0, redA: 0, sotH: 6, sotA: 0 };
+  const base = { alpha: 0, gamma: 0, trail: 0, lead: 0, redOwn: 0, redOpp: 0, sot: 0 };
+  const a = liveMarkets(1.3, 1.3, st, base), b = liveMarkets(1.3, 1.3, st, { ...base, sot: 0.2 });
+  assert.ok(b.p[0] > a.p[0]);
+});
