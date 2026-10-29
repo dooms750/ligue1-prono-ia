@@ -415,6 +415,21 @@ def publish(m, cfg):
     return {"lh": r(lh), "la": r(la), "p": [r(x) for x in p], "over25": r(over), "levers": on}
 
 
+def team_history(code, by_md, played, codes):
+    """Courbes d'un club, journée par journée : indice de force, points, classement.
+
+    L'indice de force vaut 100 pour une équipe moyenne : 100 x exp(attaque - défense),
+    soit le rapport entre les buts qu'elle marque et ceux qu'elle encaisse, corrigé de l'adversaire."""
+    out = []
+    for k in sorted(by_md):
+        md = k - 1
+        tab = standings([m for m in played if m["md"] <= md], codes) if md > 0 else None
+        p = by_md[k]
+        out.append({"md": md, "index": round(100 * math.exp(p["att"][code] - p["def"][code]), 1),
+                    "pts": tab[code]["pts"] if tab else 0, "rank": tab[code]["rank"] if tab else None})
+    return out
+
+
 def paris_now():
     from onefootball_source import paris
     return paris(datetime.now(timezone.utc))
@@ -461,8 +476,10 @@ def main():
     last_md = max((m["md"] for m in played), default=0)
 
     # Pronostics « walk-forward » : chaque journée prédite avec le passé seulement.
+    by_md = {}   # paramètres connus AVANT chaque journée : ils tracent les courbes de l'app
     for md in range(1, last_md + 1):
         params = fit(history + [m for m in played if m["md"] < md], codes, md)
+        by_md[md] = params
         for m in played:
             if m["md"] == md:
                 lh, la = expected_goals(params, m["home"], m["away"])
@@ -471,9 +488,15 @@ def main():
                              "over25": r(over), "btts": r(btts)}
 
     params = fit(history + played, codes, last_md + 1)
+    by_md[last_md + 1] = params
     for m in upcoming:
         lh, la = expected_goals(params, m["home"], m["away"])
         m["lh"], m["la"] = r(lh), r(la)
+        # Le « cours » du pronostic : ce que l'IA aurait annoncé pour ce match après chaque journée.
+        m["trend"] = []
+        for k in sorted(by_md):
+            p_k, _, _ = markets(*expected_goals(by_md[k], m["home"], m["away"]))
+            m["trend"].append({"md": k - 1, "p": [r(x) for x in p_k]})
 
     evaluation, checks, health, lever_cfg, live_cfg = None, None, [], None, None
     if args.real and mode == "onefootball":
@@ -498,7 +521,8 @@ def main():
     for c in codes:
         name, color = TEAMS[c]
         teams[c] = {"name": name, "short": c, "color": color,
-                    "att": r(params["att"][c]), "def": r(params["def"][c]), **tab[c]}
+                    "att": r(params["att"][c]), "def": r(params["def"][c]), **tab[c],
+                    "history": team_history(c, by_md, played, codes)}
 
     data = {
         "meta": {"mode": mode, "season": season, "source": {"reel": "football-data.co.uk", "onefootball": "OneFootball et la presse spécialisée"}.get(mode),

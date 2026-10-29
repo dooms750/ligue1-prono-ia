@@ -9,6 +9,8 @@ import { reasons, pct } from "../model/narrative.js";
 import { matchId, formatKick } from "../lib/store.js";
 import { liveLabel } from "../lib/live.js";
 import { liveMarkets } from "../model/liveProbs.js";
+import { LineChart, Ranges, Delta } from "../components/charts.jsx";
+import { matchPath, liveEvents } from "../model/matchPath.js";
 
 const LABELS = ["Domicile", "Nul", "Extérieur"];
 
@@ -88,6 +90,8 @@ export default function Match({ id, data, picks, setPick, live = {} }) {
         </div>
         <a className="link-btn" href={`#/match/${id}/story`}>Vivre l'avant-match</a>
       </div>
+
+      <PriceChart m={m} H={H} A={A} cH={cH} cA={cA} cur={cur} l={l} />
 
       {l && (
         <section className="block live-block">
@@ -293,6 +297,60 @@ function Trace({ pub }) {
         Cette trace est enregistrée dans le dépôt GitHub et figée au coup d'envoi : impossible de la retoucher
         après coup. Le débrief la rappelle à côté du résultat.
       </p>
+    </section>
+  );
+}
+
+// Le « cours » du pronostic : son évolution journée après journée, et minute par minute en direct.
+function PriceChart({ m, H, A, cH, cA, cur, l }) {
+  const inPlay = l && l.state !== "pre";
+  const [view, setView] = useState(inPlay ? "live" : "md");
+  const mode = inPlay ? view : "md";
+  let labels, vals, markers = [];
+  if (mode === "live") {
+    const now = l.state === "post" ? 90 : l.halftime ? 45 : Math.min(90, l.period >= 2 ? Math.max(46, l.minute) : Math.min(45, l.minute));
+    const ev = liveEvents(l);
+    const path = matchPath(cur.lh, cur.la, ev, now, l.state === "post" ? [l.hg, l.ag] : null);
+    labels = path.map((x) => `${x.t}'`);
+    vals = [0, 1, 2].map((k) => path.map((x) => x.p[k] * 100));
+    markers = ev.map((e) => ({ i: e.bin, label: e.type === "rouge" ? "▮" : "⚽", color: e.type === "rouge" ? "#f0525a" : e.side === "H" ? cH : cA }));
+  } else {
+    const t = (m.trend || []).slice(0, -1);
+    labels = [...t.map((x) => (x.md === 0 ? "Début" : `J${x.md}`)), "Auj."];
+    vals = [0, 1, 2].map((k) => [...t.map((x) => x.p[k] * 100), cur.p[k] * 100]);
+  }
+  const fav = cur.p.indexOf(Math.max(...cur.p));
+  const first = vals[fav][0], last = vals[fav][vals[fav].length - 1];
+  const favName = fav === 0 ? H.name : fav === 2 ? A.name : "le nul";
+  return (
+    <section className="block chart-block">
+      <div className="chart-head">
+        <div>
+          <h2>{mode === "live" ? "Le match en direct" : "Le cours du pronostic"}</h2>
+          <p className="muted small">
+            {mode === "live"
+              ? "Les probabilités minute après minute, au fil des buts et des cartons rouges."
+              : "Ce que l'IA aurait annoncé pour ce match après chaque journée de championnat (J3 = après la 3e journée)."}
+          </p>
+        </div>
+        <span className="chart-delta">
+          <small>{favName}</small>
+          <Delta value={last - first} unit=" pt" />
+        </span>
+      </div>
+      {inPlay && (
+        <Ranges options={[{ id: "live", label: "En direct" }, { id: "md", label: "Avant-match" }]} value={view} onChange={setView} />
+      )}
+      <LineChart
+        series={[
+          { name: H.short, color: cH, values: vals[0], area: fav === 0 },
+          { name: "Nul", color: "#8b9bb0", values: vals[1], dash: "4 4", width: 1.8 },
+          { name: A.short, color: cA, values: vals[2], area: fav === 2 },
+        ]}
+        labels={labels} markers={markers} yMin={0} yMax={100}
+        yFormat={(v) => `${Math.round(v)}%`} tickEvery={mode === "live" ? 15 : undefined}
+        ariaLabel={`Évolution des probabilités de ${H.name} contre ${A.name}`}
+      />
     </section>
   );
 }
