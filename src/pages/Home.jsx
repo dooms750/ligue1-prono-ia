@@ -8,11 +8,10 @@ import { confidence, outcomeOf } from "../model/poisson.js";
 import { matchId } from "../lib/store.js";
 import { liveLabel } from "../lib/live.js";
 import { liveMarkets } from "../model/liveProbs.js";
-import { Sparkline, Delta, trendColor } from "../components/charts.jsx";
 
 const PICK_SHORT = ["1", "N", "2"];
 
-export default function Home({ data, picks, setPick, live = {} }) {
+export default function Home({ data, picks, live = {} }) {
   const { teams, upcoming, played, meta } = data;
   const last = played.filter((m) => m.md === meta.lastMatchday);
   const iaRight = last.filter((m) => m.pred.p.indexOf(Math.max(...m.pred.p)) === outcomeOf(m.hg, m.ag)).length;
@@ -60,30 +59,20 @@ export default function Home({ data, picks, setPick, live = {} }) {
 
       <LiveStrip upcoming={upcoming} teams={teams} live={live} />
 
-      <section className="market">
-        <header className="market-head">
-          <div>
-            <h2>Marchés de la journée</h2>
-            <span>{upcoming.length} matchs · cours = probabilité du favori selon l'IA</span>
-          </div>
+      <section className="guide">
+        <header className="guide-head">
+          <h2>Le programme</h2>
+          <span>{upcoming.length} matchs · pronos de l'IA</span>
         </header>
         {days.map((d) => (
-          <div className="market-day" key={d.date}>
+          <div className="guide-day" key={d.date}>
             <h3>{dayLabel(d.date)}</h3>
             <ul>
-              {d.items.map((m) => (
-                <MarketRow key={matchId(m)} m={m} teams={teams} mine={picks[matchId(m)]} meta={meta}
-                  l={live[matchId(m)]} onPick={(o) => setPick(matchId(m), picks[matchId(m)] === o ? null : o)} />
-              ))}
+              {d.items.map((m) => <Row key={matchId(m)} m={m} teams={teams} mine={picks[matchId(m)]} meta={meta} l={live[matchId(m)]} />)}
             </ul>
           </div>
         ))}
-        <p className="market-note">
-          Touche 1, N ou 2 pour prendre position (en points virtuels, sans argent) : elle rejoint ton portefeuille.
-        </p>
       </section>
-
-      <Movers teams={teams} />
 
       <a className="teaser3" href={`#/debrief/${meta.lastMatchday}`}>
         <span className="teaser3-k">{iaRight}<small>/{last.length}</small></span>
@@ -92,90 +81,58 @@ export default function Home({ data, picks, setPick, live = {} }) {
           L'IA a trouvé le bon résultat dans {iaRight} matchs. Voir ce qui a fait basculer les autres.
         </span>
       </a>
-      <a className="link-btn academy-link" href="#/academie">L'Académie : 5 notions pour lire un pronostic</a>
     </>
   );
 }
 
-const OUT = ["1", "N", "2"];
-
-// Une ligne de marché : le match, son cours (probabilité du favori), sa variation et sa courbe.
-function MarketRow({ m, teams, mine, meta, l, onPick }) {
+function Row({ m, teams, mine, meta, l }) {
   const id = matchId(m);
   const H = teams[m.home], A = teams[m.away];
   const pr = predict(m, teams);
-  const lp = l ? liveMarkets(pr.lh, pr.la, l) : null;
-  const p = lp ? lp.p : pr.p;
-  const fav = p.indexOf(Math.max(...p));
-  const trend = (m.trend || []).map((t) => t.p[fav]);
-  const prev = trend.length > 1 ? trend[trend.length - 2] : p[fav];
-  const delta = (p[fav] - (lp ? pr.p[fav] : prev)) * 100;
+  const c = confidence(pr.p);
+  const [cH, cA] = pairColors(H, A);
+  const detected = buildLevers(m, teams).filter((l) => l.on);
   const past = isPast(m) && !l;
-  const detected = buildLevers(m, teams).filter((x) => x.on).length;
-  const favName = fav === 1 ? "Nul" : fav === 0 ? H.name : A.name;
-  const locked = past || (l && l.state !== "pre");
+  const w = m.ctx?.meteo;
+  const lp = l ? liveMarkets(pr.lh, pr.la, l) : null;
   return (
-    <li className={`mrow ${l ? `mrow-live mrow-${l.state}` : ""} ${past ? "mrow-past" : ""}`}>
-      <a className="mrow-main" href={`#/match/${id}`}>
-        <span className="mrow-teams">
-          <span><Badge team={H} size={22} /><b>{H.name}</b></span>
-          <span><Badge team={A} size={22} /><b>{A.name}</b></span>
-        </span>
-        <span className="mrow-spark">
-          <Sparkline values={lp ? [pr.p[fav], p[fav]] : [...trend.slice(0, -1), p[fav]]} width={74} height={34} color={trendColor(delta)} />
-        </span>
-        <span className="mrow-price">
-          <b>{Math.round(p[fav] * 100)}<small>%</small></b>
-          <Delta value={delta} unit=" pt" />
-          <em>{favName}</em>
-        </span>
-      </a>
-      <div className="mrow-foot">
-        <span className="mrow-time">
+    <li>
+      <a className={`row ${past ? "row-past" : ""} ${l ? `row-live row-${l.state}` : ""}`} href={`#/match/${id}`}>
+        <span className="row-time">
           {l ? (
-            <><b className="live-score">{l.hg}-{l.ag}</b> <span className={l.state === "in" ? "live-min" : ""}>{liveLabel(l)}</span></>
+            <><b className="live-score">{l.hg}-{l.ag}</b><small className={l.state === "in" ? "live-min" : ""}>{liveLabel(l)}</small></>
           ) : (
-            <>{m.time ? m.time.replace(":", "h") : "–"}{m.md !== meta.nextMatchday && ` · J${m.md}`}{detected > 0 && <span className="mrow-hot"> · {detected} facteur{detected > 1 ? "s" : ""}</span>}</>
+            <><b>{m.time ? m.time.replace(":", "h") : "–"}</b>{m.md !== meta.nextMatchday && <small>J{m.md}</small>}</>
           )}
         </span>
-        <span className="mrow-btns" role="group" aria-label={`Prendre position sur ${H.name} contre ${A.name}`}>
-          {p.map((q, i) => (
-            <button key={i} type="button" disabled={locked} aria-pressed={mine === i}
-              className={`tbtn tbtn-${i} ${mine === i ? "on" : ""}`} onClick={() => onPick(i)}>
-              <span>{OUT[i]}</span><b>{Math.round(q * 100)}%</b>
-            </button>
-          ))}
+        <span className="row-main">
+          <span className="row-teams">
+            <span className="row-team" style={{ "--c": cH }}>
+              <Badge team={H} size={26} /><span className="nm">{H.name}</span><em>{ord(H.rank)}</em>
+            </span>
+            <span className="row-team" style={{ "--c": cA }}>
+              <Badge team={A} size={26} /><span className="nm">{A.name}</span><em>{ord(A.rank)}</em>
+            </span>
+          </span>
+          <ProbaBlade p={lp ? lp.p : pr.p} home={H} away={A} size="sm" />
+          <span className="row-meta">
+            {l ? (
+              <span className={`chip ${l.state === "in" ? "chip-live" : ""}`}>
+                {l.state === "in" ? "Probabilités en direct" : `Terminé ${l.hg}-${l.ag}, résultat bientôt dans le débrief`}
+              </span>
+            ) : past ? <span className="chip">Joué, résultat bientôt intégré</span> : (
+              <>
+                <span className={`chip chip-conf chip-c${c.level}`}>Confiance {c.label.toLowerCase()}</span>
+                <span className="chip">{pr.topScores[0].h}-{pr.topScores[0].a} probable</span>
+                {w && <span className={`chip chip-wx chip-${w.kind}`}>{w.temp}° · {w.kind === "beau" ? "sec" : w.kind}</span>}
+                {detected.length > 0 && <span className="chip chip-hot">{detected.length} facteur{detected.length > 1 ? "s" : ""} détecté{detected.length > 1 ? "s" : ""}</span>}
+                {mine != null && <span className="chip chip-mine">Ton prono {PICK_SHORT[mine]}</span>}
+              </>
+            )}
+          </span>
         </span>
-      </div>
+      </a>
     </li>
-  );
-}
-
-// Les plus fortes hausses et baisses de l'indice de force des clubs sur 3 journées.
-function Movers({ teams }) {
-  const rows = Object.entries(teams).map(([code, t]) => {
-    const h = t.history || [];
-    const now = h[h.length - 1]?.index, before = h[Math.max(0, h.length - 4)]?.index;
-    return { code, t, now, chg: now && before ? ((now - before) / before) * 100 : 0, values: h.map((x) => x.index) };
-  }).filter((r) => r.now).sort((a, b) => b.chg - a.chg);
-  if (!rows.length) return null;
-  const picks = [...rows.slice(0, 3), ...rows.slice(-3).reverse()];
-  return (
-    <section className="movers">
-      <header className="market-head">
-        <div><h2>Clubs qui bougent</h2><span>Indice de force Lucide, sur 3 journées</span></div>
-        <a href="#/clubs" className="see-all">Tous les clubs</a>
-      </header>
-      <div className="movers-row">
-        {picks.map((r) => (
-          <a key={r.code} className="mover" href={`#/club/${r.code}`}>
-            <span className="mover-top"><Badge team={r.t} size={24} /><b>{r.t.short}</b></span>
-            <Sparkline values={r.values.slice(-4)} width={110} height={36} color={trendColor(r.chg)} />
-            <span className="mover-val"><b>{r.now.toFixed(1).replace(".", ",")}</b><Delta value={r.chg} unit=" %" /></span>
-          </a>
-        ))}
-      </div>
-    </section>
   );
 }
 

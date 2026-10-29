@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { Badge, Form, DemoBanner } from "../components/ui.jsx";
-import { Sparkline, Delta, LineChart, Ranges, UP, DOWN, trendColor } from "../components/charts.jsx";
+import { Badge, Form } from "../components/ui.jsx";
+import { Delta, LineChart, Ranges, UP, DOWN } from "../components/charts.jsx";
 import { predict } from "../model/predict.js";
 import { ord, pct, fr1 } from "../model/narrative.js";
 import { outcomeOf } from "../model/poisson.js";
 import { matchId } from "../lib/store.js";
 
-const ordRank = (n) => (n === 1 ? "1er" : `${n}e`);
 const fmt = (v) => v.toFixed(1).replace(".", ",");
 const change = (h, k) => {
   if (!h || h.length < 2) return 0;
@@ -14,61 +13,18 @@ const change = (h, k) => {
   return ((b - a) / a) * 100;
 };
 
-const SORTS = [
-  { id: "index", label: "Indice" },
-  { id: "chg", label: "Variation" },
-  { id: "rank", label: "Classement" },
-];
-
-// La liste des clubs, comme une liste d'actifs.
-export function Clubs({ data }) {
-  const [sort, setSort] = useState("index");
-  const rows = Object.entries(data.teams).map(([code, t]) => {
-    const h = t.history || [];
-    return { code, t, h, now: h[h.length - 1]?.index ?? 100, chg: change(h, 3) };
-  });
-  rows.sort((a, b) => (sort === "rank" ? a.t.rank - b.t.rank : sort === "chg" ? b.chg - a.chg : b.now - a.now));
-  return (
-    <>
-      <DemoBanner meta={data.meta} />
-      <header className="page-head">
-        <h1>Les clubs</h1>
-        <p className="lead">
-          Chaque club a un <b>indice de force</b> : 100 pour une équipe moyenne de Ligue 1, 150 pour une équipe qui
-          marque 1,5 fois plus qu'elle n'encaisse face à un adversaire moyen. Il bouge après chaque journée.
-        </p>
-      </header>
-      <Ranges options={SORTS} value={sort} onChange={setSort} />
-      <ul className="assets">
-        {rows.map((r) => (
-          <li key={r.code}>
-            <a className="asset" href={`#/club/${r.code}`}>
-              <span className="asset-rank">{r.t.rank}</span>
-              <Badge team={r.t} size={34} />
-              <span className="asset-name"><b>{r.t.name}</b><small>{r.t.pts} pts · {ordRank(r.t.rank)}</small></span>
-              <Sparkline values={r.h.slice(-4).map((x) => x.index)} width={70} height={30} color={trendColor(r.chg)} />
-              <span className="asset-price"><b>{fmt(r.now)}</b><Delta value={r.chg} unit=" %" /></span>
-            </a>
-          </li>
-        ))}
-      </ul>
-      <p className="muted small">Courbe et variation sur les dernières journées. Touche un club pour voir toute sa saison.</p>
-    </>
-  );
-}
-
 const METRICS = [
-  { id: "index", label: "Indice de force" },
+  { id: "index", label: "Niveau" },
   { id: "pts", label: "Points" },
   { id: "rank", label: "Classement" },
 ];
 
-// La fiche d'un club : sa courbe, ses chiffres, son prochain match.
-export function Club({ code, data, live = {} }) {
+// La fiche d'une équipe : l'évolution de son niveau selon l'IA, ses chiffres, son prochain match.
+export default function Club({ code, data, live = {} }) {
   const t = data.teams[code];
   const [metric, setMetric] = useState("index");
   const [range, setRange] = useState("all");
-  if (!t) return <p className="empty">Club introuvable. <a href="#/clubs">Tous les clubs</a></p>;
+  if (!t) return <p className="empty">Équipe introuvable. <a href="#/">Revenir à la journée</a></p>;
   const h = t.history || [];
   const n = range === "5" ? 6 : range === "10" ? 11 : h.length;
   const view = h.slice(-n);
@@ -94,8 +50,9 @@ export function Club({ code, data, live = {} }) {
       </header>
 
       <section className="quote">
-        <span className="quote-label">Indice de force Lucide</span>
-        <span className="quote-price"><b>{fmt(now)}</b><Delta value={d1} unit=" %" /><small>sur la dernière journée</small></span>
+        <span className="quote-label">Niveau de l'équipe selon l'IA</span>
+        <span className="quote-price"><b>{fmt(now)}</b><Delta value={d1} unit=" %" /><small>depuis la journée précédente</small></span>
+        <span className="muted small">100 = une équipe moyenne de Ligue 1. À 150, une équipe marque 1,5 fois plus qu'elle n'encaisse face à un adversaire moyen.</span>
       </section>
 
       <section className="block chart-block">
@@ -108,7 +65,7 @@ export function Club({ code, data, live = {} }) {
           yMin={metric === "rank" ? 1 : undefined} yMax={metric === "rank" ? 18 : undefined}
           ariaLabel={`Évolution ${METRICS.find((x) => x.id === metric).label} de ${t.name}`}
         />
-        <Ranges options={[{ id: "5", label: "5J" }, { id: "10", label: "10J" }, { id: "all", label: "Saison" }]} value={range} onChange={setRange} />
+        <Ranges options={[{ id: "5", label: "5 journées" }, { id: "10", label: "10 journées" }, { id: "all", label: "Saison" }]} value={range} onChange={setRange} />
         {metric === "index" && (
           <p className="muted small">
             Le point « Avant J1 » vient de la saison précédente. Chaque point est calculé avec les seuls matchs déjà

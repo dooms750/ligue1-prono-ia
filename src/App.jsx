@@ -6,19 +6,17 @@ import Stories from "./pages/Stories.jsx";
 import Debrief from "./pages/Debrief.jsx";
 import Bilan from "./pages/Bilan.jsx";
 import Academie from "./pages/Academie.jsx";
-import { Clubs, Club } from "./pages/Clubs.jsx";
-import Portfolio from "./pages/Portfolio.jsx";
+import Club from "./pages/Club.jsx";
 import Intro from "./components/Intro.jsx";
 import { useLive } from "./lib/live.js";
 import { setModelConfig } from "./model/config.js";
 import { Freshness } from "./components/ui.jsx";
 
 const NAV = [
-  { path: "/", label: "Marchés", icon: "M3 17l5-5 4 4 8-9M15 7h5v5" },
-  { path: "/clubs", label: "Clubs", icon: "M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z" },
-  { path: "/portefeuille", label: "Portefeuille", icon: "M3 7h18v12H3zM3 7l2-3h14l2 3M16 13h2" },
-  { path: "/debrief", label: "Résultats", icon: "M5 12l4 4L19 6" },
+  { path: "/", label: "Journée", icon: "M4 6h16M4 12h16M4 18h10" },
+  { path: "/debrief", label: "Débrief", icon: "M5 12l4 4L19 6" },
   { path: "/bilan", label: "Bilan", icon: "M5 19V11M12 19V5M19 19v-6" },
+  { path: "/academie", label: "Académie", icon: "M3 9l9-5 9 5-9 5-9-5zM7 11.5V16c3 2 7 2 10 0v-4.5" },
 ];
 
 export default function App() {
@@ -54,12 +52,10 @@ export default function App() {
   else if (parts[0] === "debrief") page = <Debrief md={Number(parts[1]) || data.meta.lastMatchday} {...ctx} />;
   else if (parts[0] === "bilan") page = <Bilan section={parts[1]} {...ctx} />;
   else if (parts[0] === "academie") page = <Academie />;
-  else if (parts[0] === "clubs") page = <Clubs {...ctx} />;
   else if (parts[0] === "club") page = <Club code={parts[1]} {...ctx} />;
-  else if (parts[0] === "portefeuille") page = <Portfolio {...ctx} />;
   else page = <Home {...ctx} />;
 
-  const current = "/" + (parts[0] === "club" ? "clubs" : parts[0] && parts[0] !== "match" ? parts[0] : "");
+  const current = "/" + (parts[0] && parts[0] !== "match" ? parts[0] : "");
 
   return (
     <>

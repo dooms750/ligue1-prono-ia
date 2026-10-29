@@ -12,12 +12,11 @@ les probabilités, ce qui les fait bouger, et si l'IA a vraiment raison sur la d
 
 | Écran | Rôle |
 | --- | --- |
-| **Marchés** | L'affiche de la journée dans un stade 3D, puis chaque match comme un marché : son cours (probabilité du favori), sa variation depuis la journée précédente, sa courbe, et trois boutons 1 / N / 2 pour prendre position en points virtuels. Les clubs qui bougent le plus. |
-| **Clubs** | Les 18 clubs comme des actifs : indice de force (100 = équipe moyenne), variation, courbe. La fiche d'un club : grand graphique interactif (indice, points, classement ; 5 journées, 10 journées ou saison), chiffres clés, prochain match, derniers résultats. |
-| **Portefeuille** | Les pronos de l'utilisateur comme des positions de 10 points virtuels réglées à la cote du marché, la courbe de performance comparée à « Copier l'IA », les positions en cours et l'historique. Aucun argent réel. |
+| **Journée** | L'affiche de la journée dans un stade 3D de nuit, puis les 9 matchs avec le pronostic de l'IA. |
 | **Stories** | L'avant-match en 7 écrans, avec une caméra qui se déplace dans le stade : affiche, forme, attaque contre défense, contexte, verdict de l'IA, raisons, ton avis. |
-| **Fiche match** | Le cours du pronostic (ce que l'IA aurait annoncé après chaque journée) et, pendant le match, les probabilités minute par minute. Le stade 3D (à faire tourner au doigt) où chaque issue est une colonne de lumière et où le ballon roule vers le favori, les **5 leviers** (meilleur buteur absent pour chaque équipe, match de coupe en semaine pour chaque équipe, pluie ou vent), allumés automatiquement avec leur source, qui font monter ou descendre les colonnes, la grille des scores, la comparaison avec les cotes. |
-| **Résultats** | Prono contre réalité pour chaque match, avec le graphique du match (probabilités minute par minute au fil des buts et des cartons rouges), avec ce qui a fait basculer la rencontre (carton rouge, renversement, but tardif). |
+| **Fiche match** | L'évolution du pronostic en courbe (ce que l'IA aurait annoncé après chaque journée) et, pendant le match, les probabilités minute par minute. Le stade 3D (à faire tourner au doigt) où chaque issue est une colonne de lumière et où le ballon roule vers le favori, les **5 leviers** (meilleur buteur absent pour chaque équipe, match de coupe en semaine pour chaque équipe, pluie ou vent), allumés automatiquement avec leur source, qui font monter ou descendre les colonnes, la grille des scores, la comparaison avec les cotes. |
+| **Débrief** | Prono contre réalité pour chaque match, avec la courbe du match (probabilités minute par minute au fil des buts et des cartons rouges), avec ce qui a fait basculer la rencontre (carton rouge, renversement, but tardif). |
+| **Fiche équipe** | Touche le nom d'une équipe sur la fiche du match : la courbe de son niveau selon l'IA (100 = équipe moyenne), de ses points et de son classement, journée après journée, ses chiffres clés et ses derniers résultats. |
 | **Bilan** | Le bilan public de l'IA : taux de réussite, score de Brier contre le marché, calibration. Chaque prono est calculé avec les seuls matchs joués avant. |
 | **Académie** | 5 notions manipulables : ce que veut dire 60 %, la loi de Poisson, la marge des bookmakers, la régression vers la moyenne, le jeu responsable. |
 

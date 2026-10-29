@@ -85,8 +85,8 @@ export default function Match({ id, data, picks, setPick, live = {} }) {
 
       <div className="match-bar">
         <div className="forms">
-          <span>{H.short} <Form form={H.form} /></span>
-          <span>{A.short} <Form form={A.form} /></span>
+          <a href={`#/club/${m.home}`}>{H.short} <Form form={H.form} /></a>
+          <a href={`#/club/${m.away}`}>{A.short} <Form form={A.form} /></a>
         </div>
         <a className="link-btn" href={`#/match/${id}/story`}>Vivre l'avant-match</a>
       </div>
@@ -301,7 +301,7 @@ function Trace({ pub }) {
   );
 }
 
-// Le « cours » du pronostic : son évolution journée après journée, et minute par minute en direct.
+// L'évolution du pronostic : journée après journée, et minute par minute pendant le match.
 function PriceChart({ m, H, A, cH, cA, cur, l }) {
   const inPlay = l && l.state !== "pre";
   const [view, setView] = useState(inPlay ? "live" : "md");
@@ -326,7 +326,7 @@ function PriceChart({ m, H, A, cH, cA, cur, l }) {
     <section className="block chart-block">
       <div className="chart-head">
         <div>
-          <h2>{mode === "live" ? "Le match en direct" : "Le cours du pronostic"}</h2>
+          <h2>{mode === "live" ? "Le match en direct" : "L'évolution du pronostic"}</h2>
           <p className="muted small">
             {mode === "live"
               ? "Les probabilités minute après minute, au fil des buts et des cartons rouges."

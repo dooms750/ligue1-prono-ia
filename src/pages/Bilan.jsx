@@ -71,7 +71,6 @@ export default function Bilan({ data, picks, section }) {
           Chaque pronostic est calculé avant le match, avec uniquement les résultats connus à ce moment-là, puis comparé
           aux bookmakers et à une référence simple, sur exactement les mêmes matchs.
         </p>
-        <a className="link-btn academy-link" href="#/academie">L'Académie : comprendre probabilités, marge et calibration</a>
       </header>
 
       <section className="stats stats-4">
