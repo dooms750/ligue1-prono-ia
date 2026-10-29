@@ -6,12 +6,1142 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-29T07:57+00:00",
-  "generatedAt": "2026-10-29T08:12+00:00"
+  "fetchedAt": "2026-10-29T08:19+00:00",
+  "generatedAt": "2026-10-29T08:23+00:00",
+  "checks": {
+   "compared": 72,
+   "agree": 72,
+   "issues": [],
+   "fixed": []
+  },
+  "health": [
+   {
+    "id": "onefootball",
+    "label": "OneFootball (matchs, compos, presse)",
+    "status": "ok",
+    "lastOk": "2026-10-29T08:19+00:00",
+    "lastAttempt": "2026-10-29T08:19+00:00",
+    "error": null,
+    "failures": 0,
+    "count": 110
+   },
+   {
+    "id": "espn",
+    "label": "ESPN (scores à la pause)",
+    "status": "ok",
+    "lastOk": "2026-10-29T08:20+00:00",
+    "lastAttempt": "2026-10-29T08:20+00:00",
+    "error": null,
+    "failures": 0,
+    "count": 72
+   },
+   {
+    "id": "weather",
+    "label": "Prévisions météo (Open-Meteo)",
+    "status": "ok",
+    "lastOk": "2026-10-29T08:20+00:00",
+    "lastAttempt": "2026-10-29T08:20+00:00",
+    "error": null,
+    "failures": 0,
+    "count": 9
+   },
+   {
+    "id": "footballdata",
+    "label": "football-data.co.uk (cotes)",
+    "status": "ok",
+    "lastOk": "2026-10-29T08:21+00:00",
+    "lastAttempt": "2026-10-29T08:21+00:00",
+    "error": null,
+    "failures": 0,
+    "count": 72
+   },
+   {
+    "id": "history",
+    "label": "Historique (ESPN, archives météo)",
+    "status": "ok",
+    "lastOk": "2026-10-29T08:21+00:00",
+    "lastAttempt": "2026-10-29T08:21+00:00",
+    "error": null,
+    "failures": 0,
+    "count": 1210
+   }
+  ]
  },
  "model": {
   "mu": 0.231,
-  "home": 0.213
+  "home": 0.213,
+  "levers": {
+   "buteur": {
+    "kept": false,
+    "own": 1.0,
+    "other": 1.0,
+    "measuredOwn": 1.008,
+    "n": 331,
+    "nTest": 316,
+    "gain": -0.0015
+   },
+   "coupe": {
+    "kept": true,
+    "own": 1.068,
+    "other": 0.945,
+    "measuredOwn": 1.068,
+    "n": 222,
+    "nTest": 207,
+    "gain": 0.0038
+   },
+   "meteo": {
+    "kept": false,
+    "own": 1.0,
+    "other": 1.0,
+    "measuredOwn": 0.989,
+    "n": 108,
+    "nTest": 93,
+    "gain": -0.0006
+   }
+  },
+  "live": {
+   "params": {
+    "alpha": 0.0,
+    "gamma": 0.1849,
+    "trail": 0.0,
+    "lead": 0.0,
+    "redOwn": -0.3285,
+    "redOpp": 0.2231,
+    "sot": 0.0
+   },
+   "dur": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    3.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    6.0
+   ],
+   "used": "mesuré"
+  }
+ },
+ "eval": {
+  "quality": {
+   "seasons": {
+    "2425": {
+     "n": 306,
+     "models": {
+      "ia": {
+       "brier": 0.5801,
+       "logloss": 0.9756,
+       "acc": 0.546
+      },
+      "mk": {
+       "brier": 0.5668,
+       "logloss": 0.9584,
+       "acc": 0.539
+      },
+      "ref": {
+       "brier": 0.6378,
+       "logloss": 1.0544,
+       "acc": 0.467
+      }
+     },
+     "diffMk_brier": [
+      0.0029,
+      0.0237
+     ],
+     "diffRef_brier": [
+      -0.0796,
+      -0.036
+     ],
+     "diffMk_logloss": [
+      0.0013,
+      0.0326
+     ],
+     "diffRef_logloss": [
+      -0.1084,
+      -0.049
+     ],
+     "calib": {
+      "ia": [
+       {
+        "lo": 0,
+        "hi": 0.1,
+        "n": 8,
+        "pred": 0.075,
+        "obs": 0.0
+       },
+       {
+        "lo": 0.1,
+        "hi": 0.2,
+        "n": 89,
+        "pred": 0.169,
+        "obs": 0.135
+       },
+       {
+        "lo": 0.2,
+        "hi": 0.3,
+        "n": 402,
+        "pred": 0.246,
+        "obs": 0.221
+       },
+       {
+        "lo": 0.3,
+        "hi": 0.4,
+        "n": 149,
+        "pred": 0.347,
+        "obs": 0.329
+       },
+       {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 133,
+        "pred": 0.444,
+        "obs": 0.496
+       },
+       {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 85,
+        "pred": 0.542,
+        "obs": 0.588
+       },
+       {
+        "lo": 0.6,
+        "hi": 0.7,
+        "n": 41,
+        "pred": 0.638,
+        "obs": 0.805
+       },
+       {
+        "lo": 0.7,
+        "hi": 1.0,
+        "n": 11,
+        "pred": 0.775,
+        "obs": 0.636
+       }
+      ],
+      "mk": [
+       {
+        "lo": 0,
+        "hi": 0.1,
+        "n": 19,
+        "pred": 0.08,
+        "obs": 0.053
+       },
+       {
+        "lo": 0.1,
+        "hi": 0.2,
+        "n": 147,
+        "pred": 0.161,
+        "obs": 0.156
+       },
+       {
+        "lo": 0.2,
+        "hi": 0.3,
+        "n": 374,
+        "pred": 0.256,
+        "obs": 0.235
+       },
+       {
+        "lo": 0.3,
+        "hi": 0.4,
+        "n": 116,
+        "pred": 0.347,
+        "obs": 0.336
+       },
+       {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 101,
+        "pred": 0.448,
+        "obs": 0.455
+       },
+       {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 78,
+        "pred": 0.546,
+        "obs": 0.641
+       },
+       {
+        "lo": 0.6,
+        "hi": 0.7,
+        "n": 56,
+        "pred": 0.652,
+        "obs": 0.679
+       },
+       {
+        "lo": 0.7,
+        "hi": 1.0,
+        "n": 27,
+        "pred": 0.76,
+        "obs": 0.778
+       }
+      ]
+     }
+    },
+    "2526": {
+     "n": 306,
+     "models": {
+      "ia": {
+       "brier": 0.5982,
+       "logloss": 1.0011,
+       "acc": 0.503
+      },
+      "mk": {
+       "brier": 0.5803,
+       "logloss": 0.9732,
+       "acc": 0.542
+      },
+      "ref": {
+       "brier": 0.6438,
+       "logloss": 1.0656,
+       "acc": 0.461
+      }
+     },
+     "diffMk_brier": [
+      0.0059,
+      0.0288
+     ],
+     "diffRef_brier": [
+      -0.064,
+      -0.0262
+     ],
+     "diffMk_logloss": [
+      0.0106,
+      0.0436
+     ],
+     "diffRef_logloss": [
+      -0.0902,
+      -0.0374
+     ],
+     "calib": {
+      "ia": [
+       {
+        "lo": 0.1,
+        "hi": 0.2,
+        "n": 91,
+        "pred": 0.168,
+        "obs": 0.132
+       },
+       {
+        "lo": 0.2,
+        "hi": 0.3,
+        "n": 392,
+        "pred": 0.246,
+        "obs": 0.237
+       },
+       {
+        "lo": 0.3,
+        "hi": 0.4,
+        "n": 172,
+        "pred": 0.35,
+        "obs": 0.36
+       },
+       {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 117,
+        "pred": 0.442,
+        "obs": 0.462
+       },
+       {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 91,
+        "pred": 0.545,
+        "obs": 0.527
+       },
+       {
+        "lo": 0.6,
+        "hi": 0.7,
+        "n": 37,
+        "pred": 0.645,
+        "obs": 0.73
+       },
+       {
+        "lo": 0.7,
+        "hi": 1.0,
+        "n": 11,
+        "pred": 0.751,
+        "obs": 0.818
+       }
+      ],
+      "mk": [
+       {
+        "lo": 0,
+        "hi": 0.1,
+        "n": 21,
+        "pred": 0.08,
+        "obs": 0.048
+       },
+       {
+        "lo": 0.1,
+        "hi": 0.2,
+        "n": 131,
+        "pred": 0.158,
+        "obs": 0.13
+       },
+       {
+        "lo": 0.2,
+        "hi": 0.3,
+        "n": 375,
+        "pred": 0.255,
+        "obs": 0.264
+       },
+       {
+        "lo": 0.3,
+        "hi": 0.4,
+        "n": 135,
+        "pred": 0.347,
+        "obs": 0.348
+       },
+       {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 104,
+        "pred": 0.453,
+        "obs": 0.452
+       },
+       {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 80,
+        "pred": 0.547,
+        "obs": 0.537
+       },
+       {
+        "lo": 0.6,
+        "hi": 0.7,
+        "n": 37,
+        "pred": 0.65,
+        "obs": 0.649
+       },
+       {
+        "lo": 0.7,
+        "hi": 1.0,
+        "n": 35,
+        "pred": 0.752,
+        "obs": 0.8
+       }
+      ]
+     }
+    },
+    "2627": {
+     "n": 72,
+     "models": {
+      "ia": {
+       "brier": 0.6159,
+       "logloss": 1.0285,
+       "acc": 0.528
+      },
+      "mk": {
+       "brier": 0.5861,
+       "logloss": 0.9848,
+       "acc": 0.542
+      },
+      "ref": {
+       "brier": 0.6504,
+       "logloss": 1.0759,
+       "acc": 0.444
+      }
+     },
+     "diffMk_brier": [
+      0.0042,
+      0.0548
+     ],
+     "diffRef_brier": [
+      -0.0646,
+      -0.0039
+     ],
+     "diffMk_logloss": [
+      0.0064,
+      0.0794
+     ],
+     "diffRef_logloss": [
+      -0.0885,
+      -0.0057
+     ],
+     "calib": {
+      "ia": [
+       {
+        "lo": 0.2,
+        "hi": 0.3,
+        "n": 103,
+        "pred": 0.248,
+        "obs": 0.272
+       },
+       {
+        "lo": 0.3,
+        "hi": 0.4,
+        "n": 44,
+        "pred": 0.341,
+        "obs": 0.227
+       },
+       {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 41,
+        "pred": 0.446,
+        "obs": 0.512
+       },
+       {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 19,
+        "pred": 0.534,
+        "obs": 0.579
+       }
+      ],
+      "mk": [
+       {
+        "lo": 0.1,
+        "hi": 0.2,
+        "n": 26,
+        "pred": 0.165,
+        "obs": 0.077
+       },
+       {
+        "lo": 0.2,
+        "hi": 0.3,
+        "n": 91,
+        "pred": 0.255,
+        "obs": 0.286
+       },
+       {
+        "lo": 0.3,
+        "hi": 0.4,
+        "n": 38,
+        "pred": 0.349,
+        "obs": 0.263
+       },
+       {
+        "lo": 0.4,
+        "hi": 0.5,
+        "n": 27,
+        "pred": 0.446,
+        "obs": 0.556
+       },
+       {
+        "lo": 0.5,
+        "hi": 0.6,
+        "n": 15,
+        "pred": 0.543,
+        "obs": 0.467
+       },
+       {
+        "lo": 0.6,
+        "hi": 0.7,
+        "n": 13,
+        "pred": 0.65,
+        "obs": 0.769
+       }
+      ]
+     }
+    }
+   },
+   "all": {
+    "n": 684,
+    "models": {
+     "ia": {
+      "brier": 0.592,
+      "logloss": 0.9926,
+      "acc": 0.525
+     },
+     "mk": {
+      "brier": 0.5749,
+      "logloss": 0.9678,
+      "acc": 0.541
+     },
+     "ref": {
+      "brier": 0.6418,
+      "logloss": 1.0617,
+      "acc": 0.462
+     }
+    },
+    "diffMk_brier": [
+     0.0092,
+     0.0246
+    ],
+    "diffRef_brier": [
+     -0.0629,
+     -0.0372
+    ],
+    "diffMk_logloss": [
+     0.0134,
+     0.0356
+    ],
+    "diffRef_logloss": [
+     -0.0868,
+     -0.0522
+    ],
+    "calib": {
+     "ia": [
+      {
+       "lo": 0,
+       "hi": 0.1,
+       "n": 15,
+       "pred": 0.079,
+       "obs": 0.067
+      },
+      {
+       "lo": 0.1,
+       "hi": 0.2,
+       "n": 186,
+       "pred": 0.169,
+       "obs": 0.129
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.3,
+       "n": 897,
+       "pred": 0.246,
+       "obs": 0.234
+      },
+      {
+       "lo": 0.3,
+       "hi": 0.4,
+       "n": 365,
+       "pred": 0.347,
+       "obs": 0.332
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.5,
+       "n": 291,
+       "pred": 0.444,
+       "obs": 0.485
+      },
+      {
+       "lo": 0.5,
+       "hi": 0.6,
+       "n": 195,
+       "pred": 0.542,
+       "obs": 0.559
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.7,
+       "n": 81,
+       "pred": 0.64,
+       "obs": 0.765
+      },
+      {
+       "lo": 0.7,
+       "hi": 1.0,
+       "n": 22,
+       "pred": 0.763,
+       "obs": 0.727
+      }
+     ],
+     "mk": [
+      {
+       "lo": 0,
+       "hi": 0.1,
+       "n": 43,
+       "pred": 0.079,
+       "obs": 0.047
+      },
+      {
+       "lo": 0.1,
+       "hi": 0.2,
+       "n": 304,
+       "pred": 0.16,
+       "obs": 0.138
+      },
+      {
+       "lo": 0.2,
+       "hi": 0.3,
+       "n": 840,
+       "pred": 0.255,
+       "obs": 0.254
+      },
+      {
+       "lo": 0.3,
+       "hi": 0.4,
+       "n": 289,
+       "pred": 0.347,
+       "obs": 0.332
+      },
+      {
+       "lo": 0.4,
+       "hi": 0.5,
+       "n": 232,
+       "pred": 0.45,
+       "obs": 0.466
+      },
+      {
+       "lo": 0.5,
+       "hi": 0.6,
+       "n": 173,
+       "pred": 0.546,
+       "obs": 0.578
+      },
+      {
+       "lo": 0.6,
+       "hi": 0.7,
+       "n": 106,
+       "pred": 0.651,
+       "obs": 0.679
+      },
+      {
+       "lo": 0.7,
+       "hi": 1.0,
+       "n": 65,
+       "pred": 0.757,
+       "obs": 0.785
+      }
+     ]
+    }
+   },
+   "current": "2627",
+   "notInCommon": 0
+  },
+  "linked": 990,
+  "generatedAt": "2026-10-29T08:22+00:00",
+  "levers": {
+   "buteur": {
+    "n": 331,
+    "nKnown": 695,
+    "nTest": 316,
+    "own": 1.008,
+    "other": 1.0,
+    "sd": 0.004,
+    "ci": [
+     1.001,
+     1.016
+    ],
+    "hypothesis": {
+     "own": 0.86,
+     "other": 1.0
+    },
+    "gain": -0.0015,
+    "gainHyp": -0.0061,
+    "gainCi": [
+     -0.0054,
+     0.0023
+    ],
+    "goalsObserved": 920,
+    "goalsExpected": 923.9,
+    "kept": false
+   },
+   "coupe": {
+    "n": 222,
+    "nKnown": 990,
+    "nTest": 207,
+    "own": 1.068,
+    "other": 0.945,
+    "sd": 0.034,
+    "ci": [
+     1.009,
+     1.13
+    ],
+    "hypothesis": {
+     "own": 0.95,
+     "other": 1.03
+    },
+    "gain": 0.0038,
+    "gainHyp": -0.0075,
+    "gainCi": [
+     -0.0049,
+     0.0132
+    ],
+    "goalsObserved": 663,
+    "goalsExpected": 645.3,
+    "kept": true
+   },
+   "meteo": {
+    "n": 108,
+    "nKnown": 981,
+    "nTest": 93,
+    "own": 0.989,
+    "other": 0.989,
+    "sd": 0.054,
+    "ci": [
+     0.905,
+     1.08
+    ],
+    "hypothesis": {
+     "own": 0.9,
+     "other": 0.9
+    },
+    "gain": -0.0006,
+    "gainHyp": 0.0015,
+    "gainCi": [
+     -0.003,
+     0.0018
+    ],
+    "goalsObserved": 300,
+    "goalsExpected": 303.9,
+    "kept": false
+   }
+  },
+  "live": {
+   "params": {
+    "alpha": 0.0,
+    "gamma": 0.1849,
+    "trail": 0.0,
+    "lead": 0.0,
+    "redOwn": -0.3285,
+    "redOpp": 0.2231,
+    "sot": 0.0
+   },
+   "fitted": {
+    "alpha": 0.0,
+    "gamma": 0.1768,
+    "trail": 0.052,
+    "lead": -0.0183,
+    "redOwn": -0.4341,
+    "redOpp": 0.4393,
+    "sot": 0.1098
+   },
+   "used": "mesuré",
+   "blocks": {
+    "cartons": {
+     "kept": false,
+     "gain": -0.0005
+    },
+    "rythme": {
+     "kept": true,
+     "gain": 0.0133
+    },
+    "score": {
+     "kept": false,
+     "gain": -0.0007
+    },
+    "tirs": {
+     "kept": false,
+     "gain": -0.0141
+    }
+   },
+   "chosen": [
+    "rythme"
+   ],
+   "steps": [
+    {
+     "block": "rythme",
+     "with": [],
+     "gain": 0.0133
+    },
+    {
+     "block": "cartons",
+     "with": [],
+     "gain": -0.0005
+    },
+    {
+     "block": "score",
+     "with": [],
+     "gain": -0.0007
+    },
+    {
+     "block": "tirs",
+     "with": [],
+     "gain": -0.0141
+    },
+    {
+     "block": "score",
+     "with": [
+      "rythme"
+     ],
+     "gain": 0.0106
+    },
+    {
+     "block": "cartons",
+     "with": [
+      "rythme"
+     ],
+     "gain": 0.0104
+    },
+    {
+     "block": "tirs",
+     "with": [
+      "rythme"
+     ],
+     "gain": 0.0008
+    }
+   ],
+   "n": 990,
+   "nShots": 988,
+   "nReds": 243,
+   "tested": [
+    "2425",
+    "2526",
+    "2627"
+   ],
+   "table": [
+    {
+     "min": 15,
+     "n": 684,
+     "old": {
+      "logloss": 0.9474,
+      "brier": 0.5609
+     },
+     "new": {
+      "logloss": 0.947,
+      "brier": 0.5605
+     },
+     "gainCi": [
+      -0.0,
+      0.001
+     ]
+    },
+    {
+     "min": 30,
+     "n": 684,
+     "old": {
+      "logloss": 0.8776,
+      "brier": 0.5157
+     },
+     "new": {
+      "logloss": 0.8766,
+      "brier": 0.5151
+     },
+     "gainCi": [
+      -0.0001,
+      0.0021
+     ]
+    },
+    {
+     "min": 45,
+     "n": 684,
+     "old": {
+      "logloss": 0.788,
+      "brier": 0.4589
+     },
+     "new": {
+      "logloss": 0.7864,
+      "brier": 0.4581
+     },
+     "gainCi": [
+      0.0,
+      0.0034
+     ]
+    },
+    {
+     "min": 60,
+     "n": 684,
+     "old": {
+      "logloss": 0.7152,
+      "brier": 0.4075
+     },
+     "new": {
+      "logloss": 0.7115,
+      "brier": 0.4063
+     },
+     "gainCi": [
+      0.001,
+      0.0062
+     ]
+    },
+    {
+     "min": 75,
+     "n": 684,
+     "old": {
+      "logloss": 0.5577,
+      "brier": 0.3195
+     },
+     "new": {
+      "logloss": 0.5542,
+      "brier": 0.3177
+     },
+     "gainCi": [
+      0.0009,
+      0.0064
+     ]
+    },
+    {
+     "min": 85,
+     "n": 684,
+     "old": {
+      "logloss": 0.3974,
+      "brier": 0.2184
+     },
+     "new": {
+      "logloss": 0.3943,
+      "brier": 0.2171
+     },
+     "gainCi": [
+      0.0006,
+      0.0056
+     ]
+    }
+   ],
+   "dur": [
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    3.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    6.0
+   ]
+  }
  },
  "teams": {
   "PSG": {
@@ -5588,12 +6718,6 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883",
         "time": "2026-10-28T16:33:00Z"
-       },
-       {
-        "title": "Le Havre AC - Didier Digard peste contre l'arbitrage après la défaite face à l'OM, deux penaltys oubliés selon lui ! (vidéo)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/le-havre-ac-didier-digard-peste-contre-larbitrage-apres-la-defaite-face-a-lom-deux-penaltys-oublies-selon-lui-video-43671567",
-        "time": "2026-10-25T19:20:00Z"
        }
       ],
       "scorer": {
@@ -5651,7 +6775,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5681,7 +6805,27 @@
     }
    },
    "lh": 1.106,
-   "la": 1.891
+   "la": 1.891,
+   "published": {
+    "lh": 1.106,
+    "la": 1.891,
+    "p": [
+     0.22,
+     0.224,
+     0.557
+    ],
+    "over25": 0.576,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -5776,7 +6920,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5806,7 +6950,27 @@
     }
    },
    "lh": 1.427,
-   "la": 1.63
+   "la": 1.63,
+   "published": {
+    "lh": 1.427,
+    "la": 1.63,
+    "p": [
+     0.336,
+     0.239,
+     0.425
+    ],
+    "over25": 0.589,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -5865,15 +7029,15 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/lens-nouveau-coup-dur-pour-le-racing-odsonne-edouard-absent-plusieurs-semaines-43689988",
         "time": "2026-10-29T06:18:00Z"
-       },
-       {
-        "title": "RC Lens - La confidence déchirante de Samson Baidoo sur ses blessures",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-la-confidence-dechirante-de-samson-baidoo-sur-ses-blessures-43686807",
-        "time": "2026-10-28T16:10:00Z"
        }
       ],
       "other": [
+       {
+        "title": "Le RC Lens invite des jeunes internationaux haïtiens pour un séjour à la Gaillette",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/le-rc-lens-invite-des-jeunes-internationaux-haitiens-pour-un-sejour-a-la-gaillette-43690335",
+        "time": "2026-10-29T08:14:37Z"
+       },
        {
         "title": "Où en sont les Lensois avec les cartons avant le derby ?",
         "publisher": "Lensois.com",
@@ -5885,12 +7049,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/rc-lens-cahuzac-annonce-la-couleur-avant-le-derby-contre-lille-43687505",
         "time": "2026-10-28T18:30:50Z"
-       },
-       {
-        "title": "RC Lens - Mauvaise nouvelle pour les supporters lensois avant le derby contre le LOSC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-mauvaise-nouvelle-pour-les-supporters-lensois-avant-le-derby-contre-le-losc-43687412",
-        "time": "2026-10-28T18:18:00Z"
        }
       ],
       "scorer": {
@@ -5920,7 +7078,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -5950,7 +7108,27 @@
     }
    },
    "lh": 1.469,
-   "la": 1.241
+   "la": 1.241,
+   "published": {
+    "lh": 1.469,
+    "la": 1.241,
+    "p": [
+     0.424,
+     0.256,
+     0.32
+    ],
+    "over25": 0.509,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -6001,13 +7179,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 88,
+     "confidence": 89,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6031,13 +7209,33 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 9,
-       "conf": 88
+       "conf": 89
       }
      ]
     }
    },
    "lh": 1.269,
-   "la": 1.334
+   "la": 1.334,
+   "published": {
+    "lh": 1.269,
+    "la": 1.334,
+    "p": [
+     0.353,
+     0.264,
+     0.383
+    ],
+    "over25": 0.482,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -6132,7 +7330,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6162,7 +7360,27 @@
     }
    },
    "lh": 1.96,
-   "la": 1.464
+   "la": 1.464,
+   "published": {
+    "lh": 1.96,
+    "la": 1.464,
+    "p": [
+     0.492,
+     0.219,
+     0.289
+    ],
+    "over25": 0.665,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -6236,7 +7454,7 @@
      "stadium": "Groupama Stadium",
      "roof": false,
      "daysBefore": 3,
-     "temp": 12,
+     "temp": 11,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
@@ -6251,7 +7469,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6281,7 +7499,27 @@
     }
    },
    "lh": 1.978,
-   "la": 0.86
+   "la": 0.86,
+   "published": {
+    "lh": 1.978,
+    "la": 0.86,
+    "p": [
+     0.635,
+     0.209,
+     0.156
+    ],
+    "over25": 0.539,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -6355,23 +7593,23 @@
      "kind": "beau",
      "stadium": "Stade Jean-Bouin",
      "roof": false,
-     "daysBefore": 4,
-     "temp": 12,
-     "desc": "ciel dégagé",
-     "code": 0,
+     "daysBefore": 3,
+     "temp": 11,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 23,
+     "gust": 22,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 79,
+     "confidence": 82,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-10-28T19:04+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6388,12 +7626,40 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 79
+      },
+      {
+       "day": "2026-10-29",
+       "daysBefore": 3,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 82
       }
      ]
     }
    },
    "lh": 1.45,
-   "la": 1.196
+   "la": 1.196,
+   "published": {
+    "lh": 1.45,
+    "la": 1.196,
+    "p": [
+     0.43,
+     0.259,
+     0.312
+    ],
+    "over25": 0.493,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -6415,6 +7681,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Ex-OM : Gros changement à venir pour Greenwood et Guendouzi",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/ex-om-gros-changement-a-venir-pour-greenwood-et-guendouzi-43690295",
+        "time": "2026-10-29T08:00:36Z"
+       },
+       {
         "title": "OM x adidas : les chiffres fous du nouveau contrat dévoilés !",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/om-x-adidas-les-chiffres-fous-du-nouveau-contrat-devoiles-43690094",
@@ -6425,12 +7697,6 @@
         "publisher": "CoeurMarseillais",
         "url": "https://onefootball.com/fr/news/om-kays-el-mouttaqui-se-fait-remarquer-avec-lequipe-de-france-u15-43689164",
         "time": "2026-10-29T01:00:08Z"
-       },
-       {
-        "title": "OM – La Provence calme les ardeurs pour Himad Abdelli",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-la-provence-calme-les-ardeurs-pour-himad-abdelli-43688852",
-        "time": "2026-10-28T23:00:42Z"
        }
       ],
       "scorer": {
@@ -6506,7 +7772,27 @@
     }
    },
    "lh": 1.823,
-   "la": 1.382
+   "la": 1.382,
+   "published": {
+    "lh": 1.823,
+    "la": 1.382,
+    "p": [
+     0.479,
+     0.228,
+     0.292
+    ],
+    "over25": 0.621,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 9,
@@ -6560,12 +7846,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791",
         "time": "2026-10-24T09:47:00Z"
-       },
-       {
-        "title": "Stade Brestois : Lachuer et Magnetti pointent un mal qui se répète",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-brestois-lachuer-et-magnetti-pointent-un-mal-qui-se-repete-43663171",
-        "time": "2026-10-24T07:00:10Z"
        }
       ],
       "scorer": {
@@ -6595,7 +7875,7 @@
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-10-29T07:59+00:00",
+     "updated": "2026-10-29T08:20+00:00",
      "history": [
       {
        "day": "2026-10-27",
@@ -6625,7 +7905,27 @@
     }
    },
    "lh": 1.384,
-   "la": 1.155
+   "la": 1.155,
+   "published": {
+    "lh": 1.384,
+    "la": 1.155,
+    "p": [
+     0.421,
+     0.265,
+     0.313
+    ],
+    "over25": 0.466,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 10,
@@ -6690,7 +7990,27 @@
     }
    },
    "lh": 1.86,
-   "la": 1.344
+   "la": 1.344,
+   "published": {
+    "lh": 1.86,
+    "la": 1.344,
+    "p": [
+     0.496,
+     0.226,
+     0.278
+    ],
+    "over25": 0.621,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 10,
@@ -6755,7 +8075,27 @@
     }
    },
    "lh": 1.35,
-   "la": 1.492
+   "la": 1.492,
+   "published": {
+    "lh": 1.35,
+    "la": 1.492,
+    "p": [
+     0.343,
+     0.25,
+     0.407
+    ],
+    "over25": 0.54,
+    "levers": [],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   },
   {
    "md": 10,
@@ -6820,7 +8160,29 @@
     }
    },
    "lh": 2.448,
-   "la": 0.72
+   "la": 0.72,
+   "published": {
+    "lh": 2.614,
+    "la": 0.68,
+    "p": [
+     0.787,
+     0.139,
+     0.074
+    ],
+    "over25": 0.639,
+    "levers": [
+     "eurH"
+    ],
+    "at": "2026-10-29T08:23+00:00",
+    "firstAt": "2026-10-29T08:23+00:00",
+    "dataAt": "2026-10-29T08:19+00:00",
+    "changes": 1,
+    "model": {
+     "version": "8508c8e",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
   }
  ]
 }

@@ -6945,10 +6945,36 @@
     "home": [],
     "away": []
    }
+  },
+  "2688753": {
+   "id": 2688753,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-05T16:15:00Z",
+   "status": "",
+   "period": 1,
+   "home": "LOSC",
+   "away": "AJ Auxerre",
+   "homeLink": "/fr/equipe/losc-257",
+   "awayLink": "/fr/equipe/aj-auxerre-253",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
+    "publisher": "Foot National",
+    "time": "2026-10-29T07:58:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
+   },
    {
     "title": "Auxerre - Le Mans : la DTA sort du silence sur le but polémique accordé aux Manceaux",
     "publisher": "OnzeMondial",
@@ -7002,12 +7028,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T15:15:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-officielles-43670313"
-   },
-   {
-    "title": "AJ Auxerre – Le Mans : les Auxerrois veulent confirmer leur retour en forme, compositions probables, chaîne TV et heure",
-    "publisher": "BeFootball",
-    "time": "2026-10-25T10:16:43Z",
-    "url": "https://onefootball.com/fr/news/aj-auxerre-le-mans-les-auxerrois-veulent-confirmer-leur-retour-en-forme-compositions-probables-chaine-tv-et-heure-43668967"
    }
   ],
   "AS Monaco": [
@@ -7310,6 +7330,12 @@
   ],
   "Le Havre AC": [
    {
+    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
+    "publisher": "Foot National",
+    "time": "2026-10-29T07:58:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
+   },
+   {
     "title": "Le Havre aurait-il dû bénéficier d'un penalty contre l'OM en fin de match ? La direction de l'arbitrage a tranché",
     "publisher": "Foot National",
     "time": "2026-10-28T16:33:00Z",
@@ -7356,15 +7382,15 @@
     "publisher": "ConsultantsFoot",
     "time": "2026-10-25T19:46:43Z",
     "url": "https://onefootball.com/fr/news/bertrand-latour-si-vous-voulez-quon-fasse-la-chenille-parce-que-marseille-avec-gouiri-paixao-hojbjerg-a-battu-le-havre-4-3-43671672"
-   },
-   {
-    "title": "Le Havre AC - Didier Digard peste contre l'arbitrage après la défaite face à l'OM, deux penaltys oubliés selon lui ! (vidéo)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T19:20:00Z",
-    "url": "https://onefootball.com/fr/news/le-havre-ac-didier-digard-peste-contre-larbitrage-apres-la-defaite-face-a-lom-deux-penaltys-oublies-selon-lui-video-43671567"
    }
   ],
   "Le Mans FC": [
+   {
+    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
+    "publisher": "Foot National",
+    "time": "2026-10-29T07:58:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
+   },
    {
     "title": "Auxerre - Le Mans : la DTA sort du silence sur le but polémique accordé aux Manceaux",
     "publisher": "OnzeMondial",
@@ -7418,15 +7444,15 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T08:00:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-probables-43668339"
-   },
-   {
-    "title": "Auxerre-Le Mans : chaîne TV, streaming… À quelle heure et où suivre ce match de Ligue 1 de deuxième partie de tableau ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T04:50:00Z",
-    "url": "https://onefootball.com/fr/news/auxerre-le-mans-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-de-ligue-1-de-deuxieme-partie-de-tableau-43667916"
    }
   ],
   "OGC Nice": [
+   {
+    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
+    "publisher": "Foot National",
+    "time": "2026-10-29T07:58:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
+   },
    {
     "title": "Brest - Nice : l'album photos",
     "publisher": "Ogcnissa.com ",
@@ -7480,12 +7506,6 @@
     "publisher": "Foot National",
     "time": "2026-10-24T06:39:00Z",
     "url": "https://onefootball.com/fr/news/ca-ne-metait-jamais-arrive-yehvann-diouf-revient-sur-sa-drole-de-soiree-pendant-brest-nice-43663102"
-   },
-   {
-    "title": "OGC Nice - L'énorme hommage de Sofiane Diop envers Yehvann Diouf après son penalty arrêté",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-23T21:26:00Z",
-    "url": "https://onefootball.com/fr/news/ogc-nice-lenorme-hommage-de-sofiane-diop-envers-yehvann-diouf-apres-son-penalty-arrete-43662244"
    }
   ],
   "Olympique Lyonnais": [
@@ -7552,6 +7572,18 @@
   ],
   "Olympique de Marseille": [
    {
+    "title": "Ex-OM : Gros changement à venir pour Greenwood et Guendouzi",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-29T08:00:36Z",
+    "url": "https://onefootball.com/fr/news/ex-om-gros-changement-a-venir-pour-greenwood-et-guendouzi-43690295"
+   },
+   {
+    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
+    "publisher": "Foot National",
+    "time": "2026-10-29T07:58:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
+   },
+   {
     "title": "OM x adidas : les chiffres fous du nouveau contrat dévoilés !",
     "publisher": "OnzeMondial",
     "time": "2026-10-29T07:02:00Z",
@@ -7598,18 +7630,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-28T18:59:00Z",
     "url": "https://onefootball.com/fr/news/mercato-ol-zachary-athekame-explique-pourquoi-il-a-choisi-lol-plutot-que-lom-43687630"
-   },
-   {
-    "title": "OM – Pérès : « Je ne vois pas McCourt vendre le club à moyen terme »",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-28T17:00:03Z",
-    "url": "https://onefootball.com/fr/news/om-peres-je-ne-vois-pas-mccourt-vendre-le-club-a-moyen-terme-43687056"
-   },
-   {
-    "title": "Le Havre aurait-il dû bénéficier d'un penalty contre l'OM en fin de match ? La direction de l'arbitrage a tranché",
-    "publisher": "Foot National",
-    "time": "2026-10-28T16:33:00Z",
-    "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883"
    }
   ],
   "PSG": [
@@ -7738,6 +7758,12 @@
   ],
   "RC Lens": [
    {
+    "title": "Le RC Lens invite des jeunes internationaux haïtiens pour un séjour à la Gaillette",
+    "publisher": "Lensois.com",
+    "time": "2026-10-29T08:14:37Z",
+    "url": "https://onefootball.com/fr/news/le-rc-lens-invite-des-jeunes-internationaux-haitiens-pour-un-sejour-a-la-gaillette-43690335"
+   },
+   {
     "title": "La sanction de l’UEFA jugée logique par une large majorité",
     "publisher": "Lensois.com",
     "time": "2026-10-29T07:25:54Z",
@@ -7790,12 +7816,6 @@
     "publisher": "Stats Perform",
     "time": "2026-10-28T16:42:09Z",
     "url": "https://onefootball.com/fr/video/losc-lens-cahuzac-un-derby-cest-toujours-un-match-avec-une-saveur-particuliere-3LKbb6LS3tohpol7G94EO0bKHQj"
-   },
-   {
-    "title": "RC Lens - La confidence déchirante de Samson Baidoo sur ses blessures",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T16:10:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-la-confidence-dechirante-de-samson-baidoo-sur-ses-blessures-43686807"
    }
   ],
   "RC Strasbourg": [
@@ -7862,6 +7882,12 @@
   ],
   "Stade Brestois": [
    {
+    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
+    "publisher": "Foot National",
+    "time": "2026-10-29T07:58:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
+   },
+   {
     "title": "Lorient-Brest et Nice-Rennes reportés : vers d'autres rencontres de Ligue 1 et Ligue 2 menacées ?",
     "publisher": "Foot National",
     "time": "2026-10-27T09:29:00Z",
@@ -7914,12 +7940,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-24T07:50:00Z",
     "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337"
-   },
-   {
-    "title": "Stade Brestois : Lachuer et Magnetti pointent un mal qui se répète",
-    "publisher": "Morning Foot",
-    "time": "2026-10-24T07:00:10Z",
-    "url": "https://onefootball.com/fr/news/stade-brestois-lachuer-et-magnetti-pointent-un-mal-qui-se-repete-43663171"
    }
   ],
   "Stade Rennais": [
@@ -8048,7 +8068,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-29T07:57+00:00",
+ "fetchedAt": "2026-10-29T08:19+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
