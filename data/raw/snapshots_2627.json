@@ -14,10 +14,10 @@
   "date": "2026-10-30",
   "time": "19:00",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -29,14 +29,18 @@
    0.557
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   8.33,
+   5.83,
+   1.31
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 99,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 1
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
@@ -63,10 +67,10 @@
   "date": "2026-10-30",
   "time": "19:00",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -78,24 +82,22 @@
    0.425
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   2.56,
+   3.64,
+   2.53
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 98,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 1
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
-    "A": {
-     "title": "Nice - Stade rennais : Lepaul forfait, Samba très incertain face à Nice",
-     "publisher": "Stade Rennais Online",
-     "url": "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
-     "time": "2026-10-29T17:45:06Z",
-     "about": "buteur"
-    }
+    "A": null
    },
    "coupe": {
     "H": null,
@@ -118,10 +120,10 @@
   "date": "2026-10-30",
   "time": "21:05",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -133,14 +135,18 @@
    0.32
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   2.7,
+   3.41,
+   2.52
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 98,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 1
+    "confidence": 99,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
@@ -167,10 +173,10 @@
   "date": "2026-10-31",
   "time": "20:45",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -182,14 +188,18 @@
    0.383
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   2.32,
+   3.45,
+   2.89
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 92,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 2
+    "confidence": 97,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 1
    },
    "presse": {
     "H": null,
@@ -216,10 +226,10 @@
   "date": "2026-11-01",
   "time": "15:00",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -231,14 +241,18 @@
    0.289
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   1.81,
+   3.86,
+   3.89
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 87,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 3
+    "confidence": 92,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 2
    },
    "presse": {
     "H": null,
@@ -265,10 +279,10 @@
   "date": "2026-11-01",
   "time": "17:15",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -280,14 +294,18 @@
    0.156
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   1.39,
+   4.9,
+   7.07
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
-    "pWind": 0.06,
-    "confidence": 85,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 3
+    "pWind": 0.04,
+    "confidence": 90,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 2
    },
    "presse": {
     "H": null,
@@ -314,10 +332,10 @@
   "date": "2026-11-01",
   "time": "17:15",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -329,14 +347,18 @@
    0.312
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   2.26,
+   3.48,
+   2.94
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 84,
-    "updated": "2026-10-29T13:06+00:00",
-    "daysBefore": 3
+    "confidence": 89,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 2
    },
    "presse": {
     "H": null,
@@ -363,10 +385,10 @@
   "date": "2026-11-01",
   "time": "20:45",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -378,17 +400,27 @@
    0.292
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   1.9,
+   3.88,
+   3.54
+  ],
   "inputs": {
    "meteo": {
-    "pRain": 0.02,
+    "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 81,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 3
+    "confidence": 89,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 2
    },
    "presse": {
-    "H": null,
+    "H": {
+     "title": "OM - Bruno Genesio dévoile les raisons de l'absence d'Amine Gouiri et de Bamo Méité à l'entraînement",
+     "publisher": "MadeInFOOT",
+     "url": "https://onefootball.com/fr/news/om-bruno-genesio-devoile-les-raisons-de-labsence-damine-gouiri-et-de-bamo-meite-a-lentrainement-43697189",
+     "time": "2026-10-30T12:40:00Z",
+     "about": "buteur"
+    },
     "A": null
    },
    "coupe": {
@@ -412,10 +444,10 @@
   "date": "2026-11-02",
   "time": "20:45",
   "md": 9,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -427,14 +459,18 @@
    0.313
   ],
   "levers": [],
-  "odds": null,
+  "odds": [
+   2.44,
+   3.25,
+   2.83
+  ],
   "inputs": {
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 78,
-    "updated": "2026-10-29T21:50+00:00",
-    "daysBefore": 4
+    "confidence": 83,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 3
    },
    "presse": {
     "H": null,
@@ -461,10 +497,10 @@
   "date": "2026-11-06",
   "time": "20:45",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -478,7 +514,13 @@
   "levers": [],
   "odds": null,
   "inputs": {
-   "meteo": null,
+   "meteo": {
+    "pRain": 0.04,
+    "pWind": 0.04,
+    "confidence": 54,
+    "updated": "2026-10-30T13:00+00:00",
+    "daysBefore": 7
+   },
    "presse": {
     "H": null,
     "A": null
@@ -504,10 +546,10 @@
   "date": "2026-11-07",
   "time": "17:15",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -547,10 +589,10 @@
   "date": "2026-11-07",
   "time": "20:45",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -598,10 +640,10 @@
   "date": "2026-11-08",
   "time": "15:00",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -619,13 +661,7 @@
   "inputs": {
    "meteo": null,
    "presse": {
-    "H": {
-     "title": "Nice - Stade rennais : Lepaul forfait, Samba très incertain face à Nice",
-     "publisher": "Stade Rennais Online",
-     "url": "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
-     "time": "2026-10-29T17:45:06Z",
-     "about": "buteur"
-    },
+    "H": null,
     "A": null
    },
    "coupe": {
@@ -655,10 +691,10 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -698,10 +734,10 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -749,10 +785,10 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -792,10 +828,10 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -843,10 +879,10 @@
   "date": "2026-11-08",
   "time": "20:45",
   "md": 10,
-  "at": "2026-10-30T02:09+00:00",
-  "dataAt": "2026-10-30T02:09+00:00",
+  "at": "2026-10-30T13:03+00:00",
+  "dataAt": "2026-10-30T12:59+00:00",
   "model": {
-   "version": "d0beed5",
+   "version": "2453e51",
    "mu": 0.231,
    "home": 0.213
   },
@@ -866,7 +902,13 @@
    "meteo": null,
    "presse": {
     "H": null,
-    "A": null
+    "A": {
+     "title": "OM - Bruno Genesio dévoile les raisons de l'absence d'Amine Gouiri et de Bamo Méité à l'entraînement",
+     "publisher": "MadeInFOOT",
+     "url": "https://onefootball.com/fr/news/om-bruno-genesio-devoile-les-raisons-de-labsence-damine-gouiri-et-de-bamo-meite-a-lentrainement-43697189",
+     "time": "2026-10-30T12:40:00Z",
+     "about": "buteur"
+    }
    },
    "coupe": {
     "H": {
