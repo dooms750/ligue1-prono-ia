@@ -6,8 +6,8 @@
   "lastResult": "2026-10-26",
   "lastMatchday": 8,
   "nextMatchday": 9,
-  "fetchedAt": "2026-10-29T22:41+00:00",
-  "generatedAt": "2026-10-29T22:41+00:00",
+  "fetchedAt": "2026-10-30T02:09+00:00",
+  "generatedAt": "2026-10-30T02:09+00:00",
   "checks": {
    "compared": 72,
    "agree": 72,
@@ -29,8 +29,8 @@
     "id": "onefootball_quick",
     "label": "OneFootball, collecte rapide en match",
     "status": "ok",
-    "lastOk": "2026-10-29T22:41+00:00",
-    "lastAttempt": "2026-10-29T22:41+00:00",
+    "lastOk": "2026-10-30T02:09+00:00",
+    "lastAttempt": "2026-10-30T02:09+00:00",
     "error": null,
     "failures": 0,
     "count": null
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-10-29T22:41+00:00",
-    "lastAttempt": "2026-10-29T22:41+00:00",
+    "lastOk": "2026-10-30T02:09+00:00",
+    "lastAttempt": "2026-10-30T02:09+00:00",
     "error": null,
     "failures": 0,
     "count": 72
@@ -7908,12 +7908,12 @@
     ],
     "over25": 0.576,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8143,12 +8143,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8382,12 +8382,12 @@
     ],
     "over25": 0.509,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8563,12 +8563,12 @@
     ],
     "over25": 0.482,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8782,12 +8782,12 @@
     ],
     "over25": 0.665,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -8995,12 +8995,12 @@
     ],
     "over25": 0.539,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9209,12 +9209,12 @@
     ],
     "over25": 0.493,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9423,12 +9423,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9630,12 +9630,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9789,12 +9789,12 @@
     ],
     "over25": 0.621,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -9948,12 +9948,12 @@
     ],
     "over25": 0.54,
     "levers": [],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }
@@ -10109,12 +10109,1083 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-10-29T22:41+00:00",
+    "at": "2026-10-30T02:09+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-10-29T22:41+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
     "changes": 1,
     "model": {
-     "version": "45753db",
+     "version": "d0beed5",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
+  },
+  {
+   "md": 10,
+   "date": "2026-11-08",
+   "time": "15:00",
+   "home": "REN",
+   "away": "LIL",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688731",
+   "ctx": {
+    "known": true,
+    "absH": [
+     "buteur"
+    ],
+    "absA": [],
+    "europeH": true,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "Rennes : deux absences de taille pour le déplacement à Nice",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/rennes-deux-absences-de-taille-pour-le-deplacement-a-nice-43693724",
+        "time": "2026-10-29T19:04:00Z"
+       },
+       {
+        "title": "Nice - Stade rennais : Lepaul forfait, Samba très incertain face à Nice",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
+        "time": "2026-10-29T17:45:06Z",
+        "about": "buteur"
+       }
+      ],
+      "other": [
+       {
+        "title": "Franck Haise explique pourquoi Charlie Cresswell est indispensable",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/franck-haise-explique-pourquoi-charlie-cresswell-est-indispensable-43694122",
+        "time": "2026-10-29T20:10:11Z"
+       },
+       {
+        "title": "Stade Rennais - Franck Haise se positionne sur les manifestations en France et les matches décalés du Stade Rennais",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-se-positionne-sur-les-manifestations-en-france-et-les-matches-decales-du-stade-rennais-43693547",
+        "time": "2026-10-29T18:25:00Z"
+       },
+       {
+        "title": "Ligue Europa : Rennes - Olympiakos officiellement avancé au mercredi 4 novembre à 16h30",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/ligue-europa-rennes-olympiakos-officiellement-avance-au-mercredi-4-novembre-a-16h30-43681969",
+        "time": "2026-10-27T17:40:09Z"
+       }
+      ],
+      "scorer": {
+       "name": "Estéban Lepaul",
+       "goals": 7
+      },
+      "scorerOut": {
+       "title": "Nice - Stade rennais : Lepaul forfait, Samba très incertain face à Nice",
+       "publisher": "Stade Rennais Online",
+       "url": "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
+       "time": "2026-10-29T17:45:06Z",
+       "about": "buteur"
+      }
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "LOSC - Davide Ancelotti annonce 4 absents pour le derby face au RC Lens",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-annonce-4-absents-pour-le-derby-face-au-rc-lens-43692314",
+        "time": "2026-10-29T14:41:00Z"
+       },
+       {
+        "title": "LOSC - Davide Ancelotti annonce 4 absents pour le derby face au RC Lens",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-annonce-4-absents-pour-le-derby-face-au-rc-lens-43692315",
+        "time": "2026-10-29T14:41:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "\"L'ambition, ce n'est pas de faire voir que je fais bien jouer l'équipe\" ... Les mots forts d'Ancelotti avant le derby Lille - Lens",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lambition-ce-nest-pas-de-faire-voir-que-je-fais-bien-jouer-lequipe-les-mots-forts-dancelotti-avant-le-derby-lille-lens-43694230",
+        "time": "2026-10-29T20:28:00Z"
+       },
+       {
+        "title": "LOSC : avant le derby face à Lens, Ancelotti et André donnent le ton",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/losc-avant-le-derby-face-a-lens-ancelotti-et-andre-donnent-le-ton-43694057",
+        "time": "2026-10-29T20:03:00Z"
+       },
+       {
+        "title": "Lille - Lens : \"C'est un danger pour nous\" ... André se méfie énormément de Thauvin",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lille-lens-cest-un-danger-pour-nous-andre-se-mefie-enormement-de-thauvin-43693400",
+        "time": "2026-10-29T18:01:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Olivier Giroud",
+       "goals": 2
+      },
+      "scorerOut": null
+     }
+    },
+    "cupH": {
+     "competition": "Ligue Europa",
+     "opponent": "Olympiakos",
+     "day": "mercredi",
+     "home": true,
+     "hoursBefore": 94
+    }
+   },
+   "lh": 1.562,
+   "la": 1.359,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.406,
+      0.255,
+      0.339
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.377,
+      0.255,
+      0.368
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.39,
+      0.247,
+      0.363
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.391,
+      0.247,
+      0.362
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.385,
+      0.254,
+      0.361
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.377,
+      0.247,
+      0.376
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.415,
+      0.247,
+      0.338
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.398,
+      0.243,
+      0.358
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.422,
+      0.245,
+      0.332
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.668,
+    "la": 1.284,
+    "p": [
+     0.464,
+     0.24,
+     0.295
+    ],
+    "over25": 0.566,
+    "levers": [
+     "eurH"
+    ],
+    "at": "2026-10-30T02:09+00:00",
+    "firstAt": "2026-10-30T02:09+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
+    "changes": 1,
+    "model": {
+     "version": "d0beed5",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
+  },
+  {
+   "md": 10,
+   "date": "2026-11-08",
+   "time": "17:15",
+   "home": "ANG",
+   "away": "NIC",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688725",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Angers – Lorient : un 0-0 qui cache une statistique inquiétante",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/angers-lorient-un-0-0-qui-cache-une-statistique-inquietante-43671893",
+        "time": "2026-10-25T20:46:44Z"
+       },
+       {
+        "title": "Ligue 1 - Pas de vainqueur entre Angers SCO et le FC Lorient (résumé)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-pas-de-vainqueur-entre-angers-sco-et-le-fc-lorient-resume-43671208",
+        "time": "2026-10-25T18:16:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Amine El Ouazzani",
+       "goals": 2
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Ligue 1 - Le match OGC Nice - Stade Rennais (J9 L1) change également de date !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-match-ogc-nice-stade-rennais-j9-l1-change-egalement-de-date-43676583",
+        "time": "2026-10-26T18:03:00Z"
+       },
+       {
+        "title": "OGC Nice - Olivier Pantaloni a pensé à sortir Yehvann Diouf après sa bourde face au Stade Brestois",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-a-pense-a-sortir-yehvann-diouf-apres-sa-bourde-face-au-stade-brestois-43663337",
+        "time": "2026-10-24T07:50:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Elye Wahi",
+       "goals": 3
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.221,
+   "la": 1.225,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.407,
+      0.277,
+      0.316
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.372,
+      0.292,
+      0.337
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.437,
+      0.275,
+      0.288
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.408,
+      0.283,
+      0.309
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.413,
+      0.291,
+      0.295
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.426,
+      0.287,
+      0.287
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.395,
+      0.279,
+      0.325
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.357,
+      0.269,
+      0.375
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.362,
+      0.274,
+      0.364
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.221,
+    "la": 1.225,
+    "p": [
+     0.362,
+     0.274,
+     0.364
+    ],
+    "over25": 0.442,
+    "levers": [],
+    "at": "2026-10-30T02:09+00:00",
+    "firstAt": "2026-10-30T02:09+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
+    "changes": 1,
+    "model": {
+     "version": "d0beed5",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
+  },
+  {
+   "md": 10,
+   "date": "2026-11-08",
+   "time": "17:15",
+   "home": "BRE",
+   "away": "OL",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688727",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Stade Brestois - Julien Lachuer et Hugo Magnetti expriment leur déception après le revers face à l'OGC Nice",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-et-hugo-magnetti-expriment-leur-deception-apres-le-revers-face-a-logc-nice-43663791",
+        "time": "2026-10-24T09:47:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Kamory Doumbia",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "OL - Pas d'inquiétude apparente pour Corentin Tolisso après son alerte face au PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-pas-dinquietude-apparente-pour-corentin-tolisso-apres-son-alerte-face-au-psg-43694148",
+        "time": "2026-10-29T20:15:00Z"
+       },
+       {
+        "title": "OL - Une belle somme attendue grâce au partenariat avec Winamax",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-une-belle-somme-attendue-grace-au-partenariat-avec-winamax-43692935",
+        "time": "2026-10-29T16:35:00Z"
+       },
+       {
+        "title": "OL : malgré ses soucis d'adducteurs, Tolisso bien présent à l'entraînement",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-malgre-ses-soucis-dadducteurs-tolisso-bien-present-a-lentrainement-43692667",
+        "time": "2026-10-29T15:50:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ernest Nuamah",
+       "goals": 3
+      },
+      "scorerOut": null
+     }
+    },
+    "cupA": {
+     "competition": "Ligue Europa",
+     "opponent": "Real Sociedad",
+     "day": "jeudi",
+     "home": false,
+     "hoursBefore": 70
+    }
+   },
+   "lh": 1.465,
+   "la": 1.422,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.342,
+      0.249,
+      0.409
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.33,
+      0.249,
+      0.421
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.355,
+      0.249,
+      0.396
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.352,
+      0.242,
+      0.406
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.349,
+      0.255,
+      0.397
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.314,
+      0.253,
+      0.433
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.379,
+      0.247,
+      0.374
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.369,
+      0.251,
+      0.381
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.385,
+      0.248,
+      0.366
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.384,
+    "la": 1.519,
+    "p": [
+     0.347,
+     0.247,
+     0.406
+    ],
+    "over25": 0.555,
+    "levers": [
+     "eurA"
+    ],
+    "at": "2026-10-30T02:09+00:00",
+    "firstAt": "2026-10-30T02:09+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
+    "changes": 1,
+    "model": {
+     "version": "d0beed5",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
+  },
+  {
+   "md": 10,
+   "date": "2026-11-08",
+   "time": "17:15",
+   "home": "HAV",
+   "away": "LOR",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688728",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Le Havre aurait-il dû bénéficier d'un penalty contre l'OM en fin de match ? La direction de l'arbitrage a tranché",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883",
+        "time": "2026-10-28T16:33:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Josh Maja",
+       "goals": 3
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Lorient-Brest et Nice-Rennes reportés : vers d'autres rencontres de Ligue 1 et Ligue 2 menacées ?",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lorient-brest-et-nice-rennes-reportes-vers-dautres-rencontres-de-ligue-1-et-ligue-2-menacees-43679375",
+        "time": "2026-10-27T09:29:00Z"
+       },
+       {
+        "title": "Lorient-Brest : à la demande de la Préfecture, la LFP modifie la programmation du derby",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lorient-brest-a-la-demande-de-la-prefecture-la-lfp-modifie-la-programmation-du-derby-43676649",
+        "time": "2026-10-26T18:19:00Z"
+       },
+       {
+        "title": "Ligue 1 - Le derby de la Bretagne entre le FC Lorient et le Stade Brestois (J9 L1) change de date !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-derby-de-la-bretagne-entre-le-fc-lorient-et-le-stade-brestois-j9-l1-change-de-date-43676343",
+        "time": "2026-10-26T17:18:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Jean-Victor Makengo",
+       "goals": 1
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.192,
+   "la": 1.145,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.374,
+      0.269,
+      0.357
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.35,
+      0.286,
+      0.365
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.374,
+      0.282,
+      0.344
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.33,
+      0.285,
+      0.384
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.349,
+      0.287,
+      0.364
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.389,
+      0.277,
+      0.334
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.382,
+      0.289,
+      0.329
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.343,
+      0.288,
+      0.369
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.371,
+      0.281,
+      0.348
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.192,
+    "la": 1.145,
+    "p": [
+     0.371,
+     0.281,
+     0.348
+    ],
+    "over25": 0.414,
+    "levers": [],
+    "at": "2026-10-30T02:09+00:00",
+    "firstAt": "2026-10-30T02:09+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
+    "changes": 1,
+    "model": {
+     "version": "d0beed5",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
+  },
+  {
+   "md": 10,
+   "date": "2026-11-08",
+   "time": "17:15",
+   "home": "LMA",
+   "away": "MON",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688729",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [],
+      "scorer": {
+       "name": "Louis Mafouta",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "AS Monaco - Nouveau coup d'arrêt longue durée pour Ansu Fati, qui est fixé après sa blessure face au LOSC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-nouveau-coup-darret-longue-duree-pour-ansu-fati-qui-est-fixe-apres-sa-blessure-face-au-losc-43676844",
+        "time": "2026-10-26T19:00:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Mercato Monaco - Un géant d'Europe en pince pour Folarin Balogun !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-un-geant-deurope-en-pince-pour-folarin-balogun-43683171",
+        "time": "2026-10-27T21:45:00Z"
+       },
+       {
+        "title": "AS Monaco - Le programme de la semaine de l'ASM du 26 octobre au 1er novembre",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-le-programme-de-la-semaine-de-lasm-du-26-octobre-au-1er-novembre-43682532",
+        "time": "2026-10-27T19:30:00Z"
+       },
+       {
+        "title": "AS Monaco - Un club anglais suit de près Lamine Camara",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-un-club-anglais-suit-de-pres-lamine-camara-43676299",
+        "time": "2026-10-26T17:01:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Paris Brunner",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    },
+    "cupA": {
+     "competition": "Ligue Conférence",
+     "opponent": "Nordsjaelland",
+     "day": "jeudi",
+     "home": true,
+     "hoursBefore": 68
+    }
+   },
+   "lh": 1.306,
+   "la": 1.545,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.417,
+      0.235,
+      0.348
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.368,
+      0.233,
+      0.399
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.341,
+      0.227,
+      0.431
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.327,
+      0.232,
+      0.441
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.335,
+      0.236,
+      0.429
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.361,
+      0.239,
+      0.4
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.383,
+      0.238,
+      0.379
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.32,
+      0.243,
+      0.437
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.322,
+      0.248,
+      0.429
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.234,
+    "la": 1.65,
+    "p": [
+     0.286,
+     0.243,
+     0.471
+    ],
+    "over25": 0.55,
+    "levers": [
+     "eurA"
+    ],
+    "at": "2026-10-30T02:09+00:00",
+    "firstAt": "2026-10-30T02:09+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
+    "changes": 1,
+    "model": {
+     "version": "d0beed5",
+     "mu": 0.231,
+     "home": 0.213
+    }
+   }
+  },
+  {
+   "md": 10,
+   "date": "2026-11-08",
+   "time": "20:45",
+   "home": "LEN",
+   "away": "OM",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688733",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": true,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "RC Lens - Cinq absents, mais un retour dans le groupe lensois pour le derby du Nord face au LOSC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-cinq-absents-mais-un-retour-dans-le-groupe-lensois-pour-le-derby-du-nord-face-au-losc-43693794",
+        "time": "2026-10-29T19:15:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Lille – RC Lens : le groupe lensois, avec le retour de Jonathan Gradit",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/lille-rc-lens-le-groupe-lensois-avec-le-retour-de-jonathan-gradit-43693736",
+        "time": "2026-10-29T19:02:32Z"
+       },
+       {
+        "title": "Lille - Lens : \"C'est un danger pour nous\" ... André se méfie énormément de Thauvin",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lille-lens-cest-un-danger-pour-nous-andre-se-mefie-enormement-de-thauvin-43693400",
+        "time": "2026-10-29T18:01:00Z"
+       },
+       {
+        "title": "Florian Thauvin, une liberté de mouvement que Yannick Cahuzac veut exploiter",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/florian-thauvin-une-liberte-de-mouvement-que-yannick-cahuzac-veut-exploiter-43692363",
+        "time": "2026-10-29T14:51:39Z"
+       }
+      ],
+      "scorer": {
+       "name": "Florian Thauvin",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "OM : Paixão forfait contre Toulouse ? Le verdict tombe !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-paixao-forfait-contre-toulouse-le-verdict-tombe-43693861",
+        "time": "2026-10-29T19:28:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "OM – McCourt veut bouleverser la tech mondiale",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-mccourt-veut-bouleverser-la-tech-mondiale-43694387",
+        "time": "2026-10-29T21:00:51Z"
+       },
+       {
+        "title": "OM - Le retour de Medhi Benatia à Marseille évoqué par un sélectionneur de renom",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-le-retour-de-medhi-benatia-a-marseille-evoque-par-un-selectionneur-de-renom-43694364",
+        "time": "2026-10-29T20:59:00Z"
+       },
+       {
+        "title": "OM - La sortie inquiétante de Jérôme Rothen malgré la bonne série de l'OM en Ligue 1",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-la-sortie-inquietante-de-jerome-rothen-malgre-la-bonne-serie-de-lom-en-ligue-1-43694270",
+        "time": "2026-10-29T20:32:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Amine Gouiri",
+       "goals": 5
+      },
+      "scorerOut": null
+     }
+    },
+    "cupH": {
+     "competition": "Ligue des champions",
+     "opponent": "Come",
+     "day": "mercredi",
+     "home": true,
+     "hoursBefore": 96
+    },
+    "cupA": {
+     "competition": "Ligue Europa",
+     "opponent": "Bayer Leverkusen",
+     "day": "jeudi",
+     "home": false,
+     "hoursBefore": 72
+    }
+   },
+   "lh": 2.135,
+   "la": 1.486,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.533,
+      0.222,
+      0.245
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.51,
+      0.217,
+      0.273
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.512,
+      0.221,
+      0.268
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.5,
+      0.222,
+      0.278
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.507,
+      0.222,
+      0.271
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.538,
+      0.216,
+      0.247
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.541,
+      0.218,
+      0.241
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.499,
+      0.219,
+      0.282
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.525,
+      0.208,
+      0.267
+     ]
+    }
+   ],
+   "published": {
+    "lh": 2.155,
+    "la": 1.5,
+    "p": [
+     0.526,
+     0.207,
+     0.267
+    ],
+    "over25": 0.707,
+    "levers": [
+     "eurH",
+     "eurA"
+    ],
+    "at": "2026-10-30T02:09+00:00",
+    "firstAt": "2026-10-30T02:09+00:00",
+    "dataAt": "2026-10-30T02:09+00:00",
+    "changes": 1,
+    "model": {
+     "version": "d0beed5",
      "mu": 0.231,
      "home": 0.213
     }

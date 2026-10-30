@@ -14,10 +14,10 @@
   "date": "2026-10-30",
   "time": "19:00",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -63,10 +63,10 @@
   "date": "2026-10-30",
   "time": "19:00",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -118,10 +118,10 @@
   "date": "2026-10-30",
   "time": "21:05",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -167,10 +167,10 @@
   "date": "2026-10-31",
   "time": "20:45",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -216,10 +216,10 @@
   "date": "2026-11-01",
   "time": "15:00",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -265,10 +265,10 @@
   "date": "2026-11-01",
   "time": "17:15",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -314,10 +314,10 @@
   "date": "2026-11-01",
   "time": "17:15",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -363,10 +363,10 @@
   "date": "2026-11-01",
   "time": "20:45",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -412,10 +412,10 @@
   "date": "2026-11-02",
   "time": "20:45",
   "md": 9,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -461,10 +461,10 @@
   "date": "2026-11-06",
   "time": "20:45",
   "md": 10,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -504,10 +504,10 @@
   "date": "2026-11-07",
   "time": "17:15",
   "md": 10,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -547,10 +547,10 @@
   "date": "2026-11-07",
   "time": "20:45",
   "md": 10,
-  "at": "2026-10-29T22:41+00:00",
-  "dataAt": "2026-10-29T22:41+00:00",
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
   "model": {
-   "version": "45753db",
+   "version": "d0beed5",
    "mu": 0.231,
    "home": 0.213
   },
@@ -580,6 +580,309 @@
      "hoursBefore": 96
     },
     "A": null
+   }
+  }
+ },
+ "REN-LIL": {
+  "firstAt": "2026-10-30T02:09+00:00",
+  "changes": [
+   {
+    "at": "2026-10-30T02:09+00:00",
+    "p": [
+     0.464,
+     0.24,
+     0.295
+    ]
+   }
+  ],
+  "date": "2026-11-08",
+  "time": "15:00",
+  "md": 10,
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
+  "model": {
+   "version": "d0beed5",
+   "mu": 0.231,
+   "home": 0.213
+  },
+  "lh": 1.668,
+  "la": 1.284,
+  "p": [
+   0.464,
+   0.24,
+   0.295
+  ],
+  "levers": [
+   "eurH"
+  ],
+  "odds": null,
+  "inputs": {
+   "meteo": null,
+   "presse": {
+    "H": {
+     "title": "Nice - Stade rennais : Lepaul forfait, Samba très incertain face à Nice",
+     "publisher": "Stade Rennais Online",
+     "url": "https://onefootball.com/fr/news/nice-stade-rennais-lepaul-forfait-samba-tres-incertain-face-a-nice-43693309",
+     "time": "2026-10-29T17:45:06Z",
+     "about": "buteur"
+    },
+    "A": null
+   },
+   "coupe": {
+    "H": {
+     "competition": "Ligue Europa",
+     "opponent": "Olympiakos",
+     "day": "mercredi",
+     "home": true,
+     "hoursBefore": 94
+    },
+    "A": null
+   }
+  }
+ },
+ "ANG-NIC": {
+  "firstAt": "2026-10-30T02:09+00:00",
+  "changes": [
+   {
+    "at": "2026-10-30T02:09+00:00",
+    "p": [
+     0.362,
+     0.274,
+     0.364
+    ]
+   }
+  ],
+  "date": "2026-11-08",
+  "time": "17:15",
+  "md": 10,
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
+  "model": {
+   "version": "d0beed5",
+   "mu": 0.231,
+   "home": 0.213
+  },
+  "lh": 1.221,
+  "la": 1.225,
+  "p": [
+   0.362,
+   0.274,
+   0.364
+  ],
+  "levers": [],
+  "odds": null,
+  "inputs": {
+   "meteo": null,
+   "presse": {
+    "H": null,
+    "A": null
+   },
+   "coupe": {
+    "H": null,
+    "A": null
+   }
+  }
+ },
+ "BRE-OL": {
+  "firstAt": "2026-10-30T02:09+00:00",
+  "changes": [
+   {
+    "at": "2026-10-30T02:09+00:00",
+    "p": [
+     0.347,
+     0.247,
+     0.406
+    ]
+   }
+  ],
+  "date": "2026-11-08",
+  "time": "17:15",
+  "md": 10,
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
+  "model": {
+   "version": "d0beed5",
+   "mu": 0.231,
+   "home": 0.213
+  },
+  "lh": 1.384,
+  "la": 1.519,
+  "p": [
+   0.347,
+   0.247,
+   0.406
+  ],
+  "levers": [
+   "eurA"
+  ],
+  "odds": null,
+  "inputs": {
+   "meteo": null,
+   "presse": {
+    "H": null,
+    "A": null
+   },
+   "coupe": {
+    "H": null,
+    "A": {
+     "competition": "Ligue Europa",
+     "opponent": "Real Sociedad",
+     "day": "jeudi",
+     "home": false,
+     "hoursBefore": 70
+    }
+   }
+  }
+ },
+ "HAV-LOR": {
+  "firstAt": "2026-10-30T02:09+00:00",
+  "changes": [
+   {
+    "at": "2026-10-30T02:09+00:00",
+    "p": [
+     0.371,
+     0.281,
+     0.348
+    ]
+   }
+  ],
+  "date": "2026-11-08",
+  "time": "17:15",
+  "md": 10,
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
+  "model": {
+   "version": "d0beed5",
+   "mu": 0.231,
+   "home": 0.213
+  },
+  "lh": 1.192,
+  "la": 1.145,
+  "p": [
+   0.371,
+   0.281,
+   0.348
+  ],
+  "levers": [],
+  "odds": null,
+  "inputs": {
+   "meteo": null,
+   "presse": {
+    "H": null,
+    "A": null
+   },
+   "coupe": {
+    "H": null,
+    "A": null
+   }
+  }
+ },
+ "LMA-MON": {
+  "firstAt": "2026-10-30T02:09+00:00",
+  "changes": [
+   {
+    "at": "2026-10-30T02:09+00:00",
+    "p": [
+     0.286,
+     0.243,
+     0.471
+    ]
+   }
+  ],
+  "date": "2026-11-08",
+  "time": "17:15",
+  "md": 10,
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
+  "model": {
+   "version": "d0beed5",
+   "mu": 0.231,
+   "home": 0.213
+  },
+  "lh": 1.234,
+  "la": 1.65,
+  "p": [
+   0.286,
+   0.243,
+   0.471
+  ],
+  "levers": [
+   "eurA"
+  ],
+  "odds": null,
+  "inputs": {
+   "meteo": null,
+   "presse": {
+    "H": null,
+    "A": null
+   },
+   "coupe": {
+    "H": null,
+    "A": {
+     "competition": "Ligue Conférence",
+     "opponent": "Nordsjaelland",
+     "day": "jeudi",
+     "home": true,
+     "hoursBefore": 68
+    }
+   }
+  }
+ },
+ "LEN-OM": {
+  "firstAt": "2026-10-30T02:09+00:00",
+  "changes": [
+   {
+    "at": "2026-10-30T02:09+00:00",
+    "p": [
+     0.526,
+     0.207,
+     0.267
+    ]
+   }
+  ],
+  "date": "2026-11-08",
+  "time": "20:45",
+  "md": 10,
+  "at": "2026-10-30T02:09+00:00",
+  "dataAt": "2026-10-30T02:09+00:00",
+  "model": {
+   "version": "d0beed5",
+   "mu": 0.231,
+   "home": 0.213
+  },
+  "lh": 2.155,
+  "la": 1.5,
+  "p": [
+   0.526,
+   0.207,
+   0.267
+  ],
+  "levers": [
+   "eurH",
+   "eurA"
+  ],
+  "odds": null,
+  "inputs": {
+   "meteo": null,
+   "presse": {
+    "H": null,
+    "A": null
+   },
+   "coupe": {
+    "H": {
+     "competition": "Ligue des champions",
+     "opponent": "Come",
+     "day": "mercredi",
+     "home": true,
+     "hoursBefore": 96
+    },
+    "A": {
+     "competition": "Ligue Europa",
+     "opponent": "Bayer Leverkusen",
+     "day": "jeudi",
+     "home": false,
+     "hoursBefore": 72
+    }
    }
   }
  }
