@@ -9,17 +9,17 @@
   "code": 0,
   "rain": 0,
   "rainMax": 0,
-  "gust": 43,
+  "gust": 46,
   "pRain": 0.0,
-  "pWind": 0.04,
+  "pWind": 0.02,
   "members": 51,
-  "confidence": 90,
+  "confidence": 92,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -49,9 +49,9 @@
     "day": "2026-10-30",
     "daysBefore": 2,
     "pRain": 0.0,
-    "pWind": 0.04,
+    "pWind": 0.02,
     "temp": 10,
-    "conf": 90
+    "conf": 92
    }
   ]
  },
@@ -65,7 +65,7 @@
   "code": 0,
   "rain": 0,
   "rainMax": 0,
-  "gust": 28,
+  "gust": 30,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
@@ -75,7 +75,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -116,12 +116,12 @@
   "stadium": "Stade Pierre-Mauroy",
   "roof": true,
   "daysBefore": 0,
-  "temp": 8,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "temp": 9,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 0,
-  "gust": 20,
+  "gust": 23,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
@@ -131,7 +131,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -228,22 +228,22 @@
   "stadium": "Orange Vélodrome",
   "roof": false,
   "daysBefore": 2,
-  "temp": 12,
-  "desc": "bruine légère",
-  "code": 51,
+  "temp": 13,
+  "desc": "bruine",
+  "code": 53,
   "rain": 0,
-  "rainMax": 0.9,
+  "rainMax": 0.6,
   "gust": 16,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 89,
+  "confidence": 91,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -275,7 +275,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 14,
-    "conf": 89
+    "conf": 91
    }
   ]
  },
@@ -289,7 +289,7 @@
   "code": 0,
   "rain": 0,
   "rainMax": 0.2,
-  "gust": 16,
+  "gust": 18,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
@@ -299,7 +299,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -340,22 +340,22 @@
   "stadium": "Stade Jean-Bouin",
   "roof": false,
   "daysBefore": 2,
-  "temp": 9,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "temp": 10,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 0,
-  "gust": 28,
+  "gust": 27,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 89,
+  "confidence": 93,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -386,8 +386,8 @@
     "daysBefore": 2,
     "pRain": 0.0,
     "pWind": 0.0,
-    "temp": 11,
-    "conf": 89
+    "temp": 10,
+    "conf": 93
    }
   ]
  },
@@ -397,21 +397,21 @@
   "roof": false,
   "daysBefore": 2,
   "temp": 10,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 0,
-  "gust": 34,
+  "gust": 33,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 92,
+  "confidence": 94,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -443,7 +443,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 10,
-    "conf": 92
+    "conf": 94
    }
   ]
  },
@@ -457,17 +457,17 @@
   "code": 0,
   "rain": 0,
   "rainMax": 0,
-  "gust": 19,
+  "gust": 20,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 97,
+  "confidence": 99,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-10-30T13:00+00:00",
+  "updated": "2026-10-30T21:32+00:00",
   "history": [
    {
     "day": "2026-10-27",
@@ -499,7 +499,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 8,
-    "conf": 97
+    "conf": 99
    }
   ]
  },

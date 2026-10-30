@@ -6158,40 +6158,100 @@
    "id": 2688717,
    "competition": "Ligue 1",
    "kickoff": "2026-10-30T18:00:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Le Havre AC",
    "away": "PSG",
    "homeLink": "/fr/equipe/le-havre-ac-701",
    "awayLink": "/fr/equipe/psg-263",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 1,
+   "ag": 5,
+   "goals": [
+    {
+     "side": "home",
+     "min": 18,
+     "half": 1,
+     "kind": "but",
+     "player": "Josh Maja"
+    },
+    {
+     "side": "away",
+     "min": 26,
+     "half": 1,
+     "kind": "but",
+     "player": "Mika Godts"
+    },
+    {
+     "side": "away",
+     "min": 28,
+     "half": 1,
+     "kind": "but",
+     "player": "Achraf Hakimi"
+    },
+    {
+     "side": "away",
+     "min": 55,
+     "half": 2,
+     "kind": "but",
+     "player": "Achraf Hakimi"
+    },
+    {
+     "side": "away",
+     "min": 62,
+     "half": 2,
+     "kind": "but",
+     "player": "Senny Mayulu"
+    },
+    {
+     "side": "away",
+     "min": 69,
+     "half": 2,
+     "kind": "but",
+     "player": "Achraf Hakimi"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     29,
+     71
+    ],
+    "Tirs": [
+     14,
+     15
+    ],
+    "Tirs cadrés": [
+     5,
+     10
+    ],
+    "Duels gagnés": [
+     52,
+     48
+    ]
+   },
    "starters": {
     "home": [
-     "Mbwana Samatta",
+     "Josh Maja",
+     "Sota Nakamura",
      "Rayan Fofana",
+     "Lamine Ndiaye",
      "Amir Richardson",
      "Simon Ebonog",
-     "Rassoul Ndiaye",
-     "Enzo Koffi",
+     "Djibril Ouziad",
      "Ahmed Touba",
      "Junior Mwanga",
      "Ayumu Seko",
-     "Djibril Ouziad",
-     "Gauthier Gallon"
+     "Arnaud Bodart"
     ],
     "away": [
-     "Desire Doue",
+     "Mika Godts",
+     "Senny Mayulu",
      "Ferran Torres",
+     "Dro Fernández",
      "Maghnes Akliouche",
-     "Fabián Ruiz",
-     "Vitinha",
-     "João Neves",
+     "Warren Zaïre-Emery",
+     "Lucas Digne",
      "Lucas Hernandez",
-     "Willian Pacho",
      "Illia Zabarnyi",
      "Achraf Hakimi",
      "Matvey Safonov"
@@ -6202,21 +6262,38 @@
    "id": 2688718,
    "competition": "Ligue 1",
    "kickoff": "2026-10-30T20:05:00Z",
-   "status": "",
-   "period": 1,
+   "status": "69'",
+   "period": 8,
    "home": "LOSC",
    "away": "RC Lens",
    "homeLink": "/fr/equipe/losc-257",
    "awayLink": "/fr/equipe/rc-lens-256",
-   "hg": null,
-   "ag": null,
+   "hg": 0,
+   "ag": 0,
    "goals": [],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     62,
+     38
+    ],
+    "Tirs": [
+     9,
+     3
+    ],
+    "Tirs cadrés": [
+     4,
+     2
+    ],
+    "Duels gagnés": [
+     45,
+     55
+    ]
+   },
    "starters": {
     "home": [
-     "Gaetan Perrin",
      "Soriba Diaoune",
+     "Hakon Arnar Haraldsson",
      "Ethan Mbappé",
      "Benjamin André",
      "Nabil Bentaleb",
@@ -6224,16 +6301,16 @@
      "Romain Perraud",
      "Alexsandro",
      "Nathan Ngoy",
-     "Calvin Verdonk",
+     "Maxima Goffi",
      "Berke Ozer"
     ],
     "away": [
-     "Franjo Ivanović",
+     "Thorgan Hazard",
      "Florian Sotoca",
      "Florian Thauvin",
      "Matthieu Udol",
-     "Amadou Haidara",
      "Mickael Cuisance",
+     "Amadou Haidara",
      "Saud Abdulhamid",
      "Jean-Clair Todibo",
      "Samson Baidoo",
@@ -6334,43 +6411,110 @@
    "id": 2688721,
    "competition": "Ligue 1",
    "kickoff": "2026-10-30T18:00:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Fin du match",
+   "period": 11,
    "home": "OGC Nice",
    "away": "Stade Rennais",
    "homeLink": "/fr/equipe/ogc-nice-262",
    "awayLink": "/fr/equipe/stade-rennais-264",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 5,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "home",
+     "min": 12,
+     "half": 1,
+     "kind": "penalty",
+     "player": "Elye Wahi"
+    },
+    {
+     "side": "away",
+     "min": 15,
+     "half": 1,
+     "kind": "but",
+     "player": "Sebastian Szymański"
+    },
+    {
+     "side": "home",
+     "min": 34,
+     "half": 1,
+     "kind": "penalty",
+     "player": "Elye Wahi"
+    },
+    {
+     "side": "home",
+     "min": 47,
+     "half": 1,
+     "kind": "but",
+     "player": "Jonathan Clauss"
+    },
+    {
+     "side": "home",
+     "min": 52,
+     "half": 2,
+     "kind": "but",
+     "player": "Mohamed Amoura"
+    },
+    {
+     "side": "away",
+     "min": 58,
+     "half": 2,
+     "kind": "penalty",
+     "player": "Boulaye Dia"
+    },
+    {
+     "side": "home",
+     "min": 73,
+     "half": 2,
+     "kind": "but",
+     "player": "Elye Wahi"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     47,
+     53
+    ],
+    "Tirs": [
+     17,
+     18
+    ],
+    "Tirs cadrés": [
+     8,
+     9
+    ],
+    "Duels gagnés": [
+     53,
+     47
+    ]
+   },
    "starters": {
     "home": [
      "Elye Wahi",
      "Mohamed Amoura",
-     "Gauthier Hein",
+     "Sofiane Diop",
      "Niels Nkounkou",
      "Hicham Boudaoui",
-     "Axel Witsel",
-     "Hamza Koutoune",
-     "Mohamed Abdelmonem",
-     "Youssouf Ndayishimiye",
+     "Djibril Coulibaly",
+     "Jonathan Clauss",
      "Xavier Mandza",
+     "Youssouf Ndayishimiye",
+     "Mohamed Abdelmonem",
      "Yehvann Diouf"
     ],
     "away": [
      "Mousa Al-Taamari",
      "Boulaye Dia",
-     "Mahdi Camara",
-     "Valentin Rongier",
-     "Adrien Thomasson",
      "Aboubakar Nagida",
+     "Adrien Thomasson",
+     "Valentin Rongier",
+     "Sebastian Szymański",
+     "Przemysław Frankowski",
      "Anthony Rouault",
      "Charlie Cresswell",
      "Abdelhamid Aït Boudlal",
-     "Przemysław Frankowski",
-     "Kilian Belazzoug"
+     "Nicolas Lemaitre"
     ]
    }
   },
@@ -6495,8 +6639,8 @@
      "Habib Diallo",
      "Louis Mafouta",
      "Lucas Calodat",
+     "Jean Vercruysse",
      "Lucas Bretelle",
-     "Antoine Rabillard",
      "Lucas Buades",
      "Alexandre Lauray",
      "Raul Torrente",
@@ -7205,10 +7349,48 @@
     "home": [],
     "away": []
    }
+  },
+  "2688760": {
+   "id": 2688760,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-06T14:00:00Z",
+   "status": "",
+   "period": 1,
+   "home": "ESTAC Troyes",
+   "away": "Olympique Lyonnais",
+   "homeLink": "/fr/equipe/estac-troyes-700",
+   "awayLink": "/fr/equipe/olympique-lyonnais-19",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "AJ Auxerre - Deux retours, trois incertains et quatre forfaits à l'AJA pour le match face au RC Strasbourg",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T18:34:00Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-deux-retours-trois-incertains-et-quatre-forfaits-a-laja-pour-le-match-face-au-rc-strasbourg-43699374"
+   },
+   {
+    "title": "AJ Auxerre : Paul Nardi révèle les clés de son retour avant Strasbourg",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T18:30:30Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-paul-nardi-revele-les-cles-de-son-retour-avant-strasbourg-43699369"
+   },
+   {
+    "title": "AJ Auxerre : Will Still annonce une vague d’absences à Strasbourg",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T14:00:14Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-annonce-une-vague-dabsences-a-strasbourg-43697678"
+   },
    {
     "title": "Carnet noir : ancien attaquant d'Auxerre et Toulon, Michel Pineda est décédé",
     "publisher": "Foot National",
@@ -7250,27 +7432,21 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T20:57:00Z",
     "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-revolte-apres-un-probleme-informatique-inedit-sur-un-but-du-mans-fc-43671911"
-   },
-   {
-    "title": "AJA : L’AJ Auxerre domine, mais Le Mans passe tout près du hold-up",
-    "publisher": "Morning Foot",
-    "time": "2026-10-25T19:15:35Z",
-    "url": "https://onefootball.com/fr/news/aja-laj-auxerre-domine-mais-le-mans-passe-tout-pres-du-hold-up-43671572"
-   },
-   {
-    "title": "Ligue 1 - Le TFC accroché par l'ESTAC Troyes, pas de but entre Angers SCO et le FC Lorient, match animé entre l'AJ Auxerre et Le Mans FC : le récap du multiplex",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T18:15:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-accroche-par-lestac-troyes-pas-de-but-entre-angers-sco-et-le-fc-lorient-match-anime-entre-laj-auxerre-et-le-mans-fc-le-recap-du-multiplex-43671200"
-   },
-   {
-    "title": "Auxerre-Le Mans : énorme imbroglio, la goal-line valide un but, la VAR ne peut pas confirmer",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T17:29:00Z",
-    "url": "https://onefootball.com/fr/news/auxerre-le-mans-enorme-imbroglio-la-goal-line-valide-un-but-la-var-ne-peut-pas-confirmer-43670961"
    }
   ],
   "AS Monaco": [
+   {
+    "title": "Ligue 1 : l'OL encore très amoindri contre Angers, Monaco pas au complet face au Paris FC",
+    "publisher": "Foot National",
+    "time": "2026-10-30T15:01:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-lol-encore-tres-amoindri-contre-angers-monaco-pas-au-complet-face-au-paris-fc-43698055"
+   },
+   {
+    "title": "AS Monaco - Filipe Luis acte deux forfaits importants face au Paris FC, un cadre de l'ASM incertain",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:57:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-acte-deux-forfaits-importants-face-au-paris-fc-un-cadre-de-lasm-incertain-43697615"
+   },
    {
     "title": "Folarin Balogun vers la Juventus ?",
     "publisher": "Mercato Foot anglais",
@@ -7306,21 +7482,21 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-26T17:01:00Z",
     "url": "https://onefootball.com/fr/news/as-monaco-un-club-anglais-suit-de-pres-lamine-camara-43676299"
-   },
-   {
-    "title": "AS Monaco : Filipe Luís dénonce le chaos et prend tout sur lui",
-    "publisher": "Morning Foot",
-    "time": "2026-10-26T11:00:35Z",
-    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-denonce-le-chaos-et-prend-tout-sur-lui-43674329"
-   },
-   {
-    "title": "Monaco renverse la tendance face à Lille à dix et reprend provisoirement la tête de la Ligue 1",
-    "publisher": "AS Monaco",
-    "time": "2026-10-26T09:41:00Z",
-    "url": "https://onefootball.com/fr/video/monaco-renverse-la-tendance-face-a-lille-a-dix-et-reprend-provisoirement-la-tete-de-la-ligue-1-3LEAN53FKCEK6bK9EjRWVaXlTue"
    }
   ],
   "Angers SCO": [
+   {
+    "title": "Angers SCO - Une mauvaise nouvelle se profile avant d'affronter l'OL",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T15:32:00Z",
+    "url": "https://onefootball.com/fr/news/angers-sco-une-mauvaise-nouvelle-se-profile-avant-daffronter-lol-43698282"
+   },
+   {
+    "title": "OL - \"L'équipe sera forte sans attaquant\", Paulo Fonseca pense à réorganiser son schéma offensif",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:35:00Z",
+    "url": "https://onefootball.com/fr/news/ol-lequipe-sera-forte-sans-attaquant-paulo-fonseca-pense-a-reorganiser-son-schema-offensif-43697526"
+   },
    {
     "title": "OL - Tyler Morton pourrait passer par la case opération et être absent un long moment !",
     "publisher": "MadeInFOOT",
@@ -7368,21 +7544,15 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T10:14:00Z",
     "url": "https://onefootball.com/fr/news/angers-sco-le-groupe-angevin-pour-affronter-le-fc-lorient-43668941"
-   },
-   {
-    "title": "FC Lorient - Trois absents dans le groupe lorientais pour affronter Angers SCO",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T10:05:00Z",
-    "url": "https://onefootball.com/fr/news/fc-lorient-trois-absents-dans-le-groupe-lorientais-pour-affronter-angers-sco-43668885"
-   },
-   {
-    "title": "Angers – Lorient : le SCO au bord de la crise face à des Merlus en pleine confiance, compositions probables, chaîne TV et heure",
-    "publisher": "BeFootball",
-    "time": "2026-10-25T09:58:54Z",
-    "url": "https://onefootball.com/fr/news/angers-lorient-le-sco-au-bord-de-la-crise-face-a-des-merlus-en-pleine-confiance-compositions-probables-chaine-tv-et-heure-43668834"
    }
   ],
   "ESTAC Troyes": [
+   {
+    "title": "Le Mans FC - Deux retours mais quatre absents dans le groupe de Patrick Videira pour le match face à l'ESTAC Troyes",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T18:59:00Z",
+    "url": "https://onefootball.com/fr/news/le-mans-fc-deux-retours-mais-quatre-absents-dans-le-groupe-de-patrick-videira-pour-le-match-face-a-lestac-troyes-43699467"
+   },
    {
     "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
     "publisher": "MadeInFOOT",
@@ -7436,12 +7606,6 @@
     "publisher": "Foot National",
     "time": "2026-10-21T10:27:00Z",
     "url": "https://onefootball.com/fr/news/un-match-de-ligue-1-decale-a-cause-des-manifestations-43647334"
-   },
-   {
-    "title": "Ligue 1 - TFC - ESTAC Troyes : la LFP décale le match pour une raison précise",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-21T09:25:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-la-lfp-decale-le-match-pour-une-raison-precise-43646961"
    }
   ],
   "FC Lorient": [
@@ -7508,10 +7672,40 @@
   ],
   "LOSC": [
    {
-    "title": "Jérôme Rothen : « S’il a été convaincu dès les premiers échanges, c’est qu’il l’a fait bander… »",
+    "title": "Lille - Lens : les compositions officielles",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T19:20:00Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-les-compositions-officielles-43699518"
+   },
+   {
+    "title": "Ligue 1 - LOSC - RC Lens : les compos officielles du derby du Nord",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T19:05:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-losc-rc-lens-les-compos-officielles-du-derby-du-nord-43699486"
+   },
+   {
+    "title": "Ligue des champions : Vincent Kompany devrait être de retour pour LOSC – Bayern Munich",
+    "publisher": "Le Petit Lillois",
+    "time": "2026-10-30T18:17:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-des-champions-vincent-kompany-devrait-etre-de-retour-pour-losc-bayern-munich-43699992"
+   },
+   {
+    "title": "Laurent Batlles : « Si jamais il est moins performant en championnat ça va se crisper, et c’est normal. Après, de là à s’inquiéter… »",
     "publisher": "ConsultantsFoot",
-    "time": "2026-10-30T12:00:53Z",
-    "url": "https://onefootball.com/fr/news/jerome-rothen-sil-a-ete-convaincu-des-les-premiers-echanges-cest-quil-la-fait-bander-43696948"
+    "time": "2026-10-30T14:41:39Z",
+    "url": "https://onefootball.com/fr/news/laurent-batlles-si-jamais-il-est-moins-performant-en-championnat-ca-va-se-crisper-et-cest-normal-apres-de-la-a-sinquieter-43697970"
+   },
+   {
+    "title": "Exilé au Qatar, Younès Belhanda assure qu’il jouerait « tous les jours au LOSC »",
+    "publisher": "Le Petit Lillois",
+    "time": "2026-10-30T14:06:00Z",
+    "url": "https://onefootball.com/fr/news/exile-au-qatar-younes-belhanda-assure-quil-jouerait-tous-les-jours-au-losc-43699991"
+   },
+   {
+    "title": "Lille – Lens : un derby du Nord sans parcage visiteurs et sans Nianzou, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-30T13:38:19Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-un-derby-du-nord-sans-parcage-visiteurs-et-sans-nianzou-compositions-probables-chaine-tv-et-heure-43697545"
    },
    {
     "title": "Lille-Lens : le duel Ancelotti-Cahuzac, les compositions probables des deux équipes !",
@@ -7536,101 +7730,83 @@
     "publisher": "Foot National",
     "time": "2026-10-30T07:00:00Z",
     "url": "https://onefootball.com/fr/news/lille-lens-les-compositions-probables-du-derby-du-nord-43695571"
-   },
-   {
-    "title": "Lille-Lens : sur quelle chaîne et à quelle heure voir le derby du Nord",
-    "publisher": "Foot National",
-    "time": "2026-10-30T06:26:00Z",
-    "url": "https://onefootball.com/fr/news/lille-lens-sur-quelle-chaine-et-a-quelle-heure-voir-le-derby-du-nord-43695517"
-   },
-   {
-    "title": "\"L'ambition, ce n'est pas de faire voir que je fais bien jouer l'équipe\" ... Les mots forts d'Ancelotti avant le derby Lille - Lens",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-29T20:28:00Z",
-    "url": "https://onefootball.com/fr/news/lambition-ce-nest-pas-de-faire-voir-que-je-fais-bien-jouer-lequipe-les-mots-forts-dancelotti-avant-le-derby-lille-lens-43694230"
-   },
-   {
-    "title": "LOSC : avant le derby face à Lens, Ancelotti et André donnent le ton",
-    "publisher": "Foot National",
-    "time": "2026-10-29T20:03:00Z",
-    "url": "https://onefootball.com/fr/news/losc-avant-le-derby-face-a-lens-ancelotti-et-andre-donnent-le-ton-43694057"
-   },
-   {
-    "title": "Mercato - \"À Marseille, je joue, à Lyon, je joue, à Lille, je joue…\", L'énorme appel du pied de Younès Belhanda",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-29T19:55:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-a-marseille-je-joue-a-lyon-je-joue-a-lille-je-joue-lenorme-appel-du-pied-de-younes-belhanda-43693976"
-   },
-   {
-    "title": "RC Lens - Cinq absents, mais un retour dans le groupe lensois pour le derby du Nord face au LOSC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-29T19:15:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-cinq-absents-mais-un-retour-dans-le-groupe-lensois-pour-le-derby-du-nord-face-au-losc-43693794"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "PSG - Luis Enrique réagit au triplé d'Achraf Hakimi et au large succès face au Havre AC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T20:38:00Z",
+    "url": "https://onefootball.com/fr/news/psg-luis-enrique-reagit-au-triple-dachraf-hakimi-et-au-large-succes-face-au-havre-ac-43699916"
+   },
+   {
+    "title": "Le Havre – PSG (1-5) : cinq buts et des chiffres impressionnants",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T20:11:32Z",
+    "url": "https://onefootball.com/fr/news/le-havre-psg-1-5-cinq-buts-et-des-chiffres-impressionnants-43699794"
+   },
+   {
+    "title": "Ligue 1 : festival offensif du PSG au Havre, Nice terrasse Rennes dans un match fou",
+    "publisher": "Foot National",
+    "time": "2026-10-30T19:56:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-festival-offensif-du-psg-au-havre-nice-terrasse-rennes-dans-un-match-fou-43699703"
+   },
+   {
+    "title": "Ligue 1 - Les notes de Le Havre AC - PSG : Achraf Hakimi brillant et cinq fois décisif, Paris terrasse le HAC et conserve son trône !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T19:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-le-havre-ac-psg-achraf-hakimi-brillant-et-cinq-fois-decisif-paris-terrasse-le-hac-et-conserve-son-trone-43699679"
+   },
+   {
+    "title": "🚨 Compos du Havre-PSG : Luis Enrique fait tourner en vue de Villarreal !",
+    "publisher": "OneFootball",
+    "time": "2026-10-30T17:13:36Z",
+    "url": "https://onefootball.com/fr/news/compos-du-havre-psg-luis-enrique-fait-tourner-en-vue-de-villarreal-43698923"
+   },
+   {
+    "title": "Le Havre - PSG : Godts, Digne, Ferran Torres... les compositions officielles !",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T17:13:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-psg-godts-digne-ferran-torres-les-compositions-officielles-43698921"
+   },
+   {
+    "title": "Ligue 1 - Le Havre AC - PSG : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T17:10:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-le-havre-ac-psg-les-compos-officielles-43698919"
+   },
+   {
+    "title": "Le Havre AC - Le groupe du HAC convoqué par Didier Digard pour le match face au PSG",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:21:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-ac-le-groupe-du-hac-convoque-par-didier-digard-pour-le-match-face-au-psg-43697472"
+   },
+   {
+    "title": "Le Havre – PSG : la lanterne rouge reçoit un PSG remanié, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-30T13:10:38Z",
+    "url": "https://onefootball.com/fr/news/le-havre-psg-la-lanterne-rouge-recoit-un-psg-remanie-compositions-probables-chaine-tv-et-heure-43697365"
+   },
    {
     "title": "PSG : l'incroyable turn-over prévu par Luis Enrique au Havre",
     "publisher": "OnzeMondial",
     "time": "2026-10-30T11:23:00Z",
     "url": "https://onefootball.com/fr/news/psg-lincroyable-turn-over-prevu-par-luis-enrique-au-havre-43696726"
-   },
-   {
-    "title": "PSG - Quatre absents dans le groupe parisien pour affronter Le Havre AC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T10:37:00Z",
-    "url": "https://onefootball.com/fr/news/psg-quatre-absents-dans-le-groupe-parisien-pour-affronter-le-havre-ac-43696456"
-   },
-   {
-    "title": "Le Havre-PSG : les compositions probables du choc des extrêmes",
-    "publisher": "Foot National",
-    "time": "2026-10-30T10:29:00Z",
-    "url": "https://onefootball.com/fr/news/le-havre-psg-les-compositions-probables-du-choc-des-extremes-43696399"
-   },
-   {
-    "title": "Ligue 1 - Le Havre AC - PSG : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T07:25:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-havre-ac-psg-les-compos-probables-43695648"
-   },
-   {
-    "title": "Le Havre–PSG : chaîne TV, streaming... À quelle heure et où suivre ce match d’ouverture de la 9ème journée de Ligue 1 ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T05:00:00Z",
-    "url": "https://onefootball.com/fr/news/le-havrepsg-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-douverture-de-la-9eme-journee-de-ligue-1-43695357"
-   },
-   {
-    "title": "Pierre Ménès : « Quand c’est Clément Turpin qui est au sifflet, le mec qui est à la VAR, il est pétrifié… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-29T20:30:04Z",
-    "url": "https://onefootball.com/fr/news/pierre-menes-quand-cest-clement-turpin-qui-est-au-sifflet-le-mec-qui-est-a-la-var-il-est-petrifie-43694254"
-   },
-   {
-    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
-    "publisher": "Foot National",
-    "time": "2026-10-29T07:58:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
-   },
-   {
-    "title": "Le Havre aurait-il dû bénéficier d'un penalty contre l'OM en fin de match ? La direction de l'arbitrage a tranché",
-    "publisher": "Foot National",
-    "time": "2026-10-28T16:33:00Z",
-    "url": "https://onefootball.com/fr/news/le-havre-aurait-il-du-beneficier-dun-penalty-contre-lom-en-fin-de-match-la-direction-de-larbitrage-a-tranche-43686883"
-   },
-   {
-    "title": "Ligue 1 - OM - Le Havre AC : la DTA se prononce sur les deux pénaltys potentiels en faveur des Havrais",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-28T10:37:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-om-le-havre-ac-la-dta-se-prononce-sur-les-deux-penaltys-potentiels-en-faveur-des-havrais-43685106"
-   },
-   {
-    "title": "OM : deux penaltys oubliés pour Le Havre au Vélodrome ? La DTA a tranché !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-28T10:32:00Z",
-    "url": "https://onefootball.com/fr/news/om-deux-penaltys-oublies-pour-le-havre-au-velodrome-la-dta-a-tranche-43685052"
    }
   ],
   "Le Mans FC": [
+   {
+    "title": "Le Mans FC - Deux retours mais quatre absents dans le groupe de Patrick Videira pour le match face à l'ESTAC Troyes",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T18:59:00Z",
+    "url": "https://onefootball.com/fr/news/le-mans-fc-deux-retours-mais-quatre-absents-dans-le-groupe-de-patrick-videira-pour-le-match-face-a-lestac-troyes-43699467"
+   },
+   {
+    "title": "Le Mans FC - Gros coup dur pour Djibril Sidibé !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T17:55:00Z",
+    "url": "https://onefootball.com/fr/news/le-mans-fc-gros-coup-dur-pour-djibril-sidibe-43699158"
+   },
    {
     "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
     "publisher": "Foot National",
@@ -7678,21 +7854,45 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T15:15:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-officielles-43670313"
-   },
-   {
-    "title": "AJ Auxerre – Le Mans : les Auxerrois veulent confirmer leur retour en forme, compositions probables, chaîne TV et heure",
-    "publisher": "BeFootball",
-    "time": "2026-10-25T10:16:43Z",
-    "url": "https://onefootball.com/fr/news/aj-auxerre-le-mans-les-auxerrois-veulent-confirmer-leur-retour-en-forme-compositions-probables-chaine-tv-et-heure-43668967"
-   },
-   {
-    "title": "Ligue 1 - AJ Auxerre - Le Mans FC : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T08:00:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-le-mans-fc-les-compos-probables-43668339"
    }
   ],
   "OGC Nice": [
+   {
+    "title": "Nice – Rennes (5-2) : le score est lourd, les chiffres surprennent",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T19:58:14Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-5-2-le-score-est-lourd-les-chiffres-surprennent-43699702"
+   },
+   {
+    "title": "Ligue 1 - Les notes de OGC Nice - Stade Rennais : grâce à un triplé d'Elye Wahi, les Aiglons enchaînent et poursuivent leur remontée au classement !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T19:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-ogc-nice-stade-rennais-grace-a-un-triple-delye-wahi-les-aiglons-enchainent-et-poursuivent-leur-remontee-au-classement-43699686"
+   },
+   {
+    "title": "Nice - Rennes : les compositions officielles",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T17:08:00Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-les-compositions-officielles-43698883"
+   },
+   {
+    "title": "Nice - Rennes : compositions des équipes",
+    "publisher": "Ogcnissa.com ",
+    "time": "2026-10-30T17:03:06Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-compositions-des-equipes-43698955"
+   },
+   {
+    "title": "Ligue 1 - OGC Nice - Stade Rennais : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T17:00:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-ogc-nice-stade-rennais-les-compos-officielles-43698836"
+   },
+   {
+    "title": "Nice – Rennes : le Gym retrouve Franck Haise et son dauphin du PSG, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-30T13:17:35Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-le-gym-retrouve-franck-haise-et-son-dauphin-du-psg-compositions-probables-chaine-tv-et-heure-43697437"
+   },
    {
     "title": "Nice-Rennes : les compositions probables",
     "publisher": "Foot National",
@@ -7716,45 +7916,57 @@
     "publisher": "OnzeMondial",
     "time": "2026-10-30T10:28:00Z",
     "url": "https://onefootball.com/fr/news/rennes-il-est-indispensable-haise-adoube-une-recrue-avant-nice-43696395"
-   },
-   {
-    "title": "Stade Rennais : Franck Haise annonce un nouveau coup dur avant Nice",
-    "publisher": "Morning Foot",
-    "time": "2026-10-30T08:40:31Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-annonce-un-nouveau-coup-dur-avant-nice-43695912"
-   },
-   {
-    "title": "Ligue 1 - OGC Nice - Stade Rennais : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T07:35:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-ogc-nice-stade-rennais-les-compos-probables-43695685"
-   },
-   {
-    "title": "Nice–Rennes : chaîne TV, streaming… À quelle heure et où regarder ce match d’ouverture de la 9ème journée de Ligue 1 ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T05:20:00Z",
-    "url": "https://onefootball.com/fr/news/nicerennes-chaine-tv-streaming-a-quelle-heure-et-ou-regarder-ce-match-douverture-de-la-9eme-journee-de-ligue-1-43695391"
-   },
-   {
-    "title": "Rennes : deux absences de taille pour le déplacement à Nice",
-    "publisher": "Foot National",
-    "time": "2026-10-29T19:04:00Z",
-    "url": "https://onefootball.com/fr/news/rennes-deux-absences-de-taille-pour-le-deplacement-a-nice-43693724"
-   },
-   {
-    "title": "Ligue 1 : la Direction de l’arbitrage rend son rapport sur la 8e journée",
-    "publisher": "Foot National",
-    "time": "2026-10-29T07:58:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-la-direction-de-larbitrage-rend-son-rapport-sur-la-8e-journee-43690263"
-   },
-   {
-    "title": "Brest - Nice : l'album photos",
-    "publisher": "Ogcnissa.com ",
-    "time": "2026-10-27T13:38:27Z",
-    "url": "https://onefootball.com/fr/news/brest-nice-lalbum-photos-43680736"
    }
   ],
   "Olympique Lyonnais": [
+   {
+    "title": "Ligue 1 J9 / OL – Angers SCO : Fonseca et Merah s’expriment devant la presse",
+    "publisher": "FerveurLyonnaise",
+    "time": "2026-10-30T16:41:42Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-j9-ol-angers-sco-fonseca-et-merah-sexpriment-devant-la-presse-43698725"
+   },
+   {
+    "title": "Merah avant OL - Angers : \"On a des cadres qui savent parler au groupe\"",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-30T16:20:00Z",
+    "url": "https://onefootball.com/fr/news/merah-avant-ol-angers-on-a-des-cadres-qui-savent-parler-au-groupe-43698562"
+   },
+   {
+    "title": "Bertrand Latour : « J’ai déjà hâte de voir comment il va se comporter dans les prochaines rencontres »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-30T16:00:13Z",
+    "url": "https://onefootball.com/fr/news/bertrand-latour-jai-deja-hate-de-voir-comment-il-va-se-comporter-dans-les-prochaines-rencontres-43698427"
+   },
+   {
+    "title": "Angers SCO - Une mauvaise nouvelle se profile avant d'affronter l'OL",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T15:32:00Z",
+    "url": "https://onefootball.com/fr/news/angers-sco-une-mauvaise-nouvelle-se-profile-avant-daffronter-lol-43698282"
+   },
+   {
+    "title": "Fonseca avant OL - Angers : \"On reste à trois points du leader\"",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-30T13:50:00Z",
+    "url": "https://onefootball.com/fr/news/fonseca-avant-ol-angers-on-reste-a-trois-points-du-leader-43697571"
+   },
+   {
+    "title": "OL - \"L'équipe sera forte sans attaquant\", Paulo Fonseca pense à réorganiser son schéma offensif",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:35:00Z",
+    "url": "https://onefootball.com/fr/news/ol-lequipe-sera-forte-sans-attaquant-paulo-fonseca-pense-a-reorganiser-son-schema-offensif-43697526"
+   },
+   {
+    "title": "OL : terrible coup dur, après Sulc, Fonseca annonce une nouvelle longue blessure pour un cadre",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T13:21:00Z",
+    "url": "https://onefootball.com/fr/news/ol-terrible-coup-dur-apres-sulc-fonseca-annonce-une-nouvelle-longue-blessure-pour-un-cadre-43697443"
+   },
+   {
+    "title": "OL - Angers : Nicolas Tagliafico va signer son retour dans le groupe",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-10-30T13:00:00Z",
+    "url": "https://onefootball.com/fr/news/ol-angers-nicolas-tagliafico-va-signer-son-retour-dans-le-groupe-43697299"
+   },
    {
     "title": "OL - Tyler Morton pourrait passer par la case opération et être absent un long moment !",
     "publisher": "MadeInFOOT",
@@ -7766,181 +7978,151 @@
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-10-30T12:26:15Z",
     "url": "https://onefootball.com/fr/news/ol-morton-forfait-contre-angers-et-vers-une-longue-absence-43697148"
-   },
-   {
-    "title": "OL - Les joueurs de l'OL ont profité d'un moment convivial au restaurant cette semaine",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T11:40:00Z",
-    "url": "https://onefootball.com/fr/news/ol-les-joueurs-de-lol-ont-profite-dun-moment-convivial-au-restaurant-cette-semaine-43696837"
-   },
-   {
-    "title": "OL : les joueurs réunis autour d'un repas avant Angers",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-30T11:10:00Z",
-    "url": "https://onefootball.com/fr/news/ol-les-joueurs-reunis-autour-dun-repas-avant-angers-43696680"
-   },
-   {
-    "title": "À deux jours d'OL - Angers, Tyler Morton toujours absent de l'entraînement",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-30T10:45:15Z",
-    "url": "https://onefootball.com/fr/news/a-deux-jours-dol-angers-tyler-morton-toujours-absent-de-lentrainement-43696502"
-   },
-   {
-    "title": "À 36 ans, Belhanda assure qu'il jouerait \"tous les jours à l'OL, l'OM ou Lille\"",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-30T10:00:00Z",
-    "url": "https://onefootball.com/fr/news/a-36-ans-belhanda-assure-quil-jouerait-tous-les-jours-a-lol-lom-ou-lille-43696255"
-   },
-   {
-    "title": "Mercato : Athekame explique pourquoi il a choisi l'OL et pas l'OM",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-30T09:15:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-athekame-explique-pourquoi-il-a-choisi-lol-et-pas-lom-43696071"
-   },
-   {
-    "title": "OL : le réseau des clubs partenaires reprend ses activités",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-30T08:30:00Z",
-    "url": "https://onefootball.com/fr/news/ol-le-reseau-des-clubs-partenaires-reprend-ses-activites-43695867"
-   },
-   {
-    "title": "D'un match de transition à un match de possession, l'OL va devoir trouver des solutions",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-10-30T07:00:00Z",
-    "url": "https://onefootball.com/fr/news/dun-match-de-transition-a-un-match-de-possession-lol-va-devoir-trouver-des-solutions-43695570"
-   },
-   {
-    "title": "OL - Pas d'inquiétude apparente pour Corentin Tolisso après son alerte face au PSG",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-29T20:15:00Z",
-    "url": "https://onefootball.com/fr/news/ol-pas-dinquietude-apparente-pour-corentin-tolisso-apres-son-alerte-face-au-psg-43694148"
    }
   ],
   "Olympique de Marseille": [
    {
-    "title": "OM - Bruno Genesio dévoile les raisons de l'absence d'Amine Gouiri et de Bamo Méité à l'entraînement",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T12:40:00Z",
-    "url": "https://onefootball.com/fr/news/om-bruno-genesio-devoile-les-raisons-de-labsence-damine-gouiri-et-de-bamo-meite-a-lentrainement-43697189"
+    "title": "Mercato OM : Vers un retour au Brésil pour Igor Paixão ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-30T21:00:09Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-vers-un-retour-au-bresil-pour-igor-paixao-43699989"
    },
    {
-    "title": "OM : les deux grands gagnants de la rétrogradation d'Abdallah, un jeune bien connu de Genesio bientôt lancé ?",
+    "title": "OM – Genesio reconnait un point faible de son équipe",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-30T19:00:12Z",
+    "url": "https://onefootball.com/fr/news/om-genesio-reconnait-un-point-faible-de-son-equipe-43699450"
+   },
+   {
+    "title": "OM – Genesio calme les ardeurs à propos de Valero",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-10-30T18:00:55Z",
+    "url": "https://onefootball.com/fr/news/om-genesio-calme-les-ardeurs-a-propos-de-valero-43699204"
+   },
+   {
+    "title": "OM : Genesio dénonce un \"lobbying\" autour des jeunes joueurs marseillais",
     "publisher": "OnzeMondial",
-    "time": "2026-10-30T12:28:00Z",
-    "url": "https://onefootball.com/fr/news/om-les-deux-grands-gagnants-de-la-retrogradation-dabdallah-un-jeune-bien-connu-de-genesio-bientot-lance-43697134"
+    "time": "2026-10-30T18:00:00Z",
+    "url": "https://onefootball.com/fr/news/om-genesio-denonce-un-lobbying-autour-des-jeunes-joueurs-marseillais-43699169"
    },
    {
-    "title": "OM - Emerson Palmieri se confie sur sa relation avec Igor Paixão",
+    "title": "OM - Emerson Palmieri dévoile ce qui distingue Roberto De Zerbi de Bruno Genesio",
     "publisher": "MadeInFOOT",
-    "time": "2026-10-30T12:24:00Z",
-    "url": "https://onefootball.com/fr/news/om-emerson-palmieri-se-confie-sur-sa-relation-avec-igor-paixao-43697105"
+    "time": "2026-10-30T15:57:00Z",
+    "url": "https://onefootball.com/fr/news/om-emerson-palmieri-devoile-ce-qui-distingue-roberto-de-zerbi-de-bruno-genesio-43698406"
    },
    {
-    "title": "OM – Dugarry s’étonne de l’absence de critiques envers Maupay et Gomes",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-30T12:00:57Z",
-    "url": "https://onefootball.com/fr/news/om-dugarry-setonne-de-labsence-de-critiques-envers-maupay-et-gomes-43696987"
-   },
-   {
-    "title": "OM - Amine Gouiri absent lors de la séance d'entraînement à deux jours du match face au TFC !",
+    "title": "OM - Bruno Genesio dénonce les conséquences de la fermeture du Virage Nord",
     "publisher": "MadeInFOOT",
-    "time": "2026-10-30T10:12:00Z",
-    "url": "https://onefootball.com/fr/news/om-amine-gouiri-absent-lors-de-la-seance-dentrainement-a-deux-jours-du-match-face-au-tfc-43696327"
+    "time": "2026-10-30T15:02:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-denonce-les-consequences-de-la-fermeture-du-virage-nord-43698058"
    },
    {
-    "title": "OM – Adidas moins rémunérateur que prévu",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-30T10:00:21Z",
-    "url": "https://onefootball.com/fr/news/om-adidas-moins-remunerateur-que-prevu-43696293"
+    "title": "OM : \"C’est visiblement un traumatisme au club\", Bruno Genesio veut corriger le tir avant Toulouse",
+    "publisher": "Foot National",
+    "time": "2026-10-30T14:32:00Z",
+    "url": "https://onefootball.com/fr/news/om-cest-visiblement-un-traumatisme-au-club-bruno-genesio-veut-corriger-le-tir-avant-toulouse-43697872"
    },
    {
-    "title": "OM : ouverture du capital et mercato, McCourt prépare un hiver de folie",
+    "title": "OM - Bruno Genesio révèle ce qu'il apprécie particulièrement chez Pierre-Emile Højbjerg",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:41:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-revele-ce-quil-apprecie-particulierement-chez-pierre-emile-hojbjerg-43697553"
+   },
+   {
+    "title": "OM - Bruno Genesio met les choses au clair concernant le jeune Antoine Valero",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:15:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-met-les-choses-au-clair-concernant-le-jeune-antoine-valero-43697414"
+   },
+   {
+    "title": "OM : \"C'était très intense\", Emerson tranche entre le management de Genesio et De Zerbi",
     "publisher": "OnzeMondial",
-    "time": "2026-10-30T08:25:00Z",
-    "url": "https://onefootball.com/fr/news/om-ouverture-du-capital-et-mercato-mccourt-prepare-un-hiver-de-folie-43695856"
-   },
-   {
-    "title": "Jérôme Rothen : « Avant de parler de reconstruction, il faut détruire cette équipe »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-10-30T06:30:19Z",
-    "url": "https://onefootball.com/fr/news/jerome-rothen-avant-de-parler-de-reconstruction-il-faut-detruire-cette-equipe-43695532"
-   },
-   {
-    "title": "Ex-OM : Hervé Renard pense que Benatia reviendra à l’OM",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-30T06:00:51Z",
-    "url": "https://onefootball.com/fr/news/ex-om-herve-renard-pense-que-benatia-reviendra-a-lom-43695471"
-   },
-   {
-    "title": "OM – Le salaire d’Højbjerg coince pour son départ",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-10-30T01:00:03Z",
-    "url": "https://onefootball.com/fr/news/om-le-salaire-dhojbjerg-coince-pour-son-depart-43695090"
+    "time": "2026-10-30T13:02:00Z",
+    "url": "https://onefootball.com/fr/news/om-cetait-tres-intense-emerson-tranche-entre-le-management-de-genesio-et-de-zerbi-43697311"
    }
   ],
   "PSG": [
    {
-    "title": "PSG : l'incroyable turn-over prévu par Luis Enrique au Havre",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T11:23:00Z",
-    "url": "https://onefootball.com/fr/news/psg-lincroyable-turn-over-prevu-par-luis-enrique-au-havre-43696726"
-   },
-   {
-    "title": "Mercato MHSC - Laciné Megnan explique pourquoi il a choisi de rester à Montpellier malgré l'intérêt du PSG",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T11:14:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-mhsc-lacine-megnan-explique-pourquoi-il-a-choisi-de-rester-a-montpellier-malgre-linteret-du-psg-43696688"
-   },
-   {
-    "title": "Le Havre/PSG – Le groupe parisien : 5 absents, mais Godts présent",
+    "title": "Le Havre/PSG – Touba souffre, mais pas à cause des buts",
     "publisher": "Parisfans.fr",
-    "time": "2026-10-30T10:41:32Z",
-    "url": "https://onefootball.com/fr/news/le-havrepsg-le-groupe-parisien-5-absents-mais-godts-present-43696469"
+    "time": "2026-10-30T20:46:02Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-touba-souffre-mais-pas-a-cause-des-buts-43699919"
    },
    {
-    "title": "PSG - Quatre absents dans le groupe parisien pour affronter Le Havre AC",
+    "title": "Le Havre/PSG – Digard constate le grand écart entre les deux équipes",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-30T20:40:08Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-digard-constate-le-grand-ecart-entre-les-deux-equipes-43699903"
+   },
+   {
+    "title": "PSG - Luis Enrique réagit au triplé d'Achraf Hakimi et au large succès face au Havre AC",
     "publisher": "MadeInFOOT",
-    "time": "2026-10-30T10:37:00Z",
-    "url": "https://onefootball.com/fr/news/psg-quatre-absents-dans-le-groupe-parisien-pour-affronter-le-havre-ac-43696456"
+    "time": "2026-10-30T20:38:00Z",
+    "url": "https://onefootball.com/fr/news/psg-luis-enrique-reagit-au-triple-dachraf-hakimi-et-au-large-succes-face-au-havre-ac-43699916"
    },
    {
-    "title": "Le Havre-PSG : les compositions probables du choc des extrêmes",
+    "title": "PSG - Achraf Hakimi livre son ressenti après son premier triplé en carrière face au Havre AC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T20:25:00Z",
+    "url": "https://onefootball.com/fr/news/psg-achraf-hakimi-livre-son-ressenti-apres-son-premier-triple-en-carriere-face-au-havre-ac-43699848"
+   },
+   {
+    "title": "Le Havre/PSG – Hakimi jubile après son triplé",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-30T20:24:02Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-hakimi-jubile-apres-son-triple-43699840"
+   },
+   {
+    "title": "PSG - La réaction de Senny Mayulu après son but et le festival offensif du PSG en terres havraises",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T20:20:00Z",
+    "url": "https://onefootball.com/fr/news/psg-la-reaction-de-senny-mayulu-apres-son-but-et-le-festival-offensif-du-psg-en-terres-havraises-43699806"
+   },
+   {
+    "title": "Le Havre – PSG (1-5) : cinq buts et des chiffres impressionnants",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T20:11:32Z",
+    "url": "https://onefootball.com/fr/news/le-havre-psg-1-5-cinq-buts-et-des-chiffres-impressionnants-43699794"
+   },
+   {
+    "title": "Le Havre/PSG – Les notes des Parisiens : Hakimi en feu, Paris trop fort",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-30T19:57:43Z",
+    "url": "https://onefootball.com/fr/news/le-havrepsg-les-notes-des-parisiens-hakimi-en-feu-paris-trop-fort-43699672"
+   },
+   {
+    "title": "Résumé vidéo Le Havre/PSG (1-5), triplé de Hakimi pour rester premier !",
+    "publisher": "Parisfans.fr",
+    "time": "2026-10-30T19:57:27Z",
+    "url": "https://onefootball.com/fr/news/resume-video-le-havrepsg-1-5-triple-de-hakimi-pour-rester-premier-43699669"
+   },
+   {
+    "title": "Ligue 1 : festival offensif du PSG au Havre, Nice terrasse Rennes dans un match fou",
     "publisher": "Foot National",
-    "time": "2026-10-30T10:29:00Z",
-    "url": "https://onefootball.com/fr/news/le-havre-psg-les-compositions-probables-du-choc-des-extremes-43696399"
-   },
-   {
-    "title": "PSG : la grosse décision du club pour éviter une nouvelle fuite des Titis",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T08:55:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-grosse-decision-du-club-pour-eviter-une-nouvelle-fuite-des-titis-43695964"
-   },
-   {
-    "title": "PSG - La baisse de régime de Ferran Torres ne change rien aux plans de Luis Enrique",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T08:26:00Z",
-    "url": "https://onefootball.com/fr/news/psg-la-baisse-de-regime-de-ferran-torres-ne-change-rien-aux-plans-de-luis-enrique-43695858"
-   },
-   {
-    "title": "PSG : Luis Enrique avait anticipé les blessures, la révélation sur la science de l'Espagnol",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T07:27:00Z",
-    "url": "https://onefootball.com/fr/news/psg-luis-enrique-avait-anticipe-les-blessures-la-revelation-sur-la-science-de-lespagnol-43695650"
-   },
-   {
-    "title": "Ligue 1 - Le Havre AC - PSG : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T07:25:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-havre-ac-psg-les-compos-probables-43695648"
-   },
-   {
-    "title": "\"Ce n’est jamais facile d’aller jouer au Havre\" : Luis Enrique se méfie de la lanterne rouge",
-    "publisher": "Foot National",
-    "time": "2026-10-30T06:42:00Z",
-    "url": "https://onefootball.com/fr/news/ce-nest-jamais-facile-daller-jouer-au-havre-luis-enrique-se-mefie-de-la-lanterne-rouge-43695546"
+    "time": "2026-10-30T19:56:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-festival-offensif-du-psg-au-havre-nice-terrasse-rennes-dans-un-match-fou-43699703"
    }
   ],
   "Paris FC": [
+   {
+    "title": "Ligue 1 : l'OL encore très amoindri contre Angers, Monaco pas au complet face au Paris FC",
+    "publisher": "Foot National",
+    "time": "2026-10-30T15:01:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-lol-encore-tres-amoindri-contre-angers-monaco-pas-au-complet-face-au-paris-fc-43698055"
+   },
+   {
+    "title": "Florian Thauvin, le Lensois qui fait mieux que Messi et Neymar",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T14:25:00Z",
+    "url": "https://onefootball.com/fr/news/florian-thauvin-le-lensois-qui-fait-mieux-que-messi-et-neymar-43697827"
+   },
+   {
+    "title": "AS Monaco - Filipe Luis acte deux forfaits importants face au Paris FC, un cadre de l'ASM incertain",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:57:00Z",
+    "url": "https://onefootball.com/fr/news/as-monaco-filipe-luis-acte-deux-forfaits-importants-face-au-paris-fc-un-cadre-de-lasm-incertain-43697615"
+   },
    {
     "title": "Racheté 14 millions d’euros et lié jusqu’en 2031 : l’attaquant italien du Paris FC a enfin marqué à Bollaert, avant d’être sorti dès le retour des vestiaires",
     "publisher": "Calciomio",
@@ -7982,27 +8164,51 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-24T21:40:00Z",
     "url": "https://onefootball.com/fr/news/rc-lens-je-suis-impressionne-yannick-cahuzac-souligne-la-force-mentale-de-son-groupe-apres-la-victoire-face-au-paris-fc-43666828"
-   },
-   {
-    "title": "Equipe de France : \"On fera confiance à notre légende, notre sélectionneur, pour faire ses choix\" ... Le petit message de Thauvin à Zidane",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-24T21:35:00Z",
-    "url": "https://onefootball.com/fr/news/equipe-de-france-on-fera-confiance-a-notre-legende-notre-selectionneur-pour-faire-ses-choix-le-petit-message-de-thauvin-a-zidane-43666806"
-   },
-   {
-    "title": "RC Lens : Thauvin et Hazard renversent Paris, les chiffres ne mentent pas",
-    "publisher": "Morning Foot",
-    "time": "2026-10-24T21:30:30Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-thauvin-et-hazard-renversent-paris-les-chiffres-ne-mentent-pas-43666808"
-   },
-   {
-    "title": "RC Lens - Florian Thauvin raconte son but sensationnel face au Paris FC et sa 300ème en Ligue 1",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-24T21:25:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-florian-thauvin-raconte-son-but-sensationnel-face-au-paris-fc-et-sa-300eme-en-ligue-1-43666756"
    }
   ],
   "RC Lens": [
+   {
+    "title": "Jérôme Rothen : « Il y a une dépendance Flo Thauvin »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-10-30T20:00:08Z",
+    "url": "https://onefootball.com/fr/news/jerome-rothen-il-y-a-une-dependance-flo-thauvin-43699701"
+   },
+   {
+    "title": "Lille - Lens : les compositions officielles",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T19:20:00Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-les-compositions-officielles-43699518"
+   },
+   {
+    "title": "Ligue 1 - LOSC - RC Lens : les compos officielles du derby du Nord",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T19:05:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-losc-rc-lens-les-compos-officielles-du-derby-du-nord-43699486"
+   },
+   {
+    "title": "Florian Thauvin, le Lensois qui fait mieux que Messi et Neymar",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T14:25:00Z",
+    "url": "https://onefootball.com/fr/news/florian-thauvin-le-lensois-qui-fait-mieux-que-messi-et-neymar-43697827"
+   },
+   {
+    "title": "[Vidéo] Un jour, un derby Lille-RC Lens : la dernière victoire chez les Dogues",
+    "publisher": "Lensois.com",
+    "time": "2026-10-30T14:00:24Z",
+    "url": "https://onefootball.com/fr/news/video-un-jour-un-derby-lille-rc-lens-la-derniere-victoire-chez-les-dogues-43697666"
+   },
+   {
+    "title": "Lille – Lens : un derby du Nord sans parcage visiteurs et sans Nianzou, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-30T13:38:19Z",
+    "url": "https://onefootball.com/fr/news/lille-lens-un-derby-du-nord-sans-parcage-visiteurs-et-sans-nianzou-compositions-probables-chaine-tv-et-heure-43697545"
+   },
+   {
+    "title": "Une série noire à briser dans les derbys à Lille",
+    "publisher": "Lensois.com",
+    "time": "2026-10-30T10:45:36Z",
+    "url": "https://onefootball.com/fr/news/une-serie-noire-a-briser-dans-les-derbys-a-lille-43696527"
+   },
    {
     "title": "Lille-Lens : le duel Ancelotti-Cahuzac, les compositions probables des deux équipes !",
     "publisher": "OnzeMondial",
@@ -8020,51 +8226,27 @@
     "publisher": "Lensois.com",
     "time": "2026-10-30T09:48:45Z",
     "url": "https://onefootball.com/fr/news/video-angelo-fulgini-frappe-fort-en-arabie-saoudite-et-signe-un-triple-de-passes-decisives-43696191"
-   },
-   {
-    "title": "Thorgan Hazard ira à Lille pour en faire son jardin d’Eden",
-    "publisher": "Lensois.com",
-    "time": "2026-10-30T09:00:51Z",
-    "url": "https://onefootball.com/fr/news/thorgan-hazard-ira-a-lille-pour-en-faire-son-jardin-deden-43696021"
-   },
-   {
-    "title": "Après l’opération d’Odsonne Edouard, une accumulation de blessures qui marque les esprits",
-    "publisher": "Lensois.com",
-    "time": "2026-10-30T07:23:01Z",
-    "url": "https://onefootball.com/fr/news/apres-loperation-dodsonne-edouard-une-accumulation-de-blessures-qui-marque-les-esprits-43695644"
-   },
-   {
-    "title": "Ligue 1 - LOSC - RC Lens : les compos probables du derby",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T07:15:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-losc-rc-lens-les-compos-probables-du-derby-43695620"
-   },
-   {
-    "title": "[Vidéos] Pereira Da Costa, Saint-Maximin, Diani, Guilavogui… Les ex Lensois de MLS en feu !",
-    "publisher": "Lensois.com",
-    "time": "2026-10-30T07:02:27Z",
-    "url": "https://onefootball.com/fr/news/videos-pereira-da-costa-saint-maximin-diani-guilavogui-les-ex-lensois-de-mls-en-feu-43695594"
-   },
-   {
-    "title": "Lille-Lens : les compositions probables du derby du Nord",
-    "publisher": "Foot National",
-    "time": "2026-10-30T07:00:00Z",
-    "url": "https://onefootball.com/fr/news/lille-lens-les-compositions-probables-du-derby-du-nord-43695571"
-   },
-   {
-    "title": "L’appel d’offres pour les droits TV de la Ligue prend forme",
-    "publisher": "Lensois.com",
-    "time": "2026-10-30T06:45:51Z",
-    "url": "https://onefootball.com/fr/news/lappel-doffres-pour-les-droits-tv-de-la-ligue-prend-forme-43695549"
-   },
-   {
-    "title": "Un derby et un tournant ?",
-    "publisher": "Lensois.com",
-    "time": "2026-10-30T06:30:43Z",
-    "url": "https://onefootball.com/fr/news/un-derby-et-un-tournant-43695527"
    }
   ],
   "RC Strasbourg": [
+   {
+    "title": "AJ Auxerre - Deux retours, trois incertains et quatre forfaits à l'AJA pour le match face au RC Strasbourg",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T18:34:00Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-deux-retours-trois-incertains-et-quatre-forfaits-a-laja-pour-le-match-face-au-rc-strasbourg-43699374"
+   },
+   {
+    "title": "AJ Auxerre : Paul Nardi révèle les clés de son retour avant Strasbourg",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T18:30:30Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-paul-nardi-revele-les-cles-de-son-retour-avant-strasbourg-43699369"
+   },
+   {
+    "title": "AJ Auxerre : Will Still annonce une vague d’absences à Strasbourg",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T14:00:14Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-annonce-une-vague-dabsences-a-strasbourg-43697678"
+   },
    {
     "title": "Mercato Strasbourg - Le RCSA sécurise l'avenir d'un joueur clé de son effectif ! (officiel)",
     "publisher": "MadeInFOOT",
@@ -8106,24 +8288,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-25T18:15:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-stade-rennais-rc-strasbourg-le-srfc-cartonne-le-rcsa-et-prend-la-tete-de-la-l1-43671206"
-   },
-   {
-    "title": "Stade Rennais – Strasbourg : Leader, le SRFC atomise un RCSA ou rien ne va plus, les chiffres",
-    "publisher": "Morning Foot",
-    "time": "2026-10-25T17:13:03Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-strasbourg-leader-le-srfc-atomise-un-rcsa-ou-rien-ne-va-plus-les-chiffres-43671199"
-   },
-   {
-    "title": "Ligue 1 - Stade Rennais - RC Strasbourg : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T15:20:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-stade-rennais-rc-strasbourg-les-compos-officielles-43670326"
-   },
-   {
-    "title": "Rennes - Strasbourg : les compositions officielles !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T15:16:00Z",
-    "url": "https://onefootball.com/fr/news/rennes-strasbourg-les-compositions-officielles-43670301"
    }
   ],
   "Stade Brestois": [
@@ -8190,6 +8354,54 @@
   ],
   "Stade Rennais": [
    {
+    "title": "Nice - Stade rennais : Rennes lourdement battu à Nice",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-30T21:15:08Z",
+    "url": "https://onefootball.com/fr/news/nice-stade-rennais-rennes-lourdement-battu-a-nice-43700030"
+   },
+   {
+    "title": "Nice – Rennes (5-2) : le score est lourd, les chiffres surprennent",
+    "publisher": "Morning Foot",
+    "time": "2026-10-30T19:58:14Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-5-2-le-score-est-lourd-les-chiffres-surprennent-43699702"
+   },
+   {
+    "title": "Ligue 1 - Les notes de OGC Nice - Stade Rennais : grâce à un triplé d'Elye Wahi, les Aiglons enchaînent et poursuivent leur remontée au classement !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T19:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-ogc-nice-stade-rennais-grace-a-un-triple-delye-wahi-les-aiglons-enchainent-et-poursuivent-leur-remontee-au-classement-43699686"
+   },
+   {
+    "title": "Nice - Rennes : les compositions officielles",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T17:08:00Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-les-compositions-officielles-43698883"
+   },
+   {
+    "title": "Ligue 1 - OGC Nice - Stade Rennais : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T17:00:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-ogc-nice-stade-rennais-les-compos-officielles-43698836"
+   },
+   {
+    "title": "Franck Haise explique ses choix au milieu de terrain",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-30T14:50:09Z",
+    "url": "https://onefootball.com/fr/news/franck-haise-explique-ses-choix-au-milieu-de-terrain-43697987"
+   },
+   {
+    "title": "Nice - Stade rennais : Samba forfait, le groupe avec trois gardiens",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-10-30T13:20:07Z",
+    "url": "https://onefootball.com/fr/news/nice-stade-rennais-samba-forfait-le-groupe-avec-trois-gardiens-43697419"
+   },
+   {
+    "title": "Nice – Rennes : le Gym retrouve Franck Haise et son dauphin du PSG, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-10-30T13:17:35Z",
+    "url": "https://onefootball.com/fr/news/nice-rennes-le-gym-retrouve-franck-haise-et-son-dauphin-du-psg-compositions-probables-chaine-tv-et-heure-43697437"
+   },
+   {
     "title": "Stade Rennais : Mousa Al-Tamari se livre sur ses difficultés",
     "publisher": "Morning Foot",
     "time": "2026-10-30T12:30:05Z",
@@ -8200,62 +8412,32 @@
     "publisher": "Foot National",
     "time": "2026-10-30T11:29:00Z",
     "url": "https://onefootball.com/fr/news/nice-rennes-les-compositions-probables-43696762"
-   },
-   {
-    "title": "Nice - Stade rennais : Franck Haise relativise les changements d’horaires des matchs",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-10-30T11:20:08Z",
-    "url": "https://onefootball.com/fr/news/nice-stade-rennais-franck-haise-relativise-les-changements-dhoraires-des-matchs-43696716"
-   },
-   {
-    "title": "OGC Nice - Six absents dans le groupe niçois pour la réception du Stade Rennais",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T11:20:00Z",
-    "url": "https://onefootball.com/fr/news/ogc-nice-six-absents-dans-le-groupe-nicois-pour-la-reception-du-stade-rennais-43696714"
-   },
-   {
-    "title": "Stade Rennais - Forfait de taille confirmé dans le groupe rennais pour affronter l'OGC Nice",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T10:33:00Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-forfait-de-taille-confirme-dans-le-groupe-rennais-pour-affronter-logc-nice-43696428"
-   },
-   {
-    "title": "Rennes : \"Il est indispensable\", Haise adoube une recrue avant Nice",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T10:28:00Z",
-    "url": "https://onefootball.com/fr/news/rennes-il-est-indispensable-haise-adoube-une-recrue-avant-nice-43696395"
-   },
-   {
-    "title": "Stade Rennais : Franck Haise annonce un nouveau coup dur avant Nice",
-    "publisher": "Morning Foot",
-    "time": "2026-10-30T08:40:31Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-annonce-un-nouveau-coup-dur-avant-nice-43695912"
-   },
-   {
-    "title": "Mousa Al-Tamari : « Le match contre la Juventus m’a redonné confiance »",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-10-30T08:05:07Z",
-    "url": "https://onefootball.com/fr/news/mousa-al-tamari-le-match-contre-la-juventus-ma-redonne-confiance-43695797"
-   },
-   {
-    "title": "Ligue 1 - OGC Nice - Stade Rennais : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-30T07:35:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-ogc-nice-stade-rennais-les-compos-probables-43695685"
-   },
-   {
-    "title": "Nice–Rennes : chaîne TV, streaming… À quelle heure et où regarder ce match d’ouverture de la 9ème journée de Ligue 1 ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-30T05:20:00Z",
-    "url": "https://onefootball.com/fr/news/nicerennes-chaine-tv-streaming-a-quelle-heure-et-ou-regarder-ce-match-douverture-de-la-9eme-journee-de-ligue-1-43695391"
    }
   ],
   "Toulouse FC": [
    {
-    "title": "OM - Bruno Genesio dévoile les raisons de l'absence d'Amine Gouiri et de Bamo Méité à l'entraînement",
+    "title": "OM - Bruno Genesio dénonce les conséquences de la fermeture du Virage Nord",
     "publisher": "MadeInFOOT",
-    "time": "2026-10-30T12:40:00Z",
-    "url": "https://onefootball.com/fr/news/om-bruno-genesio-devoile-les-raisons-de-labsence-damine-gouiri-et-de-bamo-meite-a-lentrainement-43697189"
+    "time": "2026-10-30T15:02:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-denonce-les-consequences-de-la-fermeture-du-virage-nord-43698058"
+   },
+   {
+    "title": "OM : \"C’est visiblement un traumatisme au club\", Bruno Genesio veut corriger le tir avant Toulouse",
+    "publisher": "Foot National",
+    "time": "2026-10-30T14:32:00Z",
+    "url": "https://onefootball.com/fr/news/om-cest-visiblement-un-traumatisme-au-club-bruno-genesio-veut-corriger-le-tir-avant-toulouse-43697872"
+   },
+   {
+    "title": "OM - Bruno Genesio met les choses au clair concernant le jeune Antoine Valero",
+    "publisher": "MadeInFOOT",
+    "time": "2026-10-30T13:15:00Z",
+    "url": "https://onefootball.com/fr/news/om-bruno-genesio-met-les-choses-au-clair-concernant-le-jeune-antoine-valero-43697414"
+   },
+   {
+    "title": "OM : \"J'ai mes raisons, et vous pouvez les deviner en termes d'attitude\", Genesio remet une couche sur Abdallah",
+    "publisher": "OnzeMondial",
+    "time": "2026-10-30T12:57:00Z",
+    "url": "https://onefootball.com/fr/news/om-jai-mes-raisons-et-vous-pouvez-les-deviner-en-termes-dattitude-genesio-remet-une-couche-sur-abdallah-43697289"
    },
    {
     "title": "OM - Amine Gouiri absent lors de la séance d'entraînement à deux jours du match face au TFC !",
@@ -8292,29 +8474,11 @@
     "publisher": "Foot National",
     "time": "2026-10-25T18:08:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-j8-rennes-leader-provisoire-lom-enfonce-le-havre-toulouse-en-echec-les-resultats-du-multiplex-43671240"
-   },
-   {
-    "title": "Ligue 1 - TFC - ESTAC Troyes : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T15:30:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-officielles-43670340"
-   },
-   {
-    "title": "Toulouse - Troyes, Angers - Lorient, Auxerre - Le Mans : les compositions officielles du multiplex !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-25T15:18:00Z",
-    "url": "https://onefootball.com/fr/news/toulouse-troyes-angers-lorient-auxerre-le-mans-les-compositions-officielles-du-multiplex-43670304"
-   },
-   {
-    "title": "Ligue 1 - TFC - ESTAC Troyes : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T07:50:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-tfc-estac-troyes-les-compos-probables-43668288"
    }
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-30T12:59+00:00",
+ "fetchedAt": "2026-10-30T21:31+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
@@ -8993,13 +9157,6 @@
   ],
   "LOSC": [
    {
-    "kickoff": "2026-08-28T18:45:00Z",
-    "competition": "Ligue 1",
-    "home": "LOSC",
-    "away": "PSG",
-    "link": "/fr/match/2688661"
-   },
-   {
     "kickoff": "2026-09-03T18:45:00Z",
     "competition": "Ligue 1",
     "home": "Toulouse FC",
@@ -9124,16 +9281,16 @@
     "home": "FC Lorient",
     "away": "LOSC",
     "link": "/fr/match/2688765"
+   },
+   {
+    "kickoff": "2027-01-03T16:15:00Z",
+    "competition": "Ligue 1",
+    "home": "LOSC",
+    "away": "RC Strasbourg",
+    "link": "/fr/match/2688772"
    }
   ],
   "Le Havre AC": [
-   {
-    "kickoff": "2026-08-15T16:00:00Z",
-    "competition": "Matchs amicaux, Clubs",
-    "home": "Le Mans FC",
-    "away": "Le Havre AC",
-    "link": "/fr/match/2705398"
-   },
    {
     "kickoff": "2026-08-23T15:15:00Z",
     "competition": "Ligue 1",
@@ -9259,6 +9416,13 @@
     "home": "Le Havre AC",
     "away": "Stade Rennais",
     "link": "/fr/match/2688789"
+   },
+   {
+    "kickoff": "2027-01-30T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "Le Havre AC",
+    "link": "/fr/match/2688798"
    }
   ],
   "Le Mans FC": [
@@ -9398,13 +9562,6 @@
   ],
   "OGC Nice": [
    {
-    "kickoff": "2026-08-08T18:30:00Z",
-    "competition": "Matchs amicaux, Clubs",
-    "home": "Cagliari",
-    "away": "OGC Nice",
-    "link": "/fr/match/2699165"
-   },
-   {
     "kickoff": "2026-08-15T14:00:00Z",
     "competition": "Matchs amicaux, Clubs",
     "home": "Hull City",
@@ -9529,6 +9686,13 @@
     "home": "Toulouse FC",
     "away": "OGC Nice",
     "link": "/fr/match/2688796"
+   },
+   {
+    "kickoff": "2027-01-30T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "Le Mans FC",
+    "away": "OGC Nice",
+    "link": "/fr/match/2688799"
    }
   ],
   "Olympique Lyonnais": [
@@ -9803,13 +9967,6 @@
   ],
   "PSG": [
    {
-    "kickoff": "2026-08-28T18:45:00Z",
-    "competition": "Ligue 1",
-    "home": "LOSC",
-    "away": "PSG",
-    "link": "/fr/match/2688661"
-   },
-   {
     "kickoff": "2026-09-04T19:05:00Z",
     "competition": "Ligue 1",
     "home": "PSG",
@@ -9934,6 +10091,13 @@
     "home": "PSG",
     "away": "Paris FC",
     "link": "/fr/match/2688767"
+   },
+   {
+    "kickoff": "2026-12-16T12:00:00Z",
+    "competition": "Coupe intercontinentale de la FIFA",
+    "home": "PSG",
+    "away": "TBC",
+    "link": "/fr/match/2737268"
    }
   ],
   "Paris FC": [
@@ -10073,13 +10237,6 @@
   ],
   "RC Lens": [
    {
-    "kickoff": "2026-09-05T15:15:00Z",
-    "competition": "Ligue 1",
-    "home": "RC Lens",
-    "away": "FC Lorient",
-    "link": "/fr/match/2688664"
-   },
-   {
     "kickoff": "2026-09-10T19:00:00Z",
     "competition": "UEFA Champions League",
     "home": "Slavia Prague",
@@ -10204,6 +10361,13 @@
     "home": "OGC Nice",
     "away": "RC Lens",
     "link": "/fr/match/2688766"
+   },
+   {
+    "kickoff": "2027-01-03T19:45:00Z",
+    "competition": "Ligue 1",
+    "home": "RC Lens",
+    "away": "PSG",
+    "link": "/fr/match/2688778"
    }
   ],
   "RC Strasbourg": [
@@ -10478,13 +10642,6 @@
   ],
   "Stade Rennais": [
    {
-    "kickoff": "2026-09-06T15:15:00Z",
-    "competition": "Ligue 1",
-    "home": "Angers SCO",
-    "away": "Stade Rennais",
-    "link": "/fr/match/2688662"
-   },
-   {
     "kickoff": "2026-09-11T18:45:00Z",
     "competition": "Ligue 1",
     "home": "Stade Rennais",
@@ -10609,6 +10766,13 @@
     "home": "Stade Rennais",
     "away": "AS Monaco",
     "link": "/fr/match/2688768"
+   },
+   {
+    "kickoff": "2027-01-02T20:00:00Z",
+    "competition": "Ligue 1",
+    "home": "ESTAC Troyes",
+    "away": "Stade Rennais",
+    "link": "/fr/match/2688777"
    }
   ],
   "Toulouse FC": [
