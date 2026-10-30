@@ -6262,32 +6262,40 @@
    "id": 2688718,
    "competition": "Ligue 1",
    "kickoff": "2026-10-30T20:05:00Z",
-   "status": "69'",
-   "period": 8,
+   "status": "Fin du match",
+   "period": 11,
    "home": "LOSC",
    "away": "RC Lens",
    "homeLink": "/fr/equipe/losc-257",
    "awayLink": "/fr/equipe/rc-lens-256",
-   "hg": 0,
+   "hg": 1,
    "ag": 0,
-   "goals": [],
+   "goals": [
+    {
+     "side": "home",
+     "min": 86,
+     "half": 2,
+     "kind": "but",
+     "player": "Olivier Giroud"
+    }
+   ],
    "reds": [],
    "stats": {
     "Possession": [
-     62,
-     38
+     63,
+     37
     ],
     "Tirs": [
-     9,
-     3
+     16,
+     5
     ],
     "Tirs cadrés": [
-     4,
-     2
+     7,
+     3
     ],
     "Duels gagnés": [
-     45,
-     55
+     51,
+     49
     ]
    },
    "starters": {
@@ -8478,7 +8486,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-30T21:31+00:00",
+ "fetchedAt": "2026-10-30T22:13+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
