@@ -6618,8 +6618,8 @@
    "id": 2688724,
    "competition": "Ligue 1",
    "kickoff": "2026-10-31T19:45:00Z",
-   "status": "43'",
-   "period": 4,
+   "status": "Mi-temps",
+   "period": 5,
    "home": "ESTAC Troyes",
    "away": "Le Mans FC",
    "homeLink": "/fr/equipe/estac-troyes-700",
@@ -6638,11 +6638,11 @@
    "reds": [],
    "stats": {
     "Possession": [
-     42,
-     58
+     43,
+     57
     ],
     "Tirs": [
-     3,
+     4,
      1
     ],
     "Tirs cadrés": [
@@ -6650,8 +6650,8 @@
      0
     ],
     "Duels gagnés": [
-     52,
-     48
+     55,
+     45
     ]
    },
    "starters": {
@@ -8563,7 +8563,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-31T20:28+00:00",
+ "fetchedAt": "2026-10-31T20:40+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
