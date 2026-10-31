@@ -1,36 +1,36 @@
 {
  "onefootball": {
-  "lastAttempt": "2026-10-30T21:31+00:00",
+  "lastAttempt": "2026-10-31T12:35+00:00",
   "ok": true,
-  "lastOk": "2026-10-30T21:31+00:00",
+  "lastOk": "2026-10-31T12:35+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
-  "count": 117,
-  "finished": 74
+  "count": 118,
+  "finished": 75
  },
  "espn": {
-  "lastAttempt": "2026-10-31T01:41+00:00",
+  "lastAttempt": "2026-10-31T12:37+00:00",
   "ok": true,
-  "lastOk": "2026-10-31T01:41+00:00",
+  "lastOk": "2026-10-31T12:37+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
   "count": 75
  },
  "weather": {
-  "lastAttempt": "2026-10-30T21:32+00:00",
+  "lastAttempt": "2026-10-31T12:37+00:00",
   "ok": true,
-  "lastOk": "2026-10-30T21:32+00:00",
+  "lastOk": "2026-10-31T12:37+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
-  "count": 10
+  "count": 12
  },
  "footballdata": {
-  "lastAttempt": "2026-10-30T21:34+00:00",
+  "lastAttempt": "2026-10-31T12:38+00:00",
   "ok": true,
-  "lastOk": "2026-10-30T21:34+00:00",
+  "lastOk": "2026-10-31T12:38+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
@@ -38,13 +38,13 @@
   "errors": 0
  },
  "history": {
-  "lastAttempt": "2026-10-30T21:34+00:00",
+  "lastAttempt": "2026-10-31T12:38+00:00",
   "ok": true,
-  "lastOk": "2026-10-30T21:34+00:00",
+  "lastOk": "2026-10-31T12:38+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
-  "count": 1212,
+  "count": 1213,
   "errors": 0
  },
  "onefootball_quick": {
