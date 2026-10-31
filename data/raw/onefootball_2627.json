@@ -6618,13 +6618,13 @@
    "id": 2688724,
    "competition": "Ligue 1",
    "kickoff": "2026-10-31T19:45:00Z",
-   "status": "Mi-temps",
-   "period": 5,
+   "status": "Fin du match",
+   "period": 11,
    "home": "ESTAC Troyes",
    "away": "Le Mans FC",
    "homeLink": "/fr/equipe/estac-troyes-700",
    "awayLink": "/fr/equipe/le-mans-fc-269",
-   "hg": 1,
+   "hg": 2,
    "ag": 0,
    "goals": [
     {
@@ -6633,25 +6633,32 @@
      "half": 1,
      "kind": "but",
      "player": "Mouhamed Diop"
+    },
+    {
+     "side": "home",
+     "min": 71,
+     "half": 2,
+     "kind": "but",
+     "player": "Ismaël Boura"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     43,
-     57
+     39,
+     61
     ],
     "Tirs": [
-     4,
-     1
+     14,
+     3
     ],
     "Tirs cadrés": [
-     1,
-     0
+     8,
+     1
     ],
     "Duels gagnés": [
-     55,
-     45
+     60,
+     40
     ]
    },
    "starters": {
@@ -8563,7 +8570,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-10-31T20:40+00:00",
+ "fetchedAt": "2026-10-31T23:45+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
