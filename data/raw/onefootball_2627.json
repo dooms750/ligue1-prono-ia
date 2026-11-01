@@ -6114,22 +6114,47 @@
    "id": 2688716,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Mi-temps",
+   "period": 5,
    "home": "Olympique Lyonnais",
    "away": "Angers SCO",
    "homeLink": "/fr/equipe/olympique-lyonnais-19",
    "awayLink": "/fr/equipe/angers-sco-696",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 38,
+     "half": 1,
+     "kind": "but",
+     "player": "Ernest Nuamah"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     64,
+     36
+    ],
+    "Tirs": [
+     8,
+     3
+    ],
+    "Tirs cadrés": [
+     2,
+     1
+    ],
+    "Duels gagnés": [
+     49,
+     52
+    ]
+   },
    "starters": {
     "home": [
-     "Julien Duranville",
      "Keito Nakamura",
      "Ernest Nuamah",
+     "Julien Duranville",
      "Corentin Tolisso",
      "Tanner Tessmann",
      "Mads Bidstrup",
@@ -6142,14 +6167,14 @@
     "away": [
      "Prosper Peter",
      "Amine Sbaï",
-     "Yassin Belkhdim",
-     "Lilian Raolisoa",
      "Branco Van den Boomen",
      "Haris Belkebla",
+     "Yassin Belkhdim",
      "Joseph Kalulu",
      "Jordan Lefort",
      "Ousmane Camara",
      "Carlens Arcus",
+     "Lilian Raolisoa",
      "Anthony Lopes"
     ]
    }
@@ -6530,17 +6555,49 @@
    "id": 2688722,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "45+4'",
+   "period": 4,
    "home": "Paris FC",
    "away": "AS Monaco",
    "homeLink": "/fr/equipe/paris-fc-5170",
    "awayLink": "/fr/equipe/as-monaco-259",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 2,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 44,
+     "half": 1,
+     "kind": "but",
+     "player": "Lassine Sinayoko"
+    },
+    {
+     "side": "home",
+     "min": 38,
+     "half": 1,
+     "kind": "but",
+     "player": "Lassine Sinayoko"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     51,
+     49
+    ],
+    "Tirs": [
+     11,
+     2
+    ],
+    "Tirs cadrés": [
+     6,
+     0
+    ],
+    "Duels gagnés": [
+     66,
+     36
+    ]
+   },
    "starters": {
     "home": [
      "Lassine Sinayoko",
@@ -6550,20 +6607,20 @@
      "Pierre Lees Melou",
      "Maxime Lopez",
      "Otávio",
-     "Hamari Traoré",
      "Diego Coppola",
-     "Mamadou Mbow",
-     "Obed Nkambadio"
+     "Samir Chergui",
+     "Hamari Traoré",
+     "Kevin Trapp"
     ],
     "away": [
      "Paris Brunner",
-     "Mathys Detourbet",
+     "Matthis Abline",
      "Aleksandr Golovin",
-     "Mamadou Coulibaly",
+     "Edan Diop",
      "Denis Zakaria",
      "Lamine Camara",
      "Flávio Nazinho",
-     "Jordan Teze",
+     "Eric Dier",
      "Sadibou Sané",
      "Vanderson",
      "Lukas Hradecky"
@@ -6574,17 +6631,84 @@
    "id": 2688723,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T14:00:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Fin du match",
+   "period": 11,
    "home": "RC Strasbourg",
    "away": "AJ Auxerre",
    "homeLink": "/fr/equipe/rc-strasbourg-756",
    "awayLink": "/fr/equipe/aj-auxerre-253",
-   "hg": null,
-   "ag": null,
-   "goals": [],
-   "reds": [],
-   "stats": {},
+   "hg": 5,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 41,
+     "half": 1,
+     "kind": "but",
+     "player": "Dário Essugo"
+    },
+    {
+     "side": "home",
+     "min": 55,
+     "half": 2,
+     "kind": "but",
+     "player": "Martial Godo"
+    },
+    {
+     "side": "home",
+     "min": 62,
+     "half": 2,
+     "kind": "penalty",
+     "player": "Conrad Harder"
+    },
+    {
+     "side": "away",
+     "min": 68,
+     "half": 2,
+     "kind": "but",
+     "player": "Cameron Archer"
+    },
+    {
+     "side": "home",
+     "min": 77,
+     "half": 2,
+     "kind": "but",
+     "player": "Gessime Yassine"
+    },
+    {
+     "side": "home",
+     "min": 85,
+     "half": 2,
+     "kind": "but",
+     "player": "Gessime Yassine"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 74,
+     "half": 2,
+     "player": "Lamfia Dioubaté"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     65,
+     35
+    ],
+    "Tirs": [
+     19,
+     6
+    ],
+    "Tirs cadrés": [
+     6,
+     2
+    ],
+    "Duels gagnés": [
+     64,
+     36
+    ]
+   },
    "starters": {
     "home": [
      "Martial Godo",
@@ -6595,21 +6719,21 @@
      "Dário Essugo",
      "Oso",
      "Karim Coulibaly",
-     "Lucas Høgsberg",
      "Ismaël Doukouré",
+     "Lucas Høgsberg",
      "Filip Jorgensen"
     ],
     "away": [
      "Cameron Archer",
      "Danny Namaso",
-     "Naouirou Ahamada",
      "Romain Faivre",
-     "Kévin Danois",
      "Fredrik Oppegard",
+     "Kévin Danois",
+     "Naouirou Ahamada",
+     "Lamine Sy",
      "Clément Akpa",
      "Axel Tuanzebe",
      "Christ Makosso",
-     "Lamine Sy",
      "Paul Nardi"
     ]
    }
@@ -8590,7 +8714,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-01T13:27+00:00",
+ "fetchedAt": "2026-11-01T17:04+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
