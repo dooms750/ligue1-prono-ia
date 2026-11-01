@@ -6114,13 +6114,13 @@
    "id": 2688716,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T16:15:00Z",
-   "status": "Mi-temps",
-   "period": 5,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Olympique Lyonnais",
    "away": "Angers SCO",
    "homeLink": "/fr/equipe/olympique-lyonnais-19",
    "awayLink": "/fr/equipe/angers-sco-696",
-   "hg": 1,
+   "hg": 2,
    "ag": 0,
    "goals": [
     {
@@ -6129,6 +6129,13 @@
      "half": 1,
      "kind": "but",
      "player": "Ernest Nuamah"
+    },
+    {
+     "side": "home",
+     "min": 86,
+     "half": 2,
+     "kind": "but",
+     "player": "Corentin Tolisso"
     }
    ],
    "reds": [],
@@ -6138,16 +6145,16 @@
      36
     ],
     "Tirs": [
-     8,
-     3
+     21,
+     8
     ],
     "Tirs cadrés": [
-     2,
-     1
+     5,
+     2
     ],
     "Duels gagnés": [
-     49,
-     52
+     48,
+     53
     ]
    },
    "starters": {
@@ -6400,25 +6407,57 @@
    "id": 2688720,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T19:45:00Z",
-   "status": "",
-   "period": 1,
+   "status": "60'",
+   "period": 8,
    "home": "Olympique de Marseille",
    "away": "Toulouse FC",
    "homeLink": "/fr/equipe/olympique-de-marseille-22",
    "awayLink": "/fr/equipe/toulouse-fc-267",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 2,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 25,
+     "half": 1,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    },
+    {
+     "side": "home",
+     "min": 1,
+     "half": 1,
+     "kind": "but",
+     "player": "Amine Harit"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     52,
+     48
+    ],
+    "Tirs": [
+     10,
+     10
+    ],
+    "Tirs cadrés": [
+     3,
+     6
+    ],
+    "Duels gagnés": [
+     51,
+     49
+    ]
+   },
    "starters": {
     "home": [
      "Amine Gouiri",
      "Igor Paixao",
+     "Tochukwu Nnadi",
      "Himad Abdelli",
      "Amine Harit",
      "Pierre-Emile Højbjerg",
-     "Tochukwu Nnadi",
      "Emerson",
      "Nayef Aguerd",
      "Conrad Egan Riley",
@@ -6428,14 +6467,14 @@
     "away": [
      "Casper Tengstedt",
      "Jacen Russell-Rowe",
-     "Thomas Jørgensen",
-     "Alexis Vossah",
-     "Cristian Casseres",
      "Aron Donnum",
+     "Thomas Jørgensen",
+     "Cristian Casseres",
+     "Niko Sigur",
      "Christ Tapé",
      "Rasmus Nicolaisen",
      "Mark McKenzie",
-     "Niko Sigur",
+     "Ismaïl Diallo",
      "Guillaume Restes"
     ]
    }
@@ -6555,15 +6594,22 @@
    "id": 2688722,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T16:15:00Z",
-   "status": "45+4'",
-   "period": 4,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Paris FC",
    "away": "AS Monaco",
    "homeLink": "/fr/equipe/paris-fc-5170",
    "awayLink": "/fr/equipe/as-monaco-259",
-   "hg": 2,
-   "ag": 0,
+   "hg": 3,
+   "ag": 1,
    "goals": [
+    {
+     "side": "home",
+     "min": 38,
+     "half": 1,
+     "kind": "but",
+     "player": "Lassine Sinayoko"
+    },
     {
      "side": "home",
      "min": 44,
@@ -6572,30 +6618,37 @@
      "player": "Lassine Sinayoko"
     },
     {
-     "side": "home",
-     "min": 38,
-     "half": 1,
+     "side": "away",
+     "min": 65,
+     "half": 2,
      "kind": "but",
-     "player": "Lassine Sinayoko"
+     "player": "Folarin Balogun"
+    },
+    {
+     "side": "home",
+     "min": 74,
+     "half": 2,
+     "kind": "but",
+     "player": "Pablo Pagis"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     51,
-     49
+     44,
+     56
     ],
     "Tirs": [
-     11,
-     2
+     19,
+     9
     ],
     "Tirs cadrés": [
-     6,
-     0
+     10,
+     2
     ],
     "Duels gagnés": [
-     66,
-     36
+     56,
+     44
     ]
    },
    "starters": {
@@ -8714,7 +8767,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-01T17:04+00:00",
+ "fetchedAt": "2026-11-01T21:05+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
