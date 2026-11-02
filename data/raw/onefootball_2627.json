@@ -6407,8 +6407,8 @@
    "id": 2688720,
    "competition": "Ligue 1",
    "kickoff": "2026-11-01T19:45:00Z",
-   "status": "67'",
-   "period": 8,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Olympique de Marseille",
    "away": "Toulouse FC",
    "homeLink": "/fr/equipe/olympique-de-marseille-22",
@@ -6418,36 +6418,43 @@
    "goals": [
     {
      "side": "home",
+     "min": 1,
+     "half": 1,
+     "kind": "but",
+     "player": "Amine Harit"
+    },
+    {
+     "side": "home",
      "min": 25,
      "half": 1,
      "kind": "but",
      "player": "Amine Gouiri"
     },
     {
-     "side": "home",
-     "min": 1,
-     "half": 1,
-     "kind": "but",
-     "player": "Amine Harit"
+     "side": "away",
+     "min": 68,
+     "half": 2,
+     "kind": "refuse",
+     "player": "Casper Tengstedt"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     49,
-     51
+     43,
+     57
     ],
     "Tirs": [
-     11,
-     11
+     13,
+     14
     ],
     "Tirs cadrés": [
      3,
      7
     ],
     "Duels gagnés": [
-     51,
-     49
+     52,
+     48
     ]
    },
    "starters": {
@@ -8787,7 +8794,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-01T21:12+00:00",
+ "fetchedAt": "2026-11-02T00:35+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
