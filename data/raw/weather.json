@@ -375,83 +375,27 @@
    }
   ]
  },
- "2026-10-31-TRO-LMA": {
-  "kind": "beau",
-  "stadium": "Stade de l'Aube",
-  "roof": false,
-  "daysBefore": 1,
-  "temp": 9,
-  "desc": "ciel dégagé",
-  "code": 0,
-  "rain": 0,
-  "rainMax": 0,
-  "gust": 20,
-  "pRain": 0.0,
-  "pWind": 0.0,
-  "members": 51,
-  "confidence": 99,
-  "confidenceLabel": "forte",
-  "sources": [
-   "ECMWF (51 scénarios)",
-   "Météo-France"
-  ],
-  "updated": "2026-10-30T21:32+00:00",
-  "history": [
-   {
-    "day": "2026-10-27",
-    "daysBefore": 4,
-    "pRain": 0.0,
-    "pWind": 0.0,
-    "temp": 8,
-    "conf": 80
-   },
-   {
-    "day": "2026-10-28",
-    "daysBefore": 3,
-    "pRain": 0.0,
-    "pWind": 0.0,
-    "temp": 8,
-    "conf": 86
-   },
-   {
-    "day": "2026-10-29",
-    "daysBefore": 2,
-    "pRain": 0.0,
-    "pWind": 0.0,
-    "temp": 8,
-    "conf": 92
-   },
-   {
-    "day": "2026-10-30",
-    "daysBefore": 1,
-    "pRain": 0.0,
-    "pWind": 0.0,
-    "temp": 8,
-    "conf": 99
-   }
-  ]
- },
  "2026-11-08-ANG-NIC": {
   "kind": "beau",
   "stadium": "Stade Raymond-Kopa",
   "roof": false,
   "daysBefore": 4,
-  "temp": 13,
+  "temp": 12,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 2.1,
+  "rainMax": 3.6,
   "gust": 23,
-  "pRain": 0.02,
+  "pRain": 0.08,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 75,
+  "confidence": 73,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-11-01",
@@ -480,10 +424,10 @@
    {
     "day": "2026-11-04",
     "daysBefore": 4,
-    "pRain": 0.02,
+    "pRain": 0.08,
     "pWind": 0.0,
-    "temp": 12,
-    "conf": 75
+    "temp": 11,
+    "conf": 73
    }
   ]
  },
@@ -492,12 +436,12 @@
   "stadium": "Stade de l'Abbé-Deschamps",
   "roof": false,
   "daysBefore": 3,
-  "temp": 9,
-  "desc": "plutôt dégagé",
-  "code": 1,
+  "temp": 6,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
-  "rainMax": 0.3,
-  "gust": 11,
+  "rainMax": 1.0,
+  "gust": 9,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
@@ -507,7 +451,7 @@
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-10-31",
@@ -546,7 +490,7 @@
     "daysBefore": 3,
     "pRain": 0.0,
     "pWind": 0.0,
-    "temp": 10,
+    "temp": 7,
     "conf": 85
    }
   ]
@@ -556,22 +500,22 @@
   "stadium": "Stade Francis-Le Blé",
   "roof": false,
   "daysBefore": 4,
-  "temp": 11,
+  "temp": 10,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 6.9,
+  "rainMax": 5.7,
   "gust": 27,
-  "pRain": 0.14,
+  "pRain": 0.02,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 69,
-  "confidenceLabel": "moyenne",
+  "confidence": 78,
+  "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-11-01",
@@ -600,10 +544,10 @@
    {
     "day": "2026-11-04",
     "daysBefore": 4,
-    "pRain": 0.14,
+    "pRain": 0.02,
     "pWind": 0.0,
-    "temp": 10,
-    "conf": 69
+    "temp": 11,
+    "conf": 78
    }
   ]
  },
@@ -612,22 +556,22 @@
   "stadium": "Stade Océane",
   "roof": false,
   "daysBefore": 4,
-  "temp": 9,
+  "temp": 8,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 0.3,
+  "rainMax": 4.5,
   "gust": 27,
-  "pRain": 0.0,
+  "pRain": 0.02,
   "pWind": 0.0,
   "members": 51,
   "confidence": 78,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-11-01",
@@ -656,9 +600,9 @@
    {
     "day": "2026-11-04",
     "daysBefore": 4,
-    "pRain": 0.0,
+    "pRain": 0.02,
     "pWind": 0.0,
-    "temp": 10,
+    "temp": 9,
     "conf": 78
    }
   ]
@@ -667,23 +611,23 @@
   "kind": "beau",
   "stadium": "MMArena",
   "roof": false,
-  "daysBefore": 5,
+  "daysBefore": 4,
   "temp": 10,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 4.5,
+  "rainMax": 3.3,
   "gust": 22,
-  "pRain": 0.22,
+  "pRain": 0.04,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 60,
-  "confidenceLabel": "moyenne",
+  "confidence": 76,
+  "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-03T22:20+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-11-01",
@@ -700,6 +644,14 @@
     "pWind": 0.0,
     "temp": 11,
     "conf": 60
+   },
+   {
+    "day": "2026-11-04",
+    "daysBefore": 4,
+    "pRain": 0.04,
+    "pWind": 0.0,
+    "temp": 10,
+    "conf": 76
    }
   ]
  },
@@ -708,22 +660,22 @@
   "stadium": "Parc des Princes",
   "roof": false,
   "daysBefore": 3,
-  "temp": 5,
-  "desc": "plutôt dégagé",
-  "code": 1,
+  "temp": 4,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
-  "rainMax": 0.9,
-  "gust": 16,
+  "rainMax": 0.7,
+  "gust": 12,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 83,
+  "confidence": 85,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-10-31",
@@ -762,8 +714,8 @@
     "daysBefore": 3,
     "pRain": 0.0,
     "pWind": 0.0,
-    "temp": 8,
-    "conf": 83
+    "temp": 7,
+    "conf": 85
    }
   ]
  },
@@ -772,22 +724,22 @@
   "stadium": "Roazhon Park",
   "roof": false,
   "daysBefore": 4,
-  "temp": 9,
+  "temp": 10,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 1.6,
+  "rainMax": 1.2,
   "gust": 23,
-  "pRain": 0.02,
+  "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 75,
+  "confidence": 79,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-11-01",
@@ -816,10 +768,10 @@
    {
     "day": "2026-11-04",
     "daysBefore": 4,
-    "pRain": 0.02,
+    "pRain": 0.0,
     "pWind": 0.0,
     "temp": 11,
-    "conf": 75
+    "conf": 79
    }
   ]
  },
@@ -833,17 +785,17 @@
   "code": 2,
   "rain": 0,
   "rainMax": 0,
-  "gust": 7,
+  "gust": 5,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 90,
+  "confidence": 92,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-10-30",
@@ -890,8 +842,8 @@
     "daysBefore": 2,
     "pRain": 0.0,
     "pWind": 0.0,
-    "temp": 8,
-    "conf": 90
+    "temp": 9,
+    "conf": 92
    }
   ]
  },
@@ -900,22 +852,22 @@
   "stadium": "Stade Bollaert-Delelis",
   "roof": false,
   "daysBefore": 4,
-  "temp": 6,
-  "desc": "ciel dégagé",
-  "code": 0,
+  "temp": 4,
+  "desc": "partiellement nuageux",
+  "code": 2,
   "rain": 0,
-  "rainMax": 0,
+  "rainMax": 2.1,
   "gust": 20,
-  "pRain": 0.0,
+  "pRain": 0.02,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 76,
+  "confidence": 77,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-04T14:37+00:00",
+  "updated": "2026-11-04T22:40+00:00",
   "history": [
    {
     "day": "2026-11-01",
@@ -944,10 +896,10 @@
    {
     "day": "2026-11-04",
     "daysBefore": 4,
-    "pRain": 0.0,
+    "pRain": 0.02,
     "pWind": 0.0,
     "temp": 6,
-    "conf": 76
+    "conf": 77
    }
   ]
  }
