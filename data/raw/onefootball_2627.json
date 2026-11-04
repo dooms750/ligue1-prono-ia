@@ -6949,8 +6949,32 @@
    "reds": [],
    "stats": {},
    "starters": {
-    "home": [],
-    "away": []
+    "home": [
+     "Cameron Archer",
+     "Danny Namaso",
+     "Romain Faivre",
+     "Fredrik Oppegard",
+     "Kévin Danois",
+     "Naouirou Ahamada",
+     "Lamine Sy",
+     "Clément Akpa",
+     "Axel Tuanzebe",
+     "Christ Makosso",
+     "Paul Nardi"
+    ],
+    "away": [
+     "Lassine Sinayoko",
+     "Moses Simon",
+     "Pablo Pagis",
+     "Ilan Kebbal",
+     "Pierre Lees Melou",
+     "Maxime Lopez",
+     "Otávio",
+     "Diego Coppola",
+     "Samir Chergui",
+     "Hamari Traoré",
+     "Kevin Trapp"
+    ]
    }
   },
   "2688727": {
@@ -7029,8 +7053,32 @@
    "reds": [],
    "stats": {},
    "starters": {
-    "home": [],
-    "away": []
+    "home": [
+     "Mika Godts",
+     "Senny Mayulu",
+     "Ferran Torres",
+     "Fabián Ruiz",
+     "Vitinha",
+     "Warren Zaïre-Emery",
+     "Lucas Digne",
+     "Lucas Hernandez",
+     "Illia Zabarnyi",
+     "Achraf Hakimi",
+     "Matvey Safonov"
+    ],
+    "away": [
+     "Timothée Nkada",
+     "Renaud Ripart",
+     "Merwan Ifnaoui",
+     "Mouhamed Diop",
+     "Dermane Karim",
+     "Antoine Mille",
+     "Paolo Gozzi",
+     "Junior Diaz",
+     "Adrien Monfray",
+     "Lucas Maronnier",
+     "Hillel Konaté"
+    ]
    }
   },
   "2688731": {
@@ -7816,10 +7864,42 @@
     "home": [],
     "away": []
    }
+  },
+  "2688769": {
+   "id": 2688769,
+   "competition": "Ligue 1",
+   "kickoff": "2026-12-13T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Olympique Lyonnais",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/olympique-lyonnais-19",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "Ligue 1 : les horaires d'Auxerre-Paris FC et du PSG-Troyes modifiés",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T13:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-horaires-dauxerre-paris-fc-et-du-psg-troyes-modifies-43724698"
+   },
+   {
+    "title": "Ligue 1 - Deux affiches de la 10ème journée déjà impactées par un changement de programmation (officiel)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-04T13:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-deux-affiches-de-la-10eme-journee-deja-impactees-par-un-changement-de-programmation-officiel-43724705"
+   },
    {
     "title": "AJ Auxerre - Will Still fait son mea culpa après la lourde défaite contre le RC Strasbourg",
     "publisher": "MadeInFOOT",
@@ -7867,21 +7947,27 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-01T07:40:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-rc-strasbourg-aj-auxerre-les-compos-probables-43706710"
-   },
-   {
-    "title": "Strasbourg–Auxerre : chaîne TV, streaming… À quelle heure et où suivre cette opposition comptant pour la 9ème journée de Ligue 1 ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-01T05:20:00Z",
-    "url": "https://onefootball.com/fr/news/strasbourgauxerre-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-cette-opposition-comptant-pour-la-9eme-journee-de-ligue-1-43706409"
-   },
-   {
-    "title": "AJ Auxerre - Deux retours, les incertains sont là, le groupe de l'AJA pour le match face au RC Strasbourg",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-31T17:21:00Z",
-    "url": "https://onefootball.com/fr/news/aj-auxerre-deux-retours-les-incertains-sont-la-le-groupe-de-laja-pour-le-match-face-au-rc-strasbourg-43704101"
    }
   ],
   "AS Monaco": [
+   {
+    "title": "ASM-FCN : une troisième victoire en Europe ?",
+    "publisher": "ASM-SUPPORTERS.FR",
+    "time": "2026-11-04T14:27:16Z",
+    "url": "https://onefootball.com/fr/news/asm-fcn-une-troisieme-victoire-en-europe-43724897"
+   },
+   {
+    "title": "Une nouvelle star au milieu en vue ? Liverpool prépare le terrain",
+    "publisher": "fussball-news.de",
+    "time": "2026-11-04T14:01:28Z",
+    "url": "https://onefootball.com/fr/news/une-nouvelle-star-au-milieu-en-vue-liverpool-prepare-le-terrain-43724748"
+   },
+   {
+    "title": "Ligue 1 : Abline a t-il mis un top but ?",
+    "publisher": "ASM-SUPPORTERS.FR",
+    "time": "2026-11-04T13:21:07Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-abline-a-t-il-mis-un-top-but-43724553"
+   },
    {
     "title": "AS Monaco - Une opportunité inattendue s'offre à Folarin Balogun après la blessure d'Ansu Fati",
     "publisher": "MadeInFOOT",
@@ -7923,24 +8009,6 @@
     "publisher": "Morning Foot",
     "time": "2026-11-02T15:30:47Z",
     "url": "https://onefootball.com/fr/news/paris-fc-le-podium-cest-jouable-riolo-et-acherchour-senflamment-apres-monaco-43713944"
-   },
-   {
-    "title": "Folarin Balogun dans le viseur d’un grand club anglais !",
-    "publisher": "Mercato Foot anglais",
-    "time": "2026-11-02T11:04:00Z",
-    "url": "https://onefootball.com/fr/news/folarin-balogun-dans-le-viseur-dun-grand-club-anglais-43712610"
-   },
-   {
-    "title": "Ligue 1 : le Paris FC fait tomber Monaco et s’invite dans le top 4, tous les chiffres",
-    "publisher": "Morning Foot",
-    "time": "2026-11-01T18:14:31Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-paris-fc-fait-tomber-monaco-et-sinvite-dans-le-top-4-tous-les-chiffres-43709363"
-   },
-   {
-    "title": "L'OL s'offre Angers avec un grand Tolisso, Sinayoko porte le Paris FC face à Monaco",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-01T18:11:00Z",
-    "url": "https://onefootball.com/fr/news/lol-soffre-angers-avec-un-grand-tolisso-sinayoko-porte-le-paris-fc-face-a-monaco-43709349"
    }
   ],
   "Angers SCO": [
@@ -8007,6 +8075,12 @@
   ],
   "ESTAC Troyes": [
    {
+    "title": "Ligue 1 : les horaires d'Auxerre-Paris FC et du PSG-Troyes modifiés",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T13:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-horaires-dauxerre-paris-fc-et-du-psg-troyes-modifies-43724698"
+   },
+   {
     "title": "Ligue 1 : Troyes renoue avec la victoire face au Mans et frappe fort en bas de tableau",
     "publisher": "OnzeMondial",
     "time": "2026-10-31T21:43:00Z",
@@ -8059,12 +8133,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-10-30T18:59:00Z",
     "url": "https://onefootball.com/fr/news/le-mans-fc-deux-retours-mais-quatre-absents-dans-le-groupe-de-patrick-videira-pour-le-match-face-a-lestac-troyes-43699467"
-   },
-   {
-    "title": "Ligue 1 - Le TFC en manque d'efficacité face à l'ESTAC Troyes (résumé)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-10-25T18:20:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-tfc-en-manque-defficacite-face-a-lestac-troyes-resume-43671231"
    }
   ],
   "FC Lorient": [
@@ -8131,6 +8199,48 @@
   ],
   "LOSC": [
    {
+    "title": "Jean-Michel Larqué : « Je ne vois pas Giroud capable d’enchainer 90 minutes plusieurs matches au cours d’une semaine »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-04T10:00:30Z",
+    "url": "https://onefootball.com/fr/news/jean-michel-larque-je-ne-vois-pas-giroud-capable-denchainer-90-minutes-plusieurs-matches-au-cours-dune-semaine-43723409"
+   },
+   {
+    "title": "Ancelotti après le nul contre Bodo/Glimt : \"On n'est pas morts\"",
+    "publisher": "Stats Perform",
+    "time": "2026-11-04T09:02:02Z",
+    "url": "https://onefootball.com/fr/video/ancelotti-apres-le-nul-contre-bodoglimt-on-nest-pas-morts-3LdTVS8cT6jRjH19FB2Syh2eUHG"
+   },
+   {
+    "title": "Indice UEFA : la France ne décolle toujours pas malgré le récital du PSG et le nul de Lille",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T07:05:00Z",
+    "url": "https://onefootball.com/fr/news/indice-uefa-la-france-ne-decolle-toujours-pas-malgre-le-recital-du-psg-et-le-nul-de-lille-43722599"
+   },
+   {
+    "title": "\"Il faudra faire carton plein\" : le LOSC condamné à l'exploit en Ligue des champions",
+    "publisher": "Foot National",
+    "time": "2026-11-04T07:00:00Z",
+    "url": "https://onefootball.com/fr/news/il-faudra-faire-carton-plein-le-losc-condamne-a-lexploit-en-ligue-des-champions-43722604"
+   },
+   {
+    "title": "LOSC - Davide Ancelotti croit toujours à la qualification malgré la situation délicate du club",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-03T22:27:00Z",
+    "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-croit-toujours-a-la-qualification-malgre-la-situation-delicate-du-club-43721458"
+   },
+   {
+    "title": "Ligue des Champions : les résultats complets de la quatrième journée",
+    "publisher": "Foot National",
+    "time": "2026-11-03T22:19:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-des-champions-les-resultats-complets-de-la-quatrieme-journee-43721419"
+   },
+   {
+    "title": "LOSC : un nul qui complique tout en C1, les chiffres",
+    "publisher": "Morning Foot",
+    "time": "2026-11-03T21:52:13Z",
+    "url": "https://onefootball.com/fr/news/losc-un-nul-qui-complique-tout-en-c1-les-chiffres-43721224"
+   },
+   {
     "title": "LDC - Les notes de FK Bodø/Glimt - LOSC : dominateur puis malmené, le Lille OSC prend un point en Norvège",
     "publisher": "MadeInFOOT",
     "time": "2026-11-03T21:48:00Z",
@@ -8147,51 +8257,21 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-03T18:52:00Z",
     "url": "https://onefootball.com/fr/news/bodoglimt-lille-les-compositions-officielles-43720259"
-   },
-   {
-    "title": "LDC - FK Bodø/Glimt - LOSC : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-03T18:50:00Z",
-    "url": "https://onefootball.com/fr/news/ldc-fk-bodoglimt-losc-les-compos-officielles-43720292"
-   },
-   {
-    "title": "Bodø/Glimt-LOSC : la belle histoire pour les supporters lillois",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-03T18:25:00Z",
-    "url": "https://onefootball.com/fr/news/bodoglimt-losc-la-belle-histoire-pour-les-supporters-lillois-43720102"
-   },
-   {
-    "title": "Le match de la dernière chance pour Lille à Bodo/Glimt ? L'annonce cash d'Ancelotti",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-03T14:32:00Z",
-    "url": "https://onefootball.com/fr/news/le-match-de-la-derniere-chance-pour-lille-a-bodoglimt-lannonce-cash-dancelotti-43718682"
-   },
-   {
-    "title": "Youth League - Le LOSC U19 se fait surprendre par le FK Bodø/Glimt U19 (résumé)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-03T13:29:00Z",
-    "url": "https://onefootball.com/fr/news/youth-league-le-losc-u19-se-fait-surprendre-par-le-fk-bodoglimt-u19-resume-43718313"
-   },
-   {
-    "title": "Arnaud Hermant : « Ces sanctions collectives sont justes, parce que c’est toujours le problème d’individualiser… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-03T12:30:31Z",
-    "url": "https://onefootball.com/fr/news/arnaud-hermant-ces-sanctions-collectives-sont-justes-parce-que-cest-toujours-le-probleme-dindividualiser-43717995"
-   },
-   {
-    "title": "Youth League : dominé par Bodo/Glimt, Lille subit sa première défaite de la saison",
-    "publisher": "Foot National",
-    "time": "2026-11-03T12:03:00Z",
-    "url": "https://onefootball.com/fr/news/youth-league-domine-par-bodoglimt-lille-subit-sa-premiere-defaite-de-la-saison-43717860"
-   },
-   {
-    "title": "Bodo/Glimt - Lille : les 5 fois où les Norvégiens ont fait chavirer un géant européen",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-03T10:01:00Z",
-    "url": "https://onefootball.com/fr/news/bodoglimt-lille-les-5-fois-ou-les-norvegiens-ont-fait-chavirer-un-geant-europeen-43717268"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "Le Havre : un premier candidat s'annonce officiellement pour succéder à Digard",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T14:03:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-un-premier-candidat-sannonce-officiellement-pour-succeder-a-digard-43724761"
+   },
+   {
+    "title": "Jérôme Rothen : « C’est la bérézina là-bas »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-04T11:30:19Z",
+    "url": "https://onefootball.com/fr/news/jerome-rothen-cest-la-berezina-la-bas-43723906"
+   },
    {
     "title": "Le Havre : un candidat surprise pour remplacer Didier Digard sur le banc normand ?",
     "publisher": "Foot National",
@@ -8239,18 +8319,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-02T10:45:00Z",
     "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-demba-ba-a-decide-de-quitter-le-hac-43712518"
-   },
-   {
-    "title": "Le festival d'Hakimi, auteur d'un triplé et de deux passes décisives lors du large succès à Le Havre",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-11-02T04:13:56Z",
-    "url": "https://onefootball.com/fr/video/le-festival-dhakimi-auteur-dun-triple-et-de-deux-passes-decisives-lors-du-large-succes-a-le-havre-3LXGEHY7ViR5gmb6oevXn2NehWv"
-   },
-   {
-    "title": "C'est officiel, Didier Digard n'est plus l'entraîneur du Havre et Roussier n'en est plus le président !",
-    "publisher": "OnzeMondial",
-    "time": "2026-10-31T20:28:00Z",
-    "url": "https://onefootball.com/fr/news/cest-officiel-didier-digard-nest-plus-lentraineur-du-havre-et-roussier-nen-est-plus-le-president-43705122"
    }
   ],
   "Le Mans FC": [
@@ -8379,67 +8447,115 @@
   ],
   "Olympique Lyonnais": [
    {
-    "title": "Mercato OL - Paulo Fonseca livre ses premiers mots avant sa signature au Sporting Lisbonne",
+    "title": "OL : Corentin Tolisso au cœur du jeu rétro \"Super Coco\"",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-04T14:30:00Z",
+    "url": "https://onefootball.com/fr/news/ol-corentin-tolisso-au-coeur-du-jeu-retro-super-coco-43724908"
+   },
+   {
+    "title": "OL : quel bilan retenir du passage de Paulo Fonseca ?",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-04T12:50:00Z",
+    "url": "https://onefootball.com/fr/news/ol-quel-bilan-retenir-du-passage-de-paulo-fonseca-43724375"
+   },
+   {
+    "title": "Louis-Jean sur le départ de Fonseca : « On ne voulait pas d'un coach démobilisé »",
+    "publisher": "Olympique Lyonnais",
+    "time": "2026-11-04T12:38:55Z",
+    "url": "https://onefootball.com/fr/video/louis-jean-sur-le-depart-de-fonseca-on-ne-voulait-pas-dun-coach-demobilise-3Ldtsvqxwa8jDmQoKUiU63ijjRJ"
+   },
+   {
+    "title": "Louis-Jean sur le départ de Fonseca : « On ne voulait pas d'un coach démobilisé »",
+    "publisher": "Olympique Lyonnais",
+    "time": "2026-11-04T12:36:00Z",
+    "url": "https://onefootball.com/fr/video/louis-jean-sur-le-depart-de-fonseca-on-ne-voulait-pas-dun-coach-demobilise-3Ldv9XiniFfzaiyfCT4Z6SpcTFj"
+   },
+   {
+    "title": "OL : quel profil pour succéder à Paulo Fonseca ?",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-04T12:00:00Z",
+    "url": "https://onefootball.com/fr/news/ol-quel-profil-pour-succeder-a-paulo-fonseca-43724069"
+   },
+   {
+    "title": "Real Sociedad - OL : les douloureux souvenirs de 2013",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-04T10:50:16Z",
+    "url": "https://onefootball.com/fr/news/real-sociedad-ol-les-douloureux-souvenirs-de-2013-43723626"
+   },
+   {
+    "title": "Mercato OL - Matthieu Louis-Jean rassure les supporters après le départ de Paulo Fonseca et en dit plus sur son successeur",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-03T21:41:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-ol-paulo-fonseca-livre-ses-premiers-mots-avant-sa-signature-au-sporting-lisbonne-43721120"
+    "time": "2026-11-04T10:35:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-matthieu-louis-jean-rassure-les-supporters-apres-le-depart-de-paulo-fonseca-et-en-dit-plus-sur-son-successeur-43723569"
    },
    {
-    "title": "Mercato OL - Paulo Fonseca est arrivé à Lisbonne, son départ de Lyon est imminent",
+    "title": "OL - Les vérités de Matthieu Louis-Jean sur le départ surprise de Paulo Fonseca",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-03T21:21:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-ol-paulo-fonseca-est-arrive-a-lisbonne-son-depart-de-lyon-est-imminent-43721041"
+    "time": "2026-11-04T10:19:00Z",
+    "url": "https://onefootball.com/fr/news/ol-les-verites-de-matthieu-louis-jean-sur-le-depart-surprise-de-paulo-fonseca-43723504"
    },
    {
-    "title": "OL : \"Il se pensait supérieur à l’OL\", la grosse charge de Govou à Fonseca",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-03T18:44:00Z",
-    "url": "https://onefootball.com/fr/news/ol-il-se-pensait-superieur-a-lol-la-grosse-charge-de-govou-a-fonseca-43720181"
+    "title": "Officiel : Paulo Fonseca n’est plus l’entraîneur de l’Olympique Lyonnais",
+    "publisher": "FerveurLyonnaise",
+    "time": "2026-11-04T10:03:13Z",
+    "url": "https://onefootball.com/fr/news/officiel-paulo-fonseca-nest-plus-lentraineur-de-lolympique-lyonnais-43723420"
    },
    {
-    "title": "Ligue 1 - Ligue Europa : la fin novembre sera cruciale pour l'OL",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-03T17:20:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-ligue-europa-la-fin-novembre-sera-cruciale-pour-lol-43719694"
-   },
-   {
-    "title": "Ligue 1 : Dominik Greif et Julien Duranville (OL) dans les tops d'octobre ?",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-03T16:35:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-dominik-greif-et-julien-duranville-ol-dans-les-tops-doctobre-43719415"
-   },
-   {
-    "title": "OL : la Coupe d'Asie reportée, Keito Nakamura (Japon) concerné",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-03T15:50:00Z",
-    "url": "https://onefootball.com/fr/news/ol-la-coupe-dasie-reportee-keito-nakamura-japon-concerne-43719132"
-   },
-   {
-    "title": "OL : réponse le 3 décembre pour les droits TV de la Ligue 1",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-03T15:00:00Z",
-    "url": "https://onefootball.com/fr/news/ol-reponse-le-3-decembre-pour-les-droits-tv-de-la-ligue-1-43718841"
-   },
-   {
-    "title": "Mercato OL - Matthieu Louis-Jean et l'OL touchent au but pour la succession de Paulo Fonseca !",
+    "title": "Mercato OL - Paulo Fonseca n'est plus l'entraîneur de l'OL ! (officiel)",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-03T14:41:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-ol-matthieu-louis-jean-et-lol-touchent-au-but-pour-la-succession-de-paulo-fonseca-43718735"
-   },
-   {
-    "title": "OL : Christophe Dugarry détruit Paulo Fonseca et dénonce les “larmes de crocodile »",
-    "publisher": "Morning Foot",
-    "time": "2026-11-03T14:01:42Z",
-    "url": "https://onefootball.com/fr/news/ol-christophe-dugarry-detruit-paulo-fonseca-et-denonce-les-larmes-de-crocodile-43718565"
-   },
-   {
-    "title": "Des arbitres grecs pour officier lors de Real Sociedad - OL",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-03T13:20:00Z",
-    "url": "https://onefootball.com/fr/news/des-arbitres-grecs-pour-officier-lors-de-real-sociedad-ol-43718290"
+    "time": "2026-11-04T10:03:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-paulo-fonseca-nest-plus-lentraineur-de-lol-officiel-43723413"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "Interview - Les chances de l'OM face au Bayer Leverkusen, les faiblesses allemandes, Facundo Medina... un spécialiste nous dit tout (exclu MadeIn)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-04T14:30:00Z",
+    "url": "https://onefootball.com/fr/news/interview-les-chances-de-lom-face-au-bayer-leverkusen-les-faiblesses-allemandes-facundo-medina-un-specialiste-nous-dit-tout-exclu-madein-43724898"
+   },
+   {
+    "title": "OM : Marseille prépare le coup parfait pour le mercato",
+    "publisher": "Morning Foot",
+    "time": "2026-11-04T12:30:32Z",
+    "url": "https://onefootball.com/fr/news/om-marseille-prepare-le-coup-parfait-pour-le-mercato-43724314"
+   },
+   {
+    "title": "Christophe Dugarry : « Le maitre mot de l’OM aujourd’hui, c’est l’humilité »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-04T08:30:58Z",
+    "url": "https://onefootball.com/fr/news/christophe-dugarry-le-maitre-mot-de-lom-aujourdhui-cest-lhumilite-43722974"
+   },
+   {
+    "title": "L'OM peut souffler, un record très humiliant n'est plus que du passé",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T08:04:00Z",
+    "url": "https://onefootball.com/fr/news/lom-peut-souffler-un-record-tres-humiliant-nest-plus-que-du-passe-43722836"
+   },
+   {
+    "title": "OM – Vente du club, McCourt prépare t-il le terrain ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-04T06:00:26Z",
+    "url": "https://onefootball.com/fr/news/om-vente-du-club-mccourt-prepare-t-il-le-terrain-43722406"
+   },
+   {
+    "title": "Mercato OM : L’OM surveille un attaquant espagnol",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-04T01:00:59Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-lom-surveille-un-attaquant-espagnol-43721974"
+   },
+   {
+    "title": "Mercato OM : Quatre cadres pourraient partir libre cet été",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-04T00:00:32Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-quatre-cadres-pourraient-partir-libre-cet-ete-43721851"
+   },
+   {
+    "title": "Bayer Leverkusen-OM : Les arbitres de la rencontre dévoilés",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-03T23:00:16Z",
+    "url": "https://onefootball.com/fr/news/bayer-leverkusen-om-les-arbitres-de-la-rencontre-devoiles-43721675"
+   },
    {
     "title": "L1 – Les affluences de la 9e journée, Marseille peine à convaincre",
     "publisher": "CoeurMarseillais",
@@ -8451,119 +8567,83 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-11-03T19:00:44Z",
     "url": "https://onefootball.com/fr/news/mercato-om-pierre-emile-hojbjerg-toujours-cible-en-serie-a-43720322"
-   },
-   {
-    "title": "Ex-OM : « À la maison, tout le monde supportait l’OM » explique Pape Gueye avant d’affronter le PSG",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-03T18:00:28Z",
-    "url": "https://onefootball.com/fr/news/ex-om-a-la-maison-tout-le-monde-supportait-lom-explique-pape-gueye-avant-daffronter-le-psg-43719974"
-   },
-   {
-    "title": "OM – Acherchour : « Amine Harit n’est pas un n°10 qui gère le tempo d’un match »",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-03T17:00:33Z",
-    "url": "https://onefootball.com/fr/news/om-acherchour-amine-harit-nest-pas-un-n10-qui-gere-le-tempo-dun-match-43719594"
-   },
-   {
-    "title": "OM : face à Leverkusen, le coup de poker risqué de Genesio",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-03T17:00:00Z",
-    "url": "https://onefootball.com/fr/news/om-face-a-leverkusen-le-coup-de-poker-risque-de-genesio-43719551"
-   },
-   {
-    "title": "OM – On en sait plus sur la blessure d’Emerson",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-03T16:00:11Z",
-    "url": "https://onefootball.com/fr/news/om-on-en-sait-plus-sur-la-blessure-demerson-43719191"
-   },
-   {
-    "title": "OM – Riolo : « S’ils ne prennent pas cher à Leverkusen, je serais quand même très surpris »",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-03T15:00:38Z",
-    "url": "https://onefootball.com/fr/news/om-riolo-sils-ne-prennent-pas-cher-a-leverkusen-je-serais-quand-meme-tres-surpris-43718881"
-   },
-   {
-    "title": "Dominique Armand : « Aujourd’hui, on le laisse faire. On lui laisse la main. Derrière lui c’est aligné »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-03T14:00:14Z",
-    "url": "https://onefootball.com/fr/news/dominique-armand-aujourdhui-on-le-laisse-faire-on-lui-laisse-la-main-derriere-lui-cest-aligne-43718523"
-   },
-   {
-    "title": "L'OM bientôt de retour au top, une deadline fixée à Richard ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-03T12:00:00Z",
-    "url": "https://onefootball.com/fr/news/lom-bientot-de-retour-au-top-une-deadline-fixee-a-richard-43717829"
-   },
-   {
-    "title": "Disparition - L'OM, le Stade Rennais et Angers SCO rendent un vibrant hommage à Jesús de Miguel",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-03T10:59:00Z",
-    "url": "https://onefootball.com/fr/news/disparition-lom-le-stade-rennais-et-angers-sco-rendent-un-vibrant-hommage-a-jesus-de-miguel-43717527"
    }
   ],
   "PSG": [
    {
-    "title": "Ligue des Champions – Les résultats du mardi de la 4e journée",
+    "title": "PSG/Troyes – Le coup d’envoi officiellement décalé",
     "publisher": "Parisfans.fr",
-    "time": "2026-11-03T22:04:33Z",
-    "url": "https://onefootball.com/fr/news/ligue-des-champions-les-resultats-du-mardi-de-la-4e-journee-43721321"
+    "time": "2026-11-04T14:10:18Z",
+    "url": "https://onefootball.com/fr/news/psgtroyes-le-coup-denvoi-officiellement-decale-43724809"
    },
    {
-    "title": "Ligue des champions : 8 minutes de folie à Paris, remontada folle de MU !",
-    "publisher": "fussball-news.de",
-    "time": "2026-11-03T22:01:55Z",
-    "url": "https://onefootball.com/fr/news/ligue-des-champions-8-minutes-de-folie-a-paris-remontada-folle-de-mu-43721290"
-   },
-   {
-    "title": "PSG : Paris humilie Villarreal, les chiffres fous d’une performance historique",
-    "publisher": "Morning Foot",
-    "time": "2026-11-03T21:56:43Z",
-    "url": "https://onefootball.com/fr/news/psg-paris-humilie-villarreal-les-chiffres-fous-dune-performance-historique-43721279"
-   },
-   {
-    "title": "Villarreal/PSG – Les notes des Parisiens : Doublé de Ruiz dans un collectif trop fort",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-03T21:56:12Z",
-    "url": "https://onefootball.com/fr/news/villarrealpsg-les-notes-des-parisiens-double-de-ruiz-dans-un-collectif-trop-fort-43721218"
-   },
-   {
-    "title": "Résumé vidéo Villarreal/PSG (0-6), Paris coule le sous-marin jaune en quelques minutes",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-03T21:55:46Z",
-    "url": "https://onefootball.com/fr/news/resume-video-villarrealpsg-0-6-paris-coule-le-sous-marin-jaune-en-quelques-minutes-43721217"
-   },
-   {
-    "title": "Le PSG atomise Villarreal avec un score XXL !",
+    "title": "Ligue 1 : les horaires d'Auxerre-Paris FC et du PSG-Troyes modifiés",
     "publisher": "OnzeMondial",
-    "time": "2026-11-03T21:52:00Z",
-    "url": "https://onefootball.com/fr/news/le-psg-atomise-villarreal-avec-un-score-xxl-43721179"
+    "time": "2026-11-04T13:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-horaires-dauxerre-paris-fc-et-du-psg-troyes-modifies-43724698"
    },
    {
-    "title": "LDC - Villarreal - PSG : David Boly inscrit un but historique et marche sur les traces de Warren Zaïre-Emery (vidéo)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-03T21:50:00Z",
-    "url": "https://onefootball.com/fr/news/ldc-villarreal-psg-david-boly-inscrit-un-but-historique-et-marche-sur-les-traces-de-warren-zaire-emery-video-43721170"
+    "title": "Elton Mokolo : « C’est autant un défi sportif qu’un défi mental d’affronter Paris »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-04T13:30:46Z",
+    "url": "https://onefootball.com/fr/news/elton-mokolo-cest-autant-un-defi-sportif-quun-defi-mental-daffronter-paris-43724639"
    },
    {
-    "title": "Ligue des Champions : le PSG en démonstration à Villarreal, Lille ouvre son compteur de points",
-    "publisher": "Foot National",
-    "time": "2026-11-03T21:50:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-des-champions-le-psg-en-demonstration-a-villarreal-lille-ouvre-son-compteur-de-points-43721177"
+    "title": "Villarreal/PSG – Ruiz ne mâche pas ses mots sur la victoire et l’ambition",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-04T13:04:21Z",
+    "url": "https://onefootball.com/fr/news/villarrealpsg-ruiz-ne-mache-pas-ses-mots-sur-la-victoire-et-lambition-43724483"
    },
    {
-    "title": "Villarreal-PSG : Fabian Ruiz et Doué déroulent, les Tops et les Flops !",
+    "title": "\"Je dois maintenant chercher des solutions\" ... Le coach de Villarreal en danger après la déroute face au PSG ?",
     "publisher": "OnzeMondial",
-    "time": "2026-11-03T21:50:00Z",
-    "url": "https://onefootball.com/fr/news/villarreal-psg-fabian-ruiz-et-doue-deroulent-les-tops-et-les-flops-43721178"
+    "time": "2026-11-04T13:01:00Z",
+    "url": "https://onefootball.com/fr/news/je-dois-maintenant-chercher-des-solutions-le-coach-de-villarreal-en-danger-apres-la-deroute-face-au-psg-43724444"
    },
    {
-    "title": "Ligue des Champions : auteur d’un début canon à Villarreal, le PSG entre dans l’histoire en C1",
-    "publisher": "Foot National",
-    "time": "2026-11-03T21:07:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-des-champions-auteur-dun-debut-canon-a-villarreal-le-psg-entre-dans-lhistoire-en-c1-43721001"
+    "title": "Pierre Ménès : « Le PSG banalise l’extraordinaire »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-04T12:30:43Z",
+    "url": "https://onefootball.com/fr/news/pierre-menes-le-psg-banalise-lextraordinaire-43724312"
+   },
+   {
+    "title": "Jean-Michel Larqué : « Marquinhos a beaucoup plus de trophées que Luis Enrique et Laurent Blanc réunis. Un seigneur »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-04T12:00:34Z",
+    "url": "https://onefootball.com/fr/news/jean-michel-larque-marquinhos-a-beaucoup-plus-de-trophees-que-luis-enrique-et-laurent-blanc-reunis-un-seigneur-43724078"
+   },
+   {
+    "title": "La liste du Maroc pour la trêve de novembre, avec 1 joueur du PSG",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-04T12:00:17Z",
+    "url": "https://onefootball.com/fr/news/la-liste-du-maroc-pour-la-treve-de-novembre-avec-1-joueur-du-psg-43724075"
+   },
+   {
+    "title": "Mercato : l'énorme appel du pied de Maza au PSG",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T11:28:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-lenorme-appel-du-pied-de-maza-au-psg-43723886"
+   },
+   {
+    "title": "70 000 places, rénovation complète, musée, hôtel ... Le projet fou à 2 milliards d'euros du PSG pour le Parc des Princes",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T11:00:00Z",
+    "url": "https://onefootball.com/fr/news/70-000-places-renovation-complete-musee-hotel-le-projet-fou-a-2-milliards-deuros-du-psg-pour-le-parc-des-princes-43723687"
    }
   ],
   "Paris FC": [
+   {
+    "title": "Ligue 1 : les horaires d'Auxerre-Paris FC et du PSG-Troyes modifiés",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T13:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-horaires-dauxerre-paris-fc-et-du-psg-troyes-modifies-43724698"
+   },
+   {
+    "title": "Ligue 1 - Deux affiches de la 10ème journée déjà impactées par un changement de programmation (officiel)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-04T13:55:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-deux-affiches-de-la-10eme-journee-deja-impactees-par-un-changement-de-programmation-officiel-43724705"
+   },
    {
     "title": "Mercato Monaco - Filipe Luis n'a pas voulu de Lassine Sinayoko, l'actuel meilleur buteur de la Ligue 1",
     "publisher": "MadeInFOOT",
@@ -8611,80 +8691,68 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-01T15:26:00Z",
     "url": "https://onefootball.com/fr/news/paris-fc-monaco-les-compositions-officielles-43708492"
-   },
-   {
-    "title": "Ligue 1 - Paris FC - AS Monaco : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-01T15:20:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-paris-fc-as-monaco-les-compos-officielles-43708491"
-   },
-   {
-    "title": "Paris FC – Monaco : le promu face à un ASM en panne de victoires, compositions probables, chaîne TV et heure",
-    "publisher": "BeFootball",
-    "time": "2026-11-01T12:37:00Z",
-    "url": "https://onefootball.com/fr/news/paris-fc-monaco-le-promu-face-a-un-asm-en-panne-de-victoires-compositions-probables-chaine-tv-et-heure-43707807"
    }
   ],
   "RC Lens": [
    {
-    "title": "RC Lens - Quatre absents dans le groupe du RCL pour le match de LDC face au Como 1907",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-03T19:15:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-quatre-absents-dans-le-groupe-du-rcl-pour-le-match-de-ldc-face-au-como-1907-43720401"
-   },
-   {
-    "title": "RC Lens – Como : un groupe lensois de 23 joueurs avec quatre forfaits confirmés",
+    "title": "[Vidéos] Retour sur les matches de Coupe d’Europe du RC Lens à Bollaert face aux pensionnaires de Série A",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T19:08:16Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-como-un-groupe-lensois-de-23-joueurs-avec-quatre-forfaits-confirmes-43720370"
+    "time": "2026-11-04T14:00:07Z",
+    "url": "https://onefootball.com/fr/news/videos-retour-sur-les-matches-de-coupe-deurope-du-rc-lens-a-bollaert-face-aux-pensionnaires-de-serie-a-43724732"
    },
    {
-    "title": "« J’imagine un bel avenir pour lui en équipe de France », quand le gardien de Côme Jean Butez encense Robin Risser",
+    "title": "Bollaert Delelis rendra hommage à Quentin, supporter lensois décédé lors du semi-marathon de Lille",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T18:33:58Z",
-    "url": "https://onefootball.com/fr/news/jimagine-un-bel-avenir-pour-lui-en-equipe-de-france-quand-le-gardien-de-come-jean-butez-encense-robin-risser-43720142"
+    "time": "2026-11-04T12:58:27Z",
+    "url": "https://onefootball.com/fr/news/bollaert-delelis-rendra-hommage-a-quentin-supporter-lensois-decede-lors-du-semi-marathon-de-lille-43724425"
    },
    {
-    "title": "« L’ambiance est incroyable » l’entraîneur de Côme Cesc Fabregas impatient de retrouver Bollaert",
+    "title": "[Youth League] Suivez RC Lens-Côme en direct : 2-1 (2MT)",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T18:21:47Z",
-    "url": "https://onefootball.com/fr/news/lambiance-est-incroyable-lentraineur-de-come-cesc-fabregas-impatient-de-retrouver-bollaert-43720094"
+    "time": "2026-11-04T12:00:10Z",
+    "url": "https://onefootball.com/fr/news/youth-league-suivez-rc-lens-come-en-direct-2-1-2mt-43724065"
    },
    {
-    "title": "Ruben Aguilar va retrouver son ancien coéquipier Cesc Fabregas, « un homme qui ne fait rien au hasard »",
+    "title": "RC Lens-Côme : une minute de silence en hommage à Jesus de Miguel avant le coup d’envoi",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T17:27:12Z",
-    "url": "https://onefootball.com/fr/news/ruben-aguilar-va-retrouver-son-ancien-coequipier-cesc-fabregas-un-homme-qui-ne-fait-rien-au-hasard-43719745"
+    "time": "2026-11-04T11:18:01Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-come-une-minute-de-silence-en-hommage-a-jesus-de-miguel-avant-le-coup-denvoi-43723828"
    },
    {
-    "title": "Yannick Cahuzac : « On a vraiment à cœur de faire un grand match chez nous »",
+    "title": "Lens – Como : les Sang et Or doivent réagir face à une équipe en pleine confiance, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-11-04T11:00:00Z",
+    "url": "https://onefootball.com/fr/news/lens-como-les-sang-et-or-doivent-reagir-face-a-une-equipe-en-pleine-confiance-compositions-probables-chaine-tv-et-heure-43723695"
+   },
+   {
+    "title": "Face aux absences, le RC Lens doit-il se réinventer offensivement ? Les réponses",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T17:16:54Z",
-    "url": "https://onefootball.com/fr/news/yannick-cahuzac-on-a-vraiment-a-coeur-de-faire-un-grand-match-chez-nous-43719688"
+    "time": "2026-11-04T10:50:32Z",
+    "url": "https://onefootball.com/fr/news/face-aux-absences-le-rc-lens-doit-il-se-reinventer-offensivement-les-reponses-43723650"
    },
    {
-    "title": "RC Lens - Yannick Cahuzac fait le point sur son effectif avant le match de LDC face au Como 1907",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-03T17:14:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-fait-le-point-sur-son-effectif-avant-le-match-de-ldc-face-au-como-1907-43719658"
-   },
-   {
-    "title": "Quatre joueurs toujours à l’infirmerie avant RC Lens – Côme, Todibo poursuit sa montée en puissance",
+    "title": "Paulo Fonseca quitte officiellement Lyon pour le Sporting Portugal",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T17:01:29Z",
-    "url": "https://onefootball.com/fr/news/quatre-joueurs-toujours-a-linfirmerie-avant-rc-lens-come-todibo-poursuit-sa-montee-en-puissance-43719598"
+    "time": "2026-11-04T10:34:50Z",
+    "url": "https://onefootball.com/fr/news/paulo-fonseca-quitte-officiellement-lyon-pour-le-sporting-portugal-43723560"
    },
    {
-    "title": "Toujours quatre absents à l’entraînement avant RC Lens – Côme",
+    "title": "Un bilan légèrement défavorable pour le RC Lens face aux clubs italiens",
     "publisher": "Lensois.com",
-    "time": "2026-11-03T15:08:19Z",
-    "url": "https://onefootball.com/fr/news/toujours-quatre-absents-a-lentrainement-avant-rc-lens-come-43718929"
+    "time": "2026-11-04T10:00:24Z",
+    "url": "https://onefootball.com/fr/news/un-bilan-legerement-defavorable-pour-le-rc-lens-face-aux-clubs-italiens-43723395"
    },
    {
-    "title": "[L1-J10] Le concours pronos des internautes",
-    "publisher": "Lensois.com",
-    "time": "2026-11-03T14:03:37Z",
-    "url": "https://onefootball.com/fr/news/l1-j10-le-concours-pronos-des-internautes-43718559"
+    "title": "Lens - Côme : Fabregas encense Bollaert, Cahuzac ne doute pas du soutien des supporters malgré les tensions",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T09:02:00Z",
+    "url": "https://onefootball.com/fr/news/lens-come-fabregas-encense-bollaert-cahuzac-ne-doute-pas-du-soutien-des-supporters-malgre-les-tensions-43723094"
+   },
+   {
+    "title": "Lens-Côme : les compositions probables du match des Sang et Or en Ligue des champions",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T07:50:00Z",
+    "url": "https://onefootball.com/fr/news/lens-come-les-compositions-probables-du-match-des-sang-et-or-en-ligue-des-champions-43722741"
    }
   ],
   "RC Strasbourg": [
@@ -8813,64 +8881,64 @@
   ],
   "Stade Rennais": [
    {
-    "title": "Stade rennais - Olympiakos : Franck Haise détaille ce que Rennes doit corriger dans le jeu sans ballon",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-03T19:45:12Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-franck-haise-detaille-ce-que-rennes-doit-corriger-dans-le-jeu-sans-ballon-43720560"
-   },
-   {
-    "title": "Stade rennais - Olympiakos à 16h30 : Franck Haise explique le choix de l’horaire",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-03T18:50:07Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-a-16h30-franck-haise-explique-le-choix-de-lhoraire-43720229"
-   },
-   {
-    "title": "Rennes : un forfait, un retour et deux incertains pour la réception de l’Olympiakos en Ligue Europa",
-    "publisher": "Foot National",
-    "time": "2026-11-03T17:32:00Z",
-    "url": "https://onefootball.com/fr/news/rennes-un-forfait-un-retour-et-deux-incertains-pour-la-reception-de-lolympiakos-en-ligue-europa-43719770"
-   },
-   {
-    "title": "Stade rennais - Olympiakos : Samba vers un retour, Lepaul toujours forfait et deux incertitudes",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-03T17:15:29Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-samba-vers-un-retour-lepaul-toujours-forfait-et-deux-incertitudes-43719673"
-   },
-   {
-    "title": "Stade Rennais : le double visage qui inquiète tout le monde",
-    "publisher": "Morning Foot",
-    "time": "2026-11-03T17:00:04Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-le-double-visage-qui-inquiete-tout-le-monde-43719562"
-   },
-   {
-    "title": "Médias : Pleine Lucarne, l’émission du 2 novembre 2026 après Nice - Stade rennais",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-03T13:30:09Z",
-    "url": "https://onefootball.com/fr/news/medias-pleine-lucarne-lemission-du-2-novembre-2026-apres-nice-stade-rennais-43718305"
-   },
-   {
-    "title": "Disparition - L'OM, le Stade Rennais et Angers SCO rendent un vibrant hommage à Jesús de Miguel",
+    "title": "Ligue Europa - Stade Rennais - Olympiakos : les compos officielles",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-03T10:59:00Z",
-    "url": "https://onefootball.com/fr/news/disparition-lom-le-stade-rennais-et-angers-sco-rendent-un-vibrant-hommage-a-jesus-de-miguel-43717527"
+    "time": "2026-11-04T14:25:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-europa-stade-rennais-olympiakos-les-compos-officielles-43724877"
    },
    {
-    "title": "Nice - Stade rennais : résumé vidéo",
+    "title": "Stade rennais - Olympiakos : « Une grande qualité offensive », mais des failles à exploiter pour Alguacil",
     "publisher": "Stade Rennais Online",
-    "time": "2026-11-02T11:35:19Z",
-    "url": "https://onefootball.com/fr/news/nice-stade-rennais-resume-video-43712750"
+    "time": "2026-11-04T13:10:08Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-une-grande-qualite-offensive-mais-des-failles-a-exploiter-pour-alguacil-43724505"
    },
    {
-    "title": "Stade Rennais : Un joueur s’est senti humilié",
+    "title": "Stade rennais - Olympiakos : Samba de retour, Frankowski absent",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-11-04T10:50:06Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-samba-de-retour-frankowski-absent-43723617"
+   },
+   {
+    "title": "Stade rennais - Olympiakos : le RCK n’animera pas les quinze premières minutes",
+    "publisher": "Stade Rennais Online",
+    "time": "2026-11-04T10:40:06Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-le-rck-nanimera-pas-les-quinze-premieres-minutes-43723575"
+   },
+   {
+    "title": "Stade Rennais - Trois retours importants et une absence de taille dans le groupe pour affronter l'Olympiakos",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-04T10:25:00Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-trois-retours-importants-et-une-absence-de-taille-dans-le-groupe-pour-affronter-lolympiakos-43723505"
+   },
+   {
+    "title": "Rennes – Olympiakos Pirée : un choc entre un Rennes invaincu en Europe et le leader sur 9 victoires, compositions probables, chaîne TV et heure",
+    "publisher": "BeFootball",
+    "time": "2026-11-04T10:11:17Z",
+    "url": "https://onefootball.com/fr/news/rennes-olympiakos-piree-un-choc-entre-un-rennes-invaincu-en-europe-et-le-leader-sur-9-victoires-compositions-probables-chaine-tv-et-heure-43723451"
+   },
+   {
+    "title": "Stade Rennais : Valentin Rongier dans le creux de la vague",
     "publisher": "Morning Foot",
-    "time": "2026-11-02T09:00:23Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-un-joueur-sest-senti-humilie-43711990"
+    "time": "2026-11-04T09:00:25Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-valentin-rongier-dans-le-creux-de-la-vague-43723134"
    },
    {
-    "title": "Nice - Stade rennais : Vu par RV",
+    "title": "Adrien Thomasson : « Je sais très bien ce que je peux apporter à un collectif »",
     "publisher": "Stade Rennais Online",
-    "time": "2026-11-01T12:55:07Z",
-    "url": "https://onefootball.com/fr/news/nice-stade-rennais-vu-par-rv-43707848"
+    "time": "2026-11-04T08:20:09Z",
+    "url": "https://onefootball.com/fr/news/adrien-thomasson-je-sais-tres-bien-ce-que-je-peux-apporter-a-un-collectif-43722882"
+   },
+   {
+    "title": "Rennes-Olympiakos : les compositions probables de cette rencontre de Ligue Europa avancée",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-04T08:20:00Z",
+    "url": "https://onefootball.com/fr/news/rennes-olympiakos-les-compositions-probables-de-cette-rencontre-de-ligue-europa-avancee-43722890"
+   },
+   {
+    "title": "Ligue Europa - Stade Rennais - Olympiakos : les compos probables",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-04T08:15:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-europa-stade-rennais-olympiakos-les-compos-probables-43722879"
    }
   ],
   "Toulouse FC": [
@@ -8937,7 +9005,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-03T23:14+00:00",
+ "fetchedAt": "2026-11-04T14:36+00:00",
  "schedule": {
   "AJ Auxerre": [
    {

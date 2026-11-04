@@ -6,8 +6,8 @@
   "lastResult": "2026-11-02",
   "lastMatchday": 9,
   "nextMatchday": 10,
-  "fetchedAt": "2026-11-03T23:14+00:00",
-  "generatedAt": "2026-11-03T23:14+00:00",
+  "fetchedAt": "2026-11-04T14:36+00:00",
+  "generatedAt": "2026-11-04T14:39+00:00",
   "checks": {
    "compared": 81,
    "agree": 81,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-03T22:19+00:00",
-    "lastAttempt": "2026-11-03T22:19+00:00",
+    "lastOk": "2026-11-04T14:36+00:00",
+    "lastAttempt": "2026-11-04T14:36+00:00",
     "error": null,
     "failures": 0,
-    "count": 125
+    "count": 126
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-03T23:14+00:00",
-    "lastAttempt": "2026-11-03T23:14+00:00",
+    "lastOk": "2026-11-04T14:37+00:00",
+    "lastAttempt": "2026-11-04T14:37+00:00",
     "error": null,
     "failures": 0,
     "count": 81
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-03T22:20+00:00",
-    "lastAttempt": "2026-11-03T22:20+00:00",
+    "lastOk": "2026-11-04T14:37+00:00",
+    "lastAttempt": "2026-11-04T14:37+00:00",
     "error": null,
     "failures": 0,
     "count": 15
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-03T22:21+00:00",
-    "lastAttempt": "2026-11-03T22:21+00:00",
+    "lastOk": "2026-11-04T14:38+00:00",
+    "lastAttempt": "2026-11-04T14:38+00:00",
     "error": null,
     "failures": 0,
     "count": 81
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-03T22:21+00:00",
-    "lastAttempt": "2026-11-03T22:21+00:00",
+    "lastOk": "2026-11-04T14:38+00:00",
+    "lastAttempt": "2026-11-04T14:38+00:00",
     "error": null,
     "failures": 0,
     "count": 1219
@@ -790,7 +790,7 @@
    "notInCommon": 0
   },
   "linked": 999,
-  "generatedAt": "2026-11-03T22:21+00:00",
+  "generatedAt": "2026-11-04T14:38+00:00",
   "levers": {
    "buteur": {
     "n": 332,
@@ -8692,23 +8692,23 @@
      "kind": "beau",
      "stadium": "Stadium de Toulouse",
      "roof": false,
-     "daysBefore": 3,
-     "temp": 10,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 2,
+     "temp": 6,
+     "desc": "partiellement nuageux",
+     "code": 2,
      "rain": 0,
      "rainMax": 0,
-     "gust": 20,
+     "gust": 7,
      "pRain": 0.0,
-     "pWind": 0.02,
+     "pWind": 0.0,
      "members": 51,
-     "confidence": 83,
+     "confidence": 90,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-03T14:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-10-30",
@@ -8749,6 +8749,14 @@
        "pWind": 0.02,
        "temp": 8,
        "conf": 83
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 2,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 8,
+       "conf": 90
       }
      ]
     }
@@ -8847,12 +8855,12 @@
     ],
     "over25": 0.612,
     "levers": [],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 2,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -8877,6 +8885,12 @@
      "H": {
       "absences": [],
       "other": [
+       {
+        "title": "Ligue 1 : les horaires d'Auxerre-Paris FC et du PSG-Troyes modifiés",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ligue-1-les-horaires-dauxerre-paris-fc-et-du-psg-troyes-modifies-43724698",
+        "time": "2026-11-04T13:55:00Z"
+       },
        {
         "title": "AJ Auxerre - Will Still fait son mea culpa après la lourde défaite contre le RC Strasbourg",
         "publisher": "MadeInFOOT",
@@ -8923,23 +8937,23 @@
      "kind": "beau",
      "stadium": "Stade de l'Abbé-Deschamps",
      "roof": false,
-     "daysBefore": 4,
-     "temp": 8,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "daysBefore": 3,
+     "temp": 9,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 2.4,
-     "gust": 19,
-     "pRain": 0.02,
+     "rainMax": 0.3,
+     "gust": 11,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 79,
+     "confidence": 85,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-10-31",
@@ -8972,6 +8986,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 79
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 3,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 85
       }
      ]
     }
@@ -9070,12 +9092,12 @@
     ],
     "over25": 0.569,
     "levers": [],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 3,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -9101,22 +9123,22 @@
       "absences": [],
       "other": [
        {
-        "title": "PSG : Paris humilie Villarreal, les chiffres fous d’une performance historique",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/psg-paris-humilie-villarreal-les-chiffres-fous-dune-performance-historique-43721279",
-        "time": "2026-11-03T21:56:43Z"
+        "title": "PSG/Troyes – Le coup d’envoi officiellement décalé",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psgtroyes-le-coup-denvoi-officiellement-decale-43724809",
+        "time": "2026-11-04T14:10:18Z"
        },
        {
-        "title": "Villarreal/PSG – Les notes des Parisiens : Doublé de Ruiz dans un collectif trop fort",
+        "title": "Villarreal/PSG – Ruiz ne mâche pas ses mots sur la victoire et l’ambition",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/villarrealpsg-les-notes-des-parisiens-double-de-ruiz-dans-un-collectif-trop-fort-43721218",
-        "time": "2026-11-03T21:56:12Z"
+        "url": "https://onefootball.com/fr/news/villarrealpsg-ruiz-ne-mache-pas-ses-mots-sur-la-victoire-et-lambition-43724483",
+        "time": "2026-11-04T13:04:21Z"
        },
        {
-        "title": "Résumé vidéo Villarreal/PSG (0-6), Paris coule le sous-marin jaune en quelques minutes",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/resume-video-villarrealpsg-0-6-paris-coule-le-sous-marin-jaune-en-quelques-minutes-43721217",
-        "time": "2026-11-03T21:55:46Z"
+        "title": "\"Je dois maintenant chercher des solutions\" ... Le coach de Villarreal en danger après la déroute face au PSG ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/je-dois-maintenant-chercher-des-solutions-le-coach-de-villarreal-en-danger-apres-la-deroute-face-au-psg-43724444",
+        "time": "2026-11-04T13:01:00Z"
        }
       ],
       "scorer": {
@@ -9146,23 +9168,23 @@
      "kind": "beau",
      "stadium": "Parc des Princes",
      "roof": false,
-     "daysBefore": 4,
-     "temp": 7,
-     "desc": "brouillard",
-     "code": 45,
+     "daysBefore": 3,
+     "temp": 5,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 2.1,
-     "gust": 18,
-     "pRain": 0.02,
+     "rainMax": 0.9,
+     "gust": 16,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 77,
+     "confidence": 83,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
-      "modèle mondial"
+      "Météo-France"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-10-31",
@@ -9195,6 +9217,14 @@
        "pWind": 0.0,
        "temp": 8,
        "conf": 77
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 3,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 8,
+       "conf": 83
       }
      ]
     }
@@ -9295,12 +9325,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 3,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -9325,36 +9355,36 @@
      "H": {
       "absences": [
        {
-        "title": "Rennes : un forfait, un retour et deux incertains pour la réception de l’Olympiakos en Ligue Europa",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/rennes-un-forfait-un-retour-et-deux-incertains-pour-la-reception-de-lolympiakos-en-ligue-europa-43719770",
-        "time": "2026-11-03T17:32:00Z"
+        "title": "Stade rennais - Olympiakos : Samba de retour, Frankowski absent",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-samba-de-retour-frankowski-absent-43723617",
+        "time": "2026-11-04T10:50:06Z"
        },
        {
-        "title": "Stade rennais - Olympiakos : Samba vers un retour, Lepaul toujours forfait et deux incertitudes",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-samba-vers-un-retour-lepaul-toujours-forfait-et-deux-incertitudes-43719673",
-        "time": "2026-11-03T17:15:29Z"
+        "title": "Stade Rennais - Trois retours importants et une absence de taille dans le groupe pour affronter l'Olympiakos",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-rennais-trois-retours-importants-et-une-absence-de-taille-dans-le-groupe-pour-affronter-lolympiakos-43723505",
+        "time": "2026-11-04T10:25:00Z"
        }
       ],
       "other": [
        {
-        "title": "Stade rennais - Olympiakos : Franck Haise détaille ce que Rennes doit corriger dans le jeu sans ballon",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-franck-haise-detaille-ce-que-rennes-doit-corriger-dans-le-jeu-sans-ballon-43720560",
-        "time": "2026-11-03T19:45:12Z"
+        "title": "Ligue Europa - Stade Rennais - Olympiakos : les compos officielles",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-europa-stade-rennais-olympiakos-les-compos-officielles-43724877",
+        "time": "2026-11-04T14:25:00Z"
        },
        {
-        "title": "Stade rennais - Olympiakos à 16h30 : Franck Haise explique le choix de l’horaire",
+        "title": "Stade rennais - Olympiakos : « Une grande qualité offensive », mais des failles à exploiter pour Alguacil",
         "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-a-16h30-franck-haise-explique-le-choix-de-lhoraire-43720229",
-        "time": "2026-11-03T18:50:07Z"
+        "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-une-grande-qualite-offensive-mais-des-failles-a-exploiter-pour-alguacil-43724505",
+        "time": "2026-11-04T13:10:08Z"
        },
        {
-        "title": "Stade Rennais : le double visage qui inquiète tout le monde",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-le-double-visage-qui-inquiete-tout-le-monde-43719562",
-        "time": "2026-11-03T17:00:04Z"
+        "title": "Stade rennais - Olympiakos : le RCK n’animera pas les quinze premières minutes",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/stade-rennais-olympiakos-le-rck-nanimera-pas-les-quinze-premieres-minutes-43723575",
+        "time": "2026-11-04T10:40:06Z"
        }
       ],
       "scorer": {
@@ -9367,22 +9397,22 @@
       "absences": [],
       "other": [
        {
-        "title": "LDC - Les notes de FK Bodø/Glimt - LOSC : dominateur puis malmené, le Lille OSC prend un point en Norvège",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ldc-les-notes-de-fk-bodoglimt-losc-dominateur-puis-malmene-le-lille-osc-prend-un-point-en-norvege-43721169",
-        "time": "2026-11-03T21:48:00Z"
+        "title": "Jean-Michel Larqué : « Je ne vois pas Giroud capable d’enchainer 90 minutes plusieurs matches au cours d’une semaine »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/jean-michel-larque-je-ne-vois-pas-giroud-capable-denchainer-90-minutes-plusieurs-matches-au-cours-dune-semaine-43723409",
+        "time": "2026-11-04T10:00:30Z"
        },
        {
-        "title": "Bodø/Glimt - Lille : les compositions officielles",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/bodoglimt-lille-les-compositions-officielles-43720259",
-        "time": "2026-11-03T18:52:00Z"
+        "title": "\"Il faudra faire carton plein\" : le LOSC condamné à l'exploit en Ligue des champions",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/il-faudra-faire-carton-plein-le-losc-condamne-a-lexploit-en-ligue-des-champions-43722604",
+        "time": "2026-11-04T07:00:00Z"
        },
        {
-        "title": "LDC - FK Bodø/Glimt - LOSC : les compos officielles",
+        "title": "LOSC - Davide Ancelotti croit toujours à la qualification malgré la situation délicate du club",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ldc-fk-bodoglimt-losc-les-compos-officielles-43720292",
-        "time": "2026-11-03T18:50:00Z"
+        "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-croit-toujours-a-la-qualification-malgre-la-situation-delicate-du-club-43721458",
+        "time": "2026-11-03T22:27:00Z"
        }
       ],
       "scorer": {
@@ -9403,23 +9433,23 @@
      "kind": "beau",
      "stadium": "Roazhon Park",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 11,
+     "daysBefore": 4,
+     "temp": 9,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 2.5,
+     "rainMax": 1.6,
      "gust": 23,
-     "pRain": 0.12,
+     "pRain": 0.02,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 66,
-     "confidenceLabel": "moyenne",
+     "confidence": 75,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -9444,6 +9474,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 66
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 4,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 75
       }
      ]
     }
@@ -9544,12 +9582,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 3,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -9620,23 +9658,23 @@
      "kind": "beau",
      "stadium": "Stade Raymond-Kopa",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 11,
+     "daysBefore": 4,
+     "temp": 13,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 6.9,
+     "rainMax": 2.1,
      "gust": 23,
-     "pRain": 0.22,
+     "pRain": 0.02,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 59,
-     "confidenceLabel": "moyenne",
+     "confidence": 75,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -9661,6 +9699,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 59
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 4,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 12,
+       "conf": 75
       }
      ]
     }
@@ -9759,12 +9805,12 @@
     ],
     "over25": 0.482,
     "levers": [],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 2,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -9822,32 +9868,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "Mercato OL - Matthieu Louis-Jean et l'OL touchent au but pour la succession de Paulo Fonseca !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-ol-matthieu-louis-jean-et-lol-touchent-au-but-pour-la-succession-de-paulo-fonseca-43718735",
-        "time": "2026-11-03T14:41:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "Mercato OL - Paulo Fonseca livre ses premiers mots avant sa signature au Sporting Lisbonne",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-ol-paulo-fonseca-livre-ses-premiers-mots-avant-sa-signature-au-sporting-lisbonne-43721120",
-        "time": "2026-11-03T21:41:00Z"
+        "title": "OL : Corentin Tolisso au cœur du jeu rétro \"Super Coco\"",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-corentin-tolisso-au-coeur-du-jeu-retro-super-coco-43724908",
+        "time": "2026-11-04T14:30:00Z"
        },
        {
-        "title": "Mercato OL - Paulo Fonseca est arrivé à Lisbonne, son départ de Lyon est imminent",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-ol-paulo-fonseca-est-arrive-a-lisbonne-son-depart-de-lyon-est-imminent-43721041",
-        "time": "2026-11-03T21:21:00Z"
+        "title": "OL : quel bilan retenir du passage de Paulo Fonseca ?",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-quel-bilan-retenir-du-passage-de-paulo-fonseca-43724375",
+        "time": "2026-11-04T12:50:00Z"
        },
        {
-        "title": "OL : \"Il se pensait supérieur à l’OL\", la grosse charge de Govou à Fonseca",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/ol-il-se-pensait-superieur-a-lol-la-grosse-charge-de-govou-a-fonseca-43720181",
-        "time": "2026-11-03T18:44:00Z"
+        "title": "OL : quel profil pour succéder à Paulo Fonseca ?",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-quel-profil-pour-succeder-a-paulo-fonseca-43724069",
+        "time": "2026-11-04T12:00:00Z"
        }
       ],
       "scorer": {
@@ -9868,23 +9907,23 @@
      "kind": "beau",
      "stadium": "Stade Francis-Le Blé",
      "roof": false,
-     "daysBefore": 5,
+     "daysBefore": 4,
      "temp": 11,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 7.5,
+     "rainMax": 6.9,
      "gust": 27,
-     "pRain": 0.18,
+     "pRain": 0.14,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 63,
+     "confidence": 69,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -9909,6 +9948,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 63
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 4,
+       "pRain": 0.14,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 69
       }
      ]
     }
@@ -10009,12 +10056,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 2,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -10047,6 +10094,12 @@
       ],
       "other": [
        {
+        "title": "Le Havre : un premier candidat s'annonce officiellement pour succéder à Digard",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/le-havre-un-premier-candidat-sannonce-officiellement-pour-succeder-a-digard-43724761",
+        "time": "2026-11-04T14:03:00Z"
+       },
+       {
         "title": "Le Havre : un candidat surprise pour remplacer Didier Digard sur le banc normand ?",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/le-havre-un-candidat-surprise-pour-remplacer-didier-digard-sur-le-banc-normand-43720807",
@@ -10057,12 +10110,6 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/vous-quitterez-le-club-avant-nous-au-havre-la-guerre-entre-les-supporters-et-blue-crow-43715733",
         "time": "2026-11-02T22:59:00Z"
-       },
-       {
-        "title": "Mercato Le Havre AC - Le HAC annonce le successeur (provisoire) de Didier Digard (officiel)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-hac-annonce-le-successeur-provisoire-de-didier-digard-officiel-43714955",
-        "time": "2026-11-02T19:15:00Z"
        }
       ],
       "scorer": {
@@ -10085,23 +10132,23 @@
      "kind": "beau",
      "stadium": "Stade Océane",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 11,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 4,
+     "temp": 9,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
-     "rainMax": 7.2,
+     "rainMax": 0.3,
      "gust": 27,
-     "pRain": 0.02,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 73,
+     "confidence": 78,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -10126,6 +10173,14 @@
        "pWind": 0.0,
        "temp": 10,
        "conf": 73
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 4,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 78
       }
      ]
     }
@@ -10224,12 +10279,12 @@
     ],
     "over25": 0.435,
     "levers": [],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 3,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -10271,22 +10326,22 @@
       ],
       "other": [
        {
+        "title": "ASM-FCN : une troisième victoire en Europe ?",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/asm-fcn-une-troisieme-victoire-en-europe-43724897",
+        "time": "2026-11-04T14:27:16Z"
+       },
+       {
+        "title": "Ligue 1 : Abline a t-il mis un top but ?",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/ligue-1-abline-a-t-il-mis-un-top-but-43724553",
+        "time": "2026-11-04T13:21:07Z"
+       },
+       {
         "title": "UEFA : Balogun remplace Fati",
         "publisher": "ASM-SUPPORTERS.FR",
         "url": "https://onefootball.com/fr/news/uefa-balogun-remplace-fati-43720189",
         "time": "2026-11-03T18:42:48Z"
-       },
-       {
-        "title": "Mercato Monaco - Filipe Luis n'a pas voulu de Lassine Sinayoko, l'actuel meilleur buteur de la Ligue 1",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-monaco-filipe-luis-na-pas-voulu-de-lassine-sinayoko-lactuel-meilleur-buteur-de-la-ligue-1-43719500",
-        "time": "2026-11-03T16:51:00Z"
-       },
-       {
-        "title": "AS Monaco - Le programme de la semaine de l'ASM du 02 au 08 novembre",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-le-programme-de-la-semaine-de-lasm-du-02-au-08-novembre-43718256",
-        "time": "2026-11-03T13:15:00Z"
        }
       ],
       "scorer": {
@@ -10440,12 +10495,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 3,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
@@ -10470,48 +10525,30 @@
      "H": {
       "absences": [
        {
-        "title": "RC Lens - Quatre absents dans le groupe du RCL pour le match de LDC face au Como 1907",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-quatre-absents-dans-le-groupe-du-rcl-pour-le-match-de-ldc-face-au-como-1907-43720401",
-        "time": "2026-11-03T19:15:00Z"
-       },
-       {
-        "title": "RC Lens – Como : un groupe lensois de 23 joueurs avec quatre forfaits confirmés",
+        "title": "Face aux absences, le RC Lens doit-il se réinventer offensivement ? Les réponses",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/rc-lens-como-un-groupe-lensois-de-23-joueurs-avec-quatre-forfaits-confirmes-43720370",
-        "time": "2026-11-03T19:08:16Z"
-       },
-       {
-        "title": "Quatre joueurs toujours à l’infirmerie avant RC Lens – Côme, Todibo poursuit sa montée en puissance",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/quatre-joueurs-toujours-a-linfirmerie-avant-rc-lens-come-todibo-poursuit-sa-montee-en-puissance-43719598",
-        "time": "2026-11-03T17:01:29Z"
-       },
-       {
-        "title": "Toujours quatre absents à l’entraînement avant RC Lens – Côme",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/toujours-quatre-absents-a-lentrainement-avant-rc-lens-come-43718929",
-        "time": "2026-11-03T15:08:19Z"
+        "url": "https://onefootball.com/fr/news/face-aux-absences-le-rc-lens-doit-il-se-reinventer-offensivement-les-reponses-43723650",
+        "time": "2026-11-04T10:50:32Z"
        }
       ],
       "other": [
        {
-        "title": "« J’imagine un bel avenir pour lui en équipe de France », quand le gardien de Côme Jean Butez encense Robin Risser",
+        "title": "[Vidéos] Retour sur les matches de Coupe d’Europe du RC Lens à Bollaert face aux pensionnaires de Série A",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/jimagine-un-bel-avenir-pour-lui-en-equipe-de-france-quand-le-gardien-de-come-jean-butez-encense-robin-risser-43720142",
-        "time": "2026-11-03T18:33:58Z"
+        "url": "https://onefootball.com/fr/news/videos-retour-sur-les-matches-de-coupe-deurope-du-rc-lens-a-bollaert-face-aux-pensionnaires-de-serie-a-43724732",
+        "time": "2026-11-04T14:00:07Z"
        },
        {
-        "title": "Ruben Aguilar va retrouver son ancien coéquipier Cesc Fabregas, « un homme qui ne fait rien au hasard »",
+        "title": "Bollaert Delelis rendra hommage à Quentin, supporter lensois décédé lors du semi-marathon de Lille",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/ruben-aguilar-va-retrouver-son-ancien-coequipier-cesc-fabregas-un-homme-qui-ne-fait-rien-au-hasard-43719745",
-        "time": "2026-11-03T17:27:12Z"
+        "url": "https://onefootball.com/fr/news/bollaert-delelis-rendra-hommage-a-quentin-supporter-lensois-decede-lors-du-semi-marathon-de-lille-43724425",
+        "time": "2026-11-04T12:58:27Z"
        },
        {
-        "title": "RC Lens - Yannick Cahuzac fait le point sur son effectif avant le match de LDC face au Como 1907",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-fait-le-point-sur-son-effectif-avant-le-match-de-ldc-face-au-como-1907-43719658",
-        "time": "2026-11-03T17:14:00Z"
+        "title": "[Youth League] Suivez RC Lens-Côme en direct : 2-1 (2MT)",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/youth-league-suivez-rc-lens-come-en-direct-2-1-2mt-43724065",
+        "time": "2026-11-04T12:00:10Z"
        }
       ],
       "scorer": {
@@ -10523,30 +10560,30 @@
      "A": {
       "absences": [
        {
-        "title": "OM – On en sait plus sur la blessure d’Emerson",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-on-en-sait-plus-sur-la-blessure-demerson-43719191",
-        "time": "2026-11-03T16:00:11Z"
+        "title": "Interview - Les chances de l'OM face au Bayer Leverkusen, les faiblesses allemandes, Facundo Medina... un spécialiste nous dit tout (exclu MadeIn)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/interview-les-chances-de-lom-face-au-bayer-leverkusen-les-faiblesses-allemandes-facundo-medina-un-specialiste-nous-dit-tout-exclu-madein-43724898",
+        "time": "2026-11-04T14:30:00Z"
        }
       ],
       "other": [
        {
-        "title": "L1 – Les affluences de la 9e journée, Marseille peine à convaincre",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/l1-les-affluences-de-la-9e-journee-marseille-peine-a-convaincre-43720637",
-        "time": "2026-11-03T20:00:01Z"
+        "title": "OM : Marseille prépare le coup parfait pour le mercato",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/om-marseille-prepare-le-coup-parfait-pour-le-mercato-43724314",
+        "time": "2026-11-04T12:30:32Z"
        },
        {
-        "title": "Mercato OM : Pierre-Émile Højbjerg toujours ciblé en Serie A",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/mercato-om-pierre-emile-hojbjerg-toujours-cible-en-serie-a-43720322",
-        "time": "2026-11-03T19:00:44Z"
+        "title": "L'OM peut souffler, un record très humiliant n'est plus que du passé",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lom-peut-souffler-un-record-tres-humiliant-nest-plus-que-du-passe-43722836",
+        "time": "2026-11-04T08:04:00Z"
        },
        {
-        "title": "Ex-OM : « À la maison, tout le monde supportait l’OM » explique Pape Gueye avant d’affronter le PSG",
+        "title": "OM – Vente du club, McCourt prépare t-il le terrain ?",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-a-la-maison-tout-le-monde-supportait-lom-explique-pape-gueye-avant-daffronter-le-psg-43719974",
-        "time": "2026-11-03T18:00:28Z"
+        "url": "https://onefootball.com/fr/news/om-vente-du-club-mccourt-prepare-t-il-le-terrain-43722406",
+        "time": "2026-11-04T06:00:26Z"
        }
       ],
       "scorer": {
@@ -10574,23 +10611,23 @@
      "kind": "beau",
      "stadium": "Stade Bollaert-Delelis",
      "roof": false,
-     "daysBefore": 5,
+     "daysBefore": 4,
      "temp": 6,
-     "desc": "couvert",
-     "code": 3,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
-     "rainMax": 2.4,
+     "rainMax": 0,
      "gust": 20,
-     "pRain": 0.04,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 70,
+     "confidence": 76,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-03T22:20+00:00",
+     "updated": "2026-11-04T14:37+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -10615,6 +10652,14 @@
        "pWind": 0.0,
        "temp": 6,
        "conf": 70
+      },
+      {
+       "day": "2026-11-04",
+       "daysBefore": 4,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 6,
+       "conf": 76
       }
      ]
     }
@@ -10716,12 +10761,12 @@
      "eurH",
      "eurA"
     ],
-    "at": "2026-11-03T23:14+00:00",
+    "at": "2026-11-04T14:39+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-03T23:14+00:00",
+    "dataAt": "2026-11-04T14:36+00:00",
     "changes": 2,
     "model": {
-     "version": "380c3ec",
+     "version": "243cca6",
      "mu": 0.225,
      "home": 0.244
     }
