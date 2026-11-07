@@ -7169,8 +7169,8 @@
    "id": 2688730,
    "competition": "Ligue 1",
    "kickoff": "2026-11-07T20:05:00Z",
-   "status": "Mi-temps",
-   "period": 5,
+   "status": "80'",
+   "period": 8,
    "home": "PSG",
    "away": "ESTAC Troyes",
    "homeLink": "/fr/equipe/psg-263",
@@ -7189,20 +7189,20 @@
    "reds": [],
    "stats": {
     "Possession": [
-     79,
-     21
+     75,
+     25
     ],
     "Tirs": [
-     10,
-     3
+     15,
+     7
     ],
     "Tirs cadrés": [
-     6,
-     1
+     7,
+     2
     ],
     "Duels gagnés": [
-     53,
-     47
+     50,
+     50
     ]
    },
    "starters": {
@@ -9392,7 +9392,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-07T20:54+00:00",
+ "fetchedAt": "2026-11-07T21:42+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
