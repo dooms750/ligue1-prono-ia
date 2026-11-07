@@ -6974,28 +6974,28 @@
    "stats": {},
    "starters": {
     "home": [
-     "Cameron Archer",
      "Danny Namaso",
+     "Cameron Archer",
      "Romain Faivre",
      "Fredrik Oppegard",
-     "Kévin Danois",
+     "Pierre Ekhah",
      "Naouirou Ahamada",
-     "Lamine Sy",
-     "Clément Akpa",
+     "Telli Siwe",
+     "Axel Tuanzebe",
      "Sinaly Diomande",
-     "Christ Makosso",
+     "Marvin Senaya",
      "Paul Nardi"
     ],
     "away": [
      "Lassine Sinayoko",
-     "Moses Simon",
+     "Rudy Matondo",
      "Pablo Pagis",
      "Ilan Kebbal",
      "Pierre Lees Melou",
      "Maxime Lopez",
+     "Moses Simon",
      "Otávio",
      "Diego Coppola",
-     "Mamadou Mbow",
      "Hamari Traoré",
      "Kevin Trapp"
     ]
@@ -9315,7 +9315,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-07T13:05+00:00",
+ "fetchedAt": "2026-11-07T17:59+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
