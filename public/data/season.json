@@ -3,14 +3,14 @@
   "mode": "onefootball",
   "season": "2026-27",
   "source": "OneFootball et la presse spécialisée",
-  "lastResult": "2026-11-06",
+  "lastResult": "2026-11-07",
   "lastMatchday": 10,
   "nextMatchday": 10,
-  "fetchedAt": "2026-11-07T17:59+00:00",
-  "generatedAt": "2026-11-07T17:59+00:00",
+  "fetchedAt": "2026-11-07T20:54+00:00",
+  "generatedAt": "2026-11-07T20:57+00:00",
   "checks": {
-   "compared": 82,
-   "agree": 82,
+   "compared": 83,
+   "agree": 83,
    "issues": [],
    "fixed": []
   },
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-07T13:05+00:00",
-    "lastAttempt": "2026-11-07T13:05+00:00",
+    "lastOk": "2026-11-07T20:54+00:00",
+    "lastAttempt": "2026-11-07T20:54+00:00",
     "error": null,
     "failures": 0,
-    "count": 132
+    "count": 133
    },
    {
     "id": "onefootball_quick",
@@ -39,18 +39,18 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-07T17:59+00:00",
-    "lastAttempt": "2026-11-07T17:59+00:00",
+    "lastOk": "2026-11-07T20:55+00:00",
+    "lastAttempt": "2026-11-07T20:55+00:00",
     "error": null,
     "failures": 0,
-    "count": 82
+    "count": 83
    },
    {
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-07T13:07+00:00",
-    "lastAttempt": "2026-11-07T13:07+00:00",
+    "lastOk": "2026-11-07T20:56+00:00",
+    "lastAttempt": "2026-11-07T20:56+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-07T13:07+00:00",
-    "lastAttempt": "2026-11-07T13:07+00:00",
+    "lastOk": "2026-11-07T20:56+00:00",
+    "lastAttempt": "2026-11-07T20:56+00:00",
     "error": null,
     "failures": 0,
     "count": 81
@@ -69,17 +69,17 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-07T13:07+00:00",
-    "lastAttempt": "2026-11-07T13:07+00:00",
+    "lastOk": "2026-11-07T20:56+00:00",
+    "lastAttempt": "2026-11-07T20:56+00:00",
     "error": null,
     "failures": 0,
-    "count": 1220
+    "count": 1221
    }
   ]
  },
  "model": {
-  "mu": 0.224,
-  "home": 0.249,
+  "mu": 0.219,
+  "home": 0.248,
   "levers": {
    "buteur": {
     "kept": false,
@@ -112,7 +112,7 @@
   "live": {
    "params": {
     "alpha": 0.0,
-    "gamma": 0.1871,
+    "gamma": 0.1874,
     "trail": 0.0,
     "lead": 0.0,
     "redOwn": -0.3285,
@@ -520,62 +520,62 @@
      }
     },
     "2627": {
-     "n": 82,
+     "n": 83,
      "models": {
       "ia": {
-       "brier": 0.5988,
-       "logloss": 1.0037,
-       "acc": 0.549
+       "brier": 0.5969,
+       "logloss": 1.001,
+       "acc": 0.554
       },
       "mk": {
-       "brier": 0.5692,
-       "logloss": 0.9608,
-       "acc": 0.561
+       "brier": 0.5663,
+       "logloss": 0.9567,
+       "acc": 0.566
       },
       "ref": {
-       "brier": 0.6345,
-       "logloss": 1.0523,
-       "acc": 0.488
+       "brier": 0.6355,
+       "logloss": 1.0533,
+       "acc": 0.482
       }
      },
      "diffMk_brier": [
-      0.0067,
-      0.0519
+      0.0074,
+      0.0526
      ],
      "diffRef_brier": [
-      -0.0642,
-      -0.006
+      -0.0675,
+      -0.0091
      ],
      "diffMk_logloss": [
-      0.0096,
-      0.0745
+      0.0106,
+      0.0752
      ],
      "diffRef_logloss": [
-      -0.0863,
-      -0.0083
+      -0.0922,
+      -0.0115
      ],
      "calib": {
       "ia": [
        {
         "lo": 0.2,
         "hi": 0.3,
-        "n": 116,
+        "n": 117,
         "pred": 0.248,
-        "obs": 0.241
+        "obs": 0.239
        },
        {
         "lo": 0.3,
         "hi": 0.4,
-        "n": 51,
-        "pred": 0.34,
-        "obs": 0.255
+        "n": 52,
+        "pred": 0.339,
+        "obs": 0.25
        },
        {
         "lo": 0.4,
         "hi": 0.5,
-        "n": 48,
+        "n": 49,
         "pred": 0.446,
-        "obs": 0.542
+        "obs": 0.551
        },
        {
         "lo": 0.5,
@@ -596,9 +596,9 @@
        {
         "lo": 0.2,
         "hi": 0.3,
-        "n": 101,
+        "n": 103,
         "pred": 0.256,
-        "obs": 0.257
+        "obs": 0.252
        },
        {
         "lo": 0.3,
@@ -617,9 +617,9 @@
        {
         "lo": 0.5,
         "hi": 0.6,
-        "n": 16,
+        "n": 17,
         "pred": 0.541,
-        "obs": 0.5
+        "obs": 0.529
        },
        {
         "lo": 0.6,
@@ -633,39 +633,39 @@
     }
    },
    "all": {
-    "n": 694,
+    "n": 695,
     "models": {
      "ia": {
-      "brier": 0.5903,
-      "logloss": 0.9902,
-      "acc": 0.527
+      "brier": 0.5901,
+      "logloss": 0.9899,
+      "acc": 0.528
      },
      "mk": {
-      "brier": 0.573,
-      "logloss": 0.9652,
-      "acc": 0.543
+      "brier": 0.5727,
+      "logloss": 0.9647,
+      "acc": 0.544
      },
      "ref": {
-      "brier": 0.6401,
-      "logloss": 1.0591,
-      "acc": 0.467
+      "brier": 0.6402,
+      "logloss": 1.0592,
+      "acc": 0.466
      }
     },
     "diffMk_brier": [
-     0.0096,
+     0.0097,
      0.0247
     ],
     "diffRef_brier": [
-     -0.0627,
-     -0.0372
+     -0.0631,
+     -0.0379
     ],
     "diffMk_logloss": [
-     0.0138,
-     0.0358
+     0.0139,
+     0.036
     ],
     "diffRef_logloss": [
-     -0.0867,
-     -0.0515
+     -0.0874,
+     -0.0526
     ],
     "calib": {
      "ia": [
@@ -686,23 +686,23 @@
       {
        "lo": 0.2,
        "hi": 0.3,
-       "n": 910,
+       "n": 911,
        "pred": 0.246,
        "obs": 0.231
       },
       {
        "lo": 0.3,
        "hi": 0.4,
-       "n": 372,
+       "n": 373,
        "pred": 0.347,
-       "obs": 0.333
+       "obs": 0.332
       },
       {
        "lo": 0.4,
        "hi": 0.5,
-       "n": 298,
+       "n": 299,
        "pred": 0.444,
-       "obs": 0.49
+       "obs": 0.492
       },
       {
        "lo": 0.5,
@@ -744,9 +744,9 @@
       {
        "lo": 0.2,
        "hi": 0.3,
-       "n": 850,
+       "n": 852,
        "pred": 0.255,
-       "obs": 0.251
+       "obs": 0.25
       },
       {
        "lo": 0.3,
@@ -765,9 +765,9 @@
       {
        "lo": 0.5,
        "hi": 0.6,
-       "n": 174,
+       "n": 175,
        "pred": 0.546,
-       "obs": 0.58
+       "obs": 0.583
       },
       {
        "lo": 0.6,
@@ -789,12 +789,12 @@
    "current": "2627",
    "notInCommon": 0
   },
-  "linked": 1000,
-  "generatedAt": "2026-11-07T13:08+00:00",
+  "linked": 1001,
+  "generatedAt": "2026-11-07T20:56+00:00",
   "levers": {
    "buteur": {
     "n": 332,
-    "nKnown": 700,
+    "nKnown": 701,
     "nTest": 317,
     "own": 1.009,
     "other": 1.0,
@@ -819,7 +819,7 @@
    },
    "coupe": {
     "n": 222,
-    "nKnown": 1000,
+    "nKnown": 1001,
     "nTest": 207,
     "own": 1.068,
     "other": 0.945,
@@ -844,7 +844,7 @@
    },
    "meteo": {
     "n": 109,
-    "nKnown": 994,
+    "nKnown": 998,
     "nTest": 94,
     "own": 0.989,
     "other": 0.989,
@@ -871,7 +871,7 @@
   "live": {
    "params": {
     "alpha": 0.0,
-    "gamma": 0.1871,
+    "gamma": 0.1874,
     "trail": 0.0,
     "lead": 0.0,
     "redOwn": -0.3285,
@@ -880,12 +880,12 @@
    },
    "fitted": {
     "alpha": 0.0,
-    "gamma": 0.1779,
-    "trail": 0.0494,
-    "lead": -0.0104,
-    "redOwn": -0.438,
-    "redOpp": 0.4419,
-    "sot": 0.1113
+    "gamma": 0.1786,
+    "trail": 0.0491,
+    "lead": -0.0113,
+    "redOwn": -0.4374,
+    "redOpp": 0.4422,
+    "sot": 0.1128
    },
    "used": "mesuré",
    "blocks": {
@@ -895,7 +895,7 @@
     },
     "rythme": {
      "kept": true,
-     "gain": 0.0136
+     "gain": 0.0137
     },
     "score": {
      "kept": false,
@@ -913,7 +913,7 @@
     {
      "block": "rythme",
      "with": [],
-     "gain": 0.0136
+     "gain": 0.0137
     },
     {
      "block": "cartons",
@@ -935,25 +935,25 @@
      "with": [
       "rythme"
      ],
-     "gain": 0.0108
+     "gain": 0.0109
     },
     {
      "block": "cartons",
      "with": [
       "rythme"
      ],
-     "gain": 0.0107
+     "gain": 0.0108
     },
     {
      "block": "tirs",
      "with": [
       "rythme"
      ],
-     "gain": 0.0017
+     "gain": 0.0018
     }
    ],
-   "n": 1000,
-   "nShots": 998,
+   "n": 1001,
+   "nShots": 999,
    "nReds": 244,
    "tested": [
     "2425",
@@ -963,23 +963,23 @@
    "table": [
     {
      "min": 15,
-     "n": 694,
+     "n": 695,
      "old": {
-      "logloss": 0.9457,
-      "brier": 0.5596
+      "logloss": 0.9455,
+      "brier": 0.5595
      },
      "new": {
-      "logloss": 0.9451,
-      "brier": 0.5592
+      "logloss": 0.9449,
+      "brier": 0.5591
      },
      "gainCi": [
-      0.0,
+      0.0001,
       0.001
      ]
     },
     {
      "min": 30,
-     "n": 694,
+     "n": 695,
      "old": {
       "logloss": 0.8766,
       "brier": 0.515
@@ -995,30 +995,30 @@
     },
     {
      "min": 45,
-     "n": 694,
+     "n": 695,
      "old": {
-      "logloss": 0.7825,
-      "brier": 0.4552
+      "logloss": 0.7828,
+      "brier": 0.4554
      },
      "new": {
-      "logloss": 0.7809,
-      "brier": 0.4544
+      "logloss": 0.7812,
+      "brier": 0.4545
      },
      "gainCi": [
-      -0.0001,
-      0.0033
+      0.0,
+      0.0034
      ]
     },
     {
      "min": 60,
-     "n": 694,
+     "n": 695,
      "old": {
-      "logloss": 0.7099,
-      "brier": 0.4043
+      "logloss": 0.7106,
+      "brier": 0.4048
      },
      "new": {
-      "logloss": 0.7063,
-      "brier": 0.4031
+      "logloss": 0.7068,
+      "brier": 0.4035
      },
      "gainCi": [
       0.0012,
@@ -1027,34 +1027,34 @@
     },
     {
      "min": 75,
-     "n": 694,
+     "n": 695,
      "old": {
-      "logloss": 0.5528,
-      "brier": 0.3166
+      "logloss": 0.5523,
+      "brier": 0.3163
      },
      "new": {
-      "logloss": 0.5493,
-      "brier": 0.3148
+      "logloss": 0.5488,
+      "brier": 0.3144
      },
      "gainCi": [
-      0.0009,
-      0.0063
+      0.0008,
+      0.0062
      ]
     },
     {
      "min": 85,
-     "n": 694,
+     "n": 695,
      "old": {
-      "logloss": 0.395,
-      "brier": 0.2173
+      "logloss": 0.3946,
+      "brier": 0.217
      },
      "new": {
-      "logloss": 0.3918,
-      "brier": 0.216
+      "logloss": 0.3915,
+      "brier": 0.2157
      },
      "gainCi": [
-      0.0007,
-      0.0058
+      0.0006,
+      0.0057
      ]
     }
    ],
@@ -1158,8 +1158,8 @@
    "name": "Paris Saint-Germain",
    "short": "PSG",
    "color": "#1B3A8C",
-   "att": 0.404,
-   "def": -0.225,
+   "att": 0.406,
+   "def": -0.223,
    "played": 9,
    "w": 6,
    "d": 2,
@@ -1238,7 +1238,7 @@
     },
     {
      "md": 10,
-     "index": 187.4,
+     "index": 187.5,
      "pts": 20,
      "rank": 1
     }
@@ -1248,8 +1248,8 @@
    "name": "Monaco",
    "short": "MON",
    "color": "#D62828",
-   "att": 0.064,
-   "def": -0.059,
+   "att": 0.069,
+   "def": -0.055,
    "played": 9,
    "w": 4,
    "d": 3,
@@ -1328,7 +1328,7 @@
     },
     {
      "md": 10,
-     "index": 113.1,
+     "index": 113.2,
      "pts": 15,
      "rank": 7
     }
@@ -1338,8 +1338,8 @@
    "name": "Marseille",
    "short": "OM",
    "color": "#2A9FD6",
-   "att": 0.167,
-   "def": 0.031,
+   "att": 0.172,
+   "def": 0.035,
    "played": 9,
    "w": 5,
    "d": 0,
@@ -1418,7 +1418,7 @@
     },
     {
      "md": 10,
-     "index": 114.6,
+     "index": 114.7,
      "pts": 15,
      "rank": 6
     }
@@ -1428,8 +1428,8 @@
    "name": "Lyon",
    "short": "OL",
    "color": "#C8102E",
-   "att": 0.043,
-   "def": -0.177,
+   "att": 0.048,
+   "def": -0.172,
    "played": 9,
    "w": 5,
    "d": 2,
@@ -1444,7 +1444,7 @@
     "D",
     "V"
    ],
-   "rank": 3,
+   "rank": 4,
    "history": [
     {
      "md": 0,
@@ -1510,7 +1510,7 @@
      "md": 10,
      "index": 124.6,
      "pts": 17,
-     "rank": 3
+     "rank": 4
     }
    ]
   },
@@ -1518,8 +1518,8 @@
    "name": "Lille",
    "short": "LIL",
    "color": "#B5121B",
-   "att": -0.035,
-   "def": -0.304,
+   "att": -0.033,
+   "def": -0.302,
    "played": 9,
    "w": 5,
    "d": 3,
@@ -1534,7 +1534,7 @@
     "N",
     "V"
    ],
-   "rank": 2,
+   "rank": 3,
    "history": [
     {
      "md": 0,
@@ -1600,7 +1600,7 @@
      "md": 10,
      "index": 130.9,
      "pts": 18,
-     "rank": 2
+     "rank": 3
     }
    ]
   },
@@ -1608,8 +1608,8 @@
    "name": "Lens",
    "short": "LEN",
    "color": "#E8A317",
-   "att": 0.191,
-   "def": -0.046,
+   "att": 0.198,
+   "def": -0.041,
    "played": 9,
    "w": 4,
    "d": 1,
@@ -1688,7 +1688,7 @@
     },
     {
      "md": 10,
-     "index": 126.7,
+     "index": 126.9,
      "pts": 13,
      "rank": 9
     }
@@ -1698,8 +1698,8 @@
    "name": "Rennes",
    "short": "REN",
    "color": "#A3161B",
-   "att": 0.266,
-   "def": 0.183,
+   "att": 0.273,
+   "def": 0.189,
    "played": 9,
    "w": 5,
    "d": 1,
@@ -1788,8 +1788,8 @@
    "name": "Nice",
    "short": "NIC",
    "color": "#B01E23",
-   "att": -0.065,
-   "def": 0.029,
+   "att": -0.06,
+   "def": 0.035,
    "played": 9,
    "w": 4,
    "d": 2,
@@ -1868,7 +1868,7 @@
     },
     {
      "md": 10,
-     "index": 91.0,
+     "index": 90.9,
      "pts": 14,
      "rank": 8
     }
@@ -1878,8 +1878,8 @@
    "name": "Strasbourg",
    "short": "STR",
    "color": "#1C5DA8",
-   "att": 0.151,
-   "def": 0.133,
+   "att": 0.157,
+   "def": 0.139,
    "played": 10,
    "w": 3,
    "d": 1,
@@ -1958,7 +1958,7 @@
     },
     {
      "md": 10,
-     "index": 101.8,
+     "index": 101.9,
      "pts": 10,
      "rank": 13
     }
@@ -1968,8 +1968,8 @@
    "name": "Brest",
    "short": "BRE",
    "color": "#D7263D",
-   "att": 0.075,
-   "def": -0.032,
+   "att": 0.079,
+   "def": -0.027,
    "played": 9,
    "w": 3,
    "d": 3,
@@ -2048,7 +2048,7 @@
     },
     {
      "md": 10,
-     "index": 111.4,
+     "index": 111.2,
      "pts": 12,
      "rank": 11
     }
@@ -2058,8 +2058,8 @@
    "name": "Toulouse",
    "short": "TOU",
    "color": "#5B2C83",
-   "att": 0.016,
-   "def": -0.07,
+   "att": 0.018,
+   "def": -0.069,
    "played": 10,
    "w": 3,
    "d": 4,
@@ -2148,23 +2148,23 @@
    "name": "Paris FC",
    "short": "PFC",
    "color": "#1D2A4D",
-   "att": 0.101,
-   "def": -0.153,
-   "played": 9,
-   "w": 5,
+   "att": 0.076,
+   "def": -0.202,
+   "played": 10,
+   "w": 6,
    "d": 2,
    "l": 2,
-   "gf": 16,
+   "gf": 17,
    "ga": 10,
-   "pts": 17,
+   "pts": 20,
    "form": [
-    "V",
     "D",
     "V",
     "D",
+    "V",
     "V"
    ],
-   "rank": 4,
+   "rank": 2,
    "history": [
     {
      "md": 0,
@@ -2228,9 +2228,9 @@
     },
     {
      "md": 10,
-     "index": 129.0,
-     "pts": 17,
-     "rank": 4
+     "index": 132.1,
+     "pts": 20,
+     "rank": 2
     }
    ]
   },
@@ -2238,8 +2238,8 @@
    "name": "Lorient",
    "short": "LOR",
    "color": "#F07F1A",
-   "att": -0.23,
-   "def": -0.134,
+   "att": -0.226,
+   "def": -0.13,
    "played": 9,
    "w": 3,
    "d": 3,
@@ -2318,7 +2318,7 @@
     },
     {
      "md": 10,
-     "index": 90.8,
+     "index": 90.9,
      "pts": 12,
      "rank": 12
     }
@@ -2328,8 +2328,8 @@
    "name": "Angers",
    "short": "ANG",
    "color": "#2B2B2B",
-   "att": -0.279,
-   "def": 0.145,
+   "att": -0.276,
+   "def": 0.149,
    "played": 9,
    "w": 2,
    "d": 2,
@@ -2408,7 +2408,7 @@
     },
     {
      "md": 10,
-     "index": 65.5,
+     "index": 65.4,
      "pts": 8,
      "rank": 15
     }
@@ -2418,20 +2418,20 @@
    "name": "Auxerre",
    "short": "AUX",
    "color": "#2563A6",
-   "att": -0.048,
-   "def": 0.174,
-   "played": 9,
+   "att": -0.093,
+   "def": 0.15,
+   "played": 10,
    "w": 3,
    "d": 1,
-   "l": 5,
+   "l": 6,
    "gf": 13,
-   "ga": 23,
+   "ga": 24,
    "pts": 10,
    "form": [
-    "V",
     "D",
     "V",
     "N",
+    "D",
     "D"
    ],
    "rank": 14,
@@ -2498,7 +2498,7 @@
     },
     {
      "md": 10,
-     "index": 80.2,
+     "index": 78.4,
      "pts": 10,
      "rank": 14
     }
@@ -2508,8 +2508,8 @@
    "name": "Le Havre",
    "short": "HAV",
    "color": "#3F7CC0",
-   "att": -0.105,
-   "def": 0.155,
+   "att": -0.1,
+   "def": 0.16,
    "played": 9,
    "w": 0,
    "d": 2,
@@ -2598,8 +2598,8 @@
    "name": "Le Mans",
    "short": "LMA",
    "color": "#C8102E",
-   "att": -0.133,
-   "def": 0.142,
+   "att": -0.13,
+   "def": 0.147,
    "played": 9,
    "w": 1,
    "d": 4,
@@ -2678,7 +2678,7 @@
     },
     {
      "md": 10,
-     "index": 76.0,
+     "index": 75.8,
      "pts": 7,
      "rank": 17
     }
@@ -2688,8 +2688,8 @@
    "name": "Troyes",
    "short": "TRO",
    "color": "#1F5FA8",
-   "att": -0.247,
-   "def": 0.045,
+   "att": -0.243,
+   "def": 0.048,
    "played": 9,
    "w": 2,
    "d": 2,
@@ -8741,6 +8741,67 @@
   },
   {
    "md": 10,
+   "date": "2026-11-07",
+   "time": "19:00",
+   "home": "AUX",
+   "away": "PFC",
+   "odds": [
+    4.2,
+    3.87,
+    1.75
+   ],
+   "src": "https://onefootball.com/fr/match/2688726",
+   "hg": 0,
+   "ag": 1,
+   "htH": 0,
+   "htA": 0,
+   "sotH": 2,
+   "sotA": 3,
+   "xgH": 0.62,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     63
+    ]
+   ],
+   "htSource": "espn",
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Lassine Sinayoko",
+     "kind": "but",
+     "min": 63,
+     "half": 2
+    }
+   ],
+   "pred": {
+    "lh": 1.304,
+    "la": 1.66,
+    "p": [
+     0.301,
+     0.24,
+     0.458
+    ],
+    "over25": 0.569,
+    "btts": 0.59
+   },
+   "published": {
+    "p": [
+     0.306,
+     0.241,
+     0.453
+    ],
+    "at": "2026-11-07T17:59+00:00",
+    "levers": [],
+    "lh": 1.313,
+    "la": 1.647
+   }
+  },
+  {
+   "md": 10,
    "date": "2026-11-06",
    "time": "20:45",
    "home": "TOU",
@@ -8838,285 +8899,6 @@
   {
    "md": 10,
    "date": "2026-11-07",
-   "time": "19:00",
-   "home": "AUX",
-   "away": "PFC",
-   "odds": [
-    4.2,
-    3.87,
-    1.75
-   ],
-   "src": "https://onefootball.com/fr/match/2688726",
-   "ctx": {
-    "known": true,
-    "absH": [],
-    "absA": [],
-    "europeH": false,
-    "europeA": false,
-    "weather": "beau",
-    "press": {
-     "H": {
-      "absences": [],
-      "other": [
-       {
-        "title": "AJ Auxerre – Paris FC : l’AJA en difficulté défensive face au Paris FC de Sinayoko, compositions probables, chaîne TV et heure",
-        "publisher": "BeFootball",
-        "url": "https://onefootball.com/fr/news/aj-auxerre-paris-fc-laja-en-difficulte-defensive-face-au-paris-fc-de-sinayoko-compositions-probables-chaine-tv-et-heure-43740243",
-        "time": "2026-11-07T11:20:00Z"
-       },
-       {
-        "title": "Ligue 1 - AJ Auxerre - Paris FC : les compos probables",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-paris-fc-les-compos-probables-43739346",
-        "time": "2026-11-07T07:45:00Z"
-       },
-       {
-        "title": "Auxerre-Paris FC : chaîne TV, streaming… À quelle heure et où suivre cette opposition comptant pour la 10ème journée de Ligue 1 ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/auxerre-paris-fc-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-cette-opposition-comptant-pour-la-10eme-journee-de-ligue-1-43738984",
-        "time": "2026-11-07T05:00:00Z"
-       }
-      ],
-      "scorer": {
-       "name": "Cameron Archer",
-       "goals": 6
-      },
-      "scorerOut": null
-     },
-     "A": {
-      "absences": [],
-      "other": [
-       {
-        "title": "AJ Auxerre – Paris FC : l’AJA en difficulté défensive face au Paris FC de Sinayoko, compositions probables, chaîne TV et heure",
-        "publisher": "BeFootball",
-        "url": "https://onefootball.com/fr/news/aj-auxerre-paris-fc-laja-en-difficulte-defensive-face-au-paris-fc-de-sinayoko-compositions-probables-chaine-tv-et-heure-43740243",
-        "time": "2026-11-07T11:20:00Z"
-       },
-       {
-        "title": "Paris FC : quand Pablo Pagis apprend sa convocation chez les Bleus dans le bus direction Auxerre",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/paris-fc-quand-pablo-pagis-apprend-sa-convocation-chez-les-bleus-dans-le-bus-direction-auxerre-43739751",
-        "time": "2026-11-07T09:27:00Z"
-       },
-       {
-        "title": "Équipe de France : la réaction géniale de Pablo Pagis à l'annonce de sa première convocation",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/equipe-de-france-la-reaction-geniale-de-pablo-pagis-a-lannonce-de-sa-premiere-convocation-43738404",
-        "time": "2026-11-06T21:59:00Z"
-       }
-      ],
-      "scorer": {
-       "name": "Lassine Sinayoko",
-       "goals": 8
-      },
-      "scorerOut": null
-     }
-    },
-    "meteo": {
-     "kind": "beau",
-     "stadium": "Stade de l'Abbé-Deschamps",
-     "roof": false,
-     "daysBefore": 0,
-     "temp": 9,
-     "desc": "couvert",
-     "code": 3,
-     "rain": 0,
-     "rainMax": 0,
-     "gust": 6,
-     "pRain": 0.0,
-     "pWind": 0.0,
-     "members": 51,
-     "confidence": 97,
-     "confidenceLabel": "forte",
-     "sources": [
-      "ECMWF (51 scénarios)",
-      "Météo-France"
-     ],
-     "updated": "2026-11-07T13:07+00:00",
-     "history": [
-      {
-       "day": "2026-10-31",
-       "daysBefore": 7,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 9,
-       "conf": 58
-      },
-      {
-       "day": "2026-11-01",
-       "daysBefore": 6,
-       "pRain": 0.06,
-       "pWind": 0.0,
-       "temp": 10,
-       "conf": 62
-      },
-      {
-       "day": "2026-11-02",
-       "daysBefore": 5,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 10,
-       "conf": 70
-      },
-      {
-       "day": "2026-11-03",
-       "daysBefore": 4,
-       "pRain": 0.02,
-       "pWind": 0.0,
-       "temp": 10,
-       "conf": 79
-      },
-      {
-       "day": "2026-11-04",
-       "daysBefore": 3,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 7,
-       "conf": 85
-      },
-      {
-       "day": "2026-11-05",
-       "daysBefore": 2,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 7,
-       "conf": 92
-      },
-      {
-       "day": "2026-11-06",
-       "daysBefore": 1,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 7,
-       "conf": 97
-      },
-      {
-       "day": "2026-11-07",
-       "daysBefore": 0,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 8,
-       "conf": 97
-      }
-     ]
-    }
-   },
-   "lh": 1.313,
-   "la": 1.647,
-   "trend": [
-    {
-     "md": 0,
-     "p": [
-      0.395,
-      0.267,
-      0.338
-     ]
-    },
-    {
-     "md": 1,
-     "p": [
-      0.369,
-      0.264,
-      0.367
-     ]
-    },
-    {
-     "md": 2,
-     "p": [
-      0.328,
-      0.255,
-      0.417
-     ]
-    },
-    {
-     "md": 3,
-     "p": [
-      0.292,
-      0.241,
-      0.468
-     ]
-    },
-    {
-     "md": 4,
-     "p": [
-      0.302,
-      0.251,
-      0.447
-     ]
-    },
-    {
-     "md": 5,
-     "p": [
-      0.318,
-      0.258,
-      0.424
-     ]
-    },
-    {
-     "md": 6,
-     "p": [
-      0.324,
-      0.257,
-      0.419
-     ]
-    },
-    {
-     "md": 7,
-     "p": [
-      0.331,
-      0.242,
-      0.426
-     ]
-    },
-    {
-     "md": 8,
-     "p": [
-      0.343,
-      0.25,
-      0.407
-     ]
-    },
-    {
-     "md": 9,
-     "p": [
-      0.301,
-      0.24,
-      0.458
-     ]
-    },
-    {
-     "md": 10,
-     "p": [
-      0.306,
-      0.241,
-      0.453
-     ]
-    }
-   ],
-   "published": {
-    "lh": 1.313,
-    "la": 1.647,
-    "p": [
-     0.306,
-     0.241,
-     0.453
-    ],
-    "over25": 0.568,
-    "levers": [],
-    "at": "2026-11-07T17:59+00:00",
-    "firstAt": "2026-10-29T08:44+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
-    "changes": 3,
-    "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
-    }
-   }
-  },
-  {
-   "md": 10,
-   "date": "2026-11-07",
    "time": "21:05",
    "home": "PSG",
    "away": "TRO",
@@ -9135,32 +8917,25 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "PSG - Cinq absences importantes et une surprise dans le groupe de Luis Enrique contre Troyes",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-cinq-absences-importantes-et-une-surprise-dans-le-groupe-de-luis-enrique-contre-troyes-43740001",
-        "time": "2026-11-07T10:33:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "PSG – Troyes : un Paris remanié face au promu, compositions probables, chaîne TV et heure",
-        "publisher": "BeFootball",
-        "url": "https://onefootball.com/fr/news/psg-troyes-un-paris-remanie-face-au-promu-compositions-probables-chaine-tv-et-heure-43740388",
-        "time": "2026-11-07T12:05:00Z"
+        "title": "Souleymane Diawara : « Marquinhos, pour moi, c’est vraiment l’image du PSG »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/souleymane-diawara-marquinhos-pour-moi-cest-vraiment-limage-du-psg-43742800",
+        "time": "2026-11-07T19:30:36Z"
        },
        {
-        "title": "PSG : le groupe pour la réception de Troyes avec une grande première",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-le-groupe-pour-la-reception-de-troyes-avec-une-grande-premiere-43740000",
-        "time": "2026-11-07T10:30:00Z"
-       },
-       {
-        "title": "Top 5 des raisons de regarder PSG/Troyes",
+        "title": "PSG/Troyes – Les équipes officielles : Doué et Godts titulaires",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/top-5-des-raisons-de-regarder-psgtroyes-43739523",
-        "time": "2026-11-07T08:30:59Z"
+        "url": "https://onefootball.com/fr/news/psgtroyes-les-equipes-officielles-doue-et-godts-titulaires-43742663",
+        "time": "2026-11-07T19:15:44Z"
+       },
+       {
+        "title": "PSG - Troyes : les compositions officielles, rotation pour Luis Enrique",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-troyes-les-compositions-officielles-rotation-pour-luis-enrique-43742639",
+        "time": "2026-11-07T19:12:00Z"
        }
       ],
       "scorer": {
@@ -9190,13 +8965,13 @@
      "kind": "beau",
      "stadium": "Parc des Princes",
      "roof": false,
-     "daysBefore": 1,
-     "temp": 10,
+     "daysBefore": 0,
+     "temp": 8,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 12,
+     "gust": 13,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
@@ -9206,7 +8981,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-06T22:09+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-10-31",
@@ -9263,11 +9038,19 @@
        "pWind": 0.0,
        "temp": 7,
        "conf": 98
+      },
+      {
+       "day": "2026-11-07",
+       "daysBefore": 0,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 8,
+       "conf": 98
       }
      ]
     }
    },
-   "lh": 2.515,
+   "lh": 2.51,
    "la": 0.781,
    "trend": [
     {
@@ -9353,7 +9136,7 @@
     {
      "md": 10,
      "p": [
-      0.751,
+      0.75,
       0.155,
       0.095
      ]
@@ -9367,7 +9150,6 @@
      0.137,
      0.078
     ],
-    "over25": 0.664,
     "levers": [
      "eurH"
     ],
@@ -9379,7 +9161,8 @@
      "version": "9dfbe88",
      "mu": 0.224,
      "home": 0.249
-    }
+    },
+    "frozen": true
    }
   },
   {
@@ -9416,22 +9199,22 @@
       ],
       "other": [
        {
+        "title": "Mercato Rennes - Un géant de Premier League pourrait bouleverser l'avenir de Mahamadou Nagida",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-rennes-un-geant-de-premier-league-pourrait-bouleverser-lavenir-de-mahamadou-nagida-43741182",
+        "time": "2026-11-07T14:27:00Z"
+       },
+       {
+        "title": "Sebastian Szymański : « Je sais que je peux faire basculer un match »",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/sebastian-szymanski-je-sais-que-je-peux-faire-basculer-un-match-43741054",
+        "time": "2026-11-07T14:00:18Z"
+       },
+       {
         "title": "Gonçalo Oliveira a marqué des points auprès de Franck Haise",
         "publisher": "Stade Rennais Online",
         "url": "https://onefootball.com/fr/news/goncalo-oliveira-a-marque-des-points-aupres-de-franck-haise-43739810",
         "time": "2026-11-07T09:45:08Z"
-       },
-       {
-        "title": "Stade Rennais : Les raisons qui expliquent la baisse de performance de Thomasson",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-les-raisons-qui-expliquent-la-baisse-de-performance-de-thomasson-43739611",
-        "time": "2026-11-07T09:00:32Z"
-       },
-       {
-        "title": "Stade rennais - Lille : Franck Haise veut conserver la solidité défensive sans renoncer à l’ambition offensive",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-lille-franck-haise-veut-conserver-la-solidite-defensive-sans-renoncer-a-lambition-offensive-43738312",
-        "time": "2026-11-06T21:35:14Z"
        }
       ],
       "scorer": {
@@ -9449,6 +9232,12 @@
      "A": {
       "absences": [
        {
+        "title": "LOSC - Trois absences importantes et une bonne nouvelle avant le choc contre le Stade Rennais",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/losc-trois-absences-importantes-et-une-bonne-nouvelle-avant-le-choc-contre-le-stade-rennais-43740933",
+        "time": "2026-11-07T13:32:00Z"
+       },
+       {
         "title": "Lille : Olivier Létang écope de six mois de suspension après son coup de sang contre l'arbitrage",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/lille-olivier-letang-ecope-de-six-mois-de-suspension-apres-son-coup-de-sang-contre-larbitrage-43732083",
@@ -9463,22 +9252,22 @@
       ],
       "other": [
        {
-        "title": "Leny Yoro (ex-LOSC) rappelé : La deuxième liste de Zinedine Zidane en équipe de France",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/leny-yoro-ex-losc-rappele-la-deuxieme-liste-de-zinedine-zidane-en-equipe-de-france-43737134",
-        "time": "2026-11-06T17:15:10Z"
+        "title": "Lille annonce officiellement les prolongations d'Igamane et Kouassi",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lille-annonce-officiellement-les-prolongations-digamane-et-kouassi-43742953",
+        "time": "2026-11-07T20:11:00Z"
        },
        {
-        "title": "LOSC - Le LOSC dénonce une sanction injuste contre Olivier Létang et charge la FFF",
+        "title": "Mercato LOSC - Lille annonce les prolongations de contrat de deux joueurs coup sur coup ! (officiel)",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/losc-le-losc-denonce-une-sanction-injuste-contre-olivier-letang-et-charge-la-fff-43732490",
-        "time": "2026-11-05T19:43:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-losc-lille-annonce-les-prolongations-de-contrat-de-deux-joueurs-coup-sur-coup-officiel-43742644",
+        "time": "2026-11-07T19:12:00Z"
        },
        {
-        "title": "LOSC - Olivier Létang écope d'une très lourde sanction après ses critiques sur l'arbitrage face au PSG",
+        "title": "LOSC - Davide Ancelotti juge les progrès du Lille OSC depuis sa prise de fonction",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/losc-olivier-letang-ecope-dune-tres-lourde-sanction-apres-ses-critiques-sur-larbitrage-face-au-psg-43732066",
-        "time": "2026-11-05T18:15:00Z"
+        "url": "https://onefootball.com/fr/news/losc-davide-ancelotti-juge-les-progres-du-lille-osc-depuis-sa-prise-de-fonction-43742215",
+        "time": "2026-11-07T17:39:00Z"
        }
       ],
       "scorer": {
@@ -9500,7 +9289,7 @@
      "stadium": "Roazhon Park",
      "roof": false,
      "daysBefore": 1,
-     "temp": 11,
+     "temp": 10,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -9509,13 +9298,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 97,
+     "confidence": 98,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-07T13:07+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -9571,13 +9360,13 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 12,
-       "conf": 97
+       "conf": 98
       }
      ]
     }
    },
-   "lh": 1.545,
-   "la": 1.45,
+   "lh": 1.549,
+   "la": 1.456,
    "trend": [
     {
      "md": 0,
@@ -9663,31 +9452,31 @@
      "md": 10,
      "p": [
       0.399,
-      0.243,
+      0.242,
       0.358
      ]
     }
    ],
    "published": {
-    "lh": 1.65,
-    "la": 1.37,
+    "lh": 1.654,
+    "la": 1.376,
     "p": [
      0.441,
-     0.24,
-     0.319
+     0.239,
+     0.32
     ],
-    "over25": 0.581,
+    "over25": 0.584,
     "levers": [
      "eurH"
     ],
-    "at": "2026-11-07T17:59+00:00",
+    "at": "2026-11-07T20:57+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
+    "dataAt": "2026-11-07T20:54+00:00",
     "changes": 3,
     "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
+     "version": "205a4a3",
+     "mu": 0.219,
+     "home": 0.248
     }
    }
   },
@@ -9731,6 +9520,12 @@
       "absences": [],
       "other": [
        {
+        "title": "OGC Nice - Endeuillé après la mort de son père, Olivier Pantaloni sera bien sur le banc niçois face à Angers SCO",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ogc-nice-endeuille-apres-la-mort-de-son-pere-olivier-pantaloni-sera-bien-sur-le-banc-nicois-face-a-angers-sco-43742443",
+        "time": "2026-11-07T18:30:00Z"
+       },
+       {
         "title": "OGC Nice - Jonathan Clauss sort les griffes dans un communiqué après une interview polémique sur sa vie de couple",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ogc-nice-jonathan-clauss-sort-les-griffes-dans-un-communique-apres-une-interview-polemique-sur-sa-vie-de-couple-43734237",
@@ -9741,12 +9536,6 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/ancien-gardien-de-but-de-logc-nice-david-ospina-raccroche-les-gants-43730489",
         "time": "2026-11-05T13:54:00Z"
-       },
-       {
-        "title": "Nice : Olivier Pantaloni endeuillé par le décès de son père, ses joueurs lui rendront hommage à Angers",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/nice-olivier-pantaloni-endeuille-par-le-deces-de-son-pere-ses-joueurs-lui-rendront-hommage-a-angers-43728189",
-        "time": "2026-11-05T06:18:00Z"
        }
       ],
       "scorer": {
@@ -9761,7 +9550,7 @@
      "stadium": "Stade Raymond-Kopa",
      "roof": false,
      "daysBefore": 1,
-     "temp": 11,
+     "temp": 10,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -9770,13 +9559,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 97,
+     "confidence": 98,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-07T13:07+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -9831,14 +9620,14 @@
        "daysBefore": 1,
        "pRain": 0.0,
        "pWind": 0.0,
-       "temp": 12,
-       "conf": 97
+       "temp": 11,
+       "conf": 98
       }
      ]
     }
    },
-   "lh": 1.251,
-   "la": 1.355,
+   "lh": 1.254,
+   "la": 1.361,
    "trend": [
     {
      "md": 0,
@@ -9925,28 +9714,28 @@
      "p": [
       0.344,
       0.263,
-      0.393
+      0.394
      ]
     }
    ],
    "published": {
-    "lh": 1.251,
-    "la": 1.355,
+    "lh": 1.254,
+    "la": 1.361,
     "p": [
      0.344,
      0.263,
-     0.393
+     0.394
     ],
-    "over25": 0.483,
+    "over25": 0.485,
     "levers": [],
-    "at": "2026-11-07T17:59+00:00",
+    "at": "2026-11-07T20:57+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
+    "dataAt": "2026-11-07T20:54+00:00",
     "changes": 2,
     "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
+     "version": "205a4a3",
+     "mu": 0.219,
+     "home": 0.248
     }
    }
   },
@@ -9965,9 +9754,7 @@
    "ctx": {
     "known": true,
     "absH": [],
-    "absA": [
-     "buteur"
-    ],
+    "absA": [],
     "europeH": false,
     "europeA": true,
     "weather": "beau",
@@ -9979,15 +9766,15 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-annonce-deux-forfaits-importants-avant-daffronter-lol-43739596",
         "time": "2026-11-07T08:55:00Z"
-       },
-       {
-        "title": "Ligue 1 : Brest remporte le derby face à Lorient et réalise une belle opération au classement !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/ligue-1-brest-remporte-le-derby-face-a-lorient-et-realise-une-belle-operation-au-classement-43715527",
-        "time": "2026-11-02T21:46:00Z"
        }
       ],
       "other": [
+       {
+        "title": "Brest – Lyon : Lachuer prévient, les ambitions brestoises pourraient changer",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/brest-lyon-lachuer-previent-les-ambitions-brestoises-pourraient-changer-43741473",
+        "time": "2026-11-07T15:30:05Z"
+       },
        {
         "title": "National 2 : Brest et Lannion veulent ouvrir leur compteur de points dans le groupe C",
         "publisher": "Foot National",
@@ -9999,12 +9786,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-evenement-tres-attendu-arrive-les-joueurs-enfin-soulages-43718210",
         "time": "2026-11-03T13:00:54Z"
-       },
-       {
-        "title": "Brest : Julien Lachuer savoure le derby et pousse un coup de gueule sur l’arbitrage",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/brest-julien-lachuer-savoure-le-derby-et-pousse-un-coup-de-gueule-sur-larbitrage-43716880",
-        "time": "2026-11-03T08:30:43Z"
        }
       ],
       "scorer": {
@@ -10014,46 +9795,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "OL - Cinq absences à l'entraînement mais deux bonnes nouvelles concernant Niakhaté et Nuamah avant Brest",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-cinq-absences-a-lentrainement-mais-deux-bonnes-nouvelles-concernant-niakhate-et-nuamah-avant-brest-43739958",
-        "time": "2026-11-07T10:20:00Z",
-        "about": "buteur"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "OL - Openda, Nuamah, Niakhaté... Jorge Maciel donne des nouvelles de son groupe avant le déplacement à Brest",
+        "title": "Ligue 1 J10 / Stade Brestois – OL : Le point médical et le groupe avec Nuamah et Niakhaté de retour",
+        "publisher": "FerveurLyonnaise",
+        "url": "https://onefootball.com/fr/news/ligue-1-j10-stade-brestois-ol-le-point-medical-et-le-groupe-avec-nuamah-et-niakhate-de-retour-43742360",
+        "time": "2026-11-07T18:08:02Z"
+       },
+       {
+        "title": "OL - Deux retours très importants dans le groupe lyonnais pour le déplacement à Brest",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-openda-nuamah-niakhate-jorge-maciel-donne-des-nouvelles-de-son-groupe-avant-le-deplacement-a-brest-43740493",
-        "time": "2026-11-07T12:35:00Z"
+        "url": "https://onefootball.com/fr/news/ol-deux-retours-tres-importants-dans-le-groupe-lyonnais-pour-le-deplacement-a-brest-43742244",
+        "time": "2026-11-07T17:45:00Z"
        },
        {
-        "title": "OL : présents à l'entraînement, Moussa Niakhaté et Ernest Nuamah reviennent face à Brest",
+        "title": "Brest - OL : Niakhaté et Nuamah de retour, Hamdani sort du groupe",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-presents-a-lentrainement-moussa-niakhate-et-ernest-nuamah-reviennent-face-a-brest-43740453",
-        "time": "2026-11-07T12:25:00Z"
-       },
-       {
-        "title": "Zidane sur le départ de Paulo Fonseca : \"Ça va être très dur pour Lyon\"",
-        "publisher": "Stats Perform",
-        "url": "https://onefootball.com/fr/video/zidane-sur-le-depart-de-paulo-fonseca-ca-va-etre-tres-dur-pour-lyon-3LmBL3ZRuPFeXIkA7ltqskyeKH4",
-        "time": "2026-11-07T11:00:50Z"
+        "url": "https://onefootball.com/fr/news/brest-ol-niakhate-et-nuamah-de-retour-hamdani-sort-du-groupe-43742198",
+        "time": "2026-11-07T17:35:15Z"
        }
       ],
       "scorer": {
        "name": "Ernest Nuamah",
        "goals": 4
       },
-      "scorerOut": {
-       "title": "OL - Cinq absences à l'entraînement mais deux bonnes nouvelles concernant Niakhaté et Nuamah avant Brest",
-       "publisher": "MadeInFOOT",
-       "url": "https://onefootball.com/fr/news/ol-cinq-absences-a-lentrainement-mais-deux-bonnes-nouvelles-concernant-niakhate-et-nuamah-avant-brest-43739958",
-       "time": "2026-11-07T10:20:00Z",
-       "about": "buteur"
-      }
+      "scorerOut": null
      }
     },
     "cupA": {
@@ -10072,8 +9839,8 @@
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 0.6,
-     "gust": 23,
+     "rainMax": 1.2,
+     "gust": 24,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
@@ -10083,7 +9850,7 @@
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-07T13:07+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -10144,8 +9911,8 @@
      ]
     }
    },
-   "lh": 1.45,
-   "la": 1.265,
+   "lh": 1.454,
+   "la": 1.272,
    "trend": [
     {
      "md": 0,
@@ -10230,32 +9997,32 @@
     {
      "md": 10,
      "p": [
-      0.415,
-      0.256,
-      0.329
+      0.414,
+      0.255,
+      0.331
      ]
     }
    ],
    "published": {
-    "lh": 1.37,
-    "la": 1.351,
+    "lh": 1.374,
+    "la": 1.358,
     "p": [
-     0.376,
-     0.257,
-     0.367
+     0.375,
+     0.256,
+     0.368
     ],
-    "over25": 0.512,
+    "over25": 0.514,
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-07T17:59+00:00",
+    "at": "2026-11-07T20:57+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
+    "dataAt": "2026-11-07T20:54+00:00",
     "changes": 2,
     "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
+     "version": "205a4a3",
+     "mu": 0.219,
+     "home": 0.248
     }
    }
   },
@@ -10330,21 +10097,21 @@
      "roof": false,
      "daysBefore": 1,
      "temp": 11,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 19,
+     "gust": 16,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 98,
+     "confidence": 99,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-07T13:07+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -10399,14 +10166,14 @@
        "daysBefore": 1,
        "pRain": 0.0,
        "pWind": 0.0,
-       "temp": 11,
-       "conf": 98
+       "temp": 10,
+       "conf": 99
       }
      ]
     }
    },
-   "lh": 1.265,
-   "la": 1.161,
+   "lh": 1.267,
+   "la": 1.166,
    "trend": [
     {
      "md": 0,
@@ -10491,30 +10258,30 @@
     {
      "md": 10,
      "p": [
-      0.388,
+      0.387,
       0.274,
-      0.338
+      0.339
      ]
     }
    ],
    "published": {
-    "lh": 1.265,
-    "la": 1.161,
+    "lh": 1.267,
+    "la": 1.166,
     "p": [
-     0.388,
+     0.387,
      0.274,
-     0.338
+     0.339
     ],
-    "over25": 0.437,
+    "over25": 0.439,
     "levers": [],
-    "at": "2026-11-07T17:59+00:00",
+    "at": "2026-11-07T20:57+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
+    "dataAt": "2026-11-07T20:54+00:00",
     "changes": 3,
     "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
+     "version": "205a4a3",
+     "mu": 0.219,
+     "home": 0.248
     }
    }
   },
@@ -10555,25 +10322,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "AS Monaco - Quatre absents dans le groupe de l'ASM pour affronter Le Mans FC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-quatre-absents-dans-le-groupe-de-lasm-pour-affronter-le-mans-fc-43742378",
+        "time": "2026-11-07T18:10:00Z"
+       }
+      ],
       "other": [
+       {
+        "title": "LMFC – ASM : le groupe monégasque",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/lmfc-asm-le-groupe-monegasque-43742955",
+        "time": "2026-11-07T20:10:15Z"
+       },
+       {
+        "title": "Nouvel essai après le mercato agité : Balogun part cet hiver ?",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/nouvel-essai-apres-le-mercato-agite-balogun-part-cet-hiver-43742461",
+        "time": "2026-11-07T18:30:55Z"
+       },
        {
         "title": "Ligue 1 : Monaco pénalisé par l’arbitrage, l’OM grand gagnant",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/ligue-1-monaco-penalise-par-larbitrage-lom-grand-gagnant-43740184",
         "time": "2026-11-07T11:00:22Z"
-       },
-       {
-        "title": "LMFC-ASM : rebondir en championnat ?",
-        "publisher": "ASM-SUPPORTERS.FR",
-        "url": "https://onefootball.com/fr/news/lmfc-asm-rebondir-en-championnat-43738295",
-        "time": "2026-11-06T21:29:10Z"
-       },
-       {
-        "title": "Monaco : Filipe Luís tient enfin une victoire convaincante, mais pointe encore des lacunes",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/monaco-filipe-luis-tient-enfin-une-victoire-convaincante-mais-pointe-encore-des-lacunes-43734570",
-        "time": "2026-11-06T09:30:45Z"
        }
       ],
       "scorer": {
@@ -10595,22 +10369,22 @@
      "stadium": "MMArena",
      "roof": false,
      "daysBefore": 1,
-     "temp": 11,
+     "temp": 9,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 20,
+     "gust": 19,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 97,
+     "confidence": 99,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-07T13:07+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -10658,13 +10432,13 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 10,
-       "conf": 97
+       "conf": 99
       }
      ]
     }
    },
-   "lh": 1.324,
-   "la": 1.537,
+   "lh": 1.326,
+   "la": 1.545,
    "trend": [
     {
      "md": 0,
@@ -10749,32 +10523,32 @@
     {
      "md": 10,
      "p": [
-      0.328,
+      0.327,
       0.248,
-      0.424
+      0.425
      ]
     }
    ],
    "published": {
-    "lh": 1.251,
-    "la": 1.642,
+    "lh": 1.253,
+    "la": 1.65,
     "p": [
-     0.292,
-     0.243,
-     0.465
+     0.291,
+     0.242,
+     0.467
     ],
-    "over25": 0.552,
+    "over25": 0.555,
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-07T17:59+00:00",
+    "at": "2026-11-07T20:57+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
+    "dataAt": "2026-11-07T20:54+00:00",
     "changes": 3,
     "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
+     "version": "205a4a3",
+     "mu": 0.219,
+     "home": 0.248
     }
    }
   },
@@ -10802,22 +10576,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Jonathan Gradit : « Je serai à 100 % pour jouer 90 minutes »",
+        "title": "RC Lens – Marseille : le groupe lensois avec Moussa Diarra, jeune attaquant du groupe élite",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/jonathan-gradit-je-serai-a-100-pour-jouer-90-minutes-43740561",
-        "time": "2026-11-07T12:55:07Z"
+        "url": "https://onefootball.com/fr/news/rc-lens-marseille-le-groupe-lensois-avec-moussa-diarra-jeune-attaquant-du-groupe-elite-43743041",
+        "time": "2026-11-07T20:36:05Z"
        },
        {
-        "title": "RC Lens - Son avenir, la colère des supporters après l'humiliation en LDC... Yannick Cahuzac répond sans détour",
+        "title": "RC Lens - Yannick Cahuzac pourrait faire trois choix forts face à l'OM",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-son-avenir-la-colere-des-supporters-apres-lhumiliation-en-ldc-yannick-cahuzac-repond-sans-detour-43740449",
-        "time": "2026-11-07T12:23:00Z"
+        "url": "https://onefootball.com/fr/news/rc-lens-yannick-cahuzac-pourrait-faire-trois-choix-forts-face-a-lom-43742272",
+        "time": "2026-11-07T17:55:00Z"
        },
        {
-        "title": "Rendez-vous avant RC Lens-OM pour le début de la collecte de jouets du Noël des Enfants",
+        "title": "Ne ratez pas la newsletter de Lensois.com !",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/rendez-vous-avant-rc-lens-om-pour-le-debut-de-la-collecte-de-jouets-du-noeal-des-enfants-43739878",
-        "time": "2026-11-07T10:02:26Z"
+        "url": "https://onefootball.com/fr/news/ne-ratez-pas-la-newsletter-de-lensoiscom-43741642",
+        "time": "2026-11-07T16:00:20Z"
        }
       ],
       "scorer": {
@@ -10827,25 +10601,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "OM - Un retour de taille mais trois absences à l'entraînement avant le choc contre le RC Lens",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-un-retour-de-taille-mais-trois-absences-a-lentrainement-avant-le-choc-contre-le-rc-lens-43741538",
+        "time": "2026-11-07T15:47:00Z"
+       }
+      ],
       "other": [
        {
-        "title": "OM : « On s'attend à une réaction », Genesio prévient ses joueurs avant le choc face à Lens",
+        "title": "OM : \"Ils sont plusieurs à avoir vécu des situations difficiles l'an dernier\" ... Le constat implacable de Genesio",
         "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-on-sattend-a-une-reaction-genesio-previent-ses-joueurs-avant-le-choc-face-a-lens-43740461",
-        "time": "2026-11-07T12:28:00Z"
+        "url": "https://onefootball.com/fr/news/om-ils-sont-plusieurs-a-avoir-vecu-des-situations-difficiles-lan-dernier-le-constat-implacable-de-genesio-43742184",
+        "time": "2026-11-07T17:32:00Z"
        },
        {
-        "title": "Ex-OM : Rudi Völler était présent pour la victoire de l’OM au Bay Arena",
+        "title": "OM – Genesio donne des nouvelles d’Harit et Emerson",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-rudi-voeller-etait-present-pour-la-victoire-de-lom-au-bay-arena-43740370",
-        "time": "2026-11-07T12:00:53Z"
+        "url": "https://onefootball.com/fr/news/om-genesio-donne-des-nouvelles-dharit-et-emerson-43742025",
+        "time": "2026-11-07T17:00:34Z"
        },
        {
-        "title": "OM - Bruno Genesio donne des nouvelles d'Amine Harit et Emerson Palmieri avant le déplacement à Lens",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-bruno-genesio-donne-des-nouvelles-damine-harit-et-emerson-palmieri-avant-le-deplacement-a-lens-43740323",
-        "time": "2026-11-07T11:44:00Z"
+        "title": "OM – Les éloges de Genesio envers son défenseur",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-les-eloges-de-genesio-envers-son-defenseur-43741624",
+        "time": "2026-11-07T16:00:27Z"
        }
       ],
       "scorer": {
@@ -10878,18 +10659,18 @@
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 1.5,
-     "gust": 13,
-     "pRain": 0.02,
+     "rainMax": 0.3,
+     "gust": 14,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 94,
+     "confidence": 97,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-07T13:07+00:00",
+     "updated": "2026-11-07T20:56+00:00",
      "history": [
       {
        "day": "2026-11-01",
@@ -10942,16 +10723,16 @@
       {
        "day": "2026-11-07",
        "daysBefore": 1,
-       "pRain": 0.02,
+       "pRain": 0.0,
        "pWind": 0.0,
-       "temp": 7,
-       "conf": 94
+       "temp": 8,
+       "conf": 97
       }
      ]
     }
    },
-   "lh": 2.005,
-   "la": 1.413,
+   "lh": 2.013,
+   "la": 1.42,
    "trend": [
     {
      "md": 0,
@@ -11043,26 +10824,26 @@
     }
    ],
    "published": {
-    "lh": 2.024,
-    "la": 1.426,
+    "lh": 2.032,
+    "la": 1.433,
     "p": [
      0.514,
      0.215,
      0.271
     ],
-    "over25": 0.67,
+    "over25": 0.672,
     "levers": [
      "eurH",
      "eurA"
     ],
-    "at": "2026-11-07T17:59+00:00",
+    "at": "2026-11-07T20:57+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-07T17:59+00:00",
+    "dataAt": "2026-11-07T20:54+00:00",
     "changes": 2,
     "model": {
-     "version": "9dfbe88",
-     "mu": 0.224,
-     "home": 0.249
+     "version": "205a4a3",
+     "mu": 0.219,
+     "home": 0.248
     }
    }
   }

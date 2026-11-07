@@ -714,19 +714,19 @@
   "date": "2026-11-08",
   "time": "15:00",
   "md": 10,
-  "at": "2026-11-07T17:59+00:00",
-  "dataAt": "2026-11-07T17:59+00:00",
+  "at": "2026-11-07T20:57+00:00",
+  "dataAt": "2026-11-07T20:54+00:00",
   "model": {
-   "version": "9dfbe88",
-   "mu": 0.224,
-   "home": 0.249
+   "version": "205a4a3",
+   "mu": 0.219,
+   "home": 0.248
   },
-  "lh": 1.65,
-  "la": 1.37,
+  "lh": 1.654,
+  "la": 1.376,
   "p": [
    0.441,
-   0.24,
-   0.319
+   0.239,
+   0.32
   ],
   "levers": [
    "eurH"
@@ -740,8 +740,8 @@
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 97,
-    "updated": "2026-11-07T13:07+00:00",
+    "confidence": 98,
+    "updated": "2026-11-07T20:56+00:00",
     "daysBefore": 1
    },
    "presse": {
@@ -789,19 +789,19 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-07T17:59+00:00",
-  "dataAt": "2026-11-07T17:59+00:00",
+  "at": "2026-11-07T20:57+00:00",
+  "dataAt": "2026-11-07T20:54+00:00",
   "model": {
-   "version": "9dfbe88",
-   "mu": 0.224,
-   "home": 0.249
+   "version": "205a4a3",
+   "mu": 0.219,
+   "home": 0.248
   },
-  "lh": 1.251,
-  "la": 1.355,
+  "lh": 1.254,
+  "la": 1.361,
   "p": [
    0.344,
    0.263,
-   0.393
+   0.394
   ],
   "levers": [],
   "odds": [
@@ -813,8 +813,8 @@
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 97,
-    "updated": "2026-11-07T13:07+00:00",
+    "confidence": 98,
+    "updated": "2026-11-07T20:56+00:00",
     "daysBefore": 1
    },
    "presse": {
@@ -850,19 +850,19 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-07T17:59+00:00",
-  "dataAt": "2026-11-07T17:59+00:00",
+  "at": "2026-11-07T20:57+00:00",
+  "dataAt": "2026-11-07T20:54+00:00",
   "model": {
-   "version": "9dfbe88",
-   "mu": 0.224,
-   "home": 0.249
+   "version": "205a4a3",
+   "mu": 0.219,
+   "home": 0.248
   },
-  "lh": 1.37,
-  "la": 1.351,
+  "lh": 1.374,
+  "la": 1.358,
   "p": [
-   0.376,
-   0.257,
-   0.367
+   0.375,
+   0.256,
+   0.368
   ],
   "levers": [
    "eurA"
@@ -877,18 +877,12 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 98,
-    "updated": "2026-11-07T13:07+00:00",
+    "updated": "2026-11-07T20:56+00:00",
     "daysBefore": 1
    },
    "presse": {
     "H": null,
-    "A": {
-     "title": "OL - Cinq absences à l'entraînement mais deux bonnes nouvelles concernant Niakhaté et Nuamah avant Brest",
-     "publisher": "MadeInFOOT",
-     "url": "https://onefootball.com/fr/news/ol-cinq-absences-a-lentrainement-mais-deux-bonnes-nouvelles-concernant-niakhate-et-nuamah-avant-brest-43739958",
-     "time": "2026-11-07T10:20:00Z",
-     "about": "buteur"
-    }
+    "A": null
    },
    "coupe": {
     "H": null,
@@ -933,19 +927,19 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-07T17:59+00:00",
-  "dataAt": "2026-11-07T17:59+00:00",
+  "at": "2026-11-07T20:57+00:00",
+  "dataAt": "2026-11-07T20:54+00:00",
   "model": {
-   "version": "9dfbe88",
-   "mu": 0.224,
-   "home": 0.249
+   "version": "205a4a3",
+   "mu": 0.219,
+   "home": 0.248
   },
-  "lh": 1.265,
-  "la": 1.161,
+  "lh": 1.267,
+  "la": 1.166,
   "p": [
-   0.388,
+   0.387,
    0.274,
-   0.338
+   0.339
   ],
   "levers": [],
   "odds": [
@@ -957,8 +951,8 @@
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 98,
-    "updated": "2026-11-07T13:07+00:00",
+    "confidence": 99,
+    "updated": "2026-11-07T20:56+00:00",
     "daysBefore": 1
    },
    "presse": {
@@ -1002,19 +996,19 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-07T17:59+00:00",
-  "dataAt": "2026-11-07T17:59+00:00",
+  "at": "2026-11-07T20:57+00:00",
+  "dataAt": "2026-11-07T20:54+00:00",
   "model": {
-   "version": "9dfbe88",
-   "mu": 0.224,
-   "home": 0.249
+   "version": "205a4a3",
+   "mu": 0.219,
+   "home": 0.248
   },
-  "lh": 1.251,
-  "la": 1.642,
+  "lh": 1.253,
+  "la": 1.65,
   "p": [
-   0.292,
-   0.243,
-   0.465
+   0.291,
+   0.242,
+   0.467
   ],
   "levers": [
    "eurA"
@@ -1028,8 +1022,8 @@
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 97,
-    "updated": "2026-11-07T13:07+00:00",
+    "confidence": 99,
+    "updated": "2026-11-07T20:56+00:00",
     "daysBefore": 1
    },
    "presse": {
@@ -1071,15 +1065,15 @@
   "date": "2026-11-08",
   "time": "20:45",
   "md": 10,
-  "at": "2026-11-07T17:59+00:00",
-  "dataAt": "2026-11-07T17:59+00:00",
+  "at": "2026-11-07T20:57+00:00",
+  "dataAt": "2026-11-07T20:54+00:00",
   "model": {
-   "version": "9dfbe88",
-   "mu": 0.224,
-   "home": 0.249
+   "version": "205a4a3",
+   "mu": 0.219,
+   "home": 0.248
   },
-  "lh": 2.024,
-  "la": 1.426,
+  "lh": 2.032,
+  "la": 1.433,
   "p": [
    0.514,
    0.215,
@@ -1096,10 +1090,10 @@
   ],
   "inputs": {
    "meteo": {
-    "pRain": 0.02,
+    "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 94,
-    "updated": "2026-11-07T13:07+00:00",
+    "confidence": 97,
+    "updated": "2026-11-07T20:56+00:00",
     "daysBefore": 1
    },
    "presse": {
