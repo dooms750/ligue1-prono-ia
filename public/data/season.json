@@ -3,14 +3,14 @@
   "mode": "onefootball",
   "season": "2026-27",
   "source": "OneFootball et la presse spécialisée",
-  "lastResult": "2026-11-07",
+  "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 10,
-  "fetchedAt": "2026-11-08T13:27+00:00",
-  "generatedAt": "2026-11-08T13:31+00:00",
+  "fetchedAt": "2026-11-08T16:58+00:00",
+  "generatedAt": "2026-11-08T17:00+00:00",
   "checks": {
-   "compared": 84,
-   "agree": 84,
+   "compared": 85,
+   "agree": 85,
    "issues": [],
    "fixed": []
   },
@@ -29,8 +29,8 @@
     "id": "onefootball_quick",
     "label": "OneFootball, collecte rapide en match",
     "status": "ok",
-    "lastOk": "2026-11-08T00:55+00:00",
-    "lastAttempt": "2026-11-08T00:55+00:00",
+    "lastOk": "2026-11-08T16:58+00:00",
+    "lastAttempt": "2026-11-08T16:58+00:00",
     "error": null,
     "failures": 0,
     "count": null
@@ -39,11 +39,11 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-08T13:29+00:00",
-    "lastAttempt": "2026-11-08T13:29+00:00",
+    "lastOk": "2026-11-08T16:58+00:00",
+    "lastAttempt": "2026-11-08T16:58+00:00",
     "error": null,
     "failures": 0,
-    "count": 84
+    "count": 85
    },
    {
     "id": "weather",
@@ -79,7 +79,7 @@
  },
  "model": {
   "mu": 0.216,
-  "home": 0.245,
+  "home": 0.24,
   "levers": {
    "buteur": {
     "kept": false,
@@ -520,39 +520,39 @@
      }
     },
     "2627": {
-     "n": 84,
+     "n": 85,
      "models": {
       "ia": {
-       "brier": 0.5909,
-       "logloss": 0.9924,
-       "acc": 0.56
+       "brier": 0.5913,
+       "logloss": 0.9928,
+       "acc": 0.553
       },
       "mk": {
-       "brier": 0.5599,
-       "logloss": 0.9472,
-       "acc": 0.571
+       "brier": 0.5622,
+       "logloss": 0.9503,
+       "acc": 0.565
       },
       "ref": {
-       "brier": 0.6335,
-       "logloss": 1.0505,
-       "acc": 0.488
+       "brier": 0.6345,
+       "logloss": 1.0515,
+       "acc": 0.482
       }
      },
      "diffMk_brier": [
-      0.0077,
-      0.0533
+      0.0059,
+      0.0514
      ],
      "diffRef_brier": [
-      -0.0715,
-      -0.0124
+      -0.0736,
+      -0.0132
      ],
      "diffMk_logloss": [
-      0.0114,
-      0.0777
+      0.0092,
+      0.0746
      ],
      "diffRef_logloss": [
-      -0.0979,
-      -0.0162
+      -0.0999,
+      -0.0185
      ],
      "calib": {
       "ia": [
@@ -566,16 +566,16 @@
        {
         "lo": 0.2,
         "hi": 0.3,
-        "n": 117,
+        "n": 118,
         "pred": 0.248,
-        "obs": 0.239
+        "obs": 0.237
        },
        {
         "lo": 0.3,
         "hi": 0.4,
-        "n": 52,
-        "pred": 0.339,
-        "obs": 0.25
+        "n": 54,
+        "pred": 0.341,
+        "obs": 0.259
        },
        {
         "lo": 0.4,
@@ -603,23 +603,23 @@
        {
         "lo": 0.2,
         "hi": 0.3,
-        "n": 103,
+        "n": 104,
         "pred": 0.256,
-        "obs": 0.252
+        "obs": 0.25
        },
        {
         "lo": 0.3,
         "hi": 0.4,
-        "n": 47,
-        "pred": 0.349,
-        "obs": 0.277
+        "n": 48,
+        "pred": 0.348,
+        "obs": 0.292
        },
        {
         "lo": 0.4,
         "hi": 0.5,
-        "n": 31,
+        "n": 32,
         "pred": 0.445,
-        "obs": 0.613
+        "obs": 0.594
        },
        {
         "lo": 0.5,
@@ -640,39 +640,39 @@
     }
    },
    "all": {
-    "n": 696,
+    "n": 697,
     "models": {
      "ia": {
-      "brier": 0.5893,
-      "logloss": 0.9888,
-      "acc": 0.529
+      "brier": 0.5894,
+      "logloss": 0.9889,
+      "acc": 0.528
      },
      "mk": {
-      "brier": 0.5719,
-      "logloss": 0.9636,
-      "acc": 0.545
+      "brier": 0.5722,
+      "logloss": 0.9639,
+      "acc": 0.544
      },
      "ref": {
-      "brier": 0.6399,
-      "logloss": 1.0589,
-      "acc": 0.467
+      "brier": 0.64,
+      "logloss": 1.059,
+      "acc": 0.466
      }
     },
     "diffMk_brier": [
-     0.0097,
-     0.0247
+     0.0096,
+     0.0246
     ],
     "diffRef_brier": [
-     -0.0637,
-     -0.0383
+     -0.0636,
+     -0.0382
     ],
     "diffMk_logloss": [
-     0.0141,
-     0.036
+     0.014,
+     0.0358
     ],
     "diffRef_logloss": [
-     -0.088,
-     -0.0527
+     -0.0879,
+     -0.0531
     ],
     "calib": {
      "ia": [
@@ -693,16 +693,16 @@
       {
        "lo": 0.2,
        "hi": 0.3,
-       "n": 911,
+       "n": 912,
        "pred": 0.246,
-       "obs": 0.231
+       "obs": 0.23
       },
       {
        "lo": 0.3,
        "hi": 0.4,
-       "n": 373,
+       "n": 375,
        "pred": 0.347,
-       "obs": 0.332
+       "obs": 0.333
       },
       {
        "lo": 0.4,
@@ -751,23 +751,23 @@
       {
        "lo": 0.2,
        "hi": 0.3,
-       "n": 852,
+       "n": 853,
        "pred": 0.255,
        "obs": 0.25
       },
       {
        "lo": 0.3,
        "hi": 0.4,
-       "n": 298,
+       "n": 299,
        "pred": 0.347,
-       "obs": 0.332
+       "obs": 0.334
       },
       {
        "lo": 0.4,
        "hi": 0.5,
-       "n": 236,
+       "n": 237,
        "pred": 0.45,
-       "obs": 0.475
+       "obs": 0.473
       },
       {
        "lo": 0.5,
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1002,
-  "generatedAt": "2026-11-08T13:30+00:00",
+  "generatedAt": "2026-11-08T16:59+00:00",
   "levers": {
    "buteur": {
     "n": 332,
@@ -1165,8 +1165,8 @@
    "name": "Paris Saint-Germain",
    "short": "PSG",
    "color": "#1B3A8C",
-   "att": 0.375,
-   "def": -0.242,
+   "att": 0.376,
+   "def": -0.239,
    "played": 10,
    "w": 7,
    "d": 2,
@@ -1245,7 +1245,7 @@
     },
     {
      "md": 10,
-     "index": 185.3,
+     "index": 185.1,
      "pts": 23,
      "rank": 1
     }
@@ -1255,8 +1255,8 @@
    "name": "Monaco",
    "short": "MON",
    "color": "#D62828",
-   "att": 0.071,
-   "def": -0.051,
+   "att": 0.073,
+   "def": -0.05,
    "played": 9,
    "w": 4,
    "d": 3,
@@ -1335,7 +1335,7 @@
     },
     {
      "md": 10,
-     "index": 112.9,
+     "index": 113.1,
      "pts": 15,
      "rank": 7
     }
@@ -1345,8 +1345,8 @@
    "name": "Marseille",
    "short": "OM",
    "color": "#2A9FD6",
-   "att": 0.177,
-   "def": 0.04,
+   "att": 0.178,
+   "def": 0.043,
    "played": 9,
    "w": 5,
    "d": 0,
@@ -1425,7 +1425,7 @@
     },
     {
      "md": 10,
-     "index": 114.7,
+     "index": 114.4,
      "pts": 15,
      "rank": 6
     }
@@ -1435,8 +1435,8 @@
    "name": "Lyon",
    "short": "OL",
    "color": "#C8102E",
-   "att": 0.051,
-   "def": -0.166,
+   "att": 0.052,
+   "def": -0.164,
    "played": 9,
    "w": 5,
    "d": 2,
@@ -1515,7 +1515,7 @@
     },
     {
      "md": 10,
-     "index": 124.3,
+     "index": 124.1,
      "pts": 17,
      "rank": 4
     }
@@ -1525,23 +1525,23 @@
    "name": "Lille",
    "short": "LIL",
    "color": "#B5121B",
-   "att": -0.027,
-   "def": -0.298,
-   "played": 9,
-   "w": 5,
+   "att": -0.022,
+   "def": -0.333,
+   "played": 10,
+   "w": 6,
    "d": 3,
    "l": 1,
-   "gf": 12,
-   "ga": 6,
-   "pts": 18,
+   "gf": 14,
+   "ga": 7,
+   "pts": 21,
    "form": [
-    "D",
     "V",
     "N",
     "N",
+    "V",
     "V"
    ],
-   "rank": 3,
+   "rank": 2,
    "history": [
     {
      "md": 0,
@@ -1605,9 +1605,9 @@
     },
     {
      "md": 10,
-     "index": 131.0,
-     "pts": 18,
-     "rank": 3
+     "index": 136.5,
+     "pts": 21,
+     "rank": 2
     }
    ]
   },
@@ -1615,8 +1615,8 @@
    "name": "Lens",
    "short": "LEN",
    "color": "#E8A317",
-   "att": 0.202,
-   "def": -0.037,
+   "att": 0.204,
+   "def": -0.036,
    "played": 9,
    "w": 4,
    "d": 1,
@@ -1695,7 +1695,7 @@
     },
     {
      "md": 10,
-     "index": 127.0,
+     "index": 127.1,
      "pts": 13,
      "rank": 9
     }
@@ -1705,20 +1705,20 @@
    "name": "Rennes",
    "short": "REN",
    "color": "#A3161B",
-   "att": 0.275,
-   "def": 0.193,
-   "played": 9,
+   "att": 0.251,
+   "def": 0.198,
+   "played": 10,
    "w": 5,
    "d": 1,
-   "l": 3,
-   "gf": 20,
-   "ga": 19,
+   "l": 4,
+   "gf": 21,
+   "ga": 21,
    "pts": 16,
    "form": [
-    "D",
     "V",
     "D",
     "V",
+    "D",
     "D"
    ],
    "rank": 5,
@@ -1785,7 +1785,7 @@
     },
     {
      "md": 10,
-     "index": 108.5,
+     "index": 105.5,
      "pts": 16,
      "rank": 5
     }
@@ -1795,8 +1795,8 @@
    "name": "Nice",
    "short": "NIC",
    "color": "#B01E23",
-   "att": -0.059,
-   "def": 0.037,
+   "att": -0.057,
+   "def": 0.04,
    "played": 9,
    "w": 4,
    "d": 2,
@@ -1875,7 +1875,7 @@
     },
     {
      "md": 10,
-     "index": 90.8,
+     "index": 90.7,
      "pts": 14,
      "rank": 8
     }
@@ -1886,7 +1886,7 @@
    "short": "STR",
    "color": "#1C5DA8",
    "att": 0.162,
-   "def": 0.145,
+   "def": 0.148,
    "played": 10,
    "w": 3,
    "d": 1,
@@ -1965,7 +1965,7 @@
     },
     {
      "md": 10,
-     "index": 101.8,
+     "index": 101.5,
      "pts": 10,
      "rank": 13
     }
@@ -1975,7 +1975,7 @@
    "name": "Brest",
    "short": "BRE",
    "color": "#D7263D",
-   "att": 0.082,
+   "att": 0.083,
    "def": -0.022,
    "played": 9,
    "w": 3,
@@ -2065,8 +2065,8 @@
    "name": "Toulouse",
    "short": "TOU",
    "color": "#5B2C83",
-   "att": 0.022,
-   "def": -0.066,
+   "att": 0.024,
+   "def": -0.065,
    "played": 10,
    "w": 3,
    "d": 4,
@@ -2145,7 +2145,7 @@
     },
     {
      "md": 10,
-     "index": 109.2,
+     "index": 109.3,
      "pts": 13,
      "rank": 10
     }
@@ -2155,8 +2155,8 @@
    "name": "Paris FC",
    "short": "PFC",
    "color": "#1D2A4D",
-   "att": 0.079,
-   "def": -0.199,
+   "att": 0.08,
+   "def": -0.197,
    "played": 10,
    "w": 6,
    "d": 2,
@@ -2171,7 +2171,7 @@
     "V",
     "V"
    ],
-   "rank": 2,
+   "rank": 3,
    "history": [
     {
      "md": 0,
@@ -2235,9 +2235,9 @@
     },
     {
      "md": 10,
-     "index": 132.1,
+     "index": 131.8,
      "pts": 20,
-     "rank": 2
+     "rank": 3
     }
    ]
   },
@@ -2246,7 +2246,7 @@
    "short": "LOR",
    "color": "#F07F1A",
    "att": -0.222,
-   "def": -0.128,
+   "def": -0.127,
    "played": 9,
    "w": 3,
    "d": 3,
@@ -2335,8 +2335,8 @@
    "name": "Angers",
    "short": "ANG",
    "color": "#2B2B2B",
-   "att": -0.272,
-   "def": 0.152,
+   "att": -0.27,
+   "def": 0.155,
    "played": 9,
    "w": 2,
    "d": 2,
@@ -2425,8 +2425,8 @@
    "name": "Auxerre",
    "short": "AUX",
    "color": "#2563A6",
-   "att": -0.093,
-   "def": 0.152,
+   "att": -0.092,
+   "def": 0.155,
    "played": 10,
    "w": 3,
    "d": 1,
@@ -2505,7 +2505,7 @@
     },
     {
      "md": 10,
-     "index": 78.3,
+     "index": 78.1,
      "pts": 10,
      "rank": 14
     }
@@ -2515,7 +2515,7 @@
    "name": "Le Havre",
    "short": "HAV",
    "color": "#3F7CC0",
-   "att": -0.097,
+   "att": -0.096,
    "def": 0.165,
    "played": 9,
    "w": 0,
@@ -2595,7 +2595,7 @@
     },
     {
      "md": 10,
-     "index": 76.9,
+     "index": 77.0,
      "pts": 2,
      "rank": 18
     }
@@ -2606,7 +2606,7 @@
    "short": "LMA",
    "color": "#C8102E",
    "att": -0.124,
-   "def": 0.155,
+   "def": 0.158,
    "played": 9,
    "w": 1,
    "d": 4,
@@ -2685,7 +2685,7 @@
     },
     {
      "md": 10,
-     "index": 75.6,
+     "index": 75.4,
      "pts": 7,
      "rank": 17
     }
@@ -2695,8 +2695,8 @@
    "name": "Troyes",
    "short": "TRO",
    "color": "#1F5FA8",
-   "att": -0.27,
-   "def": -0.004,
+   "att": -0.268,
+   "def": -0.003,
    "played": 10,
    "w": 2,
    "d": 2,
@@ -2775,7 +2775,7 @@
     },
     {
      "md": 10,
-     "index": 76.6,
+     "index": 76.7,
      "pts": 8,
      "rank": 16
     }
@@ -8872,6 +8872,91 @@
   },
   {
    "md": 10,
+   "date": "2026-11-08",
+   "time": "15:00",
+   "home": "REN",
+   "away": "LIL",
+   "odds": [
+    2.11,
+    3.62,
+    3.11
+   ],
+   "src": "https://onefootball.com/fr/match/2688731",
+   "hg": 1,
+   "ag": 2,
+   "htH": 1,
+   "htA": 1,
+   "sotH": 2,
+   "sotA": 3,
+   "xgH": 0.62,
+   "xgA": 0.93,
+   "redH": null,
+   "redA": null,
+   "goals": [
+    [
+     "A",
+     24
+    ],
+    [
+     "H",
+     31
+    ],
+    [
+     "A",
+     68
+    ]
+   ],
+   "htSource": "espn",
+   "scorers": [
+    {
+     "side": "away",
+     "player": "Soriba Diaoune",
+     "kind": "but",
+     "min": 24,
+     "half": 1
+    },
+    {
+     "side": "home",
+     "player": "Boulaye Dia",
+     "kind": "but",
+     "min": 31,
+     "half": 1
+    },
+    {
+     "side": "away",
+     "player": "Nathan Ngoy",
+     "kind": "but",
+     "min": 68,
+     "half": 2
+    }
+   ],
+   "pred": {
+    "lh": 1.542,
+    "la": 1.454,
+    "p": [
+     0.398,
+     0.243,
+     0.359
+    ],
+    "over25": 0.576,
+    "btts": 0.602
+   },
+   "published": {
+    "p": [
+     0.438,
+     0.239,
+     0.322
+    ],
+    "at": "2026-11-08T13:31+00:00",
+    "levers": [
+     "eurH"
+    ],
+    "lh": 1.648,
+    "la": 1.382
+   }
+  },
+  {
+   "md": 10,
    "date": "2026-11-06",
    "time": "20:45",
    "home": "TOU",
@@ -8966,295 +9051,6 @@
   }
  ],
  "upcoming": [
-  {
-   "md": 10,
-   "date": "2026-11-08",
-   "time": "15:00",
-   "home": "REN",
-   "away": "LIL",
-   "odds": [
-    2.11,
-    3.62,
-    3.11
-   ],
-   "src": "https://onefootball.com/fr/match/2688731",
-   "ctx": {
-    "known": true,
-    "absH": [],
-    "absA": [],
-    "europeH": true,
-    "europeA": false,
-    "weather": "beau",
-    "press": {
-     "H": {
-      "absences": [],
-      "other": [
-       {
-        "title": "Ligue 1 - Stade Rennais - LOSC : les compos officielles",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-stade-rennais-losc-les-compos-officielles-43746234",
-        "time": "2026-11-08T13:00:00Z"
-       },
-       {
-        "title": "Rennes - Lille : les compositions officielles !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/rennes-lille-les-compositions-officielles-43746153",
-        "time": "2026-11-08T12:59:00Z"
-       },
-       {
-        "title": "Rennes : Haise prévient Lille, les chiffres révèlent un paradoxe",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/rennes-haise-previent-lille-les-chiffres-revelent-un-paradoxe-43745615",
-        "time": "2026-11-08T10:48:04Z"
-       }
-      ],
-      "scorer": {
-       "name": "Estéban Lepaul",
-       "goals": 7
-      },
-      "scorerOut": null
-     },
-     "A": {
-      "absences": [
-       {
-        "title": "Lille : Ancelotti sous le choc après l'énorme suspension infligée à Létang",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/lille-ancelotti-sous-le-choc-apres-lenorme-suspension-infligee-a-letang-43743671",
-        "time": "2026-11-07T23:02:00Z"
-       }
-      ],
-      "other": [
-       {
-        "title": "LOSC : le rôle essentiel de Mukau dévoilé à Lille",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/losc-le-role-essentiel-de-mukau-devoile-a-lille-43745567",
-        "time": "2026-11-08T10:33:37Z"
-       },
-       {
-        "title": "Lille annonce officiellement les prolongations d'Igamane et Kouassi",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/lille-annonce-officiellement-les-prolongations-digamane-et-kouassi-43742953",
-        "time": "2026-11-07T20:11:00Z"
-       }
-      ],
-      "scorer": {
-       "name": "Olivier Giroud",
-       "goals": 3
-      },
-      "scorerOut": null
-     }
-    },
-    "cupH": {
-     "competition": "Ligue Europa",
-     "opponent": "Olympiakos",
-     "day": "mercredi",
-     "home": true,
-     "hoursBefore": 94
-    },
-    "meteo": {
-     "kind": "beau",
-     "stadium": "Roazhon Park",
-     "roof": false,
-     "daysBefore": 0,
-     "temp": 9,
-     "desc": "couvert",
-     "code": 3,
-     "rain": 0,
-     "rainMax": 0,
-     "gust": 23,
-     "pRain": 0.0,
-     "pWind": 0.0,
-     "members": 51,
-     "confidence": 98,
-     "confidenceLabel": "forte",
-     "sources": [
-      "ECMWF (51 scénarios)",
-      "Météo-France"
-     ],
-     "updated": "2026-11-08T13:29+00:00",
-     "history": [
-      {
-       "day": "2026-11-01",
-       "daysBefore": 7,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 11,
-       "conf": 59
-      },
-      {
-       "day": "2026-11-02",
-       "daysBefore": 6,
-       "pRain": 0.08,
-       "pWind": 0.0,
-       "temp": 10,
-       "conf": 61
-      },
-      {
-       "day": "2026-11-03",
-       "daysBefore": 5,
-       "pRain": 0.12,
-       "pWind": 0.0,
-       "temp": 11,
-       "conf": 66
-      },
-      {
-       "day": "2026-11-04",
-       "daysBefore": 4,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 11,
-       "conf": 79
-      },
-      {
-       "day": "2026-11-05",
-       "daysBefore": 3,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 11,
-       "conf": 87
-      },
-      {
-       "day": "2026-11-06",
-       "daysBefore": 2,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 12,
-       "conf": 93
-      },
-      {
-       "day": "2026-11-07",
-       "daysBefore": 1,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 12,
-       "conf": 98
-      },
-      {
-       "day": "2026-11-08",
-       "daysBefore": 0,
-       "pRain": 0.0,
-       "pWind": 0.0,
-       "temp": 10,
-       "conf": 98
-      }
-     ]
-    }
-   },
-   "lh": 1.549,
-   "la": 1.464,
-   "trend": [
-    {
-     "md": 0,
-     "p": [
-      0.406,
-      0.255,
-      0.339
-     ]
-    },
-    {
-     "md": 1,
-     "p": [
-      0.377,
-      0.255,
-      0.368
-     ]
-    },
-    {
-     "md": 2,
-     "p": [
-      0.39,
-      0.247,
-      0.363
-     ]
-    },
-    {
-     "md": 3,
-     "p": [
-      0.391,
-      0.247,
-      0.362
-     ]
-    },
-    {
-     "md": 4,
-     "p": [
-      0.385,
-      0.254,
-      0.361
-     ]
-    },
-    {
-     "md": 5,
-     "p": [
-      0.377,
-      0.247,
-      0.376
-     ]
-    },
-    {
-     "md": 6,
-     "p": [
-      0.415,
-      0.247,
-      0.338
-     ]
-    },
-    {
-     "md": 7,
-     "p": [
-      0.398,
-      0.243,
-      0.358
-     ]
-    },
-    {
-     "md": 8,
-     "p": [
-      0.422,
-      0.245,
-      0.332
-     ]
-    },
-    {
-     "md": 9,
-     "p": [
-      0.398,
-      0.243,
-      0.359
-     ]
-    },
-    {
-     "md": 10,
-     "p": [
-      0.397,
-      0.242,
-      0.36
-     ]
-    }
-   ],
-   "published": {
-    "lh": 1.648,
-    "la": 1.382,
-    "p": [
-     0.438,
-     0.239,
-     0.322
-    ],
-    "over25": 0.584,
-    "levers": [
-     "eurH"
-    ],
-    "at": "2026-11-08T13:31+00:00",
-    "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-08T13:27+00:00",
-    "changes": 3,
-    "model": {
-     "version": "e88fed4",
-     "mu": 0.216,
-     "home": 0.245
-    }
-   }
-  },
   {
    "md": 10,
    "date": "2026-11-08",
@@ -9428,8 +9224,8 @@
      ]
     }
    },
-   "lh": 1.253,
-   "la": 1.362,
+   "lh": 1.254,
+   "la": 1.368,
    "trend": [
     {
      "md": 0,
@@ -9514,9 +9310,9 @@
     {
      "md": 10,
      "p": [
-      0.343,
-      0.263,
-      0.394
+      0.342,
+      0.262,
+      0.396
      ]
     }
    ],
@@ -9528,7 +9324,6 @@
      0.263,
      0.394
     ],
-    "over25": 0.485,
     "levers": [],
     "at": "2026-11-08T13:31+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
@@ -9538,7 +9333,8 @@
      "version": "e88fed4",
      "mu": 0.216,
      "home": 0.245
-    }
+    },
+    "frozen": true
    }
   },
   {
@@ -9715,7 +9511,7 @@
     }
    },
    "lh": 1.456,
-   "la": 1.277,
+   "la": 1.279,
    "trend": [
     {
      "md": 0,
@@ -9802,7 +9598,7 @@
      "p": [
       0.413,
       0.255,
-      0.331
+      0.332
      ]
     }
    ],
@@ -9814,7 +9610,6 @@
      0.256,
      0.368
     ],
-    "over25": 0.514,
     "levers": [
      "eurA"
     ],
@@ -9826,7 +9621,8 @@
      "version": "e88fed4",
      "mu": 0.216,
      "home": 0.245
-    }
+    },
+    "frozen": true
    }
   },
   {
@@ -9983,8 +9779,8 @@
      ]
     }
    },
-   "lh": 1.265,
-   "la": 1.171,
+   "lh": 1.263,
+   "la": 1.173,
    "trend": [
     {
      "md": 0,
@@ -10069,7 +9865,7 @@
     {
      "md": 10,
      "p": [
-      0.386,
+      0.385,
       0.274,
       0.341
      ]
@@ -10083,7 +9879,6 @@
      0.274,
      0.34
     ],
-    "over25": 0.44,
     "levers": [],
     "at": "2026-11-08T13:31+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
@@ -10093,7 +9888,8 @@
      "version": "e88fed4",
      "mu": 0.216,
      "home": 0.245
-    }
+    },
+    "frozen": true
    }
   },
   {
@@ -10268,8 +10064,8 @@
      ]
     }
    },
-   "lh": 1.331,
-   "la": 1.555,
+   "lh": 1.327,
+   "la": 1.564,
    "trend": [
     {
      "md": 0,
@@ -10354,9 +10150,9 @@
     {
      "md": 10,
      "p": [
-      0.327,
-      0.247,
-      0.427
+      0.324,
+      0.246,
+      0.43
      ]
     }
    ],
@@ -10368,7 +10164,6 @@
      0.242,
      0.467
     ],
-    "over25": 0.557,
     "levers": [
      "eurA"
     ],
@@ -10380,7 +10175,8 @@
      "version": "e88fed4",
      "mu": 0.216,
      "home": 0.245
-    }
+    },
+    "frozen": true
    }
   },
   {
@@ -10577,8 +10373,8 @@
      ]
     }
    },
-   "lh": 2.019,
-   "la": 1.427,
+   "lh": 2.02,
+   "la": 1.43,
    "trend": [
     {
      "md": 0,
@@ -10670,26 +10466,26 @@
     }
    ],
    "published": {
-    "lh": 2.028,
-    "la": 1.433,
+    "lh": 2.029,
+    "la": 1.436,
     "p": [
-     0.514,
+     0.513,
      0.215,
      0.272
     ],
-    "over25": 0.672,
+    "over25": 0.673,
     "levers": [
      "eurH",
      "eurA"
     ],
-    "at": "2026-11-08T13:31+00:00",
+    "at": "2026-11-08T17:00+00:00",
     "firstAt": "2026-10-30T02:09+00:00",
-    "dataAt": "2026-11-08T13:27+00:00",
+    "dataAt": "2026-11-08T16:58+00:00",
     "changes": 2,
     "model": {
-     "version": "e88fed4",
+     "version": "e328990",
      "mu": 0.216,
-     "home": 0.245
+     "home": 0.24
     }
    }
   }

@@ -6917,29 +6917,54 @@
    "id": 2688725,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "43'",
+   "period": 4,
    "home": "Angers SCO",
    "away": "OGC Nice",
    "homeLink": "/fr/equipe/angers-sco-696",
    "awayLink": "/fr/equipe/ogc-nice-262",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 2,
+     "half": 1,
+     "kind": "but",
+     "player": "Sofiane Diop"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     48,
+     52
+    ],
+    "Tirs": [
+     4,
+     9
+    ],
+    "Tirs cadrés": [
+     2,
+     4
+    ],
+    "Duels gagnés": [
+     41,
+     59
+    ]
+   },
    "starters": {
     "home": [
      "Prosper Peter",
      "Amine Sbaï",
      "Branco Van den Boomen",
+     "Jim Allevinah",
      "Haris Belkebla",
      "Yassin Belkhdim",
      "Joseph Kalulu",
      "Jordan Lefort",
      "Ousmane Camara",
      "Carlens Arcus",
-     "Lilian Raolisoa",
      "Anthony Lopes"
     ],
     "away": [
@@ -6948,7 +6973,7 @@
      "Sofiane Diop",
      "Niels Nkounkou",
      "Hicham Boudaoui",
-     "Axel Witsel",
+     "Djibril Coulibaly",
      "Jonathan Clauss",
      "Mohamed Abdelmonem",
      "Youssouf Ndayishimiye",
@@ -7037,23 +7062,48 @@
    "id": 2688727,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "43'",
+   "period": 4,
    "home": "Stade Brestois",
    "away": "Olympique Lyonnais",
    "homeLink": "/fr/equipe/stade-brestois-254",
    "awayLink": "/fr/equipe/olympique-lyonnais-19",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 22,
+     "half": 1,
+     "kind": "but",
+     "player": "Noah Edjouma"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     30,
+     70
+    ],
+    "Tirs": [
+     5,
+     5
+    ],
+    "Tirs cadrés": [
+     3,
+     0
+    ],
+    "Duels gagnés": [
+     46,
+     54
+    ]
+   },
    "starters": {
     "home": [
      "Ludovic Ajorque",
-     "Pathé Mboup",
-     "Kamory Doumbia",
      "Mama Balde",
+     "Kamory Doumbia",
+     "Noah Edjouma",
      "Hugo Magnetti",
      "Joris Chotard",
      "Bradley Locko",
@@ -7063,15 +7113,15 @@
      "Egil Selvik"
     ],
     "away": [
-     "Julien Duranville",
      "Keito Nakamura",
-     "Ernest Nuamah",
+     "Khalis Merah",
+     "Kaïl Boudache",
      "Corentin Tolisso",
      "Tanner Tessmann",
-     "Mads Bidstrup",
-     "Abner Vinicius Da Silva Santos",
+     "Noah Nartey",
+     "Nicolás Tagliafico",
      "Moussa Niakhaté",
-     "Felix Bacher",
+     "Ruben Kluivert",
      "Zachary Athekame",
      "Dominik Greif"
     ]
@@ -7081,34 +7131,59 @@
    "id": 2688728,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "43'",
+   "period": 4,
    "home": "Le Havre AC",
    "away": "FC Lorient",
    "homeLink": "/fr/equipe/le-havre-ac-701",
    "awayLink": "/fr/equipe/fc-lorient-258",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 18,
+     "half": 1,
+     "kind": "but",
+     "player": "Isaak Touré"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     43,
+     57
+    ],
+    "Tirs": [
+     6,
+     4
+    ],
+    "Tirs cadrés": [
+     1,
+     2
+    ],
+    "Duels gagnés": [
+     55,
+     42
+    ]
+   },
    "starters": {
     "home": [
      "Josh Maja",
-     "Sota Nakamura",
+     "Kaito Mizuta",
      "Rayan Fofana",
-     "Lamine Ndiaye",
-     "Amir Richardson",
+     "Mbwana Samatta",
+     "Junior Mwanga",
      "Simon Ebonog",
      "Djibril Ouziad",
+     "Enzo Koffi",
      "Ahmed Touba",
-     "Junior Mwanga",
      "Vincent Sasso",
      "Arnaud Bodart"
     ],
     "away": [
-     "Mamadou Koné",
-     "Souleymane Faye",
+     "Oluwatosin Aiyegun",
+     "Gabin Bernardeau",
      "Jean-Victor Makengo",
      "Arsène Kouassi",
      "Arthur Avom",
@@ -7125,38 +7200,63 @@
    "id": 2688729,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "43'",
+   "period": 4,
    "home": "Le Mans FC",
    "away": "AS Monaco",
    "homeLink": "/fr/equipe/le-mans-fc-269",
    "awayLink": "/fr/equipe/as-monaco-259",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 0,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 40,
+     "half": 1,
+     "kind": "but",
+     "player": "Mamadou Coulibaly"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     45,
+     55
+    ],
+    "Tirs": [
+     6,
+     4
+    ],
+    "Tirs cadrés": [
+     1,
+     2
+    ],
+    "Duels gagnés": [
+     51,
+     47
+    ]
+   },
    "starters": {
     "home": [
      "Dame Gueye",
      "Louis Mafouta",
      "Lucas Calodat",
-     "Lucas Bretelle",
      "Jean Vercruysse",
+     "Daouda Traoré",
      "Lucas Buades",
-     "Alexandre Lauray",
+     "Lucas Bretelle",
      "Harold Voyer",
      "Samuel Yohou",
-     "Noa Boissé",
+     "Rayan Bamba",
      "Nicolas Kocik"
     ],
     "away": [
-     "Paris Brunner",
      "Matthis Abline",
+     "Mathys Detourbet",
      "Aleksandr Golovin",
+     "Mamadou Coulibaly",
      "Lamine Camara",
      "Denis Zakaria",
-     "Takumi Minamino",
      "Flávio Nazinho",
      "Eric Dier",
      "Sadibou Sané",
@@ -7238,17 +7338,56 @@
    "id": 2688731,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T14:00:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Stade Rennais",
    "away": "LOSC",
    "homeLink": "/fr/equipe/stade-rennais-264",
    "awayLink": "/fr/equipe/losc-257",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 1,
+   "ag": 2,
+   "goals": [
+    {
+     "side": "away",
+     "min": 24,
+     "half": 1,
+     "kind": "but",
+     "player": "Soriba Diaoune"
+    },
+    {
+     "side": "home",
+     "min": 31,
+     "half": 1,
+     "kind": "but",
+     "player": "Boulaye Dia"
+    },
+    {
+     "side": "away",
+     "min": 68,
+     "half": 2,
+     "kind": "but",
+     "player": "Nathan Ngoy"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     56,
+     44
+    ],
+    "Tirs": [
+     15,
+     8
+    ],
+    "Tirs cadrés": [
+     2,
+     3
+    ],
+    "Duels gagnés": [
+     59,
+     41
+    ]
+   },
    "starters": {
     "home": [
      "Eliezer Mayenda",
@@ -9412,7 +9551,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-08T13:27+00:00",
+ "fetchedAt": "2026-11-08T16:58+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
