@@ -713,9 +713,9 @@
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
-   "modèle mondial"
+   "Météo-France"
   ],
-  "updated": "2026-11-08T13:29+00:00",
+  "updated": "2026-11-08T21:13+00:00",
   "history": [
    {
     "day": "2026-11-01",

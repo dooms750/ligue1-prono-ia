@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 10,
-  "fetchedAt": "2026-11-08T21:01+00:00",
-  "generatedAt": "2026-11-08T21:02+00:00",
+  "fetchedAt": "2026-11-08T21:11+00:00",
+  "generatedAt": "2026-11-08T21:14+00:00",
   "checks": {
    "compared": 89,
    "agree": 89,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-08T13:27+00:00",
-    "lastAttempt": "2026-11-08T13:27+00:00",
+    "lastOk": "2026-11-08T21:11+00:00",
+    "lastAttempt": "2026-11-08T21:11+00:00",
     "error": null,
     "failures": 0,
-    "count": 134
+    "count": 135
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-08T21:01+00:00",
-    "lastAttempt": "2026-11-08T21:01+00:00",
+    "lastOk": "2026-11-08T21:13+00:00",
+    "lastAttempt": "2026-11-08T21:13+00:00",
     "error": null,
     "failures": 0,
     "count": 89
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-08T13:29+00:00",
-    "lastAttempt": "2026-11-08T13:29+00:00",
+    "lastOk": "2026-11-08T21:13+00:00",
+    "lastAttempt": "2026-11-08T21:13+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-08T13:30+00:00",
-    "lastAttempt": "2026-11-08T13:30+00:00",
+    "lastOk": "2026-11-08T21:13+00:00",
+    "lastAttempt": "2026-11-08T21:13+00:00",
     "error": null,
     "failures": 0,
     "count": 81
@@ -69,11 +69,11 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-08T13:30+00:00",
-    "lastAttempt": "2026-11-08T13:30+00:00",
+    "lastOk": "2026-11-08T21:13+00:00",
+    "lastAttempt": "2026-11-08T21:13+00:00",
     "error": null,
     "failures": 0,
-    "count": 1222
+    "count": 1227
    }
   ]
  },
@@ -85,19 +85,19 @@
     "kept": false,
     "own": 1.0,
     "other": 1.0,
-    "measuredOwn": 1.009,
-    "n": 332,
-    "nTest": 317,
+    "measuredOwn": 1.006,
+    "n": 335,
+    "nTest": 320,
     "gain": -0.0015
    },
    "coupe": {
     "kept": true,
-    "own": 1.064,
-    "other": 0.944,
-    "measuredOwn": 1.064,
-    "n": 223,
-    "nTest": 208,
-    "gain": 0.004
+    "own": 1.058,
+    "other": 0.948,
+    "measuredOwn": 1.058,
+    "n": 226,
+    "nTest": 211,
+    "gain": 0.0029
    },
    "meteo": {
     "kept": false,
@@ -112,7 +112,7 @@
   "live": {
    "params": {
     "alpha": 0.0,
-    "gamma": 0.1872,
+    "gamma": 0.1868,
     "trail": 0.0,
     "lead": 0.0,
     "redOwn": -0.3285,
@@ -796,62 +796,62 @@
    "current": "2627",
    "notInCommon": 0
   },
-  "linked": 1002,
-  "generatedAt": "2026-11-08T21:01+00:00",
+  "linked": 1007,
+  "generatedAt": "2026-11-08T21:13+00:00",
   "levers": {
    "buteur": {
-    "n": 332,
-    "nKnown": 701,
-    "nTest": 317,
-    "own": 1.009,
+    "n": 335,
+    "nKnown": 704,
+    "nTest": 320,
+    "own": 1.006,
     "other": 1.0,
-    "sd": 0.042,
+    "sd": 0.056,
     "ci": [
-     0.941,
-     1.082
+     0.917,
+     1.103
     ],
     "hypothesis": {
      "own": 0.86,
      "other": 1.0
     },
     "gain": -0.0015,
-    "gainHyp": -0.0057,
+    "gainHyp": -0.0053,
     "gainCi": [
      -0.0053,
      0.0023
     ],
-    "goalsObserved": 927,
-    "goalsExpected": 927.0,
+    "goalsObserved": 934,
+    "goalsExpected": 935.6,
     "kept": false
    },
    "coupe": {
-    "n": 223,
-    "nKnown": 1002,
-    "nTest": 208,
-    "own": 1.064,
-    "other": 0.944,
+    "n": 226,
+    "nKnown": 1007,
+    "nTest": 211,
+    "own": 1.058,
+    "other": 0.948,
     "sd": 0.047,
     "ci": [
-     0.985,
-     1.15
+     0.979,
+     1.143
     ],
     "hypothesis": {
      "own": 0.95,
      "other": 1.03
     },
-    "gain": 0.004,
-    "gainHyp": -0.0077,
+    "gain": 0.0029,
+    "gainHyp": -0.0069,
     "gainCi": [
-     -0.0048,
-     0.0134
+     -0.0058,
+     0.0123
     ],
-    "goalsObserved": 664,
-    "goalsExpected": 648.6,
+    "goalsObserved": 671,
+    "goalsExpected": 657.2,
     "kept": true
    },
    "meteo": {
     "n": 109,
-    "nKnown": 998,
+    "nKnown": 999,
     "nTest": 94,
     "own": 0.989,
     "other": 0.989,
@@ -878,7 +878,7 @@
   "live": {
    "params": {
     "alpha": 0.0,
-    "gamma": 0.1872,
+    "gamma": 0.1868,
     "trail": 0.0,
     "lead": 0.0,
     "redOwn": -0.3285,
@@ -887,12 +887,12 @@
    },
    "fitted": {
     "alpha": 0.0,
-    "gamma": 0.1788,
-    "trail": 0.0482,
-    "lead": -0.0133,
-    "redOwn": -0.4369,
-    "redOpp": 0.4431,
-    "sot": 0.1126
+    "gamma": 0.1793,
+    "trail": 0.0434,
+    "lead": -0.0157,
+    "redOwn": -0.4357,
+    "redOpp": 0.4448,
+    "sot": 0.1102
    },
    "used": "mesuré",
    "blocks": {
@@ -902,7 +902,7 @@
     },
     "rythme": {
      "kept": true,
-     "gain": 0.0137
+     "gain": 0.0136
     },
     "score": {
      "kept": false,
@@ -910,7 +910,7 @@
     },
     "tirs": {
      "kept": false,
-     "gain": -0.0137
+     "gain": -0.0133
     }
    },
    "chosen": [
@@ -920,7 +920,7 @@
     {
      "block": "rythme",
      "with": [],
-     "gain": 0.0137
+     "gain": 0.0136
     },
     {
      "block": "cartons",
@@ -935,32 +935,32 @@
     {
      "block": "tirs",
      "with": [],
-     "gain": -0.0137
+     "gain": -0.0133
     },
     {
      "block": "score",
      "with": [
       "rythme"
      ],
-     "gain": 0.0109
+     "gain": 0.0108
     },
     {
      "block": "cartons",
      "with": [
       "rythme"
      ],
-     "gain": 0.0108
+     "gain": 0.0107
     },
     {
      "block": "tirs",
      "with": [
       "rythme"
      ],
-     "gain": 0.0018
+     "gain": 0.0021
     }
    ],
-   "n": 1002,
-   "nShots": 1000,
+   "n": 1007,
+   "nShots": 1005,
    "nReds": 244,
    "tested": [
     "2425",
@@ -970,45 +970,45 @@
    "table": [
     {
      "min": 15,
-     "n": 696,
+     "n": 701,
      "old": {
-      "logloss": 0.9446,
-      "brier": 0.5588
+      "logloss": 0.9447,
+      "brier": 0.5589
      },
      "new": {
-      "logloss": 0.944,
+      "logloss": 0.9442,
       "brier": 0.5585
      },
      "gainCi": [
       0.0001,
-      0.0011
+      0.001
      ]
     },
     {
      "min": 30,
-     "n": 696,
+     "n": 701,
      "old": {
-      "logloss": 0.8759,
-      "brier": 0.5145
+      "logloss": 0.8736,
+      "brier": 0.5129
      },
      "new": {
-      "logloss": 0.8747,
-      "brier": 0.5138
+      "logloss": 0.8725,
+      "brier": 0.5122
      },
      "gainCi": [
-      0.0001,
-      0.0023
+      0.0,
+      0.0022
      ]
     },
     {
      "min": 45,
-     "n": 696,
+     "n": 701,
      "old": {
-      "logloss": 0.7818,
+      "logloss": 0.7817,
       "brier": 0.4548
      },
      "new": {
-      "logloss": 0.7802,
+      "logloss": 0.7801,
       "brier": 0.4539
      },
      "gainCi": [
@@ -1018,49 +1018,49 @@
     },
     {
      "min": 60,
-     "n": 696,
+     "n": 701,
      "old": {
-      "logloss": 0.7097,
-      "brier": 0.4042
+      "logloss": 0.7101,
+      "brier": 0.4047
      },
      "new": {
-      "logloss": 0.706,
-      "brier": 0.403
+      "logloss": 0.7064,
+      "brier": 0.4034
      },
      "gainCi": [
-      0.0012,
-      0.0063
+      0.0013,
+      0.0064
      ]
     },
     {
      "min": 75,
-     "n": 696,
+     "n": 701,
      "old": {
-      "logloss": 0.5517,
-      "brier": 0.3158
+      "logloss": 0.5515,
+      "brier": 0.3159
      },
      "new": {
-      "logloss": 0.5482,
-      "brier": 0.314
+      "logloss": 0.5481,
+      "brier": 0.3141
      },
      "gainCi": [
-      0.0008,
+      0.0009,
       0.0061
      ]
     },
     {
      "min": 85,
-     "n": 696,
+     "n": 701,
      "old": {
-      "logloss": 0.3941,
-      "brier": 0.2167
+      "logloss": 0.3951,
+      "brier": 0.2175
      },
      "new": {
-      "logloss": 0.391,
-      "brier": 0.2154
+      "logloss": 0.3919,
+      "brier": 0.2162
      },
      "gainCi": [
-      0.0006,
+      0.0007,
       0.0058
      ]
     }
@@ -9364,32 +9364,25 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "Retiré de la liste croate, humilié deux fois en un mois et forfait, rien ne va pour un Ivanovic qui se sentirait isolé",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/retire-de-la-liste-croate-humilie-deux-fois-en-un-mois-et-forfait-rien-ne-va-pour-un-ivanovic-qui-se-sentirait-isole-43745119",
-        "time": "2026-11-08T09:00:07Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "Bien mais peut mieux faire pour Lens à domicile contre l’OM",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/bien-mais-peut-mieux-faire-pour-lens-a-domicile-contre-lom-43745609",
-        "time": "2026-11-08T10:45:31Z"
+        "title": "🎥 Lunaire, Lens offre un but GAG à l'OM après deux minutes 😱",
+        "publisher": "OneFootball",
+        "url": "https://onefootball.com/fr/news/lunaire-lens-offre-un-but-gag-a-lom-apres-deux-minutes-43748230",
+        "time": "2026-11-08T19:54:56Z"
        },
        {
-        "title": "Lens – OM : un RC Lens à relever après le 1-9 contre Côme face à un Marseille sur quatre victoires, compositions probables, chaîne TV et heure",
-        "publisher": "BeFootball",
-        "url": "https://onefootball.com/fr/news/lens-om-un-rc-lens-a-relever-apres-le-1-9-contre-come-face-a-un-marseille-sur-quatre-victoires-compositions-probables-chaine-tv-et-heure-43745439",
-        "time": "2026-11-08T10:05:00Z"
-       },
-       {
-        "title": "RC Lens - Les Lensois arboreront un maillot spécial contre l'OM pour une occasion très particulière",
+        "title": "Ligue 1 - RC Lens - OM : erreur de la défense et but de l'OM au bout de 2 min, Lens est en plein cauchemar (vidéo)",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-les-lensois-arboreront-un-maillot-special-contre-lom-pour-une-occasion-tres-particuliere-43745373",
-        "time": "2026-11-08T09:51:00Z"
+        "url": "https://onefootball.com/fr/news/ligue-1-rc-lens-om-erreur-de-la-defense-et-but-de-lom-au-bout-de-2-min-lens-est-en-plein-cauchemar-video-43748254",
+        "time": "2026-11-08T19:53:00Z"
+       },
+       {
+        "title": "RC Lens - La banderole cinglante des supporters lensois après la défaite historique face à Côme",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-la-banderole-cinglante-des-supporters-lensois-apres-la-defaite-historique-face-a-come-43748187",
+        "time": "2026-11-08T19:42:00Z"
        }
       ],
       "scorer": {
@@ -9399,32 +9392,19 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "OM : un absent de taille confirmé contre Lens, Harit bien de retour",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-un-absent-de-taille-confirme-contre-lens-harit-bien-de-retour-43745509",
-        "time": "2026-11-08T10:25:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "\"Il n'y a pas un joueur qui est en capacité de jouer avec l'équipe première\" : en National 2, le coach de l'OM voit rouge",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/il-ny-a-pas-un-joueur-qui-est-en-capacite-de-jouer-avec-lequipe-premiere-en-national-2-le-coach-de-lom-voit-rouge-43746149",
-        "time": "2026-11-08T12:57:00Z"
-       },
-       {
-        "title": "CJ Egan-Riley s’éclate désormais à l’OM",
-        "publisher": "Mercato Foot anglais",
-        "url": "https://onefootball.com/fr/news/cj-egan-riley-seclate-desormais-a-lom-43746085",
-        "time": "2026-11-08T12:39:00Z"
-       },
-       {
-        "title": "OM - \"On n'a pas tout réglé\", Bruno Genesio reste très mesuré sur la situation sportive de l'OM et les objectifs de la saison",
+        "title": "OM - \"On nous a fait passer pour une équipe de L2...\", Amine Gouiri répond sèchement aux critiques",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-on-na-pas-tout-regle-bruno-genesio-reste-tres-mesure-sur-la-situation-sportive-de-lom-et-les-objectifs-de-la-saison-43745512",
-        "time": "2026-11-08T10:25:00Z"
+        "url": "https://onefootball.com/fr/news/om-on-nous-a-fait-passer-pour-une-equipe-de-l2-amine-gouiri-repond-sechement-aux-critiques-43748188",
+        "time": "2026-11-08T19:46:00Z"
+       },
+       {
+        "title": "OM – La Provence dézingue la gestion de Pablo Longoria",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-la-provence-dezingue-la-gestion-de-pablo-longoria-43747652",
+        "time": "2026-11-08T18:00:58Z"
        }
       ],
       "scorer": {
@@ -9466,9 +9446,9 @@
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
-      "modèle mondial"
+      "Météo-France"
      ],
-     "updated": "2026-11-08T13:29+00:00",
+     "updated": "2026-11-08T21:13+00:00",
      "history": [
       {
        "day": "2026-11-01",
