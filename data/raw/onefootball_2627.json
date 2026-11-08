@@ -6917,14 +6917,14 @@
    "id": 2688725,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "43'",
-   "period": 4,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Angers SCO",
    "away": "OGC Nice",
    "homeLink": "/fr/equipe/angers-sco-696",
    "awayLink": "/fr/equipe/ogc-nice-262",
    "hg": 0,
-   "ag": 1,
+   "ag": 2,
    "goals": [
     {
      "side": "away",
@@ -6932,25 +6932,32 @@
      "half": 1,
      "kind": "but",
      "player": "Sofiane Diop"
+    },
+    {
+     "side": "away",
+     "min": 78,
+     "half": 2,
+     "kind": "but",
+     "player": "Jonathan Clauss"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     48,
-     52
+     52,
+     48
     ],
     "Tirs": [
-     4,
-     9
+     12,
+     16
     ],
     "Tirs cadrés": [
-     2,
-     4
+     4,
+     8
     ],
     "Duels gagnés": [
-     41,
-     59
+     53,
+     47
     ]
    },
    "starters": {
@@ -7062,13 +7069,13 @@
    "id": 2688727,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "43'",
-   "period": 4,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Stade Brestois",
    "away": "Olympique Lyonnais",
    "homeLink": "/fr/equipe/stade-brestois-254",
    "awayLink": "/fr/equipe/olympique-lyonnais-19",
-   "hg": 1,
+   "hg": 2,
    "ag": 0,
    "goals": [
     {
@@ -7077,21 +7084,28 @@
      "half": 1,
      "kind": "but",
      "player": "Noah Edjouma"
+    },
+    {
+     "side": "home",
+     "min": 94,
+     "half": 2,
+     "kind": "penalty",
+     "player": "Ludovic Ajorque"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     30,
-     70
+     31,
+     69
     ],
     "Tirs": [
-     5,
-     5
+     13,
+     10
     ],
     "Tirs cadrés": [
-     3,
-     0
+     6,
+     2
     ],
     "Duels gagnés": [
      46,
@@ -7131,14 +7145,14 @@
    "id": 2688728,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "43'",
-   "period": 4,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Le Havre AC",
    "away": "FC Lorient",
    "homeLink": "/fr/equipe/le-havre-ac-701",
    "awayLink": "/fr/equipe/fc-lorient-258",
    "hg": 0,
-   "ag": 1,
+   "ag": 2,
    "goals": [
     {
      "side": "away",
@@ -7146,24 +7160,38 @@
      "half": 1,
      "kind": "but",
      "player": "Isaak Touré"
+    },
+    {
+     "side": "home",
+     "min": 59,
+     "half": 2,
+     "kind": "refuse",
+     "player": "Josh Maja"
+    },
+    {
+     "side": "away",
+     "min": 95,
+     "half": 2,
+     "kind": "but",
+     "player": "Jean-Victor Makengo"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     43,
-     57
+     54,
+     46
     ],
     "Tirs": [
-     6,
-     4
+     21,
+     7
     ],
     "Tirs cadrés": [
-     1,
-     2
+     5,
+     3
     ],
     "Duels gagnés": [
-     55,
+     58,
      42
     ]
    },
@@ -7200,13 +7228,13 @@
    "id": 2688729,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T16:15:00Z",
-   "status": "43'",
-   "period": 4,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Le Mans FC",
    "away": "AS Monaco",
    "homeLink": "/fr/equipe/le-mans-fc-269",
    "awayLink": "/fr/equipe/as-monaco-259",
-   "hg": 0,
+   "hg": 1,
    "ag": 1,
    "goals": [
     {
@@ -7215,24 +7243,31 @@
      "half": 1,
      "kind": "but",
      "player": "Mamadou Coulibaly"
+    },
+    {
+     "side": "home",
+     "min": 90,
+     "half": 2,
+     "kind": "but",
+     "player": "Erwan Colas"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     45,
-     55
+     48,
+     52
     ],
     "Tirs": [
-     6,
-     4
+     19,
+     5
     ],
     "Tirs cadrés": [
-     1,
-     2
+     5,
+     3
     ],
     "Duels gagnés": [
-     51,
+     53,
      47
     ]
    },
@@ -7511,37 +7546,69 @@
    "id": 2688733,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T19:45:00Z",
-   "status": "",
-   "period": 1,
+   "status": "57'",
+   "period": 8,
    "home": "RC Lens",
    "away": "Olympique de Marseille",
    "homeLink": "/fr/equipe/rc-lens-256",
    "awayLink": "/fr/equipe/olympique-de-marseille-22",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "home",
+     "min": 20,
+     "half": 1,
+     "kind": "but",
+     "player": "Florian Thauvin"
+    },
+    {
+     "side": "away",
+     "min": 2,
+     "half": 1,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     37,
+     63
+    ],
+    "Tirs": [
+     11,
+     11
+    ],
+    "Tirs cadrés": [
+     4,
+     3
+    ],
+    "Duels gagnés": [
+     38,
+     63
+    ]
+   },
    "starters": {
     "home": [
      "Thorgan Hazard",
      "Florian Sotoca",
      "Florian Thauvin",
      "Matthieu Udol",
-     "Mickael Cuisance",
      "Amadou Haidara",
+     "Yacine Titraoui",
      "Saud Abdulhamid",
      "Jean-Clair Todibo",
      "Samson Baidoo",
-     "Ruben Aguilar",
+     "Jonathan Gradit",
      "Robin Risser"
     ],
     "away": [
      "Amine Gouiri",
      "Igor Paixao",
-     "Tochukwu Nnadi",
      "Himad Abdelli",
      "Amine Harit",
+     "Tochukwu Nnadi",
      "Pierre-Emile Højbjerg",
      "Ulisses Alexandre Garcia",
      "Nayef Aguerd",
@@ -9551,7 +9618,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-08T16:58+00:00",
+ "fetchedAt": "2026-11-08T21:01+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
