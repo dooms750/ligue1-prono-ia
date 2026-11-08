@@ -714,19 +714,19 @@
   "date": "2026-11-08",
   "time": "15:00",
   "md": 10,
-  "at": "2026-11-08T00:55+00:00",
-  "dataAt": "2026-11-08T00:55+00:00",
+  "at": "2026-11-08T13:31+00:00",
+  "dataAt": "2026-11-08T13:27+00:00",
   "model": {
-   "version": "bb531d2",
+   "version": "e88fed4",
    "mu": 0.216,
    "home": 0.245
   },
-  "lh": 1.654,
-  "la": 1.383,
+  "lh": 1.648,
+  "la": 1.382,
   "p": [
-   0.44,
+   0.438,
    0.239,
-   0.321
+   0.322
   ],
   "levers": [
    "eurH"
@@ -741,17 +741,11 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 98,
-    "updated": "2026-11-07T20:56+00:00",
-    "daysBefore": 1
+    "updated": "2026-11-08T13:29+00:00",
+    "daysBefore": 0
    },
    "presse": {
-    "H": {
-     "title": "Stade rennais - Lille : Lepaul forfait, Frankowski espéré, des nouvelles rassurantes de Samba",
-     "publisher": "Stade Rennais Online",
-     "url": "https://onefootball.com/fr/news/stade-rennais-lille-lepaul-forfait-frankowski-espere-des-nouvelles-rassurantes-de-samba-43737599",
-     "time": "2026-11-06T18:55:07Z",
-     "about": "buteur"
-    },
+    "H": null,
     "A": null
    },
    "coupe": {
@@ -789,10 +783,10 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-08T00:55+00:00",
-  "dataAt": "2026-11-08T00:55+00:00",
+  "at": "2026-11-08T13:31+00:00",
+  "dataAt": "2026-11-08T13:27+00:00",
   "model": {
-   "version": "bb531d2",
+   "version": "e88fed4",
    "mu": 0.216,
    "home": 0.245
   },
@@ -814,8 +808,8 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 98,
-    "updated": "2026-11-07T20:56+00:00",
-    "daysBefore": 1
+    "updated": "2026-11-08T13:29+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
@@ -850,19 +844,19 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-08T00:55+00:00",
-  "dataAt": "2026-11-08T00:55+00:00",
+  "at": "2026-11-08T13:31+00:00",
+  "dataAt": "2026-11-08T13:27+00:00",
   "model": {
-   "version": "bb531d2",
+   "version": "e88fed4",
    "mu": 0.216,
    "home": 0.245
   },
-  "lh": 1.376,
-  "la": 1.364,
+  "lh": 1.374,
+  "la": 1.359,
   "p": [
    0.375,
    0.256,
-   0.369
+   0.368
   ],
   "levers": [
    "eurA"
@@ -874,11 +868,11 @@
   ],
   "inputs": {
    "meteo": {
-    "pRain": 0.0,
+    "pRain": 0.02,
     "pWind": 0.0,
-    "confidence": 98,
-    "updated": "2026-11-07T20:56+00:00",
-    "daysBefore": 1
+    "confidence": 97,
+    "updated": "2026-11-08T13:29+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
@@ -927,10 +921,10 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-08T00:55+00:00",
-  "dataAt": "2026-11-08T00:55+00:00",
+  "at": "2026-11-08T13:31+00:00",
+  "dataAt": "2026-11-08T13:27+00:00",
   "model": {
-   "version": "bb531d2",
+   "version": "e88fed4",
    "mu": 0.216,
    "home": 0.245
   },
@@ -952,8 +946,8 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 99,
-    "updated": "2026-11-07T20:56+00:00",
-    "daysBefore": 1
+    "updated": "2026-11-08T13:29+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
@@ -996,19 +990,19 @@
   "date": "2026-11-08",
   "time": "17:15",
   "md": 10,
-  "at": "2026-11-08T00:55+00:00",
-  "dataAt": "2026-11-08T00:55+00:00",
+  "at": "2026-11-08T13:31+00:00",
+  "dataAt": "2026-11-08T13:27+00:00",
   "model": {
-   "version": "bb531d2",
+   "version": "e88fed4",
    "mu": 0.216,
    "home": 0.245
   },
-  "lh": 1.258,
-  "la": 1.661,
+  "lh": 1.256,
+  "la": 1.655,
   "p": [
-   0.29,
-   0.241,
-   0.468
+   0.291,
+   0.242,
+   0.467
   ],
   "levers": [
    "eurA"
@@ -1023,8 +1017,8 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "confidence": 99,
-    "updated": "2026-11-07T20:56+00:00",
-    "daysBefore": 1
+    "updated": "2026-11-08T13:29+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
@@ -1065,18 +1059,18 @@
   "date": "2026-11-08",
   "time": "20:45",
   "md": 10,
-  "at": "2026-11-08T00:55+00:00",
-  "dataAt": "2026-11-08T00:55+00:00",
+  "at": "2026-11-08T13:31+00:00",
+  "dataAt": "2026-11-08T13:27+00:00",
   "model": {
-   "version": "bb531d2",
+   "version": "e88fed4",
    "mu": 0.216,
    "home": 0.245
   },
-  "lh": 2.038,
-  "la": 1.44,
+  "lh": 2.028,
+  "la": 1.433,
   "p": [
    0.514,
-   0.214,
+   0.215,
    0.272
   ],
   "levers": [
@@ -1092,9 +1086,9 @@
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 97,
-    "updated": "2026-11-07T20:56+00:00",
-    "daysBefore": 1
+    "confidence": 98,
+    "updated": "2026-11-08T13:29+00:00",
+    "daysBefore": 0
    },
    "presse": {
     "H": null,
