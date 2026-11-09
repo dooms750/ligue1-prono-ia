@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-09T00:41+00:00",
-  "generatedAt": "2026-11-09T00:42+00:00",
+  "fetchedAt": "2026-11-09T16:24+00:00",
+  "generatedAt": "2026-11-09T16:27+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-08T21:11+00:00",
-    "lastAttempt": "2026-11-08T21:11+00:00",
+    "lastOk": "2026-11-09T16:24+00:00",
+    "lastAttempt": "2026-11-09T16:24+00:00",
     "error": null,
     "failures": 0,
-    "count": 135
+    "count": 136
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-09T00:41+00:00",
-    "lastAttempt": "2026-11-09T00:41+00:00",
+    "lastOk": "2026-11-09T16:26+00:00",
+    "lastAttempt": "2026-11-09T16:26+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-08T21:13+00:00",
-    "lastAttempt": "2026-11-08T21:13+00:00",
+    "lastOk": "2026-11-09T16:26+00:00",
+    "lastAttempt": "2026-11-09T16:26+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,21 +59,21 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-08T21:13+00:00",
-    "lastAttempt": "2026-11-08T21:13+00:00",
+    "lastOk": "2026-11-09T16:26+00:00",
+    "lastAttempt": "2026-11-09T16:26+00:00",
     "error": null,
     "failures": 0,
-    "count": 81
+    "count": 90
    },
    {
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-08T21:13+00:00",
-    "lastAttempt": "2026-11-08T21:13+00:00",
+    "lastOk": "2026-11-09T16:26+00:00",
+    "lastAttempt": "2026-11-09T16:26+00:00",
     "error": null,
     "failures": 0,
-    "count": 1227
+    "count": 1228
    }
   ]
  },
@@ -92,11 +92,11 @@
    },
    "coupe": {
     "kept": true,
-    "own": 1.058,
-    "other": 0.948,
-    "measuredOwn": 1.058,
-    "n": 226,
-    "nTest": 211,
+    "own": 1.057,
+    "other": 0.947,
+    "measuredOwn": 1.057,
+    "n": 227,
+    "nTest": 212,
     "gain": 0.0029
    },
    "meteo": {
@@ -112,7 +112,7 @@
   "live": {
    "params": {
     "alpha": 0.0,
-    "gamma": 0.1868,
+    "gamma": 0.1856,
     "trail": 0.0,
     "lead": 0.0,
     "redOwn": -0.3285,
@@ -796,19 +796,19 @@
    "current": "2627",
    "notInCommon": 0
   },
-  "linked": 1007,
-  "generatedAt": "2026-11-09T00:41+00:00",
+  "linked": 1008,
+  "generatedAt": "2026-11-09T16:26+00:00",
   "levers": {
    "buteur": {
     "n": 335,
-    "nKnown": 704,
+    "nKnown": 705,
     "nTest": 320,
     "own": 1.006,
     "other": 1.0,
-    "sd": 0.056,
+    "sd": 0.039,
     "ci": [
-     0.917,
-     1.103
+     0.943,
+     1.073
     ],
     "hypothesis": {
      "own": 0.86,
@@ -825,15 +825,15 @@
     "kept": false
    },
    "coupe": {
-    "n": 226,
-    "nKnown": 1007,
-    "nTest": 211,
-    "own": 1.058,
-    "other": 0.948,
-    "sd": 0.047,
+    "n": 227,
+    "nKnown": 1008,
+    "nTest": 212,
+    "own": 1.057,
+    "other": 0.947,
+    "sd": 0.045,
     "ci": [
-     0.979,
-     1.143
+     0.982,
+     1.138
     ],
     "hypothesis": {
      "own": 0.95,
@@ -842,11 +842,11 @@
     "gain": 0.0029,
     "gainHyp": -0.0069,
     "gainCi": [
-     -0.0058,
-     0.0123
+     -0.006,
+     0.0124
     ],
-    "goalsObserved": 671,
-    "goalsExpected": 657.2,
+    "goalsObserved": 674,
+    "goalsExpected": 660.6,
     "kept": true
    },
    "meteo": {
@@ -878,7 +878,7 @@
   "live": {
    "params": {
     "alpha": 0.0,
-    "gamma": 0.1868,
+    "gamma": 0.1856,
     "trail": 0.0,
     "lead": 0.0,
     "redOwn": -0.3285,
@@ -887,12 +887,12 @@
    },
    "fitted": {
     "alpha": 0.0,
-    "gamma": 0.1793,
-    "trail": 0.0434,
-    "lead": -0.0157,
-    "redOwn": -0.4357,
-    "redOpp": 0.4448,
-    "sot": 0.1102
+    "gamma": 0.1778,
+    "trail": 0.0439,
+    "lead": -0.0159,
+    "redOwn": -0.4356,
+    "redOpp": 0.4453,
+    "sot": 0.1094
    },
    "used": "mesuré",
    "blocks": {
@@ -902,15 +902,15 @@
     },
     "rythme": {
      "kept": true,
-     "gain": 0.0136
+     "gain": 0.0137
     },
     "score": {
      "kept": false,
-     "gain": -0.0011
+     "gain": -0.0012
     },
     "tirs": {
      "kept": false,
-     "gain": -0.0133
+     "gain": -0.0134
     }
    },
    "chosen": [
@@ -920,7 +920,7 @@
     {
      "block": "rythme",
      "with": [],
-     "gain": 0.0136
+     "gain": 0.0137
     },
     {
      "block": "cartons",
@@ -930,37 +930,37 @@
     {
      "block": "score",
      "with": [],
-     "gain": -0.0011
+     "gain": -0.0012
     },
     {
      "block": "tirs",
      "with": [],
-     "gain": -0.0133
+     "gain": -0.0134
     },
     {
      "block": "score",
      "with": [
       "rythme"
      ],
-     "gain": 0.0108
+     "gain": 0.0109
     },
     {
      "block": "cartons",
      "with": [
       "rythme"
      ],
-     "gain": 0.0107
+     "gain": 0.0108
     },
     {
      "block": "tirs",
      "with": [
       "rythme"
      ],
-     "gain": 0.0021
+     "gain": 0.0022
     }
    ],
-   "n": 1007,
-   "nShots": 1005,
+   "n": 1008,
+   "nShots": 1006,
    "nReds": 244,
    "tested": [
     "2425",
@@ -970,46 +970,46 @@
    "table": [
     {
      "min": 15,
-     "n": 701,
+     "n": 702,
      "old": {
-      "logloss": 0.9447,
-      "brier": 0.5589
+      "logloss": 0.9443,
+      "brier": 0.5586
      },
      "new": {
-      "logloss": 0.9442,
-      "brier": 0.5585
+      "logloss": 0.9438,
+      "brier": 0.5583
      },
      "gainCi": [
-      0.0001,
+      0.0,
       0.001
      ]
     },
     {
      "min": 30,
-     "n": 701,
+     "n": 702,
      "old": {
-      "logloss": 0.8736,
-      "brier": 0.5129
+      "logloss": 0.8743,
+      "brier": 0.5133
      },
      "new": {
-      "logloss": 0.8725,
-      "brier": 0.5122
+      "logloss": 0.8732,
+      "brier": 0.5126
      },
      "gainCi": [
-      0.0,
+      0.0001,
       0.0022
      ]
     },
     {
      "min": 45,
-     "n": 701,
+     "n": 702,
      "old": {
-      "logloss": 0.7817,
-      "brier": 0.4548
+      "logloss": 0.7826,
+      "brier": 0.4554
      },
      "new": {
-      "logloss": 0.7801,
-      "brier": 0.4539
+      "logloss": 0.7809,
+      "brier": 0.4545
      },
      "gainCi": [
       -0.0,
@@ -1018,50 +1018,50 @@
     },
     {
      "min": 60,
-     "n": 701,
+     "n": 702,
      "old": {
-      "logloss": 0.7101,
-      "brier": 0.4047
+      "logloss": 0.7112,
+      "brier": 0.4054
      },
      "new": {
-      "logloss": 0.7064,
-      "brier": 0.4034
+      "logloss": 0.7074,
+      "brier": 0.4041
      },
      "gainCi": [
-      0.0013,
+      0.0012,
       0.0064
      ]
     },
     {
      "min": 75,
-     "n": 701,
+     "n": 702,
      "old": {
-      "logloss": 0.5515,
-      "brier": 0.3159
+      "logloss": 0.5532,
+      "brier": 0.317
      },
      "new": {
-      "logloss": 0.5481,
-      "brier": 0.3141
+      "logloss": 0.5497,
+      "brier": 0.3151
      },
      "gainCi": [
       0.0009,
-      0.0061
+      0.0062
      ]
     },
     {
      "min": 85,
-     "n": 701,
+     "n": 702,
      "old": {
-      "logloss": 0.3951,
-      "brier": 0.2175
+      "logloss": 0.3948,
+      "brier": 0.2173
      },
      "new": {
-      "logloss": 0.3919,
-      "brier": 0.2162
+      "logloss": 0.3916,
+      "brier": 0.216
      },
      "gainCi": [
       0.0007,
-      0.0058
+      0.0057
      ]
     }
    ],
@@ -8778,7 +8778,7 @@
      78
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -8846,7 +8846,7 @@
      63
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -8911,7 +8911,7 @@
      94
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -8930,7 +8930,7 @@
    ],
    "pred": {
     "lh": 1.443,
-    "la": 1.269,
+    "la": 1.27,
     "p": [
      0.412,
      0.256,
@@ -8985,7 +8985,7 @@
      95
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9057,7 +9057,7 @@
      90
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9127,7 +9127,7 @@
      39
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -9198,7 +9198,7 @@
      68
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9287,7 +9287,7 @@
      76
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -9377,7 +9377,7 @@
      82
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9574,12 +9574,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9605,6 +9605,18 @@
       "absences": [],
       "other": [
        {
+        "title": "Nice : quand les joueurs célèbrent un but avec Olivier Pantaloni, endeuillé pendant la semaine",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/nice-quand-les-joueurs-celebrent-un-but-avec-olivier-pantaloni-endeuille-pendant-la-semaine-43749509",
+        "time": "2026-11-09T05:19:00Z"
+       },
+       {
+        "title": "« C’était avant tout pour lui qu’on voulait gagner » : Jonathan Clauss dédie la victoire de Nice à Olivier Pantaloni",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/cetait-avant-tout-pour-lui-quon-voulait-gagner-jonathan-clauss-dedie-la-victoire-de-nice-a-olivier-pantaloni-43748779",
+        "time": "2026-11-08T21:58:00Z"
+       },
+       {
         "title": "Ligue 1 - L'OGC Nice enchaîne face à Angers SCO et grimpe dans le top 5 (résumé)",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-logc-nice-enchaine-face-a-angers-sco-et-grimpe-dans-le-top-5-resume-43747778",
@@ -9621,22 +9633,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Mercato – Le PSG a de la concurrence pour David Boly",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/mercato-le-psg-a-de-la-concurrence-pour-david-boly-43748178",
-        "time": "2026-11-08T19:44:20Z"
+        "title": "Le PSG et Chelsea convoitent le jeune défenseur français Kyllian Antonio",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/le-psg-et-chelsea-convoitent-le-jeune-defenseur-francais-kyllian-antonio-43752453",
+        "time": "2026-11-09T16:07:08Z"
        },
        {
-        "title": "PSG/Troyes – Luis Enrique «Gagner ce match a été spécial»",
+        "title": "Ligue 1 – L’équipe-type de la 10e journée de L’Equipe, avec le PSG",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psgtroyes-luis-enrique-gagner-ce-match-a-ete-special-43746818",
-        "time": "2026-11-08T15:15:13Z"
+        "url": "https://onefootball.com/fr/news/ligue-1-lequipe-type-de-la-10e-journee-de-lequipe-avec-le-psg-43752379",
+        "time": "2026-11-09T16:00:35Z"
        },
        {
-        "title": "PSG : Ferran Torres, après la période d'essai, la panne",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-ferran-torres-apres-la-periode-dessai-la-panne-43746166",
-        "time": "2026-11-08T13:01:00Z"
+        "title": "La liste de la Russie pour la trêve de novembre, avec 1 joueur du PSG",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/la-liste-de-la-russie-pour-la-treve-de-novembre-avec-1-joueur-du-psg-43751484",
+        "time": "2026-11-09T13:00:56Z"
        }
       ],
       "scorer": {
@@ -9709,7 +9721,7 @@
     {
      "md": 7,
      "p": [
-      0.216,
+      0.217,
       0.234,
       0.549
      ]
@@ -9749,12 +9761,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9778,7 +9790,26 @@
     "press": {
      "H": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "Le PSG et Chelsea convoitent le jeune défenseur français Kyllian Antonio",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/le-psg-et-chelsea-convoitent-le-jeune-defenseur-francais-kyllian-antonio-43752453",
+        "time": "2026-11-09T16:07:08Z"
+       },
+       {
+        "title": "[Vidéo] Lens Foot revient sur la période difficile traversée par le RC Lens, c’est dispo sur Lensois.com !",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/video-lens-foot-revient-sur-la-periode-difficile-traversee-par-le-rc-lens-cest-dispo-sur-lensoiscom-43752418",
+        "time": "2026-11-09T16:01:24Z"
+       },
+       {
+        "title": "Un grand espoir du RC Lens dans le viseur de la Bundesliga ?",
+        "publisher": "Le Fussball",
+        "url": "https://onefootball.com/fr/news/un-grand-espoir-du-rc-lens-dans-le-viseur-de-la-bundesliga-43751551",
+        "time": "2026-11-09T12:57:00Z"
+       }
+      ],
       "scorer": {
        "name": "Florian Thauvin",
        "goals": 5
@@ -9911,12 +9942,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9977,22 +10008,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Ligue 1 : à l'extérieur, l'OL est toujours en galère",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ligue-1-a-lexterieur-lol-est-toujours-en-galere-43748123",
-        "time": "2026-11-08T19:30:00Z"
+        "title": "Grenoble-OL : pistolet sorti, machettes et lynchage évité, le match des U17 vire au cauchemar",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/grenoble-ol-pistolet-sorti-machettes-et-lynchage-evite-le-match-des-u17-vire-au-cauchemar-43752361",
+        "time": "2026-11-09T15:59:00Z"
        },
        {
-        "title": "Brest - OL (2-0) : Moussa Niakhaté regrette un premier but \"enfantin\"",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/brest-ol-2-0-moussa-niakhate-regrette-un-premier-but-enfantin-43748011",
-        "time": "2026-11-08T19:05:00Z"
-       },
-       {
-        "title": "OL - Des erreurs \"enfantines\", Carlos Vicens et l'objectif \"Ligue des Champions\" : Moussa Niakhaté vide son sac après la défaite à Brest",
+        "title": "OL - Georges Mikautadze apporte un beau message de soutien à l'OL après le départ de Fonseca",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-des-erreurs-enfantines-carlos-vicens-et-lobjectif-ligue-des-champions-moussa-niakhate-vide-son-sac-apres-la-defaite-a-brest-43747952",
-        "time": "2026-11-08T19:00:00Z"
+        "url": "https://onefootball.com/fr/news/ol-georges-mikautadze-apporte-un-beau-message-de-soutien-a-lol-apres-le-depart-de-fonseca-43751958",
+        "time": "2026-11-09T14:32:00Z"
+       },
+       {
+        "title": "Bouchons autour du Parc OL : la maire de Décines réclame des solutions",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/bouchons-autour-du-parc-ol-la-maire-de-decines-reclame-des-solutions-43751849",
+        "time": "2026-11-09T14:10:00Z"
        }
       ],
       "scorer": {
@@ -10105,12 +10136,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10136,22 +10167,22 @@
       "absences": [],
       "other": [
        {
-        "title": "LMFC-ASM : le Mans arrache le nul",
-        "publisher": "ASM-SUPPORTERS.FR",
-        "url": "https://onefootball.com/fr/news/lmfc-asm-le-mans-arrache-le-nul-43748319",
-        "time": "2026-11-08T20:06:11Z"
-       },
-       {
-        "title": "But gag, célébration polémique : la drôle de soirée de Mamadou Coulibaly avec Monaco",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/but-gag-celebration-polemique-la-drole-de-soiree-de-mamadou-coulibaly-avec-monaco-43748277",
-        "time": "2026-11-08T20:02:00Z"
-       },
-       {
-        "title": "AS Monaco - La célébration polémique de Mamadou Camara face au Mans FC",
+        "title": "AS Monaco - Le Conseil National de l'éthique saisit la LFP après la célébration polémique de Mamadou Coulibaly",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-la-celebration-polemique-de-mamadou-camara-face-au-mans-fc-43748226",
-        "time": "2026-11-08T19:38:00Z"
+        "url": "https://onefootball.com/fr/news/as-monaco-le-conseil-national-de-lethique-saisit-la-lfp-apres-la-celebration-polemique-de-mamadou-coulibaly-43752219",
+        "time": "2026-11-09T15:23:00Z"
+       },
+       {
+        "title": "Sélections : Nazinho avec le Portugal",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/selections-nazinho-avec-le-portugal-43752183",
+        "time": "2026-11-09T15:16:44Z"
+       },
+       {
+        "title": "LMFC-ASM : les flops, les flops.",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/lmfc-asm-les-flops-les-flops-43751377",
+        "time": "2026-11-09T12:38:14Z"
        }
       ],
       "scorer": {
@@ -10280,12 +10311,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10326,6 +10357,12 @@
      "A": {
       "absences": [],
       "other": [
+       {
+        "title": "Brest : Lachuer savoure la victoire contre Lyon et dévoile les clés du succès",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/brest-lachuer-savoure-la-victoire-contre-lyon-et-devoile-les-cles-du-succes-43750493",
+        "time": "2026-11-09T10:00:32Z"
+       },
        {
         "title": "Brest-OL : les statistiques catastrophiques de Jorge Maciel en tant qu'intérimaire",
         "publisher": "OnzeMondial",
@@ -10449,12 +10486,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10617,12 +10654,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10664,6 +10701,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Rennais – LOSC : Pour Haise, Samba et Thomasson la défaite ne passe vraiment pas",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-losc-pour-haise-samba-et-thomasson-la-defaite-ne-passe-vraiment-pas-43750084",
+        "time": "2026-11-09T08:30:09Z"
+       },
+       {
         "title": "Stade rennais - Lille, Olivier Létang : « Rennes a une masse salariale qui doit être 3 ou 4 fois la nôtre »",
         "publisher": "Stade Rennais Online",
         "url": "https://onefootball.com/fr/news/stade-rennais-lille-olivier-letang-rennes-a-une-masse-salariale-qui-doit-etre-3-ou-4-fois-la-notre-43748287",
@@ -10674,12 +10717,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-analyse-la-premiere-defaite-de-la-saison-rennaise-au-roazhon-park-43747582",
         "time": "2026-11-08T17:45:00Z"
-       },
-       {
-        "title": "Stade rennais - Lille : Rennes s’incline face au LOSC et concède sa première défaite à domicile",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-lille-rennes-sincline-face-au-losc-et-concede-sa-premiere-defaite-a-domicile-43747208",
-        "time": "2026-11-08T16:30:06Z"
        }
       ],
       "scorer": {
@@ -10792,12 +10829,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10821,7 +10858,26 @@
     "press": {
      "H": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "OM – Deux sanctions pour l’OM après l’Olympiakos",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-deux-sanctions-pour-lom-apres-lolympiakos-43752101",
+        "time": "2026-11-09T15:00:32Z"
+       },
+       {
+        "title": "OM : nouvelle galère financière, l'UEFA sanctionne le club d'une amende XXL !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-nouvelle-galere-financiere-luefa-sanctionne-le-club-dune-amende-xxl-43751907",
+        "time": "2026-11-09T14:25:00Z"
+       },
+       {
+        "title": "OM - L'Olympique de Marseille écope de deux grosses amendes après le match face à l'Olympiacos",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-lolympique-de-marseille-ecope-de-deux-grosses-amendes-apres-le-match-face-a-lolympiacos-43751532",
+        "time": "2026-11-09T13:07:00Z"
+       }
+      ],
       "scorer": {
        "name": "Amine Gouiri",
        "goals": 7
@@ -10830,7 +10886,14 @@
      },
      "A": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "Le Mans-Monaco : Mamadou Coulibaly présente ses excuses après sa célébration polémique",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/le-mans-monaco-mamadou-coulibaly-presente-ses-excuses-apres-sa-celebration-polemique-43749555",
+        "time": "2026-11-09T06:00:00Z"
+       }
+      ],
       "scorer": {
        "name": "Louis Mafouta",
        "goals": 4
@@ -10941,12 +11004,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-09T00:42+00:00",
+    "at": "2026-11-09T16:27+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T00:41+00:00",
+    "dataAt": "2026-11-09T16:24+00:00",
     "changes": 1,
     "model": {
-     "version": "5644fed",
+     "version": "a9d142f",
      "mu": 0.214,
      "home": 0.232
     }
