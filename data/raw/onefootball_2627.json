@@ -7546,15 +7546,22 @@
    "id": 2688733,
    "competition": "Ligue 1",
    "kickoff": "2026-11-08T19:45:00Z",
-   "status": "67'",
-   "period": 8,
+   "status": "Fin du match",
+   "period": 11,
    "home": "RC Lens",
    "away": "Olympique de Marseille",
    "homeLink": "/fr/equipe/rc-lens-256",
    "awayLink": "/fr/equipe/olympique-de-marseille-22",
    "hg": 1,
-   "ag": 1,
+   "ag": 2,
    "goals": [
+    {
+     "side": "away",
+     "min": 2,
+     "half": 1,
+     "kind": "but",
+     "player": "Amine Gouiri"
+    },
     {
      "side": "home",
      "min": 20,
@@ -7564,29 +7571,29 @@
     },
     {
      "side": "away",
-     "min": 2,
-     "half": 1,
+     "min": 82,
+     "half": 2,
      "kind": "but",
-     "player": "Amine Gouiri"
+     "player": "Keyliane Abdallah"
     }
    ],
    "reds": [],
    "stats": {
     "Possession": [
-     37,
-     63
+     41,
+     59
     ],
     "Tirs": [
-     12,
-     12
+     13,
+     16
     ],
     "Tirs cadrés": [
-     5,
-     3
+     6,
+     5
     ],
     "Duels gagnés": [
-     40,
-     60
+     39,
+     61
     ]
    },
    "starters": {
@@ -9638,7 +9645,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-08T21:11+00:00",
+ "fetchedAt": "2026-11-09T00:41+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
