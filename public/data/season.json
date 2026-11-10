@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-09T16:24+00:00",
-  "generatedAt": "2026-11-09T16:27+00:00",
+  "fetchedAt": "2026-11-10T00:42+00:00",
+  "generatedAt": "2026-11-10T00:45+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-09T16:24+00:00",
-    "lastAttempt": "2026-11-09T16:24+00:00",
+    "lastOk": "2026-11-10T00:42+00:00",
+    "lastAttempt": "2026-11-10T00:42+00:00",
     "error": null,
     "failures": 0,
-    "count": 136
+    "count": 137
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-09T16:26+00:00",
-    "lastAttempt": "2026-11-09T16:26+00:00",
+    "lastOk": "2026-11-10T00:44+00:00",
+    "lastAttempt": "2026-11-10T00:44+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-09T16:26+00:00",
-    "lastAttempt": "2026-11-09T16:26+00:00",
+    "lastOk": "2026-11-10T00:44+00:00",
+    "lastAttempt": "2026-11-10T00:44+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-09T16:26+00:00",
-    "lastAttempt": "2026-11-09T16:26+00:00",
+    "lastOk": "2026-11-10T00:44+00:00",
+    "lastAttempt": "2026-11-10T00:44+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-09T16:26+00:00",
-    "lastAttempt": "2026-11-09T16:26+00:00",
+    "lastOk": "2026-11-10T00:44+00:00",
+    "lastAttempt": "2026-11-10T00:44+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-09T16:26+00:00",
+  "generatedAt": "2026-11-10T00:44+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -9574,12 +9574,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9633,22 +9633,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Le PSG et Chelsea convoitent le jeune défenseur français Kyllian Antonio",
-        "publisher": "fussball-news.de",
-        "url": "https://onefootball.com/fr/news/le-psg-et-chelsea-convoitent-le-jeune-defenseur-francais-kyllian-antonio-43752453",
-        "time": "2026-11-09T16:07:08Z"
+        "title": "PSG – Trois joueurs seulement dans le onze FIFPRO malgré un deuxième sacre européen",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/psg-trois-joueurs-seulement-dans-le-onze-fifpro-malgre-un-deuxieme-sacre-europeen-43753402",
+        "time": "2026-11-09T19:25:31Z"
        },
        {
-        "title": "Ligue 1 – L’équipe-type de la 10e journée de L’Equipe, avec le PSG",
+        "title": "Le programme des matchs des joueurs du PSG pendant la trêve de novembre horaire russie",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/ligue-1-lequipe-type-de-la-10e-journee-de-lequipe-avec-le-psg-43752379",
-        "time": "2026-11-09T16:00:35Z"
+        "url": "https://onefootball.com/fr/news/le-programme-des-matchs-des-joueurs-du-psg-pendant-la-treve-de-novembre-horaire-russie-43753034",
+        "time": "2026-11-09T18:00:36Z"
        },
        {
-        "title": "La liste de la Russie pour la trêve de novembre, avec 1 joueur du PSG",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/la-liste-de-la-russie-pour-la-treve-de-novembre-avec-1-joueur-du-psg-43751484",
-        "time": "2026-11-09T13:00:56Z"
+        "title": "10 journées et puis s'en va, comment le PSG a déjà tué statistiquement le suspense pour le titre",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/10-journees-et-puis-sen-va-comment-le-psg-a-deja-tue-statistiquement-le-suspense-pour-le-titre-43752854",
+        "time": "2026-11-09T17:25:00Z"
        }
       ],
       "scorer": {
@@ -9761,12 +9761,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9792,22 +9792,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Le PSG et Chelsea convoitent le jeune défenseur français Kyllian Antonio",
-        "publisher": "fussball-news.de",
-        "url": "https://onefootball.com/fr/news/le-psg-et-chelsea-convoitent-le-jeune-defenseur-francais-kyllian-antonio-43752453",
-        "time": "2026-11-09T16:07:08Z"
+        "title": "RC Lens - Christophe Dugarry dézingue Jean-Louis Leca et Yannick Cahuzac !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-christophe-dugarry-dezingue-jean-louis-leca-et-yannick-cahuzac-43753697",
+        "time": "2026-11-09T20:39:00Z"
        },
        {
-        "title": "[Vidéo] Lens Foot revient sur la période difficile traversée par le RC Lens, c’est dispo sur Lensois.com !",
+        "title": "Lens - Sotoca : “On a la trêve pour se laver les têtes, mentalement c’est très difficile”",
+        "publisher": "Stats Perform",
+        "url": "https://onefootball.com/fr/video/lens-sotoca-on-a-la-treve-pour-se-laver-les-tetes-mentalement-cest-tres-difficile-3LsoJFQo4nW5VgRTHDamrnJkhs8",
+        "time": "2026-11-09T19:20:13Z"
+       },
+       {
+        "title": "[Vidéos] Le point sur le week-end des prochains adversaires du RC Lens en Ligue des Champions",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/video-lens-foot-revient-sur-la-periode-difficile-traversee-par-le-rc-lens-cest-dispo-sur-lensoiscom-43752418",
-        "time": "2026-11-09T16:01:24Z"
-       },
-       {
-        "title": "Un grand espoir du RC Lens dans le viseur de la Bundesliga ?",
-        "publisher": "Le Fussball",
-        "url": "https://onefootball.com/fr/news/un-grand-espoir-du-rc-lens-dans-le-viseur-de-la-bundesliga-43751551",
-        "time": "2026-11-09T12:57:00Z"
+        "url": "https://onefootball.com/fr/news/videos-le-point-sur-le-week-end-des-prochains-adversaires-du-rc-lens-en-ligue-des-champions-43752738",
+        "time": "2026-11-09T17:00:40Z"
        }
       ],
       "scorer": {
@@ -9942,12 +9942,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9980,22 +9980,22 @@
       ],
       "other": [
        {
-        "title": "LOSC - Les mots de Benjamin André après la grosse victoire lilloise face au Stade Rennais",
+        "title": "Mercato LOSC - La réaction de Tanguy Nianzou suite à sa prolongation de contrat avec le Lille OSC",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/losc-les-mots-de-benjamin-andre-apres-la-grosse-victoire-lilloise-face-au-stade-rennais-43747880",
-        "time": "2026-11-08T18:39:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-losc-la-reaction-de-tanguy-nianzou-suite-a-sa-prolongation-de-contrat-avec-le-lille-osc-43753897",
+        "time": "2026-11-09T21:59:00Z"
        },
        {
-        "title": "Mercato LOSC - Olivier Létang fait une annonce sur l'avenir d'Ethan Mbappé",
+        "title": "Mercato LOSC - Hamza Igamane réagit à sa prolongation de contrat avec le Lille OSC",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-losc-olivier-letang-fait-une-annonce-sur-lavenir-dethan-mbappe-43747767",
-        "time": "2026-11-08T18:21:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-losc-hamza-igamane-reagit-a-sa-prolongation-de-contrat-avec-le-lille-osc-43753862",
+        "time": "2026-11-09T21:45:00Z"
        },
        {
-        "title": "Lille : dauphin du PSG, record historique… les débuts XXL d'Ancelotti",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/lille-dauphin-du-psg-record-historique-les-debuts-xxl-dancelotti-43747541",
-        "time": "2026-11-08T17:33:00Z"
+        "title": "Mercato LOSC - Olivier Létang commente les prolongations de contrat signées par Tanguy Nianzou et Hamza Igamane",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-losc-olivier-letang-commente-les-prolongations-de-contrat-signees-par-tanguy-nianzou-et-hamza-igamane-43753836",
+        "time": "2026-11-09T21:26:00Z"
        }
       ],
       "scorer": {
@@ -10008,22 +10008,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Grenoble-OL : pistolet sorti, machettes et lynchage évité, le match des U17 vire au cauchemar",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/grenoble-ol-pistolet-sorti-machettes-et-lynchage-evite-le-match-des-u17-vire-au-cauchemar-43752361",
-        "time": "2026-11-09T15:59:00Z"
+        "title": "OL - Carlos Vicens succède à Paulo Fonseca",
+        "publisher": "Stats Perform",
+        "url": "https://onefootball.com/fr/video/ol-carlos-vicens-succede-a-paulo-fonseca-3Lso7sGwXxFkxLPnnIHEpdVIYp3",
+        "time": "2026-11-09T19:15:39Z"
        },
        {
-        "title": "OL - Georges Mikautadze apporte un beau message de soutien à l'OL après le départ de Fonseca",
+        "title": "OL - Les premiers mots de Carlos Vicens, le nouvel entraîneur lyonnais (vidéo)",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-georges-mikautadze-apporte-un-beau-message-de-soutien-a-lol-apres-le-depart-de-fonseca-43751958",
-        "time": "2026-11-09T14:32:00Z"
+        "url": "https://onefootball.com/fr/news/ol-les-premiers-mots-de-carlos-vicens-le-nouvel-entraineur-lyonnais-video-43753449",
+        "time": "2026-11-09T19:15:00Z"
        },
        {
-        "title": "Bouchons autour du Parc OL : la maire de Décines réclame des solutions",
+        "title": "TKYDG : qui est Vicens, le nouvel entraîneur de l'OL, formé par Guardiola ?",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/bouchons-autour-du-parc-ol-la-maire-de-decines-reclame-des-solutions-43751849",
-        "time": "2026-11-09T14:10:00Z"
+        "url": "https://onefootball.com/fr/news/tkydg-qui-est-vicens-le-nouvel-entraineur-de-lol-forme-par-guardiola-43752991",
+        "time": "2026-11-09T17:55:00Z"
        }
       ],
       "scorer": {
@@ -10136,12 +10136,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10311,12 +10311,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10358,6 +10358,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Brestois - Julien Lachuer savoure le beau succès face à l'OL et la bonne passe du SB29",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-savoure-le-beau-succes-face-a-lol-et-la-bonne-passe-du-sb29-43753553",
+        "time": "2026-11-09T19:55:00Z"
+       },
+       {
         "title": "Brest : Lachuer savoure la victoire contre Lyon et dévoile les clés du succès",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/brest-lachuer-savoure-la-victoire-contre-lyon-et-devoile-les-cles-du-succes-43750493",
@@ -10368,12 +10374,6 @@
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/brest-ol-les-statistiques-catastrophiques-de-jorge-maciel-en-tant-quinterimaire-43748247",
         "time": "2026-11-08T19:55:00Z"
-       },
-       {
-        "title": "Brest fait tomber Lyon et signe un succès précieux",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/brest-fait-tomber-lyon-et-signe-un-succes-precieux-43747744",
-        "time": "2026-11-08T18:17:16Z"
        }
       ],
       "scorer": {
@@ -10486,12 +10486,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10517,22 +10517,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Paris FC - Le PFC annonce son nouveau président (officiel)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/paris-fc-le-pfc-annonce-son-nouveau-president-officiel-43753722",
+        "time": "2026-11-09T20:58:00Z"
+       },
+       {
+        "title": "Paris FC : Antoine Arnault nommé président, Jean-Marc Gallot président délégué",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/paris-fc-antoine-arnault-nomme-president-jean-marc-gallot-president-delegue-43753440",
+        "time": "2026-11-09T19:35:00Z"
+       },
+       {
         "title": "Paris FC : « Ils donnent plus de valeur aux applaudissements », Lassine Sinayoko réagit aux sifflets des supporters d’Auxerre",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/paris-fc-ils-donnent-plus-de-valeur-aux-applaudissements-lassine-sinayoko-reagit-aux-sifflets-des-supporters-dauxerre-43747204",
         "time": "2026-11-08T16:29:00Z"
-       },
-       {
-        "title": "Paris FC : Yamal, Mbappé, Raphinha ... Sinayoko parmi les grands d'Europe !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/paris-fc-yamal-mbappe-raphinha-sinayoko-parmi-les-grands-deurope-43746611",
-        "time": "2026-11-08T14:32:00Z"
-       },
-       {
-        "title": "Ludovic Obraniak : « Pablo Pagis ? Zidane cherche des connecteurs »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/ludovic-obraniak-pablo-pagis-zidane-cherche-des-connecteurs-43746053",
-        "time": "2026-11-08T12:00:34Z"
        }
       ],
       "scorer": {
@@ -10654,12 +10654,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10829,12 +10829,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10860,22 +10860,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – Deux sanctions pour l’OM après l’Olympiakos",
+        "title": "OM – Acherchour : « L’OM en ce moment, ça me fait rêver »",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-deux-sanctions-pour-lom-apres-lolympiakos-43752101",
-        "time": "2026-11-09T15:00:32Z"
+        "url": "https://onefootball.com/fr/news/om-acherchour-lom-en-ce-moment-ca-me-fait-rever-43754107",
+        "time": "2026-11-10T00:00:32Z"
        },
        {
-        "title": "OM : nouvelle galère financière, l'UEFA sanctionne le club d'une amende XXL !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-nouvelle-galere-financiere-luefa-sanctionne-le-club-dune-amende-xxl-43751907",
-        "time": "2026-11-09T14:25:00Z"
-       },
-       {
-        "title": "OM - L'Olympique de Marseille écope de deux grosses amendes après le match face à l'Olympiacos",
+        "title": "Mercato OM - La DNCG s'apprête à calmer l'enthousiasme marseillais !",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-lolympique-de-marseille-ecope-de-deux-grosses-amendes-apres-le-match-face-a-lolympiacos-43751532",
-        "time": "2026-11-09T13:07:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-la-dncg-sapprete-a-calmer-lenthousiasme-marseillais-43753995",
+        "time": "2026-11-09T22:30:00Z"
+       },
+       {
+        "title": "OM – La belle statistique de l’OM qui prouve la forme actuelle",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-la-belle-statistique-de-lom-qui-prouve-la-forme-actuelle-43753901",
+        "time": "2026-11-09T22:00:19Z"
        }
       ],
       "scorer": {
@@ -11004,12 +11004,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-09T16:27+00:00",
+    "at": "2026-11-10T00:45+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-09T16:24+00:00",
+    "dataAt": "2026-11-10T00:42+00:00",
     "changes": 1,
     "model": {
-     "version": "a9d142f",
+     "version": "0366e85",
      "mu": 0.214,
      "home": 0.232
     }
