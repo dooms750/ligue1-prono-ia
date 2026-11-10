@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-10T01:27+00:00",
-  "generatedAt": "2026-11-10T01:27+00:00",
+  "fetchedAt": "2026-11-10T14:55+00:00",
+  "generatedAt": "2026-11-10T14:58+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-10T00:42+00:00",
-    "lastAttempt": "2026-11-10T00:42+00:00",
+    "lastOk": "2026-11-10T14:55+00:00",
+    "lastAttempt": "2026-11-10T14:55+00:00",
     "error": null,
     "failures": 0,
-    "count": 137
+    "count": 138
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-10T01:27+00:00",
-    "lastAttempt": "2026-11-10T01:27+00:00",
+    "lastOk": "2026-11-10T14:56+00:00",
+    "lastAttempt": "2026-11-10T14:56+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-10T00:44+00:00",
-    "lastAttempt": "2026-11-10T00:44+00:00",
+    "lastOk": "2026-11-10T14:57+00:00",
+    "lastAttempt": "2026-11-10T14:57+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-10T00:44+00:00",
-    "lastAttempt": "2026-11-10T00:44+00:00",
+    "lastOk": "2026-11-10T14:57+00:00",
+    "lastAttempt": "2026-11-10T14:57+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-10T00:44+00:00",
-    "lastAttempt": "2026-11-10T00:44+00:00",
+    "lastOk": "2026-11-10T14:57+00:00",
+    "lastAttempt": "2026-11-10T14:57+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-10T00:44+00:00",
+  "generatedAt": "2026-11-10T14:57+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -8930,7 +8930,7 @@
    ],
    "pred": {
     "lh": 1.443,
-    "la": 1.269,
+    "la": 1.27,
     "p": [
      0.412,
      0.256,
@@ -9574,12 +9574,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9633,22 +9633,22 @@
       "absences": [],
       "other": [
        {
-        "title": "PSG – Trois joueurs seulement dans le onze FIFPRO malgré un deuxième sacre européen",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psg-trois-joueurs-seulement-dans-le-onze-fifpro-malgre-un-deuxieme-sacre-europeen-43753402",
-        "time": "2026-11-09T19:25:31Z"
-       },
-       {
-        "title": "Le programme des matchs des joueurs du PSG pendant la trêve de novembre horaire russie",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/le-programme-des-matchs-des-joueurs-du-psg-pendant-la-treve-de-novembre-horaire-russie-43753034",
-        "time": "2026-11-09T18:00:36Z"
-       },
-       {
-        "title": "10 journées et puis s'en va, comment le PSG a déjà tué statistiquement le suspense pour le titre",
+        "title": "Ses buts contre le Real, le PSG... Declan Rice lâche tout !",
         "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/10-journees-et-puis-sen-va-comment-le-psg-a-deja-tue-statistiquement-le-suspense-pour-le-titre-43752854",
-        "time": "2026-11-09T17:25:00Z"
+        "url": "https://onefootball.com/fr/news/ses-buts-contre-le-real-le-psg-declan-rice-lache-tout-43756430",
+        "time": "2026-11-10T13:33:00Z"
+       },
+       {
+        "title": "Zaïre-Emery se confie : Equipe de France, poste et Zidane",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/zaire-emery-se-confie-equipe-de-france-poste-et-zidane-43755200",
+        "time": "2026-11-10T09:19:35Z"
+       },
+       {
+        "title": "Real Madrid - Marc Cucurella snobe le PSG et tranche sur la meilleure équipe du monde",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/real-madrid-marc-cucurella-snobe-le-psg-et-tranche-sur-la-meilleure-equipe-du-monde-43754928",
+        "time": "2026-11-10T08:34:00Z"
        }
       ],
       "scorer": {
@@ -9721,7 +9721,7 @@
     {
      "md": 7,
      "p": [
-      0.216,
+      0.217,
       0.234,
       0.549
      ]
@@ -9761,12 +9761,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9792,22 +9792,22 @@
       "absences": [],
       "other": [
        {
-        "title": "RC Lens - Christophe Dugarry dézingue Jean-Louis Leca et Yannick Cahuzac !",
+        "title": "Lens : Sage, Kombouaré, Beye ... Cinq pistes potentielles pour remplacer Cahuzac",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lens-sage-kombouare-beye-cinq-pistes-potentielles-pour-remplacer-cahuzac-43755815",
+        "time": "2026-11-10T11:29:00Z"
+       },
+       {
+        "title": "Mercato Lens - Yannick Cahuzac licencié par le RC Lens !",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-christophe-dugarry-dezingue-jean-louis-leca-et-yannick-cahuzac-43753697",
-        "time": "2026-11-09T20:39:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-lens-yannick-cahuzac-licencie-par-le-rc-lens-43755655",
+        "time": "2026-11-10T10:59:00Z"
        },
        {
-        "title": "Lens - Sotoca : “On a la trêve pour se laver les têtes, mentalement c’est très difficile”",
-        "publisher": "Stats Perform",
-        "url": "https://onefootball.com/fr/video/lens-sotoca-on-a-la-treve-pour-se-laver-les-tetes-mentalement-cest-tres-difficile-3LsoJFQo4nW5VgRTHDamrnJkhs8",
-        "time": "2026-11-09T19:20:13Z"
-       },
-       {
-        "title": "[Vidéos] Le point sur le week-end des prochains adversaires du RC Lens en Ligue des Champions",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/videos-le-point-sur-le-week-end-des-prochains-adversaires-du-rc-lens-en-ligue-des-champions-43752738",
-        "time": "2026-11-09T17:00:40Z"
+        "title": "C'est fini pour Cahuzac à Lens, Pierre Sage évoqué pour le remplacer !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/cest-fini-pour-cahuzac-a-lens-pierre-sage-evoque-pour-le-remplacer-43755623",
+        "time": "2026-11-10T10:52:00Z"
        }
       ],
       "scorer": {
@@ -9942,12 +9942,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10008,22 +10008,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OL - Carlos Vicens succède à Paulo Fonseca",
-        "publisher": "Stats Perform",
-        "url": "https://onefootball.com/fr/video/ol-carlos-vicens-succede-a-paulo-fonseca-3Lso7sGwXxFkxLPnnIHEpdVIYp3",
-        "time": "2026-11-09T19:15:39Z"
-       },
-       {
-        "title": "OL - Les premiers mots de Carlos Vicens, le nouvel entraîneur lyonnais (vidéo)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-les-premiers-mots-de-carlos-vicens-le-nouvel-entraineur-lyonnais-video-43753449",
-        "time": "2026-11-09T19:15:00Z"
-       },
-       {
-        "title": "TKYDG : qui est Vicens, le nouvel entraîneur de l'OL, formé par Guardiola ?",
+        "title": "OL Académie : le club annonce des poursuites après les incidents à Grenoble",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/tkydg-qui-est-vicens-le-nouvel-entraineur-de-lol-forme-par-guardiola-43752991",
-        "time": "2026-11-09T17:55:00Z"
+        "url": "https://onefootball.com/fr/news/ol-academie-le-club-annonce-des-poursuites-apres-les-incidents-a-grenoble-43756118",
+        "time": "2026-11-10T12:20:00Z"
+       },
+       {
+        "title": "OL : Carlos Vicens a dirigé son premier entraînement en effectif réduit",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-a-dirige-son-premier-entrainement-en-effectif-reduit-43755813",
+        "time": "2026-11-10T11:30:00Z"
+       },
+       {
+        "title": "OL : Ernest Nuamah est finalement resté à Décines",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-ernest-nuamah-est-finalement-reste-a-decines-43755591",
+        "time": "2026-11-10T10:44:47Z"
        }
       ],
       "scorer": {
@@ -10136,12 +10136,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10167,6 +10167,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Monaco : Mamadou Coulibaly s'expose à des sanctions après sa célébration polémique",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/monaco-mamadou-coulibaly-sexpose-a-des-sanctions-apres-sa-celebration-polemique-43754366",
+        "time": "2026-11-10T05:20:00Z"
+       },
+       {
         "title": "AS Monaco - Le Conseil National de l'éthique saisit la LFP après la célébration polémique de Mamadou Coulibaly",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-le-conseil-national-de-lethique-saisit-la-lfp-apres-la-celebration-polemique-de-mamadou-coulibaly-43752219",
@@ -10177,12 +10183,6 @@
         "publisher": "ASM-SUPPORTERS.FR",
         "url": "https://onefootball.com/fr/news/selections-nazinho-avec-le-portugal-43752183",
         "time": "2026-11-09T15:16:44Z"
-       },
-       {
-        "title": "LMFC-ASM : les flops, les flops.",
-        "publisher": "ASM-SUPPORTERS.FR",
-        "url": "https://onefootball.com/fr/news/lmfc-asm-les-flops-les-flops-43751377",
-        "time": "2026-11-09T12:38:14Z"
        }
       ],
       "scorer": {
@@ -10311,12 +10311,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10486,12 +10486,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10517,22 +10517,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Equipe de France - Pablo Pagis choqué par le niveau technique des Bleus à l'entraînement",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/equipe-de-france-pablo-pagis-choque-par-le-niveau-technique-des-bleus-a-lentrainement-43755267",
+        "time": "2026-11-10T09:32:00Z"
+       },
+       {
+        "title": "Walid Acherchour : « Pablo Pagis ne marche pas sur la Ligue 1 depuis le début de saison »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/walid-acherchour-pablo-pagis-ne-marche-pas-sur-la-ligue-1-depuis-le-debut-de-saison-43754907",
+        "time": "2026-11-10T08:30:13Z"
+       },
+       {
         "title": "Paris FC - Le PFC annonce son nouveau président (officiel)",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/paris-fc-le-pfc-annonce-son-nouveau-president-officiel-43753722",
         "time": "2026-11-09T20:58:00Z"
-       },
-       {
-        "title": "Paris FC : Antoine Arnault nommé président, Jean-Marc Gallot président délégué",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/paris-fc-antoine-arnault-nomme-president-jean-marc-gallot-president-delegue-43753440",
-        "time": "2026-11-09T19:35:00Z"
-       },
-       {
-        "title": "Paris FC : « Ils donnent plus de valeur aux applaudissements », Lassine Sinayoko réagit aux sifflets des supporters d’Auxerre",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/paris-fc-ils-donnent-plus-de-valeur-aux-applaudissements-lassine-sinayoko-reagit-aux-sifflets-des-supporters-dauxerre-43747204",
-        "time": "2026-11-08T16:29:00Z"
        }
       ],
       "scorer": {
@@ -10654,12 +10654,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10701,22 +10701,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Stade Rennais – LOSC : Pour Haise, Samba et Thomasson la défaite ne passe vraiment pas",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-losc-pour-haise-samba-et-thomasson-la-defaite-ne-passe-vraiment-pas-43750084",
-        "time": "2026-11-09T08:30:09Z"
-       },
-       {
-        "title": "Stade rennais - Lille, Olivier Létang : « Rennes a une masse salariale qui doit être 3 ou 4 fois la nôtre »",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/stade-rennais-lille-olivier-letang-rennes-a-une-masse-salariale-qui-doit-etre-3-ou-4-fois-la-notre-43748287",
-        "time": "2026-11-08T20:05:08Z"
-       },
-       {
-        "title": "Stade Rennais - Franck Haise analyse la première défaite de la saison rennaise au Roazhon Park",
+        "title": "Mercato Rennes - Les dirigeants du Stade Rennais commentent la signature pro de Firmin Thétiot",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-analyse-la-premiere-defaite-de-la-saison-rennaise-au-roazhon-park-43747582",
-        "time": "2026-11-08T17:45:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-rennes-les-dirigeants-du-stade-rennais-commentent-la-signature-pro-de-firmin-thetiot-43756495",
+        "time": "2026-11-10T13:45:00Z"
+       },
+       {
+        "title": "Firmin Thétiot signe son premier contrat professionnel avec le Stade rennais",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/firmin-thetiot-signe-son-premier-contrat-professionnel-avec-le-stade-rennais-43756395",
+        "time": "2026-11-10T13:30:08Z"
+       },
+       {
+        "title": "Mercato Rennes - Le Stade Rennais annonce une signature (officiel)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-rennes-le-stade-rennais-annonce-une-signature-officiel-43756436",
+        "time": "2026-11-10T13:30:00Z"
        }
       ],
       "scorer": {
@@ -10829,12 +10829,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10860,22 +10860,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – Acherchour : « L’OM en ce moment, ça me fait rêver »",
+        "title": "OM – McCourt ne compte pas remettre un centime cet hiver",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-acherchour-lom-en-ce-moment-ca-me-fait-rever-43754107",
-        "time": "2026-11-10T00:00:32Z"
+        "url": "https://onefootball.com/fr/news/om-mccourt-ne-compte-pas-remettre-un-centime-cet-hiver-43756665",
+        "time": "2026-11-10T14:00:41Z"
        },
        {
-        "title": "Mercato OM - La DNCG s'apprête à calmer l'enthousiasme marseillais !",
+        "title": "OM – Une statistique confirme la bonne forme du moment",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-une-statistique-confirme-la-bonne-forme-du-moment-43756040",
+        "time": "2026-11-10T12:00:07Z"
+       },
+       {
+        "title": "OM - Éric Di Meco couvre Bruno Genesio d'éloges pour son travail et sa gestion de Keyliane Abdallah",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-om-la-dncg-sapprete-a-calmer-lenthousiasme-marseillais-43753995",
-        "time": "2026-11-09T22:30:00Z"
-       },
-       {
-        "title": "OM – La belle statistique de l’OM qui prouve la forme actuelle",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-la-belle-statistique-de-lom-qui-prouve-la-forme-actuelle-43753901",
-        "time": "2026-11-09T22:00:19Z"
+        "url": "https://onefootball.com/fr/news/om-eric-di-meco-couvre-bruno-genesio-deloges-pour-son-travail-et-sa-gestion-de-keyliane-abdallah-43755629",
+        "time": "2026-11-10T10:53:00Z"
        }
       ],
       "scorer": {
@@ -11004,12 +11004,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-10T01:27+00:00",
+    "at": "2026-11-10T14:58+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T01:27+00:00",
+    "dataAt": "2026-11-10T14:55+00:00",
     "changes": 1,
     "model": {
-     "version": "91da99c",
+     "version": "c448556",
      "mu": 0.214,
      "home": 0.232
     }
