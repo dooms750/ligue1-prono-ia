@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-10T23:10+00:00",
-  "generatedAt": "2026-11-10T23:10+00:00",
+  "fetchedAt": "2026-11-11T14:26+00:00",
+  "generatedAt": "2026-11-11T14:29+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-10T22:23+00:00",
-    "lastAttempt": "2026-11-10T22:23+00:00",
+    "lastOk": "2026-11-11T14:26+00:00",
+    "lastAttempt": "2026-11-11T14:26+00:00",
     "error": null,
     "failures": 0,
-    "count": 139
+    "count": 140
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-10T23:10+00:00",
-    "lastAttempt": "2026-11-10T23:10+00:00",
+    "lastOk": "2026-11-11T14:27+00:00",
+    "lastAttempt": "2026-11-11T14:27+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-10T22:24+00:00",
-    "lastAttempt": "2026-11-10T22:24+00:00",
+    "lastOk": "2026-11-11T14:27+00:00",
+    "lastAttempt": "2026-11-11T14:27+00:00",
     "error": null,
     "failures": 0,
     "count": 8
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-10T22:24+00:00",
-    "lastAttempt": "2026-11-10T22:24+00:00",
+    "lastOk": "2026-11-11T14:27+00:00",
+    "lastAttempt": "2026-11-11T14:27+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-10T22:24+00:00",
-    "lastAttempt": "2026-11-10T22:24+00:00",
+    "lastOk": "2026-11-11T14:27+00:00",
+    "lastAttempt": "2026-11-11T14:27+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-10T22:25+00:00",
+  "generatedAt": "2026-11-11T14:27+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -805,10 +805,10 @@
     "nTest": 320,
     "own": 1.006,
     "other": 1.0,
-    "sd": 0.056,
+    "sd": 0.039,
     "ci": [
-     0.917,
-     1.103
+     0.943,
+     1.073
     ],
     "hypothesis": {
      "own": 0.86,
@@ -830,10 +830,10 @@
     "nTest": 212,
     "own": 1.057,
     "other": 0.947,
-    "sd": 0.0,
+    "sd": 0.045,
     "ci": [
-     1.057,
-     1.057
+     0.982,
+     1.138
     ],
     "hypothesis": {
      "own": 0.95,
@@ -8930,7 +8930,7 @@
    ],
    "pred": {
     "lh": 1.443,
-    "la": 1.269,
+    "la": 1.27,
     "p": [
      0.412,
      0.256,
@@ -9574,12 +9574,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9630,25 +9630,44 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Officiel – Mayulu appelé en Equipe de France alors que Mbappé est incertain",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/officiel-mayulu-appele-en-equipe-de-france-alors-que-mbappe-est-incertain-43760943",
+        "time": "2026-11-11T12:47:24Z"
+       },
+       {
+        "title": "Équipe de France : Mbappé blessé, Zidane appelle Senny Mayulu !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/equipe-de-france-mbappe-blesse-zidane-appelle-senny-mayulu-43760865",
+        "time": "2026-11-11T12:35:00Z"
+       },
+       {
+        "title": "Officiel – Le PSG annonce une nouvelle blessure en début de trêve",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/officiel-le-psg-annonce-une-nouvelle-blessure-en-debut-de-treve-43759570",
+        "time": "2026-11-11T08:00:23Z"
+       }
+      ],
       "other": [
        {
-        "title": "Chardonnet explique comment le PSG force ses adversaires à défendre à son rythme",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/chardonnet-explique-comment-le-psg-force-ses-adversaires-a-defendre-a-son-rythme-43758380",
-        "time": "2026-11-10T20:30:11Z"
+        "title": "Équipe de France : Senny Mayulu appelé par Zinédine Zidane en renfort",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/equipe-de-france-senny-mayulu-appele-par-zinedine-zidane-en-renfort-43760836",
+        "time": "2026-11-11T12:30:00Z"
        },
        {
-        "title": "PSG : nouveau coup dur, un joueur contraint de quitter sa sélection !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-nouveau-coup-dur-un-joueur-contraint-de-quitter-sa-selection-43758347",
-        "time": "2026-11-10T20:30:00Z"
-       },
-       {
-        "title": "PSG - Mauvaise nouvelle pour Alessandro Longoni",
+        "title": "Mercato PSG - Le Paris Saint-Germain prépare un gros coup en Allemagne pour mettre Matvey Safonov en concurrence",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-mauvaise-nouvelle-pour-alessandro-longoni-43758305",
-        "time": "2026-11-10T20:15:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-psg-le-paris-saint-germain-prepare-un-gros-coup-en-allemagne-pour-mettre-matvey-safonov-en-concurrence-43760312",
+        "time": "2026-11-11T10:46:00Z"
+       },
+       {
+        "title": "FC Barcelone - Marc Bernal se montre catégorique sur le PSG et désigne la meilleure équipe du monde",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/fc-barcelone-marc-bernal-se-montre-categorique-sur-le-psg-et-designe-la-meilleure-equipe-du-monde-43759605",
+        "time": "2026-11-11T08:08:00Z"
        }
       ],
       "scorer": {
@@ -9721,7 +9740,7 @@
     {
      "md": 7,
      "p": [
-      0.216,
+      0.217,
       0.234,
       0.549
      ]
@@ -9761,12 +9780,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9792,22 +9811,22 @@
       "absences": [],
       "other": [
        {
-        "title": "RC Lens - Jean-Louis Leca perd du crédit auprès de sa direction, son avenir pourrait se compliquer",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-jean-louis-leca-perd-du-credit-aupres-de-sa-direction-son-avenir-pourrait-se-compliquer-43758568",
-        "time": "2026-11-10T21:31:00Z"
+        "title": "Quel avenir pour Jean-Louis Leca au RC Lens ?",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/quel-avenir-pour-jean-louis-leca-au-rc-lens-43761021",
+        "time": "2026-11-11T12:56:01Z"
        },
        {
-        "title": "Mercato Lens - Deux nouvelles pistes surprenantes étudiées pour remplacer Yannick Cahuzac",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-lens-deux-nouvelles-pistes-surprenantes-etudiees-pour-remplacer-yannick-cahuzac-43758229",
-        "time": "2026-11-10T20:03:00Z"
+        "title": "Quels objectifs ce RC Lens peut viser pour la suite de la saison ? Les réponses",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/quels-objectifs-ce-rc-lens-peut-viser-pour-la-suite-de-la-saison-les-reponses-43760385",
+        "time": "2026-11-11T10:55:57Z"
        },
        {
-        "title": "RC Lens - Samuel Umtiti tire la sonnette d'alarme et dénonce les erreurs de la direction après le départ de Yannick Cahuzac",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-samuel-umtiti-tire-la-sonnette-dalarme-et-denonce-les-erreurs-de-la-direction-apres-le-depart-de-yannick-cahuzac-43757973",
-        "time": "2026-11-10T18:58:00Z"
+        "title": "Pereira Da Costa, Saint-Maximin, Zaroury… les ex-Lensois au rendez-vous des play-offs de MLS",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/pereira-da-costa-saint-maximin-zaroury-les-ex-lensois-au-rendez-vous-des-play-offs-de-mls-43760009",
+        "time": "2026-11-11T09:51:51Z"
        }
       ],
       "scorer": {
@@ -9942,12 +9961,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9971,6 +9990,12 @@
     "press": {
      "H": {
       "absences": [
+       {
+        "title": "LOSC : suspendu six mois par la FFF, le président Olivier Létang va saisir le CNOSF",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/losc-suspendu-six-mois-par-la-fff-le-president-olivier-letang-va-saisir-le-cnosf-43758765",
+        "time": "2026-11-10T22:34:00Z"
+       },
        {
         "title": "LOSC - Olivier Létang prend une décision majeure après sa lourde suspension par la FFF",
         "publisher": "MadeInFOOT",
@@ -10008,22 +10033,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Mercato OL - L'OL s'est appuyé sur Pep Guardiola pour s'attacher les services de Carlos Vicens !",
+        "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-ol-lol-sest-appuye-sur-pep-guardiola-pour-sattacher-les-services-de-carlos-vicens-43758156",
-        "time": "2026-11-10T19:50:00Z"
+        "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
+        "time": "2026-11-11T13:30:00Z"
        },
        {
-        "title": "OL - Carlos Vicens a dirigé sa première séance d'entraînement à l'OL (vidéo)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-a-dirige-sa-premiere-seance-dentrainement-a-lol-video-43757964",
-        "time": "2026-11-10T18:56:00Z"
+        "title": "OL : Kaïl Boudache lance la trêve internationale des Lyonnais",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-kail-boudache-lance-la-treve-internationale-des-lyonnais-43761125",
+        "time": "2026-11-11T13:20:00Z"
        },
        {
-        "title": "OL Academy 26-27 / 04 : la réserve retrouve des couleurs, les U17 ont vécun un cauchemar à Grenoble",
+        "title": "L’AC prêt à tout pour rapatrier Athekame avant la fin de la saison",
         "publisher": "FerveurLyonnaise",
-        "url": "https://onefootball.com/fr/news/ol-academy-26-27-04-la-reserve-retrouve-des-couleurs-les-u17-ont-vecun-un-cauchemar-a-grenoble-43757777",
-        "time": "2026-11-10T18:00:31Z"
+        "url": "https://onefootball.com/fr/news/lac-pret-a-tout-pour-rapatrier-athekame-avant-la-fin-de-la-saison-43760844",
+        "time": "2026-11-11T12:30:43Z"
        }
       ],
       "scorer": {
@@ -10136,12 +10161,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10317,12 +10342,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10348,6 +10373,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Strasbourg : l'entraîneur Hugo Oliveira sur la sellette, un coach français pour le remplacer ?",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/strasbourg-lentraineur-hugo-oliveira-sur-la-sellette-un-coach-francais-pour-le-remplacer-43759780",
+        "time": "2026-11-11T08:55:00Z"
+       },
+       {
         "title": "RC Strasbourg - Hugo Oliveira déplore le visage affiché par le RCSA loin de la Meinau après la défaite face au TFC",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/rc-strasbourg-hugo-oliveira-deplore-le-visage-affiche-par-le-rcsa-loin-de-la-meinau-apres-la-defaite-face-au-tfc-43742434",
@@ -10364,22 +10395,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
+        "time": "2026-11-11T13:30:00Z"
+       },
+       {
+        "title": "Stade Brestois : Noah Edjouma bouscule la hiérarchie à Brest",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-noah-edjouma-bouscule-la-hierarchie-a-brest-43759944",
+        "time": "2026-11-11T09:30:59Z"
+       },
+       {
         "title": "Stade Brestois - Julien Lachuer savoure le beau succès face à l'OL et la bonne passe du SB29",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/stade-brestois-julien-lachuer-savoure-le-beau-succes-face-a-lol-et-la-bonne-passe-du-sb29-43753553",
         "time": "2026-11-09T19:55:00Z"
-       },
-       {
-        "title": "Brest : Lachuer savoure la victoire contre Lyon et dévoile les clés du succès",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/brest-lachuer-savoure-la-victoire-contre-lyon-et-devoile-les-cles-du-succes-43750493",
-        "time": "2026-11-09T10:00:32Z"
-       },
-       {
-        "title": "Brest-OL : les statistiques catastrophiques de Jorge Maciel en tant qu'intérimaire",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/brest-ol-les-statistiques-catastrophiques-de-jorge-maciel-en-tant-quinterimaire-43748247",
-        "time": "2026-11-08T19:55:00Z"
        }
       ],
       "scorer": {
@@ -10492,12 +10523,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10523,22 +10554,22 @@
       "absences": [],
       "other": [
        {
+        "title": "👑 TOP 20 des scoreurs : Yamal devance Raphinha, Sinayoko talonne Mbappé",
+        "publisher": "OneFootball",
+        "url": "https://onefootball.com/fr/news/top-20-des-scoreurs-yamal-devance-raphinha-sinayoko-talonne-mbappe-43761293",
+        "time": "2026-11-11T13:57:40Z"
+       },
+       {
+        "title": "Giovanni Castaldi : « On a eu deux exemples cataclysmiques avec les deux escrocs John Textor et Gérard Lopez »",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/giovanni-castaldi-on-a-eu-deux-exemples-cataclysmiques-avec-les-deux-escrocs-john-textor-et-gerard-lopez-43759714",
+        "time": "2026-11-11T08:30:38Z"
+       },
+       {
         "title": "Mercato-Paris FC : Naples tombe sous le charme d'une recrue estivale !",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/mercato-paris-fc-naples-tombe-sous-le-charme-dune-recrue-estivale-43758569",
         "time": "2026-11-10T21:32:00Z"
-       },
-       {
-        "title": "Equipe de France - Pablo Pagis choqué par le niveau technique des Bleus à l'entraînement",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/equipe-de-france-pablo-pagis-choque-par-le-niveau-technique-des-bleus-a-lentrainement-43755267",
-        "time": "2026-11-10T09:32:00Z"
-       },
-       {
-        "title": "Walid Acherchour : « Pablo Pagis ne marche pas sur la Ligue 1 depuis le début de saison »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/walid-acherchour-pablo-pagis-ne-marche-pas-sur-la-ligue-1-depuis-le-debut-de-saison-43754907",
-        "time": "2026-11-10T08:30:13Z"
        }
       ],
       "scorer": {
@@ -10660,12 +10691,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10707,22 +10738,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Rennais : Une satisfaction surprise au milieu de marasme ambiant",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-une-satisfaction-surprise-au-milieu-de-marasme-ambiant-43760944",
+        "time": "2026-11-11T12:44:34Z"
+       },
+       {
+        "title": "Rennes : un jeune du centre de formation signe professionnel avant de disputer la Coupe du monde U17",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/rennes-un-jeune-du-centre-de-formation-signe-professionnel-avant-de-disputer-la-coupe-du-monde-u17-43759200",
+        "time": "2026-11-11T06:00:00Z"
+       },
+       {
         "title": "Stade Rennais : Le fiasco Mayenda inquiéte en interne, on comprend pourquoi",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-rennais-le-fiasco-mayenda-inquiete-en-interne-on-comprend-pourquoi-43757894",
         "time": "2026-11-10T18:30:17Z"
-       },
-       {
-        "title": "Mercato Rennes - Les dirigeants du Stade Rennais commentent la signature pro de Firmin Thétiot",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-rennes-les-dirigeants-du-stade-rennais-commentent-la-signature-pro-de-firmin-thetiot-43756495",
-        "time": "2026-11-10T13:45:00Z"
-       },
-       {
-        "title": "Firmin Thétiot signe son premier contrat professionnel avec le Stade rennais",
-        "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/firmin-thetiot-signe-son-premier-contrat-professionnel-avec-le-stade-rennais-43756395",
-        "time": "2026-11-10T13:30:08Z"
        }
       ],
       "scorer": {
@@ -10835,12 +10866,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10866,22 +10897,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – Dugarry tempère l’enthousiasme envers Genesio",
+        "title": "OM – Pourquoi Genesio est important dans la remontée de l’OM ?",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-dugarry-tempere-lenthousiasme-envers-genesio-43758658",
-        "time": "2026-11-10T22:00:39Z"
+        "url": "https://onefootball.com/fr/news/om-pourquoi-genesio-est-important-dans-la-remontee-de-lom-43760714",
+        "time": "2026-11-11T12:00:53Z"
        },
        {
-        "title": "Ex-OM : Vers un retour en Ligue 1 pour Mandanda ?",
+        "title": "Mercato OM : La DNCG met fin aux espoirs des supporters",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-vers-un-retour-en-ligue-1-pour-mandanda-43758467",
-        "time": "2026-11-10T21:00:18Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-la-dncg-met-fin-aux-espoirs-des-supporters-43760088",
+        "time": "2026-11-11T10:00:04Z"
        },
        {
-        "title": "OM – Exit Moumbagna, Valero tient sa chance",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-exit-moumbagna-valero-tient-sa-chance-43757509",
-        "time": "2026-11-10T17:00:48Z"
+        "title": "OM - Fabrice Fiorèse raconte l'acharnement terrible qu'il a subi à Marseille après son départ du PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-fabrice-fiorese-raconte-lacharnement-terrible-quil-a-subi-a-marseille-apres-son-depart-du-psg-43759672",
+        "time": "2026-11-11T08:27:00Z"
        }
       ],
       "scorer": {
@@ -11010,12 +11041,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-10T23:10+00:00",
+    "at": "2026-11-11T14:29+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-10T23:10+00:00",
+    "dataAt": "2026-11-11T14:26+00:00",
     "changes": 1,
     "model": {
-     "version": "c87a76d",
+     "version": "0e5df38",
      "mu": 0.214,
      "home": 0.232
     }
