@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-12T00:31+00:00",
-  "generatedAt": "2026-11-12T00:31+00:00",
+  "fetchedAt": "2026-11-12T15:18+00:00",
+  "generatedAt": "2026-11-12T15:21+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-11T23:28+00:00",
-    "lastAttempt": "2026-11-11T23:28+00:00",
+    "lastOk": "2026-11-12T15:18+00:00",
+    "lastAttempt": "2026-11-12T15:18+00:00",
     "error": null,
     "failures": 0,
-    "count": 141
+    "count": 142
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-12T00:31+00:00",
-    "lastAttempt": "2026-11-12T00:31+00:00",
+    "lastOk": "2026-11-12T15:19+00:00",
+    "lastAttempt": "2026-11-12T15:19+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,18 +49,18 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-11T23:29+00:00",
-    "lastAttempt": "2026-11-11T23:29+00:00",
+    "lastOk": "2026-11-12T15:19+00:00",
+    "lastAttempt": "2026-11-12T15:19+00:00",
     "error": null,
     "failures": 0,
-    "count": 6
+    "count": 5
    },
    {
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-11T23:29+00:00",
-    "lastAttempt": "2026-11-11T23:29+00:00",
+    "lastOk": "2026-11-12T15:19+00:00",
+    "lastAttempt": "2026-11-12T15:19+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-11T23:29+00:00",
-    "lastAttempt": "2026-11-11T23:29+00:00",
+    "lastOk": "2026-11-12T15:19+00:00",
+    "lastAttempt": "2026-11-12T15:19+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-11T23:30+00:00",
+  "generatedAt": "2026-11-12T15:19+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -805,10 +805,10 @@
     "nTest": 320,
     "own": 1.006,
     "other": 1.0,
-    "sd": 0.056,
+    "sd": 0.039,
     "ci": [
-     0.917,
-     1.103
+     0.943,
+     1.073
     ],
     "hypothesis": {
      "own": 0.86,
@@ -830,10 +830,10 @@
     "nTest": 212,
     "own": 1.057,
     "other": 0.947,
-    "sd": 0.0,
+    "sd": 0.045,
     "ci": [
-     1.057,
-     1.057
+     0.982,
+     1.138
     ],
     "hypothesis": {
      "own": 0.95,
@@ -9465,6 +9465,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Le Havre : le HAC aurait trouvé le successeur de Didier Digard sur le banc",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/le-havre-le-hac-aurait-trouve-le-successeur-de-didier-digard-sur-le-banc-43764289",
+        "time": "2026-11-12T07:37:00Z"
+       },
+       {
         "title": "HAC : Valérien Ismaël débarque, tout savoir (parcours, style, Data)",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/hac-valerien-ismaeal-debarque-tout-savoir-parcours-style-data-43762741",
@@ -9475,12 +9481,6 @@
         "publisher": "Doyens",
         "url": "https://onefootball.com/fr/news/le-nouveau-coach-du-hac-trouve-43762718",
         "time": "2026-11-11T18:40:26Z"
-       },
-       {
-        "title": "Mercato Le Havre AC - Le HAC a trouvé son nouvel entraîneur !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-hac-a-trouve-son-nouvel-entraineur-43762713",
-        "time": "2026-11-11T18:38:00Z"
        }
       ],
       "scorer": {
@@ -9593,12 +9593,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9649,32 +9649,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "Équipe de France : Mbappé blessé, Zidane appelle Senny Mayulu !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/equipe-de-france-mbappe-blesse-zidane-appelle-senny-mayulu-43760865",
-        "time": "2026-11-11T12:35:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "Le Barça meilleur que le PSG, un joueur des Blaugranas l'affirme",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/le-barca-meilleur-que-le-psg-un-joueur-des-blaugranas-laffirme-43763347",
-        "time": "2026-11-11T21:28:00Z"
+        "title": "PSG - \"Il est extraordinaire\", les mots forts de Thierry Henry sur Luis Enrique",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-il-est-extraordinaire-les-mots-forts-de-thierry-henry-sur-luis-enrique-43766777",
+        "time": "2026-11-12T14:45:00Z"
        },
        {
-        "title": "INFO ONZE MONDIAL - PSG : la rumeur Kobel tombe à l'eau",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/info-onze-mondial-psg-la-rumeur-kobel-tombe-a-leau-43762590",
-        "time": "2026-11-11T18:11:00Z"
-       },
-       {
-        "title": "Mercato – Le PSG tenté par un prodige argentin à 100 millions d’euros",
+        "title": "Vidéo Italie/France et l’actualité du PSG",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/mercato-le-psg-tente-par-un-prodige-argentin-a-100-millions-deuros-43762312",
-        "time": "2026-11-11T17:09:32Z"
+        "url": "https://onefootball.com/fr/news/video-italiefrance-et-lactualite-du-psg-43766593",
+        "time": "2026-11-12T14:10:11Z"
+       },
+       {
+        "title": "Des millions en jeu : le PSG courtiserait un joueur du Bayern",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/des-millions-en-jeu-le-psg-courtiserait-un-joueur-du-bayern-43766535",
+        "time": "2026-11-12T14:01:37Z"
        }
       ],
       "scorer": {
@@ -9787,12 +9780,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9818,22 +9811,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Pierre Sage ouvert à un retour à Lens, Crystal Palace lui cherche un successeur",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/pierre-sage-ouvert-a-un-retour-a-lens-crystal-palace-lui-cherche-un-successeur-43762870",
-        "time": "2026-11-11T19:23:25Z"
+        "title": "RC Lens : Sage aurait déjà dit oui !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/rc-lens-sage-aurait-deja-dit-oui-43766208",
+        "time": "2026-11-12T13:26:00Z"
        },
        {
-        "title": "Mercato Lens - Pierre Sage change d'avis et ouvre la porte à un retour au RC Lens !",
+        "title": "Mercato Lens - Pierre Sage aurait un accord avec le RC Lens, mais...",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-lens-pierre-sage-change-davis-et-ouvre-la-porte-a-un-retour-au-rc-lens-43762769",
-        "time": "2026-11-11T18:53:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-lens-pierre-sage-aurait-un-accord-avec-le-rc-lens-mais-43766172",
+        "time": "2026-11-12T13:22:00Z"
        },
        {
-        "title": "Mercato Lens - Les trois noms qui se détachent pour le poste d'entraîneur",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-lens-les-trois-noms-qui-se-detachent-pour-le-poste-dentraineur-43762644",
-        "time": "2026-11-11T18:18:00Z"
+        "title": "RC Lens : Pierre Sage vers un accord pour un retour fracassant",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/rc-lens-pierre-sage-vers-un-accord-pour-un-retour-fracassant-43766160",
+        "time": "2026-11-12T13:15:52Z"
        }
       ],
       "scorer": {
@@ -9968,12 +9961,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9998,6 +9991,12 @@
      "H": {
       "absences": [
        {
+        "title": "Italie – France : Quelle équipe pour Zinedine Zidane avec le forfait de Kylian Mbappé ?",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/italie-france-quelle-equipe-pour-zinedine-zidane-avec-le-forfait-de-kylian-mbappe-43765454",
+        "time": "2026-11-12T07:11:00Z"
+       },
+       {
         "title": "LOSC : suspendu six mois par la FFF, le président Olivier Létang va saisir le CNOSF",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/losc-suspendu-six-mois-par-la-fff-le-president-olivier-letang-va-saisir-le-cnosf-43758765",
@@ -10012,22 +10011,22 @@
       ],
       "other": [
        {
+        "title": "Ligue 1 - LOSC - OL : la rencontre pourrait être décalée",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-losc-ol-la-rencontre-pourrait-etre-decalee-43766138",
+        "time": "2026-11-12T13:20:00Z"
+       },
+       {
+        "title": "« Vous parlez à un Lillois » : Rudi Garcia écarte la possibilité d’entraîner le RC Lens",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/vous-parlez-a-un-lillois-rudi-garcia-ecarte-la-possibilite-dentrainer-le-rc-lens-43765452",
+        "time": "2026-11-12T11:30:09Z"
+       },
+       {
         "title": "Mercato LOSC - La réaction de Tanguy Nianzou suite à sa prolongation de contrat avec le Lille OSC",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-losc-la-reaction-de-tanguy-nianzou-suite-a-sa-prolongation-de-contrat-avec-le-lille-osc-43753897",
         "time": "2026-11-09T21:59:00Z"
-       },
-       {
-        "title": "Mercato LOSC - Hamza Igamane réagit à sa prolongation de contrat avec le Lille OSC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-losc-hamza-igamane-reagit-a-sa-prolongation-de-contrat-avec-le-lille-osc-43753862",
-        "time": "2026-11-09T21:45:00Z"
-       },
-       {
-        "title": "Mercato LOSC - Olivier Létang commente les prolongations de contrat signées par Tanguy Nianzou et Hamza Igamane",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-losc-olivier-letang-commente-les-prolongations-de-contrat-signees-par-tanguy-nianzou-et-hamza-igamane-43753836",
-        "time": "2026-11-09T21:26:00Z"
        }
       ],
       "scorer": {
@@ -10037,32 +10036,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "OL - Carlos Vicens enregistre déjà un retour de blessure à l'entraînement collectif",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-enregistre-deja-un-retour-de-blessure-a-lentrainement-collectif-43761733",
-        "time": "2026-11-11T15:15:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "OL : l'importance de prendre des points contre les petites équipes",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-limportance-de-prendre-des-points-contre-les-petites-equipes-43761865",
-        "time": "2026-11-11T15:50:00Z"
-       },
-       {
-        "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
+        "title": "OL - Cet attaquant lyonnais fait son retour à l'entraînement collectif",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
-        "time": "2026-11-11T13:30:00Z"
+        "url": "https://onefootball.com/fr/news/ol-cet-attaquant-lyonnais-fait-son-retour-a-lentrainement-collectif-43766674",
+        "time": "2026-11-12T14:30:00Z"
        },
        {
-        "title": "OL : Kaïl Boudache lance la trêve internationale des Lyonnais",
+        "title": "Mercato : c'est terminé pour Pierre Sage (ex-OL) à Crystal Palace",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-kail-boudache-lance-la-treve-internationale-des-lyonnais-43761125",
-        "time": "2026-11-11T13:20:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-cest-termine-pour-pierre-sage-ex-ol-a-crystal-palace-43766589",
+        "time": "2026-11-12T14:10:00Z"
+       },
+       {
+        "title": "OL : quel staff autour de Carlos Vicens",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-quel-staff-autour-de-carlos-vicens-43766150",
+        "time": "2026-11-12T13:20:00Z"
        }
       ],
       "scorer": {
@@ -10175,12 +10167,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10206,22 +10198,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Mercato Monaco - L'ASM pourrait recruter un nouveau joueur du FC Barcelone cet hiver",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-lasm-pourrait-recruter-un-nouveau-joueur-du-fc-barcelone-cet-hiver-43766355",
+        "time": "2026-11-12T13:40:00Z"
+       },
+       {
+        "title": "Mercato Monaco - Un club italien suit de près Lamine Camara et Mamadou Coulibaly !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-un-club-italien-suit-de-pres-lamine-camara-et-mamadou-coulibaly-43764804",
+        "time": "2026-11-12T09:33:00Z"
+       },
+       {
         "title": "AS Monaco - Coup dur pour Aleksandr Golovin !",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-coup-dur-pour-aleksandr-golovin-43758077",
         "time": "2026-11-10T19:18:00Z"
-       },
-       {
-        "title": "Monaco : Mamadou Coulibaly s'expose à des sanctions après sa célébration polémique",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/monaco-mamadou-coulibaly-sexpose-a-des-sanctions-apres-sa-celebration-polemique-43754366",
-        "time": "2026-11-10T05:20:00Z"
-       },
-       {
-        "title": "AS Monaco - Le Conseil National de l'éthique saisit la LFP après la célébration polémique de Mamadou Coulibaly",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-le-conseil-national-de-lethique-saisit-la-lfp-apres-la-celebration-polemique-de-mamadou-coulibaly-43752219",
-        "time": "2026-11-09T15:23:00Z"
        }
       ],
       "scorer": {
@@ -10362,12 +10354,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10549,12 +10541,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10717,12 +10709,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10892,12 +10884,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10923,22 +10915,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – De bonnes nouvelles de McCourt à venir ?",
+        "title": "OM – L’OM a décidé de se mettre à courir",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-de-bonnes-nouvelles-de-mccourt-a-venir-43763598",
-        "time": "2026-11-11T23:00:03Z"
+        "url": "https://onefootball.com/fr/news/om-lom-a-decide-de-se-mettre-a-courir-43766853",
+        "time": "2026-11-12T15:00:30Z"
        },
        {
-        "title": "OM – Plusieurs marseillais en sélection durant la trêve internationale",
+        "title": "OM – Les craintes d’Eric Di Meco avant le mercato d’hiver",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-plusieurs-marseillais-en-selection-durant-la-treve-internationale-43763261",
-        "time": "2026-11-11T21:00:41Z"
+        "url": "https://onefootball.com/fr/news/om-les-craintes-deric-di-meco-avant-le-mercato-dhiver-43766050",
+        "time": "2026-11-12T13:00:35Z"
        },
        {
-        "title": "OM - Éric Di Meco réclame un geste de la part de Frank McCourt",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-eric-di-meco-reclame-un-geste-de-la-part-de-frank-mccourt-43763073",
-        "time": "2026-11-11T20:04:00Z"
+        "title": "OM – Les South Winners organisent un gala de charité au profit des enfants placés et orphelins de Marseille",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-les-south-winners-organisent-un-gala-de-charite-au-profit-des-enfants-places-et-orphelins-de-marseille-43765685",
+        "time": "2026-11-12T12:00:16Z"
        }
       ],
       "scorer": {
@@ -11067,12 +11059,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-12T00:31+00:00",
+    "at": "2026-11-12T15:21+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T00:31+00:00",
+    "dataAt": "2026-11-12T15:18+00:00",
     "changes": 1,
     "model": {
-     "version": "f4e52e5",
+     "version": "adf8c72",
      "mu": 0.214,
      "home": 0.232
     }
