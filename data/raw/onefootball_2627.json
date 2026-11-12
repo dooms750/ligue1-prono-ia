@@ -8664,6 +8664,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688786": {
+   "id": 2688786,
+   "competition": "Ligue 1",
+   "kickoff": "2027-01-16T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Stade Rennais",
+   "away": "RC Lens",
+   "homeLink": "/fr/equipe/stade-rennais-264",
+   "awayLink": "/fr/equipe/rc-lens-256",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -8911,6 +8931,12 @@
   ],
   "FC Lorient": [
    {
+    "title": "FC Lorient - Ce cadre défensif des Merlus va être absent plusieurs semaines après une blessure",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T15:55:00Z",
+    "url": "https://onefootball.com/fr/news/fc-lorient-ce-cadre-defensif-des-merlus-va-etre-absent-plusieurs-semaines-apres-une-blessure-43767181"
+   },
+   {
     "title": "L'OL craque à Brest, Le Havre coule contre Lorient, Monaco accroché... tous les résultats du multiplex !",
     "publisher": "OnzeMondial",
     "time": "2026-11-08T18:22:00Z",
@@ -8963,15 +8989,15 @@
     "publisher": "Morning Foot",
     "time": "2026-11-03T13:00:54Z",
     "url": "https://onefootball.com/fr/news/stade-brestois-evenement-tres-attendu-arrive-les-joueurs-enfin-soulages-43718210"
-   },
-   {
-    "title": "Brest : Julien Lachuer savoure le derby et pousse un coup de gueule sur l’arbitrage",
-    "publisher": "Morning Foot",
-    "time": "2026-11-03T08:30:43Z",
-    "url": "https://onefootball.com/fr/news/brest-julien-lachuer-savoure-le-derby-et-pousse-un-coup-de-gueule-sur-larbitrage-43716880"
    }
   ],
   "LOSC": [
+   {
+    "title": "LOSC : un talent de 18 ans bouscule la hiérarchie",
+    "publisher": "Morning Foot",
+    "time": "2026-11-12T19:15:47Z",
+    "url": "https://onefootball.com/fr/news/losc-un-talent-de-18-ans-bouscule-la-hierarchie-43768290"
+   },
    {
     "title": "Ligue 1 - LOSC - OL : la rencontre pourrait être décalée",
     "publisher": "MadeInFOOT",
@@ -9025,15 +9051,33 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-09T21:45:00Z",
     "url": "https://onefootball.com/fr/news/mercato-losc-hamza-igamane-reagit-a-sa-prolongation-de-contrat-avec-le-lille-osc-43753862"
-   },
-   {
-    "title": "Mercato LOSC - Olivier Létang commente les prolongations de contrat signées par Tanguy Nianzou et Hamza Igamane",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-09T21:26:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-losc-olivier-letang-commente-les-prolongations-de-contrat-signees-par-tanguy-nianzou-et-hamza-igamane-43753836"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "Mercato Le Havre AC - Le HAC nomme le successeur de Didier Digard (officiel)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T18:10:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-hac-nomme-le-successeur-de-didier-digard-officiel-43767931"
+   },
+   {
+    "title": "OFFICIEL : Valérien Ismaël est le nouvel entraîneur du Havre",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-12T17:56:00Z",
+    "url": "https://onefootball.com/fr/news/officiel-valerien-ismaeal-est-le-nouvel-entraineur-du-havre-43767832"
+   },
+   {
+    "title": "OFFICIEL : Valérien Ismaël, nouvel entraîneur du HAC !",
+    "publisher": "Doyens",
+    "time": "2026-11-12T17:35:27Z",
+    "url": "https://onefootball.com/fr/news/officiel-valerien-ismaeal-nouvel-entraineur-du-hac-43767737"
+   },
+   {
+    "title": "Le Havre : Valérien Ismaël a signé son contrat pour succéder à Didier Digard",
+    "publisher": "Foot National",
+    "time": "2026-11-12T16:31:00Z",
+    "url": "https://onefootball.com/fr/news/le-havre-valerien-ismaeal-a-signe-son-contrat-pour-succeder-a-didier-digard-43767382"
+   },
    {
     "title": "Le Havre : le HAC aurait trouvé le successeur de Didier Digard sur le banc",
     "publisher": "Foot National",
@@ -9069,30 +9113,6 @@
     "publisher": "Doyens",
     "time": "2026-11-08T18:52:15Z",
     "url": "https://onefootball.com/fr/news/on-croit-au-maintien-avec-les-supporters-on-sait-quon-va-le-faire-43747919"
-   },
-   {
-    "title": "L'OL craque à Brest, Le Havre coule contre Lorient, Monaco accroché... tous les résultats du multiplex !",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-08T18:22:00Z",
-    "url": "https://onefootball.com/fr/news/lol-craque-a-brest-le-havre-coule-contre-lorient-monaco-accroche-tous-les-resultats-du-multiplex-43747749"
-   },
-   {
-    "title": "Ligue 1 - Le FC Lorient rebondit sur la pelouse du Havre AC et retrouve le top 10 (résumé)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-08T18:18:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-fc-lorient-rebondit-sur-la-pelouse-du-havre-ac-et-retrouve-le-top-10-resume-43747793"
-   },
-   {
-    "title": "Ligue 1 : Lyon manque sa première sans Fonseca, Nice enchaîne, Le Havre s’enfonce… les résultats du multiplex",
-    "publisher": "Foot National",
-    "time": "2026-11-08T18:15:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-lyon-manque-sa-premiere-sans-fonseca-nice-enchaine-le-havre-senfonce-les-resultats-du-multiplex-43747731"
-   },
-   {
-    "title": "Ligue 1 - L'OGC Nice enchaîne face à Angers SCO, le FC Lorient enfonce encore plus Le Havre AC",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-08T18:13:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-logc-nice-enchaine-face-a-angers-sco-le-fc-lorient-enfonce-encore-plus-le-havre-ac-43747710"
    }
   ],
   "Le Mans FC": [
@@ -9159,6 +9179,18 @@
   ],
   "OGC Nice": [
    {
+    "title": "OGC Nice - Olivier Pantaloni vole au secours de Yannick Cahuzac, tout juste licencié par le RC Lens",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T21:10:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-vole-au-secours-de-yannick-cahuzac-tout-juste-licencie-par-le-rc-lens-43768706"
+   },
+   {
+    "title": "OGC Nice : les raisons du grand retour des Aiglons",
+    "publisher": "Morning Foot",
+    "time": "2026-11-12T20:15:24Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-les-raisons-du-grand-retour-des-aiglons-43768536"
+   },
+   {
     "title": "Angers - Nice : l'album photos",
     "publisher": "Ogcnissa.com ",
     "time": "2026-11-12T10:28:51Z",
@@ -9205,21 +9237,39 @@
     "publisher": "Ogcnissa.com ",
     "time": "2026-11-08T18:11:08Z",
     "url": "https://onefootball.com/fr/news/angers-nice-0-2-43747742"
-   },
-   {
-    "title": "Ligue 1 - Angers SCO - OGC Nice : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-08T15:20:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-angers-sco-ogc-nice-les-compos-officielles-43746871"
-   },
-   {
-    "title": "Angers SCO - Deux absents dans le groupe angevin pour affronter l'OGC Nice",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-08T10:10:00Z",
-    "url": "https://onefootball.com/fr/news/angers-sco-deux-absents-dans-le-groupe-angevin-pour-affronter-logc-nice-43745456"
    }
   ],
   "Olympique Lyonnais": [
+   {
+    "title": "OL - Pavel Sulc lance une série de Vlogs sur Youtube pour suivre son rétablissement après sa blessure au genou",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T19:55:00Z",
+    "url": "https://onefootball.com/fr/news/ol-pavel-sulc-lance-une-serie-de-vlogs-sur-youtube-pour-suivre-son-retablissement-apres-sa-blessure-au-genou-43768413"
+   },
+   {
+    "title": "OL - Carlos Vicens accorde déjà du repos à ses joueurs",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T19:25:00Z",
+    "url": "https://onefootball.com/fr/news/ol-carlos-vicens-accorde-deja-du-repos-a-ses-joueurs-43768305"
+   },
+   {
+    "title": "La première séance d'entraînement de Carlos Vicens à l'OL",
+    "publisher": "Olympique Lyonnais",
+    "time": "2026-11-12T16:51:19Z",
+    "url": "https://onefootball.com/fr/video/la-premiere-seance-dentrainement-de-carlos-vicens-a-lol-3M0zTD5sIT5fdtBj3zN4Uq4ue80"
+   },
+   {
+    "title": "OL : un bilan comptable moins bon après dix journées de Ligue 1",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-12T16:35:00Z",
+    "url": "https://onefootball.com/fr/news/ol-un-bilan-comptable-moins-bon-apres-dix-journees-de-ligue-1-43767381"
+   },
+   {
+    "title": "Fabrice Fiorèse (ex-OL) raconte son enlèvement par un ancien coéquipier",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-12T15:50:00Z",
+    "url": "https://onefootball.com/fr/news/fabrice-fiorese-ex-ol-raconte-son-enlevement-par-un-ancien-coequipier-43767147"
+   },
    {
     "title": "OL - Cet attaquant lyonnais fait son retour à l'entraînement collectif",
     "publisher": "MadeInFOOT",
@@ -9249,39 +9299,57 @@
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-11-12T11:40:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-julien-duranville-ol-remporte-le-titre-de-plus-beau-geste-technique-doctobre-43765546"
-   },
-   {
-    "title": "OL : trois internationaux lyonnais en piste ce jeudi",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-12T10:00:00Z",
-    "url": "https://onefootball.com/fr/news/ol-trois-internationaux-lyonnais-en-piste-ce-jeudi-43764914"
-   },
-   {
-    "title": "Mercato OL - L'AC Milan réfléchit sérieusement à rapatrier Zachary Athekame !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T09:11:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-ol-lac-milan-reflechit-serieusement-a-rapatrier-zachary-athekame-43764717"
-   },
-   {
-    "title": "OL : Konan et Boudache dos au mur dans les éliminatoires de la CAN U23",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-12T09:10:00Z",
-    "url": "https://onefootball.com/fr/news/ol-konan-et-boudache-dos-au-mur-dans-les-eliminatoires-de-la-can-u23-43764707"
-   },
-   {
-    "title": "OL : l'entraînement de mercredi avec Ruben Kluivert et Rémi Himbert",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-12T08:25:00Z",
-    "url": "https://onefootball.com/fr/news/ol-lentrainement-de-mercredi-avec-ruben-kluivert-et-remi-himbert-43764488"
-   },
-   {
-    "title": "Steeve Kango fait son retour à l’entraînement",
-    "publisher": "FerveurLyonnaise",
-    "time": "2026-11-12T08:00:00Z",
-    "url": "https://onefootball.com/fr/news/steeve-kango-fait-son-retour-a-lentrainement-43764404"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Victoire écrasante des U19",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-12T22:00:46Z",
+    "url": "https://onefootball.com/fr/news/om-victoire-ecrasante-des-u19-43768980"
+   },
+   {
+    "title": "OM – Un dirigeant promu dans l’organigramme marseillais",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-12T21:00:12Z",
+    "url": "https://onefootball.com/fr/news/om-un-dirigeant-promu-dans-lorganigramme-marseillais-43768679"
+   },
+   {
+    "title": "OM - Les supporters de l'OM de nouveau sanctionnés, le Vélodrome n'affichera pas complet face au Mans FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T20:31:00Z",
+    "url": "https://onefootball.com/fr/news/om-les-supporters-de-lom-de-nouveau-sanctionnes-le-velodrome-naffichera-pas-complet-face-au-mans-fc-43768591"
+   },
+   {
+    "title": "OM – Marseille s’offre un retour en eLigue 1 en s’associant avec Jul",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-12T20:00:07Z",
+    "url": "https://onefootball.com/fr/news/om-marseille-soffre-un-retour-en-eligue-1-en-sassociant-avec-jul-43768458"
+   },
+   {
+    "title": "Italie-France : Chaine et horaire du match de la rencontre",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-12T19:00:29Z",
+    "url": "https://onefootball.com/fr/news/italie-france-chaine-et-horaire-du-match-de-la-rencontre-43768215"
+   },
+   {
+    "title": "Ex-OM : Le Milan AC est conquis par Adrien Rabiot",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-12T17:00:24Z",
+    "url": "https://onefootball.com/fr/news/ex-om-le-milan-ac-est-conquis-par-adrien-rabiot-43767564"
+   },
+   {
+    "title": "OM - Christophe Dugarry prévient les supporters marseillais, la DNCG pourrait tout bouleverser",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T16:00:00Z",
+    "url": "https://onefootball.com/fr/news/om-christophe-dugarry-previent-les-supporters-marseillais-la-dncg-pourrait-tout-bouleverser-43767211"
+   },
+   {
+    "title": "Anciens - Roggerio Nyakossi se confie à cœur ouvert sur son passage à l'OM et les obstacles rencontrés",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T15:44:00Z",
+    "url": "https://onefootball.com/fr/news/anciens-roggerio-nyakossi-se-confie-a-coeur-ouvert-sur-son-passage-a-lom-et-les-obstacles-rencontres-43767141"
+   },
    {
     "title": "OM – L’OM a décidé de se mettre à courir",
     "publisher": "CoeurMarseillais",
@@ -9289,61 +9357,55 @@
     "url": "https://onefootball.com/fr/news/om-lom-a-decide-de-se-mettre-a-courir-43766853"
    },
    {
-    "title": "OM – Les craintes d’Eric Di Meco avant le mercato d’hiver",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-12T13:00:35Z",
-    "url": "https://onefootball.com/fr/news/om-les-craintes-deric-di-meco-avant-le-mercato-dhiver-43766050"
-   },
-   {
     "title": "OM – Les South Winners organisent un gala de charité au profit des enfants placés et orphelins de Marseille",
     "publisher": "CoeurMarseillais",
     "time": "2026-11-12T12:00:16Z",
     "url": "https://onefootball.com/fr/news/om-les-south-winners-organisent-un-gala-de-charite-au-profit-des-enfants-places-et-orphelins-de-marseille-43765685"
-   },
-   {
-    "title": "OM - Jérôme Rothen demande un geste fort à Frank McCourt pour préserver les ambitions européennes",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T10:27:00Z",
-    "url": "https://onefootball.com/fr/news/om-jerome-rothen-demande-un-geste-fort-a-frank-mccourt-pour-preserver-les-ambitions-europeennes-43765047"
-   },
-   {
-    "title": "Ex-OM : Bakola vendu à prix d'or à un géant italien ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-12T10:06:00Z",
-    "url": "https://onefootball.com/fr/news/ex-om-bakola-vendu-a-prix-dor-a-un-geant-italien-43764964"
-   },
-   {
-    "title": "Ex-OM : Cabella revient sur sa pire saison à l’OM",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-12T10:00:17Z",
-    "url": "https://onefootball.com/fr/news/ex-om-cabella-revient-sur-sa-pire-saison-a-lom-43764949"
-   },
-   {
-    "title": "OM - La prophétie de Grégory Lorenzi prend tout son sens, une statistique révèle le renouveau marseillais",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T09:56:00Z",
-    "url": "https://onefootball.com/fr/news/om-la-prophetie-de-gregory-lorenzi-prend-tout-son-sens-une-statistique-revele-le-renouveau-marseillais-43764895"
-   },
-   {
-    "title": "OM : les premières fuites sur les futurs maillots adidas vont faire parler à Marseille",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-12T08:55:00Z",
-    "url": "https://onefootball.com/fr/news/om-les-premieres-fuites-sur-les-futurs-maillots-adidas-vont-faire-parler-a-marseille-43764608"
-   },
-   {
-    "title": "Mercato OM - Deux clubs italiens veulent recruter Pierre-Emile Højbjerg, une vente importante envisagée",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T08:41:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-deux-clubs-italiens-veulent-recruter-pierre-emile-hojbjerg-une-vente-importante-envisagee-43764549"
-   },
-   {
-    "title": "OM : 5 changements en interne, Genesio révolutionne Marseille",
-    "publisher": "Morning Foot",
-    "time": "2026-11-12T08:30:34Z",
-    "url": "https://onefootball.com/fr/news/om-5-changements-en-interne-genesio-revolutionne-marseille-43764526"
    }
   ],
   "PSG": [
+   {
+    "title": "PSG/Barcelone – Marc Bernal préfère les « si » au 4-2",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-12T21:15:16Z",
+    "url": "https://onefootball.com/fr/news/psgbarcelone-marc-bernal-prefere-les-si-au-4-2-43768760"
+   },
+   {
+    "title": "Tchéquie/Espagne  – Les équipes officielles : 2 joueurs du PSG titulaires",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-12T19:12:24Z",
+    "url": "https://onefootball.com/fr/news/tchequieespagne-les-equipes-officielles-2-joueurs-du-psg-titulaires-43768257"
+   },
+   {
+    "title": "Italie/France – Les équipes officielles : Doué dans l’axe, Zaïre-Emery et Mayulu sur le banc",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-12T19:01:49Z",
+    "url": "https://onefootball.com/fr/news/italiefrance-les-equipes-officielles-doue-dans-laxe-zaire-emery-et-mayulu-sur-le-banc-43768161"
+   },
+   {
+    "title": "Mercato – Marquinhos, le club ouvre déjà la réflexion sur son avenir",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-12T18:28:07Z",
+    "url": "https://onefootball.com/fr/news/mercato-marquinhos-le-club-ouvre-deja-la-reflexion-sur-son-avenir-43767987"
+   },
+   {
+    "title": "Mercato PSG - Paris a sondé l'entourage de Marquinhos pour une prolongation de contrat",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T18:20:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-paris-a-sonde-lentourage-de-marquinhos-pour-une-prolongation-de-contrat-43767962"
+   },
+   {
+    "title": "Streaming Tchéquie/Espagne : Où et comment voir le match ?",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-12T17:00:09Z",
+    "url": "https://onefootball.com/fr/news/streaming-tchequieespagne-ou-et-comment-voir-le-match-43767520"
+   },
+   {
+    "title": "PSG : Ferran Torres ne veut \"pas aller au duel avec Doué\", le compliment magnifique",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-12T17:00:00Z",
+    "url": "https://onefootball.com/fr/news/psg-ferran-torres-ne-veut-pas-aller-au-duel-avec-doue-le-compliment-magnifique-43767517"
+   },
    {
     "title": "PSG - \"Il est extraordinaire\", les mots forts de Thierry Henry sur Luis Enrique",
     "publisher": "MadeInFOOT",
@@ -9361,48 +9423,6 @@
     "publisher": "Parisfans.fr",
     "time": "2026-11-12T14:10:11Z",
     "url": "https://onefootball.com/fr/news/video-italiefrance-et-lactualite-du-psg-43766593"
-   },
-   {
-    "title": "Des millions en jeu : le PSG courtiserait un joueur du Bayern",
-    "publisher": "fussball-news.de",
-    "time": "2026-11-12T14:01:37Z",
-    "url": "https://onefootball.com/fr/news/des-millions-en-jeu-le-psg-courtiserait-un-joueur-du-bayern-43766535"
-   },
-   {
-    "title": "Streaming Turquie/Belgique : Où et comment voir le match ?",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-12T14:00:17Z",
-    "url": "https://onefootball.com/fr/news/streaming-turquiebelgique-ou-et-comment-voir-le-match-43766515"
-   },
-   {
-    "title": "Johan Micoud : « Ils peuvent compter sur 18-20 joueurs, tu les mets et ça ne change rien »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-12T12:00:16Z",
-    "url": "https://onefootball.com/fr/news/johan-micoud-ils-peuvent-compter-sur-18-20-joueurs-tu-les-mets-et-ca-ne-change-rien-43765708"
-   },
-   {
-    "title": "PSG - Le PSG annonce la signature d'un nouveau partenariat (officiel)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T10:15:00Z",
-    "url": "https://onefootball.com/fr/news/psg-le-psg-annonce-la-signature-dun-nouveau-partenariat-officiel-43765072"
-   },
-   {
-    "title": "Transfert en janvier ? Décision surprise du PSG concernant Maza",
-    "publisher": "fussball-news.de",
-    "time": "2026-11-12T09:30:53Z",
-    "url": "https://onefootball.com/fr/news/transfert-en-janvier-decision-surprise-du-psg-concernant-maza-43764792"
-   },
-   {
-    "title": "PSG - Pierre Ferracci fait une prédiction forte sur le futur stade du Paris Saint-Germain",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T07:56:00Z",
-    "url": "https://onefootball.com/fr/news/psg-pierre-ferracci-fait-une-prediction-forte-sur-le-futur-stade-du-paris-saint-germain-43764367"
-   },
-   {
-    "title": "Revue de presse : Italie/France, une affiche historique et avec de l’adaptation",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-12T07:43:41Z",
-    "url": "https://onefootball.com/fr/news/revue-de-presse-italiefrance-une-affiche-historique-et-avec-de-ladaptation-43764300"
    }
   ],
   "Paris FC": [
@@ -9469,6 +9489,54 @@
   ],
   "RC Lens": [
    {
+    "title": "OGC Nice - Olivier Pantaloni vole au secours de Yannick Cahuzac, tout juste licencié par le RC Lens",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T21:10:00Z",
+    "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-vole-au-secours-de-yannick-cahuzac-tout-juste-licencie-par-le-rc-lens-43768706"
+   },
+   {
+    "title": "Mercato Lens - Le RC Lens se sépare déjà de Yannick Cahuzac (officiel)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T18:06:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-lens-le-rc-lens-se-separe-deja-de-yannick-cahuzac-officiel-43767911"
+   },
+   {
+    "title": "Le RC Lens officialise le départ de Yannick Cahuzac",
+    "publisher": "Lensois.com",
+    "time": "2026-11-12T17:52:58Z",
+    "url": "https://onefootball.com/fr/news/le-rc-lens-officialise-le-depart-de-yannick-cahuzac-43767802"
+   },
+   {
+    "title": "Pierre Sage limogé par Crystal Palace pourrait rebondir au RC Lens",
+    "publisher": "Mercato Foot anglais",
+    "time": "2026-11-12T17:52:25Z",
+    "url": "https://onefootball.com/fr/news/pierre-sage-limoge-par-crystal-palace-pourrait-rebondir-au-rc-lens-43767803"
+   },
+   {
+    "title": "🚨 OFFICIEL : le RC Lens se sépare de Yannick Cahuzac !",
+    "publisher": "OneFootball",
+    "time": "2026-11-12T17:47:04Z",
+    "url": "https://onefootball.com/fr/news/officiel-le-rc-lens-se-separe-de-yannick-cahuzac-43767783"
+   },
+   {
+    "title": "OFFICIEL : Lens annonce le départ de Cahuzac de son poste d'entraîneur",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-12T17:45:00Z",
+    "url": "https://onefootball.com/fr/news/officiel-lens-annonce-le-depart-de-cahuzac-de-son-poste-dentraineur-43767807"
+   },
+   {
+    "title": "[Vidéo] Quand la Youth League met en lumière le jeune piston lensois Djulian Fernoc",
+    "publisher": "Lensois.com",
+    "time": "2026-11-12T15:48:58Z",
+    "url": "https://onefootball.com/fr/news/video-quand-la-youth-league-met-en-lumiere-le-jeune-piston-lensois-djulian-fernoc-43767144"
+   },
+   {
+    "title": "Mercato Lens - Joseph Oughourlian pousse, mais toujours pas d'accord pour le retour de Pierre Sage !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T15:20:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-lens-joseph-oughourlian-pousse-mais-toujours-pas-daccord-pour-le-retour-de-pierre-sage-43767029"
+   },
+   {
     "title": "Ambre Godillon : « Ce qu’ils ont produit n’est pas à la hauteur de ce qu’ils ont eux-mêmes exigé et provoqué »",
     "publisher": "ConsultantsFoot",
     "time": "2026-11-12T14:00:04Z",
@@ -9479,54 +9547,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-12T13:26:00Z",
     "url": "https://onefootball.com/fr/news/rc-lens-sage-aurait-deja-dit-oui-43766208"
-   },
-   {
-    "title": "Mercato Lens - Pierre Sage aurait un accord avec le RC Lens, mais...",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-12T13:22:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-lens-pierre-sage-aurait-un-accord-avec-le-rc-lens-mais-43766172"
-   },
-   {
-    "title": "RC Lens : Pierre Sage vers un accord pour un retour fracassant",
-    "publisher": "Morning Foot",
-    "time": "2026-11-12T13:15:52Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-pierre-sage-vers-un-accord-pour-un-retour-fracassant-43766160"
-   },
-   {
-    "title": "Walid Acherchour : « Là, c’est différent, il peut avoir l’image du sauveur… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-12T13:00:16Z",
-    "url": "https://onefootball.com/fr/news/walid-acherchour-la-cest-different-il-peut-avoir-limage-du-sauveur-43766042"
-   },
-   {
-    "title": "Pierre Sage quitte Crystal Palace et pourrait bien revenir au RC Lens",
-    "publisher": "Lensois.com",
-    "time": "2026-11-12T12:57:55Z",
-    "url": "https://onefootball.com/fr/news/pierre-sage-quitte-crystal-palace-et-pourrait-bien-revenir-au-rc-lens-43766033"
-   },
-   {
-    "title": "[Vidéo] Robin Risser chauffe les gants à l’entraînement avant Italie-France",
-    "publisher": "Lensois.com",
-    "time": "2026-11-12T10:49:28Z",
-    "url": "https://onefootball.com/fr/news/video-robin-risser-chauffe-les-gants-a-lentrainement-avant-italie-france-43765193"
-   },
-   {
-    "title": "Hugo Guillemet : « Ils ont grillé Cahuzac, il a été mis au feu »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-12T10:00:23Z",
-    "url": "https://onefootball.com/fr/news/hugo-guillemet-ils-ont-grille-cahuzac-il-a-ete-mis-au-feu-43764924"
-   },
-   {
-    "title": "Dave Appadoo : « Là, quand il va revenir, il revient en ayant un peu quitté Lens en rase campagne… »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-12T09:30:56Z",
-    "url": "https://onefootball.com/fr/news/dave-appadoo-la-quand-il-va-revenir-il-revient-en-ayant-un-peu-quitte-lens-en-rase-campagne-43764812"
-   },
-   {
-    "title": "Attaques-Défenses : Un RC Lens discret, les classements complets après 10 journées",
-    "publisher": "Lensois.com",
-    "time": "2026-11-12T08:55:03Z",
-    "url": "https://onefootball.com/fr/news/attaques-defenses-un-rc-lens-discret-les-classements-complets-apres-10-journees-43764602"
    }
   ],
   "RC Strasbourg": [
@@ -9593,6 +9613,12 @@
   ],
   "Stade Brestois": [
    {
+    "title": "Stade Brestois : les Pirates créent de nouveau la surprise",
+    "publisher": "Morning Foot",
+    "time": "2026-11-12T18:15:59Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-creent-de-nouveau-la-surprise-43767956"
+   },
+   {
     "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
     "publisher": "MadeInFOOT",
     "time": "2026-11-11T13:30:00Z",
@@ -9645,15 +9671,21 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-08T18:59:00Z",
     "url": "https://onefootball.com/fr/news/ol-jorge-maciel-analyse-la-defaite-lyonnaise-face-au-stade-brestois-43747981"
-   },
-   {
-    "title": "L'OL craque à Brest, Le Havre coule contre Lorient, Monaco accroché... tous les résultats du multiplex !",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-08T18:22:00Z",
-    "url": "https://onefootball.com/fr/news/lol-craque-a-brest-le-havre-coule-contre-lorient-monaco-accroche-tous-les-resultats-du-multiplex-43747749"
    }
   ],
   "Stade Rennais": [
+   {
+    "title": "Stade Rennais : Arnaud Nordin déjà poussé vers la sortie",
+    "publisher": "Morning Foot",
+    "time": "2026-11-12T16:00:24Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-arnaud-nordin-deja-pousse-vers-la-sortie-43767258"
+   },
+   {
+    "title": "FC Lorient - Ce cadre défensif des Merlus va être absent plusieurs semaines après une blessure",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-12T15:55:00Z",
+    "url": "https://onefootball.com/fr/news/fc-lorient-ce-cadre-defensif-des-merlus-va-etre-absent-plusieurs-semaines-apres-une-blessure-43767181"
+   },
    {
     "title": "Stade Rennais : Une satisfaction surprise au milieu de marasme ambiant",
     "publisher": "Morning Foot",
@@ -9701,18 +9733,6 @@
     "publisher": "Stade Rennais Online",
     "time": "2026-11-10T08:10:06Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-lille-vu-par-rv-43754822"
-   },
-   {
-    "title": "Mercato Rennes - Le Stade Rennais a identifié le poste à renforcer en janvier",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-10T07:53:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-rennes-le-stade-rennais-a-identifie-le-poste-a-renforcer-en-janvier-43754780"
-   },
-   {
-    "title": "Stade Rennais, RC Lens, des dirigeants sur un siège éjectable, les révélations",
-    "publisher": "Morning Foot",
-    "time": "2026-11-10T07:08:44Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-rc-lens-des-dirigeants-sur-un-siege-ejectable-les-revelations-43754624"
    }
   ],
   "Toulouse FC": [
@@ -9779,7 +9799,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-12T15:18+00:00",
+ "fetchedAt": "2026-11-12T22:44+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
