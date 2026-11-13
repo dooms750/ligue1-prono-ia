@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-12T23:29+00:00",
-  "generatedAt": "2026-11-12T23:29+00:00",
+  "fetchedAt": "2026-11-13T14:38+00:00",
+  "generatedAt": "2026-11-13T14:40+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-12T22:44+00:00",
-    "lastAttempt": "2026-11-12T22:44+00:00",
+    "lastOk": "2026-11-13T14:38+00:00",
+    "lastAttempt": "2026-11-13T14:38+00:00",
     "error": null,
     "failures": 0,
-    "count": 143
+    "count": 144
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-12T23:29+00:00",
-    "lastAttempt": "2026-11-12T23:29+00:00",
+    "lastOk": "2026-11-13T14:39+00:00",
+    "lastAttempt": "2026-11-13T14:39+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,18 +49,18 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-12T22:46+00:00",
-    "lastAttempt": "2026-11-12T22:46+00:00",
+    "lastOk": "2026-11-13T14:39+00:00",
+    "lastAttempt": "2026-11-13T14:39+00:00",
     "error": null,
     "failures": 0,
-    "count": 0
+    "count": 1
    },
    {
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-12T22:46+00:00",
-    "lastAttempt": "2026-11-12T22:46+00:00",
+    "lastOk": "2026-11-13T14:39+00:00",
+    "lastAttempt": "2026-11-13T14:39+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-12T22:46+00:00",
-    "lastAttempt": "2026-11-12T22:46+00:00",
+    "lastOk": "2026-11-13T14:39+00:00",
+    "lastAttempt": "2026-11-13T14:39+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-12T22:46+00:00",
+  "generatedAt": "2026-11-13T14:39+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -805,10 +805,10 @@
     "nTest": 320,
     "own": 1.006,
     "other": 1.0,
-    "sd": 0.039,
+    "sd": 0.056,
     "ci": [
-     0.943,
-     1.073
+     0.917,
+     1.103
     ],
     "hypothesis": {
      "own": 0.86,
@@ -830,10 +830,10 @@
     "nTest": 212,
     "own": 1.057,
     "other": 0.947,
-    "sd": 0.045,
+    "sd": 0.0,
     "ci": [
-     0.982,
-     1.138
+     1.057,
+     1.057
     ],
     "hypothesis": {
      "own": 0.95,
@@ -8930,7 +8930,7 @@
    ],
    "pred": {
     "lh": 1.443,
-    "la": 1.27,
+    "la": 1.269,
     "p": [
      0.412,
      0.256,
@@ -9443,7 +9443,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [],
@@ -9465,6 +9465,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Quels sont les nouveaux visages du staff havrais ?",
+        "publisher": "Doyens",
+        "url": "https://onefootball.com/fr/news/quels-sont-les-nouveaux-visages-du-staff-havrais-43771000",
+        "time": "2026-11-13T11:58:45Z"
+       },
+       {
         "title": "Mercato Le Havre AC - Le HAC nomme le successeur de Didier Digard (officiel)",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-hac-nomme-le-successeur-de-didier-digard-officiel-43767931",
@@ -9475,12 +9481,6 @@
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/officiel-valerien-ismaeal-est-le-nouvel-entraineur-du-havre-43767832",
         "time": "2026-11-12T17:56:00Z"
-       },
-       {
-        "title": "OFFICIEL : Valérien Ismaël, nouvel entraîneur du HAC !",
-        "publisher": "Doyens",
-        "url": "https://onefootball.com/fr/news/officiel-valerien-ismaeal-nouvel-entraineur-du-hac-43767737",
-        "time": "2026-11-12T17:35:27Z"
        }
       ],
       "scorer": {
@@ -9489,6 +9489,38 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Stade de l'Aube",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 9,
+     "desc": "bruine légère",
+     "code": 51,
+     "rain": 0,
+     "rainMax": 2.1,
+     "gust": 40,
+     "pRain": 0.04,
+     "pWind": 0.22,
+     "members": 51,
+     "confidence": 48,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)",
+      "modèle mondial"
+     ],
+     "updated": "2026-11-13T14:39+00:00",
+     "history": [
+      {
+       "day": "2026-11-13",
+       "daysBefore": 7,
+       "pRain": 0.04,
+       "pWind": 0.22,
+       "temp": 8,
+       "conf": 48
+      }
+     ]
     }
    },
    "lh": 1.443,
@@ -9593,12 +9625,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9624,22 +9656,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OGC Nice - Olivier Pantaloni vole au secours de Yannick Cahuzac, tout juste licencié par le RC Lens",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ogc-nice-olivier-pantaloni-vole-au-secours-de-yannick-cahuzac-tout-juste-licencie-par-le-rc-lens-43768706",
-        "time": "2026-11-12T21:10:00Z"
+        "title": "Nice : le magnifique message de Pantaloni à Cahuzac après son renvoi de Lens",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/nice-le-magnifique-message-de-pantaloni-a-cahuzac-apres-son-renvoi-de-lens-43771498",
+        "time": "2026-11-13T13:28:00Z"
        },
        {
-        "title": "OGC Nice : les raisons du grand retour des Aiglons",
+        "title": "OGC Nice – Mercato : un gardien brésilien pour bousculer la hiérarchie ?",
         "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/ogc-nice-les-raisons-du-grand-retour-des-aiglons-43768536",
-        "time": "2026-11-12T20:15:24Z"
+        "url": "https://onefootball.com/fr/news/ogc-nice-mercato-un-gardien-bresilien-pour-bousculer-la-hierarchie-43770220",
+        "time": "2026-11-13T09:01:11Z"
        },
        {
-        "title": "Nice : quand les joueurs célèbrent un but avec Olivier Pantaloni, endeuillé pendant la semaine",
+        "title": "Nice : le groupe Elite s’incline contre une R1",
         "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/nice-quand-les-joueurs-celebrent-un-but-avec-olivier-pantaloni-endeuille-pendant-la-semaine-43749509",
-        "time": "2026-11-09T05:19:00Z"
+        "url": "https://onefootball.com/fr/news/nice-le-groupe-elite-sincline-contre-une-r1-43769241",
+        "time": "2026-11-12T23:30:00Z"
        }
       ],
       "scorer": {
@@ -9652,22 +9684,22 @@
       "absences": [],
       "other": [
        {
-        "title": "PSG/Barcelone – Marc Bernal préfère les « si » au 4-2",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psgbarcelone-marc-bernal-prefere-les-si-au-4-2-43768760",
-        "time": "2026-11-12T21:15:16Z"
+        "title": "LDC - PSG - AS Roma : une décision radicale a été prise pour ce match classé à très hauts risques",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ldc-psg-as-roma-une-decision-radicale-a-ete-prise-pour-ce-match-classe-a-tres-hauts-risques-43771599",
+        "time": "2026-11-13T13:50:00Z"
        },
        {
-        "title": "Tchéquie/Espagne  – Les équipes officielles : 2 joueurs du PSG titulaires",
+        "title": "Des nouvelles des dents de Doué après le coup de coude",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/tchequieespagne-les-equipes-officielles-2-joueurs-du-psg-titulaires-43768257",
-        "time": "2026-11-12T19:12:24Z"
+        "url": "https://onefootball.com/fr/news/des-nouvelles-des-dents-de-doue-apres-le-coup-de-coude-43771153",
+        "time": "2026-11-13T12:18:54Z"
        },
        {
-        "title": "Italie/France – Les équipes officielles : Doué dans l’axe, Zaïre-Emery et Mayulu sur le banc",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/italiefrance-les-equipes-officielles-doue-dans-laxe-zaire-emery-et-mayulu-sur-le-banc-43768161",
-        "time": "2026-11-12T19:01:49Z"
+        "title": "Mercato - PSG : une vente énorme de 86M€ réalisée cet été ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-psg-une-vente-enorme-de-86m-realisee-cet-ete-43771009",
+        "time": "2026-11-13T12:00:00Z"
        }
       ],
       "scorer": {
@@ -9740,7 +9772,7 @@
     {
      "md": 7,
      "p": [
-      0.217,
+      0.216,
       0.234,
       0.549
      ]
@@ -9780,12 +9812,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9811,22 +9843,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Mercato Lens - Le RC Lens se sépare déjà de Yannick Cahuzac (officiel)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-lens-le-rc-lens-se-separe-deja-de-yannick-cahuzac-officiel-43767911",
-        "time": "2026-11-12T18:06:00Z"
-       },
-       {
-        "title": "Le RC Lens officialise le départ de Yannick Cahuzac",
+        "title": "Le RC Lens roi des airs dans les surfaces adverses",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/le-rc-lens-officialise-le-depart-de-yannick-cahuzac-43767802",
-        "time": "2026-11-12T17:52:58Z"
+        "url": "https://onefootball.com/fr/news/le-rc-lens-roi-des-airs-dans-les-surfaces-adverses-43771675",
+        "time": "2026-11-13T14:01:33Z"
        },
        {
-        "title": "Pierre Sage limogé par Crystal Palace pourrait rebondir au RC Lens",
-        "publisher": "Mercato Foot anglais",
-        "url": "https://onefootball.com/fr/news/pierre-sage-limoge-par-crystal-palace-pourrait-rebondir-au-rc-lens-43767803",
-        "time": "2026-11-12T17:52:25Z"
+        "title": "Le point sur les temps de jeu au RC Lens avec trois joueurs à 1000 minutes et plus",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/le-point-sur-les-temps-de-jeu-au-rc-lens-avec-trois-joueurs-a-1000-minutes-et-plus-43771332",
+        "time": "2026-11-13T12:59:29Z"
+       },
+       {
+        "title": "RC Lens - Pierre Sage aura un premier obstacle à surmonter en cas de retour chez les Sang-et-Or",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-pierre-sage-aura-un-premier-obstacle-a-surmonter-en-cas-de-retour-chez-les-sang-et-or-43770692",
+        "time": "2026-11-13T10:55:00Z"
        }
       ],
       "scorer": {
@@ -9961,12 +9993,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10011,6 +10043,12 @@
       ],
       "other": [
        {
+        "title": "Ligue 1 : le choc LOSC - OL menacé d’un changement de programme",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-choc-losc-ol-menace-dun-changement-de-programme-43771204",
+        "time": "2026-11-13T12:31:00Z"
+       },
+       {
         "title": "LOSC : un talent de 18 ans bouscule la hiérarchie",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/losc-un-talent-de-18-ans-bouscule-la-hierarchie-43768290",
@@ -10021,12 +10059,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-losc-ol-la-rencontre-pourrait-etre-decalee-43766138",
         "time": "2026-11-12T13:20:00Z"
-       },
-       {
-        "title": "« Vous parlez à un Lillois » : Rudi Garcia écarte la possibilité d’entraîner le RC Lens",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/vous-parlez-a-un-lillois-rudi-garcia-ecarte-la-possibilite-dentrainer-le-rc-lens-43765452",
-        "time": "2026-11-12T11:30:09Z"
        }
       ],
       "scorer": {
@@ -10036,32 +10068,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "OL - Pavel Sulc lance une série de Vlogs sur Youtube pour suivre son rétablissement après sa blessure au genou",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-pavel-sulc-lance-une-serie-de-vlogs-sur-youtube-pour-suivre-son-retablissement-apres-sa-blessure-au-genou-43768413",
-        "time": "2026-11-12T19:55:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "OL - Carlos Vicens accorde déjà du repos à ses joueurs",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-accorde-deja-du-repos-a-ses-joueurs-43768305",
-        "time": "2026-11-12T19:25:00Z"
-       },
-       {
-        "title": "La première séance d'entraînement de Carlos Vicens à l'OL",
-        "publisher": "Olympique Lyonnais",
-        "url": "https://onefootball.com/fr/video/la-premiere-seance-dentrainement-de-carlos-vicens-a-lol-3M0zTD5sIT5fdtBj3zN4Uq4ue80",
-        "time": "2026-11-12T16:51:19Z"
-       },
-       {
-        "title": "OL : un bilan comptable moins bon après dix journées de Ligue 1",
+        "title": "L'OL revoit son partenariat avec la République du Congo",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-un-bilan-comptable-moins-bon-apres-dix-journees-de-ligue-1-43767381",
-        "time": "2026-11-12T16:35:00Z"
+        "url": "https://onefootball.com/fr/news/lol-revoit-son-partenariat-avec-la-republique-du-congo-43771723",
+        "time": "2026-11-13T14:10:00Z"
+       },
+       {
+        "title": "OL : 90 minutes pour Kamara (France U20) et Niakhaté (Sénégal)",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-90-minutes-pour-kamara-france-u20-et-niakhate-senegal-43771465",
+        "time": "2026-11-13T13:20:00Z"
+       },
+       {
+        "title": "Pourquoi l'OL obtient-il si peu de penalties cette saison ?",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/pourquoi-lol-obtient-il-si-peu-de-penalties-cette-saison-43770934",
+        "time": "2026-11-13T11:40:00Z"
        }
       ],
       "scorer": {
@@ -10174,12 +10199,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10205,22 +10230,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Mercato Monaco - L'ASM pourrait recruter un nouveau joueur du FC Barcelone cet hiver",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-monaco-lasm-pourrait-recruter-un-nouveau-joueur-du-fc-barcelone-cet-hiver-43766355",
-        "time": "2026-11-12T13:40:00Z"
+        "title": "Mercato : Coulibaly courtisé en Italie",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/mercato-coulibaly-courtise-en-italie-43771034",
+        "time": "2026-11-13T12:00:11Z"
        },
        {
-        "title": "Mercato Monaco - Un club italien suit de près Lamine Camara et Mamadou Coulibaly !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-monaco-un-club-italien-suit-de-pres-lamine-camara-et-mamadou-coulibaly-43764804",
-        "time": "2026-11-12T09:33:00Z"
+        "title": "40 millions ou rien : l’Atlético se heurte à l’AS Monaco pour…",
+        "publisher": "Dosis Futbolera",
+        "url": "https://onefootball.com/fr/news/40-millions-ou-rien-latletico-se-heurte-a-las-monaco-pour-43770303",
+        "time": "2026-11-13T09:30:57Z"
        },
        {
-        "title": "AS Monaco - Coup dur pour Aleksandr Golovin !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-coup-dur-pour-aleksandr-golovin-43758077",
-        "time": "2026-11-10T19:18:00Z"
+        "title": "Régional 1 : en stage en Tunisie, la réserve de Monaco tient tête à deux clubs pros",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/regional-1-en-stage-en-tunisie-la-reserve-de-monaco-tient-tete-a-deux-clubs-pros-43769262",
+        "time": "2026-11-12T23:40:00Z"
        }
       ],
       "scorer": {
@@ -10361,12 +10386,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10548,12 +10573,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10579,6 +10604,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Paris FC - Antoine Arnault a pris ses distances avec Nasser Al-Khelaïfi, le président du PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/paris-fc-antoine-arnault-a-pris-ses-distances-avec-nasser-al-khelaifi-le-president-du-psg-43770159",
+        "time": "2026-11-13T08:55:00Z"
+       },
+       {
         "title": "👑 TOP 20 des scoreurs : Yamal devance Raphinha, Sinayoko talonne Mbappé",
         "publisher": "OneFootball",
         "url": "https://onefootball.com/fr/news/top-20-des-scoreurs-yamal-devance-raphinha-sinayoko-talonne-mbappe-43761293",
@@ -10589,12 +10620,6 @@
         "publisher": "ConsultantsFoot",
         "url": "https://onefootball.com/fr/news/giovanni-castaldi-on-a-eu-deux-exemples-cataclysmiques-avec-les-deux-escrocs-john-textor-et-gerard-lopez-43759714",
         "time": "2026-11-11T08:30:38Z"
-       },
-       {
-        "title": "Mercato-Paris FC : Naples tombe sous le charme d'une recrue estivale !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/mercato-paris-fc-naples-tombe-sous-le-charme-dune-recrue-estivale-43758569",
-        "time": "2026-11-10T21:32:00Z"
        }
       ],
       "scorer": {
@@ -10716,12 +10741,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10770,6 +10795,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Rennais : la prochaine grosse vente en Premier League est connue",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-la-prochaine-grosse-vente-en-premier-league-est-connue-43769839",
+        "time": "2026-11-13T07:30:28Z"
+       },
+       {
         "title": "Stade Rennais : Arnaud Nordin déjà poussé vers la sortie",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-rennais-arnaud-nordin-deja-pousse-vers-la-sortie-43767258",
@@ -10780,12 +10811,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-rennais-une-satisfaction-surprise-au-milieu-de-marasme-ambiant-43760944",
         "time": "2026-11-11T12:44:34Z"
-       },
-       {
-        "title": "Rennes : un jeune du centre de formation signe professionnel avant de disputer la Coupe du monde U17",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/rennes-un-jeune-du-centre-de-formation-signe-professionnel-avant-de-disputer-la-coupe-du-monde-u17-43759200",
-        "time": "2026-11-11T06:00:00Z"
        }
       ],
       "scorer": {
@@ -10898,12 +10923,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10929,22 +10954,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM – Victoire écrasante des U19",
+        "title": "Mercato OM : Vers un retour d’un ancien défenseur ?",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-victoire-ecrasante-des-u19-43768980",
-        "time": "2026-11-12T22:00:46Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-vers-un-retour-dun-ancien-defenseur-43771667",
+        "time": "2026-11-13T14:00:44Z"
        },
        {
-        "title": "OM – Un dirigeant promu dans l’organigramme marseillais",
+        "title": "OM – Dugarry : « Si j’étais McCourt, je ne mettrais pas de chèque »",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-un-dirigeant-promu-dans-lorganigramme-marseillais-43768679",
-        "time": "2026-11-12T21:00:12Z"
+        "url": "https://onefootball.com/fr/news/om-dugarry-si-jetais-mccourt-je-ne-mettrais-pas-de-cheque-43771376",
+        "time": "2026-11-13T13:00:34Z"
        },
        {
-        "title": "OM - Les supporters de l'OM de nouveau sanctionnés, le Vélodrome n'affichera pas complet face au Mans FC",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-les-supporters-de-lom-de-nouveau-sanctionnes-le-velodrome-naffichera-pas-complet-face-au-mans-fc-43768591",
-        "time": "2026-11-12T20:31:00Z"
+        "title": "OM – La DNCG moins sévère que prévu ?",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-la-dncg-moins-severe-que-prevu-43769949",
+        "time": "2026-11-13T08:00:14Z"
        }
       ],
       "scorer": {
@@ -11073,12 +11098,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-12T23:29+00:00",
+    "at": "2026-11-13T14:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-12T23:29+00:00",
+    "dataAt": "2026-11-13T14:38+00:00",
     "changes": 1,
     "model": {
-     "version": "065511a",
+     "version": "4a4358b",
      "mu": 0.214,
      "home": 0.232
     }
