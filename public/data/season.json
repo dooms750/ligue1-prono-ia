@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-13T14:38+00:00",
-  "generatedAt": "2026-11-13T14:40+00:00",
+  "fetchedAt": "2026-11-13T22:39+00:00",
+  "generatedAt": "2026-11-13T22:42+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-13T14:38+00:00",
-    "lastAttempt": "2026-11-13T14:38+00:00",
+    "lastOk": "2026-11-13T22:39+00:00",
+    "lastAttempt": "2026-11-13T22:39+00:00",
     "error": null,
     "failures": 0,
-    "count": 144
+    "count": 145
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-13T14:39+00:00",
-    "lastAttempt": "2026-11-13T14:39+00:00",
+    "lastOk": "2026-11-13T22:41+00:00",
+    "lastAttempt": "2026-11-13T22:41+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-13T14:39+00:00",
-    "lastAttempt": "2026-11-13T14:39+00:00",
+    "lastOk": "2026-11-13T22:41+00:00",
+    "lastAttempt": "2026-11-13T22:41+00:00",
     "error": null,
     "failures": 0,
     "count": 1
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-13T14:39+00:00",
-    "lastAttempt": "2026-11-13T14:39+00:00",
+    "lastOk": "2026-11-13T22:41+00:00",
+    "lastAttempt": "2026-11-13T22:41+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-13T14:39+00:00",
-    "lastAttempt": "2026-11-13T14:39+00:00",
+    "lastOk": "2026-11-13T22:41+00:00",
+    "lastAttempt": "2026-11-13T22:41+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-13T14:39+00:00",
+  "generatedAt": "2026-11-13T22:41+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -851,7 +851,7 @@
    },
    "meteo": {
     "n": 109,
-    "nKnown": 1000,
+    "nKnown": 1002,
     "nTest": 94,
     "own": 0.989,
     "other": 0.989,
@@ -9449,6 +9449,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Amical : dans un duel entre équipes de Ligue 1, Troyes vient à bout du Paris FC",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/amical-dans-un-duel-entre-equipes-de-ligue-1-troyes-vient-a-bout-du-paris-fc-43773003",
+        "time": "2026-11-13T18:28:00Z"
+       },
+       {
         "title": "Troyes - Dumont, entre déception et satisfaction : “Il nous a manqué pas grand-chose",
         "publisher": "Stats Perform",
         "url": "https://onefootball.com/fr/video/troyes-dumont-entre-deception-et-satisfaction-il-nous-a-manque-pas-grand-chose-3Lon04RLjebglko1qVYBjktgkAK",
@@ -9495,30 +9501,30 @@
      "stadium": "Stade de l'Aube",
      "roof": false,
      "daysBefore": 7,
-     "temp": 9,
-     "desc": "bruine légère",
-     "code": 51,
+     "temp": 8,
+     "desc": "brouillard",
+     "code": 45,
      "rain": 0,
      "rainMax": 2.1,
      "gust": 40,
      "pRain": 0.04,
      "pWind": 0.22,
      "members": 51,
-     "confidence": 48,
+     "confidence": 50,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-13T14:39+00:00",
+     "updated": "2026-11-13T22:41+00:00",
      "history": [
       {
        "day": "2026-11-13",
        "daysBefore": 7,
        "pRain": 0.04,
        "pWind": 0.22,
-       "temp": 8,
-       "conf": 48
+       "temp": 6,
+       "conf": 50
       }
      ]
     }
@@ -9625,12 +9631,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9681,25 +9687,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Mercato PSG - Paris pourrait toucher plus de 15 millions d'euros supplémentaires grâce à Gonçalo Ramos",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-psg-paris-pourrait-toucher-plus-de-15-millions-deuros-supplementaires-grace-a-goncalo-ramos-43771870",
+        "time": "2026-11-13T14:40:00Z"
+       }
+      ],
       "other": [
        {
-        "title": "LDC - PSG - AS Roma : une décision radicale a été prise pour ce match classé à très hauts risques",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ldc-psg-as-roma-une-decision-radicale-a-ete-prise-pour-ce-match-classe-a-tres-hauts-risques-43771599",
-        "time": "2026-11-13T13:50:00Z"
-       },
-       {
-        "title": "Des nouvelles des dents de Doué après le coup de coude",
+        "title": "Maroc/Niger – Les équipes officielles : Hakimi titulaire",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/des-nouvelles-des-dents-de-doue-apres-le-coup-de-coude-43771153",
-        "time": "2026-11-13T12:18:54Z"
+        "url": "https://onefootball.com/fr/news/marocniger-les-equipes-officielles-hakimi-titulaire-43773372",
+        "time": "2026-11-13T19:41:00Z"
        },
        {
-        "title": "Mercato - PSG : une vente énorme de 86M€ réalisée cet été ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/mercato-psg-une-vente-enorme-de-86m-realisee-cet-ete-43771009",
-        "time": "2026-11-13T12:00:00Z"
+        "title": "Mercato PSG - Un nouveau cador européen souhaite s'offrir cette pépite parisienne !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-psg-un-nouveau-cador-europeen-souhaite-soffrir-cette-pepite-parisienne-43772892",
+        "time": "2026-11-13T17:59:00Z"
+       },
+       {
+        "title": "Mercato – Maza et le PSG, une issue sans surprise",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/mercato-maza-et-le-psg-une-issue-sans-surprise-43772612",
+        "time": "2026-11-13T16:55:57Z"
        }
       ],
       "scorer": {
@@ -9812,12 +9825,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9843,22 +9856,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Le RC Lens roi des airs dans les surfaces adverses",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/le-rc-lens-roi-des-airs-dans-les-surfaces-adverses-43771675",
-        "time": "2026-11-13T14:01:33Z"
+        "title": "Lens : grosse surprise, Didier Digard devient le nouvel entraîneur du Racing",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/lens-grosse-surprise-didier-digard-devient-le-nouvel-entraineur-du-racing-43773938",
+        "time": "2026-11-13T21:53:00Z"
        },
        {
-        "title": "Le point sur les temps de jeu au RC Lens avec trois joueurs à 1000 minutes et plus",
+        "title": "[Officiel] Didier Digard est le nouvel entraîneur du RC Lens !",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/le-point-sur-les-temps-de-jeu-au-rc-lens-avec-trois-joueurs-a-1000-minutes-et-plus-43771332",
-        "time": "2026-11-13T12:59:29Z"
+        "url": "https://onefootball.com/fr/news/officiel-didier-digard-est-le-nouvel-entraineur-du-rc-lens-43773800",
+        "time": "2026-11-13T21:28:48Z"
        },
        {
-        "title": "RC Lens - Pierre Sage aura un premier obstacle à surmonter en cas de retour chez les Sang-et-Or",
+        "title": "Mercato Lens - Immense surprise, le RC Lens nomme un entraîneur inattendu pour succéder à Yannick Cahuzac ! (officiel)",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-pierre-sage-aura-un-premier-obstacle-a-surmonter-en-cas-de-retour-chez-les-sang-et-or-43770692",
-        "time": "2026-11-13T10:55:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-lens-immense-surprise-le-rc-lens-nomme-un-entraineur-inattendu-pour-succeder-a-yannick-cahuzac-officiel-43773797",
+        "time": "2026-11-13T21:24:00Z"
        }
       ],
       "scorer": {
@@ -9993,12 +10006,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10022,6 +10035,12 @@
     "press": {
      "H": {
       "absences": [
+       {
+        "title": "LOSC - Deux blessés lillois se rapprochent d'un retour !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/losc-deux-blesses-lillois-se-rapprochent-dun-retour-43773115",
+        "time": "2026-11-13T18:46:00Z"
+       },
        {
         "title": "Italie – France : Quelle équipe pour Zinedine Zidane avec le forfait de Kylian Mbappé ?",
         "publisher": "Le Petit Lillois",
@@ -10068,8 +10087,27 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "OL - Blessé au genou, Pavel Šulc vient de franchir une étape importante vers son rétablissement",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-blesse-au-genou-pavel-sulc-vient-de-franchir-une-etape-importante-vers-son-retablissement-43772358",
+        "time": "2026-11-13T16:10:00Z"
+       },
+       {
+        "title": "OL : Pavel Šulc a passé le stade de l'opération",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-pavel-sulc-a-passe-le-stade-de-loperation-43772157",
+        "time": "2026-11-13T15:40:00Z"
+       }
+      ],
       "other": [
+       {
+        "title": "OL : énorme danger financier en vue pour les Gones la saison prochaine ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ol-enorme-danger-financier-en-vue-pour-les-gones-la-saison-prochaine-43773285",
+        "time": "2026-11-13T19:30:00Z"
+       },
        {
         "title": "L'OL revoit son partenariat avec la République du Congo",
         "publisher": "Olympique-et-Lyonnais",
@@ -10081,12 +10119,6 @@
         "publisher": "Olympique-et-Lyonnais",
         "url": "https://onefootball.com/fr/news/ol-90-minutes-pour-kamara-france-u20-et-niakhate-senegal-43771465",
         "time": "2026-11-13T13:20:00Z"
-       },
-       {
-        "title": "Pourquoi l'OL obtient-il si peu de penalties cette saison ?",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/pourquoi-lol-obtient-il-si-peu-de-penalties-cette-saison-43770934",
-        "time": "2026-11-13T11:40:00Z"
        }
       ],
       "scorer": {
@@ -10199,12 +10231,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10386,12 +10418,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10573,12 +10605,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10604,22 +10636,22 @@
       "absences": [],
       "other": [
        {
+        "title": "Paris FC : des tensions avec le PSG et Al-Khelaïfi pour Arnault ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/paris-fc-des-tensions-avec-le-psg-et-al-khelaifi-pour-arnault-43774083",
+        "time": "2026-11-13T22:29:00Z"
+       },
+       {
+        "title": "Mercato Paris FC - Un grand club italien surveille attentivement Patrick Zabi",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-paris-fc-un-grand-club-italien-surveille-attentivement-patrick-zabi-43773212",
+        "time": "2026-11-13T19:14:00Z"
+       },
+       {
         "title": "Paris FC - Antoine Arnault a pris ses distances avec Nasser Al-Khelaïfi, le président du PSG",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/paris-fc-antoine-arnault-a-pris-ses-distances-avec-nasser-al-khelaifi-le-president-du-psg-43770159",
         "time": "2026-11-13T08:55:00Z"
-       },
-       {
-        "title": "👑 TOP 20 des scoreurs : Yamal devance Raphinha, Sinayoko talonne Mbappé",
-        "publisher": "OneFootball",
-        "url": "https://onefootball.com/fr/news/top-20-des-scoreurs-yamal-devance-raphinha-sinayoko-talonne-mbappe-43761293",
-        "time": "2026-11-11T13:57:40Z"
-       },
-       {
-        "title": "Giovanni Castaldi : « On a eu deux exemples cataclysmiques avec les deux escrocs John Textor et Gérard Lopez »",
-        "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/giovanni-castaldi-on-a-eu-deux-exemples-cataclysmiques-avec-les-deux-escrocs-john-textor-et-gerard-lopez-43759714",
-        "time": "2026-11-11T08:30:38Z"
        }
       ],
       "scorer": {
@@ -10741,12 +10773,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10923,12 +10955,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10954,22 +10986,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Mercato OM : Vers un retour d’un ancien défenseur ?",
+        "title": "Ex-OM : Benatia ou l’art de se défausser",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/mercato-om-vers-un-retour-dun-ancien-defenseur-43771667",
-        "time": "2026-11-13T14:00:44Z"
+        "url": "https://onefootball.com/fr/news/ex-om-benatia-ou-lart-de-se-defausser-43773708",
+        "time": "2026-11-13T21:00:27Z"
        },
        {
-        "title": "OM – Dugarry : « Si j’étais McCourt, je ne mettrais pas de chèque »",
+        "title": "Ex-OM : « Longoria m’a menti » déclare Benatia",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-dugarry-si-jetais-mccourt-je-ne-mettrais-pas-de-cheque-43771376",
-        "time": "2026-11-13T13:00:34Z"
+        "url": "https://onefootball.com/fr/news/ex-om-longoria-ma-menti-declare-benatia-43773475",
+        "time": "2026-11-13T20:00:54Z"
        },
        {
-        "title": "OM – La DNCG moins sévère que prévu ?",
+        "title": "OM – Geoffrey Kondogbia s’incline face au Bénin",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-la-dncg-moins-severe-que-prevu-43769949",
-        "time": "2026-11-13T08:00:14Z"
+        "url": "https://onefootball.com/fr/news/om-geoffrey-kondogbia-sincline-face-au-benin-43773174",
+        "time": "2026-11-13T19:00:11Z"
        }
       ],
       "scorer": {
@@ -11098,12 +11130,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-13T14:40+00:00",
+    "at": "2026-11-13T22:42+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T14:38+00:00",
+    "dataAt": "2026-11-13T22:39+00:00",
     "changes": 1,
     "model": {
-     "version": "4a4358b",
+     "version": "5a0b2e8",
      "mu": 0.214,
      "home": 0.232
     }

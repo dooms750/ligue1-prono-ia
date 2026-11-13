@@ -4,30 +4,30 @@
   "stadium": "Stade de l'Aube",
   "roof": false,
   "daysBefore": 7,
-  "temp": 9,
-  "desc": "bruine légère",
-  "code": 51,
+  "temp": 8,
+  "desc": "brouillard",
+  "code": 45,
   "rain": 0,
   "rainMax": 2.1,
   "gust": 40,
   "pRain": 0.04,
   "pWind": 0.22,
   "members": 51,
-  "confidence": 48,
+  "confidence": 50,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-13T14:39+00:00",
+  "updated": "2026-11-13T22:41+00:00",
   "history": [
    {
     "day": "2026-11-13",
     "daysBefore": 7,
     "pRain": 0.04,
     "pWind": 0.22,
-    "temp": 8,
-    "conf": 48
+    "temp": 6,
+    "conf": 50
    }
   ]
  }
