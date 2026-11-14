@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-13T23:28+00:00",
-  "generatedAt": "2026-11-13T23:28+00:00",
+  "fetchedAt": "2026-11-14T13:34+00:00",
+  "generatedAt": "2026-11-14T13:40+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-13T22:39+00:00",
-    "lastAttempt": "2026-11-13T22:39+00:00",
+    "lastOk": "2026-11-14T13:34+00:00",
+    "lastAttempt": "2026-11-14T13:34+00:00",
     "error": null,
     "failures": 0,
-    "count": 145
+    "count": 146
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-13T23:28+00:00",
-    "lastAttempt": "2026-11-13T23:28+00:00",
+    "lastOk": "2026-11-14T13:35+00:00",
+    "lastAttempt": "2026-11-14T13:35+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,18 +49,18 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-13T22:41+00:00",
-    "lastAttempt": "2026-11-13T22:41+00:00",
+    "lastOk": "2026-11-14T13:35+00:00",
+    "lastAttempt": "2026-11-14T13:35+00:00",
     "error": null,
     "failures": 0,
-    "count": 1
+    "count": 6
    },
    {
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-13T22:41+00:00",
-    "lastAttempt": "2026-11-13T22:41+00:00",
+    "lastOk": "2026-11-14T13:39+00:00",
+    "lastAttempt": "2026-11-14T13:39+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-13T22:41+00:00",
-    "lastAttempt": "2026-11-13T22:41+00:00",
+    "lastOk": "2026-11-14T13:40+00:00",
+    "lastAttempt": "2026-11-14T13:40+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-13T22:41+00:00",
+  "generatedAt": "2026-11-14T13:40+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -8930,7 +8930,7 @@
    ],
    "pred": {
     "lh": 1.443,
-    "la": 1.27,
+    "la": 1.269,
     "p": [
      0.412,
      0.256,
@@ -9449,6 +9449,12 @@
       "absences": [],
       "other": [
        {
+        "title": "« Un sujet d’entreprise » : le président de Troyes revient sur le départ de Jocelyn Blanchard",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/un-sujet-dentreprise-le-president-de-troyes-revient-sur-le-depart-de-jocelyn-blanchard-43774786",
+        "time": "2026-11-14T07:19:00Z"
+       },
+       {
         "title": "Amical : dans un duel entre équipes de Ligue 1, Troyes vient à bout du Paris FC",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/amical-dans-un-duel-entre-equipes-de-ligue-1-troyes-vient-a-bout-du-paris-fc-43773003",
@@ -9500,23 +9506,22 @@
      "kind": "beau",
      "stadium": "Stade de l'Aube",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 8,
-     "desc": "brouillard",
-     "code": 45,
+     "daysBefore": 6,
+     "temp": 6,
+     "desc": "",
+     "code": null,
      "rain": 0,
-     "rainMax": 2.1,
-     "gust": 40,
-     "pRain": 0.04,
-     "pWind": 0.22,
+     "rainMax": 1.5,
+     "gust": 30,
+     "pRain": 0.02,
+     "pWind": 0.02,
      "members": 51,
-     "confidence": 50,
+     "confidence": 59,
      "confidenceLabel": "moyenne",
      "sources": [
-      "ECMWF (51 scénarios)",
-      "modèle mondial"
+      "ECMWF (51 scénarios)"
      ],
-     "updated": "2026-11-13T22:41+00:00",
+     "updated": "2026-11-14T13:35+00:00",
      "history": [
       {
        "day": "2026-11-13",
@@ -9525,6 +9530,14 @@
        "pWind": 0.22,
        "temp": 6,
        "conf": 50
+      },
+      {
+       "day": "2026-11-14",
+       "daysBefore": 6,
+       "pRain": 0.02,
+       "pWind": 0.02,
+       "temp": 6,
+       "conf": 59
       }
      ]
     }
@@ -9631,12 +9644,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9656,7 +9669,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [],
@@ -9687,32 +9700,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "Mercato PSG - Paris pourrait toucher plus de 15 millions d'euros supplémentaires grâce à Gonçalo Ramos",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-psg-paris-pourrait-toucher-plus-de-15-millions-deuros-supplementaires-grace-a-goncalo-ramos-43771870",
-        "time": "2026-11-13T14:40:00Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "Maroc/Niger – Les équipes officielles : Hakimi titulaire",
+        "title": "Le documentaire sur le parcours de Pacho jusqu’au sommet avec le PSG",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/marocniger-les-equipes-officielles-hakimi-titulaire-43773372",
-        "time": "2026-11-13T19:41:00Z"
+        "url": "https://onefootball.com/fr/news/le-documentaire-sur-le-parcours-de-pacho-jusquau-sommet-avec-le-psg-43776158",
+        "time": "2026-11-14T13:01:12Z"
        },
        {
-        "title": "Mercato PSG - Un nouveau cador européen souhaite s'offrir cette pépite parisienne !",
+        "title": "PSG - Une immense star du tennis s'enflamme pour Matvey Safonov et lui adresse un compliment XXL",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-psg-un-nouveau-cador-europeen-souhaite-soffrir-cette-pepite-parisienne-43772892",
-        "time": "2026-11-13T17:59:00Z"
+        "url": "https://onefootball.com/fr/news/psg-une-immense-star-du-tennis-senflamme-pour-matvey-safonov-et-lui-adresse-un-compliment-xxl-43775563",
+        "time": "2026-11-14T10:47:00Z"
        },
        {
-        "title": "Mercato – Maza et le PSG, une issue sans surprise",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/mercato-maza-et-le-psg-une-issue-sans-surprise-43772612",
-        "time": "2026-11-13T16:55:57Z"
+        "title": "Pacho se souvient de son moment de nervosité avec Luis Enrique avant de rejoindre le PSG",
+        "publisher": "Paris Saint-Germain",
+        "url": "https://onefootball.com/fr/video/pacho-se-souvient-de-son-moment-de-nervosite-avec-luis-enrique-avant-de-rejoindre-le-psg-3M5fXz2k86hsFRLWc9SpJlx0E8m",
+        "time": "2026-11-14T08:35:36Z"
        }
       ],
       "scorer": {
@@ -9721,6 +9727,37 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Allianz Riviera",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 14,
+     "desc": "",
+     "code": null,
+     "rain": 0,
+     "rainMax": 2.1,
+     "gust": 22,
+     "pRain": 0.02,
+     "pWind": 0.0,
+     "members": 51,
+     "confidence": 57,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)"
+     ],
+     "updated": "2026-11-14T13:35+00:00",
+     "history": [
+      {
+       "day": "2026-11-14",
+       "daysBefore": 7,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 14,
+       "conf": 57
+      }
+     ]
     }
    },
    "lh": 1.219,
@@ -9785,7 +9822,7 @@
     {
      "md": 7,
      "p": [
-      0.217,
+      0.216,
       0.234,
       0.549
      ]
@@ -9825,12 +9862,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9850,28 +9887,28 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [],
       "other": [
        {
-        "title": "Lens : grosse surprise, Didier Digard devient le nouvel entraîneur du Racing",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/lens-grosse-surprise-didier-digard-devient-le-nouvel-entraineur-du-racing-43773938",
-        "time": "2026-11-13T21:53:00Z"
-       },
-       {
-        "title": "[Officiel] Didier Digard est le nouvel entraîneur du RC Lens !",
+        "title": "Formé au RC Lens, Brayann Pereira a quitté les Pays-Bas pour l’Angleterre",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/officiel-didier-digard-est-le-nouvel-entraineur-du-rc-lens-43773800",
-        "time": "2026-11-13T21:28:48Z"
+        "url": "https://onefootball.com/fr/news/forme-au-rc-lens-brayann-pereira-a-quitte-les-pays-bas-pour-langleterre-43775321",
+        "time": "2026-11-14T09:44:38Z"
        },
        {
-        "title": "Mercato Lens - Immense surprise, le RC Lens nomme un entraîneur inattendu pour succéder à Yannick Cahuzac ! (officiel)",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-lens-immense-surprise-le-rc-lens-nomme-un-entraineur-inattendu-pour-succeder-a-yannick-cahuzac-officiel-43773797",
-        "time": "2026-11-13T21:24:00Z"
+        "title": "Lens : les coulisses du choix Didier Digard, le club dévoile ses raisons !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lens-les-coulisses-du-choix-didier-digard-le-club-devoile-ses-raisons-43775279",
+        "time": "2026-11-14T09:33:00Z"
+       },
+       {
+        "title": "[Vidéo] Privée de ses Lensois, l’équipe de France Espoirs s’incline face à l’Italie",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/video-privee-de-ses-lensois-lequipe-de-france-espoirs-sincline-face-a-litalie-43775116",
+        "time": "2026-11-14T08:57:24Z"
        }
       ],
       "scorer": {
@@ -9902,6 +9939,37 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Stade Bollaert-Delelis",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 6,
+     "desc": "",
+     "code": null,
+     "rain": 0,
+     "rainMax": 4.8,
+     "gust": 29,
+     "pRain": 0.04,
+     "pWind": 0.04,
+     "members": 51,
+     "confidence": 51,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)"
+     ],
+     "updated": "2026-11-14T13:35+00:00",
+     "history": [
+      {
+       "day": "2026-11-14",
+       "daysBefore": 7,
+       "pRain": 0.04,
+       "pWind": 0.04,
+       "temp": 6,
+       "conf": 51
+      }
+     ]
     }
    },
    "lh": 1.768,
@@ -10006,12 +10074,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10031,7 +10099,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [
@@ -10052,15 +10120,15 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/losc-suspendu-six-mois-par-la-fff-le-president-olivier-letang-va-saisir-le-cnosf-43758765",
         "time": "2026-11-10T22:34:00Z"
-       },
-       {
-        "title": "LOSC - Olivier Létang prend une décision majeure après sa lourde suspension par la FFF",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/losc-olivier-letang-prend-une-decision-majeure-apres-sa-lourde-suspension-par-la-fff-43757866",
-        "time": "2026-11-10T18:26:00Z"
        }
       ],
       "other": [
+       {
+        "title": "LOSC : Mark van Bommel prédit un jackpot XXL pour Nathan Ngoy !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/losc-mark-van-bommel-predit-un-jackpot-xxl-pour-nathan-ngoy-43776130",
+        "time": "2026-11-14T13:02:00Z"
+       },
        {
         "title": "Ligue 1 : le choc LOSC - OL menacé d’un changement de programme",
         "publisher": "Foot National",
@@ -10072,12 +10140,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/losc-un-talent-de-18-ans-bouscule-la-hierarchie-43768290",
         "time": "2026-11-12T19:15:47Z"
-       },
-       {
-        "title": "Ligue 1 - LOSC - OL : la rencontre pourrait être décalée",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-losc-ol-la-rencontre-pourrait-etre-decalee-43766138",
-        "time": "2026-11-12T13:20:00Z"
        }
       ],
       "scorer": {
@@ -10093,32 +10155,26 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ol-blesse-au-genou-pavel-sulc-vient-de-franchir-une-etape-importante-vers-son-retablissement-43772358",
         "time": "2026-11-13T16:10:00Z"
-       },
-       {
-        "title": "OL : Pavel Šulc a passé le stade de l'opération",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-pavel-sulc-a-passe-le-stade-de-loperation-43772157",
-        "time": "2026-11-13T15:40:00Z"
        }
       ],
       "other": [
        {
-        "title": "OL : énorme danger financier en vue pour les Gones la saison prochaine ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/ol-enorme-danger-financier-en-vue-pour-les-gones-la-saison-prochaine-43773285",
-        "time": "2026-11-13T19:30:00Z"
+        "title": "OL : Duranville buteur, vendredi sans pour les internationaux lyonnais",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ol-duranville-buteur-vendredi-sans-pour-les-internationaux-lyonnais-43775571",
+        "time": "2026-11-14T10:50:00Z"
        },
        {
-        "title": "L'OL revoit son partenariat avec la République du Congo",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/lol-revoit-son-partenariat-avec-la-republique-du-congo-43771723",
-        "time": "2026-11-13T14:10:00Z"
+        "title": "Keito Nakamura commence à se sentir comme à la maison",
+        "publisher": "FerveurLyonnaise",
+        "url": "https://onefootball.com/fr/news/keito-nakamura-commence-a-se-sentir-comme-a-la-maison-43775569",
+        "time": "2026-11-14T10:45:16Z"
        },
        {
-        "title": "OL : 90 minutes pour Kamara (France U20) et Niakhaté (Sénégal)",
+        "title": "OL : trois Lyonnais sur le pont ce samedi",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-90-minutes-pour-kamara-france-u20-et-niakhate-senegal-43771465",
-        "time": "2026-11-13T13:20:00Z"
+        "url": "https://onefootball.com/fr/news/ol-trois-lyonnais-sur-le-pont-ce-samedi-43775381",
+        "time": "2026-11-14T10:00:00Z"
        }
       ],
       "scorer": {
@@ -10127,6 +10183,37 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Stade Pierre-Mauroy",
+     "roof": true,
+     "daysBefore": 7,
+     "temp": 5,
+     "desc": "",
+     "code": null,
+     "rain": 0,
+     "rainMax": 4.2,
+     "gust": 27,
+     "pRain": 0.04,
+     "pWind": 0.02,
+     "members": 51,
+     "confidence": 52,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)"
+     ],
+     "updated": "2026-11-14T13:35+00:00",
+     "history": [
+      {
+       "day": "2026-11-14",
+       "daysBefore": 7,
+       "pRain": 0.04,
+       "pWind": 0.02,
+       "temp": 5,
+       "conf": 52
+      }
+     ]
     }
    },
    "lh": 1.336,
@@ -10231,12 +10318,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10256,7 +10343,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [],
@@ -10290,6 +10377,12 @@
       "absences": [],
       "other": [
        {
+        "title": "AJ Auxerre : Will Still a métamorphosé l’AJA de Pélissier, en mieux ?",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-a-metamorphose-laja-de-pelissier-en-mieux-43774783",
+        "time": "2026-11-14T07:15:51Z"
+       },
+       {
         "title": "AJ Auxerre : Will Still décide de tout renverser à l’AJA",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-decide-de-tout-renverser-a-laja-43762693",
@@ -10300,12 +10393,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-auxerre-laj-auxerre-acte-une-prolongation-de-contrat-officiel-43757622",
         "time": "2026-11-10T17:30:00Z"
-       },
-       {
-        "title": "AJA – PFC : le Paris FC rejoint le PSG, Sinayoko frappe encore",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/aja-pfc-le-paris-fc-rejoint-le-psg-sinayoko-frappe-encore-43742931",
-        "time": "2026-11-07T20:04:05Z"
        }
       ],
       "scorer": {
@@ -10314,6 +10401,37 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Stade Louis-II",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 11,
+     "desc": "",
+     "code": null,
+     "rain": 0,
+     "rainMax": 8.1,
+     "gust": 20,
+     "pRain": 0.02,
+     "pWind": 0.0,
+     "members": 51,
+     "confidence": 57,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)"
+     ],
+     "updated": "2026-11-14T13:35+00:00",
+     "history": [
+      {
+       "day": "2026-11-14",
+       "daysBefore": 7,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 57
+      }
+     ]
     }
    },
    "lh": 1.933,
@@ -10418,12 +10536,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10443,7 +10561,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [],
@@ -10501,6 +10619,37 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Stade de la Meinau",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 5,
+     "desc": "",
+     "code": null,
+     "rain": 0,
+     "rainMax": 0.9,
+     "gust": 17,
+     "pRain": 0.0,
+     "pWind": 0.0,
+     "members": 51,
+     "confidence": 55,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)"
+     ],
+     "updated": "2026-11-14T13:35+00:00",
+     "history": [
+      {
+       "day": "2026-11-14",
+       "daysBefore": 7,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 5,
+       "conf": 55
+      }
+     ]
     }
    },
    "lh": 1.727,
@@ -10605,12 +10754,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10773,12 +10922,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10955,12 +11104,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10986,22 +11135,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Ex-OM : Benatia ou l’art de se défausser",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-benatia-ou-lart-de-se-defausser-43773708",
-        "time": "2026-11-13T21:00:27Z"
+        "title": "Ex-OM : \"Longoria m'a menti\", Benatia vide son sac !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ex-om-longoria-ma-menti-benatia-vide-son-sac-43775862",
+        "time": "2026-11-14T12:02:00Z"
        },
        {
-        "title": "Ex-OM : « Longoria m’a menti » déclare Benatia",
+        "title": "Ex-OM : Roberto De Zerbi élu meilleur entraîneur du mois d’octobre en Premier League",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-longoria-ma-menti-declare-benatia-43773475",
-        "time": "2026-11-13T20:00:54Z"
+        "url": "https://onefootball.com/fr/news/ex-om-roberto-de-zerbi-elu-meilleur-entraineur-du-mois-doctobre-en-premier-league-43775874",
+        "time": "2026-11-14T12:00:31Z"
        },
        {
-        "title": "OM – Geoffrey Kondogbia s’incline face au Bénin",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-geoffrey-kondogbia-sincline-face-au-benin-43773174",
-        "time": "2026-11-13T19:00:11Z"
+        "title": "OM - Medhi Benatia explique pourquoi il a choisi de venir à l'OM",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-medhi-benatia-explique-pourquoi-il-a-choisi-de-venir-a-lom-43775639",
+        "time": "2026-11-14T11:06:00Z"
        }
       ],
       "scorer": {
@@ -11130,12 +11279,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-13T23:28+00:00",
+    "at": "2026-11-14T13:40+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-13T23:28+00:00",
+    "dataAt": "2026-11-14T13:34+00:00",
     "changes": 1,
     "model": {
-     "version": "6e4d819",
+     "version": "dc2a333",
      "mu": 0.214,
      "home": 0.232
     }

@@ -8724,10 +8724,36 @@
     "home": [],
     "away": []
    }
+  },
+  "2688789": {
+   "id": 2688789,
+   "competition": "Ligue 1",
+   "kickoff": "2027-01-24T14:00:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Le Havre AC",
+   "away": "Stade Rennais",
+   "homeLink": "/fr/equipe/le-havre-ac-701",
+   "awayLink": "/fr/equipe/stade-rennais-264",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "AJ Auxerre : Will Still a métamorphosé l’AJA de Pélissier, en mieux ?",
+    "publisher": "Morning Foot",
+    "time": "2026-11-14T07:15:51Z",
+    "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-a-metamorphose-laja-de-pelissier-en-mieux-43774783"
+   },
    {
     "title": "AJ Auxerre : Will Still décide de tout renverser à l’AJA",
     "publisher": "Morning Foot",
@@ -8781,12 +8807,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-07T17:14:00Z",
     "url": "https://onefootball.com/fr/news/auxerre-paris-fc-les-compositions-officielles-43742189"
-   },
-   {
-    "title": "Ligue 1 - AJ Auxerre - Paris FC : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-07T17:00:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-aj-auxerre-paris-fc-les-compos-officielles-43742062"
    }
   ],
   "AS Monaco": [
@@ -8915,6 +8935,12 @@
   ],
   "ESTAC Troyes": [
    {
+    "title": "« Un sujet d’entreprise » : le président de Troyes revient sur le départ de Jocelyn Blanchard",
+    "publisher": "Foot National",
+    "time": "2026-11-14T07:19:00Z",
+    "url": "https://onefootball.com/fr/news/un-sujet-dentreprise-le-president-de-troyes-revient-sur-le-depart-de-jocelyn-blanchard-43774786"
+   },
+   {
     "title": "Amical : dans un duel entre équipes de Ligue 1, Troyes vient à bout du Paris FC",
     "publisher": "Foot National",
     "time": "2026-11-13T18:28:00Z",
@@ -8961,12 +8987,6 @@
     "publisher": "Foot National",
     "time": "2026-11-07T21:56:00Z",
     "url": "https://onefootball.com/fr/news/sans-briller-le-psg-vient-a-bout-de-troyes-et-prend-seul-les-commandes-de-la-ligue-1-43743319"
-   },
-   {
-    "title": "Ligue 1 - Les notes de PSG - ESTAC Troyes : Paris se contente du service minimum et reprend ses distances en tête du classement",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-07T21:56:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-psg-estac-troyes-paris-se-contente-du-service-minimum-et-reprend-ses-distances-en-tete-du-classement-43743320"
    }
   ],
   "FC Lorient": [
@@ -9033,6 +9053,12 @@
   ],
   "LOSC": [
    {
+    "title": "LOSC : Mark van Bommel prédit un jackpot XXL pour Nathan Ngoy !",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-14T13:02:00Z",
+    "url": "https://onefootball.com/fr/news/losc-mark-van-bommel-predit-un-jackpot-xxl-pour-nathan-ngoy-43776130"
+   },
+   {
     "title": "LOSC - Deux blessés lillois se rapprochent d'un retour !",
     "publisher": "MadeInFOOT",
     "time": "2026-11-13T18:46:00Z",
@@ -9085,15 +9111,15 @@
     "publisher": "Morning Foot",
     "time": "2026-11-10T18:30:17Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-le-fiasco-mayenda-inquiete-en-interne-on-comprend-pourquoi-43757894"
-   },
-   {
-    "title": "LOSC - Olivier Létang prend une décision majeure après sa lourde suspension par la FFF",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-10T18:26:00Z",
-    "url": "https://onefootball.com/fr/news/losc-olivier-letang-prend-une-decision-majeure-apres-sa-lourde-suspension-par-la-fff-43757866"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "Le délit de sale gueule a encore frappé…",
+    "publisher": "Doyens",
+    "time": "2026-11-14T08:34:44Z",
+    "url": "https://onefootball.com/fr/news/le-delit-de-sale-gueule-a-encore-frappe-43775046"
+   },
    {
     "title": "Quels sont les nouveaux visages du staff havrais ?",
     "publisher": "Doyens",
@@ -9147,12 +9173,6 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-11T18:38:00Z",
     "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-hac-a-trouve-son-nouvel-entraineur-43762713"
-   },
-   {
-    "title": "Un club havrais, leader de son championnat !",
-    "publisher": "Doyens",
-    "time": "2026-11-11T15:13:51Z",
-    "url": "https://onefootball.com/fr/news/un-club-havrais-leader-de-son-championnat-43761712"
    }
   ],
   "Le Mans FC": [
@@ -9281,6 +9301,54 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "Mercato : attendu à Lens, Pierre Sage (ex-OL) ne retrouvera pas le Nord",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-14T12:30:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-attendu-a-lens-pierre-sage-ex-ol-ne-retrouvera-pas-le-nord-43775990"
+   },
+   {
+    "title": "OL : Duranville buteur, vendredi sans pour les internationaux lyonnais",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-14T10:50:00Z",
+    "url": "https://onefootball.com/fr/news/ol-duranville-buteur-vendredi-sans-pour-les-internationaux-lyonnais-43775571"
+   },
+   {
+    "title": "Keito Nakamura commence à se sentir comme à la maison",
+    "publisher": "FerveurLyonnaise",
+    "time": "2026-11-14T10:45:16Z",
+    "url": "https://onefootball.com/fr/news/keito-nakamura-commence-a-se-sentir-comme-a-la-maison-43775569"
+   },
+   {
+    "title": "OL : trois Lyonnais sur le pont ce samedi",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-14T10:00:00Z",
+    "url": "https://onefootball.com/fr/news/ol-trois-lyonnais-sur-le-pont-ce-samedi-43775381"
+   },
+   {
+    "title": "OL : un candidat au podium qui inquiète malgré ses qualités",
+    "publisher": "Morning Foot",
+    "time": "2026-11-14T09:30:49Z",
+    "url": "https://onefootball.com/fr/news/ol-un-candidat-au-podium-qui-inquiete-malgre-ses-qualites-43775296"
+   },
+   {
+    "title": "L'OL s'associe au Lumignons du Cœur pour la Fête des Lumières",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-14T07:45:00Z",
+    "url": "https://onefootball.com/fr/news/lol-sassocie-au-lumignons-du-coeur-pour-la-fete-des-lumieres-43774859"
+   },
+   {
+    "title": "Coupe de France : l'OL sera fixé sur son adversaire le 30 novembre",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-14T07:00:00Z",
+    "url": "https://onefootball.com/fr/news/coupe-de-france-lol-sera-fixe-sur-son-adversaire-le-30-novembre-43774717"
+   },
+   {
+    "title": "OL Académie : Lyon 1950 au soutien des U17 face à Chambéry",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-14T06:30:00Z",
+    "url": "https://onefootball.com/fr/news/ol-academie-lyon-1950-au-soutien-des-u17-face-a-chambery-43774660"
+   },
+   {
     "title": "OL : énorme danger financier en vue pour les Gones la saison prochaine ?",
     "publisher": "OnzeMondial",
     "time": "2026-11-13T19:30:00Z",
@@ -9291,119 +9359,113 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-13T16:10:00Z",
     "url": "https://onefootball.com/fr/news/ol-blesse-au-genou-pavel-sulc-vient-de-franchir-une-etape-importante-vers-son-retablissement-43772358"
-   },
-   {
-    "title": "OL : Pavel Šulc a passé le stade de l'opération",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-13T15:40:00Z",
-    "url": "https://onefootball.com/fr/news/ol-pavel-sulc-a-passe-le-stade-de-loperation-43772157"
-   },
-   {
-    "title": "L'OL revoit son partenariat avec la République du Congo",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-13T14:10:00Z",
-    "url": "https://onefootball.com/fr/news/lol-revoit-son-partenariat-avec-la-republique-du-congo-43771723"
-   },
-   {
-    "title": "OL : 90 minutes pour Kamara (France U20) et Niakhaté (Sénégal)",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-13T13:20:00Z",
-    "url": "https://onefootball.com/fr/news/ol-90-minutes-pour-kamara-france-u20-et-niakhate-senegal-43771465"
-   },
-   {
-    "title": "Ligue 1 : le choc LOSC - OL menacé d’un changement de programme",
-    "publisher": "Foot National",
-    "time": "2026-11-13T12:31:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-choc-losc-ol-menace-dun-changement-de-programme-43771204"
-   },
-   {
-    "title": "Pourquoi l'OL obtient-il si peu de penalties cette saison ?",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-13T11:40:00Z",
-    "url": "https://onefootball.com/fr/news/pourquoi-lol-obtient-il-si-peu-de-penalties-cette-saison-43770934"
-   },
-   {
-    "title": "Pour rester dans les clous, l’OL va encore devoir vendre au mercato hivernal",
-    "publisher": "FerveurLyonnaise",
-    "time": "2026-11-13T11:15:04Z",
-    "url": "https://onefootball.com/fr/news/pour-rester-dans-les-clous-lol-va-encore-devoir-vendre-au-mercato-hivernal-43770791"
-   },
-   {
-    "title": "Mercato OL - Keito Nakamura revient sur le départ de Paulo Fonseca et fait une grosse révélation",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-13T10:10:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-ol-keito-nakamura-revient-sur-le-depart-de-paulo-fonseca-et-fait-une-grosse-revelation-43770483"
-   },
-   {
-    "title": "OL - OL Groupe dévoile ses recettes sur le premier trimestre de la saison... et peut remercier ses anciens joueurs",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-13T08:30:00Z",
-    "url": "https://onefootball.com/fr/news/ol-ol-groupe-devoile-ses-recettes-sur-le-premier-trimestre-de-la-saison-et-peut-remercier-ses-anciens-joueurs-43770050"
    }
   ],
   "Olympique de Marseille": [
    {
-    "title": "EdF – Tensions en interne après la défaite contre l’Italie",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T22:00:40Z",
-    "url": "https://onefootball.com/fr/news/edf-tensions-en-interne-apres-la-defaite-contre-litalie-43773978"
+    "title": "« Longoria nous a menti, oui » : Medhi Benatia règle ses comptes après son départ de l’OM",
+    "publisher": "Foot National",
+    "time": "2026-11-14T13:30:00Z",
+    "url": "https://onefootball.com/fr/news/longoria-nous-a-menti-oui-medhi-benatia-regle-ses-comptes-apres-son-depart-de-lom-43776245"
    },
    {
-    "title": "Ex-OM : Benatia ou l’art de se défausser",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T21:00:27Z",
-    "url": "https://onefootball.com/fr/news/ex-om-benatia-ou-lart-de-se-defausser-43773708"
-   },
-   {
-    "title": "Ex-OM : « Longoria m’a menti » déclare Benatia",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T20:00:54Z",
-    "url": "https://onefootball.com/fr/news/ex-om-longoria-ma-menti-declare-benatia-43773475"
-   },
-   {
-    "title": "OM – Geoffrey Kondogbia s’incline face au Bénin",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T19:00:11Z",
-    "url": "https://onefootball.com/fr/news/om-geoffrey-kondogbia-sincline-face-au-benin-43773174"
-   },
-   {
-    "title": "OM – Nouvelle sanction pour le Vélodrome avant Le Mans",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T18:00:31Z",
-    "url": "https://onefootball.com/fr/news/om-nouvelle-sanction-pour-le-velodrome-avant-le-mans-43772904"
-   },
-   {
-    "title": "OM : \"Il m'a menti\" ... L'énorme punchline de Benatia à Longoria",
+    "title": "Ex-OM : \"Longoria m'a menti\", Benatia vide son sac !",
     "publisher": "OnzeMondial",
-    "time": "2026-11-13T17:28:00Z",
-    "url": "https://onefootball.com/fr/news/om-il-ma-menti-lenorme-punchline-de-benatia-a-longoria-43772731"
+    "time": "2026-11-14T12:02:00Z",
+    "url": "https://onefootball.com/fr/news/ex-om-longoria-ma-menti-benatia-vide-son-sac-43775862"
    },
    {
-    "title": "Mercato OM : Prise de contact avec un milieu argentin",
+    "title": "Ex-OM : Roberto De Zerbi élu meilleur entraîneur du mois d’octobre en Premier League",
     "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T17:00:18Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-prise-de-contact-avec-un-milieu-argentin-43772593"
+    "time": "2026-11-14T12:00:31Z",
+    "url": "https://onefootball.com/fr/news/ex-om-roberto-de-zerbi-elu-meilleur-entraineur-du-mois-doctobre-en-premier-league-43775874"
    },
    {
-    "title": "Ex-OM : Cet ancien marseillais porte plainte pour discrimination aux Etats-Unis",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T16:00:32Z",
-    "url": "https://onefootball.com/fr/news/ex-om-cet-ancien-marseillais-porte-plainte-pour-discrimination-aux-etats-unis-43772314"
-   },
-   {
-    "title": "OM - \"Il m'a menti !\", les nouvelles lourdes accusations de Medhi Benatia sur Pablo Longoria",
+    "title": "OM - Medhi Benatia explique pourquoi il a choisi de venir à l'OM",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-13T15:50:00Z",
-    "url": "https://onefootball.com/fr/news/om-il-ma-menti-les-nouvelles-lourdes-accusations-de-medhi-benatia-sur-pablo-longoria-43772220"
+    "time": "2026-11-14T11:06:00Z",
+    "url": "https://onefootball.com/fr/news/om-medhi-benatia-explique-pourquoi-il-a-choisi-de-venir-a-lom-43775639"
    },
    {
-    "title": "Mercato OM : Vers un retour d’un ancien défenseur ?",
+    "title": "Mercato OM - \"Medhi, ne me fais pas ça\", quand Pablo Longoria suppliait Medhi Benatia de rester à l'OM en février dernier",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T10:20:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-medhi-ne-me-fais-pas-ca-quand-pablo-longoria-suppliait-medhi-benatia-de-rester-a-lom-en-fevrier-dernier-43775473"
+   },
+   {
+    "title": "OM - Medhi Benatia déballe tout sur l'affaire Rabiot-Rowe et fait de grosses révélations sur Roberto De Zerbi",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T10:03:00Z",
+    "url": "https://onefootball.com/fr/news/om-medhi-benatia-deballe-tout-sur-laffaire-rabiot-rowe-et-fait-de-grosses-revelations-sur-roberto-de-zerbi-43775474"
+   },
+   {
+    "title": "OM - Medhi Benatia déballe tout sur l'affaire Rabiot-Rowe et fait de grosses révélations sur Roberto De Zerbi",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T10:03:00Z",
+    "url": "https://onefootball.com/fr/news/om-medhi-benatia-deballe-tout-sur-laffaire-rabiot-rowe-et-fait-de-grosses-revelations-sur-roberto-de-zerbi-43775475"
+   },
+   {
+    "title": "OM – Nouveau partenariat pour Rodolphe Saadé à Marseille",
     "publisher": "CoeurMarseillais",
-    "time": "2026-11-13T14:00:44Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-vers-un-retour-dun-ancien-defenseur-43771667"
+    "time": "2026-11-14T10:00:39Z",
+    "url": "https://onefootball.com/fr/news/om-nouveau-partenariat-pour-rodolphe-saade-a-marseille-43775403"
+   },
+   {
+    "title": "Mercato OM - Medhi Benatia dévoile une offre XXL pour Leonardo Balerdi et explique pourquoi tout a capoté",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T09:58:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-medhi-benatia-devoile-une-offre-xxl-pour-leonardo-balerdi-et-explique-pourquoi-tout-a-capote-43775371"
+   },
+   {
+    "title": "Mercato OM - Medhi Benatia dévoile les dessous croustillants de ses négociations avec Roberto De Zerbi à l'été 2024",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T09:25:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-medhi-benatia-devoile-les-dessous-croustillants-de-ses-negociations-avec-roberto-de-zerbi-a-lete-2024-43775241"
    }
   ],
   "PSG": [
+   {
+    "title": "Le documentaire sur le parcours de Pacho jusqu’au sommet avec le PSG",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-14T13:01:12Z",
+    "url": "https://onefootball.com/fr/news/le-documentaire-sur-le-parcours-de-pacho-jusquau-sommet-avec-le-psg-43776158"
+   },
+   {
+    "title": "PSG - Une immense star du tennis s'enflamme pour Matvey Safonov et lui adresse un compliment XXL",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T10:47:00Z",
+    "url": "https://onefootball.com/fr/news/psg-une-immense-star-du-tennis-senflamme-pour-matvey-safonov-et-lui-adresse-un-compliment-xxl-43775563"
+   },
+   {
+    "title": "Pacho se souvient de son moment de nervosité avec Luis Enrique avant de rejoindre le PSG",
+    "publisher": "Paris Saint-Germain",
+    "time": "2026-11-14T08:35:36Z",
+    "url": "https://onefootball.com/fr/video/pacho-se-souvient-de-son-moment-de-nervosite-avec-luis-enrique-avant-de-rejoindre-le-psg-3M5fXz2k86hsFRLWc9SpJlx0E8m"
+   },
+   {
+    "title": "Mercato PSG - Le président de Benfica met un sérieux coup de froid au PSG dans le dossier Gianluca Prestianni",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T08:17:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-le-president-de-benfica-met-un-serieux-coup-de-froid-au-psg-dans-le-dossier-gianluca-prestianni-43774992"
+   },
+   {
+    "title": "Mercato – Une nouvelle piste s’envole pour le PSG",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-14T08:00:53Z",
+    "url": "https://onefootball.com/fr/news/mercato-une-nouvelle-piste-senvole-pour-le-psg-43774912"
+   },
+   {
+    "title": "Diffusion Irlande du Nord/Ukraine – Heure et chaîne pour voir le match",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-14T06:00:18Z",
+    "url": "https://onefootball.com/fr/news/diffusion-irlande-du-nordukraine-heure-et-chaine-pour-voir-le-match-43774573"
+   },
+   {
+    "title": "Pacho se souvient de son moment de nervosité avec Luis Enrique avant de rejoindre le PSG",
+    "publisher": "Paris Saint-Germain",
+    "time": "2026-11-14T04:19:00Z",
+    "url": "https://onefootball.com/fr/video/pacho-se-souvient-de-son-moment-de-nervosite-avec-luis-enrique-avant-de-rejoindre-le-psg-3M5BZuAfJ66FBOxd3as0S8ZZ0kf"
+   },
    {
     "title": "Paris FC : des tensions avec le PSG et Al-Khelaïfi pour Arnault ?",
     "publisher": "OnzeMondial",
@@ -9417,52 +9479,10 @@
     "url": "https://onefootball.com/fr/news/streaming-equateurcosta-rica-ou-et-comment-voir-le-match-43773686"
    },
    {
-    "title": "Maroc/Niger – Les équipes officielles : Hakimi titulaire",
+    "title": "Entre le Mondial et la Ligue des champions, Fabián Ruiz tranche sans détour",
     "publisher": "Parisfans.fr",
-    "time": "2026-11-13T19:41:00Z",
-    "url": "https://onefootball.com/fr/news/marocniger-les-equipes-officielles-hakimi-titulaire-43773372"
-   },
-   {
-    "title": "Mercato PSG - Un nouveau cador européen souhaite s'offrir cette pépite parisienne !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-13T17:59:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-un-nouveau-cador-europeen-souhaite-soffrir-cette-pepite-parisienne-43772892"
-   },
-   {
-    "title": "Streaming Maroc/Niger : Chaine, heure et comment voir le match ?",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-13T17:00:11Z",
-    "url": "https://onefootball.com/fr/news/streaming-marocniger-chaine-heure-et-comment-voir-le-match-43772614"
-   },
-   {
-    "title": "Mercato – Maza et le PSG, une issue sans surprise",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-13T16:55:57Z",
-    "url": "https://onefootball.com/fr/news/mercato-maza-et-le-psg-une-issue-sans-surprise-43772612"
-   },
-   {
-    "title": "Mercato PSG - Paris pourrait toucher plus de 15 millions d'euros supplémentaires grâce à Gonçalo Ramos",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-13T14:40:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-paris-pourrait-toucher-plus-de-15-millions-deuros-supplementaires-grace-a-goncalo-ramos-43771870"
-   },
-   {
-    "title": "LDC - PSG - AS Roma : une décision radicale a été prise pour ce match classé à très hauts risques",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-13T13:50:00Z",
-    "url": "https://onefootball.com/fr/news/ldc-psg-as-roma-une-decision-radicale-a-ete-prise-pour-ce-match-classe-a-tres-hauts-risques-43771599"
-   },
-   {
-    "title": "Des nouvelles des dents de Doué après le coup de coude",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-13T12:18:54Z",
-    "url": "https://onefootball.com/fr/news/des-nouvelles-des-dents-de-doue-apres-le-coup-de-coude-43771153"
-   },
-   {
-    "title": "Thierry Henry : « J’ai une admiration énorme pour Luis Enrique »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-13T12:00:41Z",
-    "url": "https://onefootball.com/fr/news/thierry-henry-jai-une-admiration-enorme-pour-luis-enrique-43771048"
+    "time": "2026-11-13T20:47:49Z",
+    "url": "https://onefootball.com/fr/news/entre-le-mondial-et-la-ligue-des-champions-fabian-ruiz-tranche-sans-detour-43773641"
    }
   ],
   "Paris FC": [
@@ -9529,64 +9549,64 @@
   ],
   "RC Lens": [
    {
+    "title": "Formé au RC Lens, Brayann Pereira a quitté les Pays-Bas pour l’Angleterre",
+    "publisher": "Lensois.com",
+    "time": "2026-11-14T09:44:38Z",
+    "url": "https://onefootball.com/fr/news/forme-au-rc-lens-brayann-pereira-a-quitte-les-pays-bas-pour-langleterre-43775321"
+   },
+   {
+    "title": "Lens : les coulisses du choix Didier Digard, le club dévoile ses raisons !",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-14T09:33:00Z",
+    "url": "https://onefootball.com/fr/news/lens-les-coulisses-du-choix-didier-digard-le-club-devoile-ses-raisons-43775279"
+   },
+   {
+    "title": "[Vidéo] Privée de ses Lensois, l’équipe de France Espoirs s’incline face à l’Italie",
+    "publisher": "Lensois.com",
+    "time": "2026-11-14T08:57:24Z",
+    "url": "https://onefootball.com/fr/news/video-privee-de-ses-lensois-lequipe-de-france-espoirs-sincline-face-a-litalie-43775116"
+   },
+   {
+    "title": "RC Lens : Digard débarque, supporters en colère, à quoi s’attendre ?",
+    "publisher": "Morning Foot",
+    "time": "2026-11-14T08:25:24Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-digard-debarque-supporters-en-colere-a-quoi-sattendre-43775019"
+   },
+   {
+    "title": "Didier Digard, un choix plus sage qu’il n’y parait ?",
+    "publisher": "Lensois.com",
+    "time": "2026-11-14T08:13:33Z",
+    "url": "https://onefootball.com/fr/news/didier-digard-un-choix-plus-sage-quil-ny-parait-43774984"
+   },
+   {
+    "title": "Mercato Lens - Didier Digard préféré à Pierre Sage et Walid Regragui, les coulisses d'un choix surprise dévoilées",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-14T07:45:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-lens-didier-digard-prefere-a-pierre-sage-et-walid-regragui-les-coulisses-dun-choix-surprise-devoilees-43774871"
+   },
+   {
+    "title": "Les supporters lensois n’accablent pas Yannick Cahuzac",
+    "publisher": "Lensois.com",
+    "time": "2026-11-14T07:23:00Z",
+    "url": "https://onefootball.com/fr/news/les-supporters-lensois-naccablent-pas-yannick-cahuzac-43774801"
+   },
+   {
+    "title": "Antonio, Jourdren, Titraoui et Skoras sur le pont, les infos TV",
+    "publisher": "Lensois.com",
+    "time": "2026-11-14T06:31:11Z",
+    "url": "https://onefootball.com/fr/news/antonio-jourdren-titraoui-et-skoras-sur-le-pont-les-infos-tv-43774669"
+   },
+   {
+    "title": "Amadou Haidara s’illustre pour le Mali, Mezian Mesloub poursuit sa percée avec le Portugal Espoirs",
+    "publisher": "Lensois.com",
+    "time": "2026-11-14T05:35:29Z",
+    "url": "https://onefootball.com/fr/news/amadou-haidara-sillustre-pour-le-mali-mezian-mesloub-poursuit-sa-percee-avec-le-portugal-espoirs-43774555"
+   },
+   {
     "title": "Lens : grosse surprise, Didier Digard devient le nouvel entraîneur du Racing",
     "publisher": "Foot National",
     "time": "2026-11-13T21:53:00Z",
     "url": "https://onefootball.com/fr/news/lens-grosse-surprise-didier-digard-devient-le-nouvel-entraineur-du-racing-43773938"
-   },
-   {
-    "title": "[Officiel] Didier Digard est le nouvel entraîneur du RC Lens !",
-    "publisher": "Lensois.com",
-    "time": "2026-11-13T21:28:48Z",
-    "url": "https://onefootball.com/fr/news/officiel-didier-digard-est-le-nouvel-entraineur-du-rc-lens-43773800"
-   },
-   {
-    "title": "Mercato Lens - Immense surprise, le RC Lens nomme un entraîneur inattendu pour succéder à Yannick Cahuzac ! (officiel)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-13T21:24:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-lens-immense-surprise-le-rc-lens-nomme-un-entraineur-inattendu-pour-succeder-a-yannick-cahuzac-officiel-43773797"
-   },
-   {
-    "title": "🚨 OFFICIEL : Didier Digard nouvel entraîneur du RC Lens !",
-    "publisher": "OneFootball",
-    "time": "2026-11-13T21:21:54Z",
-    "url": "https://onefootball.com/fr/news/officiel-didier-digard-nouvel-entraineur-du-rc-lens-43773774"
-   },
-   {
-    "title": "Jérôme Rothen plutôt pour la piste Walid Regragui à Lens",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-13T20:30:48Z",
-    "url": "https://onefootball.com/fr/news/jerome-rothen-plutot-pour-la-piste-walid-regragui-a-lens-43773602"
-   },
-   {
-    "title": "Lens : un premier souhait de Pierre Sage sur le Mercato ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-13T19:01:00Z",
-    "url": "https://onefootball.com/fr/news/lens-un-premier-souhait-de-pierre-sage-sur-le-mercato-43773162"
-   },
-   {
-    "title": "Philippe Carayon : « C’est la faute à la panique de toutes les têtes pensantes du club »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-13T19:00:04Z",
-    "url": "https://onefootball.com/fr/news/philippe-carayon-cest-la-faute-a-la-panique-de-toutes-les-tetes-pensantes-du-club-43773152"
-   },
-   {
-    "title": "Saud Abdulhamid décisif et vainqueur avec l’Arabie Saoudite",
-    "publisher": "Lensois.com",
-    "time": "2026-11-13T16:30:27Z",
-    "url": "https://onefootball.com/fr/news/saud-abdulhamid-decisif-et-vainqueur-avec-larabie-saoudite-43772428"
-   },
-   {
-    "title": "Sur les réseaux sociaux, Robin Risser et Cédric Berthelin rassurent sur leur relation de travail",
-    "publisher": "Lensois.com",
-    "time": "2026-11-13T15:52:06Z",
-    "url": "https://onefootball.com/fr/news/sur-les-reseaux-sociaux-robin-risser-et-cedric-berthelin-rassurent-sur-leur-relation-de-travail-43772240"
-   },
-   {
-    "title": "Walid Regragui, l’autre option du RC Lens ?",
-    "publisher": "Lensois.com",
-    "time": "2026-11-13T15:36:03Z",
-    "url": "https://onefootball.com/fr/news/walid-regragui-lautre-option-du-rc-lens-43772154"
    }
   ],
   "RC Strasbourg": [
@@ -9839,7 +9859,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-13T23:28+00:00",
+ "fetchedAt": "2026-11-14T13:34+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
