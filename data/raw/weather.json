@@ -4,21 +4,22 @@
   "stadium": "Stade Bollaert-Delelis",
   "roof": false,
   "daysBefore": 7,
-  "temp": 6,
-  "desc": "",
-  "code": null,
+  "temp": 5,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 4.8,
   "gust": 29,
   "pRain": 0.04,
   "pWind": 0.04,
   "members": 51,
-  "confidence": 51,
+  "confidence": 53,
   "confidenceLabel": "moyenne",
   "sources": [
-   "ECMWF (51 scénarios)"
+   "ECMWF (51 scénarios)",
+   "modèle mondial"
   ],
-  "updated": "2026-11-14T13:35+00:00",
+  "updated": "2026-11-14T21:32+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -26,7 +27,7 @@
     "pRain": 0.04,
     "pWind": 0.04,
     "temp": 6,
-    "conf": 51
+    "conf": 53
    }
   ]
  },
@@ -35,21 +36,22 @@
   "stadium": "Stade Pierre-Mauroy",
   "roof": true,
   "daysBefore": 7,
-  "temp": 5,
-  "desc": "",
-  "code": null,
+  "temp": 4,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 4.2,
   "gust": 27,
   "pRain": 0.04,
   "pWind": 0.02,
   "members": 51,
-  "confidence": 52,
+  "confidence": 53,
   "confidenceLabel": "moyenne",
   "sources": [
-   "ECMWF (51 scénarios)"
+   "ECMWF (51 scénarios)",
+   "modèle mondial"
   ],
-  "updated": "2026-11-14T13:35+00:00",
+  "updated": "2026-11-14T21:32+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -57,7 +59,7 @@
     "pRain": 0.04,
     "pWind": 0.02,
     "temp": 5,
-    "conf": 52
+    "conf": 53
    }
   ]
  },
@@ -66,21 +68,22 @@
   "stadium": "Stade Louis-II",
   "roof": false,
   "daysBefore": 7,
-  "temp": 11,
-  "desc": "",
-  "code": null,
+  "temp": 13,
+  "desc": "plutôt dégagé",
+  "code": 1,
   "rain": 0,
   "rainMax": 8.1,
   "gust": 20,
   "pRain": 0.02,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 57,
+  "confidence": 58,
   "confidenceLabel": "moyenne",
   "sources": [
-   "ECMWF (51 scénarios)"
+   "ECMWF (51 scénarios)",
+   "modèle mondial"
   ],
-  "updated": "2026-11-14T13:35+00:00",
+  "updated": "2026-11-14T21:32+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -88,7 +91,7 @@
     "pRain": 0.02,
     "pWind": 0.0,
     "temp": 11,
-    "conf": 57
+    "conf": 58
    }
   ]
  },
@@ -97,21 +100,22 @@
   "stadium": "Allianz Riviera",
   "roof": false,
   "daysBefore": 7,
-  "temp": 14,
-  "desc": "",
-  "code": null,
+  "temp": 16,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
   "rainMax": 2.1,
   "gust": 22,
   "pRain": 0.02,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 57,
+  "confidence": 59,
   "confidenceLabel": "moyenne",
   "sources": [
-   "ECMWF (51 scénarios)"
+   "ECMWF (51 scénarios)",
+   "modèle mondial"
   ],
-  "updated": "2026-11-14T13:35+00:00",
+  "updated": "2026-11-14T21:32+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -119,7 +123,7 @@
     "pRain": 0.02,
     "pWind": 0.0,
     "temp": 14,
-    "conf": 57
+    "conf": 59
    }
   ]
  },
@@ -128,21 +132,22 @@
   "stadium": "Stade de la Meinau",
   "roof": false,
   "daysBefore": 7,
-  "temp": 5,
-  "desc": "",
-  "code": null,
+  "temp": 9,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 0.9,
   "gust": 17,
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 55,
+  "confidence": 56,
   "confidenceLabel": "moyenne",
   "sources": [
-   "ECMWF (51 scénarios)"
+   "ECMWF (51 scénarios)",
+   "modèle mondial"
   ],
-  "updated": "2026-11-14T13:35+00:00",
+  "updated": "2026-11-14T21:32+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -150,7 +155,7 @@
     "pRain": 0.0,
     "pWind": 0.0,
     "temp": 5,
-    "conf": 55
+    "conf": 56
    }
   ]
  },
@@ -159,21 +164,22 @@
   "stadium": "Stade de l'Aube",
   "roof": false,
   "daysBefore": 6,
-  "temp": 6,
-  "desc": "",
-  "code": null,
+  "temp": 10,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 1.5,
   "gust": 30,
   "pRain": 0.02,
   "pWind": 0.02,
   "members": 51,
-  "confidence": 59,
+  "confidence": 61,
   "confidenceLabel": "moyenne",
   "sources": [
-   "ECMWF (51 scénarios)"
+   "ECMWF (51 scénarios)",
+   "modèle mondial"
   ],
-  "updated": "2026-11-14T13:35+00:00",
+  "updated": "2026-11-14T21:32+00:00",
   "history": [
    {
     "day": "2026-11-13",
@@ -189,7 +195,7 @@
     "pRain": 0.02,
     "pWind": 0.02,
     "temp": 6,
-    "conf": 59
+    "conf": 61
    }
   ]
  }
