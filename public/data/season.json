@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-15T02:09+00:00",
-  "generatedAt": "2026-11-15T02:09+00:00",
+  "fetchedAt": "2026-11-15T13:57+00:00",
+  "generatedAt": "2026-11-15T14:00+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-14T21:31+00:00",
-    "lastAttempt": "2026-11-14T21:31+00:00",
+    "lastOk": "2026-11-15T13:57+00:00",
+    "lastAttempt": "2026-11-15T13:57+00:00",
     "error": null,
     "failures": 0,
-    "count": 147
+    "count": 148
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-15T02:09+00:00",
-    "lastAttempt": "2026-11-15T02:09+00:00",
+    "lastOk": "2026-11-15T13:59+00:00",
+    "lastAttempt": "2026-11-15T13:59+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,18 +49,18 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-14T21:32+00:00",
-    "lastAttempt": "2026-11-14T21:32+00:00",
+    "lastOk": "2026-11-15T13:59+00:00",
+    "lastAttempt": "2026-11-15T13:59+00:00",
     "error": null,
     "failures": 0,
-    "count": 6
+    "count": 8
    },
    {
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-14T21:32+00:00",
-    "lastAttempt": "2026-11-14T21:32+00:00",
+    "lastOk": "2026-11-15T14:00+00:00",
+    "lastAttempt": "2026-11-15T14:00+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-14T21:32+00:00",
-    "lastAttempt": "2026-11-14T21:32+00:00",
+    "lastOk": "2026-11-15T14:00+00:00",
+    "lastAttempt": "2026-11-15T14:00+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-14T21:33+00:00",
+  "generatedAt": "2026-11-15T14:00+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -9506,23 +9506,23 @@
      "kind": "beau",
      "stadium": "Stade de l'Aube",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 10,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 5,
+     "temp": 11,
+     "desc": "partiellement nuageux",
+     "code": 2,
      "rain": 0,
      "rainMax": 1.5,
      "gust": 30,
      "pRain": 0.02,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 61,
+     "confidence": 65,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-14T21:32+00:00",
+     "updated": "2026-11-15T13:59+00:00",
      "history": [
       {
        "day": "2026-11-13",
@@ -9539,6 +9539,14 @@
        "pWind": 0.02,
        "temp": 6,
        "conf": 61
+      },
+      {
+       "day": "2026-11-15",
+       "daysBefore": 5,
+       "pRain": 0.02,
+       "pWind": 0.02,
+       "temp": 6,
+       "conf": 65
       }
      ]
     }
@@ -9645,12 +9653,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9704,22 +9712,22 @@
       "absences": [],
       "other": [
        {
-        "title": "PSG/AS Rome – Les autorités limitent la présence des supporters italiens au Parc",
+        "title": "Nike devrait ressusciter une couleur mythique pour le maillot Third 2027/2028 du PSG",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/psgas-rome-les-autorites-limitent-la-presence-des-supporters-italiens-au-parc-43778060",
-        "time": "2026-11-14T21:00:58Z"
+        "url": "https://onefootball.com/fr/news/nike-devrait-ressusciter-une-couleur-mythique-pour-le-maillot-third-20272028-du-psg-43780459",
+        "time": "2026-11-15T13:30:02Z"
        },
        {
-        "title": "PSG - Achraf Hakimi appelle Khvicha Kvaratskhelia en plein live Twitch et reçoit une véritable déclaration d'amour !",
+        "title": "PSG - Senny Mayulu donne rendez-vous aux supporters parisiens pour le three-peat en Ligue des Champions",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-achraf-hakimi-appelle-khvicha-kvaratskhelia-en-plein-live-twitch-et-recoit-une-veritable-declaration-damour-43778068",
-        "time": "2026-11-14T20:59:00Z"
+        "url": "https://onefootball.com/fr/news/psg-senny-mayulu-donne-rendez-vous-aux-supporters-parisiens-pour-le-three-peat-en-ligue-des-champions-43779805",
+        "time": "2026-11-15T10:50:00Z"
        },
        {
-        "title": "Ligue 1 - Auditions devant le CNOSF imminentes concernant le match retour entre le PSG et le Stade Rennais",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-auditions-devant-le-cnosf-imminentes-concernant-le-match-retour-entre-le-psg-et-le-stade-rennais-43777112",
-        "time": "2026-11-14T16:50:00Z"
+        "title": "Revue de presse : France/Turquie, choix de Zidane et Torres",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/revue-de-presse-franceturquie-choix-de-zidane-et-torres-43779320",
+        "time": "2026-11-15T08:33:01Z"
        }
       ],
       "scorer": {
@@ -9733,23 +9741,23 @@
      "kind": "beau",
      "stadium": "Allianz Riviera",
      "roof": false,
-     "daysBefore": 7,
+     "daysBefore": 6,
      "temp": 16,
-     "desc": "ciel dégagé",
-     "code": 0,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 2.1,
      "gust": 22,
      "pRain": 0.02,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 59,
+     "confidence": 64,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-14T21:32+00:00",
+     "updated": "2026-11-15T13:59+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -9758,6 +9766,14 @@
        "pWind": 0.0,
        "temp": 14,
        "conf": 59
+      },
+      {
+       "day": "2026-11-15",
+       "daysBefore": 6,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 14,
+       "conf": 64
       }
      ]
     }
@@ -9864,12 +9880,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9892,25 +9908,32 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Robin Risser et les Bleus pour une qualification, Andrija Bulatovic sur la touche avec le Monténégro",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/robin-risser-et-les-bleus-pour-une-qualification-andrija-bulatovic-sur-la-touche-avec-le-montenegro-43779261",
+        "time": "2026-11-15T08:10:58Z"
+       }
+      ],
       "other": [
        {
-        "title": "Lens : de lanterne rouge au Havre à la LDC, Didier Digard peut-il vraiment réussir sa mission ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/lens-de-lanterne-rouge-au-havre-a-la-ldc-didier-digard-peut-il-vraiment-reussir-sa-mission-43777259",
-        "time": "2026-11-14T17:28:00Z"
+        "title": "RC Lens : Romain Molina dévoile les coulisses explosives du choix de Didier Digard",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/rc-lens-romain-molina-devoile-les-coulisses-explosives-du-choix-de-didier-digard-43780065",
+        "time": "2026-11-15T11:53:35Z"
        },
        {
-        "title": "« Beaucoup de fraîcheur, avec des idées très claires », quand Jean-Clair Todibo était déjà séduit par Didier Digard à Nice",
+        "title": "Saud Abdulhamid : « Depuis mon arrivée à Lens, je sens que mon rêve se rapproche »",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/beaucoup-de-fraicheur-avec-des-idees-tres-claires-quand-jean-clair-todibo-etait-deja-seduit-par-didier-digard-a-nice-43776922",
-        "time": "2026-11-14T16:02:47Z"
+        "url": "https://onefootball.com/fr/news/saud-abdulhamid-depuis-mon-arrivee-a-lens-je-sens-que-mon-reve-se-rapproche-43779797",
+        "time": "2026-11-15T10:43:40Z"
        },
        {
-        "title": "RC Lens - Didier Digard fait ses premiers pas à Lens, les premières images dévoilées",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-didier-digard-fait-ses-premiers-pas-a-lens-les-premieres-images-devoilees-43776329",
-        "time": "2026-11-14T13:50:00Z"
+        "title": "Margot Dumont donne les raisons du choix de Didier Digard à Lens",
+        "publisher": "ConsultantsFoot",
+        "url": "https://onefootball.com/fr/news/margot-dumont-donne-les-raisons-du-choix-de-didier-digard-a-lens-43779352",
+        "time": "2026-11-15T08:30:59Z"
        }
       ],
       "scorer": {
@@ -9952,8 +9975,8 @@
      "kind": "beau",
      "stadium": "Stade Bollaert-Delelis",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 5,
+     "daysBefore": 6,
+     "temp": 8,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -9962,13 +9985,13 @@
      "pRain": 0.04,
      "pWind": 0.04,
      "members": 51,
-     "confidence": 53,
+     "confidence": 57,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-14T21:32+00:00",
+     "updated": "2026-11-15T13:59+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -9977,6 +10000,14 @@
        "pWind": 0.04,
        "temp": 6,
        "conf": 53
+      },
+      {
+       "day": "2026-11-15",
+       "daysBefore": 6,
+       "pRain": 0.04,
+       "pWind": 0.04,
+       "temp": 6,
+       "conf": 57
       }
      ]
     }
@@ -10083,12 +10114,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10117,32 +10148,26 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/losc-deux-blesses-lillois-se-rapprochent-dun-retour-43773115",
         "time": "2026-11-13T18:46:00Z"
-       },
-       {
-        "title": "Italie – France : Quelle équipe pour Zinedine Zidane avec le forfait de Kylian Mbappé ?",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/italie-france-quelle-equipe-pour-zinedine-zidane-avec-le-forfait-de-kylian-mbappe-43765454",
-        "time": "2026-11-12T07:11:00Z"
        }
       ],
       "other": [
+       {
+        "title": "France – Turquie : Les compositions probables avec le retour de Kylian Mbappé",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/france-turquie-les-compositions-probables-avec-le-retour-de-kylian-mbappe-43780018",
+        "time": "2026-11-15T08:14:00Z"
+       },
+       {
+        "title": "Quels sont les joueurs du LOSC passés par l’équipe de France depuis 1944 ?",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/quels-sont-les-joueurs-du-losc-passes-par-lequipe-de-france-depuis-1944-43778323",
+        "time": "2026-11-14T18:37:00Z"
+       },
        {
         "title": "Mercato LOSC - Nathan Ngoy pourrait rapporter très gros au LOSC, sa progression impressionne",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-losc-nathan-ngoy-pourrait-rapporter-tres-gros-au-losc-sa-progression-impressionne-43776418",
         "time": "2026-11-14T14:08:00Z"
-       },
-       {
-        "title": "LOSC : Mark van Bommel prédit un jackpot XXL pour Nathan Ngoy !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/losc-mark-van-bommel-predit-un-jackpot-xxl-pour-nathan-ngoy-43776130",
-        "time": "2026-11-14T13:02:00Z"
-       },
-       {
-        "title": "Ligue 1 : le choc LOSC - OL menacé d’un changement de programme",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ligue-1-le-choc-losc-ol-menace-dun-changement-de-programme-43771204",
-        "time": "2026-11-13T12:31:00Z"
        }
       ],
       "scorer": {
@@ -10155,22 +10180,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OL : Athekame parmi les joueurs les plus utilisés en Ligue 1",
+        "title": "Avec Carlos Vicens, l'OL mise aussi sur la \"jeunesse\"",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-athekame-parmi-les-joueurs-les-plus-utilises-en-ligue-1-43776608",
-        "time": "2026-11-14T15:00:00Z"
+        "url": "https://onefootball.com/fr/news/avec-carlos-vicens-lol-mise-aussi-sur-la-jeunesse-43780421",
+        "time": "2026-11-15T13:20:00Z"
        },
        {
-        "title": "OL : Duranville buteur, vendredi sans pour les internationaux lyonnais",
+        "title": "Les U19 de l'OL arrachent un point à Nancy",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-duranville-buteur-vendredi-sans-pour-les-internationaux-lyonnais-43775571",
-        "time": "2026-11-14T10:50:00Z"
+        "url": "https://onefootball.com/fr/news/les-u19-de-lol-arrachent-un-point-a-nancy-43780216",
+        "time": "2026-11-15T12:30:00Z"
        },
        {
-        "title": "Keito Nakamura commence à se sentir comme à la maison",
-        "publisher": "FerveurLyonnaise",
-        "url": "https://onefootball.com/fr/news/keito-nakamura-commence-a-se-sentir-comme-a-la-maison-43775569",
-        "time": "2026-11-14T10:45:16Z"
+        "title": "Ligue 1 : les Lyonnais tranquilles avec les cartons jaunes",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/ligue-1-les-lyonnais-tranquilles-avec-les-cartons-jaunes-43780001",
+        "time": "2026-11-15T11:40:00Z"
        }
       ],
       "scorer": {
@@ -10184,8 +10209,8 @@
      "kind": "beau",
      "stadium": "Stade Pierre-Mauroy",
      "roof": true,
-     "daysBefore": 7,
-     "temp": 4,
+     "daysBefore": 6,
+     "temp": 8,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -10194,13 +10219,13 @@
      "pRain": 0.04,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 53,
+     "confidence": 57,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-14T21:32+00:00",
+     "updated": "2026-11-15T13:59+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10209,6 +10234,14 @@
        "pWind": 0.02,
        "temp": 5,
        "conf": 53
+      },
+      {
+       "day": "2026-11-15",
+       "daysBefore": 6,
+       "pRain": 0.04,
+       "pWind": 0.02,
+       "temp": 5,
+       "conf": 57
       }
      ]
     }
@@ -10315,12 +10348,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10403,23 +10436,23 @@
      "kind": "beau",
      "stadium": "Stade Louis-II",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 13,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 6,
+     "temp": 14,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 8.1,
      "gust": 20,
      "pRain": 0.02,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 58,
+     "confidence": 62,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-14T21:32+00:00",
+     "updated": "2026-11-15T13:59+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10428,6 +10461,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 58
+      },
+      {
+       "day": "2026-11-15",
+       "daysBefore": 6,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 62
       }
      ]
     }
@@ -10534,12 +10575,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10622,8 +10663,8 @@
      "kind": "beau",
      "stadium": "Stade de la Meinau",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 9,
+     "daysBefore": 6,
+     "temp": 5,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -10632,13 +10673,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 56,
+     "confidence": 60,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-14T21:32+00:00",
+     "updated": "2026-11-15T13:59+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10647,6 +10688,14 @@
        "pWind": 0.0,
        "temp": 5,
        "conf": 56
+      },
+      {
+       "day": "2026-11-15",
+       "daysBefore": 6,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 5,
+       "conf": 60
       }
      ]
     }
@@ -10753,12 +10802,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10921,12 +10970,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10946,7 +10995,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [
@@ -10981,6 +11030,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Mercato Rennes - Un indésirable pourrait quitter le Stade Rennais cet hiver, une destination surprise se dessine",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-rennes-un-indesirable-pourrait-quitter-le-stade-rennais-cet-hiver-une-destination-surprise-se-dessine-43779339",
+        "time": "2026-11-15T08:33:00Z"
+       },
+       {
         "title": "Stade Rennais : la prochaine grosse vente en Premier League est connue",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-rennais-la-prochaine-grosse-vente-en-premier-league-est-connue-43769839",
@@ -10991,12 +11046,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-rennais-arnaud-nordin-deja-pousse-vers-la-sortie-43767258",
         "time": "2026-11-12T16:00:24Z"
-       },
-       {
-        "title": "Stade Rennais : Une satisfaction surprise au milieu de marasme ambiant",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-une-satisfaction-surprise-au-milieu-de-marasme-ambiant-43760944",
-        "time": "2026-11-11T12:44:34Z"
        }
       ],
       "scorer": {
@@ -11005,6 +11054,38 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Stade du Moustoir",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 12,
+     "desc": "bruine légère",
+     "code": 51,
+     "rain": 0,
+     "rainMax": 7.2,
+     "gust": 42,
+     "pRain": 0.06,
+     "pWind": 0.22,
+     "members": 51,
+     "confidence": 50,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)",
+      "modèle mondial"
+     ],
+     "updated": "2026-11-15T13:59+00:00",
+     "history": [
+      {
+       "day": "2026-11-15",
+       "daysBefore": 7,
+       "pRain": 0.06,
+       "pWind": 0.22,
+       "temp": 12,
+       "conf": 50
+      }
+     ]
     }
    },
    "lh": 1.569,
@@ -11109,12 +11190,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11134,28 +11215,28 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "inconnu",
+    "weather": "beau",
     "press": {
      "H": {
       "absences": [],
       "other": [
        {
-        "title": "Mercato OM : La Juventus Turin dit non pour Pierre-Émile Hojbjerg",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/mercato-om-la-juventus-turin-dit-non-pour-pierre-emile-hojbjerg-43778071",
-        "time": "2026-11-14T21:00:44Z"
+        "title": "OM - Benoît Payan, le maire de Marseille, clashe Frank McCourt sur sa gestion à distance de l'OM",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-benoit-payan-le-maire-de-marseille-clashe-frank-mccourt-sur-sa-gestion-a-distance-de-lom-43780542",
+        "time": "2026-11-15T13:45:00Z"
        },
        {
-        "title": "Mercato OM : L’OM prend contact avec Santiago Hezze",
-        "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/mercato-om-lom-prend-contact-avec-santiago-hezze-43777877",
-        "time": "2026-11-14T20:00:53Z"
+        "title": "OM : \"C’est ma ville, c’est mon caractère\", Benatia dévoile comment De Zerbi a craqué pour Marseille",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-cest-ma-ville-cest-mon-caractere-benatia-devoile-comment-de-zerbi-a-craque-pour-marseille-43780197",
+        "time": "2026-11-15T12:25:00Z"
        },
        {
-        "title": "Ex-OM : La presse argentine démonte Balerdi après son but contre son camp",
+        "title": "OM – « Ils n’ont plus les couilles » déclare Benatia à propos du vestiaire marseillais",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-la-presse-argentine-demonte-balerdi-apres-son-but-contre-son-camp-43777631",
-        "time": "2026-11-14T19:00:19Z"
+        "url": "https://onefootball.com/fr/news/om-ils-nont-plus-les-couilles-declare-benatia-a-propos-du-vestiaire-marseillais-43780111",
+        "time": "2026-11-15T12:00:55Z"
        }
       ],
       "scorer": {
@@ -11180,6 +11261,38 @@
       },
       "scorerOut": null
      }
+    },
+    "meteo": {
+     "kind": "beau",
+     "stadium": "Orange Vélodrome",
+     "roof": false,
+     "daysBefore": 7,
+     "temp": 12,
+     "desc": "bruine légère",
+     "code": 51,
+     "rain": 0,
+     "rainMax": 3.3,
+     "gust": 30,
+     "pRain": 0.1,
+     "pWind": 0.0,
+     "members": 51,
+     "confidence": 53,
+     "confidenceLabel": "moyenne",
+     "sources": [
+      "ECMWF (51 scénarios)",
+      "modèle mondial"
+     ],
+     "updated": "2026-11-15T13:59+00:00",
+     "history": [
+      {
+       "day": "2026-11-15",
+       "daysBefore": 7,
+       "pRain": 0.1,
+       "pWind": 0.0,
+       "temp": 13,
+       "conf": 53
+      }
+     ]
     }
    },
    "lh": 2.151,
@@ -11284,12 +11397,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-15T02:09+00:00",
+    "at": "2026-11-15T14:00+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-15T02:09+00:00",
+    "dataAt": "2026-11-15T13:57+00:00",
     "changes": 1,
     "model": {
-     "version": "7e2fbdd",
+     "version": "765b399",
      "mu": 0.214,
      "home": 0.232
     }
