@@ -3,23 +3,23 @@
   "kind": "beau",
   "stadium": "Stade Bollaert-Delelis",
   "roof": false,
-  "daysBefore": 6,
-  "temp": 4,
-  "desc": "plutôt dégagé",
-  "code": 1,
+  "daysBefore": 5,
+  "temp": 2,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
-  "rainMax": 4.8,
+  "rainMax": 0.6,
   "gust": 29,
-  "pRain": 0.04,
+  "pRain": 0.0,
   "pWind": 0.04,
   "members": 51,
-  "confidence": 58,
+  "confidence": 66,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -36,6 +36,14 @@
     "pWind": 0.04,
     "temp": 6,
     "conf": 58
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 5,
+    "pRain": 0.0,
+    "pWind": 0.04,
+    "temp": 4,
+    "conf": 66
    }
   ]
  },
@@ -43,23 +51,23 @@
   "kind": "beau",
   "stadium": "Stade Pierre-Mauroy",
   "roof": true,
-  "daysBefore": 6,
-  "temp": 3,
-  "desc": "plutôt dégagé",
-  "code": 1,
+  "daysBefore": 5,
+  "temp": 2,
+  "desc": "ciel dégagé",
+  "code": 0,
   "rain": 0,
-  "rainMax": 4.2,
+  "rainMax": 1.5,
   "gust": 27,
-  "pRain": 0.04,
+  "pRain": 0.02,
   "pWind": 0.02,
   "members": 51,
-  "confidence": 59,
+  "confidence": 66,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -76,6 +84,14 @@
     "pWind": 0.02,
     "temp": 5,
     "conf": 59
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 5,
+    "pRain": 0.02,
+    "pWind": 0.02,
+    "temp": 3,
+    "conf": 66
    }
   ]
  },
@@ -83,23 +99,23 @@
   "kind": "beau",
   "stadium": "Stade du Moustoir",
   "roof": false,
-  "daysBefore": 7,
+  "daysBefore": 6,
   "temp": 11,
-  "desc": "bruine forte",
-  "code": 55,
-  "rain": 0,
-  "rainMax": 7.2,
-  "gust": 42,
+  "desc": "bruine légère",
+  "code": 51,
+  "rain": 0.3,
+  "rainMax": 3.3,
+  "gust": 48,
   "pRain": 0.06,
-  "pWind": 0.22,
+  "pWind": 0.31,
   "members": 51,
-  "confidence": 51,
+  "confidence": 55,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-15",
@@ -108,6 +124,14 @@
     "pWind": 0.22,
     "temp": 12,
     "conf": 51
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 6,
+    "pRain": 0.06,
+    "pWind": 0.31,
+    "temp": 11,
+    "conf": 55
    }
   ]
  },
@@ -115,23 +139,23 @@
   "kind": "beau",
   "stadium": "Orange Vélodrome",
   "roof": false,
-  "daysBefore": 7,
+  "daysBefore": 6,
   "temp": 11,
   "desc": "ciel dégagé",
   "code": 0,
   "rain": 0,
-  "rainMax": 3.3,
-  "gust": 30,
-  "pRain": 0.1,
-  "pWind": 0.0,
+  "rainMax": 5.7,
+  "gust": 42,
+  "pRain": 0.04,
+  "pWind": 0.12,
   "members": 51,
-  "confidence": 54,
+  "confidence": 59,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-15",
@@ -140,6 +164,14 @@
     "pWind": 0.0,
     "temp": 13,
     "conf": 54
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 6,
+    "pRain": 0.04,
+    "pWind": 0.12,
+    "temp": 13,
+    "conf": 59
    }
   ]
  },
@@ -147,23 +179,23 @@
   "kind": "beau",
   "stadium": "Stade Louis-II",
   "roof": false,
-  "daysBefore": 6,
-  "temp": 14,
+  "daysBefore": 5,
+  "temp": 13,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 8.1,
+  "rainMax": 0.6,
   "gust": 20,
-  "pRain": 0.02,
+  "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 64,
-  "confidenceLabel": "moyenne",
+  "confidence": 70,
+  "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -180,6 +212,14 @@
     "pWind": 0.0,
     "temp": 11,
     "conf": 64
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 5,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 10,
+    "conf": 70
    }
   ]
  },
@@ -187,23 +227,23 @@
   "kind": "beau",
   "stadium": "Allianz Riviera",
   "roof": false,
-  "daysBefore": 6,
-  "temp": 17,
+  "daysBefore": 5,
+  "temp": 16,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
-  "rainMax": 2.1,
+  "rainMax": 0,
   "gust": 22,
-  "pRain": 0.02,
+  "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 66,
-  "confidenceLabel": "moyenne",
+  "confidence": 73,
+  "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -220,6 +260,14 @@
     "pWind": 0.0,
     "temp": 14,
     "conf": 66
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 5,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 14,
+    "conf": 73
    }
   ]
  },
@@ -227,23 +275,23 @@
   "kind": "beau",
   "stadium": "Stade Jean-Bouin",
   "roof": false,
-  "daysBefore": 7,
-  "temp": 13,
-  "desc": "pluie faible",
-  "code": 61,
-  "rain": 0,
-  "rainMax": 3.0,
-  "gust": 33,
-  "pRain": 0.04,
-  "pWind": 0.04,
+  "daysBefore": 6,
+  "temp": 10,
+  "desc": "averses",
+  "code": 80,
+  "rain": 0.3,
+  "rainMax": 5.4,
+  "gust": 37,
+  "pRain": 0.16,
+  "pWind": 0.08,
   "members": 51,
-  "confidence": 55,
+  "confidence": 52,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-15",
@@ -252,6 +300,14 @@
     "pWind": 0.04,
     "temp": 11,
     "conf": 55
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 6,
+    "pRain": 0.16,
+    "pWind": 0.08,
+    "temp": 10,
+    "conf": 52
    }
   ]
  },
@@ -259,8 +315,8 @@
   "kind": "beau",
   "stadium": "Stade de la Meinau",
   "roof": false,
-  "daysBefore": 6,
-  "temp": 5,
+  "daysBefore": 5,
+  "temp": 4,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
@@ -269,13 +325,13 @@
   "pRain": 0.0,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 60,
+  "confidence": 68,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T13:59+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-14",
@@ -292,6 +348,14 @@
     "pWind": 0.0,
     "temp": 5,
     "conf": 60
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 5,
+    "pRain": 0.0,
+    "pWind": 0.0,
+    "temp": 3,
+    "conf": 68
    }
   ]
  },
@@ -299,23 +363,23 @@
   "kind": "beau",
   "stadium": "Stade de l'Aube",
   "roof": false,
-  "daysBefore": 5,
-  "temp": 10,
-  "desc": "partiellement nuageux",
-  "code": 2,
+  "daysBefore": 4,
+  "temp": 9,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
-  "rainMax": 1.5,
+  "rainMax": 3.3,
   "gust": 30,
-  "pRain": 0.02,
+  "pRain": 0.08,
   "pWind": 0.02,
   "members": 51,
-  "confidence": 67,
+  "confidence": 69,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-15T21:53+00:00",
+  "updated": "2026-11-16T15:52+00:00",
   "history": [
    {
     "day": "2026-11-13",
@@ -340,6 +404,14 @@
     "pWind": 0.02,
     "temp": 6,
     "conf": 67
+   },
+   {
+    "day": "2026-11-16",
+    "daysBefore": 4,
+    "pRain": 0.08,
+    "pWind": 0.02,
+    "temp": 7,
+    "conf": 69
    }
   ]
  }

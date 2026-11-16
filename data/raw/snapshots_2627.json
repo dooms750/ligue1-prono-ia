@@ -1127,10 +1127,10 @@
   "date": "2026-11-20",
   "time": "20:45",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1145,11 +1145,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.02,
+    "pRain": 0.08,
     "pWind": 0.02,
-    "confidence": 67,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 5
+    "confidence": 69,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 4
    },
    "presse": {
     "H": null,
@@ -1176,10 +1176,10 @@
   "date": "2026-11-21",
   "time": "17:15",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1194,11 +1194,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.02,
+    "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 66,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 6
+    "confidence": 73,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 5
    },
    "presse": {
     "H": null,
@@ -1225,10 +1225,10 @@
   "date": "2026-11-21",
   "time": "20:45",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1243,11 +1243,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.04,
+    "pRain": 0.0,
     "pWind": 0.04,
-    "confidence": 58,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 6
+    "confidence": 66,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 5
    },
    "presse": {
     "H": null,
@@ -1274,10 +1274,10 @@
   "date": "2026-11-21",
   "time": "20:45",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1292,11 +1292,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.04,
+    "pRain": 0.02,
     "pWind": 0.02,
-    "confidence": 59,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 6
+    "confidence": 66,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 5
    },
    "presse": {
     "H": null,
@@ -1323,10 +1323,10 @@
   "date": "2026-11-21",
   "time": "20:45",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1341,11 +1341,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.02,
+    "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 64,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 6
+    "confidence": 70,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 5
    },
    "presse": {
     "H": null,
@@ -1372,10 +1372,10 @@
   "date": "2026-11-21",
   "time": "20:45",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1392,9 +1392,9 @@
    "meteo": {
     "pRain": 0.0,
     "pWind": 0.0,
-    "confidence": 60,
-    "updated": "2026-11-15T13:59+00:00",
-    "daysBefore": 6
+    "confidence": 68,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 5
    },
    "presse": {
     "H": null,
@@ -1421,10 +1421,10 @@
   "date": "2026-11-22",
   "time": "15:00",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1439,11 +1439,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.04,
-    "pWind": 0.04,
-    "confidence": 55,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 7
+    "pRain": 0.16,
+    "pWind": 0.08,
+    "confidence": 52,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 6
    },
    "presse": {
     "H": null,
@@ -1470,10 +1470,10 @@
   "date": "2026-11-22",
   "time": "17:15",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1489,10 +1489,10 @@
   "inputs": {
    "meteo": {
     "pRain": 0.06,
-    "pWind": 0.22,
-    "confidence": 51,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 7
+    "pWind": 0.31,
+    "confidence": 55,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 6
    },
    "presse": {
     "H": null,
@@ -1519,10 +1519,10 @@
   "date": "2026-11-22",
   "time": "20:45",
   "md": 11,
-  "at": "2026-11-16T01:52+00:00",
-  "dataAt": "2026-11-16T01:52+00:00",
+  "at": "2026-11-16T15:53+00:00",
+  "dataAt": "2026-11-16T15:50+00:00",
   "model": {
-   "version": "d772eae",
+   "version": "e770376",
    "mu": 0.214,
    "home": 0.232
   },
@@ -1537,11 +1537,11 @@
   "odds": null,
   "inputs": {
    "meteo": {
-    "pRain": 0.1,
-    "pWind": 0.0,
-    "confidence": 54,
-    "updated": "2026-11-15T21:53+00:00",
-    "daysBefore": 7
+    "pRain": 0.04,
+    "pWind": 0.12,
+    "confidence": 59,
+    "updated": "2026-11-16T15:52+00:00",
+    "daysBefore": 6
    },
    "presse": {
     "H": null,

@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-16T01:52+00:00",
-  "generatedAt": "2026-11-16T01:52+00:00",
+  "fetchedAt": "2026-11-16T15:50+00:00",
+  "generatedAt": "2026-11-16T15:53+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-15T21:51+00:00",
-    "lastAttempt": "2026-11-15T21:51+00:00",
+    "lastOk": "2026-11-16T15:50+00:00",
+    "lastAttempt": "2026-11-16T15:50+00:00",
     "error": null,
     "failures": 0,
-    "count": 149
+    "count": 150
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-16T01:52+00:00",
-    "lastAttempt": "2026-11-16T01:52+00:00",
+    "lastOk": "2026-11-16T15:52+00:00",
+    "lastAttempt": "2026-11-16T15:52+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-15T21:53+00:00",
-    "lastAttempt": "2026-11-15T21:53+00:00",
+    "lastOk": "2026-11-16T15:52+00:00",
+    "lastAttempt": "2026-11-16T15:52+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-15T21:54+00:00",
-    "lastAttempt": "2026-11-15T21:54+00:00",
+    "lastOk": "2026-11-16T15:52+00:00",
+    "lastAttempt": "2026-11-16T15:52+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-15T21:54+00:00",
-    "lastAttempt": "2026-11-15T21:54+00:00",
+    "lastOk": "2026-11-16T15:52+00:00",
+    "lastAttempt": "2026-11-16T15:52+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-15T21:54+00:00",
+  "generatedAt": "2026-11-16T15:52+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -805,10 +805,10 @@
     "nTest": 320,
     "own": 1.006,
     "other": 1.0,
-    "sd": 0.039,
+    "sd": 0.056,
     "ci": [
-     0.943,
-     1.073
+     0.917,
+     1.103
     ],
     "hypothesis": {
      "own": 0.86,
@@ -830,10 +830,10 @@
     "nTest": 212,
     "own": 1.057,
     "other": 0.947,
-    "sd": 0.045,
+    "sd": 0.0,
     "ci": [
-     0.982,
-     1.138
+     1.057,
+     1.057
     ],
     "hypothesis": {
      "own": 0.95,
@@ -8930,7 +8930,7 @@
    ],
    "pred": {
     "lh": 1.443,
-    "la": 1.27,
+    "la": 1.269,
     "p": [
      0.412,
      0.256,
@@ -9506,23 +9506,23 @@
      "kind": "beau",
      "stadium": "Stade de l'Aube",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 10,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "daysBefore": 4,
+     "temp": 9,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
-     "rainMax": 1.5,
+     "rainMax": 3.3,
      "gust": 30,
-     "pRain": 0.02,
+     "pRain": 0.08,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 67,
+     "confidence": 69,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-13",
@@ -9547,6 +9547,14 @@
        "pWind": 0.02,
        "temp": 6,
        "conf": 67
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 4,
+       "pRain": 0.08,
+       "pWind": 0.02,
+       "temp": 7,
+       "conf": 69
       }
      ]
     }
@@ -9653,12 +9661,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9709,32 +9717,25 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [
-       {
-        "title": "France/Turquie – Doué forfait, la raison dépasse son problème dentaire",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/franceturquie-doue-forfait-la-raison-depasse-son-probleme-dentaire-43782042",
-        "time": "2026-11-15T19:55:41Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "France/Turquie – Les équipes officielles, sans joueur du PSG",
+        "title": "Le PSG aide des étudiants avec la Cantine Solidaire au Parc des Princes",
         "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/franceturquie-les-equipes-officielles-sans-joueur-du-psg-43781843",
-        "time": "2026-11-15T18:54:21Z"
+        "url": "https://onefootball.com/fr/news/le-psg-aide-des-etudiants-avec-la-cantine-solidaire-au-parc-des-princes-43785609",
+        "time": "2026-11-16T15:30:38Z"
        },
        {
-        "title": "Mayulu révèle comment Luis Enrique entretient la faim du PSG",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/mayulu-revele-comment-luis-enrique-entretient-la-faim-du-psg-43781614",
-        "time": "2026-11-15T18:02:01Z"
-       },
-       {
-        "title": "PSG - Khvicha Kvaratskhelia donne de ses nouvelles",
+        "title": "PSG - Khvicha Kvaratskhelia revient sur son arrivée au PSG et ses premiers pas avec Luis Enrique",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-khvicha-kvaratskhelia-donne-de-ses-nouvelles-43781536",
-        "time": "2026-11-15T17:54:00Z"
+        "url": "https://onefootball.com/fr/news/psg-khvicha-kvaratskhelia-revient-sur-son-arrivee-au-psg-et-ses-premiers-pas-avec-luis-enrique-43785049",
+        "time": "2026-11-16T13:34:00Z"
+       },
+       {
+        "title": "PSG - Khvicha Kvaratskhelia remporte une belle distinction honorifique",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-khvicha-kvaratskhelia-remporte-une-belle-distinction-honorifique-43784897",
+        "time": "2026-11-16T13:05:00Z"
        }
       ],
       "scorer": {
@@ -9748,23 +9749,23 @@
      "kind": "beau",
      "stadium": "Allianz Riviera",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 17,
+     "daysBefore": 5,
+     "temp": 16,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 2.1,
+     "rainMax": 0,
      "gust": 22,
-     "pRain": 0.02,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 66,
-     "confidenceLabel": "moyenne",
+     "confidence": 73,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -9781,6 +9782,14 @@
        "pWind": 0.0,
        "temp": 14,
        "conf": 66
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 5,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 14,
+       "conf": 73
       }
      ]
     }
@@ -9847,7 +9856,7 @@
     {
      "md": 7,
      "p": [
-      0.217,
+      0.216,
       0.234,
       0.549
      ]
@@ -9887,12 +9896,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9915,32 +9924,25 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [
-       {
-        "title": "Robin Risser et les Bleus pour une qualification, Andrija Bulatovic sur la touche avec le Monténégro",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/robin-risser-et-les-bleus-pour-une-qualification-andrija-bulatovic-sur-la-touche-avec-le-montenegro-43779261",
-        "time": "2026-11-15T08:10:58Z"
-       }
-      ],
+      "absences": [],
       "other": [
        {
-        "title": "RC Lens - Joseph Oughourlian dévoile les coulisses de l'arrivée de Didier Digard et fait une confidence",
+        "title": "RC Lens - Joseph Oughourlian assume s'être \"planté\" dans le choix Yannick Cahuzac",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-joseph-oughourlian-devoile-les-coulisses-de-larrivee-de-didier-digard-et-fait-une-confidence-43782220",
-        "time": "2026-11-15T20:45:00Z"
+        "url": "https://onefootball.com/fr/news/rc-lens-joseph-oughourlian-assume-setre-plante-dans-le-choix-yannick-cahuzac-43785104",
+        "time": "2026-11-16T13:50:00Z"
        },
        {
-        "title": "[U19-J11] 6-2, méfie-te ! Le RC Lens cartonne Rouen, Errichiello puissance 4",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/u19-j11-6-2-mefie-te-le-rc-lens-cartonne-rouen-errichiello-puissance-4-43781285",
-        "time": "2026-11-15T16:53:16Z"
+        "title": "Mercato - Lens : Risser successeur de Neuer au Bayern Munich ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-lens-risser-successeur-de-neuer-au-bayern-munich-43785035",
+        "time": "2026-11-16T13:32:00Z"
        },
        {
-        "title": "Andrija Bulatovic victime d’une lourde chute en sélection, il donne de ses nouvelles",
+        "title": "Le RC Lens sait pourtant attraper le cadre",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/andrija-bulatovic-victime-dune-lourde-chute-en-selection-il-donne-de-ses-nouvelles-43781074",
-        "time": "2026-11-15T16:01:11Z"
+        "url": "https://onefootball.com/fr/news/le-rc-lens-sait-pourtant-attraper-le-cadre-43784858",
+        "time": "2026-11-16T12:59:37Z"
        }
       ],
       "scorer": {
@@ -9982,23 +9984,23 @@
      "kind": "beau",
      "stadium": "Stade Bollaert-Delelis",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 4,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 5,
+     "temp": 2,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
-     "rainMax": 4.8,
+     "rainMax": 0.6,
      "gust": 29,
-     "pRain": 0.04,
+     "pRain": 0.0,
      "pWind": 0.04,
      "members": 51,
-     "confidence": 58,
+     "confidence": 66,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10015,6 +10017,14 @@
        "pWind": 0.04,
        "temp": 6,
        "conf": 58
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 5,
+       "pRain": 0.0,
+       "pWind": 0.04,
+       "temp": 4,
+       "conf": 66
       }
      ]
     }
@@ -10121,12 +10131,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10187,22 +10197,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OL : une fréquentation en baisse pas neutre pour les finances",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-une-frequentation-en-baisse-pas-neutre-pour-les-finances-43780986",
-        "time": "2026-11-15T15:50:00Z"
+        "title": "OL - Michele Kang et Michael Gerlinger vont prendre la parole",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-michele-kang-et-michael-gerlinger-vont-prendre-la-parole-43785588",
+        "time": "2026-11-16T15:25:00Z"
        },
        {
-        "title": "OL : Dominik Greif a atteint les 50 matchs avec les Lyonnais",
+        "title": "Mercato : Benzia (ex-OL) continue son tour du monde des clubs",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-dominik-greif-a-atteint-les-50-matchs-avec-les-lyonnais-43780638",
-        "time": "2026-11-15T14:10:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-benzia-ex-ol-continue-son-tour-du-monde-des-clubs-43785435",
+        "time": "2026-11-16T15:00:00Z"
        },
        {
-        "title": "Avec Carlos Vicens, l'OL mise aussi sur la \"jeunesse\"",
+        "title": "Club partenaire de l'OL, Villefranche affrontera l'AS Saint-Étienne en Coupe de France",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/avec-carlos-vicens-lol-mise-aussi-sur-la-jeunesse-43780421",
-        "time": "2026-11-15T13:20:00Z"
+        "url": "https://onefootball.com/fr/news/club-partenaire-de-lol-villefranche-affrontera-las-saint-etienne-en-coupe-de-france-43784441",
+        "time": "2026-11-16T11:40:00Z"
        }
       ],
       "scorer": {
@@ -10216,23 +10226,23 @@
      "kind": "beau",
      "stadium": "Stade Pierre-Mauroy",
      "roof": true,
-     "daysBefore": 6,
-     "temp": 3,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 5,
+     "temp": 2,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
-     "rainMax": 4.2,
+     "rainMax": 1.5,
      "gust": 27,
-     "pRain": 0.04,
+     "pRain": 0.02,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 59,
+     "confidence": 66,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10249,6 +10259,14 @@
        "pWind": 0.02,
        "temp": 5,
        "conf": 59
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 5,
+       "pRain": 0.02,
+       "pWind": 0.02,
+       "temp": 3,
+       "conf": 66
       }
      ]
     }
@@ -10355,12 +10373,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10443,23 +10461,23 @@
      "kind": "beau",
      "stadium": "Stade Louis-II",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 14,
+     "daysBefore": 5,
+     "temp": 13,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 8.1,
+     "rainMax": 0.6,
      "gust": 20,
-     "pRain": 0.02,
+     "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 64,
-     "confidenceLabel": "moyenne",
+     "confidence": 70,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10476,6 +10494,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 64
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 5,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 70
       }
      ]
     }
@@ -10582,12 +10608,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10670,8 +10696,8 @@
      "kind": "beau",
      "stadium": "Stade de la Meinau",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 5,
+     "daysBefore": 5,
+     "temp": 4,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
@@ -10680,13 +10706,13 @@
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 60,
+     "confidence": 68,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T13:59+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10703,6 +10729,14 @@
        "pWind": 0.0,
        "temp": 5,
        "conf": 60
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 5,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 3,
+       "conf": 68
       }
      ]
     }
@@ -10809,12 +10843,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10878,23 +10912,23 @@
      "kind": "beau",
      "stadium": "Stade Jean-Bouin",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 13,
-     "desc": "pluie faible",
-     "code": 61,
-     "rain": 0,
-     "rainMax": 3.0,
-     "gust": 33,
-     "pRain": 0.04,
-     "pWind": 0.04,
+     "daysBefore": 6,
+     "temp": 10,
+     "desc": "averses",
+     "code": 80,
+     "rain": 0.3,
+     "rainMax": 5.4,
+     "gust": 37,
+     "pRain": 0.16,
+     "pWind": 0.08,
      "members": 51,
-     "confidence": 55,
+     "confidence": 52,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -10903,6 +10937,14 @@
        "pWind": 0.04,
        "temp": 11,
        "conf": 55
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 6,
+       "pRain": 0.16,
+       "pWind": 0.08,
+       "temp": 10,
+       "conf": 52
       }
      ]
     }
@@ -11009,12 +11051,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11098,23 +11140,23 @@
      "kind": "beau",
      "stadium": "Stade du Moustoir",
      "roof": false,
-     "daysBefore": 7,
+     "daysBefore": 6,
      "temp": 11,
-     "desc": "bruine forte",
-     "code": 55,
-     "rain": 0,
-     "rainMax": 7.2,
-     "gust": 42,
+     "desc": "bruine légère",
+     "code": 51,
+     "rain": 0.3,
+     "rainMax": 3.3,
+     "gust": 48,
      "pRain": 0.06,
-     "pWind": 0.22,
+     "pWind": 0.31,
      "members": 51,
-     "confidence": 51,
+     "confidence": 55,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11123,6 +11165,14 @@
        "pWind": 0.22,
        "temp": 12,
        "conf": 51
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 6,
+       "pRain": 0.06,
+       "pWind": 0.31,
+       "temp": 11,
+       "conf": 55
       }
      ]
     }
@@ -11229,12 +11279,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11257,25 +11307,44 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "OM - L'Olympique de Marseille communique sur la blessure au genou d'Emerson",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-lolympique-de-marseille-communique-sur-la-blessure-au-genou-demerson-43785216",
+        "time": "2026-11-16T14:05:00Z"
+       },
+       {
+        "title": "OM : mauvaise surprise et inquiétude pour Emerson, opéré et absent plusieurs semaines",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-mauvaise-surprise-et-inquietude-pour-emerson-opere-et-absent-plusieurs-semaines-43785080",
+        "time": "2026-11-16T13:42:00Z"
+       },
+       {
+        "title": "OM - L'OM perd Emerson sur blessure pour plusieurs semaines",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-lom-perd-emerson-sur-blessure-pour-plusieurs-semaines-43784904",
+        "time": "2026-11-16T13:08:00Z"
+       }
+      ],
       "other": [
        {
-        "title": "Mercato OM : L’OM peut-il se débarrasser de ce joueur en forme ?",
+        "title": "Mercato OM : L’OM prévoit neuf départs cet hiver",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/mercato-om-lom-peut-il-se-debarrasser-de-ce-joueur-en-forme-43782286",
-        "time": "2026-11-15T21:00:08Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-lom-prevoit-neuf-departs-cet-hiver-43785467",
+        "time": "2026-11-16T15:00:25Z"
        },
        {
-        "title": "OM : \"McCourt est trop loin\", la grosse pique du maire de Marseille au patron de l'OM",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-mccourt-est-trop-loin-la-grosse-pique-du-maire-de-marseille-au-patron-de-lom-43781548",
-        "time": "2026-11-15T17:58:00Z"
-       },
-       {
-        "title": "OM : inconnu il y a quelques mois, il explose à Marseille !",
+        "title": "OM : un gros coup dur et un vrai casse-tête",
         "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/om-inconnu-il-y-a-quelques-mois-il-explose-a-marseille-43780784",
-        "time": "2026-11-15T15:00:04Z"
+        "url": "https://onefootball.com/fr/news/om-un-gros-coup-dur-et-un-vrai-casse-tete-43785416",
+        "time": "2026-11-16T14:53:02Z"
+       },
+       {
+        "title": "OM - L'OM envisage de contracter un emprunt bancaire pour relancer son économie",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-lom-envisage-de-contracter-un-emprunt-bancaire-pour-relancer-son-economie-43785296",
+        "time": "2026-11-16T14:23:00Z"
        }
       ],
       "scorer": {
@@ -11305,23 +11374,23 @@
      "kind": "beau",
      "stadium": "Orange Vélodrome",
      "roof": false,
-     "daysBefore": 7,
+     "daysBefore": 6,
      "temp": 11,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 3.3,
-     "gust": 30,
-     "pRain": 0.1,
-     "pWind": 0.0,
+     "rainMax": 5.7,
+     "gust": 42,
+     "pRain": 0.04,
+     "pWind": 0.12,
      "members": 51,
-     "confidence": 54,
+     "confidence": 59,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-15T21:53+00:00",
+     "updated": "2026-11-16T15:52+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11330,6 +11399,14 @@
        "pWind": 0.0,
        "temp": 13,
        "conf": 54
+      },
+      {
+       "day": "2026-11-16",
+       "daysBefore": 6,
+       "pRain": 0.04,
+       "pWind": 0.12,
+       "temp": 13,
+       "conf": 59
       }
      ]
     }
@@ -11436,12 +11513,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-16T01:52+00:00",
+    "at": "2026-11-16T15:53+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-16T01:52+00:00",
+    "dataAt": "2026-11-16T15:50+00:00",
     "changes": 1,
     "model": {
-     "version": "d772eae",
+     "version": "e770376",
      "mu": 0.214,
      "home": 0.232
     }
