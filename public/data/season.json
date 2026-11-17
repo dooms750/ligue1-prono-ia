@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-17T01:50+00:00",
-  "generatedAt": "2026-11-17T01:50+00:00",
+  "fetchedAt": "2026-11-17T16:02+00:00",
+  "generatedAt": "2026-11-17T16:06+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-17T00:49+00:00",
-    "lastAttempt": "2026-11-17T00:49+00:00",
+    "lastOk": "2026-11-17T16:02+00:00",
+    "lastAttempt": "2026-11-17T16:02+00:00",
     "error": null,
     "failures": 0,
-    "count": 151
+    "count": 152
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-17T01:50+00:00",
-    "lastAttempt": "2026-11-17T01:50+00:00",
+    "lastOk": "2026-11-17T16:04+00:00",
+    "lastAttempt": "2026-11-17T16:04+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-17T00:51+00:00",
-    "lastAttempt": "2026-11-17T00:51+00:00",
+    "lastOk": "2026-11-17T16:04+00:00",
+    "lastAttempt": "2026-11-17T16:04+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-17T00:52+00:00",
-    "lastAttempt": "2026-11-17T00:52+00:00",
+    "lastOk": "2026-11-17T16:05+00:00",
+    "lastAttempt": "2026-11-17T16:05+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-17T00:52+00:00",
-    "lastAttempt": "2026-11-17T00:52+00:00",
+    "lastOk": "2026-11-17T16:06+00:00",
+    "lastAttempt": "2026-11-17T16:06+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-17T00:52+00:00",
+  "generatedAt": "2026-11-17T16:06+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -805,10 +805,10 @@
     "nTest": 320,
     "own": 1.006,
     "other": 1.0,
-    "sd": 0.039,
+    "sd": 0.056,
     "ci": [
-     0.943,
-     1.073
+     0.917,
+     1.103
     ],
     "hypothesis": {
      "own": 0.86,
@@ -830,10 +830,10 @@
     "nTest": 212,
     "own": 1.057,
     "other": 0.947,
-    "sd": 0.045,
+    "sd": 0.0,
     "ci": [
-     0.982,
-     1.138
+     1.057,
+     1.057
     ],
     "hypothesis": {
      "own": 0.95,
@@ -9477,6 +9477,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Le STB Le Havre sur le point de se séparer de l’un de ses joueurs !",
+        "publisher": "Doyens",
+        "url": "https://onefootball.com/fr/news/le-stb-le-havre-sur-le-point-de-se-separer-de-lun-de-ses-joueurs-43788803",
+        "time": "2026-11-17T09:02:09Z"
+       },
+       {
         "title": "Quels sont les nouveaux visages du staff havrais ?",
         "publisher": "Doyens",
         "url": "https://onefootball.com/fr/news/quels-sont-les-nouveaux-visages-du-staff-havrais-43771000",
@@ -9487,12 +9493,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-hac-nomme-le-successeur-de-didier-digard-officiel-43767931",
         "time": "2026-11-12T18:10:00Z"
-       },
-       {
-        "title": "OFFICIEL : Valérien Ismaël est le nouvel entraîneur du Havre",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/officiel-valerien-ismaeal-est-le-nouvel-entraineur-du-havre-43767832",
-        "time": "2026-11-12T17:56:00Z"
        }
       ],
       "scorer": {
@@ -9669,12 +9669,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9728,22 +9728,22 @@
       "absences": [],
       "other": [
        {
-        "title": "PSG : une pétition pourrait tout changer en faveur de l'agrandissement du Parc des Princes",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-une-petition-pourrait-tout-changer-en-faveur-de-lagrandissement-du-parc-des-princes-43786380",
-        "time": "2026-11-16T17:56:00Z"
+        "title": "Gros coup sur le mercato ? Arsenal vise une pépite du PSG",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/gros-coup-sur-le-mercato-arsenal-vise-une-pepite-du-psg-43789338",
+        "time": "2026-11-17T10:37:14Z"
        },
        {
-        "title": "Le PSG aide des étudiants avec la Cantine Solidaire au Parc des Princes",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/le-psg-aide-des-etudiants-avec-la-cantine-solidaire-au-parc-des-princes-43785609",
-        "time": "2026-11-16T15:30:38Z"
-       },
-       {
-        "title": "PSG - Khvicha Kvaratskhelia revient sur son arrivée au PSG et ses premiers pas avec Luis Enrique",
+        "title": "Mercato PSG - Le PSG envisage le recrutement d'un nouveau latéral gauche après le flop Lucas Digne",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/psg-khvicha-kvaratskhelia-revient-sur-son-arrivee-au-psg-et-ses-premiers-pas-avec-luis-enrique-43785049",
-        "time": "2026-11-16T13:34:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-envisage-le-recrutement-dun-nouveau-lateral-gauche-apres-le-flop-lucas-digne-43788877",
+        "time": "2026-11-17T09:13:00Z"
+       },
+       {
+        "title": "PSG - Nasser Al-Khelaïfi soutient la candidature de Philippe Diallo à la présidence de la FIFA",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-soutient-la-candidature-de-philippe-diallo-a-la-presidence-de-la-fifa-43788712",
+        "time": "2026-11-17T08:29:00Z"
        }
       ],
       "scorer": {
@@ -9758,22 +9758,22 @@
      "stadium": "Allianz Riviera",
      "roof": false,
      "daysBefore": 4,
-     "temp": 16,
-     "desc": "couvert",
-     "code": 3,
+     "temp": 15,
+     "desc": "partiellement nuageux",
+     "code": 2,
      "rain": 0,
      "rainMax": 0,
      "gust": 22,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 75,
+     "confidence": 79,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
-      "modèle mondial"
+      "Météo-France"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -9805,7 +9805,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 14,
-       "conf": 75
+       "conf": 79
       }
      ]
     }
@@ -9912,12 +9912,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9943,22 +9943,22 @@
       "absences": [],
       "other": [
        {
-        "title": "RC Lens : un géant italien prêt à casser sa tirelire pour Ganiou !",
+        "title": "Lens : combativité, changement tactique... les trois électrochocs attendus contre Toulouse avec Didier Digard",
         "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/rc-lens-un-geant-italien-pret-a-casser-sa-tirelire-pour-ganiou-43787668",
-        "time": "2026-11-16T22:58:00Z"
+        "url": "https://onefootball.com/fr/news/lens-combativite-changement-tactique-les-trois-electrochocs-attendus-contre-toulouse-avec-didier-digard-43791125",
+        "time": "2026-11-17T15:25:00Z"
        },
        {
-        "title": "Mercato Lens - Ce géant d'Italie ne lâche pas Ismaëlo Ganiou !",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-lens-ce-geant-ditalie-ne-lache-pas-ismaealo-ganiou-43787059",
-        "time": "2026-11-16T19:56:00Z"
-       },
-       {
-        "title": "[L1-J11] On connaît l’arbitre de RC Lens – Toulouse",
+        "title": "L’ancien Lensois John Bostock met fin à sa carrière",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/l1-j11-on-connait-larbitre-de-rc-lens-toulouse-43785699",
-        "time": "2026-11-16T15:44:39Z"
+        "url": "https://onefootball.com/fr/news/lancien-lensois-john-bostock-met-fin-a-sa-carriere-43789054",
+        "time": "2026-11-17T09:50:29Z"
+       },
+       {
+        "title": "Ismaëlo Ganiou dans les petits papiers de l’AC Milan ?",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/ismaealo-ganiou-dans-les-petits-papiers-de-lac-milan-43788336",
+        "time": "2026-11-17T07:03:46Z"
        }
       ],
       "scorer": {
@@ -9971,6 +9971,12 @@
       "absences": [],
       "other": [
        {
+        "title": "EXCLU - Alexis Vossah : « Ce serait marrant d’imaginer un match un jour contre tous ceux qui nous critiquent »",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/exclu-alexis-vossah-ce-serait-marrant-dimaginer-un-match-un-jour-contre-tous-ceux-qui-nous-critiquent-43790277",
+        "time": "2026-11-17T12:55:00Z"
+       },
+       {
         "title": "Toulouse FC : retards, sonnerie de téléphone, urine dans les douches... la grille d'amende surréaliste du club",
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/toulouse-fc-retards-sonnerie-de-telephone-urine-dans-les-douches-la-grille-damende-surrealiste-du-club-43777749",
@@ -9981,12 +9987,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/tfc-jens-berthel-askou-felicite-ses-joueurs-apres-la-victoire-face-au-rc-strasbourg-video-43742292",
         "time": "2026-11-07T17:56:00Z"
-       },
-       {
-        "title": "Ligue 1 : Toulouse triomphe face à Strasbourg, dans le doute avec une cinquième défaite en six journées",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/ligue-1-toulouse-triomphe-face-a-strasbourg-dans-le-doute-avec-une-cinquieme-defaite-en-six-journees-43738490",
-        "time": "2026-11-06T22:03:00Z"
        }
       ],
       "scorer": {
@@ -10001,22 +10001,22 @@
      "stadium": "Stade Bollaert-Delelis",
      "roof": false,
      "daysBefore": 4,
-     "temp": 5,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "temp": 4,
+     "desc": "ciel dégagé",
+     "code": 0,
      "rain": 0,
-     "rainMax": 3.0,
+     "rainMax": 0.6,
      "gust": 29,
-     "pRain": 0.02,
+     "pRain": 0.0,
      "pWind": 0.04,
      "members": 51,
-     "confidence": 67,
-     "confidenceLabel": "moyenne",
+     "confidence": 72,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10045,10 +10045,10 @@
       {
        "day": "2026-11-17",
        "daysBefore": 4,
-       "pRain": 0.02,
+       "pRain": 0.0,
        "pWind": 0.04,
        "temp": 5,
-       "conf": 67
+       "conf": 72
       }
      ]
     }
@@ -10155,12 +10155,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10218,25 +10218,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "OL : énorme coup dur, un cadre absent trois mois !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ol-enorme-coup-dur-un-cadre-absent-trois-mois-43790513",
+        "time": "2026-11-17T13:31:00Z"
+       }
+      ],
       "other": [
        {
-        "title": "OL : matchs peu attrayants et parkings payants, comment le club a perdu 2 millions en 3 matchs",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/ol-matchs-peu-attrayants-et-parkings-payants-comment-le-club-a-perdu-2-millions-en-3-matchs-43786718",
-        "time": "2026-11-16T19:01:00Z"
+        "title": "Préservé par la Slovaquie, Greif a déjà fait son retour à l'OL",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/preserve-par-la-slovaquie-greif-a-deja-fait-son-retour-a-lol-43791069",
+        "time": "2026-11-17T15:10:00Z"
        },
        {
-        "title": "OL Académie - TKYDG : émission spéciale avec Christian Bassila",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-academie-tkydg-emission-speciale-avec-christian-bassila-43786370",
-        "time": "2026-11-16T17:55:00Z"
+        "title": "OL - L'OL donne des nouvelles de Tyler Morton et dévoile sa date de retour",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-lol-donne-des-nouvelles-de-tyler-morton-et-devoile-sa-date-de-retour-43790588",
+        "time": "2026-11-17T13:39:00Z"
        },
        {
-        "title": "OL : Michele Kang et Michael Gerlinger vont prendre la parole mercredi",
+        "title": "Avec Morton, l'OL s'offre un nouveau long coup dur !",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-michele-kang-et-michael-gerlinger-vont-prendre-la-parole-mercredi-43785987",
-        "time": "2026-11-16T16:40:00Z"
+        "url": "https://onefootball.com/fr/news/avec-morton-lol-soffre-un-nouveau-long-coup-dur-43790540",
+        "time": "2026-11-17T13:32:24Z"
        }
       ],
       "scorer": {
@@ -10251,22 +10258,22 @@
      "stadium": "Stade Pierre-Mauroy",
      "roof": true,
      "daysBefore": 4,
-     "temp": 4,
-     "desc": "ciel dégagé",
-     "code": 0,
+     "temp": 3,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 2.7,
+     "rainMax": 0,
      "gust": 27,
-     "pRain": 0.02,
+     "pRain": 0.0,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 67,
-     "confidenceLabel": "moyenne",
+     "confidence": 72,
+     "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10295,10 +10302,10 @@
       {
        "day": "2026-11-17",
        "daysBefore": 4,
-       "pRain": 0.02,
+       "pRain": 0.0,
        "pWind": 0.02,
        "temp": 5,
-       "conf": 67
+       "conf": 72
       }
      ]
     }
@@ -10405,12 +10412,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10436,22 +10443,22 @@
       "absences": [],
       "other": [
        {
-        "title": "AS Monaco - Le programme de la semaine de l'ASM du 16 au 22 novembre",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/as-monaco-le-programme-de-la-semaine-de-lasm-du-16-au-22-novembre-43786226",
-        "time": "2026-11-16T17:25:00Z"
+        "title": "Mercato : Monaco, le pari Zhegrova séduit, mais un obstacle majeur se dresse",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-le-pari-zhegrova-seduit-mais-un-obstacle-majeur-se-dresse-43789154",
+        "time": "2026-11-17T10:00:34Z"
        },
        {
-        "title": "Mercato Monaco - Folarin Balogun revient sur son départ avorté pour Everton en toute fin de mercato estival",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-monaco-folarin-balogun-revient-sur-son-depart-avorte-pour-everton-en-toute-fin-de-mercato-estival-43777308",
-        "time": "2026-11-14T17:40:00Z"
-       },
-       {
-        "title": "Mercato : Coulibaly courtisé en Italie",
+        "title": "Mercato : Balogun vers la Série A ?",
         "publisher": "ASM-SUPPORTERS.FR",
-        "url": "https://onefootball.com/fr/news/mercato-coulibaly-courtise-en-italie-43771034",
-        "time": "2026-11-13T12:00:11Z"
+        "url": "https://onefootball.com/fr/news/mercato-balogun-vers-la-serie-a-43789080",
+        "time": "2026-11-17T09:58:17Z"
+       },
+       {
+        "title": "Dans les coulisses : suivez Matthis Abline dans son quotidien à Monaco",
+        "publisher": "AS Monaco",
+        "url": "https://onefootball.com/fr/video/dans-les-coulisses-suivez-matthis-abline-dans-son-quotidien-a-monaco-3MEJ5ajEP2Od3KHdrAN2fRrtaaR",
+        "time": "2026-11-17T09:35:00Z"
        }
       ],
       "scorer": {
@@ -10494,22 +10501,22 @@
      "stadium": "Stade Louis-II",
      "roof": false,
      "daysBefore": 4,
-     "temp": 14,
+     "temp": 13,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 0.6,
+     "rainMax": 0,
      "gust": 20,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 73,
+     "confidence": 77,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10541,7 +10548,7 @@
        "pRain": 0.0,
        "pWind": 0.0,
        "temp": 11,
-       "conf": 73
+       "conf": 77
       }
      ]
     }
@@ -10648,12 +10655,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10679,22 +10686,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Strasbourg : en cas de départ de Hugo Oliveira, le Racing a ciblé un remplaçant potentiel",
+        "title": "Adjoint de Klopp à Liverpool, inspiré par Mourinho... Trois choses à savoir sur Vitor Matos, le futur entraîneur de Strasbourg",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/adjoint-de-klopp-a-liverpool-inspire-par-mourinho-trois-choses-a-savoir-sur-vitor-matos-le-futur-entraineur-de-strasbourg-43789674",
+        "time": "2026-11-17T11:26:00Z"
+       },
+       {
+        "title": "Strasbourg : le Racing a trouvé son nouvel entraîneur, accord trouvé avec le successeur d'Hugo Oliveira",
         "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/strasbourg-en-cas-de-depart-de-hugo-oliveira-le-racing-a-cible-un-remplacant-potentiel-43787628",
-        "time": "2026-11-16T22:32:00Z"
+        "url": "https://onefootball.com/fr/news/strasbourg-le-racing-a-trouve-son-nouvel-entraineur-accord-trouve-avec-le-successeur-dhugo-oliveira-43789477",
+        "time": "2026-11-17T10:51:00Z"
        },
        {
-        "title": "Strasbourg : Keller futur président de la FFF en cas de départ de Diallo ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/strasbourg-keller-futur-president-de-la-fff-en-cas-de-depart-de-diallo-43786280",
-        "time": "2026-11-16T17:37:00Z"
-       },
-       {
-        "title": "Strasbourg : Oliveira en danger, son successeur déjà connu ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/strasbourg-oliveira-en-danger-son-successeur-deja-connu-43763252",
-        "time": "2026-11-11T21:01:00Z"
+        "title": "Mercato Strasbourg - Le RCSA a trouvé un accord avec le successeur d'Hugo Oliveira !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-strasbourg-le-rcsa-a-trouve-un-accord-avec-le-successeur-dhugo-oliveira-43789341",
+        "time": "2026-11-17T10:36:00Z"
        }
       ],
       "scorer": {
@@ -10707,6 +10714,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Brestois : Les Pirates se font remarquer aux quatre coins du globe",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-se-font-remarquer-aux-quatre-coins-du-globe-43790711",
+        "time": "2026-11-17T14:00:19Z"
+       },
+       {
         "title": "Stade Brestois : les Pirates créent de nouveau la surprise",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-creent-de-nouveau-la-surprise-43767956",
@@ -10717,12 +10730,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
         "time": "2026-11-11T13:30:00Z"
-       },
-       {
-        "title": "Stade Brestois : Noah Edjouma bouscule la hiérarchie à Brest",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-brestois-noah-edjouma-bouscule-la-hierarchie-a-brest-43759944",
-        "time": "2026-11-11T09:30:59Z"
        }
       ],
       "scorer": {
@@ -10737,22 +10744,22 @@
      "stadium": "Stade de la Meinau",
      "roof": false,
      "daysBefore": 4,
-     "temp": 7,
-     "desc": "brouillard",
-     "code": 45,
+     "temp": 5,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
-     "rainMax": 0.9,
+     "rainMax": 0.6,
      "gust": 17,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 70,
+     "confidence": 73,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10783,8 +10790,8 @@
        "daysBefore": 4,
        "pRain": 0.0,
        "pWind": 0.0,
-       "temp": 5,
-       "conf": 70
+       "temp": 4,
+       "conf": 73
       }
      ]
     }
@@ -10891,12 +10898,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10960,23 +10967,23 @@
      "kind": "beau",
      "stadium": "Stade Jean-Bouin",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 10,
-     "desc": "averses",
-     "code": 80,
-     "rain": 0.3,
-     "rainMax": 5.4,
-     "gust": 37,
-     "pRain": 0.16,
-     "pWind": 0.08,
+     "daysBefore": 5,
+     "temp": 6,
+     "desc": "pluie faible",
+     "code": 61,
+     "rain": 0.6,
+     "rainMax": 4.6,
+     "gust": 40,
+     "pRain": 0.29,
+     "pWind": 0.1,
      "members": 51,
-     "confidence": 52,
+     "confidence": 49,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-16T15:52+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -10993,6 +11000,14 @@
        "pWind": 0.08,
        "temp": 10,
        "conf": 52
+      },
+      {
+       "day": "2026-11-17",
+       "daysBefore": 5,
+       "pRain": 0.29,
+       "pWind": 0.1,
+       "temp": 10,
+       "conf": 49
       }
      ]
     }
@@ -11099,12 +11114,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11159,22 +11174,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Stade Rennais, Monaco, AJA : les clubs les plus lésés par l’arbitrage en Ligue 1",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-monaco-aja-les-clubs-les-plus-leses-par-larbitrage-en-ligue-1-43786603",
-        "time": "2026-11-16T18:30:50Z"
+        "title": "Sans lui, Rennes est perdu, les chiffres implacables qui prouvent la Lepaul-dépendance des Bretons !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/sans-lui-rennes-est-perdu-les-chiffres-implacables-qui-prouvent-la-lepaul-dependance-des-bretons-43790817",
+        "time": "2026-11-17T14:33:00Z"
        },
        {
-        "title": "Mercato Rennes - Un indésirable pourrait quitter le Stade Rennais cet hiver, une destination surprise se dessine",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-rennes-un-indesirable-pourrait-quitter-le-stade-rennais-cet-hiver-une-destination-surprise-se-dessine-43779339",
-        "time": "2026-11-15T08:33:00Z"
+        "title": "Stade Rennais : De Tavernost prépare des changements en profondeur",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-de-tavernost-prepare-des-changements-en-profondeur-43790188",
+        "time": "2026-11-17T12:00:56Z"
        },
        {
-        "title": "Stade Rennais : la prochaine grosse vente en Premier League est connue",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-la-prochaine-grosse-vente-en-premier-league-est-connue-43769839",
-        "time": "2026-11-13T07:30:28Z"
+        "title": "Lepaul reprend l’entraînement collectif, un retour espéré contre Lorient",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/lepaul-reprend-lentrainement-collectif-un-retour-espere-contre-lorient-43789343",
+        "time": "2026-11-17T10:40:13Z"
        }
       ],
       "scorer": {
@@ -11193,18 +11208,18 @@
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 3.9,
+     "rainMax": 2.4,
      "gust": 61,
-     "pRain": 0.04,
+     "pRain": 0.08,
      "pWind": 0.63,
      "members": 51,
-     "confidence": 57,
+     "confidence": 58,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11225,10 +11240,10 @@
       {
        "day": "2026-11-17",
        "daysBefore": 5,
-       "pRain": 0.04,
+       "pRain": 0.08,
        "pWind": 0.63,
        "temp": 12,
-       "conf": 57
+       "conf": 58
       }
      ]
     }
@@ -11335,12 +11350,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11363,25 +11378,38 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "OM - La blessure d'Emerson Palmieri pourrait offrir une belle opportunité à une pépite marseillaise",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/om-la-blessure-demerson-palmieri-pourrait-offrir-une-belle-opportunite-a-une-pepite-marseillaise-43788895",
+        "time": "2026-11-17T09:18:00Z"
+       },
+       {
+        "title": "OM : coup dur pour Bruno Génésio, un cadre opéré du genou et absent plusieurs semaines",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/om-coup-dur-pour-bruno-genesio-un-cadre-opere-du-genou-et-absent-plusieurs-semaines-43788085",
+        "time": "2026-11-17T05:19:00Z"
+       }
+      ],
       "other": [
        {
-        "title": "OM – L’OM veut encore baisser les salaires",
+        "title": "Mercato OM : Un concurrent débarque pour Zambo Anguissa",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-lom-veut-encore-baisser-les-salaires-43787495",
-        "time": "2026-11-16T22:00:59Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-un-concurrent-debarque-pour-zambo-anguissa-43790977",
+        "time": "2026-11-17T15:00:25Z"
        },
        {
-        "title": "Mercato OM : L’OM veut protéger son équilibre cet hiver",
+        "title": "Mercato OM : Les finances passent avant le talent",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/mercato-om-lom-veut-proteger-son-equilibre-cet-hiver-43787262",
-        "time": "2026-11-16T21:00:35Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-les-finances-passent-avant-le-talent-43790686",
+        "time": "2026-11-17T14:00:24Z"
        },
        {
-        "title": "OM : réduction de salaire des joueurs, Lorenzi a trouvé des accords !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/om-reduction-de-salaire-des-joueurs-lorenzi-a-trouve-des-accords-43787102",
-        "time": "2026-11-16T20:25:00Z"
+        "title": "OM – Gros plan sur André-Frank Zambo Anguissa",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-gros-plan-sur-andre-frank-zambo-anguissa-43789935",
+        "time": "2026-11-17T12:00:59Z"
        }
       ],
       "scorer": {
@@ -11412,22 +11440,22 @@
      "stadium": "Orange Vélodrome",
      "roof": false,
      "daysBefore": 5,
-     "temp": 12,
+     "temp": 14,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 2.4,
+     "rainMax": 0,
      "gust": 47,
-     "pRain": 0.02,
+     "pRain": 0.0,
      "pWind": 0.14,
      "members": 51,
-     "confidence": 62,
+     "confidence": 67,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-17T00:51+00:00",
+     "updated": "2026-11-17T16:04+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11448,10 +11476,10 @@
       {
        "day": "2026-11-17",
        "daysBefore": 5,
-       "pRain": 0.02,
+       "pRain": 0.0,
        "pWind": 0.14,
-       "temp": 13,
-       "conf": 62
+       "temp": 14,
+       "conf": 67
       }
      ]
     }
@@ -11558,12 +11586,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-17T01:50+00:00",
+    "at": "2026-11-17T16:06+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T01:50+00:00",
+    "dataAt": "2026-11-17T16:02+00:00",
     "changes": 1,
     "model": {
-     "version": "bb03788",
+     "version": "4506de0",
      "mu": 0.214,
      "home": 0.232
     }
