@@ -8888,10 +8888,36 @@
     "home": [],
     "away": []
    }
+  },
+  "2688796": {
+   "id": 2688796,
+   "competition": "Ligue 1",
+   "kickoff": "2027-01-23T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "Toulouse FC",
+   "away": "OGC Nice",
+   "homeLink": "/fr/equipe/toulouse-fc-267",
+   "awayLink": "/fr/equipe/ogc-nice-262",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
   "AJ Auxerre": [
+   {
+    "title": "AJA : Christophe Pélissier prêt à retrouver un banc",
+    "publisher": "Morning Foot",
+    "time": "2026-11-17T19:00:59Z",
+    "url": "https://onefootball.com/fr/news/aja-christophe-pelissier-pret-a-retrouver-un-banc-43792368"
+   },
    {
     "title": "Stade Rennais, Monaco, AJA : les clubs les plus lésés par l’arbitrage en Ligue 1",
     "publisher": "Morning Foot",
@@ -8945,15 +8971,15 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-07T19:53:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-le-paris-fc-bat-auxerre-et-revient-provisoirement-a-hauteur-du-psg-en-tete-43742936"
-   },
-   {
-    "title": "Ligue 1 : Lassine Sinayoko punit son ancien club, le Paris FC s'impose à Auxerre",
-    "publisher": "Foot National",
-    "time": "2026-11-07T19:50:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-lassine-sinayoko-punit-son-ancien-club-le-paris-fc-simpose-a-auxerre-43742903"
    }
   ],
   "AS Monaco": [
+   {
+    "title": "Mercato : Monaco sur le point de signer un ex-lillois ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-17T21:29:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-monaco-sur-le-point-de-signer-un-ex-lillois-43792928"
+   },
    {
     "title": "Mercato : Monaco, le pari Zhegrova séduit, mais un obstacle majeur se dresse",
     "publisher": "Morning Foot",
@@ -9007,12 +9033,6 @@
     "publisher": "Dosis Futbolera",
     "time": "2026-11-13T09:30:57Z",
     "url": "https://onefootball.com/fr/news/40-millions-ou-rien-latletico-se-heurte-a-las-monaco-pour-43770303"
-   },
-   {
-    "title": "Portugal : le successeur de CR7 déjà trouvé ? Un joueur de Ligue 1 se propose !",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-13T08:27:00Z",
-    "url": "https://onefootball.com/fr/news/portugal-le-successeur-de-cr7-deja-trouve-un-joueur-de-ligue-1-se-propose-43770036"
    }
   ],
   "Angers SCO": [
@@ -9197,6 +9217,12 @@
   ],
   "LOSC": [
    {
+    "title": "OL - Un coup dur frappe Carlos Vicens pour sa grande première à la tête de l'OL !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T19:15:00Z",
+    "url": "https://onefootball.com/fr/news/ol-un-coup-dur-frappe-carlos-vicens-pour-sa-grande-premiere-a-la-tete-de-lol-43792478"
+   },
+   {
     "title": "Le président de la FFF Philippe Diallo candidat à la présidence de la FIFA",
     "publisher": "Le Petit Lillois",
     "time": "2026-11-16T19:05:00Z",
@@ -9249,12 +9275,6 @@
     "publisher": "Foot National",
     "time": "2026-11-13T12:31:00Z",
     "url": "https://onefootball.com/fr/news/ligue-1-le-choc-losc-ol-menace-dun-changement-de-programme-43771204"
-   },
-   {
-    "title": "« Défaite pas tout à fait méritée » : Premier revers en Italie pour l’équipe de France de Zinedine Zidane",
-    "publisher": "Le Petit Lillois",
-    "time": "2026-11-13T07:27:00Z",
-    "url": "https://onefootball.com/fr/news/defaite-pas-tout-a-fait-meritee-premier-revers-en-italie-pour-lequipe-de-france-de-zinedine-zidane-43771735"
    }
   ],
   "Le Havre AC": [
@@ -9445,67 +9465,115 @@
   ],
   "Olympique Lyonnais": [
    {
+    "title": "Mercato OL - Énorme rebondissement dans le dossier Loïs Openda, la vérité éclate sur son avenir !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T21:23:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-enorme-rebondissement-dans-le-dossier-lois-openda-la-verite-eclate-sur-son-avenir-43792905"
+   },
+   {
+    "title": "Mercato OL - Loïs Openda répond aux rumeurs sur un potentiel départ !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T20:51:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-lois-openda-repond-aux-rumeurs-sur-un-potentiel-depart-43792812"
+   },
+   {
+    "title": "Tyler Morton de retour sur les terrains au mois de février",
+    "publisher": "FerveurLyonnaise",
+    "time": "2026-11-17T20:40:10Z",
+    "url": "https://onefootball.com/fr/news/tyler-morton-de-retour-sur-les-terrains-au-mois-de-fevrier-43792790"
+   },
+   {
+    "title": "OL - Un coup dur frappe Carlos Vicens pour sa grande première à la tête de l'OL !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T19:15:00Z",
+    "url": "https://onefootball.com/fr/news/ol-un-coup-dur-frappe-carlos-vicens-pour-sa-grande-premiere-a-la-tete-de-lol-43792478"
+   },
+   {
+    "title": "OL : nouveau coup dur pour les Gones, un milieu de terrain sur le flanc pour plusieurs mois",
+    "publisher": "Foot National",
+    "time": "2026-11-17T18:29:00Z",
+    "url": "https://onefootball.com/fr/news/ol-nouveau-coup-dur-pour-les-gones-un-milieu-de-terrain-sur-le-flanc-pour-plusieurs-mois-43792178"
+   },
+   {
+    "title": "OL : 3 idées gratuites pour remplacer Morton, gravement blessé",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-17T18:02:00Z",
+    "url": "https://onefootball.com/fr/news/ol-3-idees-gratuites-pour-remplacer-morton-gravement-blesse-43792021"
+   },
+   {
+    "title": "OL Académie : la réserve a \"l’objectif\" de remonter en National 1",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-17T17:30:00Z",
+    "url": "https://onefootball.com/fr/news/ol-academie-la-reserve-a-lobjectif-de-remonter-en-national-1-43791868"
+   },
+   {
+    "title": "Mercato OL - L'OL ne voudrait plus de Loïs Openda !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T17:15:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-ol-lol-ne-voudrait-plus-de-lois-openda-43791811"
+   },
+   {
+    "title": "Nakamura (OL) a fait l'impasse sur le dernier match du Japon",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-17T15:59:26Z",
+    "url": "https://onefootball.com/fr/news/nakamura-ol-a-fait-limpasse-sur-le-dernier-match-du-japon-43791301"
+   },
+   {
     "title": "Préservé par la Slovaquie, Greif a déjà fait son retour à l'OL",
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-11-17T15:10:00Z",
     "url": "https://onefootball.com/fr/news/preserve-par-la-slovaquie-greif-a-deja-fait-son-retour-a-lol-43791069"
-   },
-   {
-    "title": "Lille - OL toujours prévu samedi... pour le moment",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T14:20:00Z",
-    "url": "https://onefootball.com/fr/news/lille-ol-toujours-prevu-samedi-pour-le-moment-43790766"
-   },
-   {
-    "title": "OL - L'OL donne des nouvelles de Tyler Morton et dévoile sa date de retour",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-17T13:39:00Z",
-    "url": "https://onefootball.com/fr/news/ol-lol-donne-des-nouvelles-de-tyler-morton-et-devoile-sa-date-de-retour-43790588"
-   },
-   {
-    "title": "Avec Morton, l'OL s'offre un nouveau long coup dur !",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T13:32:24Z",
-    "url": "https://onefootball.com/fr/news/avec-morton-lol-soffre-un-nouveau-long-coup-dur-43790540"
-   },
-   {
-    "title": "OL : énorme coup dur, un cadre absent trois mois !",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-17T13:31:00Z",
-    "url": "https://onefootball.com/fr/news/ol-enorme-coup-dur-un-cadre-absent-trois-mois-43790513"
-   },
-   {
-    "title": "OL : Khalis Merah et Noham Kamara ont fait la connaissance de Carlos Vicens",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T12:30:00Z",
-    "url": "https://onefootball.com/fr/news/ol-khalis-merah-et-noham-kamara-ont-fait-la-connaissance-de-carlos-vicens-43790145"
-   },
-   {
-    "title": "OL : qui sont les derniers internationaux en piste ce mardi ?",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T11:40:00Z",
-    "url": "https://onefootball.com/fr/news/ol-qui-sont-les-derniers-internationaux-en-piste-ce-mardi-43789799"
-   },
-   {
-    "title": "Violences à Grenoble : Bassila salue le staff \"exemplaire\" des U17 de l'OL",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T09:15:00Z",
-    "url": "https://onefootball.com/fr/news/violences-a-grenoble-bassila-salue-le-staff-exemplaire-des-u17-de-lol-43788869"
-   },
-   {
-    "title": "Dominik Greif (OL) préservé avec la Slovaquie",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T07:45:00Z",
-    "url": "https://onefootball.com/fr/news/dominik-greif-ol-preserve-avec-la-slovaquie-43788459"
-   },
-   {
-    "title": "Bassila : \"L'OL Académie doit retrouver ce culte de la gagne\"",
-    "publisher": "Olympique-et-Lyonnais",
-    "time": "2026-11-17T07:00:54Z",
-    "url": "https://onefootball.com/fr/news/bassila-lol-academie-doit-retrouver-ce-culte-de-la-gagne-43788341"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Un été 2027 pire que le précédent ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-17T23:00:41Z",
+    "url": "https://onefootball.com/fr/news/om-un-ete-2027-pire-que-le-precedent-43793229"
+   },
+   {
+    "title": "OM – Nouveau scandale avant la DNCG",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-17T22:00:49Z",
+    "url": "https://onefootball.com/fr/news/om-nouveau-scandale-avant-la-dncg-43793072"
+   },
+   {
+    "title": "L1 – Rennes parmi les clubs les plus lésés par l’arbitrage",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-17T21:00:24Z",
+    "url": "https://onefootball.com/fr/news/l1-rennes-parmi-les-clubs-les-plus-leses-par-larbitrage-43792839"
+   },
+   {
+    "title": "OM - Jeffrey de Lange se livre sur sa concurrence avec Geronimo Rulli et fait une révélation importante",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T20:02:00Z",
+    "url": "https://onefootball.com/fr/news/om-jeffrey-de-lange-se-livre-sur-sa-concurrence-avec-geronimo-rulli-et-fait-une-revelation-importante-43792645"
+   },
+   {
+    "title": "Ex-OM : Gignac créé sa propre marque de maillots",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-17T20:00:07Z",
+    "url": "https://onefootball.com/fr/news/ex-om-gignac-cree-sa-propre-marque-de-maillots-43792649"
+   },
+   {
+    "title": "Mercato OM - Gros coup de froid pour le retour d'André-Frank Zambo Anguissa à l'OM !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-17T19:22:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-om-gros-coup-de-froid-pour-le-retour-dandre-frank-zambo-anguissa-a-lom-43792458"
+   },
+   {
+    "title": "Ex-OM : La belle déclaration d’amour de Sampaoli envers l’OM",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-17T19:00:59Z",
+    "url": "https://onefootball.com/fr/news/ex-om-la-belle-declaration-damour-de-sampaoli-envers-lom-43792342"
+   },
+   {
+    "title": "OM : pourquoi Højbjerg est la clé de voûte du dossier Zambo Anguissa ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-17T16:33:00Z",
+    "url": "https://onefootball.com/fr/news/om-pourquoi-hojbjerg-est-la-cle-de-voute-du-dossier-zambo-anguissa-43791499"
+   },
    {
     "title": "Mercato OM : Un concurrent débarque pour Zambo Anguissa",
     "publisher": "CoeurMarseillais",
@@ -9517,116 +9585,68 @@
     "publisher": "CoeurMarseillais",
     "time": "2026-11-17T14:00:24Z",
     "url": "https://onefootball.com/fr/news/mercato-om-les-finances-passent-avant-le-talent-43790686"
-   },
-   {
-    "title": "OM – Gros plan sur André-Frank Zambo Anguissa",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-17T12:00:59Z",
-    "url": "https://onefootball.com/fr/news/om-gros-plan-sur-andre-frank-zambo-anguissa-43789935"
-   },
-   {
-    "title": "OM - Jorge Sampaoli garde Marseille dans son cœur et lâche une déclaration pleine d'émotion",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-17T10:11:00Z",
-    "url": "https://onefootball.com/fr/news/om-jorge-sampaoli-garde-marseille-dans-son-coeur-et-lache-une-declaration-pleine-demotion-43789190"
-   },
-   {
-    "title": "OM - Éric Di Meco hausse le ton après la nouvelle sortie médiatique de Medhi Benatia",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-17T09:56:00Z",
-    "url": "https://onefootball.com/fr/news/om-eric-di-meco-hausse-le-ton-apres-la-nouvelle-sortie-mediatique-de-medhi-benatia-43789076"
-   },
-   {
-    "title": "OM : un ex-Marseillais proche d'un retour, 6 millions d'euros pour un joueur Ligue des Champions",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-17T09:25:00Z",
-    "url": "https://onefootball.com/fr/news/om-un-ex-marseillais-proche-dun-retour-6-millions-deuros-pour-un-joueur-ligue-des-champions-43788920"
-   },
-   {
-    "title": "OM - La blessure d'Emerson Palmieri pourrait offrir une belle opportunité à une pépite marseillaise",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-17T09:18:00Z",
-    "url": "https://onefootball.com/fr/news/om-la-blessure-demerson-palmieri-pourrait-offrir-une-belle-opportunite-a-une-pepite-marseillaise-43788895"
-   },
-   {
-    "title": "Mercato OM - La Juventus accélère pour Pierre-Emile Højbjerg, un retour surprise se dessine à Marseille",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-17T08:22:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-om-la-juventus-accelere-pour-pierre-emile-hojbjerg-un-retour-surprise-se-dessine-a-marseille-43788631"
-   },
-   {
-    "title": "OM : la terrible liste des cadres sur le départ l'été prochain",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-17T06:01:00Z",
-    "url": "https://onefootball.com/fr/news/om-la-terrible-liste-des-cadres-sur-le-depart-lete-prochain-43788157"
-   },
-   {
-    "title": "OM : coup dur pour Bruno Génésio, un cadre opéré du genou et absent plusieurs semaines",
-    "publisher": "Foot National",
-    "time": "2026-11-17T05:19:00Z",
-    "url": "https://onefootball.com/fr/news/om-coup-dur-pour-bruno-genesio-un-cadre-opere-du-genou-et-absent-plusieurs-semaines-43788085"
    }
   ],
   "PSG": [
    {
-    "title": "Officiel – Layvin Kurzawa annonce sa fin de carrière !",
+    "title": "Streaming Equateur/Bolivie : Où et comment voir le match ?",
     "publisher": "Parisfans.fr",
-    "time": "2026-11-17T13:28:29Z",
-    "url": "https://onefootball.com/fr/news/officiel-layvin-kurzawa-annonce-sa-fin-de-carriere-43790470"
+    "time": "2026-11-17T21:30:06Z",
+    "url": "https://onefootball.com/fr/news/streaming-equateurbolivie-ou-et-comment-voir-le-match-43792931"
    },
    {
-    "title": "Gros coup sur le mercato ? Arsenal vise une pépite du PSG",
-    "publisher": "fussball-news.de",
-    "time": "2026-11-17T10:37:14Z",
-    "url": "https://onefootball.com/fr/news/gros-coup-sur-le-mercato-arsenal-vise-une-pepite-du-psg-43789338"
+    "title": "U19 National : Lima conforte sa place sur le podium, les Talents Foot-National de la onzième journée du Groupe A",
+    "publisher": "Foot National",
+    "time": "2026-11-17T20:31:00Z",
+    "url": "https://onefootball.com/fr/news/u19-national-lima-conforte-sa-place-sur-le-podium-les-talents-foot-national-de-la-onzieme-journee-du-groupe-a-43792760"
    },
    {
-    "title": "Nice/PSG – L’arbitre du match désigné, attention aux rouges",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-17T09:51:44Z",
-    "url": "https://onefootball.com/fr/news/nicepsg-larbitre-du-match-designe-attention-aux-rouges-43789029"
-   },
-   {
-    "title": "Mercato PSG - Le PSG envisage le recrutement d'un nouveau latéral gauche après le flop Lucas Digne",
+    "title": "PSG - Nasser Al-Khelaïfi fait une grosse mise au point sur l'affaire de l'armée numérique",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-17T09:13:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-envisage-le-recrutement-dun-nouveau-lateral-gauche-apres-le-flop-lucas-digne-43788877"
+    "time": "2026-11-17T20:27:00Z",
+    "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-fait-une-grosse-mise-au-point-sur-laffaire-de-larmee-numerique-43792738"
    },
    {
-    "title": "PSG - Nasser Al-Khelaïfi soutient la candidature de Philippe Diallo à la présidence de la FIFA",
+    "title": "Niger/Maroc – Les équipes officielles : Hakimi titulaire",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-17T19:56:20Z",
+    "url": "https://onefootball.com/fr/news/nigermaroc-les-equipes-officielles-hakimi-titulaire-43792622"
+   },
+   {
+    "title": "Pays de Galles/Portugal – Les équipes officielles de la Ligue des Nations",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-17T18:57:29Z",
+    "url": "https://onefootball.com/fr/news/pays-de-gallesportugal-les-equipes-officielles-de-la-ligue-des-nations-43792269"
+   },
+   {
+    "title": "Nice/PSG – 4 retours attendus côté parisien !",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-17T16:53:42Z",
+    "url": "https://onefootball.com/fr/news/nicepsg-4-retours-attendus-cote-parisien-43791626"
+   },
+   {
+    "title": "Streaming Ukraine/Géorgie : Où et comment voir le match ?",
+    "publisher": "Parisfans.fr",
+    "time": "2026-11-17T16:50:04Z",
+    "url": "https://onefootball.com/fr/news/streaming-ukrainegeorgie-ou-et-comment-voir-le-match-43791624"
+   },
+   {
+    "title": "PSG - Dro Fernandez sort sur blessure avec l'Espagne U19",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-17T08:29:00Z",
-    "url": "https://onefootball.com/fr/news/psg-nasser-al-khelaifi-soutient-la-candidature-de-philippe-diallo-a-la-presidence-de-la-fifa-43788712"
+    "time": "2026-11-17T16:48:00Z",
+    "url": "https://onefootball.com/fr/news/psg-dro-fernandez-sort-sur-blessure-avec-lespagne-u19-43791645"
    },
    {
-    "title": "PSG : un énorme crack sur le point de signer, merci Luis Enrique",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-17T08:28:00Z",
-    "url": "https://onefootball.com/fr/news/psg-un-enorme-crack-sur-le-point-de-signer-merci-luis-enrique-43788648"
-   },
-   {
-    "title": "Revue de presse : Philippe Diallo candidat à la FIFA face à Infantino",
+    "title": "Streaming Pays de Galles/Portugal : Où et comment voir le match ?",
     "publisher": "Parisfans.fr",
-    "time": "2026-11-17T08:00:29Z",
-    "url": "https://onefootball.com/fr/news/revue-de-presse-philippe-diallo-candidat-a-la-fifa-face-a-infantino-43788539"
+    "time": "2026-11-17T16:45:56Z",
+    "url": "https://onefootball.com/fr/news/streaming-pays-de-gallesportugal-ou-et-comment-voir-le-match-43791590"
    },
    {
-    "title": "Diffusion Niger/Maroc – Heure et chaîne pour voir le match",
+    "title": "Nice/PSG – Les supporters parisiens interdits, de nouvelles places en vente",
     "publisher": "Parisfans.fr",
-    "time": "2026-11-17T05:30:47Z",
-    "url": "https://onefootball.com/fr/news/diffusion-nigermaroc-heure-et-chaine-pour-voir-le-match-43788111"
-   },
-   {
-    "title": "Diffusion Ukraine/Géorgie – Heure et chaîne pour voir le match",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-17T00:00:25Z",
-    "url": "https://onefootball.com/fr/news/diffusion-ukrainegeorgie-heure-et-chaine-pour-voir-le-match-43787810"
-   },
-   {
-    "title": "PSG : une pétition pourrait tout changer en faveur de l'agrandissement du Parc des Princes",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-16T17:56:00Z",
-    "url": "https://onefootball.com/fr/news/psg-une-petition-pourrait-tout-changer-en-faveur-de-lagrandissement-du-parc-des-princes-43786380"
+    "time": "2026-11-17T16:30:14Z",
+    "url": "https://onefootball.com/fr/news/nicepsg-les-supporters-parisiens-interdits-de-nouvelles-places-en-vente-43791470"
    }
   ],
   "Paris FC": [
@@ -9693,6 +9713,12 @@
   ],
   "RC Lens": [
    {
+    "title": "Ilan Jourdren titulaire, Kyllian Antonio sur le banc, la France U19 termine en tête de son groupe",
+    "publisher": "Lensois.com",
+    "time": "2026-11-17T17:00:42Z",
+    "url": "https://onefootball.com/fr/news/ilan-jourdren-titulaire-kyllian-antonio-sur-le-banc-la-france-u19-termine-en-tete-de-son-groupe-43791725"
+   },
+   {
     "title": "Lens : combativité, changement tactique... les trois électrochocs attendus contre Toulouse avec Didier Digard",
     "publisher": "OnzeMondial",
     "time": "2026-11-17T15:25:00Z",
@@ -9745,12 +9771,6 @@
     "publisher": "Foot National",
     "time": "2026-11-17T05:38:00Z",
     "url": "https://onefootball.com/fr/news/lens-robin-risser-serait-dans-le-viseur-dun-cador-du-football-europeen-des-cet-hiver-43788119"
-   },
-   {
-    "title": "RC Lens : un géant italien prêt à casser sa tirelire pour Ganiou !",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-16T22:58:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-un-geant-italien-pret-a-casser-sa-tirelire-pour-ganiou-43787668"
    }
   ],
   "RC Strasbourg": [
@@ -9885,12 +9905,6 @@
     "url": "https://onefootball.com/fr/news/sans-lui-rennes-est-perdu-les-chiffres-implacables-qui-prouvent-la-lepaul-dependance-des-bretons-43790817"
    },
    {
-    "title": "Stade Rennais : De Tavernost prépare des changements en profondeur",
-    "publisher": "Morning Foot",
-    "time": "2026-11-17T12:00:56Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-de-tavernost-prepare-des-changements-en-profondeur-43790188"
-   },
-   {
     "title": "De Tavernost rappelle les ambitions rennaises et écarte un recrutement en janvier",
     "publisher": "Stade Rennais Online",
     "time": "2026-11-17T10:50:12Z",
@@ -9937,6 +9951,12 @@
     "publisher": "Morning Foot",
     "time": "2026-11-13T07:30:28Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-la-prochaine-grosse-vente-en-premier-league-est-connue-43769839"
+   },
+   {
+    "title": "Stade Rennais : Arnaud Nordin déjà poussé vers la sortie",
+    "publisher": "Morning Foot",
+    "time": "2026-11-12T16:00:24Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-arnaud-nordin-deja-pousse-vers-la-sortie-43767258"
    }
   ],
   "Toulouse FC": [
@@ -10003,7 +10023,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-17T16:02+00:00",
+ "fetchedAt": "2026-11-17T23:51+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
