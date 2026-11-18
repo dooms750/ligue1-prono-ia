@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-17T23:51+00:00",
-  "generatedAt": "2026-11-17T23:55+00:00",
+  "fetchedAt": "2026-11-18T00:54+00:00",
+  "generatedAt": "2026-11-18T00:54+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -29,8 +29,8 @@
     "id": "onefootball_quick",
     "label": "OneFootball, collecte rapide en match",
     "status": "ok",
-    "lastOk": "2026-11-17T01:50+00:00",
-    "lastAttempt": "2026-11-17T01:50+00:00",
+    "lastOk": "2026-11-18T00:54+00:00",
+    "lastAttempt": "2026-11-18T00:54+00:00",
     "error": null,
     "failures": 0,
     "count": null
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-17T23:52+00:00",
-    "lastAttempt": "2026-11-17T23:52+00:00",
+    "lastOk": "2026-11-18T00:54+00:00",
+    "lastAttempt": "2026-11-18T00:54+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -9677,12 +9677,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9929,12 +9929,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10180,12 +10180,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10445,12 +10445,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10696,12 +10696,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10947,12 +10947,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11163,12 +11163,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11407,12 +11407,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11638,12 +11638,199 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-17T23:55+00:00",
+    "at": "2026-11-18T00:54+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-17T23:51+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
     "changes": 1,
     "model": {
-     "version": "0d691e5",
+     "version": "ca64a5b",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-27",
+   "time": "20:45",
+   "home": "BRE",
+   "away": "PFC",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688745",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Stade Brestois : Les Pirates se font remarquer aux quatre coins du globe",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-se-font-remarquer-aux-quatre-coins-du-globe-43790711",
+        "time": "2026-11-17T14:00:19Z"
+       },
+       {
+        "title": "Stade Brestois : les Pirates créent de nouveau la surprise",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-creent-de-nouveau-la-surprise-43767956",
+        "time": "2026-11-12T18:15:59Z"
+       },
+       {
+        "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
+        "time": "2026-11-11T13:30:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ludovic Ajorque",
+       "goals": 5
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Paris FC : des tensions avec le PSG et Al-Khelaïfi pour Arnault ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/paris-fc-des-tensions-avec-le-psg-et-al-khelaifi-pour-arnault-43774083",
+        "time": "2026-11-13T22:29:00Z"
+       },
+       {
+        "title": "Mercato Paris FC - Un grand club italien surveille attentivement Patrick Zabi",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-paris-fc-un-grand-club-italien-surveille-attentivement-patrick-zabi-43773212",
+        "time": "2026-11-13T19:14:00Z"
+       },
+       {
+        "title": "Paris FC - Antoine Arnault a pris ses distances avec Nasser Al-Khelaïfi, le président du PSG",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/paris-fc-antoine-arnault-a-pris-ses-distances-avec-nasser-al-khelaifi-le-president-du-psg-43770159",
+        "time": "2026-11-13T08:55:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Lassine Sinayoko",
+       "goals": 9
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.433,
+   "la": 1.262,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.34,
+      0.254,
+      0.407
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.35,
+      0.261,
+      0.389
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.344,
+      0.256,
+      0.4
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.348,
+      0.246,
+      0.406
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.343,
+      0.258,
+      0.399
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.334,
+      0.263,
+      0.403
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.402,
+      0.257,
+      0.341
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.387,
+      0.249,
+      0.363
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.393,
+      0.25,
+      0.357
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.403,
+      0.251,
+      0.346
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.411,
+      0.257,
+      0.332
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.433,
+    "la": 1.262,
+    "p": [
+     0.411,
+     0.257,
+     0.332
+    ],
+    "over25": 0.505,
+    "levers": [],
+    "at": "2026-11-18T00:54+00:00",
+    "firstAt": "2026-11-18T00:54+00:00",
+    "dataAt": "2026-11-18T00:54+00:00",
+    "changes": 1,
+    "model": {
+     "version": "ca64a5b",
      "mu": 0.214,
      "home": 0.232
     }
