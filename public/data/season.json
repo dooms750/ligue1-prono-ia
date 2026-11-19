@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-18T23:24+00:00",
-  "generatedAt": "2026-11-18T23:28+00:00",
+  "fetchedAt": "2026-11-19T00:14+00:00",
+  "generatedAt": "2026-11-19T00:14+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -29,8 +29,8 @@
     "id": "onefootball_quick",
     "label": "OneFootball, collecte rapide en match",
     "status": "ok",
-    "lastOk": "2026-11-18T00:54+00:00",
-    "lastAttempt": "2026-11-18T00:54+00:00",
+    "lastOk": "2026-11-19T00:14+00:00",
+    "lastAttempt": "2026-11-19T00:14+00:00",
     "error": null,
     "failures": 0,
     "count": null
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-18T23:26+00:00",
-    "lastAttempt": "2026-11-18T23:26+00:00",
+    "lastOk": "2026-11-19T00:14+00:00",
+    "lastAttempt": "2026-11-19T00:14+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -9685,12 +9685,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9936,12 +9936,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10195,12 +10195,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10454,12 +10454,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10713,12 +10713,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10972,12 +10972,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11196,12 +11196,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11455,12 +11455,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11700,12 +11700,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11887,12 +11887,950 @@
     ],
     "over25": 0.505,
     "levers": [],
-    "at": "2026-11-18T23:28+00:00",
+    "at": "2026-11-19T00:14+00:00",
     "firstAt": "2026-11-18T00:54+00:00",
-    "dataAt": "2026-11-18T23:24+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
     "changes": 1,
     "model": {
-     "version": "c20b8e2",
+     "version": "a2a5410",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-28",
+   "time": "17:15",
+   "home": "ANG",
+   "away": "LEN",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688743",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [],
+      "scorer": {
+       "name": "Amine El Ouazzani",
+       "goals": 2
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "RC Lens : une lumière au milieu du marasme ambiant",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/rc-lens-une-lumiere-au-milieu-du-marasme-ambiant-43797357",
+        "time": "2026-11-18T18:32:05Z"
+       },
+       {
+        "title": "Jeudi, jour de conf’ au RC Lens",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/jeudi-jour-de-conf-au-rc-lens-43796968",
+        "time": "2026-11-18T17:00:48Z"
+       },
+       {
+        "title": "Florian Thauvin, le marathonien du RC Lens",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/florian-thauvin-le-marathonien-du-rc-lens-43796339",
+        "time": "2026-11-18T15:02:45Z"
+       }
+      ],
+      "scorer": {
+       "name": "Florian Thauvin",
+       "goals": 5
+      },
+      "scorerOut": null
+     }
+    },
+    "cupA": {
+     "competition": "Ligue des champions",
+     "opponent": "RB Leipzig",
+     "day": "mardi",
+     "home": false,
+     "hoursBefore": 92
+    }
+   },
+   "lh": 1.138,
+   "la": 1.798,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.241,
+      0.243,
+      0.517
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.2,
+      0.217,
+      0.583
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.254,
+      0.228,
+      0.518
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.243,
+      0.232,
+      0.526
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.249,
+      0.237,
+      0.514
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.281,
+      0.248,
+      0.47
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.257,
+      0.234,
+      0.509
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.227,
+      0.215,
+      0.558
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.237,
+      0.225,
+      0.538
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.248,
+      0.234,
+      0.518
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.24,
+      0.232,
+      0.528
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.078,
+    "la": 1.9,
+    "p": [
+     0.212,
+     0.222,
+     0.566
+    ],
+    "over25": 0.572,
+    "levers": [
+     "eurA"
+    ],
+    "at": "2026-11-19T00:14+00:00",
+    "firstAt": "2026-11-19T00:14+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
+    "changes": 1,
+    "model": {
+     "version": "a2a5410",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-28",
+   "time": "20:45",
+   "home": "HAV",
+   "away": "STR",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688746",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "\"C'est une chance pour moi de pouvoir entraîner en Ligue 1\" : le nouveau coach du Havre enthousiaste avant son premier match",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/cest-une-chance-pour-moi-de-pouvoir-entrainer-en-ligue-1-le-nouveau-coach-du-havre-enthousiaste-avant-son-premier-match-43798187",
+        "time": "2026-11-18T22:01:00Z"
+       },
+       {
+        "title": "Le STB Le Havre sur le point de se séparer de l’un de ses joueurs !",
+        "publisher": "Doyens",
+        "url": "https://onefootball.com/fr/news/le-stb-le-havre-sur-le-point-de-se-separer-de-lun-de-ses-joueurs-43788803",
+        "time": "2026-11-17T09:02:09Z"
+       },
+       {
+        "title": "Quels sont les nouveaux visages du staff havrais ?",
+        "publisher": "Doyens",
+        "url": "https://onefootball.com/fr/news/quels-sont-les-nouveaux-visages-du-staff-havrais-43771000",
+        "time": "2026-11-13T11:58:45Z"
+       }
+      ],
+      "scorer": {
+       "name": "Josh Maja",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Strasbourg : Hugo Oliveira prend la porte, Vítor Matos débarque en Alsace !",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/strasbourg-hugo-oliveira-prend-la-porte-vitor-matos-debarque-en-alsace-43797773",
+        "time": "2026-11-18T20:18:00Z"
+       },
+       {
+        "title": "Strasbourg : Hugo Oliveira débarqué, le RCSA officialise l'arrivée de son nouvel entraîneur",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/strasbourg-hugo-oliveira-debarque-le-rcsa-officialise-larrivee-de-son-nouvel-entraineur-43797759",
+        "time": "2026-11-18T20:11:00Z"
+       },
+       {
+        "title": "Adjoint de Klopp à Liverpool, inspiré par Mourinho... Trois choses à savoir sur Vitor Matos, le futur entraîneur de Strasbourg",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/adjoint-de-klopp-a-liverpool-inspire-par-mourinho-trois-choses-a-savoir-sur-vitor-matos-le-futur-entraineur-de-strasbourg-43789674",
+        "time": "2026-11-17T11:26:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Gessime Yassine",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.605,
+   "la": 1.758,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.366,
+      0.255,
+      0.379
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.395,
+      0.257,
+      0.347
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.397,
+      0.257,
+      0.346
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.32,
+      0.236,
+      0.443
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.334,
+      0.248,
+      0.418
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.375,
+      0.242,
+      0.383
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.405,
+      0.249,
+      0.346
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.375,
+      0.244,
+      0.381
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.411,
+      0.236,
+      0.353
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.359,
+      0.228,
+      0.412
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.355,
+      0.227,
+      0.418
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.605,
+    "la": 1.758,
+    "p": [
+     0.354,
+     0.227,
+     0.418
+    ],
+    "over25": 0.653,
+    "levers": [],
+    "at": "2026-11-19T00:14+00:00",
+    "firstAt": "2026-11-19T00:14+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
+    "changes": 1,
+    "model": {
+     "version": "a2a5410",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-28",
+   "time": "20:45",
+   "home": "LMA",
+   "away": "LIL",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688747",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Mercato Le Mans FC - Adil Bourabaa va prolonger son contrat au Mans, mais pourrait partir très prochainement",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-le-mans-fc-adil-bourabaa-va-prolonger-son-contrat-au-mans-mais-pourrait-partir-tres-prochainement-43797632",
+        "time": "2026-11-18T19:50:00Z"
+       },
+       {
+        "title": "Le Mans-Monaco : Mamadou Coulibaly présente ses excuses après sa célébration polémique",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/le-mans-monaco-mamadou-coulibaly-presente-ses-excuses-apres-sa-celebration-polemique-43749555",
+        "time": "2026-11-09T06:00:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Louis Mafouta",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Poker pour Nathan Ngoy : les cadors ciblent la star de Lille",
+        "publisher": "fussball-news.de",
+        "url": "https://onefootball.com/fr/news/poker-pour-nathan-ngoy-les-cadors-ciblent-la-star-de-lille-43795658",
+        "time": "2026-11-18T12:57:01Z"
+       },
+       {
+        "title": "France – Turquie : Les compositions probables avec le retour de Kylian Mbappé",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/france-turquie-les-compositions-probables-avec-le-retour-de-kylian-mbappe-43780018",
+        "time": "2026-11-15T08:14:00Z"
+       },
+       {
+        "title": "Quels sont les joueurs du LOSC passés par l’équipe de France depuis 1944 ?",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/quels-sont-les-joueurs-du-losc-passes-par-lequipe-de-france-depuis-1944-43778323",
+        "time": "2026-11-14T18:37:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Olivier Giroud",
+       "goals": 3
+      },
+      "scorerOut": null
+     }
+    },
+    "cupA": {
+     "competition": "Ligue des champions",
+     "opponent": "Bayern Munich",
+     "day": "mercredi",
+     "home": true,
+     "hoursBefore": 72
+    }
+   },
+   "lh": 0.993,
+   "la": 1.381,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.36,
+      0.273,
+      0.367
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.309,
+      0.26,
+      0.431
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.313,
+      0.246,
+      0.441
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.307,
+      0.25,
+      0.443
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.304,
+      0.251,
+      0.445
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.352,
+      0.25,
+      0.398
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.361,
+      0.257,
+      0.382
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.302,
+      0.259,
+      0.438
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.31,
+      0.265,
+      0.424
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.275,
+      0.269,
+      0.456
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.27,
+      0.272,
+      0.458
+     ]
+    }
+   ],
+   "published": {
+    "lh": 0.94,
+    "la": 1.46,
+    "p": [
+     0.243,
+     0.265,
+     0.492
+    ],
+    "over25": 0.43,
+    "levers": [
+     "eurA"
+    ],
+    "at": "2026-11-19T00:14+00:00",
+    "firstAt": "2026-11-19T00:14+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
+    "changes": 1,
+    "model": {
+     "version": "a2a5410",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-28",
+   "time": "20:45",
+   "home": "NIC",
+   "away": "TRO",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688749",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "OGC Nice - Le directeur sportif de l'OGC Nice pousse un coup de gueule retentissant et critique ouvertement Pierre Sage",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ogc-nice-le-directeur-sportif-de-logc-nice-pousse-un-coup-de-gueule-retentissant-et-critique-ouvertement-pierre-sage-43798057",
+        "time": "2026-11-18T21:25:00Z"
+       },
+       {
+        "title": "Équipe de France - Jonathan Clauss croit encore aux Bleus et interpelle Zinédine Zidane",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/equipe-de-france-jonathan-clauss-croit-encore-aux-bleus-et-interpelle-zinedine-zidane-43797865",
+        "time": "2026-11-18T20:45:00Z"
+       },
+       {
+        "title": "« Un symbole ancré dans le patrimoine de la Ville » : Nice répond sèchement à la PETA au sujet de son aigle Mèfi",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/un-symbole-ancre-dans-le-patrimoine-de-la-ville-nice-repond-sechement-a-la-peta-au-sujet-de-son-aigle-mefi-43797428",
+        "time": "2026-11-18T18:59:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Elye Wahi",
+       "goals": 6
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "« Un sujet d’entreprise » : le président de Troyes revient sur le départ de Jocelyn Blanchard",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/un-sujet-dentreprise-le-president-de-troyes-revient-sur-le-depart-de-jocelyn-blanchard-43774786",
+        "time": "2026-11-14T07:19:00Z"
+       },
+       {
+        "title": "Amical : dans un duel entre équipes de Ligue 1, Troyes vient à bout du Paris FC",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/amical-dans-un-duel-entre-equipes-de-ligue-1-troyes-vient-a-bout-du-paris-fc-43773003",
+        "time": "2026-11-13T18:28:00Z"
+       },
+       {
+        "title": "Troyes - Dumont, entre déception et satisfaction : “Il nous a manqué pas grand-chose",
+        "publisher": "Stats Perform",
+        "url": "https://onefootball.com/fr/video/troyes-dumont-entre-deception-et-satisfaction-il-nous-a-manque-pas-grand-chose-3Lon04RLjebglko1qVYBjktgkAK",
+        "time": "2026-11-08T09:09:34Z"
+       }
+      ],
+      "scorer": {
+       "name": "Renaud Ripart",
+       "goals": 1
+      },
+      "scorerOut": null
+     }
+    }
+   },
+   "lh": 1.539,
+   "la": 0.963,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.336,
+      0.262,
+      0.402
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.32,
+      0.3,
+      0.379
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.3,
+      0.287,
+      0.413
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.385,
+      0.261,
+      0.354
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.4,
+      0.27,
+      0.331
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.456,
+      0.262,
+      0.282
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.505,
+      0.258,
+      0.238
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.499,
+      0.257,
+      0.243
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.495,
+      0.267,
+      0.238
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.507,
+      0.252,
+      0.241
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.507,
+      0.256,
+      0.236
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.539,
+    "la": 0.963,
+    "p": [
+     0.507,
+     0.256,
+     0.237
+    ],
+    "over25": 0.457,
+    "levers": [],
+    "at": "2026-11-19T00:14+00:00",
+    "firstAt": "2026-11-19T00:14+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
+    "changes": 1,
+    "model": {
+     "version": "a2a5410",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-28",
+   "time": "20:45",
+   "home": "PSG",
+   "away": "LOR",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688750",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": true,
+    "europeA": false,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Marquinhos, des discussions confirmées pour une prolongation de contrat",
+        "publisher": "Parisfans.fr",
+        "url": "https://onefootball.com/fr/news/marquinhos-des-discussions-confirmees-pour-une-prolongation-de-contrat-43797964",
+        "time": "2026-11-18T21:06:22Z"
+       },
+       {
+        "title": "PSG - Khvicha Kvaratskhelia reçoit un prix prestigieux et livre une très belle déclaration",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/psg-khvicha-kvaratskhelia-recoit-un-prix-prestigieux-et-livre-une-tres-belle-declaration-43797817",
+        "time": "2026-11-18T20:31:00Z"
+       },
+       {
+        "title": "PSG : Marquinhos sur le point de prolonger, l'énorme proposition du club",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-marquinhos-sur-le-point-de-prolonger-lenorme-proposition-du-club-43796878",
+        "time": "2026-11-18T16:50:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ferran Torres",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "FC Lorient - Ce cadre défensif des Merlus va être absent plusieurs semaines après une blessure",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/fc-lorient-ce-cadre-defensif-des-merlus-va-etre-absent-plusieurs-semaines-apres-une-blessure-43767181",
+        "time": "2026-11-12T15:55:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Lorient : la discipline instaurée par Dujeux porte ses fruits",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/lorient-la-discipline-instauree-par-dujeux-porte-ses-fruits-43776542",
+        "time": "2026-11-14T14:36:52Z"
+       },
+       {
+        "title": "Ligue 1 - Le FC Lorient rebondit sur la pelouse du Havre AC et retrouve le top 10 (résumé)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ligue-1-le-fc-lorient-rebondit-sur-la-pelouse-du-havre-ac-et-retrouve-le-top-10-resume-43747793",
+        "time": "2026-11-08T18:18:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Jean-Victor Makengo",
+       "goals": 2
+      },
+      "scorerOut": null
+     }
+    },
+    "cupH": {
+     "competition": "Ligue des champions",
+     "opponent": "AS Rome",
+     "day": "mercredi",
+     "home": true,
+     "hoursBefore": 72
+    }
+   },
+   "lh": 1.965,
+   "la": 0.806,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.584,
+      0.217,
+      0.199
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.57,
+      0.228,
+      0.202
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.584,
+      0.22,
+      0.196
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.542,
+      0.236,
+      0.222
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.568,
+      0.229,
+      0.203
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.614,
+      0.214,
+      0.172
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.618,
+      0.214,
+      0.168
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.592,
+      0.224,
+      0.184
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.615,
+      0.22,
+      0.165
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.679,
+      0.193,
+      0.128
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.646,
+      0.209,
+      0.146
+     ]
+    }
+   ],
+   "published": {
+    "lh": 2.077,
+    "la": 0.763,
+    "p": [
+     0.679,
+     0.195,
+     0.126
+    ],
+    "over25": 0.54,
+    "levers": [
+     "eurH"
+    ],
+    "at": "2026-11-19T00:14+00:00",
+    "firstAt": "2026-11-19T00:14+00:00",
+    "dataAt": "2026-11-19T00:14+00:00",
+    "changes": 1,
+    "model": {
+     "version": "a2a5410",
      "mu": 0.214,
      "home": 0.232
     }
