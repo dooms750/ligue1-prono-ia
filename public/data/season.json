@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-19T15:47+00:00",
-  "generatedAt": "2026-11-19T15:50+00:00",
+  "fetchedAt": "2026-11-19T23:35+00:00",
+  "generatedAt": "2026-11-19T23:39+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-19T15:47+00:00",
-    "lastAttempt": "2026-11-19T15:47+00:00",
+    "lastOk": "2026-11-19T23:35+00:00",
+    "lastAttempt": "2026-11-19T23:35+00:00",
     "error": null,
     "failures": 0,
-    "count": 156
+    "count": 157
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-19T15:49+00:00",
-    "lastAttempt": "2026-11-19T15:49+00:00",
+    "lastOk": "2026-11-19T23:37+00:00",
+    "lastAttempt": "2026-11-19T23:37+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-19T15:49+00:00",
-    "lastAttempt": "2026-11-19T15:49+00:00",
+    "lastOk": "2026-11-19T23:37+00:00",
+    "lastAttempt": "2026-11-19T23:37+00:00",
     "error": null,
     "failures": 0,
     "count": 9
@@ -59,8 +59,8 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-19T15:49+00:00",
-    "lastAttempt": "2026-11-19T15:49+00:00",
+    "lastOk": "2026-11-19T23:38+00:00",
+    "lastAttempt": "2026-11-19T23:38+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -69,8 +69,8 @@
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-19T15:49+00:00",
-    "lastAttempt": "2026-11-19T15:49+00:00",
+    "lastOk": "2026-11-19T23:38+00:00",
+    "lastAttempt": "2026-11-19T23:38+00:00",
     "error": null,
     "failures": 0,
     "count": 1228
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1008,
-  "generatedAt": "2026-11-19T15:50+00:00",
+  "generatedAt": "2026-11-19T23:38+00:00",
   "levers": {
    "buteur": {
     "n": 335,
@@ -9449,6 +9449,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Troyes : un vieux briscard de la Ligue 1 en passe d'être nommé directeur sportif ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/troyes-un-vieux-briscard-de-la-ligue-1-en-passe-detre-nomme-directeur-sportif-43803138",
+        "time": "2026-11-19T18:28:00Z"
+       },
+       {
         "title": "« Un sujet d’entreprise » : le président de Troyes revient sur le départ de Jocelyn Blanchard",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/un-sujet-dentreprise-le-president-de-troyes-revient-sur-le-depart-de-jocelyn-blanchard-43774786",
@@ -9459,12 +9465,6 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/amical-dans-un-duel-entre-equipes-de-ligue-1-troyes-vient-a-bout-du-paris-fc-43773003",
         "time": "2026-11-13T18:28:00Z"
-       },
-       {
-        "title": "Troyes - Dumont, entre déception et satisfaction : “Il nous a manqué pas grand-chose",
-        "publisher": "Stats Perform",
-        "url": "https://onefootball.com/fr/video/troyes-dumont-entre-deception-et-satisfaction-il-nous-a-manque-pas-grand-chose-3Lon04RLjebglko1qVYBjktgkAK",
-        "time": "2026-11-08T09:09:34Z"
        }
       ],
       "scorer": {
@@ -9506,23 +9506,23 @@
      "kind": "beau",
      "stadium": "Stade de l'Aube",
      "roof": false,
-     "daysBefore": 1,
+     "daysBefore": 0,
      "temp": 11,
      "desc": "bruine légère",
      "code": 51,
-     "rain": 0.3,
-     "rainMax": 3.3,
-     "gust": 46,
-     "pRain": 0.1,
-     "pWind": 0.1,
+     "rain": 0,
+     "rainMax": 2.4,
+     "gust": 47,
+     "pRain": 0.08,
+     "pWind": 0.08,
      "members": 51,
-     "confidence": 86,
+     "confidence": 89,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-13",
@@ -9579,6 +9579,14 @@
        "pWind": 0.1,
        "temp": 9,
        "conf": 86
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 0,
+       "pRain": 0.08,
+       "pWind": 0.08,
+       "temp": 9,
+       "conf": 89
       }
      ]
     }
@@ -9685,12 +9693,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9744,22 +9752,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Laurent Batlles : « Je ne suis pas sûr qu’à terme il reste au PSG encore longtemps »",
+        "title": "Mercato - PSG : en plus de Dembélé et Kvaratskhelia, Doué et Safonov sur le point de prolonger ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-psg-en-plus-de-dembele-et-kvaratskhelia-doue-et-safonov-sur-le-point-de-prolonger-43804215",
+        "time": "2026-11-19T22:34:00Z"
+       },
+       {
+        "title": "Daniel Riolo : « Marquinhos, tu lui donnes ce qu’il veut, il fait ce qu’il veut »",
         "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/laurent-batlles-je-ne-suis-pas-sur-qua-terme-il-reste-au-psg-encore-longtemps-43801377",
-        "time": "2026-11-19T14:00:22Z"
+        "url": "https://onefootball.com/fr/news/daniel-riolo-marquinhos-tu-lui-donnes-ce-quil-veut-il-fait-ce-quil-veut-43804117",
+        "time": "2026-11-19T22:00:25Z"
        },
        {
-        "title": "Nouvelle photo du maillot domicile 2027-2028 complet du PSG",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/nouvelle-photo-du-maillot-domicile-2027-2028-complet-du-psg-43801289",
-        "time": "2026-11-19T13:46:41Z"
-       },
-       {
-        "title": "Une offre sur la table : le PSG veut prolonger un joueur clé",
-        "publisher": "fussball-news.de",
-        "url": "https://onefootball.com/fr/news/une-offre-sur-la-table-le-psg-veut-prolonger-un-joueur-cle-43800927",
-        "time": "2026-11-19T12:30:58Z"
+        "title": "Bayern Munich - Harry Kane revient sur la demi-finale épique face au PSG et prévient les Parisiens !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/bayern-munich-harry-kane-revient-sur-la-demi-finale-epique-face-au-psg-et-previent-les-parisiens-43803495",
+        "time": "2026-11-19T19:32:00Z"
        }
       ],
       "scorer": {
@@ -9773,23 +9781,23 @@
      "kind": "beau",
      "stadium": "Allianz Riviera",
      "roof": false,
-     "daysBefore": 2,
-     "temp": 16,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 1,
+     "temp": 15,
+     "desc": "plutôt dégagé",
+     "code": 1,
      "rain": 0,
      "rainMax": 0,
-     "gust": 13,
+     "gust": 14,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 91,
+     "confidence": 94,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -9838,6 +9846,14 @@
        "pWind": 0.0,
        "temp": 14,
        "conf": 91
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 14,
+       "conf": 94
       }
      ]
     }
@@ -9944,12 +9960,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9978,32 +9994,26 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/rc-lens-des-retours-importants-et-plusieurs-absences-pour-les-grands-debuts-de-didier-digard-43801248",
         "time": "2026-11-19T13:38:00Z"
-       },
-       {
-        "title": "Andrija Bulatovic et Odsonne Édouard forfaits, des retours espérés face à Toulouse pour le RC Lens",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/andrija-bulatovic-et-odsonne-edouard-forfaits-des-retours-esperes-face-a-toulouse-pour-le-rc-lens-43801079",
-        "time": "2026-11-19T13:02:42Z"
        }
       ],
       "other": [
        {
-        "title": "« Je veux toujours être premier » : le nouvel entraîneur Didier Digard affiche ses ambitions avec Lens",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/je-veux-toujours-etre-premier-le-nouvel-entraineur-didier-digard-affiche-ses-ambitions-avec-lens-43801988",
-        "time": "2026-11-19T15:26:00Z"
+        "title": "Lens : \"On est les premiers responsables\" ... Cuisance très marqué par les nombreux changements d'entraîneurs",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lens-on-est-les-premiers-responsables-cuisance-tres-marque-par-les-nombreux-changements-dentraineurs-43803772",
+        "time": "2026-11-19T20:29:00Z"
        },
        {
-        "title": "RC Lens - Les grandes ambitions de Didier Digard avec sa nouvelle équipe",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-les-grandes-ambitions-de-didier-digard-avec-sa-nouvelle-equipe-43801613",
-        "time": "2026-11-19T14:35:00Z"
+        "title": "Les images de l’entraînement avec Ismaëlo Ganiou et Abdallah Sima",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/les-images-de-lentrainement-avec-ismaealo-ganiou-et-abdallah-sima-43802649",
+        "time": "2026-11-19T17:00:43Z"
        },
        {
-        "title": "RC Lens - Son arrivée, ses discussions avec les dirigeants, la rumeur Pierre Sage... Les vérités de Didier Digard",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-son-arrivee-ses-discussions-avec-les-dirigeants-la-rumeur-pierre-sage-les-verites-de-didier-digard-43801349",
-        "time": "2026-11-19T13:57:00Z"
+        "title": "Michaël Cuisance : « On a beau changer de coach tous les mois, on est les premiers responsables »",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/michaeal-cuisance-on-a-beau-changer-de-coach-tous-les-mois-on-est-les-premiers-responsables-43802257",
+        "time": "2026-11-19T16:01:57Z"
        }
       ],
       "scorer": {
@@ -10045,23 +10055,23 @@
      "kind": "beau",
      "stadium": "Stade Bollaert-Delelis",
      "roof": false,
-     "daysBefore": 2,
-     "temp": 3,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 1,
+     "temp": 6,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 16,
+     "gust": 15,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 89,
+     "confidence": 90,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10110,6 +10120,14 @@
        "pWind": 0.0,
        "temp": 4,
        "conf": 89
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 4,
+       "conf": 90
       }
      ]
     }
@@ -10216,12 +10234,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10251,18 +10269,6 @@
         "publisher": "fussball-news.de",
         "url": "https://onefootball.com/fr/news/poker-pour-nathan-ngoy-les-cadors-ciblent-la-star-de-lille-43795658",
         "time": "2026-11-18T12:57:01Z"
-       },
-       {
-        "title": "France – Turquie : Les compositions probables avec le retour de Kylian Mbappé",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/france-turquie-les-compositions-probables-avec-le-retour-de-kylian-mbappe-43780018",
-        "time": "2026-11-15T08:14:00Z"
-       },
-       {
-        "title": "Quels sont les joueurs du LOSC passés par l’équipe de France depuis 1944 ?",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/quels-sont-les-joueurs-du-losc-passes-par-lequipe-de-france-depuis-1944-43778323",
-        "time": "2026-11-14T18:37:00Z"
        }
       ],
       "scorer": {
@@ -10274,42 +10280,30 @@
      "A": {
       "absences": [
        {
-        "title": "OL - Carlos Vicens donne des nouvelles de Loïs Openda et annonce un forfait face au LOSC",
+        "title": "OL - Pour son premier match face au LOSC, Carlos Vicens devra vaincre une malédiction qui a touché ses prédécesseurs",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-donne-des-nouvelles-de-lois-openda-et-annonce-un-forfait-face-au-losc-43801138",
-        "time": "2026-11-19T13:15:00Z"
-       },
-       {
-        "title": "Ligue 1 : Clinton Mata forfait pour Lille - OL",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ligue-1-clinton-mata-forfait-pour-lille-ol-43801132",
-        "time": "2026-11-19T13:12:08Z"
-       },
-       {
-        "title": "OL : Tagliafico et Mata absents de l'entraînement de ce jeudi",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-tagliafico-et-mata-absents-de-lentrainement-de-ce-jeudi-43800554",
-        "time": "2026-11-19T11:22:20Z"
+        "url": "https://onefootball.com/fr/news/ol-pour-son-premier-match-face-au-losc-carlos-vicens-devra-vaincre-une-malediction-qui-a-touche-ses-predecesseurs-43803575",
+        "time": "2026-11-19T19:55:00Z"
        }
       ],
       "other": [
        {
-        "title": "OL - Carlos Vicens fait passer un message d'espoir aux jeunes joueurs lyonnais",
+        "title": "Mercato OL - Carlos Vicens a déjà échangé avec Matthieu Louis-Jean au sujet du mercato hivernal",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-fait-passer-un-message-despoir-aux-jeunes-joueurs-lyonnais-43801692",
-        "time": "2026-11-19T14:50:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-ol-carlos-vicens-a-deja-echange-avec-matthieu-louis-jean-au-sujet-du-mercato-hivernal-43804097",
+        "time": "2026-11-19T21:55:00Z"
        },
        {
-        "title": "OL : Vicens et Louis-Jean ont déjà échangé sur le mercato hivernal",
-        "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-vicens-et-louis-jean-ont-deja-echange-sur-le-mercato-hivernal-43801667",
-        "time": "2026-11-19T14:45:00Z"
+        "title": "OL : \"J'ai l'impression que c'est vous qui nous abandonnez\" ... La punchline de Tolisso à Fonseca",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ol-jai-limpression-que-cest-vous-qui-nous-abandonnez-la-punchline-de-tolisso-a-fonseca-43804078",
+        "time": "2026-11-19T21:50:00Z"
        },
        {
-        "title": "OL - \"Il faut polir des détails\", Carlos Vicens ne compte pas faire de révolution immédiate dans le jeu lyonnais",
+        "title": "OL - \"C'est vous qui nous abandonnez\", les mots très forts de Corentin Tolisso à Paulo Fonseca avant son départ de l'OL !",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-il-faut-polir-des-details-carlos-vicens-ne-compte-pas-faire-de-revolution-immediate-dans-le-jeu-lyonnais-43801448",
-        "time": "2026-11-19T14:05:00Z"
+        "url": "https://onefootball.com/fr/news/ol-cest-vous-qui-nous-abandonnez-les-mots-tres-forts-de-corentin-tolisso-a-paulo-fonseca-avant-son-depart-de-lol-43803826",
+        "time": "2026-11-19T20:41:00Z"
        }
       ],
       "scorer": {
@@ -10323,23 +10317,23 @@
      "kind": "beau",
      "stadium": "Stade Pierre-Mauroy",
      "roof": true,
-     "daysBefore": 2,
-     "temp": 3,
-     "desc": "plutôt dégagé",
-     "code": 1,
+     "daysBefore": 1,
+     "temp": 6,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
      "rainMax": 0,
-     "gust": 13,
+     "gust": 12,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 88,
+     "confidence": 90,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10388,6 +10382,14 @@
        "pWind": 0.0,
        "temp": 3,
        "conf": 88
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 3,
+       "conf": 90
       }
      ]
     }
@@ -10494,12 +10496,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10522,25 +10524,32 @@
     "weather": "beau",
     "press": {
      "H": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "AS Monaco - Aleksandr Golovin absent plusieurs semaines et stoppé net dans son élan",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-aleksandr-golovin-absent-plusieurs-semaines-et-stoppe-net-dans-son-elan-43803712",
+        "time": "2026-11-19T20:15:00Z"
+       }
+      ],
       "other": [
+       {
+        "title": "Mercato Monaco - Après Paris Brunner, l'AS Monaco souhaite prolonger deux autres joueurs importants",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-apres-paris-brunner-las-monaco-souhaite-prolonger-deux-autres-joueurs-importants-43803376",
+        "time": "2026-11-19T19:10:00Z"
+       },
+       {
+        "title": "Mercato Monaco - L'ASM a trouvé un accord pour la prolongation de Paris Brunner !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-lasm-a-trouve-un-accord-pour-la-prolongation-de-paris-brunner-43803090",
+        "time": "2026-11-19T18:13:00Z"
+       },
        {
         "title": "ASM-AJA : un rebond enfin?",
         "publisher": "ASM-SUPPORTERS.FR",
         "url": "https://onefootball.com/fr/news/asm-aja-un-rebond-enfin-43799626",
         "time": "2026-11-19T08:50:32Z"
-       },
-       {
-        "title": "Monaco : snobé par l’ASM, lâché par Strasbourg, il explose en Belgique",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/monaco-snobe-par-lasm-lache-par-strasbourg-il-explose-en-belgique-43799577",
-        "time": "2026-11-19T08:30:52Z"
-       },
-       {
-        "title": "LFP : la sanction est connue pour Mamadou Coulibaly après sa célébration, le PSG et l'ASSE punis !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/lfp-la-sanction-est-connue-pour-mamadou-coulibaly-apres-sa-celebration-le-psg-et-lasse-punis-43797938",
-        "time": "2026-11-18T21:02:00Z"
        }
       ],
       "scorer": {
@@ -10553,6 +10562,12 @@
       "absences": [],
       "other": [
        {
+        "title": "AJ Auxerre : Plusieurs incertitudes avant un calendrier effrayant",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aj-auxerre-plusieurs-incertitudes-avant-un-calendrier-effrayant-43802460",
+        "time": "2026-11-19T16:30:47Z"
+       },
+       {
         "title": "\"Tout n’est pas fini” : après son départ d'Auxerre, Christophe Pelissier attend son prochain défi",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/tout-nest-pas-fini-apres-son-depart-dauxerre-christophe-pelissier-attend-son-prochain-defi-43793765",
@@ -10563,12 +10578,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/aja-christophe-pelissier-pret-a-retrouver-un-banc-43792368",
         "time": "2026-11-17T19:00:59Z"
-       },
-       {
-        "title": "AJ Auxerre : Will Still a métamorphosé l’AJA de Pélissier, en mieux ?",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-a-metamorphose-laja-de-pelissier-en-mieux-43774783",
-        "time": "2026-11-14T07:15:51Z"
        }
       ],
       "scorer": {
@@ -10582,23 +10591,23 @@
      "kind": "beau",
      "stadium": "Stade Louis-II",
      "roof": false,
-     "daysBefore": 2,
-     "temp": 12,
+     "daysBefore": 1,
+     "temp": 14,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 0.3,
+     "rainMax": 0,
      "gust": 14,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 89,
+     "confidence": 92,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10647,6 +10656,14 @@
        "pWind": 0.0,
        "temp": 11,
        "conf": 89
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 11,
+       "conf": 92
       }
      ]
     }
@@ -10753,12 +10770,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10812,6 +10829,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Brestois : Les fortes confidences d’Hugo Lloris sur son frère",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-les-fortes-confidences-dhugo-lloris-sur-son-frere-43803066",
+        "time": "2026-11-19T18:00:19Z"
+       },
+       {
         "title": "Stade Brestois : Les Pirates se font remarquer aux quatre coins du globe",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-se-font-remarquer-aux-quatre-coins-du-globe-43790711",
@@ -10822,12 +10845,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-creent-de-nouveau-la-surprise-43767956",
         "time": "2026-11-12T18:15:59Z"
-       },
-       {
-        "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
-        "time": "2026-11-11T13:30:00Z"
        }
       ],
       "scorer": {
@@ -10841,23 +10858,23 @@
      "kind": "beau",
      "stadium": "Stade de la Meinau",
      "roof": false,
-     "daysBefore": 2,
-     "temp": 4,
+     "daysBefore": 1,
+     "temp": 6,
      "desc": "partiellement nuageux",
      "code": 2,
      "rain": 0,
-     "rainMax": 0,
-     "gust": 7,
+     "rainMax": 0.3,
+     "gust": 8,
      "pRain": 0.0,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 88,
+     "confidence": 90,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-14",
@@ -10906,6 +10923,14 @@
        "pWind": 0.0,
        "temp": 5,
        "conf": 88
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 1,
+       "pRain": 0.0,
+       "pWind": 0.0,
+       "temp": 5,
+       "conf": 90
       }
      ]
     }
@@ -11012,12 +11037,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11037,7 +11062,7 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "beau",
+    "weather": "pluie",
     "press": {
      "H": {
       "absences": [],
@@ -11078,26 +11103,26 @@
      }
     },
     "meteo": {
-     "kind": "beau",
+     "kind": "pluie",
      "stadium": "Stade Jean-Bouin",
      "roof": false,
-     "daysBefore": 3,
-     "temp": 7,
-     "desc": "pluie faible",
-     "code": 61,
-     "rain": 1.4,
-     "rainMax": 6.0,
-     "gust": 26,
-     "pRain": 0.49,
-     "pWind": 0.02,
+     "daysBefore": 2,
+     "temp": 8,
+     "desc": "pluie",
+     "code": 63,
+     "rain": 1.7,
+     "rainMax": 6.4,
+     "gust": 24,
+     "pRain": 0.59,
+     "pWind": 0.08,
      "members": 51,
-     "confidence": 47,
+     "confidence": 54,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11130,6 +11155,14 @@
        "pWind": 0.02,
        "temp": 7,
        "conf": 47
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 2,
+       "pRain": 0.59,
+       "pWind": 0.08,
+       "temp": 7,
+       "conf": 54
       }
      ]
     }
@@ -11236,12 +11269,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11309,22 +11342,22 @@
       ],
       "other": [
        {
-        "title": "Sans lui, Rennes est perdu, les chiffres implacables qui prouvent la Lepaul-dépendance des Bretons !",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/sans-lui-rennes-est-perdu-les-chiffres-implacables-qui-prouvent-la-lepaul-dependance-des-bretons-43790817",
-        "time": "2026-11-17T14:33:00Z"
-       },
-       {
-        "title": "Lepaul reprend l’entraînement collectif, un retour espéré contre Lorient",
+        "title": "Contrats : Rennes veut faire signer pro un joueur de 14 ans",
         "publisher": "Stade Rennais Online",
-        "url": "https://onefootball.com/fr/news/lepaul-reprend-lentrainement-collectif-un-retour-espere-contre-lorient-43789343",
-        "time": "2026-11-17T10:40:13Z"
+        "url": "https://onefootball.com/fr/news/contrats-rennes-veut-faire-signer-pro-un-joueur-de-14-ans-43803834",
+        "time": "2026-11-19T20:50:06Z"
        },
        {
-        "title": "Mercato Rennes - Nicolas De Tavernost lance un avertissement à Franck Haise et tranche pour Yannick Cahuzac",
+        "title": "Mercato : le Barça prêt à refaire un coup à la Messi ... au Stade rennais ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-le-barca-pret-a-refaire-un-coup-a-la-messi-au-stade-rennais-43802833",
+        "time": "2026-11-19T17:31:00Z"
+       },
+       {
+        "title": "Mercato Rennes - Le Stade Rennais veut blinder un crack de 14 ans convoité par le FC Barcelone",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-rennes-nicolas-de-tavernost-lance-un-avertissement-a-franck-haise-et-tranche-pour-yannick-cahuzac-43788740",
-        "time": "2026-11-17T08:45:00Z"
+        "url": "https://onefootball.com/fr/news/mercato-rennes-le-stade-rennais-veut-blinder-un-crack-de-14-ans-convoite-par-le-fc-barcelone-43802346",
+        "time": "2026-11-19T16:15:00Z"
        }
       ],
       "scorer": {
@@ -11338,23 +11371,23 @@
      "kind": "beau",
      "stadium": "Stade du Moustoir",
      "roof": false,
-     "daysBefore": 3,
+     "daysBefore": 2,
      "temp": 12,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
-     "rainMax": 1.5,
-     "gust": 52,
-     "pRain": 0.02,
-     "pWind": 0.39,
+     "rainMax": 4.8,
+     "gust": 53,
+     "pRain": 0.06,
+     "pWind": 0.31,
      "members": 51,
-     "confidence": 72,
+     "confidence": 74,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11395,6 +11428,14 @@
        "pWind": 0.39,
        "temp": 12,
        "conf": 72
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 2,
+       "pRain": 0.06,
+       "pWind": 0.31,
+       "temp": 12,
+       "conf": 74
       }
      ]
     }
@@ -11501,12 +11542,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11526,28 +11567,28 @@
     "absA": [],
     "europeH": false,
     "europeA": false,
-    "weather": "beau",
+    "weather": "vent",
     "press": {
      "H": {
       "absences": [],
       "other": [
        {
-        "title": "Mercato OM - L'OM aurait flairé un joli coup à 0 euro avec un attaquant qui brille en Liga",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-om-lom-aurait-flaire-un-joli-coup-a-0-euro-avec-un-attaquant-qui-brille-en-liga-43802086",
-        "time": "2026-11-19T15:40:00Z"
+        "title": "Mercato OM : Zambo Anguissa entre rumeur et réalité",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/mercato-om-zambo-anguissa-entre-rumeur-et-realite-43804256",
+        "time": "2026-11-19T23:00:35Z"
        },
        {
-        "title": "Ex-OM : Deschamps retrouve un poste un peu spécial",
+        "title": "Mercato OM : Un choix à faire pour Pierre-Émile Højbjerg et Igor Paixão cet hiver",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/ex-om-deschamps-retrouve-un-poste-un-peu-special-43801425",
-        "time": "2026-11-19T14:00:12Z"
+        "url": "https://onefootball.com/fr/news/mercato-om-un-choix-a-faire-pour-pierre-emile-hojbjerg-et-igor-paixao-cet-hiver-43803903",
+        "time": "2026-11-19T21:00:13Z"
        },
        {
-        "title": "OM – Riolo réclame un peu de lucidité à l’approche du mercato d’hiver",
+        "title": "OM – Genesio aborde Le Mans plus sereinement",
         "publisher": "CoeurMarseillais",
-        "url": "https://onefootball.com/fr/news/om-riolo-reclame-un-peu-de-lucidite-a-lapproche-du-mercato-dhiver-43800781",
-        "time": "2026-11-19T12:00:46Z"
+        "url": "https://onefootball.com/fr/news/om-genesio-aborde-le-mans-plus-sereinement-43803635",
+        "time": "2026-11-19T20:00:35Z"
        }
       ],
       "scorer": {
@@ -11580,26 +11621,26 @@
      }
     },
     "meteo": {
-     "kind": "beau",
+     "kind": "vent",
      "stadium": "Orange Vélodrome",
      "roof": false,
-     "daysBefore": 3,
+     "daysBefore": 2,
      "temp": 13,
      "desc": "ciel dégagé",
      "code": 0,
      "rain": 0,
      "rainMax": 0.6,
-     "gust": 52,
+     "gust": 60,
      "pRain": 0.0,
-     "pWind": 0.25,
+     "pWind": 0.88,
      "members": 51,
-     "confidence": 77,
+     "confidence": 83,
      "confidenceLabel": "forte",
      "sources": [
       "ECMWF (51 scénarios)",
       "Météo-France"
      ],
-     "updated": "2026-11-19T15:49+00:00",
+     "updated": "2026-11-19T23:37+00:00",
      "history": [
       {
        "day": "2026-11-15",
@@ -11640,6 +11681,14 @@
        "pWind": 0.25,
        "temp": 13,
        "conf": 77
+      },
+      {
+       "day": "2026-11-20",
+       "daysBefore": 2,
+       "pRain": 0.0,
+       "pWind": 0.88,
+       "temp": 14,
+       "conf": 83
       }
      ]
     }
@@ -11746,12 +11795,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11777,6 +11826,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Stade Brestois : Les fortes confidences d’Hugo Lloris sur son frère",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-brestois-les-fortes-confidences-dhugo-lloris-sur-son-frere-43803066",
+        "time": "2026-11-19T18:00:19Z"
+       },
+       {
         "title": "Stade Brestois : Les Pirates se font remarquer aux quatre coins du globe",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-se-font-remarquer-aux-quatre-coins-du-globe-43790711",
@@ -11787,12 +11842,6 @@
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/stade-brestois-les-pirates-creent-de-nouveau-la-surprise-43767956",
         "time": "2026-11-12T18:15:59Z"
-       },
-       {
-        "title": "Ligue 1 - Stade Brestois - OL : la DTA se prononce sur le penalty annulé à Kaïl Boudache",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-ol-la-dta-se-prononce-sur-le-penalty-annule-a-kail-boudache-43761190",
-        "time": "2026-11-11T13:30:00Z"
        }
       ],
       "scorer": {
@@ -11933,12 +11982,12 @@
     ],
     "over25": 0.505,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-18T00:54+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11976,32 +12025,26 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/rc-lens-des-retours-importants-et-plusieurs-absences-pour-les-grands-debuts-de-didier-digard-43801248",
         "time": "2026-11-19T13:38:00Z"
-       },
-       {
-        "title": "Andrija Bulatovic et Odsonne Édouard forfaits, des retours espérés face à Toulouse pour le RC Lens",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/andrija-bulatovic-et-odsonne-edouard-forfaits-des-retours-esperes-face-a-toulouse-pour-le-rc-lens-43801079",
-        "time": "2026-11-19T13:02:42Z"
        }
       ],
       "other": [
        {
-        "title": "« Je veux toujours être premier » : le nouvel entraîneur Didier Digard affiche ses ambitions avec Lens",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/je-veux-toujours-etre-premier-le-nouvel-entraineur-didier-digard-affiche-ses-ambitions-avec-lens-43801988",
-        "time": "2026-11-19T15:26:00Z"
+        "title": "Lens : \"On est les premiers responsables\" ... Cuisance très marqué par les nombreux changements d'entraîneurs",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/lens-on-est-les-premiers-responsables-cuisance-tres-marque-par-les-nombreux-changements-dentraineurs-43803772",
+        "time": "2026-11-19T20:29:00Z"
        },
        {
-        "title": "RC Lens - Les grandes ambitions de Didier Digard avec sa nouvelle équipe",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-les-grandes-ambitions-de-didier-digard-avec-sa-nouvelle-equipe-43801613",
-        "time": "2026-11-19T14:35:00Z"
+        "title": "Les images de l’entraînement avec Ismaëlo Ganiou et Abdallah Sima",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/les-images-de-lentrainement-avec-ismaealo-ganiou-et-abdallah-sima-43802649",
+        "time": "2026-11-19T17:00:43Z"
        },
        {
-        "title": "RC Lens - Son arrivée, ses discussions avec les dirigeants, la rumeur Pierre Sage... Les vérités de Didier Digard",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/rc-lens-son-arrivee-ses-discussions-avec-les-dirigeants-la-rumeur-pierre-sage-les-verites-de-didier-digard-43801349",
-        "time": "2026-11-19T13:57:00Z"
+        "title": "Michaël Cuisance : « On a beau changer de coach tous les mois, on est les premiers responsables »",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/michaeal-cuisance-on-a-beau-changer-de-coach-tous-les-mois-on-est-les-premiers-responsables-43802257",
+        "time": "2026-11-19T16:01:57Z"
        }
       ],
       "scorer": {
@@ -12123,12 +12166,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12310,12 +12353,12 @@
     ],
     "over25": 0.653,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12367,18 +12410,6 @@
         "publisher": "fussball-news.de",
         "url": "https://onefootball.com/fr/news/poker-pour-nathan-ngoy-les-cadors-ciblent-la-star-de-lille-43795658",
         "time": "2026-11-18T12:57:01Z"
-       },
-       {
-        "title": "France – Turquie : Les compositions probables avec le retour de Kylian Mbappé",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/france-turquie-les-compositions-probables-avec-le-retour-de-kylian-mbappe-43780018",
-        "time": "2026-11-15T08:14:00Z"
-       },
-       {
-        "title": "Quels sont les joueurs du LOSC passés par l’équipe de France depuis 1944 ?",
-        "publisher": "Le Petit Lillois",
-        "url": "https://onefootball.com/fr/news/quels-sont-les-joueurs-du-losc-passes-par-lequipe-de-france-depuis-1944-43778323",
-        "time": "2026-11-14T18:37:00Z"
        }
       ],
       "scorer": {
@@ -12500,12 +12531,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12559,6 +12590,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Troyes : un vieux briscard de la Ligue 1 en passe d'être nommé directeur sportif ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/troyes-un-vieux-briscard-de-la-ligue-1-en-passe-detre-nomme-directeur-sportif-43803138",
+        "time": "2026-11-19T18:28:00Z"
+       },
+       {
         "title": "« Un sujet d’entreprise » : le président de Troyes revient sur le départ de Jocelyn Blanchard",
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/un-sujet-dentreprise-le-president-de-troyes-revient-sur-le-depart-de-jocelyn-blanchard-43774786",
@@ -12569,12 +12606,6 @@
         "publisher": "Foot National",
         "url": "https://onefootball.com/fr/news/amical-dans-un-duel-entre-equipes-de-ligue-1-troyes-vient-a-bout-du-paris-fc-43773003",
         "time": "2026-11-13T18:28:00Z"
-       },
-       {
-        "title": "Troyes - Dumont, entre déception et satisfaction : “Il nous a manqué pas grand-chose",
-        "publisher": "Stats Perform",
-        "url": "https://onefootball.com/fr/video/troyes-dumont-entre-deception-et-satisfaction-il-nous-a-manque-pas-grand-chose-3Lon04RLjebglko1qVYBjktgkAK",
-        "time": "2026-11-08T09:09:34Z"
        }
       ],
       "scorer": {
@@ -12687,12 +12718,12 @@
     ],
     "over25": 0.457,
     "levers": [],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12718,22 +12749,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Laurent Batlles : « Je ne suis pas sûr qu’à terme il reste au PSG encore longtemps »",
+        "title": "Mercato - PSG : en plus de Dembélé et Kvaratskhelia, Doué et Safonov sur le point de prolonger ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-psg-en-plus-de-dembele-et-kvaratskhelia-doue-et-safonov-sur-le-point-de-prolonger-43804215",
+        "time": "2026-11-19T22:34:00Z"
+       },
+       {
+        "title": "Daniel Riolo : « Marquinhos, tu lui donnes ce qu’il veut, il fait ce qu’il veut »",
         "publisher": "ConsultantsFoot",
-        "url": "https://onefootball.com/fr/news/laurent-batlles-je-ne-suis-pas-sur-qua-terme-il-reste-au-psg-encore-longtemps-43801377",
-        "time": "2026-11-19T14:00:22Z"
+        "url": "https://onefootball.com/fr/news/daniel-riolo-marquinhos-tu-lui-donnes-ce-quil-veut-il-fait-ce-quil-veut-43804117",
+        "time": "2026-11-19T22:00:25Z"
        },
        {
-        "title": "Nouvelle photo du maillot domicile 2027-2028 complet du PSG",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/nouvelle-photo-du-maillot-domicile-2027-2028-complet-du-psg-43801289",
-        "time": "2026-11-19T13:46:41Z"
-       },
-       {
-        "title": "Une offre sur la table : le PSG veut prolonger un joueur clé",
-        "publisher": "fussball-news.de",
-        "url": "https://onefootball.com/fr/news/une-offre-sur-la-table-le-psg-veut-prolonger-un-joueur-cle-43800927",
-        "time": "2026-11-19T12:30:58Z"
+        "title": "Bayern Munich - Harry Kane revient sur la demi-finale épique face au PSG et prévient les Parisiens !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/bayern-munich-harry-kane-revient-sur-la-demi-finale-epique-face-au-psg-et-previent-les-parisiens-43803495",
+        "time": "2026-11-19T19:32:00Z"
        }
       ],
       "scorer": {
@@ -12884,12 +12915,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-11-19T15:50+00:00",
+    "at": "2026-11-19T23:39+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T15:47+00:00",
+    "dataAt": "2026-11-19T23:35+00:00",
     "changes": 1,
     "model": {
-     "version": "37eb92a",
+     "version": "68ee303",
      "mu": 0.214,
      "home": 0.232
     }
