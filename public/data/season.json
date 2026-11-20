@@ -6,8 +6,8 @@
   "lastResult": "2026-11-08",
   "lastMatchday": 10,
   "nextMatchday": 11,
-  "fetchedAt": "2026-11-19T23:35+00:00",
-  "generatedAt": "2026-11-19T23:39+00:00",
+  "fetchedAt": "2026-11-20T00:33+00:00",
+  "generatedAt": "2026-11-20T00:33+00:00",
   "checks": {
    "compared": 90,
    "agree": 90,
@@ -29,8 +29,8 @@
     "id": "onefootball_quick",
     "label": "OneFootball, collecte rapide en match",
     "status": "ok",
-    "lastOk": "2026-11-19T00:14+00:00",
-    "lastAttempt": "2026-11-19T00:14+00:00",
+    "lastOk": "2026-11-20T00:33+00:00",
+    "lastAttempt": "2026-11-20T00:33+00:00",
     "error": null,
     "failures": 0,
     "count": null
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-19T23:37+00:00",
-    "lastAttempt": "2026-11-19T23:37+00:00",
+    "lastOk": "2026-11-20T00:33+00:00",
+    "lastAttempt": "2026-11-20T00:33+00:00",
     "error": null,
     "failures": 0,
     "count": 90
@@ -9693,12 +9693,12 @@
     ],
     "over25": 0.466,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -9960,12 +9960,12 @@
     ],
     "over25": 0.589,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10234,12 +10234,12 @@
     ],
     "over25": 0.583,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10496,12 +10496,12 @@
     ],
     "over25": 0.387,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -10770,12 +10770,12 @@
     ],
     "over25": 0.579,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11037,12 +11037,12 @@
     ],
     "over25": 0.646,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11269,12 +11269,12 @@
     ],
     "over25": 0.533,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11542,12 +11542,12 @@
     ],
     "over25": 0.564,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11795,12 +11795,12 @@
     ],
     "over25": 0.634,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-09T00:42+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -11982,12 +11982,12 @@
     ],
     "over25": 0.505,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-18T00:54+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12166,12 +12166,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12353,12 +12353,12 @@
     ],
     "over25": 0.653,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12531,12 +12531,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12718,12 +12718,12 @@
     ],
     "over25": 0.457,
     "levers": [],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
@@ -12915,12 +12915,635 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-11-19T23:39+00:00",
+    "at": "2026-11-20T00:33+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-19T23:35+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
     "changes": 1,
     "model": {
-     "version": "68ee303",
+     "version": "e773f90",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-29",
+   "time": "15:00",
+   "home": "AUX",
+   "away": "OM",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688744",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "AJ Auxerre : Plusieurs incertitudes avant un calendrier effrayant",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aj-auxerre-plusieurs-incertitudes-avant-un-calendrier-effrayant-43802460",
+        "time": "2026-11-19T16:30:47Z"
+       },
+       {
+        "title": "\"Tout n’est pas fini” : après son départ d'Auxerre, Christophe Pelissier attend son prochain défi",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/tout-nest-pas-fini-apres-son-depart-dauxerre-christophe-pelissier-attend-son-prochain-defi-43793765",
+        "time": "2026-11-18T06:21:00Z"
+       },
+       {
+        "title": "AJA : Christophe Pélissier prêt à retrouver un banc",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/aja-christophe-pelissier-pret-a-retrouver-un-banc-43792368",
+        "time": "2026-11-17T19:00:59Z"
+       }
+      ],
+      "scorer": {
+       "name": "Cameron Archer",
+       "goals": 6
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [],
+      "other": [
+       {
+        "title": "Mercato OM : Zambo Anguissa entre rumeur et réalité",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/mercato-om-zambo-anguissa-entre-rumeur-et-realite-43804256",
+        "time": "2026-11-19T23:00:35Z"
+       },
+       {
+        "title": "Mercato OM : Un choix à faire pour Pierre-Émile Højbjerg et Igor Paixão cet hiver",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/mercato-om-un-choix-a-faire-pour-pierre-emile-hojbjerg-et-igor-paixao-cet-hiver-43803903",
+        "time": "2026-11-19T21:00:13Z"
+       },
+       {
+        "title": "OM – Genesio aborde Le Mans plus sereinement",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-genesio-aborde-le-mans-plus-sereinement-43803635",
+        "time": "2026-11-19T20:00:35Z"
+       }
+      ],
+      "scorer": {
+       "name": "Amine Gouiri",
+       "goals": 7
+      },
+      "scorerOut": null
+     }
+    },
+    "cupA": {
+     "competition": "Ligue Europa",
+     "opponent": "Levski Sofia",
+     "day": "jeudi",
+     "home": true,
+     "hoursBefore": 68
+    }
+   },
+   "lh": 1.464,
+   "la": 1.763,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.41,
+      0.258,
+      0.333
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.337,
+      0.244,
+      0.42
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.336,
+      0.243,
+      0.421
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.322,
+      0.232,
+      0.446
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.345,
+      0.238,
+      0.417
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.399,
+      0.24,
+      0.361
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.375,
+      0.242,
+      0.383
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.357,
+      0.231,
+      0.412
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.373,
+      0.226,
+      0.401
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.346,
+      0.227,
+      0.427
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.321,
+      0.231,
+      0.448
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.386,
+    "la": 1.863,
+    "p": [
+     0.287,
+     0.226,
+     0.488
+    ],
+    "over25": 0.63,
+    "levers": [
+     "eurA"
+    ],
+    "at": "2026-11-20T00:33+00:00",
+    "firstAt": "2026-11-20T00:33+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
+    "changes": 1,
+    "model": {
+     "version": "e773f90",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-29",
+   "time": "17:15",
+   "home": "TOU",
+   "away": "REN",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688751",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": false,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [],
+      "other": [
+       {
+        "title": "EXCLU - Alexis Vossah : « Ce serait marrant d’imaginer un match un jour contre tous ceux qui nous critiquent »",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/exclu-alexis-vossah-ce-serait-marrant-dimaginer-un-match-un-jour-contre-tous-ceux-qui-nous-critiquent-43790277",
+        "time": "2026-11-17T12:55:00Z"
+       },
+       {
+        "title": "Toulouse FC : retards, sonnerie de téléphone, urine dans les douches... la grille d'amende surréaliste du club",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/toulouse-fc-retards-sonnerie-de-telephone-urine-dans-les-douches-la-grille-damende-surrealiste-du-club-43777749",
+        "time": "2026-11-14T19:29:00Z"
+       },
+       {
+        "title": "TFC - Jens Berthel Askou félicite ses joueurs après la victoire face au RC Strasbourg (vidéo)",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/tfc-jens-berthel-askou-felicite-ses-joueurs-apres-la-victoire-face-au-rc-strasbourg-video-43742292",
+        "time": "2026-11-07T17:56:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Casper Tengstedt",
+       "goals": 5
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "Stade Rennais : Ils reviennent en forme, il revient blessé",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-ils-reviennent-en-forme-il-revient-blesse-43800041",
+        "time": "2026-11-19T10:07:05Z"
+       },
+       {
+        "title": "Stade Rennais : opération dégraissage, trois joueurs poussés vers la sortie",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/stade-rennais-operation-degraissage-trois-joueurs-pousses-vers-la-sortie-43794328",
+        "time": "2026-11-18T08:46:48Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Contrats : Rennes veut faire signer pro un joueur de 14 ans",
+        "publisher": "Stade Rennais Online",
+        "url": "https://onefootball.com/fr/news/contrats-rennes-veut-faire-signer-pro-un-joueur-de-14-ans-43803834",
+        "time": "2026-11-19T20:50:06Z"
+       },
+       {
+        "title": "Mercato : le Barça prêt à refaire un coup à la Messi ... au Stade rennais ?",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/mercato-le-barca-pret-a-refaire-un-coup-a-la-messi-au-stade-rennais-43802833",
+        "time": "2026-11-19T17:31:00Z"
+       },
+       {
+        "title": "Mercato Rennes - Le Stade Rennais veut blinder un crack de 14 ans convoité par le FC Barcelone",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-rennes-le-stade-rennais-veut-blinder-un-crack-de-14-ans-convoite-par-le-fc-barcelone-43802346",
+        "time": "2026-11-19T16:15:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Estéban Lepaul",
+       "goals": 7
+      },
+      "scorerOut": null
+     }
+    },
+    "cupA": {
+     "competition": "Ligue Europa",
+     "opponent": "NEC Nimègue",
+     "day": "jeudi",
+     "home": false,
+     "hoursBefore": 68
+    }
+   },
+   "lh": 1.97,
+   "la": 1.508,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.392,
+      0.241,
+      0.367
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.362,
+      0.245,
+      0.393
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.361,
+      0.238,
+      0.401
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.342,
+      0.238,
+      0.421
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.349,
+      0.238,
+      0.412
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.416,
+      0.229,
+      0.356
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.427,
+      0.224,
+      0.35
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.46,
+      0.216,
+      0.325
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.427,
+      0.229,
+      0.344
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.461,
+      0.221,
+      0.318
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.485,
+      0.218,
+      0.297
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.866,
+    "la": 1.594,
+    "p": [
+     0.445,
+     0.222,
+     0.333
+    ],
+    "over25": 0.672,
+    "levers": [
+     "eurA"
+    ],
+    "at": "2026-11-20T00:33+00:00",
+    "firstAt": "2026-11-20T00:33+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
+    "changes": 1,
+    "model": {
+     "version": "e773f90",
+     "mu": 0.214,
+     "home": 0.232
+    }
+   }
+  },
+  {
+   "md": 12,
+   "date": "2026-11-29",
+   "time": "20:45",
+   "home": "OL",
+   "away": "MON",
+   "odds": null,
+   "src": "https://onefootball.com/fr/match/2688748",
+   "ctx": {
+    "known": true,
+    "absH": [],
+    "absA": [],
+    "europeH": true,
+    "europeA": true,
+    "weather": "inconnu",
+    "press": {
+     "H": {
+      "absences": [
+       {
+        "title": "OL - Pour son premier match face au LOSC, Carlos Vicens devra vaincre une malédiction qui a touché ses prédécesseurs",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-pour-son-premier-match-face-au-losc-carlos-vicens-devra-vaincre-une-malediction-qui-a-touche-ses-predecesseurs-43803575",
+        "time": "2026-11-19T19:55:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Mercato OL - Carlos Vicens a déjà échangé avec Matthieu Louis-Jean au sujet du mercato hivernal",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-ol-carlos-vicens-a-deja-echange-avec-matthieu-louis-jean-au-sujet-du-mercato-hivernal-43804097",
+        "time": "2026-11-19T21:55:00Z"
+       },
+       {
+        "title": "OL : \"J'ai l'impression que c'est vous qui nous abandonnez\" ... La punchline de Tolisso à Fonseca",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/ol-jai-limpression-que-cest-vous-qui-nous-abandonnez-la-punchline-de-tolisso-a-fonseca-43804078",
+        "time": "2026-11-19T21:50:00Z"
+       },
+       {
+        "title": "OL - \"C'est vous qui nous abandonnez\", les mots très forts de Corentin Tolisso à Paulo Fonseca avant son départ de l'OL !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ol-cest-vous-qui-nous-abandonnez-les-mots-tres-forts-de-corentin-tolisso-a-paulo-fonseca-avant-son-depart-de-lol-43803826",
+        "time": "2026-11-19T20:41:00Z"
+       }
+      ],
+      "scorer": {
+       "name": "Ernest Nuamah",
+       "goals": 4
+      },
+      "scorerOut": null
+     },
+     "A": {
+      "absences": [
+       {
+        "title": "AS Monaco - Aleksandr Golovin absent plusieurs semaines et stoppé net dans son élan",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/as-monaco-aleksandr-golovin-absent-plusieurs-semaines-et-stoppe-net-dans-son-elan-43803712",
+        "time": "2026-11-19T20:15:00Z"
+       }
+      ],
+      "other": [
+       {
+        "title": "Mercato Monaco - Après Paris Brunner, l'AS Monaco souhaite prolonger deux autres joueurs importants",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-apres-paris-brunner-las-monaco-souhaite-prolonger-deux-autres-joueurs-importants-43803376",
+        "time": "2026-11-19T19:10:00Z"
+       },
+       {
+        "title": "Mercato Monaco - L'ASM a trouvé un accord pour la prolongation de Paris Brunner !",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-monaco-lasm-a-trouve-un-accord-pour-la-prolongation-de-paris-brunner-43803090",
+        "time": "2026-11-19T18:13:00Z"
+       },
+       {
+        "title": "ASM-AJA : un rebond enfin?",
+        "publisher": "ASM-SUPPORTERS.FR",
+        "url": "https://onefootball.com/fr/news/asm-aja-un-rebond-enfin-43799626",
+        "time": "2026-11-19T08:50:32Z"
+       }
+      ],
+      "scorer": {
+       "name": "Paris Brunner",
+       "goals": 4
+      },
+      "scorerOut": null
+     }
+    },
+    "cupH": {
+     "competition": "Ligue Europa",
+     "opponent": "Lillestrom SK",
+     "day": "jeudi",
+     "home": true,
+     "hoursBefore": 72
+    },
+    "cupA": {
+     "competition": "Ligue Conférence",
+     "opponent": "Heart of Midlothian FC",
+     "day": "jeudi",
+     "home": false,
+     "hoursBefore": 74
+    }
+   },
+   "lh": 1.498,
+   "la": 1.136,
+   "trend": [
+    {
+     "md": 0,
+     "p": [
+      0.453,
+      0.229,
+      0.318
+     ]
+    },
+    {
+     "md": 1,
+     "p": [
+      0.455,
+      0.237,
+      0.308
+     ]
+    },
+    {
+     "md": 2,
+     "p": [
+      0.417,
+      0.246,
+      0.337
+     ]
+    },
+    {
+     "md": 3,
+     "p": [
+      0.417,
+      0.244,
+      0.339
+     ]
+    },
+    {
+     "md": 4,
+     "p": [
+      0.41,
+      0.258,
+      0.332
+     ]
+    },
+    {
+     "md": 5,
+     "p": [
+      0.46,
+      0.251,
+      0.288
+     ]
+    },
+    {
+     "md": 6,
+     "p": [
+      0.475,
+      0.247,
+      0.278
+     ]
+    },
+    {
+     "md": 7,
+     "p": [
+      0.454,
+      0.254,
+      0.292
+     ]
+    },
+    {
+     "md": 8,
+     "p": [
+      0.44,
+      0.256,
+      0.305
+     ]
+    },
+    {
+     "md": 9,
+     "p": [
+      0.479,
+      0.251,
+      0.27
+     ]
+    },
+    {
+     "md": 10,
+     "p": [
+      0.456,
+      0.257,
+      0.288
+     ]
+    }
+   ],
+   "published": {
+    "lh": 1.499,
+    "la": 1.137,
+    "p": [
+     0.456,
+     0.257,
+     0.288
+    ],
+    "over25": 0.491,
+    "levers": [
+     "eurH",
+     "eurA"
+    ],
+    "at": "2026-11-20T00:33+00:00",
+    "firstAt": "2026-11-20T00:33+00:00",
+    "dataAt": "2026-11-20T00:33+00:00",
+    "changes": 1,
+    "model": {
+     "version": "e773f90",
      "mu": 0.214,
      "home": 0.232
     }
