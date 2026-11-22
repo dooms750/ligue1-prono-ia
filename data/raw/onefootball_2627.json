@@ -7781,17 +7781,63 @@
    "id": 2688736,
    "competition": "Ligue 1",
    "kickoff": "2026-11-22T16:15:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Fin du match",
+   "period": 11,
    "home": "FC Lorient",
    "away": "Stade Rennais",
    "homeLink": "/fr/equipe/fc-lorient-258",
    "awayLink": "/fr/equipe/stade-rennais-264",
-   "hg": null,
-   "ag": null,
-   "goals": [],
-   "reds": [],
-   "stats": {},
+   "hg": 1,
+   "ag": 1,
+   "goals": [
+    {
+     "side": "away",
+     "min": 27,
+     "half": 1,
+     "kind": "but",
+     "player": "Boulaye Dia"
+    },
+    {
+     "side": "home",
+     "min": 45,
+     "half": 1,
+     "kind": "but",
+     "player": "Montassar Talbi"
+    },
+    {
+     "side": "home",
+     "min": 52,
+     "half": 2,
+     "kind": "but",
+     "player": "Noah Cadiou"
+    }
+   ],
+   "reds": [
+    {
+     "side": "away",
+     "min": 92,
+     "half": 2,
+     "player": "Adrien Thomasson"
+    }
+   ],
+   "stats": {
+    "Possession": [
+     51,
+     49
+    ],
+    "Tirs": [
+     12,
+     13
+    ],
+    "Tirs cadrés": [
+     3,
+     3
+    ],
+    "Duels gagnés": [
+     54,
+     47
+    ]
+   },
    "starters": {
     "home": [
      "Oluwatosin Aiyegun",
@@ -7801,22 +7847,22 @@
      "Arthur Avom",
      "Noah Cadiou",
      "Dembo Sylla",
-     "Nathaniel Adjei",
-     "Montassar Talbi",
      "Nosa Obaretin",
+     "Montassar Talbi",
+     "Nathaniel Adjei",
      "Yvon Mvogo"
     ],
     "away": [
-     "Eliezer Mayenda",
      "Boulaye Dia",
-     "Aboubakar Nagida",
+     "Mousa Al-Taamari",
      "Mahdi Camara",
      "Valentin Rongier",
-     "Adrien Thomasson",
-     "Bryan Reynolds",
+     "Sebastian Szymański",
+     "Aboubakar Nagida",
      "Gonçalo Oliveira",
      "Charlie Cresswell",
-     "Abdelhamid Aït Boudlal",
+     "Anthony Rouault",
+     "Bryan Reynolds",
      "Brice Samba"
     ]
    }
@@ -8042,32 +8088,61 @@
    "id": 2688740,
    "competition": "Ligue 1",
    "kickoff": "2026-11-22T14:00:00Z",
-   "status": "37'",
-   "period": 4,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Paris FC",
    "away": "Angers SCO",
    "homeLink": "/fr/equipe/paris-fc-5170",
    "awayLink": "/fr/equipe/angers-sco-696",
-   "hg": 0,
+   "hg": 4,
    "ag": 0,
-   "goals": [],
+   "goals": [
+    {
+     "side": "home",
+     "min": 47,
+     "half": 2,
+     "kind": "but",
+     "player": "Patrick Zabi"
+    },
+    {
+     "side": "home",
+     "min": 55,
+     "half": 2,
+     "kind": "but",
+     "player": "Luca Koleosho"
+    },
+    {
+     "side": "home",
+     "min": 65,
+     "half": 2,
+     "kind": "but",
+     "player": "Maxime Lopez"
+    },
+    {
+     "side": "home",
+     "min": 72,
+     "half": 2,
+     "kind": "but",
+     "player": "Diego Coppola"
+    }
+   ],
    "reds": [],
    "stats": {
     "Possession": [
-     62,
-     38
+     65,
+     35
     ],
     "Tirs": [
-     6,
-     3
+     18,
+     9
     ],
     "Tirs cadrés": [
-     2,
-     0
+     9,
+     1
     ],
     "Duels gagnés": [
-     36,
-     63
+     46,
+     54
     ]
    },
    "starters": {
@@ -10652,7 +10727,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-22T14:37+00:00",
+ "fetchedAt": "2026-11-22T18:23+00:00",
  "schedule": {
   "AJ Auxerre": [
    {

@@ -10,13 +10,13 @@
   "finished": 96
  },
  "espn": {
-  "lastAttempt": "2026-11-22T14:38+00:00",
+  "lastAttempt": "2026-11-22T18:23+00:00",
   "ok": true,
-  "lastOk": "2026-11-22T14:38+00:00",
+  "lastOk": "2026-11-22T18:23+00:00",
   "failures": 0,
   "error": null,
   "partial": false,
-  "count": 96
+  "count": 98
  },
  "weather": {
   "lastAttempt": "2026-11-22T14:38+00:00",
@@ -48,9 +48,9 @@
   "errors": 0
  },
  "onefootball_quick": {
-  "lastAttempt": "2026-11-22T00:15+00:00",
+  "lastAttempt": "2026-11-22T18:23+00:00",
   "ok": true,
-  "lastOk": "2026-11-22T00:15+00:00",
+  "lastOk": "2026-11-22T18:23+00:00",
   "failures": 0,
   "error": null,
   "partial": false
