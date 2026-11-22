@@ -268,22 +268,22 @@
   "stadium": "Orange Vélodrome",
   "roof": false,
   "daysBefore": 0,
-  "temp": 15,
+  "temp": 14,
   "desc": "ciel dégagé",
   "code": 0,
   "rain": 0,
   "rainMax": 0,
-  "gust": 62,
+  "gust": 64,
   "pRain": 0.0,
-  "pWind": 0.98,
+  "pWind": 1.0,
   "members": 51,
-  "confidence": 98,
+  "confidence": 99,
   "confidenceLabel": "forte",
   "sources": [
    "ECMWF (51 scénarios)",
    "Météo-France"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-15",
@@ -345,9 +345,9 @@
     "day": "2026-11-22",
     "daysBefore": 0,
     "pRain": 0.0,
-    "pWind": 0.98,
+    "pWind": 1.0,
     "temp": 13,
-    "conf": 98
+    "conf": 99
    }
   ]
  },
@@ -780,9 +780,9 @@
   "stadium": "Stade Raymond-Kopa",
   "roof": false,
   "daysBefore": 6,
-  "temp": 10,
-  "desc": "pluie faible",
-  "code": 61,
+  "temp": 12,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 2.1,
   "gust": 28,
@@ -795,7 +795,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-21",
@@ -810,7 +810,7 @@
     "daysBefore": 6,
     "pRain": 0.04,
     "pWind": 0.0,
-    "temp": 6,
+    "temp": 7,
     "conf": 57
    }
   ]
@@ -820,7 +820,7 @@
   "stadium": "Stade de l'Abbé-Deschamps",
   "roof": false,
   "daysBefore": 7,
-  "temp": 4,
+  "temp": 10,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
@@ -829,13 +829,13 @@
   "pRain": 0.12,
   "pWind": 0.08,
   "members": 51,
-  "confidence": 48,
+  "confidence": 49,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-22",
@@ -843,7 +843,7 @@
     "pRain": 0.12,
     "pWind": 0.08,
     "temp": 7,
-    "conf": 48
+    "conf": 49
    }
   ]
  },
@@ -851,23 +851,23 @@
   "kind": "beau",
   "stadium": "Stade Francis-Le Blé",
   "roof": false,
-  "daysBefore": 6,
-  "temp": 9,
-  "desc": "ciel dégagé",
-  "code": 0,
-  "rain": 0.6,
-  "rainMax": 8.4,
+  "daysBefore": 5,
+  "temp": 8,
+  "desc": "couvert",
+  "code": 3,
+  "rain": 0,
+  "rainMax": 3.9,
   "gust": 42,
-  "pRain": 0.18,
+  "pRain": 0.06,
   "pWind": 0.08,
   "members": 51,
-  "confidence": 51,
+  "confidence": 60,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-21T22:13+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-20",
@@ -884,6 +884,14 @@
     "pWind": 0.08,
     "temp": 8,
     "conf": 51
+   },
+   {
+    "day": "2026-11-22",
+    "daysBefore": 5,
+    "pRain": 0.06,
+    "pWind": 0.08,
+    "temp": 9,
+    "conf": 60
    }
   ]
  },
@@ -892,7 +900,7 @@
   "stadium": "Stade Océane",
   "roof": false,
   "daysBefore": 6,
-  "temp": 9,
+  "temp": 11,
   "desc": "couvert",
   "code": 3,
   "rain": 0,
@@ -907,7 +915,7 @@
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-21",
@@ -922,7 +930,7 @@
     "daysBefore": 6,
     "pRain": 0.06,
     "pWind": 0.02,
-    "temp": 3,
+    "temp": 4,
     "conf": 55
    }
   ]
@@ -932,22 +940,22 @@
   "stadium": "MMArena",
   "roof": false,
   "daysBefore": 6,
-  "temp": 10,
-  "desc": "pluie faible",
-  "code": 61,
+  "temp": 9,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 1.5,
   "gust": 28,
   "pRain": 0.04,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 56,
+  "confidence": 57,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-21",
@@ -963,7 +971,7 @@
     "pRain": 0.04,
     "pWind": 0.0,
     "temp": 4,
-    "conf": 56
+    "conf": 57
    }
   ]
  },
@@ -1004,22 +1012,22 @@
   "stadium": "Allianz Riviera",
   "roof": false,
   "daysBefore": 6,
-  "temp": 13,
-  "desc": "couvert",
-  "code": 3,
+  "temp": 12,
+  "desc": "partiellement nuageux",
+  "code": 2,
   "rain": 0,
   "rainMax": 2.1,
   "gust": 20,
   "pRain": 0.04,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 60,
+  "confidence": 64,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-21",
@@ -1035,7 +1043,7 @@
     "pRain": 0.04,
     "pWind": 0.0,
     "temp": 7,
-    "conf": 60
+    "conf": 64
    }
   ]
  },
@@ -1044,22 +1052,22 @@
   "stadium": "Parc des Princes",
   "roof": false,
   "daysBefore": 6,
-  "temp": 8,
-  "desc": "pluie faible",
-  "code": 61,
+  "temp": 4,
+  "desc": "partiellement nuageux",
+  "code": 2,
   "rain": 0,
   "rainMax": 1.5,
   "gust": 25,
   "pRain": 0.04,
   "pWind": 0.0,
   "members": 51,
-  "confidence": 57,
+  "confidence": 58,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-21",
@@ -1075,7 +1083,7 @@
     "pRain": 0.04,
     "pWind": 0.0,
     "temp": 2,
-    "conf": 57
+    "conf": 58
    }
   ]
  },
@@ -1084,22 +1092,22 @@
   "stadium": "Stadium de Toulouse",
   "roof": false,
   "daysBefore": 7,
-  "temp": 9,
-  "desc": "bruine légère",
-  "code": 51,
+  "temp": 12,
+  "desc": "couvert",
+  "code": 3,
   "rain": 0,
   "rainMax": 4.2,
   "gust": 30,
   "pRain": 0.06,
   "pWind": 0.02,
   "members": 51,
-  "confidence": 52,
+  "confidence": 54,
   "confidenceLabel": "moyenne",
   "sources": [
    "ECMWF (51 scénarios)",
    "modèle mondial"
   ],
-  "updated": "2026-11-22T14:38+00:00",
+  "updated": "2026-11-22T22:30+00:00",
   "history": [
    {
     "day": "2026-11-22",
@@ -1107,7 +1115,7 @@
     "pRain": 0.06,
     "pWind": 0.02,
     "temp": 10,
-    "conf": 52
+    "conf": 54
    }
   ]
  }
