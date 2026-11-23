@@ -6,8 +6,8 @@
   "lastResult": "2026-11-22",
   "lastMatchday": 11,
   "nextMatchday": 12,
-  "fetchedAt": "2026-11-22T23:40+00:00",
-  "generatedAt": "2026-11-22T23:40+00:00",
+  "fetchedAt": "2026-11-23T18:13+00:00",
+  "generatedAt": "2026-11-23T18:17+00:00",
   "checks": {
    "compared": 99,
    "agree": 99,
@@ -19,11 +19,11 @@
     "id": "onefootball",
     "label": "OneFootball (matchs, compos, presse)",
     "status": "ok",
-    "lastOk": "2026-11-22T22:28+00:00",
-    "lastAttempt": "2026-11-22T22:28+00:00",
+    "lastOk": "2026-11-23T18:13+00:00",
+    "lastAttempt": "2026-11-23T18:13+00:00",
     "error": null,
     "failures": 0,
-    "count": 163
+    "count": 164
    },
    {
     "id": "onefootball_quick",
@@ -39,8 +39,8 @@
     "id": "espn",
     "label": "ESPN (scores à la pause)",
     "status": "ok",
-    "lastOk": "2026-11-22T23:40+00:00",
-    "lastAttempt": "2026-11-22T23:40+00:00",
+    "lastOk": "2026-11-23T18:15+00:00",
+    "lastAttempt": "2026-11-23T18:15+00:00",
     "error": null,
     "failures": 0,
     "count": 99
@@ -49,8 +49,8 @@
     "id": "weather",
     "label": "Prévisions météo (Open-Meteo)",
     "status": "ok",
-    "lastOk": "2026-11-22T22:30+00:00",
-    "lastAttempt": "2026-11-22T22:30+00:00",
+    "lastOk": "2026-11-23T18:15+00:00",
+    "lastAttempt": "2026-11-23T18:15+00:00",
     "error": null,
     "failures": 0,
     "count": 18
@@ -59,18 +59,18 @@
     "id": "footballdata",
     "label": "football-data.co.uk (cotes)",
     "status": "ok",
-    "lastOk": "2026-11-22T22:31+00:00",
-    "lastAttempt": "2026-11-22T22:31+00:00",
+    "lastOk": "2026-11-23T18:16+00:00",
+    "lastAttempt": "2026-11-23T18:16+00:00",
     "error": null,
     "failures": 0,
-    "count": 90
+    "count": 99
    },
    {
     "id": "history",
     "label": "Historique (ESPN, archives météo)",
     "status": "ok",
-    "lastOk": "2026-11-22T22:31+00:00",
-    "lastAttempt": "2026-11-22T22:31+00:00",
+    "lastOk": "2026-11-23T18:16+00:00",
+    "lastAttempt": "2026-11-23T18:16+00:00",
     "error": null,
     "failures": 0,
     "count": 1237
@@ -797,7 +797,7 @@
    "notInCommon": 0
   },
   "linked": 1017,
-  "generatedAt": "2026-11-22T22:31+00:00",
+  "generatedAt": "2026-11-23T18:16+00:00",
   "levers": {
    "buteur": {
     "n": 337,
@@ -9567,7 +9567,7 @@
      47
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9635,7 +9635,7 @@
      40
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9704,7 +9704,7 @@
      52
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9799,7 +9799,7 @@
      95
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -9899,7 +9899,7 @@
      82
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -9983,7 +9983,7 @@
      95
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -10084,7 +10084,7 @@
      72
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "home",
@@ -10170,7 +10170,7 @@
      95
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -10250,7 +10250,7 @@
      98
     ]
    ],
-   "htSource": "espn",
+   "htSource": "football-data",
    "scorers": [
     {
      "side": "away",
@@ -10326,6 +10326,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Penalty arrêté, premier clean-sheet : la réserve de Brest ouvre son compteur de points en National 2",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/penalty-arrete-premier-clean-sheet-la-reserve-de-brest-ouvre-son-compteur-de-points-en-national-2-43822872",
+        "time": "2026-11-23T06:42:00Z"
+       },
+       {
         "title": "Ligue 1 - Le Stade Brestois enchaîne face au RC Strasbourg et s'invite à la course au podium (résumé)",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/ligue-1-le-stade-brestois-enchaine-face-au-rc-strasbourg-et-sinvite-a-la-course-au-podium-resume-43816037",
@@ -10349,16 +10355,22 @@
       ],
       "other": [
        {
+        "title": "Ligue 1 : l’action collective sublime du Paris FC conclue par Maxime Lopez contre Angers",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/ligue-1-laction-collective-sublime-du-paris-fc-conclue-par-maxime-lopez-contre-angers-43824522",
+        "time": "2026-11-23T12:02:00Z"
+       },
+       {
+        "title": "Paris FC : Zabi, une alternative à Sinayoko ? La nouvelle invention de Rosenior",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/paris-fc-zabi-une-alternative-a-sinayoko-la-nouvelle-invention-de-rosenior-43823818",
+        "time": "2026-11-23T10:00:22Z"
+       },
+       {
         "title": "Paris FC - Pablo Pagis explose de colère contre l'arbitrage en plein match face à Angers (vidéo)",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/paris-fc-pablo-pagis-explose-de-colere-contre-larbitrage-en-plein-match-face-a-angers-video-43821114",
         "time": "2026-11-22T19:16:00Z"
-       },
-       {
-        "title": "PFC – Angers (4-0) : Tous les chiffres d’une démonstration qui change tout",
-        "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/pfc-angers-4-0-tous-les-chiffres-dune-demonstration-qui-change-tout-43820102",
-        "time": "2026-11-22T16:19:22Z"
        }
       ],
       "scorer": {
@@ -10372,23 +10384,23 @@
      "kind": "beau",
      "stadium": "Stade Francis-Le Blé",
      "roof": false,
-     "daysBefore": 5,
-     "temp": 8,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 4,
+     "temp": 9,
+     "desc": "bruine légère",
+     "code": 51,
      "rain": 0,
-     "rainMax": 3.9,
+     "rainMax": 5.7,
      "gust": 42,
-     "pRain": 0.06,
+     "pRain": 0.2,
      "pWind": 0.08,
      "members": 51,
-     "confidence": 60,
+     "confidence": 58,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-20",
@@ -10413,6 +10425,14 @@
        "pWind": 0.08,
        "temp": 9,
        "conf": 60
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 4,
+       "pRain": 0.2,
+       "pWind": 0.08,
+       "temp": 8,
+       "conf": 58
       }
      ]
     }
@@ -10527,12 +10547,12 @@
     ],
     "over25": 0.488,
     "levers": [],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-18T00:54+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 2,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -10564,25 +10584,32 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Lukeba forfait contre Lens ! L’heure d’Estève a sonné",
+        "publisher": "Frühes-Tor.de",
+        "url": "https://onefootball.com/fr/news/lukeba-forfait-contre-lens-lheure-desteve-a-sonne-43825270",
+        "time": "2026-11-23T14:11:13Z"
+       }
+      ],
       "other": [
        {
-        "title": "Lundi, journée médias à suivre sur Lensois.com pour Leipzig-RC Lens, les dernières infos à retenir",
+        "title": "Amadou Haïdara : « Ça fait plaisir d’être à la maison »",
         "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/lundi-journee-medias-a-suivre-sur-lensoiscom-pour-leipzig-rc-lens-les-dernieres-infos-a-retenir-43820503",
-        "time": "2026-11-22T17:30:57Z"
+        "url": "https://onefootball.com/fr/news/amadou-haidara-ca-fait-plaisir-detre-a-la-maison-43826589",
+        "time": "2026-11-23T17:59:13Z"
        },
        {
-        "title": "Florian Sotoca : « Beaucoup de progrès et de motifs d’encouragement »",
-        "publisher": "Lensois.com",
-        "url": "https://onefootball.com/fr/news/florian-sotoca-beaucoup-de-progres-et-de-motifs-dencouragement-43818977",
-        "time": "2026-11-22T12:55:14Z"
+        "title": "RC Lens - Didier Digard fait le point sur son effectif avant le match de LDC face au RB Leipzig",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/rc-lens-didier-digard-fait-le-point-sur-son-effectif-avant-le-match-de-ldc-face-au-rb-leipzig-43826446",
+        "time": "2026-11-23T17:18:00Z"
        },
        {
-        "title": "RC Lens : Florian Thauvin salue le calme apporté par Didier Digard",
-        "publisher": "BeFootball",
-        "url": "https://onefootball.com/fr/news/rc-lens-florian-thauvin-salue-le-calme-apporte-par-didier-digard-43818549",
-        "time": "2026-11-22T11:20:00Z"
+        "title": "Cuisance malade, Chavez pas inscrit, les dernières nouvelles du groupe du RC Lens avant le match face à Leipzig",
+        "publisher": "Lensois.com",
+        "url": "https://onefootball.com/fr/news/cuisance-malade-chavez-pas-inscrit-les-dernieres-nouvelles-du-groupe-du-rc-lens-avant-le-match-face-a-leipzig-43826028",
+        "time": "2026-11-23T16:20:48Z"
        }
       ],
       "scorer": {
@@ -10603,23 +10630,23 @@
      "kind": "beau",
      "stadium": "Stade Raymond-Kopa",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 12,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 5,
+     "temp": 7,
+     "desc": "pluie faible",
+     "code": 61,
      "rain": 0,
-     "rainMax": 2.1,
-     "gust": 28,
-     "pRain": 0.04,
+     "rainMax": 1.5,
+     "gust": 27,
+     "pRain": 0.02,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 57,
+     "confidence": 64,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-21",
@@ -10636,6 +10663,14 @@
        "pWind": 0.0,
        "temp": 7,
        "conf": 57
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 5,
+       "pRain": 0.02,
+       "pWind": 0.0,
+       "temp": 10,
+       "conf": 64
       }
      ]
     }
@@ -10752,12 +10787,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 2,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -10783,6 +10818,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Achraf Hakimi signe un triplé et relance Paris au Havre",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/achraf-hakimi-signe-un-triple-et-relance-paris-au-havre-43826185",
+        "time": "2026-11-23T16:44:00Z"
+       },
+       {
         "title": "Mercato Le Havre AC - Le directeur sportif fait une annonce importante sur le mercato hivernal",
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-directeur-sportif-fait-une-annonce-importante-sur-le-mercato-hivernal-43811637",
@@ -10803,7 +10844,14 @@
      },
      "A": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "Mercato Strasbourg : le RCSA pense à Dembélé, mais son profil interroge",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/mercato-strasbourg-le-rcsa-pense-a-dembele-mais-son-profil-interroge-43823488",
+        "time": "2026-11-23T09:00:14Z"
+       }
+      ],
       "scorer": {
        "name": "Gessime Yassine",
        "goals": 4
@@ -10815,23 +10863,23 @@
      "kind": "beau",
      "stadium": "Stade Océane",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 11,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 5,
+     "temp": 5,
+     "desc": "partiellement nuageux",
+     "code": 2,
      "rain": 0,
-     "rainMax": 3.3,
+     "rainMax": 4.5,
      "gust": 37,
-     "pRain": 0.06,
+     "pRain": 0.16,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 55,
+     "confidence": 54,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-21",
@@ -10848,6 +10896,14 @@
        "pWind": 0.02,
        "temp": 4,
        "conf": 55
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 5,
+       "pRain": 0.16,
+       "pWind": 0.02,
+       "temp": 6,
+       "conf": 54
       }
      ]
     }
@@ -10962,12 +11018,12 @@
     ],
     "over25": 0.644,
     "levers": [],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 2,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -10991,7 +11047,20 @@
     "press": {
      "H": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "Le Mans FC - Le capitaine du Mans se paie l'OM après la victoire : \"Marseille est une équipe qui se procure très peu de xG\"",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/le-mans-fc-le-capitaine-du-mans-se-paie-lom-apres-la-victoire-marseille-est-une-equipe-qui-se-procure-tres-peu-de-xg-43823086",
+        "time": "2026-11-23T07:22:00Z"
+       },
+       {
+        "title": "Le Mans FC - L'immense joie de Patrick Videira après l'exploit sur la pelouse de l'OM",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/le-mans-fc-limmense-joie-de-patrick-videira-apres-lexploit-sur-la-pelouse-de-lom-43821853",
+        "time": "2026-11-22T22:07:00Z"
+       }
+      ],
       "scorer": {
        "name": "Louis Mafouta",
        "goals": 6
@@ -10999,8 +11068,27 @@
       "scorerOut": null
      },
      "A": {
-      "absences": [],
+      "absences": [
+       {
+        "title": "Bayern Munich - La liste impressionnante des joueurs blessés au Bayern avant d'affronter le LOSC",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/bayern-munich-la-liste-impressionnante-des-joueurs-blesses-au-bayern-avant-daffronter-le-losc-43825463",
+        "time": "2026-11-23T14:46:00Z"
+       },
+       {
+        "title": "Vers un forfait de Michael Olise pour LOSC – Bayern Munich",
+        "publisher": "Le Petit Lillois",
+        "url": "https://onefootball.com/fr/news/vers-un-forfait-de-michael-olise-pour-losc-bayern-munich-43822499",
+        "time": "2026-11-22T19:47:00Z"
+       }
+      ],
       "other": [
+       {
+        "title": "LDC - L'arbitre du choc LOSC - Bayern Munich est connu",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/ldc-larbitre-du-choc-losc-bayern-munich-est-connu-43823540",
+        "time": "2026-11-23T09:14:00Z"
+       },
        {
         "title": "Lille - Bayern : énorme rebondissement en vue pour Olise",
         "publisher": "OnzeMondial",
@@ -11012,12 +11100,6 @@
         "publisher": "OnzeMondial",
         "url": "https://onefootball.com/fr/news/lille-bayern-le-verdict-tombe-sur-la-presence-dolise-une-decision-inattendue-de-kompany-43819213",
         "time": "2026-11-22T13:33:00Z"
-       },
-       {
-        "title": "Alexsandro : \"Nous avons manqué un peu d'énergie\"",
-        "publisher": "Stats Perform",
-        "url": "https://onefootball.com/fr/video/alexsandro-nous-avons-manque-un-peu-denergie-3MSGw1YOGfb7eMqD8zD52ppKAt1",
-        "time": "2026-11-22T08:38:54Z"
        }
       ],
       "scorer": {
@@ -11038,23 +11120,23 @@
      "kind": "beau",
      "stadium": "MMArena",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 9,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 5,
+     "temp": 5,
+     "desc": "pluie faible",
+     "code": 61,
      "rain": 0,
-     "rainMax": 1.5,
+     "rainMax": 1.8,
      "gust": 28,
      "pRain": 0.04,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 57,
+     "confidence": 61,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-21",
@@ -11071,6 +11153,14 @@
        "pWind": 0.0,
        "temp": 4,
        "conf": 57
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 5,
+       "pRain": 0.04,
+       "pWind": 0.0,
+       "temp": 7,
+       "conf": 61
       }
      ]
     }
@@ -11187,12 +11277,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 3,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -11405,12 +11495,12 @@
     ],
     "over25": 0.488,
     "levers": [],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 2,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -11435,42 +11525,42 @@
      "H": {
       "absences": [
        {
-        "title": "Paris FC - Pablo Pagis adresse un magnifique message de soutien à Désiré Doué après sa grave blessure",
+        "title": "\"Cette blessure me rend triste...\" : Désiré Doué (PSG) sort du silence après sa rupture du ligament croisé",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/cette-blessure-me-rend-triste-desire-doue-psg-sort-du-silence-apres-sa-rupture-du-ligament-croise-43825850",
+        "time": "2026-11-23T15:50:00Z"
+       },
+       {
+        "title": "PSG : \"Un moment difficile\", Désiré Doué sort du silence après sa terrible blessure",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/psg-un-moment-difficile-desire-doue-sort-du-silence-apres-sa-terrible-blessure-43825780",
+        "time": "2026-11-23T15:39:00Z"
+       },
+       {
+        "title": "PSG - Désiré Doué sort du silence après sa grave blessure",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/paris-fc-pablo-pagis-adresse-un-magnifique-message-de-soutien-a-desire-doue-apres-sa-grave-blessure-43821204",
-        "time": "2026-11-22T19:34:00Z"
-       },
-       {
-        "title": "PSG : nouvelle frayeur pour Désiré Doué, victime d'une tentative de cambriolage en plus de sa blessure",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-nouvelle-frayeur-pour-desire-doue-victime-dune-tentative-de-cambriolage-en-plus-de-sa-blessure-43821145",
-        "time": "2026-11-22T19:25:00Z"
-       },
-       {
-        "title": "PSG : les interventions dentaires de Kvaratskhelia et Doué, la raison de leurs graves blessures ?",
-        "publisher": "OnzeMondial",
-        "url": "https://onefootball.com/fr/news/psg-les-interventions-dentaires-de-kvaratskhelia-et-doue-la-raison-de-leurs-graves-blessures-43820781",
-        "time": "2026-11-22T18:28:00Z"
+        "url": "https://onefootball.com/fr/news/psg-desire-doue-sort-du-silence-apres-sa-grave-blessure-43825766",
+        "time": "2026-11-23T15:32:00Z"
        }
       ],
       "other": [
        {
-        "title": "Le programme du PSG cette semaine : AS Rome et Lorient au Parc des Princes",
-        "publisher": "Parisfans.fr",
-        "url": "https://onefootball.com/fr/news/le-programme-du-psg-cette-semaine-as-rome-et-lorient-au-parc-des-princes-43821536",
-        "time": "2026-11-22T20:50:39Z"
+        "title": "PSG, Paris FC, OL, OM… ce que prédit notre modèle après 11 journées",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/psg-paris-fc-ol-om-ce-que-predit-notre-modele-apres-11-journees-43826461",
+        "time": "2026-11-23T17:30:46Z"
        },
        {
-        "title": "PSG : « Nous allons traverser cette épreuve ensemble »,  le message de soutien de Kvaratskhelia pour Désiré Doué",
-        "publisher": "Foot National",
-        "url": "https://onefootball.com/fr/news/psg-nous-allons-traverser-cette-epreuve-ensemble-le-message-de-soutien-de-kvaratskhelia-pour-desire-doue-43821430",
-        "time": "2026-11-22T20:31:00Z"
-       },
-       {
-        "title": "Mercato PSG - Le PSG a choisi le profil à recruter pour remplacer Désiré Doué et Khvicha Kvaratskhelia cet hiver",
+        "title": "AS Roma - Leonardo Balerdi pourrait manquer ses retrouvailles avec le PSG !",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/mercato-psg-le-psg-a-choisi-le-profil-a-recruter-pour-remplacer-desire-doue-et-khvicha-kvaratskhelia-cet-hiver-43821158",
-        "time": "2026-11-22T19:24:00Z"
+        "url": "https://onefootball.com/fr/news/as-roma-leonardo-balerdi-pourrait-manquer-ses-retrouvailles-avec-le-psg-43826233",
+        "time": "2026-11-23T16:59:00Z"
+       },
+       {
+        "title": "Achraf Hakimi signe un triplé et relance Paris au Havre",
+        "publisher": "Foot National",
+        "url": "https://onefootball.com/fr/news/achraf-hakimi-signe-un-triple-et-relance-paris-au-havre-43826185",
+        "time": "2026-11-23T16:44:00Z"
        }
       ],
       "scorer": {
@@ -11481,7 +11571,14 @@
      },
      "A": {
       "absences": [],
-      "other": [],
+      "other": [
+       {
+        "title": "Lorient – Rennes : Dujeux a-t-il raison de parler de domination ?",
+        "publisher": "Morning Foot",
+        "url": "https://onefootball.com/fr/news/lorient-rennes-dujeux-a-t-il-raison-de-parler-de-domination-43824563",
+        "time": "2026-11-23T12:00:18Z"
+       }
+      ],
       "scorer": {
        "name": "Jean-Victor Makengo",
        "goals": 2
@@ -11500,23 +11597,23 @@
      "kind": "beau",
      "stadium": "Parc des Princes",
      "roof": false,
-     "daysBefore": 6,
-     "temp": 4,
-     "desc": "partiellement nuageux",
-     "code": 2,
+     "daysBefore": 5,
+     "temp": 2,
+     "desc": "couvert",
+     "code": 3,
      "rain": 0,
-     "rainMax": 1.5,
-     "gust": 25,
+     "rainMax": 2.1,
+     "gust": 26,
      "pRain": 0.04,
      "pWind": 0.0,
      "members": 51,
-     "confidence": 58,
+     "confidence": 61,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-21",
@@ -11533,6 +11630,14 @@
        "pWind": 0.0,
        "temp": 2,
        "conf": 58
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 5,
+       "pRain": 0.04,
+       "pWind": 0.0,
+       "temp": 4,
+       "conf": 61
       }
      ]
     }
@@ -11649,12 +11754,12 @@
     "levers": [
      "eurH"
     ],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-19T00:14+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 1,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -11680,6 +11785,12 @@
       "absences": [],
       "other": [
        {
+        "title": "Edan Diop arrache l'égalisation dans les dernières minutes face à Auxerre",
+        "publisher": "AS Monaco",
+        "url": "https://onefootball.com/fr/video/edan-diop-arrache-legalisation-dans-les-dernieres-minutes-face-a-auxerre-3MUU2jsL16YecSf1JKD0Qmw6FvJ",
+        "time": "2026-11-23T03:26:30Z"
+       },
+       {
         "title": "Auxerre : Will Still voit un tournant après la claque de Strasbourg",
         "publisher": "Morning Foot",
         "url": "https://onefootball.com/fr/news/auxerre-will-still-voit-un-tournant-apres-la-claque-de-strasbourg-43820027",
@@ -11690,12 +11801,6 @@
         "publisher": "MadeInFOOT",
         "url": "https://onefootball.com/fr/news/as-monaco-la-grande-deception-dedan-diop-apres-le-nul-face-a-laj-auxerre-43816333",
         "time": "2026-11-21T22:53:00Z"
-       },
-       {
-        "title": "AJ Auxerre - Will Still félicite ses joueurs malgré le nul concédé face à l'AS Monaco",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-felicite-ses-joueurs-malgre-le-nul-concede-face-a-las-monaco-43816312",
-        "time": "2026-11-21T22:45:00Z"
        }
       ],
       "scorer": {
@@ -11708,10 +11813,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OM - La réaction à chaud de Timothy Weah après la défaite face au Mans",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/om-la-reaction-a-chaud-de-timothy-weah-apres-la-defaite-face-au-mans-43821814",
-        "time": "2026-11-22T21:55:00Z"
+        "title": "OM – L’OM affiche une statistique inquiétante",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-lom-affiche-une-statistique-inquietante-43826621",
+        "time": "2026-11-23T18:00:24Z"
+       },
+       {
+        "title": "OM-Le Mans (2-3) Genesio : « Je n’ai pas vu un manque d’humilité »",
+        "publisher": "CoeurMarseillais",
+        "url": "https://onefootball.com/fr/news/om-le-mans-2-3-genesio-je-nai-pas-vu-un-manque-dhumilite-43826271",
+        "time": "2026-11-23T17:00:28Z"
+       },
+       {
+        "title": "OM : l'énorme projet du club pour lancer des jeunes joueurs, Bruno Genesio se frotte les mains",
+        "publisher": "OnzeMondial",
+        "url": "https://onefootball.com/fr/news/om-lenorme-projet-du-club-pour-lancer-des-jeunes-joueurs-bruno-genesio-se-frotte-les-mains-43826024",
+        "time": "2026-11-23T16:25:00Z"
        }
       ],
       "scorer": {
@@ -11732,23 +11849,23 @@
      "kind": "beau",
      "stadium": "Stade de l'Abbé-Deschamps",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 10,
-     "desc": "couvert",
-     "code": 3,
+     "daysBefore": 6,
+     "temp": 8,
+     "desc": "brouillard",
+     "code": 45,
      "rain": 0,
      "rainMax": 2.7,
      "gust": 28,
-     "pRain": 0.12,
-     "pWind": 0.08,
+     "pRain": 0.14,
+     "pWind": 0.0,
      "members": 51,
-     "confidence": 49,
+     "confidence": 54,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-22",
@@ -11757,6 +11874,14 @@
        "pWind": 0.08,
        "temp": 7,
        "conf": 49
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 6,
+       "pRain": 0.14,
+       "pWind": 0.0,
+       "temp": 7,
+       "conf": 54
       }
      ]
     }
@@ -11873,12 +11998,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-20T00:33+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 2,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -11913,10 +12038,22 @@
       "absences": [],
       "other": [
        {
-        "title": "Stade Rennais : Franck Haise pointe un problème plus profond",
+        "title": "Stade Rennais : Brice Samba et Mahdi Camara répondent aux critiques",
         "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-pointe-un-probleme-plus-profond-43821285",
-        "time": "2026-11-22T19:51:21Z"
+        "url": "https://onefootball.com/fr/news/stade-rennais-brice-samba-et-mahdi-camara-repondent-aux-critiques-43826101",
+        "time": "2026-11-23T16:30:52Z"
+       },
+       {
+        "title": "Stade Rennais - Franck Haise prend la défense de ses joueurs après le nul contre Lorient",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-prend-la-defense-de-ses-joueurs-apres-le-nul-contre-lorient-43824929",
+        "time": "2026-11-23T12:58:00Z"
+       },
+       {
+        "title": "Mercato Rennes - Un nouveau jeune espoir rennais va signer chez les professionnels",
+        "publisher": "MadeInFOOT",
+        "url": "https://onefootball.com/fr/news/mercato-rennes-un-nouveau-jeune-espoir-rennais-va-signer-chez-les-professionnels-43823424",
+        "time": "2026-11-23T08:55:00Z"
        }
       ],
       "scorer": {
@@ -11937,23 +12074,23 @@
      "kind": "beau",
      "stadium": "Stadium de Toulouse",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 12,
+     "daysBefore": 6,
+     "temp": 11,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 4.2,
-     "gust": 30,
-     "pRain": 0.06,
+     "rainMax": 3.3,
+     "gust": 24,
+     "pRain": 0.14,
      "pWind": 0.02,
      "members": 51,
-     "confidence": 54,
+     "confidence": 55,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T22:30+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-22",
@@ -11962,6 +12099,14 @@
        "pWind": 0.02,
        "temp": 10,
        "conf": 54
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 6,
+       "pRain": 0.14,
+       "pWind": 0.02,
+       "temp": 10,
+       "conf": 55
       }
      ]
     }
@@ -12078,12 +12223,12 @@
     "levers": [
      "eurA"
     ],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-20T00:33+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 1,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
@@ -12109,22 +12254,22 @@
       "absences": [],
       "other": [
        {
-        "title": "OL Académie : la réserve craque en fin de match à Pontarlier",
+        "title": "TKYDG : l'OL et Vicens terrassent Lille, le début d'une nouvelle ère ?",
         "publisher": "Olympique-et-Lyonnais",
-        "url": "https://onefootball.com/fr/news/ol-academie-la-reserve-craque-en-fin-de-match-a-pontarlier-43820212",
-        "time": "2026-11-22T16:40:00Z"
+        "url": "https://onefootball.com/fr/news/tkydg-lol-et-vicens-terrassent-lille-le-debut-dune-nouvelle-ere-43826559",
+        "time": "2026-11-23T17:55:00Z"
        },
        {
-        "title": "OL - Carlos Vicens donne son avis sur le but refusé à Ernest Nuamah contre le LOSC",
+        "title": "OL - Un retour important à l'entraînement du jour",
         "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-carlos-vicens-donne-son-avis-sur-le-but-refuse-a-ernest-nuamah-contre-le-losc-43818583",
-        "time": "2026-11-22T11:31:00Z"
+        "url": "https://onefootball.com/fr/news/ol-un-retour-important-a-lentrainement-du-jour-43826012",
+        "time": "2026-11-23T16:18:00Z"
        },
        {
-        "title": "OL - Mads Bidstrup en dit davantage sur l'impact de Carlos Vicens au sein du groupe lyonnais",
-        "publisher": "MadeInFOOT",
-        "url": "https://onefootball.com/fr/news/ol-mads-bidstrup-en-dit-davantage-sur-limpact-de-carlos-vicens-au-sein-du-groupe-lyonnais-43818099",
-        "time": "2026-11-22T09:51:00Z"
+        "title": "Lors de Lille - OL (0-1), Bidstrup établit un nouveau record",
+        "publisher": "Olympique-et-Lyonnais",
+        "url": "https://onefootball.com/fr/news/lors-de-lille-ol-0-1-bidstrup-etablit-un-nouveau-record-43825546",
+        "time": "2026-11-23T15:00:00Z"
        }
       ],
       "scorer": {
@@ -12137,22 +12282,22 @@
       "absences": [],
       "other": [
        {
-        "title": "ASM-AJA : les tops, le flop",
-        "publisher": "ASM-SUPPORTERS.FR",
-        "url": "https://onefootball.com/fr/news/asm-aja-les-tops-le-flop-43818706",
-        "time": "2026-11-22T12:01:00Z"
-       },
-       {
-        "title": "ASM-AJA : Les réactions",
-        "publisher": "ASM-SUPPORTERS.FR",
-        "url": "https://onefootball.com/fr/news/asm-aja-les-reactions-43818367",
-        "time": "2026-11-22T10:36:37Z"
-       },
-       {
-        "title": "Monaco : Filipe Luis explose et réclame du respect après une nouvelle polémique arbitrale",
+        "title": "AS Monaco : Matthis Abline en grande difficulté, les chiffres inquiètent",
         "publisher": "Morning Foot",
-        "url": "https://onefootball.com/fr/news/monaco-filipe-luis-explose-et-reclame-du-respect-apres-une-nouvelle-polemique-arbitrale-43817942",
-        "time": "2026-11-22T09:00:48Z"
+        "url": "https://onefootball.com/fr/news/as-monaco-matthis-abline-en-grande-difficulte-les-chiffres-inquietent-43825752",
+        "time": "2026-11-23T15:30:14Z"
+       },
+       {
+        "title": "Edan Diop arrache l'égalisation dans les dernières minutes face à Auxerre",
+        "publisher": "AS Monaco",
+        "url": "https://onefootball.com/fr/video/edan-diop-arrache-legalisation-dans-les-dernieres-minutes-face-a-auxerre-3MUU2jsL16YecSf1JKD0Qmw6FvJ",
+        "time": "2026-11-23T03:26:30Z"
+       },
+       {
+        "title": "Edan Diop arrache l'égalisation dans les dernières minutes face à Auxerre",
+        "publisher": "AS Monaco",
+        "url": "https://onefootball.com/fr/video/edan-diop-arrache-legalisation-dans-les-dernieres-minutes-face-a-auxerre-3MUVbTDIPIVwuwHja1RfrDzYuUp",
+        "time": "2026-11-23T03:14:00Z"
        }
       ],
       "scorer": {
@@ -12180,23 +12325,23 @@
      "kind": "beau",
      "stadium": "Groupama Stadium",
      "roof": false,
-     "daysBefore": 7,
-     "temp": 4,
+     "daysBefore": 6,
+     "temp": 5,
      "desc": "couvert",
      "code": 3,
      "rain": 0,
-     "rainMax": 4.8,
-     "gust": 18,
-     "pRain": 0.1,
-     "pWind": 0.02,
+     "rainMax": 3.6,
+     "gust": 17,
+     "pRain": 0.2,
+     "pWind": 0.0,
      "members": 51,
-     "confidence": 48,
+     "confidence": 49,
      "confidenceLabel": "moyenne",
      "sources": [
       "ECMWF (51 scénarios)",
       "modèle mondial"
      ],
-     "updated": "2026-11-22T14:38+00:00",
+     "updated": "2026-11-23T18:15+00:00",
      "history": [
       {
        "day": "2026-11-22",
@@ -12205,6 +12350,14 @@
        "pWind": 0.02,
        "temp": 5,
        "conf": 48
+      },
+      {
+       "day": "2026-11-23",
+       "daysBefore": 6,
+       "pRain": 0.2,
+       "pWind": 0.0,
+       "temp": 6,
+       "conf": 49
       }
      ]
     }
@@ -12322,12 +12475,12 @@
      "eurH",
      "eurA"
     ],
-    "at": "2026-11-22T23:40+00:00",
+    "at": "2026-11-23T18:17+00:00",
     "firstAt": "2026-11-20T00:33+00:00",
-    "dataAt": "2026-11-22T23:40+00:00",
+    "dataAt": "2026-11-23T18:13+00:00",
     "changes": 2,
     "model": {
-     "version": "51d0764",
+     "version": "4c55cf2",
      "mu": 0.219,
      "home": 0.226
     }
