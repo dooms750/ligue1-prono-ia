@@ -8499,22 +8499,47 @@
    "id": 2688745,
    "competition": "Ligue 1",
    "kickoff": "2026-11-27T19:45:00Z",
-   "status": "",
-   "period": 1,
+   "status": "Fin du match",
+   "period": 11,
    "home": "Stade Brestois",
    "away": "Paris FC",
    "homeLink": "/fr/equipe/stade-brestois-254",
    "awayLink": "/fr/equipe/paris-fc-5170",
-   "hg": null,
-   "ag": null,
-   "goals": [],
+   "hg": 1,
+   "ag": 0,
+   "goals": [
+    {
+     "side": "home",
+     "min": 21,
+     "half": 1,
+     "kind": "but",
+     "player": "Luck Zogbé"
+    }
+   ],
    "reds": [],
-   "stats": {},
+   "stats": {
+    "Possession": [
+     33,
+     67
+    ],
+    "Tirs": [
+     17,
+     18
+    ],
+    "Tirs cadrés": [
+     3,
+     8
+    ],
+    "Duels gagnés": [
+     54,
+     46
+    ]
+   },
    "starters": {
     "home": [
      "Ludovic Ajorque",
      "Pathé Mboup",
-     "Joseph Nonge",
+     "Kamory Doumbia",
      "Noah Edjouma",
      "Hugo Magnetti",
      "Joris Chotard",
@@ -8525,16 +8550,16 @@
      "Egil Selvik"
     ],
     "away": [
-     "Patrick Zabi",
-     "Luca Koleosho",
+     "Lassine Sinayoko",
+     "Moses Simon",
      "Pablo Pagis",
-     "Ilan Kebbal",
+     "Luca Koleosho",
      "Pierre Lees Melou",
      "Maxime Lopez",
-     "Otávio",
+     "Hamari Traoré",
      "Diego Coppola",
      "Samir Chergui",
-     "Rudy Matondo",
+     "Adama Camara",
      "Kevin Trapp"
     ]
    }
@@ -10042,6 +10067,26 @@
     "home": [],
     "away": []
    }
+  },
+  "2688814": {
+   "id": 2688814,
+   "competition": "Ligue 1",
+   "kickoff": "2027-02-07T19:45:00Z",
+   "status": "",
+   "period": 1,
+   "home": "PSG",
+   "away": "Olympique de Marseille",
+   "homeLink": "/fr/equipe/psg-263",
+   "awayLink": "/fr/equipe/olympique-de-marseille-22",
+   "hg": null,
+   "ag": null,
+   "goals": [],
+   "reds": [],
+   "stats": {},
+   "starters": {
+    "home": [],
+    "away": []
+   }
   }
  },
  "news": {
@@ -10171,6 +10216,24 @@
   ],
   "Angers SCO": [
    {
+    "title": "\"Il s'est rendu compte que la forme n'était pas bonne\" : à Lens, Didier Digard prend la défense de Thauvin après son interview polémique",
+    "publisher": "Foot National",
+    "time": "2026-11-27T22:59:00Z",
+    "url": "https://onefootball.com/fr/news/il-sest-rendu-compte-que-la-forme-netait-pas-bonne-a-lens-didier-digard-prend-la-defense-de-thauvin-apres-son-interview-polemique-43854673"
+   },
+   {
+    "title": "RC Lens - Plusieurs absences de taille dans le groupe lensois pour affronter Angers SCO",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T19:25:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-plusieurs-absences-de-taille-dans-le-groupe-lensois-pour-affronter-angers-sco-43853629"
+   },
+   {
+    "title": "RC Lens - Didier Digard donne son avis sur Angers SCO, prochain adversaire du RCL en Ligue 1",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-didier-digard-donne-son-avis-sur-angers-sco-prochain-adversaire-du-rcl-en-ligue-1-43853190"
+   },
+   {
     "title": "Ligue 1 : Angers dévoile son maillot third aux couleurs de l'Anjou",
     "publisher": "Foot National",
     "time": "2026-11-26T17:30:00Z",
@@ -10211,24 +10274,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-22T15:56:00Z",
     "url": "https://onefootball.com/fr/news/le-paris-fc-ecrase-angers-et-sinstalle-en-dauphin-du-psg-43819937"
-   },
-   {
-    "title": "Ligue 1 - Le Paris FC fait exploser Angers SCO en seconde période et s'offre la deuxième place derrière le PSG (analyse)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-22T15:56:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-paris-fc-fait-exploser-angers-sco-en-seconde-periode-et-soffre-la-deuxieme-place-derriere-le-psg-analyse-43819943"
-   },
-   {
-    "title": "Paris FC - Angers : les compositions officielles",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-22T13:09:00Z",
-    "url": "https://onefootball.com/fr/news/paris-fc-angers-les-compositions-officielles-43819294"
-   },
-   {
-    "title": "Ligue 1 - Paris FC - Angers SCO : les compos officielles",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-22T13:08:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-paris-fc-angers-sco-les-compos-officielles-43819078"
    }
   ],
   "ESTAC Troyes": [
@@ -10295,6 +10340,12 @@
   ],
   "FC Lorient": [
    {
+    "title": "PSG - Luis Enrique prévient ses joueurs avant le match face au FC Lorient",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T16:45:00Z",
+    "url": "https://onefootball.com/fr/news/psg-luis-enrique-previent-ses-joueurs-avant-le-match-face-au-fc-lorient-43852702"
+   },
+   {
     "title": "PSG : Luis Enrique dévoile une confidence surprenante de Vitinha",
     "publisher": "BeFootball",
     "time": "2026-11-27T16:10:00Z",
@@ -10347,15 +10398,33 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-23T12:58:00Z",
     "url": "https://onefootball.com/fr/news/stade-rennais-franck-haise-prend-la-defense-de-ses-joueurs-apres-le-nul-contre-lorient-43824929"
-   },
-   {
-    "title": "Lorient – Rennes : Dujeux a-t-il raison de parler de domination ?",
-    "publisher": "Morning Foot",
-    "time": "2026-11-23T12:00:18Z",
-    "url": "https://onefootball.com/fr/news/lorient-rennes-dujeux-a-t-il-raison-de-parler-de-domination-43824563"
    }
   ],
   "LOSC": [
+   {
+    "title": "LOSC : Ethan Mbappé prolonge l'aventure avec les Dogues jusqu'en 2029",
+    "publisher": "Foot National",
+    "time": "2026-11-27T23:20:00Z",
+    "url": "https://onefootball.com/fr/news/losc-ethan-mbappe-prolonge-laventure-avec-les-dogues-jusquen-2029-43854718"
+   },
+   {
+    "title": "Mercato LOSC - Le LOSC annonce la prolongation d'Ethan Mbappé ! (officiel)",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T20:05:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-losc-le-losc-annonce-la-prolongation-dethan-mbappe-officiel-43853857"
+   },
+   {
+    "title": "Le Mans FC - Deux cadres majeurs de Patrick Videira absents du groupe pour affronter le LOSC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T18:35:00Z",
+    "url": "https://onefootball.com/fr/news/le-mans-fc-deux-cadres-majeurs-de-patrick-videira-absents-du-groupe-pour-affronter-le-losc-43853310"
+   },
+   {
+    "title": "Lille : Ancelotti encense André, en passe de détrôner Messi",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T18:25:00Z",
+    "url": "https://onefootball.com/fr/news/lille-ancelotti-encense-andre-en-passe-de-detroner-messi-43853226"
+   },
    {
     "title": "LOSC - La grosse mise en garde de Davide Ancelotti à ses joueurs avant le match face au Mans FC",
     "publisher": "MadeInFOOT",
@@ -10391,33 +10460,15 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-27T09:15:00Z",
     "url": "https://onefootball.com/fr/news/indice-uefa-belle-semaine-pour-la-france-qui-reprend-de-lavance-sur-le-portugal-43849833"
-   },
-   {
-    "title": "LOSC - Tanguy Nianzou est fixé sur sa durée d'indisponibilité après sa blessure face à l'OL",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-26T16:20:00Z",
-    "url": "https://onefootball.com/fr/news/losc-tanguy-nianzou-est-fixe-sur-sa-duree-dindisponibilite-apres-sa-blessure-face-a-lol-43846024"
-   },
-   {
-    "title": "Victoire du LOSC contre le Bayern - Ancelotti : \"Beaucoup de fierté et de mesure\"",
-    "publisher": "Stats Perform",
-    "time": "2026-11-26T16:06:22Z",
-    "url": "https://onefootball.com/fr/video/victoire-du-losc-contre-le-bayern-ancelotti-beaucoup-de-fierte-et-de-mesure-3MeRriLP1PsWCxSMgAdKJnHMEKf"
-   },
-   {
-    "title": "Pas d’excuses après Lille : Eberl met le Bayern face à ses responsabilités",
-    "publisher": "fussball-news.de",
-    "time": "2026-11-26T16:01:37Z",
-    "url": "https://onefootball.com/fr/news/pas-dexcuses-apres-lille-eberl-met-le-bayern-face-a-ses-responsabilites-43845919"
-   },
-   {
-    "title": "Lille terrasse le Bayern – Bentaleb : \"On les a trop respectés en première mi-temps\"",
-    "publisher": "Stats Perform",
-    "time": "2026-11-26T15:57:55Z",
-    "url": "https://onefootball.com/fr/video/lille-terrasse-le-bayern-bentaleb-on-les-a-trop-respectes-en-premiere-mi-temps-3MeQouJMKC65eBrXqmoGrz0TfYG"
    }
   ],
   "Le Havre AC": [
+   {
+    "title": "Une belle initiative solidaire avant le match de demain !",
+    "publisher": "Doyens",
+    "time": "2026-11-27T16:29:54Z",
+    "url": "https://onefootball.com/fr/news/une-belle-initiative-solidaire-avant-le-match-de-demain-43852548"
+   },
    {
     "title": "HAC-RCSA : Les dernières infos !",
     "publisher": "Doyens",
@@ -10471,15 +10522,15 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-21T09:26:00Z",
     "url": "https://onefootball.com/fr/news/mercato-le-havre-ac-le-directeur-sportif-fait-une-annonce-importante-sur-le-mercato-hivernal-43811637"
-   },
-   {
-    "title": "Daniel Riolo : « Le Havre, quand tu es supporter, tu t’attaches à quoi ?! »",
-    "publisher": "ConsultantsFoot",
-    "time": "2026-11-21T07:30:00Z",
-    "url": "https://onefootball.com/fr/news/daniel-riolo-le-havre-quand-tu-es-supporter-tu-tattaches-a-quoi-43811013"
    }
   ],
   "Le Mans FC": [
+   {
+    "title": "Le Mans FC - Deux cadres majeurs de Patrick Videira absents du groupe pour affronter le LOSC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T18:35:00Z",
+    "url": "https://onefootball.com/fr/news/le-mans-fc-deux-cadres-majeurs-de-patrick-videira-absents-du-groupe-pour-affronter-le-losc-43853310"
+   },
    {
     "title": "Le Mans : l'annonce géniale du club pour la prolongation de Bourabaa",
     "publisher": "OnzeMondial",
@@ -10533,12 +10584,6 @@
     "publisher": "OnzeMondial",
     "time": "2026-11-23T08:26:00Z",
     "url": "https://onefootball.com/fr/news/om-le-mans-la-terrible-revelation-des-manceaux-sur-la-febrilite-marseillaise-confirmee-par-genesio-43823311"
-   },
-   {
-    "title": "« L’OM ? une équipe qui surperforme » le constat capitaine du Mans après la remontada",
-    "publisher": "BeFootball",
-    "time": "2026-11-23T07:48:33Z",
-    "url": "https://onefootball.com/fr/news/lom-une-equipe-qui-surperforme-le-constat-capitaine-du-mans-apres-la-remontada-43823169"
    }
   ],
   "OGC Nice": [
@@ -10605,10 +10650,16 @@
   ],
   "Olympique Lyonnais": [
    {
-    "title": "OL : Orel Mangala revient sur les regrets de son passage à",
+    "title": "OL Académie : le programme du week-end",
+    "publisher": "Olympique-et-Lyonnais",
+    "time": "2026-11-27T17:20:00Z",
+    "url": "https://onefootball.com/fr/news/ol-academie-le-programme-du-week-end-43852884"
+   },
+   {
+    "title": "Orel Mangala revient sur les regrets de son passage à l'OL",
     "publisher": "Olympique-et-Lyonnais",
     "time": "2026-11-27T16:35:00Z",
-    "url": "https://onefootball.com/fr/news/ol-orel-mangala-revient-sur-les-regrets-de-son-passage-a-43852588"
+    "url": "https://onefootball.com/fr/news/orel-mangala-revient-sur-les-regrets-de-son-passage-a-lol-43852588"
    },
    {
     "title": "OL : Pablo Longoria vise un cadre lyonnais depuis River Plate",
@@ -10657,77 +10708,113 @@
     "publisher": "Foot National",
     "time": "2026-11-27T07:28:00Z",
     "url": "https://onefootball.com/fr/news/si-javais-ete-arbitre-jaurais-naturellement-siffle-le-penalty-lol-enrage-apres-son-nul-contre-lillestroem-43849256"
-   },
-   {
-    "title": "OL - Khalis Merah en sentinelle, Rémi Himbert en 9... Carlos Vicens explique ses choix après le nul face à Lillestrøm (vidéo)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T07:00:00Z",
-    "url": "https://onefootball.com/fr/news/ol-khalis-merah-en-sentinelle-remi-himbert-en-9-carlos-vicens-explique-ses-choix-apres-le-nul-face-a-lillestrom-video-43849144"
    }
   ],
   "Olympique de Marseille": [
+   {
+    "title": "OM – Pourquoi Weah et Kondogbia étaient absents contre le Levski Sofia ?",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-28T00:00:20Z",
+    "url": "https://onefootball.com/fr/news/om-pourquoi-weah-et-kondogbia-etaient-absents-contre-le-levski-sofia-43854780"
+   },
+   {
+    "title": "OM – Rothen revient sur les incidents au Vélodrome : « Ils vont prendre très cher »",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-27T23:00:04Z",
+    "url": "https://onefootball.com/fr/news/om-rothen-revient-sur-les-incidents-au-velodrome-ils-vont-prendre-tres-cher-43854691"
+   },
+   {
+    "title": "L1 – Rennes remercie Franck Haise",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-27T22:00:51Z",
+    "url": "https://onefootball.com/fr/news/l1-rennes-remercie-franck-haise-43854463"
+   },
+   {
+    "title": "Pierre Ménès : « Il n’y a pas eu de mort, mais un jour ça arrivera »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-27T22:00:33Z",
+    "url": "https://onefootball.com/fr/news/pierre-menes-il-ny-a-pas-eu-de-mort-mais-un-jour-ca-arrivera-43854469"
+   },
+   {
+    "title": "Daniel Riolo : « L’exclusion de l’OM de la Coupe d’Europe, ça se discute »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-27T20:30:09Z",
+    "url": "https://onefootball.com/fr/news/daniel-riolo-lexclusion-de-lom-de-la-coupe-deurope-ca-se-discute-43853978"
+   },
+   {
+    "title": "CdF – Le tirage des 32ème de finale avec une joueur de l’OM",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-27T20:00:37Z",
+    "url": "https://onefootball.com/fr/news/cdf-le-tirage-des-32eme-de-finale-avec-une-joueur-de-lom-43853842"
+   },
+   {
+    "title": "OM-Levski Sofia (1-0) La présidente bulgare interpelle les autorités françaises",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-27T19:00:22Z",
+    "url": "https://onefootball.com/fr/news/om-levski-sofia-1-0-la-presidente-bulgare-interpelle-les-autorites-francaises-43853490"
+   },
+   {
+    "title": "OM-Levski Sofia (1-0) Velasquez : « Un autre résultat aurait été plus juste »",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-27T18:00:19Z",
+    "url": "https://onefootball.com/fr/news/om-levski-sofia-1-0-velasquez-un-autre-resultat-aurait-ete-plus-juste-43853109"
+   },
+   {
+    "title": "OM-Levski Sofia (1-0) Laurent Nuñez condamne les violences au Vélodrome",
+    "publisher": "CoeurMarseillais",
+    "time": "2026-11-27T17:00:10Z",
+    "url": "https://onefootball.com/fr/news/om-levski-sofia-1-0-laurent-nunez-condamne-les-violences-au-velodrome-43852763"
+   },
    {
     "title": "AJ Auxerre - Will Still rend un bel hommage à Bruno Genesio avant le match contre l'OM",
     "publisher": "MadeInFOOT",
     "time": "2026-11-27T16:04:00Z",
     "url": "https://onefootball.com/fr/news/aj-auxerre-will-still-rend-un-bel-hommage-a-bruno-genesio-avant-le-match-contre-lom-43852359"
-   },
-   {
-    "title": "OM – Suite aux incidents d’OM-Levski Sofia, le parquet de Marseille ouvre deux enquêtes",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-27T16:00:39Z",
-    "url": "https://onefootball.com/fr/news/om-suite-aux-incidents-dom-levski-sofia-le-parquet-de-marseille-ouvre-deux-enquetes-43852366"
-   },
-   {
-    "title": "Le père de Saliba vide son sac : \"William est un peu en colère contre l'OM à cause de...\"",
-    "publisher": "BeFootball",
-    "time": "2026-11-27T15:55:00Z",
-    "url": "https://onefootball.com/fr/news/le-pere-de-saliba-vide-son-sac-william-est-un-peu-en-colere-contre-lom-a-cause-de-43852303"
-   },
-   {
-    "title": "OM : la réaction ferme de la FFF après la soirée noire du Vélodrome",
-    "publisher": "BeFootball",
-    "time": "2026-11-27T15:34:30Z",
-    "url": "https://onefootball.com/fr/news/om-la-reaction-ferme-de-la-fff-apres-la-soiree-noire-du-velodrome-43852222"
-   },
-   {
-    "title": "OM-Levski Sofia (1-0) Borimirov : « J’espère que plus aucun match de Coupe d’Europe ne sera disputé dans ce stade ! »",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-27T15:00:46Z",
-    "url": "https://onefootball.com/fr/news/om-levski-sofia-1-0-borimirov-jespere-que-plus-aucun-match-de-coupe-deurope-ne-sera-dispute-dans-ce-stade-43852006"
-   },
-   {
-    "title": "OM - La Fédération française de football condamne fermement les débordements entre supporters au Vélodrome",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T14:11:00Z",
-    "url": "https://onefootball.com/fr/news/om-la-federation-francaise-de-football-condamne-fermement-les-debordements-entre-supporters-au-velodrome-43851605"
-   },
-   {
-    "title": "OM – Genesio revient sur la panenka de Gouiri : « Je n’aurais pas tenté ça à ce moment-là »",
-    "publisher": "CoeurMarseillais",
-    "time": "2026-11-27T14:05:59Z",
-    "url": "https://onefootball.com/fr/news/om-genesio-revient-sur-la-panenka-de-gouiri-je-naurais-pas-tente-ca-a-ce-moment-la-43851583"
-   },
-   {
-    "title": "Ligue 1 : Brest rêve grand, Rennes et Lens attendus au tournant",
-    "publisher": "Morning Foot",
-    "time": "2026-11-27T14:00:11Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-brest-reve-grand-rennes-et-lens-attendus-au-tournant-43851575"
-   },
-   {
-    "title": "OM - L'OM dépose deux plaintes après les débordements au Vélodrome, les supporters olympiens aussi concernés",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T13:57:00Z",
-    "url": "https://onefootball.com/fr/news/om-lom-depose-deux-plaintes-apres-les-debordements-au-velodrome-les-supporters-olympiens-aussi-concernes-43851525"
-   },
-   {
-    "title": "Ligue Europa - L'UEFA annonce l'ouverture d'une enquête sur les violences entre supporters de l'OM et du Levski Sofia",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T13:50:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-europa-luefa-annonce-louverture-dune-enquete-sur-les-violences-entre-supporters-de-lom-et-du-levski-sofia-43851464"
    }
   ],
   "PSG": [
+   {
+    "title": "Mercato PSG - Une grosse bataille s'annonce avec Arsenal et Francfort pour l'avenir de David Boly",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T22:03:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-une-grosse-bataille-sannonce-avec-arsenal-et-francfort-pour-lavenir-de-david-boly-43854470"
+   },
+   {
+    "title": "Jean-Pierre Papin : « Le collectif est plus fort que les individualités »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-27T21:00:28Z",
+    "url": "https://onefootball.com/fr/news/jean-pierre-papin-le-collectif-est-plus-fort-que-les-individualites-43854107"
+   },
+   {
+    "title": "Tidiany M’Bo : « Même quand il n’est pas excellent, il n’est pas transparent »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-27T20:00:34Z",
+    "url": "https://onefootball.com/fr/news/tidiany-mbo-meme-quand-il-nest-pas-excellent-il-nest-pas-transparent-43853815"
+   },
+   {
+    "title": "Mercato PSG - La vérité sur les rumeurs d'une éventuelle arrivée de Vinicius Junior à Paris",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T19:45:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-psg-la-verite-sur-les-rumeurs-dune-eventuelle-arrivee-de-vinicius-junior-a-paris-43853733"
+   },
+   {
+    "title": "Walid Acherchour : « Il a fait une entrée en cabine d’essayage »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-27T19:00:57Z",
+    "url": "https://onefootball.com/fr/news/walid-acherchour-il-a-fait-une-entree-en-cabine-dessayage-43853511"
+   },
+   {
+    "title": "Cédric Heymans : « Tu te dis que tu es peut-être le prochain… »",
+    "publisher": "ConsultantsFoot",
+    "time": "2026-11-27T18:30:27Z",
+    "url": "https://onefootball.com/fr/news/cedric-heymans-tu-te-dis-que-tu-es-peut-etre-le-prochain-43853279"
+   },
+   {
+    "title": "PSG - Luis Enrique prévient ses joueurs avant le match face au FC Lorient",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T16:45:00Z",
+    "url": "https://onefootball.com/fr/news/psg-luis-enrique-previent-ses-joueurs-avant-le-match-face-au-fc-lorient-43852702"
+   },
    {
     "title": "Totalement mécontent : une star du PSG veut partir cet hiver",
     "publisher": "fussball-news.de",
@@ -10745,51 +10832,51 @@
     "publisher": "fussball-news.de",
     "time": "2026-11-27T15:31:12Z",
     "url": "https://onefootball.com/fr/news/offensives-cet-hiver-latletico-confiant-pour-son-buteur-alvarez-43852200"
-   },
-   {
-    "title": "Zaïre-Emery va atteindre les 200 matchs avec le PSG à seulement 20 ans",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-11-27T14:31:44Z",
-    "url": "https://onefootball.com/fr/video/zaire-emery-va-atteindre-les-200-matchs-avec-le-psg-a-seulement-20-ans-3Mh5QbOxf6LLtOq5vglGcQ10SPB"
-   },
-   {
-    "title": "Zaïre-Emery va atteindre les 200 matchs avec le PSG à seulement 20 ans",
-    "publisher": "Paris Saint-Germain",
-    "time": "2026-11-27T14:31:00Z",
-    "url": "https://onefootball.com/fr/video/zaire-emery-va-atteindre-les-200-matchs-avec-le-psg-a-seulement-20-ans-3Mh8nB42jYRo98FcbvprDhKn25k"
-   },
-   {
-    "title": "PSG - Le drôle de plan de Luis Enrique avec Hakimi et Mendes pour pallier les absences de Doué et Kvaratskhelia",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T14:28:00Z",
-    "url": "https://onefootball.com/fr/news/psg-le-drole-de-plan-de-luis-enrique-avec-hakimi-et-mendes-pour-pallier-les-absences-de-doue-et-kvaratskhelia-43851734"
-   },
-   {
-    "title": "PSG/Lorient – L’arbitre du match en Ligue 1 désigné",
-    "publisher": "Parisfans.fr",
-    "time": "2026-11-27T14:15:56Z",
-    "url": "https://onefootball.com/fr/news/psglorient-larbitre-du-match-en-ligue-1-designe-43851638"
-   },
-   {
-    "title": "Mercato PSG - Luis Enrique fait une nouvelle mise au point importante sur le mercato hivernal",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T13:36:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-psg-luis-enrique-fait-une-nouvelle-mise-au-point-importante-sur-le-mercato-hivernal-43851414"
-   },
-   {
-    "title": "PSG - Nuno Mendes est forfait pour la réception du FC Lorient",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T13:10:00Z",
-    "url": "https://onefootball.com/fr/news/psg-nuno-mendes-est-forfait-pour-la-reception-du-fc-lorient-43851248"
-   },
-   {
-    "title": "PSG - Lorient : Hakimi et Nuno Mendes plus haut sur le terrain ? Luis Enrique répond !",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-27T12:35:00Z",
-    "url": "https://onefootball.com/fr/news/psg-lorient-hakimi-et-nuno-mendes-plus-haut-sur-le-terrain-luis-enrique-repond-43851030"
    }
   ],
   "Paris FC": [
+   {
+    "title": "Stade Brestois - Égil Selvik sur un nuage après la belle victoire face au Paris FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T22:11:00Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-egil-selvik-sur-un-nuage-apres-la-belle-victoire-face-au-paris-fc-43854492"
+   },
+   {
+    "title": "Stade Brestois : la statistique bluffante qui secoue la Ligue 1",
+    "publisher": "Morning Foot",
+    "time": "2026-11-27T21:44:09Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-la-statistique-bluffante-qui-secoue-la-ligue-1-43854339"
+   },
+   {
+    "title": "Ligue 1 : Brest fait tomber le Paris FC et s'invite provisoirement sur le podium",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T21:43:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-brest-fait-tomber-le-paris-fc-et-sinvite-provisoirement-sur-le-podium-43854312"
+   },
+   {
+    "title": "Ligue 1 : Brest fait chuter le Paris FC et s'invite sur le podium",
+    "publisher": "Foot National",
+    "time": "2026-11-27T21:38:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-brest-fait-chuter-le-paris-fc-et-sinvite-sur-le-podium-43854320"
+   },
+   {
+    "title": "Ligue 1 - Les notes de Stade Brestois - Paris FC : Brest fait tomber le dauphin du championnat et s'invite sur le podium",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T21:37:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-stade-brestois-paris-fc-brest-fait-tomber-le-dauphin-du-championnat-et-sinvite-sur-le-podium-43854280"
+   },
+   {
+    "title": "Brest - Paris FC : les compositions officielles !",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T18:59:00Z",
+    "url": "https://onefootball.com/fr/news/brest-paris-fc-les-compositions-officielles-43853420"
+   },
+   {
+    "title": "Ligue 1 - Stade Brestois - Paris FC : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T18:50:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-paris-fc-les-compos-officielles-43853392"
+   },
    {
     "title": "Eric Di Meco : « Ils n’ont même pas eu besoin de recruter deux mecs internationaux par ligne pour être là… »",
     "publisher": "ConsultantsFoot",
@@ -10807,62 +10894,44 @@
     "publisher": "MadeInFOOT",
     "time": "2026-11-27T14:10:00Z",
     "url": "https://onefootball.com/fr/news/stade-brestois-deux-forfaits-et-un-retour-dans-le-groupe-brestois-pour-la-reception-du-paris-fc-43851582"
-   },
-   {
-    "title": "Ligue 1 : Brest rêve grand, Rennes et Lens attendus au tournant",
-    "publisher": "Morning Foot",
-    "time": "2026-11-27T14:00:11Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-brest-reve-grand-rennes-et-lens-attendus-au-tournant-43851575"
-   },
-   {
-    "title": "Paris FC : en fin de contrat, Pierre Lees-Melou vers une prolongation",
-    "publisher": "Foot National",
-    "time": "2026-11-27T09:30:00Z",
-    "url": "https://onefootball.com/fr/news/paris-fc-en-fin-de-contrat-pierre-lees-melou-vers-une-prolongation-43849905"
-   },
-   {
-    "title": "Ligue 1 - Stade Brestois - Paris FC : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T07:30:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-paris-fc-les-compos-probables-43849266"
-   },
-   {
-    "title": "Stade Brestois : Chardonnet, Edjouma, Éric Roy, ambitions européennes : Julien Lachuer lâche tout",
-    "publisher": "Morning Foot",
-    "time": "2026-11-27T06:30:17Z",
-    "url": "https://onefootball.com/fr/news/stade-brestois-chardonnet-edjouma-eric-roy-ambitions-europeennes-julien-lachuer-lache-tout-43849084"
-   },
-   {
-    "title": "Brest-Paris FC : chaîne TV, streaming… À quelle heure et où suivre ce match d’ouverture de la 12ème journée de Ligue 1 entre deux ambitieux ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-27T05:00:00Z",
-    "url": "https://onefootball.com/fr/news/brest-paris-fc-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-douverture-de-la-12eme-journee-de-ligue-1-entre-deux-ambitieux-43848815"
-   },
-   {
-    "title": "Paris FC : un cadre du vestiaire bientôt prolongé ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-26T20:01:00Z",
-    "url": "https://onefootball.com/fr/news/paris-fc-un-cadre-du-vestiaire-bientot-prolonge-43847430"
-   },
-   {
-    "title": "Mercato Paris FC - Le PFC a pris une décision claire pour l'avenir de Pierre Lees-Melou",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-26T15:00:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-paris-fc-le-pfc-a-pris-une-decision-claire-pour-lavenir-de-pierre-lees-melou-43845489"
    }
   ],
   "RC Lens": [
+   {
+    "title": "\"Il s'est rendu compte que la forme n'était pas bonne\" : à Lens, Didier Digard prend la défense de Thauvin après son interview polémique",
+    "publisher": "Foot National",
+    "time": "2026-11-27T22:59:00Z",
+    "url": "https://onefootball.com/fr/news/il-sest-rendu-compte-que-la-forme-netait-pas-bonne-a-lens-didier-digard-prend-la-defense-de-thauvin-apres-son-interview-polemique-43854673"
+   },
+   {
+    "title": "RC Lens - Plusieurs absences de taille dans le groupe lensois pour affronter Angers SCO",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T19:25:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-plusieurs-absences-de-taille-dans-le-groupe-lensois-pour-affronter-angers-sco-43853629"
+   },
+   {
+    "title": "Angers – RC Lens : le groupe lensois",
+    "publisher": "Lensois.com",
+    "time": "2026-11-27T19:03:10Z",
+    "url": "https://onefootball.com/fr/news/angers-rc-lens-le-groupe-lensois-43853540"
+   },
+   {
+    "title": "RC Lens - Didier Digard donne son avis sur Angers SCO, prochain adversaire du RCL en Ligue 1",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T18:16:00Z",
+    "url": "https://onefootball.com/fr/news/rc-lens-didier-digard-donne-son-avis-sur-angers-sco-prochain-adversaire-du-rcl-en-ligue-1-43853190"
+   },
+   {
+    "title": "Live, réactions, news… Suivez Angers – RC Lens en direct sur Lensois.com !",
+    "publisher": "Lensois.com",
+    "time": "2026-11-27T17:00:14Z",
+    "url": "https://onefootball.com/fr/news/live-reactions-news-suivez-angers-rc-lens-en-direct-sur-lensoiscom-43852775"
+   },
    {
     "title": "Digard veut permettre à Mesloub de « démarrer plus de matches » pour lui enlever l’étiquette de « sauveur »",
     "publisher": "Lensois.com",
     "time": "2026-11-27T16:01:14Z",
     "url": "https://onefootball.com/fr/news/digard-veut-permettre-a-mesloub-de-demarrer-plus-de-matches-pour-lui-enlever-letiquette-de-sauveur-43852384"
-   },
-   {
-    "title": "RC Lens - Robin Risser trouve les critiques à son égard injustes",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T15:30:00Z",
-    "url": "https://onefootball.com/fr/news/rc-lens-robin-risser-trouve-les-critiques-a-son-egard-injustes-43852182"
    },
    {
     "title": "[CdF-32e] Le tirage au sort aura lieu au stade Bollaert-Delelis",
@@ -10881,30 +10950,6 @@
     "publisher": "Morning Foot",
     "time": "2026-11-27T14:00:11Z",
     "url": "https://onefootball.com/fr/news/ligue-1-brest-reve-grand-rennes-et-lens-attendus-au-tournant-43851575"
-   },
-   {
-    "title": "Coupe de France : grande première dans l'histoire du tirage au sort des 32es de finale",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-27T13:27:00Z",
-    "url": "https://onefootball.com/fr/news/coupe-de-france-grande-premiere-dans-lhistoire-du-tirage-au-sort-des-32es-de-finale-43851338"
-   },
-   {
-    "title": "Robin Risser sur les critiques à son sujet : « Pas toujours à juste titre, à mon goût »",
-    "publisher": "Lensois.com",
-    "time": "2026-11-27T13:02:49Z",
-    "url": "https://onefootball.com/fr/news/robin-risser-sur-les-critiques-a-son-sujet-pas-toujours-a-juste-titre-a-mon-gout-43851215"
-   },
-   {
-    "title": "Robin Risser évoque son avenir : « J’ai un contrat jusqu’en 2030, je suis pleinement concentré sur le RC Lens »",
-    "publisher": "Lensois.com",
-    "time": "2026-11-27T12:12:00Z",
-    "url": "https://onefootball.com/fr/news/robin-risser-evoque-son-avenir-jai-un-contrat-jusquen-2030-je-suis-pleinement-concentre-sur-le-rc-lens-43850900"
-   },
-   {
-    "title": "Thauvin, une frustration « légitime » pour Risser, Digard n’a « pas eu à intervenir »",
-    "publisher": "Lensois.com",
-    "time": "2026-11-27T11:54:21Z",
-    "url": "https://onefootball.com/fr/news/thauvin-une-frustration-legitime-pour-risser-digard-na-pas-eu-a-intervenir-43850736"
    }
   ],
   "RC Strasbourg": [
@@ -10971,6 +11016,48 @@
   ],
   "Stade Brestois": [
    {
+    "title": "Stade Brestois - Égil Selvik sur un nuage après la belle victoire face au Paris FC",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T22:11:00Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-egil-selvik-sur-un-nuage-apres-la-belle-victoire-face-au-paris-fc-43854492"
+   },
+   {
+    "title": "Stade Brestois : la statistique bluffante qui secoue la Ligue 1",
+    "publisher": "Morning Foot",
+    "time": "2026-11-27T21:44:09Z",
+    "url": "https://onefootball.com/fr/news/stade-brestois-la-statistique-bluffante-qui-secoue-la-ligue-1-43854339"
+   },
+   {
+    "title": "Ligue 1 : Brest fait tomber le Paris FC et s'invite provisoirement sur le podium",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T21:43:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-brest-fait-tomber-le-paris-fc-et-sinvite-provisoirement-sur-le-podium-43854312"
+   },
+   {
+    "title": "Ligue 1 : Brest fait chuter le Paris FC et s'invite sur le podium",
+    "publisher": "Foot National",
+    "time": "2026-11-27T21:38:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-brest-fait-chuter-le-paris-fc-et-sinvite-sur-le-podium-43854320"
+   },
+   {
+    "title": "Ligue 1 - Les notes de Stade Brestois - Paris FC : Brest fait tomber le dauphin du championnat et s'invite sur le podium",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T21:37:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-les-notes-de-stade-brestois-paris-fc-brest-fait-tomber-le-dauphin-du-championnat-et-sinvite-sur-le-podium-43854280"
+   },
+   {
+    "title": "Brest - Paris FC : les compositions officielles !",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T18:59:00Z",
+    "url": "https://onefootball.com/fr/news/brest-paris-fc-les-compositions-officielles-43853420"
+   },
+   {
+    "title": "Ligue 1 - Stade Brestois - Paris FC : les compos officielles",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T18:50:00Z",
+    "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-paris-fc-les-compos-officielles-43853392"
+   },
+   {
     "title": "Paris FC : Une attaque de feu pour rêver plus grand ?",
     "publisher": "OnzeMondial",
     "time": "2026-11-27T14:31:00Z",
@@ -10987,110 +11074,68 @@
     "publisher": "Morning Foot",
     "time": "2026-11-27T14:00:11Z",
     "url": "https://onefootball.com/fr/news/ligue-1-brest-reve-grand-rennes-et-lens-attendus-au-tournant-43851575"
-   },
-   {
-    "title": "Ligue 1 - Stade Brestois - Paris FC : les compos probables",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-27T07:30:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-stade-brestois-paris-fc-les-compos-probables-43849266"
-   },
-   {
-    "title": "Stade Brestois : Chardonnet, Edjouma, Éric Roy, ambitions européennes : Julien Lachuer lâche tout",
-    "publisher": "Morning Foot",
-    "time": "2026-11-27T06:30:17Z",
-    "url": "https://onefootball.com/fr/news/stade-brestois-chardonnet-edjouma-eric-roy-ambitions-europeennes-julien-lachuer-lache-tout-43849084"
-   },
-   {
-    "title": "Brest-Paris FC : chaîne TV, streaming… À quelle heure et où suivre ce match d’ouverture de la 12ème journée de Ligue 1 entre deux ambitieux ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-27T05:00:00Z",
-    "url": "https://onefootball.com/fr/news/brest-paris-fc-chaine-tv-streaming-a-quelle-heure-et-ou-suivre-ce-match-douverture-de-la-12eme-journee-de-ligue-1-entre-deux-ambitieux-43848815"
-   },
-   {
-    "title": "Stade Brestois : pourquoi Brest est un candidat crédible à la Ligue des champions",
-    "publisher": "Morning Foot",
-    "time": "2026-11-25T18:30:26Z",
-    "url": "https://onefootball.com/fr/news/stade-brestois-pourquoi-brest-est-un-candidat-credible-a-la-ligue-des-champions-43839716"
-   },
-   {
-    "title": "Stade Brestois - Une très bonne nouvelle tombe pour les Ty-Zefs !",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-24T16:21:00Z",
-    "url": "https://onefootball.com/fr/news/stade-brestois-une-tres-bonne-nouvelle-tombe-pour-les-ty-zefs-43832014"
-   },
-   {
-    "title": "Penalty arrêté, premier clean-sheet : la réserve de Brest ouvre son compteur de points en National 2",
-    "publisher": "Foot National",
-    "time": "2026-11-23T06:42:00Z",
-    "url": "https://onefootball.com/fr/news/penalty-arrete-premier-clean-sheet-la-reserve-de-brest-ouvre-son-compteur-de-points-en-national-2-43822872"
-   },
-   {
-    "title": "Ligue 1 - Le Stade Brestois enchaîne face au RC Strasbourg et s'invite à la course au podium (résumé)",
-    "publisher": "MadeInFOOT",
-    "time": "2026-11-21T22:00:00Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-le-stade-brestois-enchaine-face-au-rc-strasbourg-et-sinvite-a-la-course-au-podium-resume-43816037"
    }
   ],
   "Stade Rennais": [
    {
-    "title": "Trois curiosités avant la 12e journée de Ligue 1",
-    "publisher": "OneFootball",
-    "time": "2026-11-27T16:19:10Z",
-    "url": "https://onefootball.com/fr/news/trois-curiosites-avant-la-12e-journee-de-ligue-1-43852477"
-   },
-   {
-    "title": "Avant Toulouse, l’avenir de Franck Haise au Stade rennais en question",
+    "title": "Franck Haise écarté, Sébastien Tambouret de nouveau à l’intérim",
     "publisher": "Stade Rennais Online",
-    "time": "2026-11-27T15:40:10Z",
-    "url": "https://onefootball.com/fr/news/avant-toulouse-lavenir-de-franck-haise-au-stade-rennais-en-question-43852240"
+    "time": "2026-11-27T20:45:09Z",
+    "url": "https://onefootball.com/fr/news/franck-haise-ecarte-sebastien-tambouret-de-nouveau-a-linterim-43854017"
    },
    {
-    "title": "Médias : Pleine Lucarne, l’émission du 27 novembre 2026 après Nimègue - Stade rennais",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-27T15:00:09Z",
-    "url": "https://onefootball.com/fr/news/medias-pleine-lucarne-lemission-du-27-novembre-2026-apres-nimegue-stade-rennais-43851942"
-   },
-   {
-    "title": "Ligue 1 : Brest rêve grand, Rennes et Lens attendus au tournant",
-    "publisher": "Morning Foot",
-    "time": "2026-11-27T14:00:11Z",
-    "url": "https://onefootball.com/fr/news/ligue-1-brest-reve-grand-rennes-et-lens-attendus-au-tournant-43851575"
-   },
-   {
-    "title": "Rennes : pourquoi le départ de Franck Haise est quasiment acté ?",
-    "publisher": "OnzeMondial",
-    "time": "2026-11-27T13:02:00Z",
-    "url": "https://onefootball.com/fr/news/rennes-pourquoi-le-depart-de-franck-haise-est-quasiment-acte-43851182"
-   },
-   {
-    "title": "Anciens Rennais : Florian Maurice nommé directeur sportif de Troyes",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-27T12:05:07Z",
-    "url": "https://onefootball.com/fr/news/anciens-rennais-florian-maurice-nomme-directeur-sportif-de-troyes-43850811"
-   },
-   {
-    "title": "Nimègue - Stade rennais : Adrien Thomasson comprend la colère des supporters",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-27T11:25:06Z",
-    "url": "https://onefootball.com/fr/news/nimegue-stade-rennais-adrien-thomasson-comprend-la-colere-des-supporters-43850590"
-   },
-   {
-    "title": "Mercato Rennes - C'est la crise à Rennes : Franck Haise, Arnaud Pouille et Loïc Désiré sont sur la sellette !",
+    "title": "Mercato Rennes - L'incroyable timing choisi par la direction pour annoncer sa mise à pied à Franck Haise",
     "publisher": "MadeInFOOT",
-    "time": "2026-11-27T10:50:00Z",
-    "url": "https://onefootball.com/fr/news/mercato-rennes-cest-la-crise-a-rennes-franck-haise-arnaud-pouille-et-loic-desire-sont-sur-la-sellette-43850361"
+    "time": "2026-11-27T20:30:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-rennes-lincroyable-timing-choisi-par-la-direction-pour-annoncer-sa-mise-a-pied-a-franck-haise-43853982"
    },
    {
-    "title": "Stade Rennais : les dessous d’un terrible fiasco sportif qui va laisser des traces",
+    "title": "Stade Rennais : l’éviction de Franck Haise pourrait coûter très cher",
     "publisher": "Morning Foot",
-    "time": "2026-11-27T10:22:15Z",
-    "url": "https://onefootball.com/fr/news/stade-rennais-les-dessous-dun-terrible-fiasco-sportif-qui-va-laisser-des-traces-43850212"
+    "time": "2026-11-27T19:33:55Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-leviction-de-franck-haise-pourrait-couter-tres-cher-43853693"
    },
    {
-    "title": "Sabri Lamouchi raconte les coulisses de son passage au Stade rennais",
-    "publisher": "Stade Rennais Online",
-    "time": "2026-11-27T09:00:10Z",
-    "url": "https://onefootball.com/fr/news/sabri-lamouchi-raconte-les-coulisses-de-son-passage-au-stade-rennais-43849726"
+    "title": "Stade Rennais : le verdict est tombé pour Franck Haise",
+    "publisher": "BeFootball",
+    "time": "2026-11-27T19:17:49Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-le-verdict-est-tombe-pour-franck-haise-43853600"
+   },
+   {
+    "title": "🚨 OFFICIEL : le Stade Rennais se sépare de Franck Haise !",
+    "publisher": "OneFootball",
+    "time": "2026-11-27T19:11:59Z",
+    "url": "https://onefootball.com/fr/news/officiel-le-stade-rennais-se-separe-de-franck-haise-43853550"
+   },
+   {
+    "title": "Rennes : le club breton confirme l'éviction de Franck Haise",
+    "publisher": "Foot National",
+    "time": "2026-11-27T19:11:00Z",
+    "url": "https://onefootball.com/fr/news/rennes-le-club-breton-confirme-leviction-de-franck-haise-43853708"
+   },
+   {
+    "title": "Stade Rennais : Daniel Riolo fracasse Brice Samba, les chiffres lui donnent raison",
+    "publisher": "Morning Foot",
+    "time": "2026-11-27T18:30:40Z",
+    "url": "https://onefootball.com/fr/news/stade-rennais-daniel-riolo-fracasse-brice-samba-les-chiffres-lui-donnent-raison-43853309"
+   },
+   {
+    "title": "Mercato Rennes - Le Stade Rennais a tranché pour Franck Haise, Sébastien Tambouret assurera l'intérim face au TFC !",
+    "publisher": "MadeInFOOT",
+    "time": "2026-11-27T17:45:00Z",
+    "url": "https://onefootball.com/fr/news/mercato-rennes-le-stade-rennais-a-tranche-pour-franck-haise-sebastien-tambouret-assurera-linterim-face-au-tfc-43853038"
+   },
+   {
+    "title": "Rennes : le club a pris sa décision pour Haise",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T17:18:00Z",
+    "url": "https://onefootball.com/fr/news/rennes-le-club-a-pris-sa-decision-pour-haise-43852867"
+   },
+   {
+    "title": "Rennes : qui pour remplacer Haise en cas de départ ?",
+    "publisher": "OnzeMondial",
+    "time": "2026-11-27T17:02:00Z",
+    "url": "https://onefootball.com/fr/news/rennes-qui-pour-remplacer-haise-en-cas-de-depart-43852750"
    }
   ],
   "Toulouse FC": [
@@ -11157,7 +11202,7 @@
   ]
  },
  "backfilled": true,
- "fetchedAt": "2026-11-27T16:42+00:00",
+ "fetchedAt": "2026-11-28T00:32+00:00",
  "schedule": {
   "AJ Auxerre": [
    {
@@ -12781,13 +12826,6 @@
   ],
   "Paris FC": [
    {
-    "kickoff": "2026-09-06T18:45:00Z",
-    "competition": "Ligue 1",
-    "home": "Olympique de Marseille",
-    "away": "Paris FC",
-    "link": "/fr/match/2688666"
-   },
-   {
     "kickoff": "2026-09-12T18:45:00Z",
     "competition": "Ligue 1",
     "home": "Paris FC",
@@ -12912,6 +12950,13 @@
     "home": "Paris FC",
     "away": "ESTAC Troyes",
     "link": "/fr/match/2688822"
+   },
+   {
+    "kickoff": "2027-02-20T12:00:00Z",
+    "competition": "Ligue 1",
+    "home": "Angers SCO",
+    "away": "Paris FC",
+    "link": "/fr/match/2688824"
    }
   ],
   "RC Lens": [
@@ -13186,13 +13231,6 @@
   ],
   "Stade Brestois": [
    {
-    "kickoff": "2026-09-05T18:45:00Z",
-    "competition": "Ligue 1",
-    "home": "Le Havre AC",
-    "away": "Stade Brestois",
-    "link": "/fr/match/2688663"
-   },
-   {
     "kickoff": "2026-09-13T18:45:00Z",
     "competition": "Ligue 1",
     "home": "Stade Brestois",
@@ -13317,6 +13355,13 @@
     "home": "Stade Brestois",
     "away": "Stade Rennais",
     "link": "/fr/match/2688816"
+   },
+   {
+    "kickoff": "2027-02-20T12:00:00Z",
+    "competition": "Ligue 1",
+    "home": "PSG",
+    "away": "Stade Brestois",
+    "link": "/fr/match/2688830"
    }
   ],
   "Stade Rennais": [
